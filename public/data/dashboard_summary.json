@@ -1,27 +1,27 @@
 {
   "global": {
-    "total_nodes": 428,
-    "active_locations": 22,
+    "total_nodes": 322,
+    "active_locations": 11,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 22.31
+    "avg_risk": 21.53
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 178,
-      "avg_risk": 19.96,
+      "total_nodes": 141,
+      "avg_risk": 19.97,
       "max_risk": 79.0,
       "top_name": "BARROSO"
     },
     "rmf": {
-      "total_nodes": 38,
+      "total_nodes": 19,
       "avg_risk": 14.07,
       "max_risk": 98.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
-      "total_nodes": 212,
-      "avg_risk": 25.77,
+      "total_nodes": 162,
+      "avg_risk": 23.77,
       "max_risk": 89.0,
       "top_name": "ITAPAJÉ"
     }

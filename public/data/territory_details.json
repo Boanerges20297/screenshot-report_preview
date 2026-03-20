@@ -5,17 +5,17 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 1,
-    "recent_exogenous": 14,
+    "recent_exogenous": 7,
     "momentum_7d": 0.0,
     "momentum_14d": 2.0,
     "critical_streets": "RUA CORONEL CORREIA, S/N",
-    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 14. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.00.",
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 7. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.00.",
     "risk_score": 98.0,
     "status": "CRÍTICO"
   },
   "interior:ITAPAJE": {
-    "name": "ITAPAJE",
-    "municipality": "ITAPAJE",
+    "name": "ITAPAJÉ",
+    "municipality": "ITAPAJÉ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -49,11 +49,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 1,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": -2.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA EST. DO ITAPERI",
-    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Tensão territorial atual em 79.00.",
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 1. Tensão territorial atual em 79.00.",
     "risk_score": 79.0,
     "status": "CRÍTICO"
   },
@@ -78,12 +78,12 @@
     "status": "CRÍTICO"
   },
   "rmf:MARACANAU": {
-    "name": "MARACANAU",
-    "municipality": "MARACANAU",
+    "name": "MARACANAÚ",
+    "municipality": "MARACANAÚ",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 14,
+    "recent_exogenous": 7,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -138,13 +138,13 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível crítico. Eventos exógenos recentes: 14. Tensão territorial atual em 75.70.",
+    "summary": "Território em nível crítico. Eventos exógenos recentes: 7. Tensão territorial atual em 75.70.",
     "risk_score": 75.7,
     "status": "CRÍTICO"
   },
   "interior:GROAIRAS": {
-    "name": "GROAIRAS",
-    "municipality": "GROAIRAS",
+    "name": "GROAÍRAS",
+    "municipality": "GROAÍRAS",
     "region": "interior",
     "faction": "MASSA",
     "recent_cvli": 0,
@@ -163,8 +163,8 @@
     "status": "ALTO"
   },
   "interior:TIANGUA": {
-    "name": "TIANGUA",
-    "municipality": "TIANGUA",
+    "name": "TIANGUÁ",
+    "municipality": "TIANGUÁ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -193,11 +193,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": -1.0,
     "momentum_14d": 1.0,
     "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
-    "summary": "Território em nível alto. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 62.50.",
+    "summary": "Território em nível alto. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 62.50.",
     "risk_score": 62.5,
     "status": "ALTO"
   },
@@ -207,11 +207,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 1,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 2.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível alto. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 61.50.",
+    "summary": "Território em nível alto. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 61.50.",
     "risk_score": 61.5,
     "status": "ALTO"
   },
@@ -306,8 +306,8 @@
     "status": "ALTO"
   },
   "interior:VICOSA DO CEARA": {
-    "name": "VICOSA DO CEARA",
-    "municipality": "VICOSA DO CEARA",
+    "name": "VIÇOSA DO CEARÁ",
+    "municipality": "VIÇOSA DO CEARÁ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -355,11 +355,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 6,
+    "recent_exogenous": 3,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 6. Tensão territorial atual em 47.10.",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 3. Tensão territorial atual em 47.10.",
     "risk_score": 47.1,
     "status": "MODERADO"
   },
@@ -413,8 +413,8 @@
     "status": "MODERADO"
   },
   "interior:BATURITE": {
-    "name": "BATURITE",
-    "municipality": "BATURITE",
+    "name": "BATURITÉ",
+    "municipality": "BATURITÉ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -448,11 +448,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 41.00.",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 41.00.",
     "risk_score": 41.0,
     "status": "MODERADO"
   },
@@ -471,8 +471,8 @@
     "status": "MODERADO"
   },
   "interior:CARIRE": {
-    "name": "CARIRE",
-    "municipality": "CARIRE",
+    "name": "CARIRÉ",
+    "municipality": "CARIRÉ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -491,8 +491,8 @@
     "status": "MODERADO"
   },
   "interior:VARZEA ALEGRE": {
-    "name": "VARZEA ALEGRE",
-    "municipality": "VARZEA ALEGRE",
+    "name": "VÁRZEA ALEGRE",
+    "municipality": "VÁRZEA ALEGRE",
     "region": "interior",
     "faction": "TCP/GDE",
     "recent_cvli": 0,
@@ -556,11 +556,11 @@
     "region": "fortaleza",
     "faction": "MASSA",
     "recent_cvli": 0,
-    "recent_exogenous": 4,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CAIO FACO, 791, CURIO",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 4. Tensão territorial atual em 37.80.",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 37.80.",
     "risk_score": 37.8,
     "status": "MODERADO"
   },
@@ -570,11 +570,11 @@
     "region": "fortaleza",
     "faction": "MASSA",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. WASHINGTON SOARES, 7250",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 37.50.",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 37.50.",
     "risk_score": 37.5,
     "status": "MODERADO"
   },
@@ -661,8 +661,8 @@
     "status": "MODERADO"
   },
   "interior:SOLONOPOLE": {
-    "name": "SOLONOPOLE",
-    "municipality": "SOLONOPOLE",
+    "name": "SOLONÓPOLE",
+    "municipality": "SOLONÓPOLE",
     "region": "interior",
     "faction": "NEUTRO",
     "recent_cvli": 0,
@@ -686,11 +686,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 1,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 1.0,
     "momentum_14d": 1.0,
     "critical_streets": "RUA JOSE MAURICIO, 858",
-    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 34.10.",
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 34.10.",
     "risk_score": 34.1,
     "status": "MODERADO"
   },
@@ -709,8 +709,8 @@
     "status": "MODERADO"
   },
   "interior:GRACA": {
-    "name": "GRACA",
-    "municipality": "GRACA",
+    "name": "GRAÇA",
+    "municipality": "GRAÇA",
     "region": "interior",
     "faction": "TCP/GDE",
     "recent_cvli": 0,
@@ -729,8 +729,8 @@
     "status": "BAIXO"
   },
   "interior:PALMACIA": {
-    "name": "PALMACIA",
-    "municipality": "PALMACIA",
+    "name": "PALMÁCIA",
+    "municipality": "PALMÁCIA",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -838,8 +838,8 @@
     "status": "BAIXO"
   },
   "interior:BANABUIU": {
-    "name": "BANABUIU",
-    "municipality": "BANABUIU",
+    "name": "BANABUIÚ",
+    "municipality": "BANABUIÚ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -1002,8 +1002,8 @@
     "status": "BAIXO"
   },
   "interior:ASSARE": {
-    "name": "ASSARE",
-    "municipality": "ASSARE",
+    "name": "ASSARÉ",
+    "municipality": "ASSARÉ",
     "region": "interior",
     "faction": "TCP/GDE",
     "recent_cvli": 0,
@@ -1022,8 +1022,8 @@
     "status": "BAIXO"
   },
   "interior:CARIRIACU": {
-    "name": "CARIRIACU",
-    "municipality": "CARIRIACU",
+    "name": "CARIRIAÇU",
+    "municipality": "CARIRIAÇU",
     "region": "interior",
     "faction": "TCP/GDE",
     "recent_cvli": 0,
@@ -1145,8 +1145,8 @@
     "status": "BAIXO"
   },
   "interior:ITAICABA": {
-    "name": "ITAICABA",
-    "municipality": "ITAICABA",
+    "name": "ITAIÇABA",
+    "municipality": "ITAIÇABA",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -1254,8 +1254,8 @@
     "status": "BAIXO"
   },
   "interior:OROS": {
-    "name": "OROS",
-    "municipality": "OROS",
+    "name": "ORÓS",
+    "municipality": "ORÓS",
     "region": "interior",
     "faction": "NEUTRO",
     "recent_cvli": 0,
@@ -1282,8 +1282,8 @@
     "status": "BAIXO"
   },
   "interior:SANTANA DO ACARAU": {
-    "name": "SANTANA DO ACARAU",
-    "municipality": "SANTANA DO ACARAU",
+    "name": "SANTANA DO ACARAÚ",
+    "municipality": "SANTANA DO ACARAÚ",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -1361,8 +1361,8 @@
     "status": "BAIXO"
   },
   "interior:ITAPIUNA": {
-    "name": "ITAPIUNA",
-    "municipality": "ITAPIUNA",
+    "name": "ITAPIÚNA",
+    "municipality": "ITAPIÚNA",
     "region": "interior",
     "faction": "CV",
     "recent_cvli": 0,
@@ -2956,7 +2956,7 @@
     "name": "APUIARÉS",
     "municipality": "APUIARÉS",
     "region": "interior",
-    "faction": "TCP/GDE",
+    "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -3144,11 +3144,6 @@
       },
       {
         "cvli": 0,
-        "loc": "ESTRELA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
         "loc": "BULANDEIRA",
         "score": 16
       },
@@ -3156,6 +3151,16 @@
         "cvli": 0,
         "loc": "LAGOA",
         "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SITIO ESTRELA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "ESTRELA",
+        "score": 8
       }
     ],
     "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
@@ -3533,12 +3538,12 @@
       },
       {
         "cvli": 0,
-        "loc": "VILA LOBOS",
+        "loc": "CONJUNTO SAO BENTO 1",
         "score": 16
       },
       {
         "cvli": 0,
-        "loc": "CONJUNTO SAO BENTO 1",
+        "loc": "BELA VISTA",
         "score": 16
       },
       {
@@ -3553,7 +3558,7 @@
       },
       {
         "cvli": 0,
-        "loc": "BELA VISTA",
+        "loc": "VILA LOBOS",
         "score": 16
       }
     ],
@@ -3706,7 +3711,7 @@
     "name": "GRANJEIRO",
     "municipality": "GRANJEIRO",
     "region": "interior",
-    "faction": "CV",
+    "faction": "TCP/GDE",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -4192,7 +4197,7 @@
     "name": "MISSÃO VELHA",
     "municipality": "MISSÃO VELHA",
     "region": "interior",
-    "faction": "NEUTRO",
+    "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -5103,11 +5108,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 19.60.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 19.60.",
     "risk_score": 19.6,
     "status": "BAIXO"
   },
@@ -5145,11 +5150,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 17.00.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 17.00.",
     "risk_score": 17.0,
     "status": "BAIXO"
   },
@@ -5173,11 +5178,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 16.40.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 16.40.",
     "risk_score": 16.4,
     "status": "BAIXO"
   },
@@ -5187,11 +5192,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 15.90.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 15.90.",
     "risk_score": 15.9,
     "status": "BAIXO"
   },
@@ -5345,7 +5350,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5375,7 +5380,7 @@
         "score": 8
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.20.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.20.",
     "risk_score": 10.2,
     "status": "BAIXO"
   },
@@ -5394,12 +5399,12 @@
     "status": "BAIXO"
   },
   "rmf:SAO LUIS DO CURU": {
-    "name": "SAO LUIS DO CURU",
-    "municipality": "SAO LUIS DO CURU",
+    "name": "SÃO LUÍS DO CURU",
+    "municipality": "SÃO LUÍS DO CURU",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5414,13 +5419,13 @@
         "score": 5
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.20.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.20.",
     "risk_score": 10.2,
     "status": "BAIXO"
   },
   "rmf:EUSEBIO": {
-    "name": "EUSEBIO",
-    "municipality": "EUSEBIO",
+    "name": "EUSÉBIO",
+    "municipality": "EUSÉBIO",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
@@ -5458,8 +5463,8 @@
     "status": "BAIXO"
   },
   "interior:TEJUCUOCA": {
-    "name": "TEJUCUOCA",
-    "municipality": "TEJUCUOCA",
+    "name": "TEJUÇUOCA",
+    "municipality": "TEJUÇUOCA",
     "region": "interior",
     "faction": "NEUTRO",
     "recent_cvli": 0,
@@ -5623,11 +5628,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 0.50.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 0.50.",
     "risk_score": 0.5,
     "status": "BAIXO"
   },
@@ -5707,7 +5712,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5757,7 +5762,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -5767,7 +5772,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5797,7 +5802,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -5822,8 +5827,8 @@
     "status": "BAIXO"
   },
   "rmf:GUAIUBA": {
-    "name": "GUAIUBA",
-    "municipality": "GUAIUBA",
+    "name": "GUAIÚBA",
+    "municipality": "GUAIÚBA",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
@@ -5857,7 +5862,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 4,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5887,7 +5892,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -5897,7 +5902,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 6,
+    "recent_exogenous": 3,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5917,17 +5922,17 @@
         "score": 1
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 6.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 3.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
   "rmf:SAO GONCALO DO AMARANTE": {
-    "name": "SAO GONCALO DO AMARANTE",
-    "municipality": "SAO GONCALO DO AMARANTE",
+    "name": "SÃO GONÇALO DO AMARANTE",
+    "municipality": "SÃO GONÇALO DO AMARANTE",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5937,7 +5942,7 @@
         "score": 1
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -5947,7 +5952,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -5992,7 +5997,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -6032,8 +6037,8 @@
     "status": "BAIXO"
   },
   "interior:CRATEUS": {
-    "name": "CRATEUS",
-    "municipality": "CRATEUS",
+    "name": "CRATEÚS",
+    "municipality": "CRATEÚS",
     "region": "interior",
     "faction": "NEUTRO",
     "recent_cvli": 0,

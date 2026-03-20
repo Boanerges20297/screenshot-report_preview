@@ -27,11 +27,11 @@
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
     "name": "CAUCAIA",
-    "node_id": 410,
-    "rank": 2,
+    "node_id": 180,
+    "rank": 1,
     "risk_score_pct": 97.9998914547385,
     "score": 9.79998914547385,
-    "summary": "**CAUCAIA** está na posição **#2** do ranking — identificada como uma das 5 áreas mais críticas."
+    "summary": "**CAUCAIA** está na posição **#1** do ranking — identificada como uma das 5 áreas mais críticas."
   },
   "interior:ITAPAJE": {
     "confidence": 0.95,
@@ -45,12 +45,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "ITAPAJE",
-    "node_id": 363,
-    "rank": 4,
+    "name": "ITAPAJÉ",
+    "node_id": 272,
+    "rank": 3,
     "risk_score_pct": 88.99980204777134,
     "score": 8.899980204777133,
-    "summary": "**ITAPAJE** está na posição **#4** do ranking — identificada como uma das 5 áreas mais críticas."
+    "summary": "**ITAPAJÉ** está na posição **#3** do ranking — identificada como uma das 5 áreas mais críticas."
   },
   "fortaleza:BARROSO": {
     "confidence": 0.95,
@@ -75,11 +75,11 @@
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
     "name": "BARROSO",
-    "node_id": 49,
-    "rank": 6,
+    "node_id": 7,
+    "rank": 5,
     "risk_score_pct": 78.99990105628967,
     "score": 7.899990105628968,
-    "summary": "**BARROSO** está na posição **#6** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**BARROSO** está na posição **#5** do ranking — identificada como uma das 5 áreas mais críticas."
   },
   "interior:IGUATU": {
     "confidence": 0.95,
@@ -94,11 +94,11 @@
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
     "name": "IGUATU",
-    "node_id": 360,
-    "rank": 8,
+    "node_id": 263,
+    "rank": 7,
     "risk_score_pct": 78.98104271765762,
     "score": 7.898104271765762,
-    "summary": "**IGUATU** está na posição **#8** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**IGUATU** está na posição **#7** do ranking — identificada como área de alta prioridade tática."
   },
   "rmf:MARACANAU": {
     "confidence": 0.95,
@@ -117,12 +117,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "MARACANAU",
-    "node_id": 409,
-    "rank": 10,
+    "name": "MARACANAÚ",
+    "node_id": 186,
+    "rank": 9,
     "risk_score_pct": 75.71442776398075,
     "score": 7.571442776398075,
-    "summary": "**MARACANAU** está na posição **#10** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**MARACANAÚ** está na posição **#9** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:GROAIRAS": {
     "confidence": 0.947797903094501,
@@ -136,12 +136,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "GROAIRAS",
-    "node_id": 361,
-    "rank": 12,
+    "name": "GROAÍRAS",
+    "node_id": 254,
+    "rank": 11,
     "risk_score_pct": 69.55958061890018,
     "score": 6.955958061890018,
-    "summary": "**GROAIRAS** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**GROAÍRAS** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:TIANGUA": {
     "confidence": 0.9190910544731326,
@@ -155,12 +155,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "TIANGUA",
-    "node_id": 367,
-    "rank": 14,
+    "name": "TIANGUÁ",
+    "node_id": 350,
+    "rank": 13,
     "risk_score_pct": 63.8182108946265,
     "score": 6.38182108946265,
-    "summary": "**TIANGUA** está na posição **#14** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**TIANGUÁ** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:BARRA DO CEARA": {
     "confidence": 0.8474969975153605,
@@ -184,12 +184,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "BARRA DO CEARÁ",
-    "node_id": 48,
-    "rank": 22,
+    "name": "BARRA DO CEARA",
+    "node_id": 1,
+    "rank": 21,
     "risk_score_pct": 49.4993995030721,
     "score": 4.9499399503072095,
-    "summary": "**BARRA DO CEARÁ** está na posição **#22** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**BARRA DO CEARA** está na posição **#21** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:ANTONIO BEZERRA": {
     "confidence": 0.8279286247491837,
@@ -213,12 +213,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "ANTÔNIO BEZERRA",
-    "node_id": 46,
-    "rank": 26,
+    "name": "ANTONIO BEZERRA",
+    "node_id": 26,
+    "rank": 25,
     "risk_score_pct": 45.58572494983673,
     "score": 4.5585724949836735,
-    "summary": "**ANTÔNIO BEZERRA** está na posição **#26** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**ANTONIO BEZERRA** está na posição **#25** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:SOBRAL": {
     "confidence": 0.8968742874004549,
@@ -233,11 +233,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "SOBRAL",
-    "node_id": 362,
-    "rank": 16,
+    "node_id": 343,
+    "rank": 15,
     "risk_score_pct": 59.37485748009098,
     "score": 5.937485748009098,
-    "summary": "**SOBRAL** está na posição **#16** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**SOBRAL** está na posição **#15** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:JUAZEIRO DO NORTE": {
     "confidence": 0.8795214679577059,
@@ -252,11 +252,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "JUAZEIRO DO NORTE",
-    "node_id": 359,
-    "rank": 18,
+    "node_id": 284,
+    "rank": 17,
     "risk_score_pct": 55.904293591541176,
     "score": 5.590429359154117,
-    "summary": "**JUAZEIRO DO NORTE** está na posição **#18** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**JUAZEIRO DO NORTE** está na posição **#17** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:VICOSA DO CEARA": {
     "confidence": 0.8493623596169657,
@@ -270,12 +270,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "VICOSA DO CEARA",
-    "node_id": 365,
-    "rank": 20,
+    "name": "VIÇOSA DO CEARÁ",
+    "node_id": 358,
+    "rank": 19,
     "risk_score_pct": 49.872471923393135,
     "score": 4.987247192339313,
-    "summary": "**VICOSA DO CEARA** está na posição **#20** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**VIÇOSA DO CEARÁ** está na posição **#19** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:LIMOEIRO DO NORTE": {
     "confidence": 0.844847583446712,
@@ -290,11 +290,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "LIMOEIRO DO NORTE",
-    "node_id": 378,
-    "rank": 24,
+    "node_id": 287,
+    "rank": 23,
     "risk_score_pct": 48.969516689342385,
     "score": 4.896951668934238,
-    "summary": "**LIMOEIRO DO NORTE** está na posição **#24** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**LIMOEIRO DO NORTE** está na posição **#23** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:CANINDEZINHO": {
     "confidence": 0.7562816470861435,
@@ -319,11 +319,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "CANINDEZINHO",
-    "node_id": 59,
-    "rank": 61,
+    "node_id": 24,
+    "rank": 60,
     "risk_score_pct": 31.256329417228702,
     "score": 3.1256329417228703,
-    "summary": "**CANINDEZINHO** está na posição **#61** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**CANINDEZINHO** está na posição **#60** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:ARATUBA": {
     "confidence": 0.8267855208852,
@@ -338,11 +338,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "ARATUBA",
-    "node_id": 364,
-    "rank": 28,
+    "node_id": 211,
+    "rank": 27,
     "risk_score_pct": 45.357104177039986,
     "score": 4.535710417703998,
-    "summary": "**ARATUBA** está na posição **#28** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**ARATUBA** está na posição **#27** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:AURORA": {
     "confidence": 0.819383020076961,
@@ -357,11 +357,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "AURORA",
-    "node_id": 403,
-    "rank": 30,
+    "node_id": 214,
+    "rank": 29,
     "risk_score_pct": 43.87660401539219,
     "score": 4.387660401539219,
-    "summary": "**AURORA** está na posição **#30** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**AURORA** está na posição **#29** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:BATURITE": {
     "confidence": 0.8092409607507891,
@@ -375,12 +375,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "BATURITE",
-    "node_id": 368,
-    "rank": 34,
+    "name": "BATURITÉ",
+    "node_id": 221,
+    "rank": 33,
     "risk_score_pct": 41.848192150157814,
     "score": 4.184819215015781,
-    "summary": "**BATURITE** está na posição **#34** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**BATURITÉ** está na posição **#33** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:MONDUBIM": {
     "confidence": 0.815976220369339,
@@ -400,11 +400,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "MONDUBIM",
-    "node_id": 109,
-    "rank": 32,
+    "node_id": 14,
+    "rank": 31,
     "risk_score_pct": 43.1952440738678,
     "score": 4.31952440738678,
-    "summary": "**MONDUBIM** está na posição **#32** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**MONDUBIM** está na posição **#31** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:ANCURI": {
     "confidence": 0.8025170215964317,
@@ -424,11 +424,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "ANCURI",
-    "node_id": 45,
-    "rank": 36,
+    "node_id": 28,
+    "rank": 35,
     "risk_score_pct": 40.503404319286346,
     "score": 4.0503404319286345,
-    "summary": "**ANCURI** está na posição **#36** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**ANCURI** está na posição **#35** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:CARIRE": {
     "confidence": 0.7914295372106737,
@@ -442,12 +442,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "CARIRE",
-    "node_id": 370,
-    "rank": 40,
+    "name": "CARIRÉ",
+    "node_id": 231,
+    "rank": 39,
     "risk_score_pct": 38.28590744213475,
     "score": 3.828590744213475,
-    "summary": "**CARIRE** está na posição **#40** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**CARIRÉ** está na posição **#39** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:VARZEA ALEGRE": {
     "confidence": 0.7917197075226015,
@@ -461,12 +461,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "VARZEA ALEGRE",
-    "node_id": 373,
-    "rank": 38,
+    "name": "VÁRZEA ALEGRE",
+    "node_id": 357,
+    "rank": 37,
     "risk_score_pct": 38.34394150452031,
     "score": 3.834394150452031,
-    "summary": "**VARZEA ALEGRE** está na posição **#38** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**VÁRZEA ALEGRE** está na posição **#37** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:MESSEJANA": {
     "confidence": 0.7781686663627625,
@@ -486,11 +486,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "MESSEJANA",
-    "node_id": 108,
-    "rank": 53,
+    "node_id": 8,
+    "rank": 52,
     "risk_score_pct": 35.63373327255249,
     "score": 3.563373327255249,
-    "summary": "**MESSEJANA** está na posição **#53** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**MESSEJANA** está na posição **#52** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:CURIO": {
     "confidence": 0.7860811233520508,
@@ -509,12 +509,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "CURIÓ",
-    "node_id": 71,
-    "rank": 44,
+    "name": "CURIO",
+    "node_id": 18,
+    "rank": 43,
     "risk_score_pct": 37.216224670410156,
     "score": 3.7216224670410156,
-    "summary": "**CURIÓ** está na posição **#44** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**CURIO** está na posição **#43** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:IRACEMA": {
     "confidence": 0.7846651699878877,
@@ -529,11 +529,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "IRACEMA",
-    "node_id": 385,
-    "rank": 46,
+    "node_id": 269,
+    "rank": 45,
     "risk_score_pct": 36.93303399757756,
     "score": 3.693303399757756,
-    "summary": "**IRACEMA** está na posição **#46** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**IRACEMA** está na posição **#45** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:MILAGRES": {
     "confidence": 0.7825283732750123,
@@ -548,11 +548,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "MILAGRES",
-    "node_id": 384,
-    "rank": 48,
+    "node_id": 294,
+    "rank": 47,
     "risk_score_pct": 36.50567465500249,
     "score": 3.6505674655002487,
-    "summary": "**MILAGRES** está na posição **#48** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**MILAGRES** está na posição **#47** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:NOVO MONDUBIM": {
     "confidence": 0.7891241490840912,
@@ -567,11 +567,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "NOVO MONDUBIM",
-    "node_id": 114,
-    "rank": 42,
+    "node_id": 30,
+    "rank": 41,
     "risk_score_pct": 37.82482981681824,
     "score": 3.7824829816818237,
-    "summary": "**NOVO MONDUBIM** está na posição **#42** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**NOVO MONDUBIM** está na posição **#41** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:ALTO ALEGRE": {
     "confidence": 0.7812451004981995,
@@ -605,11 +605,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "UMIRIM",
-    "node_id": 389,
-    "rank": 55,
+    "node_id": 354,
+    "rank": 54,
     "risk_score_pct": 34.78961371855153,
     "score": 3.478961371855153,
-    "summary": "**UMIRIM** está na posição **#55** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**UMIRIM** está na posição **#54** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:SOLONOPOLE": {
     "confidence": 0.7724669378735727,
@@ -623,12 +623,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "SOLONOPOLE",
-    "node_id": 397,
-    "rank": 57,
+    "name": "SOLONÓPOLE",
+    "node_id": 344,
+    "rank": 56,
     "risk_score_pct": 34.49338757471455,
     "score": 3.4493387574714554,
-    "summary": "**SOLONOPOLE** está na posição **#57** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**SOLONÓPOLE** está na posição **#56** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:SIQUEIRA": {
     "confidence": 0.7793663813670476,
@@ -653,11 +653,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "SIQUEIRA",
-    "node_id": 173,
-    "rank": 51,
+    "node_id": 6,
+    "rank": 50,
     "risk_score_pct": 35.87327627340952,
     "score": 3.5873276273409522,
-    "summary": "**SIQUEIRA** está na posição **#51** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**SIQUEIRA** está na posição **#50** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:CAPISTRANO": {
     "confidence": 0.7619819891192621,
@@ -672,11 +672,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "CAPISTRANO",
-    "node_id": 377,
-    "rank": 59,
+    "node_id": 229,
+    "rank": 58,
     "risk_score_pct": 32.39639782385243,
     "score": 3.239639782385243,
-    "summary": "**CAPISTRANO** está na posição **#59** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**CAPISTRANO** está na posição **#58** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:GRACA": {
     "confidence": 0.7537849050500101,
@@ -690,12 +690,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "GRACA",
-    "node_id": 376,
-    "rank": 65,
+    "name": "GRAÇA",
+    "node_id": 251,
+    "rank": 64,
     "risk_score_pct": 30.756981010002026,
     "score": 3.0756981010002025,
-    "summary": "**GRACA** está na posição **#65** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**GRAÇA** está na posição **#64** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:PALMACIA": {
     "confidence": 0.746116029892177,
@@ -709,12 +709,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PALMACIA",
-    "node_id": 401,
-    "rank": 69,
+    "name": "PALMÁCIA",
+    "node_id": 313,
+    "rank": 68,
     "risk_score_pct": 29.223205978435406,
     "score": 2.9223205978435405,
-    "summary": "**PALMACIA** está na posição **#69** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**PALMÁCIA** está na posição **#68** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:PLANALTO AYRTON SENNA": {
     "confidence": 0.753814372420311,
@@ -729,11 +729,11 @@
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "PLANALTO AYRTON SENNA",
-    "node_id": 136,
-    "rank": 63,
+    "node_id": 2,
+    "rank": 62,
     "risk_score_pct": 30.7628744840622,
     "score": 3.07628744840622,
-    "summary": "**PLANALTO AYRTON SENNA** está na posição **#63** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**PLANALTO AYRTON SENNA** está na posição **#62** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:PEREIRO": {
     "confidence": 0.7371481758095926,
@@ -748,11 +748,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PEREIRO",
-    "node_id": 388,
-    "rank": 71,
+    "node_id": 319,
+    "rank": 70,
     "risk_score_pct": 27.42963516191853,
     "score": 2.742963516191853,
-    "summary": "**PEREIRO** está na posição **#71** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**PEREIRO** está na posição **#70** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:JAGUARUANA": {
     "confidence": 0.7363230761625474,
@@ -767,11 +767,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JAGUARUANA",
-    "node_id": 386,
-    "rank": 73,
+    "node_id": 280,
+    "rank": 72,
     "risk_score_pct": 27.264615232509502,
     "score": 2.72646152325095,
-    "summary": "**JAGUARUANA** está na posição **#73** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**JAGUARUANA** está na posição **#72** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:NOVA OLINDA": {
     "confidence": 0.7359880980589097,
@@ -786,11 +786,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "NOVA OLINDA",
-    "node_id": 369,
-    "rank": 75,
+    "node_id": 305,
+    "rank": 74,
     "risk_score_pct": 27.197619611781963,
     "score": 2.7197619611781962,
-    "summary": "**NOVA OLINDA** está na posição **#75** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**NOVA OLINDA** está na posição **#74** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:UBAJARA": {
     "confidence": 0.7331986751892274,
@@ -805,11 +805,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "UBAJARA",
-    "node_id": 402,
-    "rank": 79,
+    "node_id": 352,
+    "rank": 78,
     "risk_score_pct": 26.6397350378455,
     "score": 2.66397350378455,
-    "summary": "**UBAJARA** está na posição **#79** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**UBAJARA** está na posição **#78** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:BOM JARDIM": {
     "confidence": 0.7487114156285921,
@@ -829,11 +829,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "BOM JARDIM",
-    "node_id": 54,
-    "rank": 67,
+    "node_id": 20,
+    "rank": 66,
     "risk_score_pct": 29.742283125718433,
     "score": 2.974228312571843,
-    "summary": "**BOM JARDIM** está na posição **#67** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**BOM JARDIM** está na posição **#66** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:BANABUIU": {
     "confidence": 0.7299174841978258,
@@ -847,12 +847,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "BANABUIU",
-    "node_id": 387,
-    "rank": 83,
+    "name": "BANABUIÚ",
+    "node_id": 216,
+    "rank": 80,
     "risk_score_pct": 25.983496839565166,
     "score": 2.5983496839565166,
-    "summary": "**BANABUIU** está na posição **#83** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**BANABUIÚ** está na posição **#80** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:ITAREMA": {
     "confidence": 0.7299174841978258,
@@ -867,11 +867,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ITAREMA",
-    "node_id": 383,
-    "rank": 82,
+    "node_id": 275,
+    "rank": 81,
     "risk_score_pct": 25.983496839565166,
     "score": 2.5983496839565166,
-    "summary": "**ITAREMA** está na posição **#82** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**ITAREMA** está na posição **#81** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:URUBURETAMA": {
     "confidence": 0.7260040443875497,
@@ -886,11 +886,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "URUBURETAMA",
-    "node_id": 366,
-    "rank": 85,
+    "node_id": 355,
+    "rank": 84,
     "risk_score_pct": 25.20080887750996,
     "score": 2.520080887750996,
-    "summary": "**URUBURETAMA** está na posição **#85** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**URUBURETAMA** está na posição **#84** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:MUCAMBO": {
     "confidence": 0.7214140993096536,
@@ -905,11 +905,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "MUCAMBO",
-    "node_id": 406,
-    "rank": 87,
+    "node_id": 303,
+    "rank": 86,
     "risk_score_pct": 24.282819861930736,
     "score": 2.4282819861930736,
-    "summary": "**MUCAMBO** está na posição **#87** do ranking — identificada como área de atenção moderada."
+    "summary": "**MUCAMBO** está na posição **#86** do ranking — identificada como área de atenção moderada."
   },
   "interior:FRECHEIRINHA": {
     "confidence": 0.7210656580068773,
@@ -924,11 +924,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "FRECHEIRINHA",
-    "node_id": 393,
-    "rank": 89,
+    "node_id": 249,
+    "rank": 88,
     "risk_score_pct": 24.21313160137547,
     "score": 2.421313160137547,
-    "summary": "**FRECHEIRINHA** está na posição **#89** do ranking — identificada como área de atenção moderada."
+    "summary": "**FRECHEIRINHA** está na posição **#88** do ranking — identificada como área de atenção moderada."
   },
   "fortaleza:VILA VELHA": {
     "confidence": 0.735519888997078,
@@ -943,11 +943,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "VILA VELHA",
-    "node_id": 156,
-    "rank": 77,
+    "node_id": 25,
+    "rank": 76,
     "risk_score_pct": 27.103977799415592,
     "score": 2.7103977799415593,
-    "summary": "**VILA VELHA** está na posição **#77** do ranking — identificada como área de alta prioridade tática."
+    "summary": "**VILA VELHA** está na posição **#76** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:ACARAPE": {
     "confidence": 0.7140015315749353,
@@ -962,11 +962,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ACARAPE",
-    "node_id": 380,
-    "rank": 113,
+    "node_id": 197,
+    "rank": 94,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ACARAPE** está na posição **#113** do ranking — identificada como área de atenção moderada."
+    "summary": "**ACARAPE** está na posição **#94** do ranking — identificada como área de atenção moderada."
   },
   "interior:ACOPIARA": {
     "confidence": 0.7140015315749353,
@@ -981,11 +981,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ACOPIARA",
-    "node_id": 372,
-    "rank": 110,
+    "node_id": 199,
+    "rank": 95,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ACOPIARA** está na posição **#110** do ranking — identificada como área de atenção moderada."
+    "summary": "**ACOPIARA** está na posição **#95** do ranking — identificada como área de atenção moderada."
   },
   "interior:ALTO SANTO": {
     "confidence": 0.7140015315749353,
@@ -1000,11 +1000,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ALTO SANTO",
-    "node_id": 395,
-    "rank": 117,
+    "node_id": 203,
+    "rank": 96,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ALTO SANTO** está na posição **#117** do ranking — identificada como área de atenção moderada."
+    "summary": "**ALTO SANTO** está na posição **#96** do ranking — identificada como área de atenção moderada."
   },
   "interior:ANTONINA DO NORTE": {
     "confidence": 0.7140015315749353,
@@ -1019,11 +1019,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ANTONINA DO NORTE",
-    "node_id": 400,
-    "rank": 121,
+    "node_id": 205,
+    "rank": 97,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ANTONINA DO NORTE** está na posição **#121** do ranking — identificada como área de atenção moderada."
+    "summary": "**ANTONINA DO NORTE** está na posição **#97** do ranking — identificada como área de atenção moderada."
   },
   "interior:ASSARE": {
     "confidence": 0.7140015315749353,
@@ -1037,12 +1037,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ASSARE",
-    "node_id": 391,
-    "rank": 114,
+    "name": "ASSARÉ",
+    "node_id": 213,
+    "rank": 98,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ASSARE** está na posição **#114** do ranking — identificada como área de atenção moderada."
+    "summary": "**ASSARÉ** está na posição **#98** do ranking — identificada como área de atenção moderada."
   },
   "interior:CARIRIACU": {
     "confidence": 0.7140015315749353,
@@ -1056,12 +1056,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CARIRIACU",
-    "node_id": 374,
-    "rank": 111,
+    "name": "CARIRIAÇU",
+    "node_id": 232,
+    "rank": 99,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**CARIRIACU** está na posição **#111** do ranking — identificada como área de atenção moderada."
+    "summary": "**CARIRIAÇU** está na posição **#99** do ranking — identificada como área de atenção moderada."
   },
   "interior:CEDRO": {
     "confidence": 0.7140015315749353,
@@ -1076,11 +1076,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CEDRO",
-    "node_id": 396,
-    "rank": 118,
+    "node_id": 237,
+    "rank": 100,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**CEDRO** está na posição **#118** do ranking — identificada como área de atenção moderada."
+    "summary": "**CEDRO** está na posição **#100** do ranking — identificada como área de atenção moderada."
   },
   "interior:GENERAL SAMPAIO": {
     "confidence": 0.7140015315749353,
@@ -1095,11 +1095,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "GENERAL SAMPAIO",
-    "node_id": 375,
-    "rank": 112,
+    "node_id": 250,
+    "rank": 101,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**GENERAL SAMPAIO** está na posição **#112** do ranking — identificada como área de atenção moderada."
+    "summary": "**GENERAL SAMPAIO** está na posição **#101** do ranking — identificada como área de atenção moderada."
   },
   "interior:IBARETAMA": {
     "confidence": 0.7140015315749353,
@@ -1114,11 +1114,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "IBARETAMA",
-    "node_id": 399,
-    "rank": 120,
+    "node_id": 258,
+    "rank": 102,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**IBARETAMA** está na posição **#120** do ranking — identificada como área de atenção moderada."
+    "summary": "**IBARETAMA** está na posição **#102** do ranking — identificada como área de atenção moderada."
   },
   "interior:ITAICABA": {
     "confidence": 0.7140016209819025,
@@ -1132,12 +1132,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ITAICABA",
-    "node_id": 390,
-    "rank": 93,
+    "name": "ITAIÇABA",
+    "node_id": 271,
+    "rank": 90,
     "risk_score_pct": 22.800324196380505,
     "score": 2.2800324196380504,
-    "summary": "**ITAICABA** está na posição **#93** do ranking — identificada como área de atenção moderada."
+    "summary": "**ITAIÇABA** está na posição **#90** do ranking — identificada como área de atenção moderada."
   },
   "interior:ITAPIPOCA": {
     "confidence": 0.7140015315749353,
@@ -1152,11 +1152,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ITAPIPOCA",
-    "node_id": 394,
-    "rank": 116,
+    "node_id": 273,
+    "rank": 103,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**ITAPIPOCA** está na posição **#116** do ranking — identificada como área de atenção moderada."
+    "summary": "**ITAPIPOCA** está na posição **#103** do ranking — identificada como área de atenção moderada."
   },
   "interior:JIJOCA DE JERICOACOARA": {
     "confidence": 0.7140015315749353,
@@ -1171,11 +1171,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JIJOCA DE JERICOACOARA",
-    "node_id": 371,
-    "rank": 109,
+    "node_id": 283,
+    "rank": 104,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**JIJOCA DE JERICOACOARA** está na posição **#109** do ranking — identificada como área de atenção moderada."
+    "summary": "**JIJOCA DE JERICOACOARA** está na posição **#104** do ranking — identificada como área de atenção moderada."
   },
   "interior:OROS": {
     "confidence": 0.7140016209819025,
@@ -1189,12 +1189,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "OROS",
-    "node_id": 381,
-    "rank": 92,
+    "name": "ORÓS",
+    "node_id": 309,
+    "rank": 91,
     "risk_score_pct": 22.800324196380505,
     "score": 2.2800324196380504,
-    "summary": "**OROS** está na posição **#92** do ranking — identificada como área de atenção moderada."
+    "summary": "**ORÓS** está na posição **#91** do ranking — identificada como área de atenção moderada."
   },
   "interior:RERIUTABA": {
     "confidence": 0.7140015315749353,
@@ -1209,11 +1209,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "RERIUTABA",
-    "node_id": 407,
-    "rank": 122,
+    "node_id": 332,
+    "rank": 105,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**RERIUTABA** está na posição **#122** do ranking — identificada como área de atenção moderada."
+    "summary": "**RERIUTABA** está na posição **#105** do ranking — identificada como área de atenção moderada."
   },
   "interior:SANTANA DO ACARAU": {
     "confidence": 0.7140015315749353,
@@ -1227,12 +1227,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SANTANA DO ACARAU",
-    "node_id": 398,
-    "rank": 119,
+    "name": "SANTANA DO ACARAÚ",
+    "node_id": 336,
+    "rank": 106,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**SANTANA DO ACARAU** está na posição **#119** do ranking — identificada como área de atenção moderada."
+    "summary": "**SANTANA DO ACARAÚ** está na posição **#106** do ranking — identificada como área de atenção moderada."
   },
   "interior:SENADOR POMPEU": {
     "confidence": 0.7140015315749353,
@@ -1247,11 +1247,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "SENADOR POMPEU",
-    "node_id": 408,
-    "rank": 123,
+    "node_id": 341,
+    "rank": 107,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**SENADOR POMPEU** está na posição **#123** do ranking — identificada como área de atenção moderada."
+    "summary": "**SENADOR POMPEU** está na posição **#107** do ranking — identificada como área de atenção moderada."
   },
   "interior:TURURU": {
     "confidence": 0.7140015315749353,
@@ -1266,11 +1266,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "TURURU",
-    "node_id": 392,
-    "rank": 115,
+    "node_id": 351,
+    "rank": 108,
     "risk_score_pct": 22.800306314987072,
     "score": 2.280030631498707,
-    "summary": "**TURURU** está na posição **#115** do ranking — identificada como área de atenção moderada."
+    "summary": "**TURURU** está na posição **#108** do ranking — identificada como área de atenção moderada."
   },
   "interior:ITAPIUNA": {
     "confidence": 0.712330038521499,
@@ -1284,12 +1284,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ITAPIUNA",
-    "node_id": 382,
-    "rank": 125,
+    "name": "ITAPIÚNA",
+    "node_id": 274,
+    "rank": 124,
     "risk_score_pct": 22.466007704299816,
     "score": 2.2466007704299815,
-    "summary": "**ITAPIUNA** está na posição **#125** do ranking — identificada como área de atenção moderada."
+    "summary": "**ITAPIÚNA** está na posição **#124** do ranking — identificada como área de atenção moderada."
   },
   "rmf:HORIZONTE": {
     "confidence": 0.7121852840483188,
@@ -1304,11 +1304,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "HORIZONTE",
-    "node_id": 412,
-    "rank": 127,
+    "node_id": 184,
+    "rank": 126,
     "risk_score_pct": 22.437056809663773,
     "score": 2.2437056809663773,
-    "summary": "**HORIZONTE** está na posição **#127** do ranking — identificada como área de atenção moderada."
+    "summary": "**HORIZONTE** está na posição **#126** do ranking — identificada como área de atenção moderada."
   },
   "fortaleza:JOSE WALTER": {
     "confidence": 0.7022778570652007,
@@ -5398,12 +5398,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SÃO MIGUEL",
-    "node_id": 165,
-    "rank": 389,
+    "name": "SAO MIGUEL",
+    "node_id": 34,
+    "rank": 388,
     "risk_score_pct": 5.0750994682312,
     "score": 0.50750994682312,
-    "summary": "**SÃO MIGUEL** está na posição **#389** do ranking — identificada como área monitorada."
+    "summary": "**SAO MIGUEL** está na posição **#388** do ranking — identificada como área monitorada."
   },
   "fortaleza:PARQUE IRACEMA": {
     "confidence": 0.6951869904994964,
@@ -5418,11 +5418,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PARQUE IRACEMA",
-    "node_id": 121,
-    "rank": 349,
+    "node_id": 31,
+    "rank": 348,
     "risk_score_pct": 19.037398099899292,
     "score": 1.9037398099899292,
-    "summary": "**PARQUE IRACEMA** está na posição **#349** do ranking — identificada como área monitorada."
+    "summary": "**PARQUE IRACEMA** está na posição **#348** do ranking — identificada como área monitorada."
   },
   "fortaleza:PARQUE SAO JOSE": {
     "confidence": 0.6961204290390014,
@@ -5436,12 +5436,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PARQUE SĂO JOSÉ",
-    "node_id": 126,
-    "rank": 347,
+    "name": "PARQUE SAO JOSE",
+    "node_id": 10,
+    "rank": 346,
     "risk_score_pct": 19.224085807800293,
     "score": 1.9224085807800293,
-    "summary": "**PARQUE SĂO JOSÉ** está na posição **#347** do ranking — identificada como área monitorada."
+    "summary": "**PARQUE SAO JOSE** está na posição **#346** do ranking — identificada como área monitorada."
   },
   "fortaleza:JANGURUSSU": {
     "confidence": 0.6850706666707992,
@@ -5461,11 +5461,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JANGURUSSU",
-    "node_id": 92,
-    "rank": 351,
+    "node_id": 3,
+    "rank": 350,
     "risk_score_pct": 17.01413333415985,
     "score": 1.701413333415985,
-    "summary": "**JANGURUSSU** está na posição **#351** do ranking — identificada como área monitorada."
+    "summary": "**JANGURUSSU** está na posição **#350** do ranking — identificada como área monitorada."
   },
   "fortaleza:CARLITO PAMPLONA": {
     "confidence": 0.6992475271224975,
@@ -5480,11 +5480,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CARLITO PAMPLONA",
-    "node_id": 60,
-    "rank": 345,
+    "node_id": 22,
+    "rank": 344,
     "risk_score_pct": 19.84950542449951,
     "score": 1.9849505424499512,
-    "summary": "**CARLITO PAMPLONA** está na posição **#345** do ranking — identificada como área monitorada."
+    "summary": "**CARLITO PAMPLONA** está na posição **#344** do ranking — identificada como área monitorada."
   },
   "fortaleza:PASSARE": {
     "confidence": 0.6823492377996444,
@@ -5503,12 +5503,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PASSARÉ",
-    "node_id": 130,
-    "rank": 353,
+    "name": "PASSARE",
+    "node_id": 21,
+    "rank": 352,
     "risk_score_pct": 16.469847559928894,
     "score": 1.6469847559928894,
-    "summary": "**PASSARÉ** está na posição **#353** do ranking — identificada como área monitorada."
+    "summary": "**PASSARE** está na posição **#352** do ranking — identificada como área monitorada."
   },
   "fortaleza:PADRE ANDRADE": {
     "confidence": 0.7032433032989501,
@@ -5528,11 +5528,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PADRE ANDRADE",
-    "node_id": 116,
-    "rank": 129,
+    "node_id": 38,
+    "rank": 128,
     "risk_score_pct": 20.64866065979004,
     "score": 2.064866065979004,
-    "summary": "**PADRE ANDRADE** está na posição **#129** do ranking — identificada como área de atenção moderada."
+    "summary": "**PADRE ANDRADE** está na posição **#128** do ranking — identificada como área de atenção moderada."
   },
   "fortaleza:EDSON QUEIROZ": {
     "confidence": 0.6658534437417983,
@@ -5547,11 +5547,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "EDSON QUEIROZ",
-    "node_id": 79,
-    "rank": 355,
+    "node_id": 27,
+    "rank": 354,
     "risk_score_pct": 13.17068874835968,
     "score": 1.317068874835968,
-    "summary": "**EDSON QUEIROZ** está na posição **#355** do ranking — identificada como área monitorada."
+    "summary": "**EDSON QUEIROZ** está na posição **#354** do ranking — identificada como área monitorada."
   },
   "rmf:ITAITINGA": {
     "confidence": 0.6509280338417739,
@@ -5566,11 +5566,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ITAITINGA",
-    "node_id": 415,
-    "rank": 367,
+    "node_id": 185,
+    "rank": 358,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**ITAITINGA** está na posição **#367** do ranking — identificada como área monitorada."
+    "summary": "**ITAITINGA** está na posição **#358** do ranking — identificada como área monitorada."
   },
   "rmf:PACAJUS": {
     "confidence": 0.6509280338417739,
@@ -5585,11 +5585,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PACAJUS",
-    "node_id": 411,
-    "rank": 364,
+    "node_id": 188,
+    "rank": 359,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**PACAJUS** está na posição **#364** do ranking — identificada como área monitorada."
+    "summary": "**PACAJUS** está na posição **#359** do ranking — identificada como área monitorada."
   },
   "rmf:PACATUBA": {
     "confidence": 0.6509280338417739,
@@ -5604,11 +5604,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PACATUBA",
-    "node_id": 413,
-    "rank": 365,
+    "node_id": 189,
+    "rank": 360,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**PACATUBA** está na posição **#365** do ranking — identificada como área monitorada."
+    "summary": "**PACATUBA** está na posição **#360** do ranking — identificada como área monitorada."
   },
   "rmf:PARAIPABA": {
     "confidence": 0.6509280338417739,
@@ -5623,11 +5623,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PARAIPABA",
-    "node_id": 417,
-    "rank": 368,
+    "node_id": 191,
+    "rank": 361,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**PARAIPABA** está na posição **#368** do ranking — identificada como área monitorada."
+    "summary": "**PARAIPABA** está na posição **#361** do ranking — identificada como área monitorada."
   },
   "rmf:PINDORETAMA": {
     "confidence": 0.6509280338417739,
@@ -5642,11 +5642,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PINDORETAMA",
-    "node_id": 414,
-    "rank": 366,
+    "node_id": 192,
+    "rank": 362,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**PINDORETAMA** está na posição **#366** do ranking — identificada como área monitorada."
+    "summary": "**PINDORETAMA** está na posição **#362** do ranking — identificada como área monitorada."
   },
   "rmf:SAO LUIS DO CURU": {
     "confidence": 0.6509280338417739,
@@ -5660,12 +5660,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SAO LUIS DO CURU",
-    "node_id": 418,
-    "rank": 369,
+    "name": "SÃO LUÍS DO CURU",
+    "node_id": 194,
+    "rank": 363,
     "risk_score_pct": 10.185606768354774,
     "score": 1.0185606768354774,
-    "summary": "**SAO LUIS DO CURU** está na posição **#369** do ranking — identificada como área monitorada."
+    "summary": "**SÃO LUÍS DO CURU** está na posição **#363** do ranking — identificada como área monitorada."
   },
   "rmf:EUSEBIO": {
     "confidence": 0.65,
@@ -5679,12 +5679,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "EUSEBIO",
-    "node_id": 416,
-    "rank": 371,
+    "name": "EUSÉBIO",
+    "node_id": 182,
+    "rank": 370,
     "risk_score_pct": 10.0,
     "score": 1.0,
-    "summary": "**EUSEBIO** está na posição **#371** do ranking — identificada como área monitorada."
+    "summary": "**EUSÉBIO** está na posição **#370** do ranking — identificada como área monitorada."
   },
   "fortaleza:CONJUNTO PALMEIRAS": {
     "confidence": 0.6492430970072746,
@@ -5699,11 +5699,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CONJUNTO PALMEIRAS",
-    "node_id": 68,
-    "rank": 373,
+    "node_id": 12,
+    "rank": 372,
     "risk_score_pct": 9.848619401454926,
     "score": 0.9848619401454926,
-    "summary": "**CONJUNTO PALMEIRAS** está na posição **#373** do ranking — identificada como área monitorada."
+    "summary": "**CONJUNTO PALMEIRAS** está na posição **#372** do ranking — identificada como área monitorada."
   },
   "interior:TEJUCUOCA": {
     "confidence": 0.6424124345183372,
@@ -5717,12 +5717,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "TEJUCUOCA",
-    "node_id": 405,
-    "rank": 377,
+    "name": "TEJUÇUOCA",
+    "node_id": 349,
+    "rank": 376,
     "risk_score_pct": 8.48248690366745,
     "score": 0.848248690366745,
-    "summary": "**TEJUCUOCA** está na posição **#377** do ranking — identificada como área monitorada."
+    "summary": "**TEJUÇUOCA** está na posição **#376** do ranking — identificada como área monitorada."
   },
   "fortaleza:PARQUE SANTA MARIA": {
     "confidence": 0.6408985584974288,
@@ -5737,11 +5737,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PARQUE SANTA MARIA",
-    "node_id": 124,
-    "rank": 379,
+    "node_id": 23,
+    "rank": 378,
     "risk_score_pct": 8.179711699485779,
     "score": 0.8179711699485779,
-    "summary": "**PARQUE SANTA MARIA** está na posição **#379** do ranking — identificada como área monitorada."
+    "summary": "**PARQUE SANTA MARIA** está na posição **#378** do ranking — identificada como área monitorada."
   },
   "fortaleza:GRANJA PORTUGAL": {
     "confidence": 0.6517092689871787,
@@ -5756,11 +5756,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "GRANJA PORTUGAL",
-    "node_id": 86,
-    "rank": 357,
+    "node_id": 32,
+    "rank": 356,
     "risk_score_pct": 10.34185379743576,
     "score": 1.034185379743576,
-    "summary": "**GRANJA PORTUGAL** está na posição **#357** do ranking — identificada como área monitorada."
+    "summary": "**GRANJA PORTUGAL** está na posição **#356** do ranking — identificada como área monitorada."
   },
   "fortaleza:BONSUCESSO": {
     "confidence": 0.6437364399433135,
@@ -5775,11 +5775,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "BONSUCESSO",
-    "node_id": 55,
-    "rank": 375,
+    "node_id": 36,
+    "rank": 374,
     "risk_score_pct": 8.74728798866272,
     "score": 0.874728798866272,
-    "summary": "**BONSUCESSO** está na posição **#375** do ranking — identificada como área monitorada."
+    "summary": "**BONSUCESSO** está na posição **#374** do ranking — identificada como área monitorada."
   },
   "fortaleza:PARQUE DOIS IRMAOS": {
     "confidence": 0.6236328661441802,
@@ -5793,12 +5793,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PARQUE DOIS IRMĂOS",
-    "node_id": 127,
-    "rank": 391,
+    "name": "PARQUE DOIS IRMAOS",
+    "node_id": 29,
+    "rank": 390,
     "risk_score_pct": 4.726573228836059,
     "score": 0.47265732288360585,
-    "summary": "**PARQUE DOIS IRMĂOS** está na posição **#391** do ranking — identificada como área monitorada."
+    "summary": "**PARQUE DOIS IRMAOS** está na posição **#390** do ranking — identificada como área monitorada."
   },
   "fortaleza:VICENTE PINZON": {
     "confidence": 0.6226077109575271,
@@ -5812,12 +5812,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "VICENTE PINZÓN",
-    "node_id": 152,
-    "rank": 393,
+    "name": "VICENTE PINZON",
+    "node_id": 5,
+    "rank": 392,
     "risk_score_pct": 4.521542191505431,
     "score": 0.4521542191505431,
-    "summary": "**VICENTE PINZÓN** está na posição **#393** do ranking — identificada como área monitorada."
+    "summary": "**VICENTE PINZON** está na posição **#392** do ranking — identificada como área monitorada."
   },
   "fortaleza:QUINTINO CUNHA": {
     "confidence": 0.638946834206581,
@@ -5832,11 +5832,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "QUINTINO CUNHA",
-    "node_id": 142,
-    "rank": 383,
+    "node_id": 19,
+    "rank": 382,
     "risk_score_pct": 7.789366841316222,
     "score": 0.7789366841316222,
-    "summary": "**QUINTINO CUNHA** está na posição **#383** do ranking — identificada como área monitorada."
+    "summary": "**QUINTINO CUNHA** está na posição **#382** do ranking — identificada como área monitorada."
   },
   "fortaleza:DOM LUSTOSA": {
     "confidence": 0.6393104001879691,
@@ -5851,11 +5851,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "DOM LUSTOSA",
-    "node_id": 78,
-    "rank": 381,
+    "node_id": 33,
+    "rank": 380,
     "risk_score_pct": 7.862080037593841,
     "score": 0.786208003759384,
-    "summary": "**DOM LUSTOSA** está na posição **#381** do ranking — identificada como área monitorada."
+    "summary": "**DOM LUSTOSA** está na posição **#380** do ranking — identificada como área monitorada."
   },
   "fortaleza:PRAIA DO FUTURO": {
     "confidence": 0.6182688504457473,
@@ -5889,11 +5889,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "GRANJA LISBOA",
-    "node_id": 85,
-    "rank": 385,
+    "node_id": 9,
+    "rank": 384,
     "risk_score_pct": 6.334527730941772,
     "score": 0.6334527730941771,
-    "summary": "**GRANJA LISBOA** está na posição **#385** do ranking — identificada como área monitorada."
+    "summary": "**GRANJA LISBOA** está na posição **#384** do ranking — identificada como área monitorada."
   },
   "fortaleza:JARDIM GUANABARA": {
     "confidence": 0.6309258893132209,
@@ -5908,11 +5908,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JARDIM GUANABARA",
-    "node_id": 95,
-    "rank": 387,
+    "node_id": 35,
+    "rank": 386,
     "risk_score_pct": 6.185177862644195,
     "score": 0.6185177862644194,
-    "summary": "**JARDIM GUANABARA** está na posição **#387** do ranking — identificada como área monitorada."
+    "summary": "**JARDIM GUANABARA** está na posição **#386** do ranking — identificada como área monitorada."
   },
   "fortaleza:JARDIM DAS OLIVEIRAS": {
     "confidence": 0.6034844659268855,
@@ -5932,11 +5932,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JARDIM DAS OLIVEIRAS",
-    "node_id": 97,
-    "rank": 396,
+    "node_id": 11,
+    "rank": 395,
     "risk_score_pct": 0.6968931853771204,
     "score": 0.06968931853771204,
-    "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#396** do ranking — identificada como área monitorada."
+    "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#395** do ranking — identificada como área monitorada."
   },
   "fortaleza:CRISTO REDENTOR": {
     "confidence": 0.6,
@@ -5951,11 +5951,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CRISTO REDENTOR",
-    "node_id": 70,
-    "rank": 403,
+    "node_id": 4,
+    "rank": 397,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**CRISTO REDENTOR** está na posição **#403** do ranking — identificada como área monitorada."
+    "summary": "**CRISTO REDENTOR** está na posição **#397** do ranking — identificada como área monitorada."
   },
   "fortaleza:PEDRAS": {
     "confidence": 0.6,
@@ -5970,11 +5970,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PEDRAS",
-    "node_id": 133,
-    "rank": 405,
+    "node_id": 13,
+    "rank": 398,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**PEDRAS** está na posição **#405** do ranking — identificada como área monitorada."
+    "summary": "**PEDRAS** está na posição **#398** do ranking — identificada como área monitorada."
   },
   "fortaleza:PIRAMBU": {
     "confidence": 0.6,
@@ -5989,11 +5989,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PIRAMBU",
-    "node_id": 135,
-    "rank": 406,
+    "node_id": 16,
+    "rank": 399,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**PIRAMBU** está na posição **#406** do ranking — identificada como área monitorada."
+    "summary": "**PIRAMBU** está na posição **#399** do ranking — identificada como área monitorada."
   },
   "fortaleza:JACARECANGA": {
     "confidence": 0.6,
@@ -6008,11 +6008,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JACARECANGA",
-    "node_id": 91,
-    "rank": 404,
+    "node_id": 37,
+    "rank": 400,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**JACARECANGA** está na posição **#404** do ranking — identificada como área monitorada."
+    "summary": "**JACARECANGA** está na posição **#400** do ranking — identificada como área monitorada."
   },
   "fortaleza:BOA VISTA/CASTELAO": {
     "confidence": 0.6,
@@ -6026,12 +6026,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "BOA VISTA/CASTELÃO",
-    "node_id": 52,
-    "rank": 402,
+    "name": "BOA VISTA/CASTELAO",
+    "node_id": 39,
+    "rank": 401,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**BOA VISTA/CASTELÃO** está na posição **#402** do ranking — identificada como área monitorada."
+    "summary": "**BOA VISTA/CASTELAO** está na posição **#401** do ranking — identificada como área monitorada."
   },
   "rmf:AQUIRAZ": {
     "confidence": 0.6,
@@ -6046,11 +6046,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "AQUIRAZ",
-    "node_id": 419,
-    "rank": 420,
+    "node_id": 178,
+    "rank": 407,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**AQUIRAZ** está na posição **#420** do ranking — identificada como área monitorada."
+    "summary": "**AQUIRAZ** está na posição **#407** do ranking — identificada como área monitorada."
   },
   "rmf:CASCAVEL": {
     "confidence": 0.6,
@@ -6065,11 +6065,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CASCAVEL",
-    "node_id": 425,
-    "rank": 426,
+    "node_id": 179,
+    "rank": 408,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**CASCAVEL** está na posição **#426** do ranking — identificada como área monitorada."
+    "summary": "**CASCAVEL** está na posição **#408** do ranking — identificada como área monitorada."
   },
   "rmf:CHOROZINHO": {
     "confidence": 0.6,
@@ -6084,11 +6084,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CHOROZINHO",
-    "node_id": 424,
-    "rank": 425,
+    "node_id": 181,
+    "rank": 409,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**CHOROZINHO** está na posição **#425** do ranking — identificada como área monitorada."
+    "summary": "**CHOROZINHO** está na posição **#409** do ranking — identificada como área monitorada."
   },
   "rmf:GUAIUBA": {
     "confidence": 0.6,
@@ -6102,12 +6102,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "GUAIUBA",
-    "node_id": 422,
-    "rank": 423,
+    "name": "GUAIÚBA",
+    "node_id": 183,
+    "rank": 410,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**GUAIUBA** está na posição **#423** do ranking — identificada como área monitorada."
+    "summary": "**GUAIÚBA** está na posição **#410** do ranking — identificada como área monitorada."
   },
   "rmf:MARANGUAPE": {
     "confidence": 0.6,
@@ -6127,11 +6127,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "MARANGUAPE",
-    "node_id": 421,
-    "rank": 422,
+    "node_id": 187,
+    "rank": 411,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**MARANGUAPE** está na posição **#422** do ranking — identificada como área monitorada."
+    "summary": "**MARANGUAPE** está na posição **#411** do ranking — identificada como área monitorada."
   },
   "rmf:PARACURU": {
     "confidence": 0.6,
@@ -6151,11 +6151,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PARACURU",
-    "node_id": 420,
-    "rank": 421,
+    "node_id": 190,
+    "rank": 412,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**PARACURU** está na posição **#421** do ranking — identificada como área monitorada."
+    "summary": "**PARACURU** está na posição **#412** do ranking — identificada como área monitorada."
   },
   "rmf:SAO GONCALO DO AMARANTE": {
     "confidence": 0.6,
@@ -6169,12 +6169,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SAO GONCALO DO AMARANTE",
-    "node_id": 426,
-    "rank": 427,
+    "name": "SÃO GONÇALO DO AMARANTE",
+    "node_id": 193,
+    "rank": 413,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**SAO GONCALO DO AMARANTE** está na posição **#427** do ranking — identificada como área monitorada."
+    "summary": "**SÃO GONÇALO DO AMARANTE** está na posição **#413** do ranking — identificada como área monitorada."
   },
   "rmf:TRAIRI": {
     "confidence": 0.6,
@@ -6189,11 +6189,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "TRAIRI",
-    "node_id": 423,
-    "rank": 424,
+    "node_id": 195,
+    "rank": 414,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**TRAIRI** está na posição **#424** do ranking — identificada como área monitorada."
+    "summary": "**TRAIRI** está na posição **#414** do ranking — identificada como área monitorada."
   },
   "rmf:BEBERIBE": {
     "confidence": 0.6,
@@ -6208,11 +6208,11 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "BEBERIBE",
-    "node_id": 427,
-    "rank": 428,
+    "node_id": 222,
+    "rank": 415,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**BEBERIBE** está na posição **#428** do ranking — identificada como área monitorada."
+    "summary": "**BEBERIBE** está na posição **#415** do ranking — identificada como área monitorada."
   },
   "interior:CRATEUS": {
     "confidence": 0.6,
@@ -6226,12 +6226,12 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CRATEUS",
-    "node_id": 379,
-    "rank": 418,
+    "name": "CRATEÚS",
+    "node_id": 241,
+    "rank": 416,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**CRATEUS** está na posição **#418** do ranking — identificada como área monitorada."
+    "summary": "**CRATEÚS** está na posição **#416** do ranking — identificada como área monitorada."
   },
   "interior:POTENGI": {
     "confidence": 0.6,
@@ -6246,10 +6246,10 @@
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "POTENGI",
-    "node_id": 404,
-    "rank": 419,
+    "node_id": 324,
+    "rank": 417,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**POTENGI** está na posição **#419** do ranking — identificada como área monitorada."
+    "summary": "**POTENGI** está na posição **#417** do ranking — identificada como área monitorada."
   }
 }
