@@ -142,6 +142,10 @@ function riskBandForItem(item: RiskItem): 'crítico' | 'alto' | 'moderado' | 'ba
   return item.score >= 71 ? 'crítico' : item.score >= 51 ? 'alto' : item.score >= 31 ? 'moderado' : 'baixo'
 }
 
+function normalizePolygonLookupName(value: string): string {
+  return normalizeLookupName(String(value || '').replace(/\s*-\s*AIS.*$/i, ''))
+}
+
 function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
   const dedupedById = new Map<string, RiskItem>()
 
@@ -261,6 +265,57 @@ function buildSummary(items: RiskItem[]): DashboardSummary {
   }
 }
 
+function enrichPolygonsWithRisk(polygons: GeoFeatureCollection, riskItems: RiskItem[]): GeoFeatureCollection {
+  const riskByComposite = new Map<string, RiskItem>()
+
+  for (const item of riskItems) {
+    riskByComposite.set(`${item.clean_name}|${item.region}`, item)
+  }
+
+  return {
+    type: 'FeatureCollection',
+    features: polygons.features.map((feature) => {
+      const rawName = String(
+        feature.properties?.Name ??
+          feature.properties?.name ??
+          feature.properties?.NOME ??
+          feature.properties?.bairro ??
+          feature.properties?.municipio ??
+          '',
+      )
+      const region = String(feature.properties?.region_type ?? 'fortaleza') as RegionKey
+      const cleanName = normalizePolygonLookupName(rawName)
+      const riskItem = riskByComposite.get(`${cleanName}|${region}`)
+
+      return {
+        ...feature,
+        properties: {
+          ...feature.properties,
+          name: riskItem?.name ?? rawName,
+          clean_name: cleanName,
+          region_type: region,
+          node_id: riskItem?.node_id ?? null,
+          risk_score: riskItem?.score ?? null,
+          risk_score_cvli: riskItem?.score ?? null,
+          faction: riskItem?.faction ?? feature.properties?.faction ?? null,
+          rank_region: riskItem?.rank_region ?? null,
+          rank_global: riskItem?.rank_global ?? null,
+          status_label: riskItem?.status ?? null,
+          trend: riskItem?.trend ?? null,
+          metrics: riskItem
+            ? {
+                momentum_7d: riskItem.momentum_7d,
+                momentum_14d: riskItem.momentum_14d,
+                recent_cvli: riskItem.recent_cvli,
+                recent_exogenous: riskItem.recent_exogenous,
+              }
+            : feature.properties?.metrics ?? {},
+        },
+      }
+    }),
+  }
+}
+
 export async function loadSnapshot(): Promise<SnapshotData> {
   const [manifest, risk, territoryDetails, polygons, micronodes, topFortaleza, topRmf, topInterior] =
     await Promise.all([
@@ -276,6 +331,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
 
   const dedupedItems = dedupeRiskItems(risk.items)
   const derivedCounts = buildCounts(dedupedItems)
+  const enrichedPolygons = enrichPolygonsWithRisk(polygons, dedupedItems)
 
   return {
     manifest,
@@ -290,7 +346,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
       items: dedupedItems,
     },
     territoryDetails,
-    polygons,
+    polygons: enrichedPolygons,
     micronodes,
     top30: {
       fortaleza: topFortaleza,
