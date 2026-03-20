@@ -104,11 +104,167 @@ async function loadJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>
 }
 
+function hasAccents(value: string): boolean {
+  return /[^\u0000-\u007f]/.test(value)
+}
+
+function preferDisplayName(currentName: string, candidateName: string): string {
+  if (!currentName) {
+    return candidateName
+  }
+  if (!candidateName) {
+    return currentName
+  }
+
+  if (hasAccents(candidateName) && !hasAccents(currentName)) {
+    return candidateName
+  }
+  if (candidateName.length > currentName.length) {
+    return candidateName
+  }
+  return currentName
+}
+
+function riskBandForItem(item: RiskItem): 'crítico' | 'alto' | 'moderado' | 'baixo' {
+  const status = normalizeLookupName(item.status)
+  if (status.includes('CRIT')) {
+    return 'crítico'
+  }
+  if (status.includes('ALTO')) {
+    return 'alto'
+  }
+  if (status.includes('MODER')) {
+    return 'moderado'
+  }
+  if (status.includes('BAIX')) {
+    return 'baixo'
+  }
+  return item.score >= 71 ? 'crítico' : item.score >= 51 ? 'alto' : item.score >= 31 ? 'moderado' : 'baixo'
+}
+
+function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
+  const dedupedById = new Map<string, RiskItem>()
+
+  for (const rawItem of [...items].sort((left, right) => right.score - left.score)) {
+    const normalizedItem: RiskItem = {
+      ...rawItem,
+      id: rawItem.id || buildTerritoryId(rawItem.region, rawItem.name),
+      clean_name: rawItem.clean_name || normalizeLookupName(rawItem.name),
+    }
+    const existing = dedupedById.get(normalizedItem.id)
+
+    if (!existing) {
+      dedupedById.set(normalizedItem.id, normalizedItem)
+      continue
+    }
+
+    dedupedById.set(normalizedItem.id, {
+      ...existing,
+      name: preferDisplayName(existing.name, normalizedItem.name),
+      municipality: existing.municipality || normalizedItem.municipality,
+      faction: existing.faction || normalizedItem.faction,
+      node_id: existing.node_id ?? normalizedItem.node_id,
+      recent_cvli: Math.max(existing.recent_cvli, normalizedItem.recent_cvli),
+      recent_exogenous: Math.max(existing.recent_exogenous, normalizedItem.recent_exogenous),
+      momentum_7d: Math.abs(normalizedItem.momentum_7d) > Math.abs(existing.momentum_7d)
+        ? normalizedItem.momentum_7d
+        : existing.momentum_7d,
+      momentum_14d: Math.abs(normalizedItem.momentum_14d) > Math.abs(existing.momentum_14d)
+        ? normalizedItem.momentum_14d
+        : existing.momentum_14d,
+      summary: normalizedItem.summary.length > existing.summary.length ? normalizedItem.summary : existing.summary,
+      trend: existing.trend || normalizedItem.trend,
+      status: existing.status || normalizedItem.status,
+    })
+  }
+
+  const rankedItems = [...dedupedById.values()].sort((left, right) => {
+    if (right.score !== left.score) {
+      return right.score - left.score
+    }
+    return left.name.localeCompare(right.name, 'pt-BR')
+  })
+
+  const regionCounters: Record<RegionKey, number> = {
+    fortaleza: 0,
+    rmf: 0,
+    interior: 0,
+  }
+
+  return rankedItems.map((item, index) => {
+    regionCounters[item.region] += 1
+    return {
+      ...item,
+      rank_global: index + 1,
+      rank_region: regionCounters[item.region],
+    }
+  })
+}
+
+function buildCounts(items: RiskItem[]): { counts: Record<string, number>; countsByRegion: Record<string, Record<string, number>> } {
+  const counts = { crítico: 0, alto: 0, moderado: 0, baixo: 0 }
+  const countsByRegion: Record<string, Record<string, number>> = {
+    fortaleza: { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
+    rmf: { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
+    interior: { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
+  }
+
+  for (const item of items) {
+    const band = riskBandForItem(item)
+    counts[band] += 1
+    countsByRegion[item.region][band] += 1
+  }
+
+  return { counts, countsByRegion }
+}
+
+function buildSummary(items: RiskItem[]): DashboardSummary {
+  const globalTop = items[0] ?? null
+  const grouped: Record<RegionKey, RiskItem[]> = {
+    fortaleza: [],
+    rmf: [],
+    interior: [],
+  }
+
+  for (const item of items) {
+    grouped[item.region].push(item)
+  }
+
+  return {
+    global: {
+      total_nodes: items.length,
+      active_locations: items.filter((item) => item.score >= 51).length,
+      top_region: globalTop?.region ?? null,
+      top_name: globalTop?.name ?? null,
+      avg_risk: Number((items.reduce((total, item) => total + item.score, 0) / Math.max(items.length, 1)).toFixed(2)),
+    },
+    regions: {
+      fortaleza: {
+        total_nodes: grouped.fortaleza.length,
+        avg_risk: Number((grouped.fortaleza.reduce((total, item) => total + item.score, 0) / Math.max(grouped.fortaleza.length, 1)).toFixed(2)),
+        max_risk: grouped.fortaleza[0]?.score ?? 0,
+        top_name: grouped.fortaleza[0]?.name ?? 'N/A',
+      },
+      rmf: {
+        total_nodes: grouped.rmf.length,
+        avg_risk: Number((grouped.rmf.reduce((total, item) => total + item.score, 0) / Math.max(grouped.rmf.length, 1)).toFixed(2)),
+        max_risk: grouped.rmf[0]?.score ?? 0,
+        top_name: grouped.rmf[0]?.name ?? 'N/A',
+      },
+      interior: {
+        total_nodes: grouped.interior.length,
+        avg_risk: Number((grouped.interior.reduce((total, item) => total + item.score, 0) / Math.max(grouped.interior.length, 1)).toFixed(2)),
+        max_risk: grouped.interior[0]?.score ?? 0,
+        top_name: grouped.interior[0]?.name ?? 'N/A',
+      },
+    },
+  }
+}
+
 export async function loadSnapshot(): Promise<SnapshotData> {
-  const [manifest, summary, risk, territoryDetails, polygons, micronodes, topFortaleza, topRmf, topInterior] =
+  const [manifest, risk, territoryDetails, polygons, micronodes, topFortaleza, topRmf, topInterior] =
     await Promise.all([
       loadJson<SnapshotManifest>('/data/manifest.json'),
-      loadJson<DashboardSummary>('/data/dashboard_summary.json'),
       loadJson<RiskSnapshot>('/data/risk_snapshot.json'),
       loadJson<Record<string, TerritoryDetail>>('/data/territory_details.json'),
       loadJson<GeoFeatureCollection>('/data/polygons.geojson'),
@@ -118,10 +274,21 @@ export async function loadSnapshot(): Promise<SnapshotData> {
       loadJson<GeoFeatureCollection>('/data/top30_interior.geojson'),
     ])
 
+  const dedupedItems = dedupeRiskItems(risk.items)
+  const derivedCounts = buildCounts(dedupedItems)
+
   return {
     manifest,
-    summary,
-    risk,
+    summary: buildSummary(dedupedItems),
+    risk: {
+      ...risk,
+      meta: {
+        ...risk.meta,
+        counts: derivedCounts.counts,
+        counts_by_region: derivedCounts.countsByRegion,
+      },
+      items: dedupedItems,
+    },
     territoryDetails,
     polygons,
     micronodes,

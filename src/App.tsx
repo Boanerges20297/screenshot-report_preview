@@ -9,6 +9,12 @@ import {
 } from './lib/snapshot'
 import './App.css'
 
+const REGION_LABELS: Record<RegionKey, string> = {
+  fortaleza: 'Fortaleza',
+  rmf: 'RMF',
+  interior: 'Interior',
+}
+
 function App() {
   const [snapshot, setSnapshot] = useState<SnapshotData | null>(null)
   const [region, setRegion] = useState<RegionKey>('fortaleza')
@@ -78,6 +84,7 @@ function App() {
     .filter((item) => item.region === region)
     .sort((left, right) => right.score - left.score)
   const topRegionalItems = regionalItems.slice(0, 30)
+  const regionalSummary = snapshot.summary.regions[region]
   const selectedTerritory = selectedId ? snapshot.territoryDetails[selectedId] : null
   const selectedRisk = selectedId ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null : null
   const managerView = snapshot.risk.meta.manager_view as {
@@ -87,8 +94,12 @@ function App() {
     state_temperature_pct: number
     recommendation: string
   }
-  const countsByRegion = snapshot.risk.meta.counts_by_region as Record<string, Record<string, number>>
-  const regionalCount = countsByRegion[region] ?? {}
+  const regionalCount = countRiskBands(regionalItems)
+  const regionalLeader = topRegionalItems[0] ?? null
+  const regionalPriorityCount = regionalItems.filter((item) => item.score >= 31).length
+  const regionalCriticalCount = regionalCount.crítico ?? 0
+  const regionalHighCount = regionalCount.alto ?? 0
+  const regionalMonitoredCount = regionalItems.filter((item) => item.score >= 51).length
 
   return (
     <main className="app-shell">
@@ -100,21 +111,21 @@ function App() {
           </div>
           <h1>Painel territorial de risco e priorização operacional.</h1>
           <p className="hero-text">
-            Leitura consolidada do ranking regional, territórios críticos e sinais ORCRIM em formato estático para consulta executiva.
+            Recorte atual: {REGION_LABELS[region]}. Leitura consolidada do ranking regional, territórios críticos e sinais ORCRIM em formato estático para consulta executiva.
           </p>
 
           <div className="hero-highlights">
             <div className="hero-highlight">
-              <span>Modelo</span>
-              <strong>{snapshot.manifest.model_label}</strong>
+              <span>Recorte selecionado</span>
+              <strong>{REGION_LABELS[region]}</strong>
             </div>
             <div className="hero-highlight">
-              <span>Confiança do quadro</span>
-              <strong>{managerView.confidence_pct.toFixed(1)}%</strong>
+              <span>Pico de risco</span>
+              <strong>{regionalLeader?.score?.toFixed(1) ?? '0.0'}%</strong>
             </div>
             <div className="hero-highlight">
-              <span>Região em evidência</span>
-              <strong>{snapshot.summary.global.top_region?.toUpperCase() ?? 'N/A'}</strong>
+              <span>Territórios priorizados</span>
+              <strong>{regionalPriorityCount}</strong>
             </div>
           </div>
         </div>
@@ -131,7 +142,7 @@ function App() {
           </div>
           <div className="snapshot-meta">
             <span>Escopo</span>
-            <strong>{snapshot.summary.global.active_locations} localidades monitoradas</strong>
+            <strong>{snapshot.summary.global.total_nodes} localidades consolidadas</strong>
           </div>
           <p className="snapshot-note">{snapshot.manifest.notes}</p>
         </div>
@@ -139,24 +150,24 @@ function App() {
 
       <section className="metrics-row">
         <article className="metric-card feature">
-          <span>Confiança</span>
-          <strong>{managerView.confidence_pct.toFixed(1)}%</strong>
-          <p>{managerView.confidence_label}</p>
+          <span>Maior risco</span>
+          <strong>{regionalLeader?.score?.toFixed(1) ?? '0.0'}%</strong>
+          <p>{regionalLeader?.name ?? 'Sem destaque'}</p>
+        </article>
+        <article className="metric-card warm">
+          <span>Territórios críticos</span>
+          <strong>{regionalCriticalCount}</strong>
+          <p>{regionalHighCount} em faixa alta</p>
         </article>
         <article className="metric-card">
-          <span>Temperatura</span>
-          <strong>{managerView.state_temperature_pct.toFixed(1)}%</strong>
-          <p>{managerView.state_temperature_label}</p>
+          <span>Monitorados</span>
+          <strong>{regionalMonitoredCount}</strong>
+          <p>de {regionalSummary?.total_nodes ?? 0} localidades</p>
         </article>
         <article className="metric-card">
-          <span>Nós ativos</span>
-          <strong>{snapshot.summary.global.active_locations}</strong>
-          <p>de {snapshot.summary.global.total_nodes} localidades</p>
-        </article>
-        <article className="metric-card">
-          <span>Região líder</span>
-          <strong>{snapshot.summary.global.top_region?.toUpperCase() ?? 'N/A'}</strong>
-          <p>{snapshot.summary.global.top_name ?? 'Sem destaque'}</p>
+          <span>Risco médio</span>
+          <strong>{regionalSummary?.avg_risk?.toFixed(2) ?? '0.00'}%</strong>
+          <p>{regionalLeader?.faction || managerView.confidence_label || 'Sem leitura complementar'}</p>
         </article>
       </section>
 
@@ -191,7 +202,8 @@ function App() {
           <div className="panel-head">
             <div>
               <p className="eyebrow">Resumo regional</p>
-              <h2>{region === 'fortaleza' ? 'Fortaleza' : region.toUpperCase()}</h2>
+              <h2>{REGION_LABELS[region]}</h2>
+              <p className="panel-subtext">{regionalSummary?.total_nodes ?? 0} localidades consolidadas no recorte atual.</p>
             </div>
             <span className="risk-dot" style={{ backgroundColor: riskLevelColor(topRegionalItems[0]?.score ?? 0) }} />
           </div>
@@ -199,15 +211,15 @@ function App() {
           <div className="region-kpis">
             <div>
               <span>Risco médio</span>
-              <strong>{snapshot.summary.regions[region]?.avg_risk?.toFixed(2) ?? '0.00'}%</strong>
+              <strong>{regionalSummary?.avg_risk?.toFixed(2) ?? '0.00'}%</strong>
             </div>
             <div>
               <span>Críticos</span>
-              <strong>{regionalCount.crítico ?? 0}</strong>
+              <strong>{regionalCriticalCount}</strong>
             </div>
             <div>
               <span>Altos</span>
-              <strong>{regionalCount.alto ?? 0}</strong>
+              <strong>{regionalHighCount}</strong>
             </div>
           </div>
 
@@ -309,6 +321,33 @@ function formatCriticalStreets(detail: TerritoryDetail | null): string {
     .slice(0, 5)
     .map((street) => `${street.loc} (${street.cvli} CVLI)`)
     .join(', ')
+}
+
+function countRiskBands(items: SnapshotData['risk']['items']): Record<'crítico' | 'alto' | 'moderado' | 'baixo', number> {
+  return items.reduce(
+    (accumulator, item) => {
+      const status = item.status.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()
+      if (status.includes('CRIT')) {
+        accumulator.crítico += 1
+      } else if (status.includes('ALTO')) {
+        accumulator.alto += 1
+      } else if (status.includes('MODER')) {
+        accumulator.moderado += 1
+      } else if (status.includes('BAIX')) {
+        accumulator.baixo += 1
+      } else if (item.score >= 71) {
+        accumulator.crítico += 1
+      } else if (item.score >= 51) {
+        accumulator.alto += 1
+      } else if (item.score >= 31) {
+        accumulator.moderado += 1
+      } else {
+        accumulator.baixo += 1
+      }
+      return accumulator
+    },
+    { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
+  )
 }
 
 export default App
