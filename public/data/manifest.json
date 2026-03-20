@@ -1,0 +1,15 @@
+{
+  "snapshot_id": "2026-03-20T13-55-18",
+  "generated_at": "2026-03-20T13:55:18-03:00",
+  "source_repo": "Report Preview",
+  "source_commit": "0f58ed6",
+  "model_label": "ELITE P10",
+  "model_architecture": "Deep ST-GAT Elite (Regionalizado)",
+  "momentum_window_days": 14,
+  "regions": [
+    "fortaleza",
+    "rmf",
+    "interior"
+  ],
+  "notes": "Snapshot estático publicado manualmente"
+}

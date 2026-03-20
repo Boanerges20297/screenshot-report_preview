@@ -1,0 +1,6068 @@
+{
+  "rmf:CAUCAIA": {
+    "name": "CAUCAIA",
+    "municipality": "CAUCAIA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 14,
+    "momentum_7d": 0.0,
+    "momentum_14d": 2.0,
+    "critical_streets": "RUA CORONEL CORREIA, S/N",
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 14. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.00.",
+    "risk_score": 98.0,
+    "status": "CRÍTICO"
+  },
+  "interior:ITAPAJE": {
+    "name": "ITAPAJE",
+    "municipality": "ITAPAJE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COMUNIDADE SAO FRANCISCO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARNAUBA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 89.00.",
+    "risk_score": 89.0,
+    "status": "CRÍTICO"
+  },
+  "fortaleza:BARROSO": {
+    "name": "BARROSO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 2,
+    "momentum_7d": -2.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA EST. DO ITAPERI",
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Tensão territorial atual em 79.00.",
+    "risk_score": 79.0,
+    "status": "CRÍTICO"
+  },
+  "interior:IGUATU": {
+    "name": "IGUATU",
+    "municipality": "IGUATU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "IGUATU",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 79.00.",
+    "risk_score": 79.0,
+    "status": "CRÍTICO"
+  },
+  "rmf:MARACANAU": {
+    "name": "MARACANAU",
+    "municipality": "MARACANAU",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 14,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JARI",
+        "score": 32
+      },
+      {
+        "cvli": 0,
+        "loc": "ALVORADA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MUCUNA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RESIDENCIAL JABUTI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA NOVA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BOM JESUS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JAGATA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DA MANGUEIRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MULTIRAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR A",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível crítico. Eventos exógenos recentes: 14. Tensão territorial atual em 75.70.",
+    "risk_score": 75.7,
+    "status": "CRÍTICO"
+  },
+  "interior:GROAIRAS": {
+    "name": "GROAIRAS",
+    "municipality": "GROAIRAS",
+    "region": "interior",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "GROAIRAS",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível alto. Tensão territorial atual em 69.60.",
+    "risk_score": 69.6,
+    "status": "ALTO"
+  },
+  "interior:TIANGUA": {
+    "name": "TIANGUA",
+    "municipality": "TIANGUA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA MAESTRO QUINCAS BEZERRIL",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "OLINDA UBAJARA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível alto. Tensão territorial atual em 63.80.",
+    "risk_score": 63.8,
+    "status": "ALTO"
+  },
+  "fortaleza:BARRA DO CEARA": {
+    "name": "BARRA DO CEARÁ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
+    "summary": "Território em nível alto. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 62.50.",
+    "risk_score": 62.5,
+    "status": "ALTO"
+  },
+  "fortaleza:ANTONIO BEZERRA": {
+    "name": "ANTÔNIO BEZERRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 2.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível alto. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 61.50.",
+    "risk_score": 61.5,
+    "status": "ALTO"
+  },
+  "interior:SOBRAL": {
+    "name": "SOBRAL",
+    "municipality": "SOBRAL",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA FRANCISCO DAS CHAGAS BARRETO LIMA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA FRANCISCO EVANDRO SOUSA FILHO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "COMUNIDADE DO GATO MORTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA TABELIÃO ILDEFONSO CAVALCANTE",
+        "score": 3
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA DOUTOR JOÃO DO MONTE",
+        "score": 2
+      }
+    ],
+    "summary": "Território em nível alto. Tensão territorial atual em 59.40.",
+    "risk_score": 59.4,
+    "status": "ALTO"
+  },
+  "interior:JUAZEIRO DO NORTE": {
+    "name": "JUAZEIRO DO NORTE",
+    "municipality": "JUAZEIRO DO NORTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 3,
+        "loc": "JUAZEIRO DO NORTE",
+        "score": 9
+      },
+      {
+        "cvli": 1,
+        "loc": "AVENIDA NOSSA SENHORA APARECIDA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA DO SEMINÁRIO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "HORTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTO ANTONIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA SECA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RESIDENCIAL NOSSA SENHORA DAS DORES",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível alto. Tensão territorial atual em 55.90.",
+    "risk_score": 55.9,
+    "status": "ALTO"
+  },
+  "interior:VICOSA DO CEARA": {
+    "name": "VICOSA DO CEARA",
+    "municipality": "VICOSA DO CEARA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Tensão territorial atual em 49.90.",
+    "risk_score": 49.9,
+    "status": "MODERADO"
+  },
+  "interior:LIMOEIRO DO NORTE": {
+    "name": "LIMOEIRO DO NORTE",
+    "municipality": "LIMOEIRO DO NORTE",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "CE-265",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTA MARIA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LIMOEIRO DO NORTE",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 49.00.",
+    "risk_score": 49.0,
+    "status": "MODERADO"
+  },
+  "fortaleza:CANINDEZINHO": {
+    "name": "CANINDEZINHO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 6,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 6. Tensão territorial atual em 47.10.",
+    "risk_score": 47.1,
+    "status": "MODERADO"
+  },
+  "interior:ARATUBA": {
+    "name": "ARATUBA",
+    "municipality": "ARATUBA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Tensão territorial atual em 45.40.",
+    "risk_score": 45.4,
+    "status": "MODERADO"
+  },
+  "interior:AURORA": {
+    "name": "AURORA",
+    "municipality": "AURORA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 1,
+    "recent_exogenous": 0,
+    "momentum_7d": 1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CAMPOS",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENEDITO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "RECREIO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "ARACA",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 43.90.",
+    "risk_score": 43.9,
+    "status": "MODERADO"
+  },
+  "interior:BATURITE": {
+    "name": "BATURITE",
+    "municipality": "BATURITE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ALTO ALEGRE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DA CRUZ",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA SÃO FRANCISCO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 41.80.",
+    "risk_score": 41.8,
+    "status": "MODERADO"
+  },
+  "fortaleza:MONDUBIM": {
+    "name": "MONDUBIM",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 41.00.",
+    "risk_score": 41.0,
+    "status": "MODERADO"
+  },
+  "fortaleza:ANCURI": {
+    "name": "ANCURI",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 0,
+    "momentum_7d": -2.0,
+    "momentum_14d": 3.0,
+    "critical_streets": "AV. DIONISIO LEONEL AGUIAR",
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 40.40.",
+    "risk_score": 40.4,
+    "status": "MODERADO"
+  },
+  "interior:CARIRE": {
+    "name": "CARIRE",
+    "municipality": "CARIRE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "CARIRE",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 38.30.",
+    "risk_score": 38.3,
+    "status": "MODERADO"
+  },
+  "interior:VARZEA ALEGRE": {
+    "name": "VARZEA ALEGRE",
+    "municipality": "VARZEA ALEGRE",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "VILA PERI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JUREMAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTO ANTONIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VARJOTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RIACHINHO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PATOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA CACILDA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "GROSSOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ZEZINHO DA COSTA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 38.30.",
+    "risk_score": 38.3,
+    "status": "MODERADO"
+  },
+  "fortaleza:MESSEJANA": {
+    "name": "MESSEJANA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 4,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CAIO FACO, 791, CURIO",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 4. Tensão territorial atual em 37.80.",
+    "risk_score": 37.8,
+    "status": "MODERADO"
+  },
+  "fortaleza:CURIO": {
+    "name": "CURIÓ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. WASHINGTON SOARES, 7250",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 37.50.",
+    "risk_score": 37.5,
+    "status": "MODERADO"
+  },
+  "interior:IRACEMA": {
+    "name": "IRACEMA",
+    "municipality": "IRACEMA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "IRACEMA",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 36.90.",
+    "risk_score": 36.9,
+    "status": "MODERADO"
+  },
+  "interior:MILAGRES": {
+    "name": "MILAGRES",
+    "municipality": "MILAGRES",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Tensão territorial atual em 36.50.",
+    "risk_score": 36.5,
+    "status": "MODERADO"
+  },
+  "fortaleza:NOVO MONDUBIM": {
+    "name": "NOVO MONDUBIM",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Tensão territorial atual em 35.80.",
+    "risk_score": 35.8,
+    "status": "MODERADO"
+  },
+  "fortaleza:ALTO ALEGRE": {
+    "name": "ALTO ALEGRE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA JORNALISTA VICENTE LOIOLA, RUA URBANO TEIXEIRA DE MENEZES, S/N",
+    "summary": "Território em nível moderado. Tensão territorial atual em 34.90.",
+    "risk_score": 34.9,
+    "status": "MODERADO"
+  },
+  "interior:UMIRIM": {
+    "name": "UMIRIM",
+    "municipality": "UMIRIM",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "UMIRIM",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 34.80.",
+    "risk_score": 34.8,
+    "status": "MODERADO"
+  },
+  "interior:SOLONOPOLE": {
+    "name": "SOLONOPOLE",
+    "municipality": "SOLONOPOLE",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 2,
+        "loc": "SOLONOPOLE",
+        "score": 6
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 34.50.",
+    "risk_score": 34.5,
+    "status": "MODERADO"
+  },
+  "fortaleza:SIQUEIRA": {
+    "name": "SIQUEIRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 2,
+    "momentum_7d": 1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": "RUA JOSE MAURICIO, 858",
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 34.10.",
+    "risk_score": 34.1,
+    "status": "MODERADO"
+  },
+  "interior:CAPISTRANO": {
+    "name": "CAPISTRANO",
+    "municipality": "CAPISTRANO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível moderado. Tensão territorial atual em 32.40.",
+    "risk_score": 32.4,
+    "status": "MODERADO"
+  },
+  "interior:GRACA": {
+    "name": "GRACA",
+    "municipality": "GRACA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "GRACA",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 30.80.",
+    "risk_score": 30.8,
+    "status": "BAIXO"
+  },
+  "interior:PALMACIA": {
+    "name": "PALMACIA",
+    "municipality": "PALMACIA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 29.20.",
+    "risk_score": 29.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:PLANALTO AYRTON SENNA": {
+    "name": "PLANALTO AYRTON SENNA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ACRE, 220, RUA DAS PALMAS, 433, CIDADE NOVA",
+    "summary": "Território em nível baixo. Tensão territorial atual em 28.90.",
+    "risk_score": 28.9,
+    "status": "BAIXO"
+  },
+  "interior:PEREIRO": {
+    "name": "PEREIRO",
+    "municipality": "PEREIRO",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 27.40.",
+    "risk_score": 27.4,
+    "status": "BAIXO"
+  },
+  "interior:JAGUARUANA": {
+    "name": "JAGUARUANA",
+    "municipality": "JAGUARUANA",
+    "region": "interior",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "VILA ZE AUGUSTO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "JAGUARUANA",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 27.30.",
+    "risk_score": 27.3,
+    "status": "BAIXO"
+  },
+  "interior:NOVA OLINDA": {
+    "name": "NOVA OLINDA",
+    "municipality": "NOVA OLINDA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 27.20.",
+    "risk_score": 27.2,
+    "status": "BAIXO"
+  },
+  "interior:UBAJARA": {
+    "name": "UBAJARA",
+    "municipality": "UBAJARA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 26.60.",
+    "risk_score": 26.6,
+    "status": "BAIXO"
+  },
+  "fortaleza:BOM JARDIM": {
+    "name": "BOM JARDIM",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 0,
+    "momentum_7d": 1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 26.10.",
+    "risk_score": 26.1,
+    "status": "BAIXO"
+  },
+  "interior:BANABUIU": {
+    "name": "BANABUIU",
+    "municipality": "BANABUIU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "VILA BRASILIA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 26.00.",
+    "risk_score": 26.0,
+    "status": "BAIXO"
+  },
+  "interior:ITAREMA": {
+    "name": "ITAREMA",
+    "municipality": "ITAREMA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 26.00.",
+    "risk_score": 26.0,
+    "status": "BAIXO"
+  },
+  "interior:URUBURETAMA": {
+    "name": "URUBURETAMA",
+    "municipality": "URUBURETAMA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "SEVERINO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 25.20.",
+    "risk_score": 25.2,
+    "status": "BAIXO"
+  },
+  "interior:MUCAMBO": {
+    "name": "MUCAMBO",
+    "municipality": "MUCAMBO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 24.30.",
+    "risk_score": 24.3,
+    "status": "BAIXO"
+  },
+  "interior:FRECHEIRINHA": {
+    "name": "FRECHEIRINHA",
+    "municipality": "FRECHEIRINHA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA FREI ANASTÁCIO",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 24.20.",
+    "risk_score": 24.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:VILA VELHA": {
+    "name": "VILA VELHA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. MOZAR LUCENA, 1400",
+    "summary": "Território em nível baixo. Tensão territorial atual em 23.10.",
+    "risk_score": 23.1,
+    "status": "BAIXO"
+  },
+  "interior:ACARAPE": {
+    "name": "ACARAPE",
+    "municipality": "ACARAPE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ACOPIARA": {
+    "name": "ACOPIARA",
+    "municipality": "ACOPIARA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ALTO SANTO": {
+    "name": "ALTO SANTO",
+    "municipality": "ALTO SANTO",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JARDIM NOVO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ANTONINA DO NORTE": {
+    "name": "ANTONINA DO NORTE",
+    "municipality": "ANTONINA DO NORTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ASSARE": {
+    "name": "ASSARE",
+    "municipality": "ASSARE",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RODOVIA CÉSAR CALS DE OLIVEIRA FILHO",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:CARIRIACU": {
+    "name": "CARIRIACU",
+    "municipality": "CARIRIACU",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "BICO DA ARARA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PALESTINA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PARAISO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MONTE NEGO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JOSE AGUSTINHO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MIRAGEM",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:CEDRO": {
+    "name": "CEDRO",
+    "municipality": "CEDRO",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PLANALTO DOS LEMOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO DE FATIMA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PEGA AVOANTE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JARDIM AFONSO CELSO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "DIVISAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRADO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ACUDE",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:GENERAL SAMPAIO": {
+    "name": "GENERAL SAMPAIO",
+    "municipality": "GENERAL SAMPAIO",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:IBARETAMA": {
+    "name": "IBARETAMA",
+    "municipality": "IBARETAMA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ITAICABA": {
+    "name": "ITAICABA",
+    "municipality": "ITAICABA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "DISTRITO DE LOGRADOURO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "TABULEIRO DO LUNA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BRITO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ITAPIPOCA": {
+    "name": "ITAPIPOCA",
+    "municipality": "ITAPIPOCA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CRUZEIRO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "DOS PICO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "MARANHAO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "VIOLETE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO FRANCISCO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "URBANO TEIXEIRA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SANHARAO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO ALEGRE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "NOVO HORIZONTE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "MOURAO",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:JIJOCA DE JERICOACOARA": {
+    "name": "JIJOCA DE JERICOACOARA",
+    "municipality": "JIJOCA DE JERICOACOARA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:OROS": {
+    "name": "OROS",
+    "municipality": "OROS",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:RERIUTABA": {
+    "name": "RERIUTABA",
+    "municipality": "RERIUTABA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:SANTANA DO ACARAU": {
+    "name": "SANTANA DO ACARAU",
+    "municipality": "SANTANA DO ACARAU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JOAO ALFREDO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO PEDRAGAL",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:SENADOR POMPEU": {
+    "name": "SENADOR POMPEU",
+    "municipality": "SENADOR POMPEU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RODOVIA DO ALGODÃO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DO CRUZEIRO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PANTANAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARACARA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO SAO JOSE",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:TURURU": {
+    "name": "TURURU",
+    "municipality": "TURURU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.80.",
+    "risk_score": 22.8,
+    "status": "BAIXO"
+  },
+  "interior:ITAPIUNA": {
+    "name": "ITAPIUNA",
+    "municipality": "ITAPIUNA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 22.50.",
+    "risk_score": 22.5,
+    "status": "BAIXO"
+  },
+  "rmf:HORIZONTE": {
+    "name": "HORIZONTE",
+    "municipality": "HORIZONTE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "HORIZONTE",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA CATU",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 22.40.",
+    "risk_score": 22.4,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOSE WALTER": {
+    "name": "JOSE WALTER",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA PAU BRASIL S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.10.",
+    "risk_score": 20.1,
+    "status": "BAIXO"
+  },
+  "fortaleza:AEROLANDIA": {
+    "name": "AEROLÂNDIA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:AEROPORTO": {
+    "name": "AEROPORTO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA AEROPORTO S/N, RUA MACIEL FERREIRA DE ARAUJO, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ALDEOTA": {
+    "name": "ALDEOTA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ALTO DA BALANCA": {
+    "name": "ALTO DA BALANÇA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ANTONIO DA ROCHA FREITAS, 1265",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:AMADEU FURTADO": {
+    "name": "AMADEU FURTADO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:AUTRAN NUNES": {
+    "name": "AUTRAN NUNES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BELA VISTA": {
+    "name": "BELA VISTA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA DO COMERCIO, S/N, CENTRO, DISTRITO DE MINEIROLANDIA",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BENFICA": {
+    "name": "BENFICA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA PAULINO NOGUEIRA COM RUA MARECHAL TEODORO",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BOM FUTURO": {
+    "name": "BOM FUTURO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CAIS DO PORTO": {
+    "name": "CAIS DO PORTO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA LINDOIA, 377",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CAJAZEIRAS": {
+    "name": "CAJAZEIRAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CAMBEBA": {
+    "name": "CAMBEBA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CENTRO": {
+    "name": "CENTRO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV ALVES DE FIGUEIREDO, 338, AV CARLOS JEREISSATI, (POSTO TETRA, FRENTE AO SHOPPING MARACANAU), RUA DA LIBERDADE, 153, RUA DEOLINO BARRETO, S/N, RUA FRANCISCO MOURAO LIMA, 208",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CIDADE 2000": {
+    "name": "CIDADE 2000",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RU A CICERO PATRIARCA, 514, RUA JOAO LINS CAVALCANTE, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CIDADE DOS FUNCIONARIOS": {
+    "name": "CIDADE DOS FUNCIONÁRIOS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:COACU": {
+    "name": "COAÇU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA SEIS, 241",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CONJUNTO CEARA I": {
+    "name": "CONJUNTO CEARÁ I",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. J, 2870",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CONJUNTO CEARA II": {
+    "name": "CONJUNTO CEARÁ II",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. J, 2870",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CONJUNTO ESPERANCA": {
+    "name": "CONJUNTO ESPERANÇA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:COUTO FERNANDES": {
+    "name": "COUTO FERNANDES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DAMAS": {
+    "name": "DAMAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. BORGES DE MELO",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DE LOURDES": {
+    "name": "DE LOURDES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DEMOCRITO ROCHA": {
+    "name": "DEMÓCRITO ROCHA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:RACHEL DE QUEIROZ": {
+    "name": "RACHEL DE QUEIROZ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DIAS MACEDO": {
+    "name": "DIAS MACÊDO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. ALBERTO CRAVEIRO, 1480, ESCOLA MUNICIPAL ODILON BRAVEZA",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DIONISIO TORRES": {
+    "name": "DIONÍSIO TORRES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ENGENHEIRO LUCIANO CAVALCANTE": {
+    "name": "ENGENHEIRO LUCIANO CAVALCANTE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA LUIS FABIANO 1, 2506",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:FARIAS BRITO": {
+    "name": "FARIAS BRITO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA FREI HUMBERTO, 57",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:FLORESTA": {
+    "name": "FLORESTA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ANTONIO TOME FILHO",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:FATIMA": {
+    "name": "FÁTIMA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CORONEL PERGENTINO FERREIRA, 182, RUA MARIA DE LOURDES DE CARVALHO, 17, TV. VICENTE VELOSO, 262",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:GENIBAU": {
+    "name": "GENIBAÚ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:GUAJERU": {
+    "name": "GUAJERU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:HENRIQUE JORGE": {
+    "name": "HENRIQUE JORGE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV HERILBADO COSTA , 1411, RUA JOAQUIM MANUEL DE MACEDO, 110",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ITAOCA": {
+    "name": "ITAOCA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ITAPERI": {
+    "name": "ITAPERI",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JARDIM AMERICA": {
+    "name": "JARDIM AMÉRICA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JARDIM CEARENSE": {
+    "name": "JARDIM CEARENSE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JARDIM IRACEMA": {
+    "name": "JARDIM IRACEMA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOAO XXIII": {
+    "name": "JOÃO XXIII",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOAQUIM TAVORA": {
+    "name": "JOAQUIM TÁVORA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOSE BONIFACIO": {
+    "name": "JOSÉ BONIFÁCIO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOSE DE ALENCAR": {
+    "name": "JOSÉ DE ALENCAR",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "TV. ROSIMEIRE, 64, TV. ROSIMEIRE, 83",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JOQUEI CLUBE": {
+    "name": "JÓQUEI CLUBE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:LAGOA REDONDA": {
+    "name": "LAGOA REDONDA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MANOEL SATIRO": {
+    "name": "MANOEL SÁTIRO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MANUEL DIAS BRANCO": {
+    "name": "MANUEL DIAS BRANCO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MARAPONGA": {
+    "name": "MARAPONGA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. SEBASTIAO DE ABREU COM RUA MIMOSA COELHO, RUA NEREU RAMOS, 300",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MEIRELES": {
+    "name": "MEIRELES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MONTE CASTELO": {
+    "name": "MONTE CASTELO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA JOAQUIM TEODORO DA SILVA, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MONTESE": {
+    "name": "MONTESE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA JOAQUIM TEODORO DA SILVA, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MOURA BRASIL": {
+    "name": "MOURA BRASIL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MUCURIPE": {
+    "name": "MUCURIPE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:OLAVO OLIVEIRA": {
+    "name": "OLAVO OLIVEIRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PANAMERICANO": {
+    "name": "PANAMERICANO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA LUIS FABIANO 1, 2506",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PAPICU": {
+    "name": "PAPICU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARANGABA": {
+    "name": "PARANGABA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA MONSENHOR SALVIANO, 416",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE ARAXA": {
+    "name": "PARQUE ARAXÁ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE MANIBURA": {
+    "name": "PARQUE MANIBURA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE PRESIDENTE VARGAS": {
+    "name": "PARQUE PRESIDENTE VARGAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE SANTA ROSA": {
+    "name": "PARQUE SANTA ROSA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUELANDIA": {
+    "name": "PARQUELÂNDIA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARREAO": {
+    "name": "PARREÃO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:GUARARAPES": {
+    "name": "GUARARAPES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PAUPINA": {
+    "name": "PAUPINA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PICI": {
+    "name": "PICI",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA BRASILIA, 927",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRAIA DE IRACEMA": {
+    "name": "PRAIA DE IRACEMA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRAIA DO FUTURO I": {
+    "name": "PRAIA DO FUTURO I",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRAIA DO FUTURO II": {
+    "name": "PRAIA DO FUTURO II",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PREFEITO JOSE WALTER": {
+    "name": "PREFEITO JOSÉ WALTER",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA 8 H",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRESIDENTE KENNEDY": {
+    "name": "PRESIDENTE KENNEDY",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:RODOLFO TEOFILO": {
+    "name": "RODOLFO TEÓFILO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SABIAGUABA": {
+    "name": "SABIAGUABA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RODOVIA CE-010",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SALINAS": {
+    "name": "SALINAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA PROJETADA 10, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAPIRANGA / COITE": {
+    "name": "SAPIRANGA / COITÉ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SERRINHA": {
+    "name": "SERRINHA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "TV. SAO CARLOS, 80",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAO BENTO": {
+    "name": "SÃO BENTO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CHIQUINHA MACEDO, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAO GERARDO": {
+    "name": "SÃO GERARDO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAO JOAO DO TAUAPE": {
+    "name": "SÃO JOÃO DO TAUAPE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:VARJOTA": {
+    "name": "VARJOTA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ELLERY": {
+    "name": "ELLERY",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA RAQUEL DE HOLANDA, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:VILA PERI": {
+    "name": "VILA PERI",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "DISTRITO DE SEVERINO",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:VILA UNIAO": {
+    "name": "VILA UNIĂO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "DISTRITO DE SEVERINO",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ALVARO WEYNE": {
+    "name": "ÁLVARO WEYNE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. TEN LISBOA, 3610, RUA CURIO, 1282",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:GUADALAJARA": {
+    "name": "GUADALAJARA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:IPARANA": {
+    "name": "IPARANA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:MARECHAL RONDON": {
+    "name": "MARECHAL RONDON",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "TRAVESSA PONTE PRETA, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE ALBANO": {
+    "name": "PARQUE ALBANO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE DAS NACOES": {
+    "name": "PARQUE DAS NAÇÕES",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE LEBLON": {
+    "name": "PARQUE LEBLON",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE SOLEDADE": {
+    "name": "PARQUE SOLEDADE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:TABAPUA": {
+    "name": "TABAPUÁ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CARIRI, 2160",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:URUCUTUBA": {
+    "name": "URUCUTUBA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:COCO": {
+    "name": "COCÓ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA PADRE CICERO, 720, TRAVESSA MAJOR PEDRO ALCANTARA, 259",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SANTA CLARA": {
+    "name": "SANTA CLARA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRECABURA": {
+    "name": "PRECABURA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CARARU": {
+    "name": "CARARU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ARACAPE": {
+    "name": "ARACAPÉ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA DO POCO, 48",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:DIF III": {
+    "name": "DIF III",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CIDADE NOVA": {
+    "name": "CIDADE NOVA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:INDUSTRIAL": {
+    "name": "INDUSTRIAL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:ALTO ALEGRE II": {
+    "name": "ALTO ALEGRE II",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ANTONIO DA ROCHA FREITAS, 1265",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ABAIARA": {
+    "name": "ABAIARA",
+    "municipality": "ABAIARA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ACARAU": {
+    "name": "ACARAÚ",
+    "municipality": "ACARAÚ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "DAS PIRANHAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PEDRINHA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MONGUBAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CORREGO DO URUBU",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MORADA NOVA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BURITI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PERSEGUIDAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "AVENIDA JOSÉ GIFFONE DA SILVEIRA",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:AIUABA": {
+    "name": "AIUABA",
+    "municipality": "AIUABA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ALCANTARAS": {
+    "name": "ALCÂNTARAS",
+    "municipality": "ALCÂNTARAS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ALTANEIRA": {
+    "name": "ALTANEIRA",
+    "municipality": "ALTANEIRA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:AMONTADA": {
+    "name": "AMONTADA",
+    "municipality": "AMONTADA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:APUIARES": {
+    "name": "APUIARÉS",
+    "municipality": "APUIARÉS",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ARACATI": {
+    "name": "ARACATI",
+    "municipality": "ARACATI",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA PARGO",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "ROTA DO SOL NASCENTE",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "MORRINHOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "OLHO D AGUA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CACIMBA FUNDA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VELAME",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA DOS PASSOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "OUTEIRO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JARDIM",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTA TEREZINHA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ARACOIABA": {
+    "name": "ARACOIABA",
+    "municipality": "ARACOIABA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ALTO DA MACACA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA PALHANO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ARARENDA": {
+    "name": "ARARENDÁ",
+    "municipality": "ARARENDÁ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ARARIPE": {
+    "name": "ARARIPE",
+    "municipality": "ARARIPE",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ARNEIROZ": {
+    "name": "ARNEIROZ",
+    "municipality": "ARNEIROZ",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BAIXIO": {
+    "name": "BAIXIO",
+    "municipality": "BAIXIO",
+    "region": "interior",
+    "faction": "OKAIDA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BARBALHA": {
+    "name": "BARBALHA",
+    "municipality": "BARBALHA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "AVENIDA PAULO MARQUÊS",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DA ALEGRIA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DO ROSARIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO DA MALVINAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ESTRELA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BULANDEIRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BARREIRA": {
+    "name": "BARREIRA",
+    "municipality": "BARREIRA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BARRO": {
+    "name": "BARRO",
+    "municipality": "BARRO",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "SAO JOSE",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BARROQUINHA": {
+    "name": "BARROQUINHA",
+    "municipality": "BARROQUINHA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BELA CRUZ": {
+    "name": "BELA CRUZ",
+    "municipality": "BELA CRUZ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BOA VIAGEM": {
+    "name": "BOA VIAGEM",
+    "municipality": "BOA VIAGEM",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA CORONEL LUIZ AMARO BEZERRA",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO NOSSA SENHORA DE FATIMA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "RECREIO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA AZUL",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:BREJO SANTO": {
+    "name": "BREJO SANTO",
+    "municipality": "BREJO SANTO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "PASSAGEM DA PEDRA, S/N",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CAMOCIM": {
+    "name": "CAMOCIM",
+    "municipality": "CAMOCIM",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "GURIU",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MACEIO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CAMPOS SALES": {
+    "name": "CAMPOS SALES",
+    "municipality": "CAMPOS SALES",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CANINDE": {
+    "name": "CANINDÉ",
+    "municipality": "CANINDÉ",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA DOUTOR PEIXOTO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "MONTE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DA GUARAMIRANGA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CAMPINAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PALESTINA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MINHA CASA MINHA VIDA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CARIDADE": {
+    "name": "CARIDADE",
+    "municipality": "CARIDADE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CARIUS": {
+    "name": "CARIÚS",
+    "municipality": "CARIÚS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CARNAUBAL": {
+    "name": "CARNAUBAL",
+    "municipality": "CARNAUBAL",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CATARINA": {
+    "name": "CATARINA",
+    "municipality": "CATARINA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA MARIA CECÍLIA DE CARVALHO",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CATUNDA": {
+    "name": "CATUNDA",
+    "municipality": "CATUNDA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CHAVAL": {
+    "name": "CHAVAL",
+    "municipality": "CHAVAL",
+    "region": "interior",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CHORO": {
+    "name": "CHORÓ",
+    "municipality": "CHORÓ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:COREAU": {
+    "name": "COREAÚ",
+    "municipality": "COREAÚ",
+    "region": "interior",
+    "faction": "DISPUTA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 2,
+        "loc": "RODOVIA RAIMUNDO CUNHA BRITO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "AROEIRAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ARAQUEN",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "UBAUNA",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CRATO": {
+    "name": "CRATO",
+    "municipality": "CRATO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "AVENIDA THOMAZ OSTERNE DE ALENCAR",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "ALTO DA PENHA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA FRANCISCO BEZERRA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "TRAVESSA CARIRIAÇU",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "GESSO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA LOBOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CONJUNTO SAO BENTO 1",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA ENCANTADA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CROATA": {
+    "name": "CROATÁ",
+    "municipality": "CROATÁ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:CRUZ": {
+    "name": "CRUZ",
+    "municipality": "CRUZ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:DEPUTADO IRAPUAN PINHEIRO": {
+    "name": "DEPUTADO IRAPUAN PINHEIRO",
+    "municipality": "DEPUTADO IRAPUAN PINHEIRO",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "DEPUTADO IRAPUAN PINHEIRO",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ERERE": {
+    "name": "ERERÉ",
+    "municipality": "ERERÉ",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:FORQUILHA": {
+    "name": "FORQUILHA",
+    "municipality": "FORQUILHA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CIDADE DE DEUS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PASSARE",
+        "score": 1
+      },
+      {
+        "cvli": 0,
+        "loc": "GENIBAU",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:FORTIM": {
+    "name": "FORTIM",
+    "municipality": "FORTIM",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "BARRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MACEIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VICOSA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "FORTIM",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:GRANJA": {
+    "name": "GRANJA",
+    "municipality": "GRANJA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:GRANJEIRO": {
+    "name": "GRANJEIRO",
+    "municipality": "GRANJEIRO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:GUARACIABA DO NORTE": {
+    "name": "GUARACIABA DO NORTE",
+    "municipality": "GUARACIABA DO NORTE",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:GUARAMIRANGA": {
+    "name": "GUARAMIRANGA",
+    "municipality": "GUARAMIRANGA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:HIDROLANDIA": {
+    "name": "HIDROLÂNDIA",
+    "municipality": "HIDROLÂNDIA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IBIAPINA": {
+    "name": "IBIAPINA",
+    "municipality": "IBIAPINA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IBICUITINGA": {
+    "name": "IBICUITINGA",
+    "municipality": "IBICUITINGA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ICAPUI": {
+    "name": "ICAPUÍ",
+    "municipality": "ICAPUÍ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PRAIA DA REDONDA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "NOVA BELEM",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "IBICUITABA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ICO": {
+    "name": "ICÓ",
+    "municipality": "ICÓ",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "AVENIDA JOSEFA NOGUEIRA MONTEIRO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:INDEPENDENCIA": {
+    "name": "INDEPENDÊNCIA",
+    "municipality": "INDEPENDÊNCIA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IPAPORANGA": {
+    "name": "IPAPORANGA",
+    "municipality": "IPAPORANGA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IPAUMIRIM": {
+    "name": "IPAUMIRIM",
+    "municipality": "IPAUMIRIM",
+    "region": "interior",
+    "faction": "OKAIDA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IPU": {
+    "name": "IPU",
+    "municipality": "IPU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IPUEIRAS": {
+    "name": "IPUEIRAS",
+    "municipality": "IPUEIRAS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA ANTÔNIO SILVA LIMA",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:IRAUCUBA": {
+    "name": "IRAUÇUBA",
+    "municipality": "IRAUÇUBA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:ITATIRA": {
+    "name": "ITATIRA",
+    "municipality": "ITATIRA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "LAGOA DO MATO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JAGUARETAMA": {
+    "name": "JAGUARETAMA",
+    "municipality": "JAGUARETAMA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JAGUARIBARA": {
+    "name": "JAGUARIBARA",
+    "municipality": "JAGUARIBARA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JAGUARIBE": {
+    "name": "JAGUARIBE",
+    "municipality": "JAGUARIBE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JARDIM": {
+    "name": "JARDIM",
+    "municipality": "JARDIM",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JATI": {
+    "name": "JATI",
+    "municipality": "JATI",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:JUCAS": {
+    "name": "JUCÁS",
+    "municipality": "JUCÁS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:LAVRAS DA MANGABEIRA": {
+    "name": "LAVRAS DA MANGABEIRA",
+    "municipality": "LAVRAS DA MANGABEIRA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MADALENA": {
+    "name": "MADALENA",
+    "municipality": "MADALENA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MARCO": {
+    "name": "MARCO",
+    "municipality": "MARCO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MARTINOPOLE": {
+    "name": "MARTINÓPOLE",
+    "municipality": "MARTINÓPOLE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA RUFINO PEREIRA",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MASSAPE": {
+    "name": "MASSAPÊ",
+    "municipality": "MASSAPÊ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MAURITI": {
+    "name": "MAURITI",
+    "municipality": "MAURITI",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "MONTE ALEGRE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA II",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "DOM BOSCO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA I",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "PALESTINA DO CARIRI",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MERUOCA": {
+    "name": "MERUOCA",
+    "municipality": "MERUOCA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MILHA": {
+    "name": "MILHÃ",
+    "municipality": "MILHÃ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MIRAIMA": {
+    "name": "MIRAÍMA",
+    "municipality": "MIRAÍMA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MISSAO VELHA": {
+    "name": "MISSÃO VELHA",
+    "municipality": "MISSÃO VELHA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA ONZE DE JULHO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "ACOAFA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MOMBACA": {
+    "name": "MOMBAÇA",
+    "municipality": "MOMBAÇA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "VILA SAO JOSE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA IRACEMA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA SAO DOMINGOS",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA ANANIAS AMARAL",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MONSENHOR TABOSA": {
+    "name": "MONSENHOR TABOSA",
+    "municipality": "MONSENHOR TABOSA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "TRIZIDELA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRADO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JUCAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARRAPICHO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "QUADRA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MORADA NOVA": {
+    "name": "MORADA NOVA",
+    "municipality": "MORADA NOVA",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ARUARU",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR NH3",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR NH5",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR 1",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BALNEARIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PEDRAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR NH4",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VAZANTES",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MORAUJO": {
+    "name": "MORAÚJO",
+    "municipality": "MORAÚJO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MORRINHOS": {
+    "name": "MORRINHOS",
+    "municipality": "MORRINHOS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:MULUNGU": {
+    "name": "MULUNGU",
+    "municipality": "MULUNGU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:NOVA RUSSAS": {
+    "name": "NOVA RUSSAS",
+    "municipality": "NOVA RUSSAS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "NOVA RUSSAS",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:NOVO ORIENTE": {
+    "name": "NOVO ORIENTE",
+    "municipality": "NOVO ORIENTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:OCARA": {
+    "name": "OCARA",
+    "municipality": "OCARA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PACOTI": {
+    "name": "PACOTI",
+    "municipality": "PACOTI",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PACUJA": {
+    "name": "PACUJÁ",
+    "municipality": "PACUJÁ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PALHANO": {
+    "name": "PALHANO",
+    "municipality": "PALHANO",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CANTO DA CRUZ",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO JOSE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO SAO LUIS",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PARAMBU": {
+    "name": "PARAMBU",
+    "municipality": "PARAMBU",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "SANTA RITA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BELEZA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PLANALTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA NOVA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CAIXA D AGUA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO BRASILIA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PARAMOTI": {
+    "name": "PARAMOTI",
+    "municipality": "PARAMOTI",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ARRUDAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MORRO DO MOINHO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SERROTE",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PEDRA BRANCA": {
+    "name": "PEDRA BRANCA",
+    "municipality": "PEDRA BRANCA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CHIQUINHA NOGUEIRA, 03, RUA LUIZ VASCONCELOS, QUADRA 22, CASA 07",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PENAFORTE": {
+    "name": "PENAFORTE",
+    "municipality": "PENAFORTE",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PENTECOSTE": {
+    "name": "PENTECOSTE",
+    "municipality": "PENTECOSTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PIQUET CARNEIRO": {
+    "name": "PIQUET CARNEIRO",
+    "municipality": "PIQUET CARNEIRO",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PIRES FERREIRA": {
+    "name": "PIRES FERREIRA",
+    "municipality": "PIRES FERREIRA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PORANGA": {
+    "name": "PORANGA",
+    "municipality": "PORANGA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:PORTEIRAS": {
+    "name": "PORTEIRAS",
+    "municipality": "PORTEIRAS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:POTIRETAMA": {
+    "name": "POTIRETAMA",
+    "municipality": "POTIRETAMA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:QUITERIANOPOLIS": {
+    "name": "QUITERIANÓPOLIS",
+    "municipality": "QUITERIANÓPOLIS",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:QUIXADA": {
+    "name": "QUIXADÁ",
+    "municipality": "QUIXADÁ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA ABRÃO BAQUIT",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "CAMPO NOVO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COHAB",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PLANALTO RENASCER",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PUTIU",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARRASCAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JUATAMA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CAMPO VELHO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COMBATE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "IRAJA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:QUIXELO": {
+    "name": "QUIXELÔ",
+    "municipality": "QUIXELÔ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:QUIXERAMOBIM": {
+    "name": "QUIXERAMOBIM",
+    "municipality": "QUIXERAMOBIM",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CONJUNTO ESPERANCA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:QUIXERE": {
+    "name": "QUIXERÉ",
+    "municipality": "QUIXERÉ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA MESTRE FELIPE",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:REDENCAO": {
+    "name": "REDENÇÃO",
+    "municipality": "REDENÇÃO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ALTO DE SANTA RITA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DO BODE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BOA FE",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:RUSSAS": {
+    "name": "RUSSAS",
+    "municipality": "RUSSAS",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "BOQUEIRAO DE CESARIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PEIXE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SITIO CANTO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "CENTRO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SABOEIRO": {
+    "name": "SABOEIRO",
+    "municipality": "SABOEIRO",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SALITRE": {
+    "name": "SALITRE",
+    "municipality": "SALITRE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SANTANA DO CARIRI": {
+    "name": "SANTANA DO CARIRI",
+    "municipality": "SANTANA DO CARIRI",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SANTA QUITERIA": {
+    "name": "SANTA QUITÉRIA",
+    "municipality": "SANTA QUITÉRIA",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SAO BENEDITO": {
+    "name": "SÃO BENEDITO",
+    "municipality": "SÃO BENEDITO",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PIMENTEIRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MORRO",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SAO JOAO DO JAGUARIBE": {
+    "name": "SÃO JOÃO DO JAGUARIBE",
+    "municipality": "SÃO JOÃO DO JAGUARIBE",
+    "region": "interior",
+    "faction": "TCP/GDE",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:SENADOR SA": {
+    "name": "SENADOR SÁ",
+    "municipality": "SENADOR SÁ",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:TABULEIRO DO NORTE": {
+    "name": "TABULEIRO DO NORTE",
+    "municipality": "TABULEIRO DO NORTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA B",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:TAMBORIL": {
+    "name": "TAMBORIL",
+    "municipality": "TAMBORIL",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:TARRAFAS": {
+    "name": "TARRAFAS",
+    "municipality": "TARRAFAS",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:TAUA": {
+    "name": "TAUÁ",
+    "municipality": "TAUÁ",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "AVENIDA CHERMONT ALVES DE OLIVEIRA",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA BIBIANA PEREIRA",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:UMARI": {
+    "name": "UMARI",
+    "municipality": "UMARI",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "interior:URUOCA": {
+    "name": "URUOCA",
+    "municipality": "URUOCA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "AVENIDA BRASÍLIA",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.00.",
+    "risk_score": 20.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAO MIGUEL": {
+    "name": "SÃO MIGUEL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 19.60.",
+    "risk_score": 19.6,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE IRACEMA": {
+    "name": "PARQUE IRACEMA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 19.20.",
+    "risk_score": 19.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE SAO JOSE": {
+    "name": "PARQUE SĂO JOSÉ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA SANTA LIDUINA, 58, VILA ROSANGELA",
+    "summary": "Território em nível baixo. Tensão territorial atual em 17.20.",
+    "risk_score": 17.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:JANGURUSSU": {
+    "name": "JANGURUSSU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 17.00.",
+    "risk_score": 17.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CARLITO PAMPLONA": {
+    "name": "CARLITO PAMPLONA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 16.50.",
+    "risk_score": 16.5,
+    "status": "BAIXO"
+  },
+  "fortaleza:PASSARE": {
+    "name": "PASSARÉ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 16.40.",
+    "risk_score": 16.4,
+    "status": "BAIXO"
+  },
+  "fortaleza:PADRE ANDRADE": {
+    "name": "PADRE ANDRADE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 15.90.",
+    "risk_score": 15.9,
+    "status": "BAIXO"
+  },
+  "fortaleza:EDSON QUEIROZ": {
+    "name": "EDSON QUEIROZ",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA LUCAS FRANCISCO ANTONIO, RUA MARTINS DE CASTRO, 482",
+    "summary": "Território em nível baixo. Tensão territorial atual em 12.90.",
+    "risk_score": 12.9,
+    "status": "BAIXO"
+  },
+  "rmf:ITAITINGA": {
+    "name": "ITAITINGA",
+    "municipality": "ITAITINGA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "ANCURI",
+        "score": 3
+      },
+      {
+        "cvli": 0,
+        "loc": "PEDRAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO ALTO DO BODE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARAPIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MULTIRAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAJE DOS GATOS",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:PACAJUS": {
+    "name": "PACAJUS",
+    "municipality": "PACAJUS",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "PACAJUS",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:PACATUBA": {
+    "name": "PACATUBA",
+    "municipality": "PACATUBA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR H",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR F",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR G",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA RICA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "QUIOBAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CACHOEIRA DO PARAISO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRACINHA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO SAO LUIS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA 87",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:PARAIPABA": {
+    "name": "PARAIPABA",
+    "municipality": "PARAIPABA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "SETOR C1",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR C2",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CAMBOAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BOA VISTA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SETOR E",
+        "score": 8
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:PINDORETAMA": {
+    "name": "PINDORETAMA",
+    "municipality": "PINDORETAMA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:SAO LUIS DO CURU": {
+    "name": "SAO LUIS DO CURU",
+    "municipality": "SAO LUIS DO CURU",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PANTANAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO LUIZ DO CURU",
+        "score": 5
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.20.",
+    "risk_score": 10.2,
+    "status": "BAIXO"
+  },
+  "rmf:EUSEBIO": {
+    "name": "EUSEBIO",
+    "municipality": "EUSEBIO",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JABUTI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ANCURI",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:CONJUNTO PALMEIRAS": {
+    "name": "CONJUNTO PALMEIRAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. VAL PARAISO, 598",
+    "summary": "Território em nível baixo. Tensão territorial atual em 9.60.",
+    "risk_score": 9.6,
+    "status": "BAIXO"
+  },
+  "interior:TEJUCUOCA": {
+    "name": "TEJUCUOCA",
+    "municipality": "TEJUCUOCA",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA JOSÉ ANDRADE DE SOUSA",
+        "score": 4
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 8.50.",
+    "risk_score": 8.5,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE SANTA MARIA": {
+    "name": "PARQUE SANTA MARIA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 7.90.",
+    "risk_score": 7.9,
+    "status": "BAIXO"
+  },
+  "fortaleza:GRANJA PORTUGAL": {
+    "name": "GRANJA PORTUGAL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 6.00.",
+    "risk_score": 6.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BONSUCESSO": {
+    "name": "BONSUCESSO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.60.",
+    "risk_score": 4.6,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE DOIS IRMAOS": {
+    "name": "PARQUE DOIS IRMĂOS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.30.",
+    "risk_score": 4.3,
+    "status": "BAIXO"
+  },
+  "fortaleza:VICENTE PINZON": {
+    "name": "VICENTE PINZÓN",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA DA LUA (SEM NUMERO)",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.20.",
+    "risk_score": 4.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:QUINTINO CUNHA": {
+    "name": "QUINTINO CUNHA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA DONA LUCIA PINHEIRO, 2410",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.50.",
+    "risk_score": 3.5,
+    "status": "BAIXO"
+  },
+  "fortaleza:DOM LUSTOSA": {
+    "name": "DOM LUSTOSA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.20.",
+    "risk_score": 3.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRAIA DO FUTURO": {
+    "name": "PRAIA DO FUTURO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.00.",
+    "risk_score": 3.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:GRANJA LISBOA": {
+    "name": "GRANJA LISBOA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.80.",
+    "risk_score": 2.8,
+    "status": "BAIXO"
+  },
+  "fortaleza:JARDIM GUANABARA": {
+    "name": "JARDIM GUANABARA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 1.20.",
+    "risk_score": 1.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:JARDIM DAS OLIVEIRAS": {
+    "name": "JARDIM DAS OLIVEIRAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 0.50.",
+    "risk_score": 0.5,
+    "status": "BAIXO"
+  },
+  "fortaleza:CRISTO REDENTOR": {
+    "name": "CRISTO REDENTOR",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA MARCILIO DIAS, 1615",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PEDRAS": {
+    "name": "PEDRAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PIRAMBU": {
+    "name": "PIRAMBU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA NOSSA SENHORA DAS GRACAS, 824",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:JACARECANGA": {
+    "name": "JACARECANGA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BOA VISTA/CASTELAO": {
+    "name": "BOA VISTA/CASTELÃO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:AQUIRAZ": {
+    "name": "AQUIRAZ",
+    "municipality": "AQUIRAZ",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ALTO ALEGRE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JENIPAPEIRO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRAIA DO JAPAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SOL NASCENTE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA DA PRATA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SEM TERRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "GRUTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA PAGA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PINGO DE OURO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:CASCAVEL": {
+    "name": "CASCAVEL",
+    "municipality": "CASCAVEL",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA ANTÔNIO CAMILO",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "ESTRADA PARA A PRAIA DA CAPONGA",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "PLANALTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MIRANTE DA SERRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BICA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:CHOROZINHO": {
+    "name": "CHOROZINHO",
+    "municipality": "CHOROZINHO",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "CHOROZINHO",
+        "score": 3
+      }
+    ],
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:GUAIUBA": {
+    "name": "GUAIUBA",
+    "municipality": "GUAIUBA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "DISTRITO DE AGUA VERDE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO MIGUEL DE SOUZA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SEM TERRA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:MARANGUAPE": {
+    "name": "MARANGUAPE",
+    "municipality": "MARANGUAPE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 4,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "CACHOEIRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BOA VISTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RODOVIARIA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PAPARA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA DO JUVENAL",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:PARACURU": {
+    "name": "PARACURU",
+    "municipality": "PARACURU",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 6,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "BECO 2",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA JOSÉ B. DE ALMEIDA",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 6.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:SAO GONCALO DO AMARANTE": {
+    "name": "SAO GONCALO DO AMARANTE",
+    "municipality": "SAO GONCALO DO AMARANTE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "RUA JOSÉ FIRMINO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:TRAIRI": {
+    "name": "TRAIRI",
+    "municipality": "TRAIRI",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA JOSÉ FERREIRA DA CUNHA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA DOS OLIVEIRAS",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO FRANCISCO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA NOVA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "GUALDRAPRAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "GUAJIRU",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CRIANCO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COTESA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "rmf:BEBERIBE": {
+    "name": "BEBERIBE",
+    "municipality": "BEBERIBE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PLANALTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PLANALTO NOVO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COHAB",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA DO FELIX",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "interior:CRATEUS": {
+    "name": "CRATEUS",
+    "municipality": "CRATEUS",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "COHAB",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
+  "interior:POTENGI": {
+    "name": "POTENGI",
+    "municipality": "POTENGI",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  }
+}
