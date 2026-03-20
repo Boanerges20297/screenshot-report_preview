@@ -315,15 +315,15 @@ export function buildTerritoryId(region: RegionKey, name: string): string {
 
 export function riskLevelColor(score: number): string {
   if (score >= 71) {
-    return '#7f1d1d'
+    return '#8B0000'
   }
   if (score >= 51) {
-    return '#b91c1c'
+    return '#E63946'
   }
   if (score >= 31) {
-    return '#ea580c'
+    return '#F4A261'
   }
-  return '#2563eb'
+  return '#A8DADC'
 }
 
 export function factionColor(faction: string): string {

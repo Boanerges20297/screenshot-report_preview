@@ -6,7 +6,6 @@ import {
   buildTerritoryId,
   factionColor,
   normalizeLookupName,
-  riskLevelColor,
   type GeoFeature,
   type GeoFeatureCollection,
   type RegionKey,
@@ -57,6 +56,16 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
+function colorByRankSimple(rank: number): string {
+  if (rank <= 3) {
+    return '#8B0000'
+  }
+  if (rank <= 10) {
+    return '#FF6B6B'
+  }
+  return '#FFA500'
+}
+
 function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollection; top30: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
@@ -91,15 +100,18 @@ function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, Ri
   const region = String(feature?.properties?.region ?? feature?.properties?.region_type ?? 'fortaleza') as RegionKey
   const territoryId = buildTerritoryId(region, name)
   const riskItem = riskById.get(territoryId)
-  const score = riskItem?.score ?? Number(feature?.properties?.score ?? feature?.properties?.risk_score ?? 0)
+  const rank = riskItem?.rank_region ?? Number(feature?.properties?.rank ?? 999)
   const isSelected = territoryId === selectedId
+  const color = colorByRankSimple(rank)
+  const baseWeight = rank <= 3 ? 2.4 : 1.8
+  const baseFillOpacity = rank <= 3 ? 0.3 : 0.18
 
   return {
-    color: isSelected ? '#fff7ed' : '#f8fafc',
-    weight: isSelected ? 3.6 : 1.8,
-    fillColor: riskLevelColor(score),
-    fillOpacity: isSelected ? 0.92 : 0.8,
-    opacity: 1,
+    color: color,
+    weight: isSelected ? baseWeight + 0.8 : baseWeight,
+    fillColor: color,
+    fillOpacity: isSelected ? Math.min(baseFillOpacity + 0.12, 0.5) : baseFillOpacity,
+    opacity: 0.95,
   }
 }
 
