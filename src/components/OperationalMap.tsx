@@ -26,6 +26,14 @@ type OperationalMapProps = {
   onSelectTerritory: (territoryId: string) => void
 }
 
+type SelectableLayer = Layer & {
+  feature?: GeoFeature
+  getBounds?: () => L.LatLngBounds
+  openPopup?: () => void
+  setStyle?: (style: L.PathOptions) => void
+  bringToFront?: () => void
+}
+
 const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }> = {
   fortaleza: { center: [-3.79, -38.54], zoom: 11 },
   rmf: { center: [-3.78, -38.7], zoom: 9 },
@@ -57,7 +65,7 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
-function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollection; top30: GeoFeatureCollection; region: RegionKey }) {
+function FitToRegion({ polygons, region }: { polygons: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
   useEffect(() => {
@@ -77,7 +85,7 @@ function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollecti
 
     const fallback = REGION_VIEW[region]
     map.setView(fallback.center, fallback.zoom)
-  }, [map, polygons, region, top30])
+  }, [map, polygons, region])
 
   return null
 }
@@ -85,45 +93,43 @@ function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollecti
 function FocusSelectedTerritory({
   selectedId,
   region,
-  layerRef,
+  riskById,
+  layerRegistryRef,
 }: {
   selectedId: string | null
   region: RegionKey
-  layerRef: MutableRefObject<L.GeoJSON | null>
+  riskById: Map<string, RiskItem>
+  layerRegistryRef: MutableRefObject<Map<string, Layer>>
 }) {
   const map = useMap()
 
   useEffect(() => {
-    if (!selectedId || !layerRef.current) {
-      return
-    }
-
-    let matchedLayer: Layer | null = null
-    layerRef.current.eachLayer((layer) => {
-      const featureLayer = layer as Layer & { feature?: GeoFeature; getBounds?: () => L.LatLngBounds; openPopup?: () => void }
-      const name = normalizePolygonName(extractFeatureName(featureLayer.feature))
-      const featureRegion = String(featureLayer.feature?.properties?.region_type ?? region) as RegionKey
-      const territoryId = buildTerritoryId(featureRegion, name)
-      if (territoryId === selectedId) {
-        matchedLayer = featureLayer
+    layerRegistryRef.current.forEach((layer) => {
+      const featureLayer = layer as SelectableLayer
+      if (typeof featureLayer.setStyle === 'function') {
+        featureLayer.setStyle(topLayerStyle(featureLayer.feature, riskById, selectedId))
       }
     })
 
-    if (!matchedLayer) {
+    const selectedLayer = (selectedId ? layerRegistryRef.current.get(selectedId) : null) as SelectableLayer | null
+    if (!selectedLayer) {
       return
     }
 
-    const polygonLayer = matchedLayer as Layer & { getBounds?: () => L.LatLngBounds; openPopup?: () => void }
-    if (typeof polygonLayer.getBounds === 'function') {
-      const bounds = polygonLayer.getBounds()
+    if (typeof selectedLayer.bringToFront === 'function') {
+      selectedLayer.bringToFront()
+    }
+
+    if (typeof selectedLayer.getBounds === 'function') {
+      const bounds = selectedLayer.getBounds()
       if (bounds.isValid()) {
         map.fitBounds(bounds.pad(0.35), { animate: true, maxZoom: Math.max(REGION_VIEW[region].zoom + 1, 12) })
       }
     }
-    if (typeof polygonLayer.openPopup === 'function') {
-      polygonLayer.openPopup()
+    if (typeof selectedLayer.openPopup === 'function') {
+      selectedLayer.openPopup()
     }
-  }, [layerRef, map, region, selectedId])
+  }, [layerRegistryRef, map, region, riskById, selectedId])
 
   return null
 }
@@ -151,7 +157,7 @@ function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, Ri
 export function OperationalMap({
   region,
   polygons,
-  top30,
+  top30: _top30,
   micronodes,
   riskItems,
   territoryDetails,
@@ -160,9 +166,8 @@ export function OperationalMap({
   onSelectTerritory,
 }: OperationalMapProps) {
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
-  const polygonLayerRef = useRef<L.GeoJSON | null>(null)
+  const layerRegistryRef = useRef<Map<string, Layer>>(new Map())
   const polygonCollection = toFeatureCollection(polygons)
-  const topCollection = toFeatureCollection(top30)
   const regionPolygons: GeoFeatureCollection = {
     type: 'FeatureCollection',
     features: polygonCollection.features.filter(
@@ -182,6 +187,8 @@ export function OperationalMap({
     layer.on({
       click: () => onSelectTerritory(territoryId),
     })
+
+    layerRegistryRef.current.set(territoryId, layer)
 
     layer.bindPopup(`
       <div style="min-width:240px;font-family:system-ui,sans-serif;">
@@ -217,19 +224,27 @@ export function OperationalMap({
     `)
   }
 
+  useEffect(() => {
+    layerRegistryRef.current = new Map()
+  }, [region])
+
   return (
     <MapContainer center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
       <TileLayer
         attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
       />
-      <FitToRegion polygons={regionPolygons} top30={topCollection} region={region} />
-      <FocusSelectedTerritory selectedId={selectedId} region={region} layerRef={polygonLayerRef} />
+      <FitToRegion polygons={regionPolygons} region={region} />
+      <FocusSelectedTerritory
+        selectedId={selectedId}
+        region={region}
+        riskById={riskById}
+        layerRegistryRef={layerRegistryRef}
+      />
 
       <Pane name="top30" style={{ zIndex: 420 }}>
         <GeoJSON
-          ref={polygonLayerRef}
-          key={`risk-polygons-${region}-${selectedId}`}
+          key={`risk-polygons-${region}`}
           data={regionPolygons as never}
           style={(feature) => topLayerStyle(feature as unknown as GeoFeature, riskById, selectedId)}
           onEachFeature={(feature, layer) => bindTopPopup(feature as unknown as GeoFeature, layer)}
