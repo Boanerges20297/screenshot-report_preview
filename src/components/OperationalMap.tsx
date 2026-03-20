@@ -1,0 +1,198 @@
+import { useEffect } from 'react'
+import { GeoJSON, MapContainer, Pane, TileLayer, useMap } from 'react-leaflet'
+import L from 'leaflet'
+import type { Layer } from 'leaflet'
+import {
+  buildTerritoryId,
+  factionColor,
+  normalizeLookupName,
+  riskLevelColor,
+  type GeoFeature,
+  type GeoFeatureCollection,
+  type RegionKey,
+  type RiskItem,
+  type TerritoryDetail,
+} from '../lib/snapshot'
+
+type OperationalMapProps = {
+  region: RegionKey
+  polygons: GeoFeatureCollection
+  top30: GeoFeatureCollection
+  micronodes: GeoFeatureCollection
+  riskItems: RiskItem[]
+  territoryDetails: Record<string, TerritoryDetail>
+  selectedId: string | null
+  showMicronodes: boolean
+  onSelectTerritory: (territoryId: string) => void
+}
+
+const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }> = {
+  fortaleza: { center: [-3.79, -38.54], zoom: 11 },
+  rmf: { center: [-3.78, -38.7], zoom: 9 },
+  interior: { center: [-5.1, -39.6], zoom: 7 },
+}
+
+function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollection; top30: GeoFeatureCollection; region: RegionKey }) {
+  const map = useMap()
+
+  useEffect(() => {
+    const bounds = L.latLngBounds([])
+    const regionLayers = L.geoJSON(polygons as never, {
+      filter: (feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
+    })
+    const topLayers = L.geoJSON(top30 as never)
+
+    if (regionLayers.getLayers().length > 0) {
+      bounds.extend(regionLayers.getBounds())
+    }
+    if (topLayers.getLayers().length > 0) {
+      bounds.extend(topLayers.getBounds())
+    }
+
+    if (bounds.isValid()) {
+      map.fitBounds(bounds.pad(0.08), { animate: true })
+      return
+    }
+
+    const fallback = REGION_VIEW[region]
+    map.setView(fallback.center, fallback.zoom)
+  }, [map, polygons, region, top30])
+
+  return null
+}
+
+function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, RiskItem>, selectedId: string | null) {
+  const name = String(feature?.properties?.name ?? '')
+  const region = String(feature?.properties?.region ?? 'fortaleza') as RegionKey
+  const territoryId = buildTerritoryId(region, name)
+  const riskItem = riskById.get(territoryId)
+  const score = riskItem?.score ?? Number(feature?.properties?.score ?? 0) * 100
+  const isSelected = territoryId === selectedId
+
+  return {
+    color: isSelected ? '#fef3c7' : '#f8fafc',
+    weight: isSelected ? 3.2 : 1.4,
+    fillColor: riskLevelColor(score),
+    fillOpacity: isSelected ? 0.86 : 0.68,
+    opacity: 0.95,
+  }
+}
+
+function aisLayerStyle() {
+  return {
+    color: '#334155',
+    weight: 1.2,
+    fillColor: '#0f172a',
+    fillOpacity: 0.08,
+    opacity: 0.35,
+  }
+}
+
+export function OperationalMap({
+  region,
+  polygons,
+  top30,
+  micronodes,
+  riskItems,
+  territoryDetails,
+  selectedId,
+  showMicronodes,
+  onSelectTerritory,
+}: OperationalMapProps) {
+  const riskById = new Map(riskItems.map((item) => [item.id, item]))
+
+  function bindTopPopup(feature: GeoFeature | undefined, layer: Layer) {
+    if (!feature) {
+      return
+    }
+    const name = String(feature.properties.name ?? '')
+    const territoryId = buildTerritoryId(region, name)
+    const riskItem = riskById.get(territoryId)
+    const detail = territoryDetails[territoryId]
+
+    layer.on({
+      click: () => onSelectTerritory(territoryId),
+    })
+
+    layer.bindPopup(`
+      <div style="min-width:240px;font-family:system-ui,sans-serif;">
+        <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;">Top 30 ${region.toUpperCase()}</div>
+        <div style="font-size:18px;font-weight:700;color:#0f172a;margin-top:4px;">${name}</div>
+        <div style="margin-top:8px;font-size:13px;color:#334155;">
+          <div><strong>Risco:</strong> ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
+          <div><strong>Facção:</strong> ${detail?.faction ?? feature.properties.faction ?? 'N/A'}</div>
+          <div><strong>Momentum 14d:</strong> ${detail?.momentum_14d ?? riskItem?.momentum_14d ?? 0}</div>
+          <div><strong>CVLI recente:</strong> ${detail?.recent_cvli ?? riskItem?.recent_cvli ?? 0}</div>
+          <div><strong>Exógenos:</strong> ${detail?.recent_exogenous ?? riskItem?.recent_exogenous ?? 0}</div>
+        </div>
+        <div style="margin-top:10px;font-size:12px;color:#475569;line-height:1.45;">${detail?.summary ?? riskItem?.summary ?? 'Sem resumo congelado.'}</div>
+      </div>
+    `)
+  }
+
+  function bindMicronodePopup(feature: GeoFeature | undefined, layer: Layer) {
+    if (!feature) {
+      return
+    }
+    const props = feature.properties
+    const area = String(props.area_oficial ?? props.micronodo ?? 'Micronodo')
+    layer.bindPopup(`
+      <div style="min-width:220px;font-family:system-ui,sans-serif;">
+        <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;">ORCRIM</div>
+        <div style="font-size:16px;font-weight:700;color:#0f172a;margin-top:4px;">${area}</div>
+        <div style="margin-top:8px;font-size:13px;color:#334155;">
+          <div><strong>Micronodo:</strong> ${String(props.micronodo ?? 'N/A')}</div>
+          <div><strong>Facção:</strong> ${String(props.faction ?? 'N/A')}</div>
+        </div>
+      </div>
+    `)
+  }
+
+  return (
+    <MapContainer center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
+      <TileLayer
+        attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+      />
+      <FitToRegion polygons={polygons} top30={top30} region={region} />
+
+      <Pane name="ais" style={{ zIndex: 350 }}>
+        <GeoJSON
+          key={`ais-${region}`}
+          data={polygons as never}
+          style={aisLayerStyle}
+          filter={(feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region)}
+        />
+      </Pane>
+
+      <Pane name="top30" style={{ zIndex: 420 }}>
+        <GeoJSON
+          key={`top30-${region}-${selectedId}`}
+          data={top30 as never}
+          style={(feature) => topLayerStyle(feature as unknown as GeoFeature, riskById, selectedId)}
+          onEachFeature={(feature, layer) => bindTopPopup(feature as unknown as GeoFeature, layer)}
+        />
+      </Pane>
+
+      {showMicronodes ? (
+        <Pane name="micronodes" style={{ zIndex: 430 }}>
+          <GeoJSON
+            key={`micronodes-${region}`}
+            data={micronodes as never}
+            filter={(feature) => normalizeLookupName(String(feature?.properties?.region ?? '')) === normalizeLookupName(region)}
+            pointToLayer={(feature, latlng) =>
+              L.circleMarker(latlng, {
+                radius: 4,
+                weight: 1,
+                color: '#e2e8f0',
+                fillColor: factionColor(String(feature.properties?.faction ?? 'N/A')),
+                fillOpacity: 0.9,
+              })
+            }
+            onEachFeature={(feature, layer) => bindMicronodePopup(feature as unknown as GeoFeature, layer)}
+          />
+        </Pane>
+      ) : null}
+    </MapContainer>
+  )
+}
