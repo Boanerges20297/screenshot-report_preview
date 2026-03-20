@@ -71,10 +71,81 @@ function App() {
   if (!snapshot) {
     return (
       <main className="app-shell">
-        <section className="status-panel">
-          <p className="eyebrow">Snapshot estático</p>
-          <h1>Carregando quadro situacional...</h1>
-          <p>Preparando camadas territoriais, ranking congelado e indicadores regionais.</p>
+        <section className="loading-shell">
+          <div className="loading-hero">
+            <div className="loading-hero-copy">
+              <p className="eyebrow">Snapshot estático</p>
+              <h1>Preparando o quadro situacional executivo.</h1>
+              <p className="loading-subtext">
+                Organizando camadas territoriais, ranking regional e indicadores consolidados para a leitura do snapshot.
+              </p>
+            </div>
+
+            <div className="loading-chip-row" aria-hidden="true">
+              <span className="loading-chip">Camadas territoriais</span>
+              <span className="loading-chip">Ranking regional</span>
+              <span className="loading-chip">Indicadores congelados</span>
+            </div>
+          </div>
+
+          <section className="loading-grid" aria-hidden="true">
+            <article className="loading-card loading-card-wide">
+              <div className="loading-line loading-line-kicker" />
+              <div className="loading-line loading-line-title" />
+              <div className="loading-line loading-line-title short" />
+              <div className="loading-line loading-line-text" />
+              <div className="loading-line loading-line-text medium" />
+              <div className="loading-pill-row">
+                <span className="loading-pill" />
+                <span className="loading-pill" />
+                <span className="loading-pill" />
+              </div>
+            </article>
+
+            <article className="loading-card loading-card-stack">
+              <div className="loading-line loading-line-kicker short" />
+              <div className="loading-metric-block" />
+              <div className="loading-metric-block" />
+              <div className="loading-metric-block compact" />
+            </article>
+          </section>
+
+          <section className="loading-dashboard" aria-hidden="true">
+            <div className="loading-stat" />
+            <div className="loading-stat" />
+            <div className="loading-stat" />
+            <div className="loading-stat" />
+          </section>
+
+          <section className="loading-process">
+            <div className="loading-process-head">
+              <span className="eyebrow">Andamento</span>
+              <span className="loading-pulse-dot" />
+            </div>
+            <div className="loading-step-list">
+              <div className="loading-step active">
+                <span className="loading-step-bullet" />
+                <div>
+                  <strong>Carregando artefatos</strong>
+                  <p>Leitura de manifesto, métricas, territórios e camadas geográficas.</p>
+                </div>
+              </div>
+              <div className="loading-step active">
+                <span className="loading-step-bullet" />
+                <div>
+                  <strong>Consolidando painéis</strong>
+                  <p>Preparação do ranking, contagens regionais e recorte inicial.</p>
+                </div>
+              </div>
+              <div className="loading-step">
+                <span className="loading-step-bullet" />
+                <div>
+                  <strong>Renderizando interface</strong>
+                  <p>Aplicando mapa, destaques territoriais e painéis executivos.</p>
+                </div>
+              </div>
+            </div>
+          </section>
         </section>
       </main>
     )
