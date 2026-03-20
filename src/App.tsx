@@ -94,18 +94,46 @@ function App() {
     <main className="app-shell">
       <section className="hero-band">
         <div className="hero-copy">
-          <p className="eyebrow">Snapshot operacional aprovado</p>
-          <h1>Mapa tático estático para publicação controlada.</h1>
+          <div className="hero-topline">
+            <p className="eyebrow">Painel executivo</p>
+            <span className="hero-status">Snapshot homologado</span>
+          </div>
+          <h1>Painel territorial de risco e priorização operacional.</h1>
           <p className="hero-text">
-            Camadas territoriais, top 30 regional, leitura ORCRIM e métricas congeladas para consumo direto na Vercel.
+            Leitura consolidada do ranking regional, territórios críticos e sinais ORCRIM em formato estático para consulta executiva.
           </p>
+
+          <div className="hero-highlights">
+            <div className="hero-highlight">
+              <span>Modelo</span>
+              <strong>{snapshot.manifest.model_label}</strong>
+            </div>
+            <div className="hero-highlight">
+              <span>Confiança do quadro</span>
+              <strong>{managerView.confidence_pct.toFixed(1)}%</strong>
+            </div>
+            <div className="hero-highlight">
+              <span>Região em evidência</span>
+              <strong>{snapshot.summary.global.top_region?.toUpperCase() ?? 'N/A'}</strong>
+            </div>
+          </div>
         </div>
 
         <div className="snapshot-card">
-          <span className="badge">{snapshot.manifest.model_label}</span>
-          <strong>{new Date(snapshot.manifest.generated_at).toLocaleString('pt-BR')}</strong>
-          <span>Commit {snapshot.manifest.source_commit}</span>
-          <p>{snapshot.manifest.notes}</p>
+          <span className="badge">Publicação estática</span>
+          <div className="snapshot-meta">
+            <span>Gerado em</span>
+            <strong>{new Date(snapshot.manifest.generated_at).toLocaleString('pt-BR')}</strong>
+          </div>
+          <div className="snapshot-meta">
+            <span>Versão fonte</span>
+            <strong>Commit {snapshot.manifest.source_commit}</strong>
+          </div>
+          <div className="snapshot-meta">
+            <span>Escopo</span>
+            <strong>{snapshot.summary.global.active_locations} localidades monitoradas</strong>
+          </div>
+          <p className="snapshot-note">{snapshot.manifest.notes}</p>
         </div>
       </section>
 
