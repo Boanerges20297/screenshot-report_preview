@@ -32,15 +32,40 @@ const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }>
   interior: { center: [-5.1, -39.6], zoom: 7 },
 }
 
+function toFeatureCollection(payload: GeoFeatureCollection): GeoFeatureCollection {
+  if (payload?.type === 'FeatureCollection' && Array.isArray(payload.features)) {
+    return payload
+  }
+
+  return {
+    type: 'FeatureCollection',
+    features: Array.isArray(payload?.features) ? payload.features : [],
+  }
+}
+
+function extractFeatureName(feature: GeoFeature | undefined): string {
+  return String(
+    feature?.properties?.name ??
+      feature?.properties?.Name ??
+      feature?.properties?.bairro ??
+      feature?.properties?.municipio ??
+      '',
+  )
+}
+
+function normalizePolygonName(value: string): string {
+  return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
+}
+
 function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollection; top30: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
   useEffect(() => {
     const bounds = L.latLngBounds([])
-    const regionLayers = L.geoJSON(polygons as never, {
+    const regionLayers = L.geoJSON(toFeatureCollection(polygons) as never, {
       filter: (feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
     })
-    const topLayers = L.geoJSON(top30 as never)
+    const topLayers = L.geoJSON(toFeatureCollection(top30) as never)
 
     if (regionLayers.getLayers().length > 0) {
       bounds.extend(regionLayers.getBounds())
@@ -62,19 +87,19 @@ function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollecti
 }
 
 function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, RiskItem>, selectedId: string | null) {
-  const name = String(feature?.properties?.name ?? '')
-  const region = String(feature?.properties?.region ?? 'fortaleza') as RegionKey
+  const name = extractFeatureName(feature)
+  const region = String(feature?.properties?.region ?? feature?.properties?.region_type ?? 'fortaleza') as RegionKey
   const territoryId = buildTerritoryId(region, name)
   const riskItem = riskById.get(territoryId)
-  const score = riskItem?.score ?? Number(feature?.properties?.score ?? 0) * 100
+  const score = riskItem?.score ?? Number(feature?.properties?.score ?? feature?.properties?.risk_score ?? 0)
   const isSelected = territoryId === selectedId
 
   return {
-    color: isSelected ? '#fef3c7' : '#f8fafc',
-    weight: isSelected ? 3.2 : 1.4,
+    color: isSelected ? '#fff7ed' : '#f8fafc',
+    weight: isSelected ? 3.6 : 1.8,
     fillColor: riskLevelColor(score),
-    fillOpacity: isSelected ? 0.86 : 0.68,
-    opacity: 0.95,
+    fillOpacity: isSelected ? 0.92 : 0.8,
+    opacity: 1,
   }
 }
 
@@ -100,13 +125,28 @@ export function OperationalMap({
   onSelectTerritory,
 }: OperationalMapProps) {
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
+  const highlightedRiskIds = new Set(riskItems.filter((item) => item.rank_region <= 30).map((item) => item.id))
+  const polygonCollection = toFeatureCollection(polygons)
+  const topCollection = toFeatureCollection(top30)
+  const highlightedPolygons: GeoFeatureCollection = {
+    type: 'FeatureCollection',
+    features: polygonCollection.features.filter((feature) => {
+      const featureRegion = normalizeLookupName(String(feature.properties?.region_type ?? ''))
+      if (featureRegion !== normalizeLookupName(region)) {
+        return false
+      }
+      const territoryId = buildTerritoryId(region, normalizePolygonName(extractFeatureName(feature)))
+      return highlightedRiskIds.has(territoryId)
+    }),
+  }
+  const renderedTopCollection = highlightedPolygons.features.length > 0 ? highlightedPolygons : topCollection
 
   function bindTopPopup(feature: GeoFeature | undefined, layer: Layer) {
     if (!feature) {
       return
     }
-    const name = String(feature.properties.name ?? '')
-    const territoryId = buildTerritoryId(region, name)
+    const name = extractFeatureName(feature)
+    const territoryId = buildTerritoryId(region, normalizePolygonName(name))
     const riskItem = riskById.get(territoryId)
     const detail = territoryDetails[territoryId]
 
@@ -154,12 +194,12 @@ export function OperationalMap({
         attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
       />
-      <FitToRegion polygons={polygons} top30={top30} region={region} />
+      <FitToRegion polygons={polygonCollection} top30={renderedTopCollection} region={region} />
 
       <Pane name="ais" style={{ zIndex: 350 }}>
         <GeoJSON
           key={`ais-${region}`}
-          data={polygons as never}
+          data={polygonCollection as never}
           style={aisLayerStyle}
           filter={(feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region)}
         />
@@ -168,7 +208,7 @@ export function OperationalMap({
       <Pane name="top30" style={{ zIndex: 420 }}>
         <GeoJSON
           key={`top30-${region}-${selectedId}`}
-          data={top30 as never}
+          data={renderedTopCollection as never}
           style={(feature) => topLayerStyle(feature as unknown as GeoFeature, riskById, selectedId)}
           onEachFeature={(feature, layer) => bindTopPopup(feature as unknown as GeoFeature, layer)}
         />
