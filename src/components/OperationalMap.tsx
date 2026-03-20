@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useRef, type MutableRefObject } from 'react'
 import { GeoJSON, MapContainer, Pane, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Layer } from 'leaflet'
@@ -65,23 +65,65 @@ function FitToRegion({ polygons, top30, region }: { polygons: GeoFeatureCollecti
     const regionLayers = L.geoJSON(toFeatureCollection(polygons) as never, {
       filter: (feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
     })
-    const topLayers = L.geoJSON(toFeatureCollection(top30) as never)
 
     if (regionLayers.getLayers().length > 0) {
       bounds.extend(regionLayers.getBounds())
     }
-    if (topLayers.getLayers().length > 0) {
-      bounds.extend(topLayers.getBounds())
-    }
 
     if (bounds.isValid()) {
-      map.fitBounds(bounds.pad(0.08), { animate: true })
+      map.fitBounds(bounds.pad(0.03), { animate: true, maxZoom: REGION_VIEW[region].zoom })
       return
     }
 
     const fallback = REGION_VIEW[region]
     map.setView(fallback.center, fallback.zoom)
   }, [map, polygons, region, top30])
+
+  return null
+}
+
+function FocusSelectedTerritory({
+  selectedId,
+  region,
+  layerRef,
+}: {
+  selectedId: string | null
+  region: RegionKey
+  layerRef: MutableRefObject<L.GeoJSON | null>
+}) {
+  const map = useMap()
+
+  useEffect(() => {
+    if (!selectedId || !layerRef.current) {
+      return
+    }
+
+    let matchedLayer: Layer | null = null
+    layerRef.current.eachLayer((layer) => {
+      const featureLayer = layer as Layer & { feature?: GeoFeature; getBounds?: () => L.LatLngBounds; openPopup?: () => void }
+      const name = normalizePolygonName(extractFeatureName(featureLayer.feature))
+      const featureRegion = String(featureLayer.feature?.properties?.region_type ?? region) as RegionKey
+      const territoryId = buildTerritoryId(featureRegion, name)
+      if (territoryId === selectedId) {
+        matchedLayer = featureLayer
+      }
+    })
+
+    if (!matchedLayer) {
+      return
+    }
+
+    const polygonLayer = matchedLayer as Layer & { getBounds?: () => L.LatLngBounds; openPopup?: () => void }
+    if (typeof polygonLayer.getBounds === 'function') {
+      const bounds = polygonLayer.getBounds()
+      if (bounds.isValid()) {
+        map.fitBounds(bounds.pad(0.35), { animate: true, maxZoom: Math.max(REGION_VIEW[region].zoom + 1, 12) })
+      }
+    }
+    if (typeof polygonLayer.openPopup === 'function') {
+      polygonLayer.openPopup()
+    }
+  }, [layerRef, map, region, selectedId])
 
   return null
 }
@@ -118,6 +160,7 @@ export function OperationalMap({
   onSelectTerritory,
 }: OperationalMapProps) {
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
+  const polygonLayerRef = useRef<L.GeoJSON | null>(null)
   const polygonCollection = toFeatureCollection(polygons)
   const topCollection = toFeatureCollection(top30)
   const regionPolygons: GeoFeatureCollection = {
@@ -181,9 +224,11 @@ export function OperationalMap({
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
       />
       <FitToRegion polygons={regionPolygons} top30={topCollection} region={region} />
+      <FocusSelectedTerritory selectedId={selectedId} region={region} layerRef={polygonLayerRef} />
 
       <Pane name="top30" style={{ zIndex: 420 }}>
         <GeoJSON
+          ref={polygonLayerRef}
           key={`risk-polygons-${region}-${selectedId}`}
           data={regionPolygons as never}
           style={(feature) => topLayerStyle(feature as unknown as GeoFeature, riskById, selectedId)}
