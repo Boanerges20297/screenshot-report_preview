@@ -5,11 +5,11 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 1,
-    "recent_exogenous": 8,
+    "recent_exogenous": 7,
     "momentum_7d": 0.0,
     "momentum_14d": 2.0,
     "critical_streets": "RUA CORONEL CORREIA, S/N",
-    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 8. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.00.",
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Eventos exógenos recentes: 7. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.00.",
     "risk_score": 98.0,
     "status": "CRÍTICO"
   },
@@ -1419,11 +1419,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 20.20.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 20.20.",
     "risk_score": 20.2,
     "status": "BAIXO"
   },
@@ -1715,7 +1715,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -1730,7 +1730,7 @@
         "score": 5
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.20.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.20.",
     "risk_score": 10.2,
     "status": "BAIXO"
   },
