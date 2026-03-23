@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { OperationalMap } from './components/OperationalMap'
+import { AddExogenousEventForm } from './components/AddExogenousEventForm'
+import { useAIRecommendation } from './hooks/useAIRecommendation'
 import {
   loadSnapshot,
   riskLevelColor,
@@ -19,7 +21,9 @@ function App() {
   const [snapshot, setSnapshot] = useState<SnapshotData | null>(null)
   const [region, setRegion] = useState<RegionKey>('fortaleza')
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [focusTrigger, setFocusTrigger] = useState(0)
   const [showMicronodes, setShowMicronodes] = useState(false)
+  const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
@@ -31,8 +35,6 @@ function App() {
           return
         }
         setSnapshot(data)
-        const firstTerritory = data.risk.items.find((item) => item.region === 'fortaleza')
-        setSelectedId(firstTerritory?.id ?? null)
       })
       .catch((reason) => {
         if (cancelled) {
@@ -50,11 +52,22 @@ function App() {
     if (!snapshot) {
       return
     }
-    const regionalItems = snapshot.risk.items.filter((item) => item.region === region)
-    if (!regionalItems.some((item) => item.id === selectedId)) {
-      setSelectedId(regionalItems[0]?.id ?? null)
+    // Only clear selection if currently selected territory doesn't belong to this region
+    // Do NOT auto-select — let user click voluntarily
+    if (selectedId) {
+      const regionalItems = snapshot.risk.items.filter((item) => item.region === region)
+      if (!regionalItems.some((item) => item.id === selectedId)) {
+        setSelectedId(null)
+      }
     }
   }, [region, selectedId, snapshot])
+
+  // Must be called unconditionally before any early return (Rules of Hooks)
+  const _selectedRisk = snapshot && selectedId
+    ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null
+    : null
+  const _selectedTerritory = snapshot && selectedId ? snapshot.territoryDetails[selectedId] ?? null : null
+  const aiRec = useAIRecommendation(_selectedRisk, _selectedTerritory)
 
   if (error) {
     return (
@@ -170,7 +183,6 @@ function App() {
   const regionalPriorityCount = regionalItems.filter((item) => item.score >= 31).length
   const regionalCriticalCount = regionalCount.crítico ?? 0
   const regionalHighCount = regionalCount.alto ?? 0
-  const regionalMonitoredCount = regionalItems.filter((item) => item.score >= 51).length
 
   return (
     <main className="app-shell">
@@ -231,14 +243,18 @@ function App() {
           <p>{regionalHighCount} em faixa alta</p>
         </article>
         <article className="metric-card">
-          <span>Monitorados</span>
-          <strong>{regionalMonitoredCount}</strong>
-          <p>de {regionalSummary?.total_nodes ?? 0} localidades</p>
+          <span>Em alerta</span>
+          <strong>{regionalPriorityCount}</strong>
+          <p>de {regionalSummary?.total_nodes ?? 0} territórios acima de 31%</p>
         </article>
         <article className="metric-card">
-          <span>Risco médio</span>
-          <strong>{regionalSummary?.avg_risk?.toFixed(2) ?? '0.00'}%</strong>
-          <p>{regionalLeader?.faction || managerView.confidence_label || 'Sem leitura complementar'}</p>
+          <span>Saturação</span>
+          <strong>
+            {regionalSummary?.total_nodes
+              ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
+              : '0'}%
+          </strong>
+          <p>{regionalLeader?.faction || managerView.confidence_label || 'Sem leitura'} lidera</p>
         </article>
       </section>
 
@@ -259,13 +275,24 @@ function App() {
           })}
         </div>
 
-        <button
-          type="button"
-          className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
-          onClick={() => setShowMicronodes((value) => !value)}
-        >
-          {showMicronodes ? 'Ocultar ORCRIM' : 'Mostrar ORCRIM'}
-        </button>
+        <div className="region-switcher">
+          <button
+            type="button"
+            className="toggle-button"
+            onClick={() => setShowEventForm(true)}
+            style={{ fontWeight: 800, background: '#f8fafc', borderColor: '#cbd5e1' }}
+          >
+            + Registrar Evento
+          </button>
+          
+          <button
+            type="button"
+            className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
+            onClick={() => setShowMicronodes((value) => !value)}
+          >
+            {showMicronodes ? 'Ocultar ORCRIM' : 'Mostrar ORCRIM'}
+          </button>
+        </div>
       </section>
 
       <section className="workspace-grid">
@@ -281,8 +308,8 @@ function App() {
 
           <div className="region-kpis">
             <div>
-              <span>Risco médio</span>
-              <strong>{regionalSummary?.avg_risk?.toFixed(2) ?? '0.00'}%</strong>
+              <span>Em alerta</span>
+              <strong>{regionalPriorityCount}</strong>
             </div>
             <div>
               <span>Críticos</span>
@@ -300,7 +327,10 @@ function App() {
                 type="button"
                 key={item.id}
                 className={item.id === selectedId ? 'top-item active' : 'top-item'}
-                onClick={() => setSelectedId(item.id)}
+                onClick={() => {
+                  setSelectedId(item.id)
+                  setFocusTrigger((n) => n + 1)
+                }}
               >
                 <span className="rank-chip">#{item.rank_region}</span>
                 <div className="top-copy">
@@ -323,60 +353,125 @@ function App() {
             riskItems={regionalItems}
             territoryDetails={snapshot.territoryDetails}
             selectedId={selectedId}
+            focusTrigger={focusTrigger}
             showMicronodes={showMicronodes}
-            onSelectTerritory={setSelectedId}
+            onSelectTerritory={(id) => {
+              setSelectedId(id)
+              setFocusTrigger((n) => n + 1)
+            }}
           />
         </section>
 
         <aside className="detail-panel">
-          <p className="eyebrow">Território selecionado</p>
-          <h2>{selectedRisk?.name ?? 'Nenhum território'}</h2>
-          <div className="detail-grid">
-            <div>
-              <span>Score</span>
-              <strong>{selectedRisk?.score?.toFixed(1) ?? '0.0'}%</strong>
-            </div>
-            <div>
-              <span>Facção</span>
-              <strong>{selectedTerritory?.faction ?? selectedRisk?.faction ?? 'N/A'}</strong>
-            </div>
-            <div>
-              <span>Momentum 7d</span>
-              <strong>{selectedTerritory?.momentum_7d ?? selectedRisk?.momentum_7d ?? 0}</strong>
-            </div>
-            <div>
-              <span>Momentum 14d</span>
-              <strong>{selectedTerritory?.momentum_14d ?? selectedRisk?.momentum_14d ?? 0}</strong>
-            </div>
-            <div>
-              <span>CVLI recente</span>
-              <strong>{selectedTerritory?.recent_cvli ?? selectedRisk?.recent_cvli ?? 0}</strong>
-            </div>
-            <div>
-              <span>Exógenos</span>
-              <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk?.recent_exogenous ?? 0}</strong>
-            </div>
-          </div>
+          {selectedRisk ? (
+            <>
+              <p className="eyebrow">Território selecionado</p>
+              <h2>{selectedRisk.name}</h2>
+              <div className="detail-grid">
+                <div>
+                  <span>Score</span>
+                  <strong>{selectedRisk.score?.toFixed(1) ?? '0.0'}%</strong>
+                </div>
+                <div>
+                  <span>Facção</span>
+                  <strong>{selectedTerritory?.faction ?? selectedRisk.faction ?? 'N/A'}</strong>
+                </div>
+                <div>
+                  <span>Momentum 7d</span>
+                  <strong>{selectedTerritory?.momentum_7d ?? selectedRisk.momentum_7d ?? 0}</strong>
+                </div>
+                <div>
+                  <span>Momentum 14d</span>
+                  <strong>{selectedTerritory?.momentum_14d ?? selectedRisk.momentum_14d ?? 0}</strong>
+                </div>
+                <div>
+                  <span>CVLI recente</span>
+                  <strong>{selectedTerritory?.recent_cvli ?? selectedRisk.recent_cvli ?? 0}</strong>
+                </div>
+                <div>
+                  <span>Exógenos</span>
+                  <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
+                </div>
+              </div>
 
-          <div className="detail-copy">
-            <h3>Leitura congelada</h3>
-            <p>{selectedTerritory?.summary ?? selectedRisk?.summary ?? 'Sem resumo disponível.'}</p>
-          </div>
+              <div className="detail-copy">
+                <h3>Leitura congelada</h3>
+                <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
+              </div>
 
-          <div className="detail-copy">
-            <h3>Logradouros críticos</h3>
-            <p>{formatCriticalStreets(selectedTerritory)}</p>
-          </div>
+              <div className="detail-copy">
+                <h3>Logradouros críticos</h3>
+                <p>{formatCriticalStreets(selectedTerritory)}</p>
+              </div>
 
-          <div className="recommendation-box">
-            <span>Recomendação operacional</span>
-            <p>{managerView.recommendation}</p>
-          </div>
+              <div className="recommendation-box">
+                <span>Recomendação operacional · IA</span>
+                {aiRec.loading ? (
+                  <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA...</p>
+                ) : aiRec.error ? (
+                  <p style={{ opacity: 0.55, fontSize: '0.82em' }}>
+                    Falha na análise via IA: {aiRec.error}
+                  </p>
+                ) : aiRec.text ? (
+                  <p>{aiRec.text}</p>
+                ) : (
+                  <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando seleção de território...</p>
+                )}
+              </div>
+            </>
+          ) : (
+            <>
+              <p className="eyebrow">Visão regional</p>
+              <h2>{REGION_LABELS[region]}</h2>
+              <div className="detail-grid">
+                <div>
+                  <span>Localidades</span>
+                  <strong>{regionalSummary?.total_nodes ?? 0}</strong>
+                </div>
+                <div>
+                  <span>Em alerta</span>
+                  <strong>{regionalPriorityCount}</strong>
+                </div>
+                <div>
+                  <span>Críticos</span>
+                  <strong>{regionalCriticalCount}</strong>
+                </div>
+                <div>
+                  <span>Altos</span>
+                  <strong>{regionalHighCount}</strong>
+                </div>
+                <div>
+                  <span>Saturação</span>
+                  <strong>
+                    {regionalSummary?.total_nodes
+                      ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
+                      : '0'}%
+                  </strong>
+                </div>
+                <div>
+                  <span>Líder</span>
+                  <strong>{regionalLeader?.name ?? 'N/A'}</strong>
+                </div>
+              </div>
+              <div className="detail-copy" style={{ marginTop: '1rem' }}>
+                <h3>Orientação</h3>
+                <p>
+                  Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a recomendação operacional gerada por IA.
+                </p>
+              </div>
+            </>
+          )}
         </aside>
       </section>
+
+      {showEventForm && (
+        <AddExogenousEventForm onClose={() => setShowEventForm(false)} />
+      )}
     </main>
   )
 }
+
+
 
 function formatCriticalStreets(detail: TerritoryDetail | null): string {
   if (!detail) {

@@ -22,6 +22,7 @@ type OperationalMapProps = {
   riskItems: RiskItem[]
   territoryDetails: Record<string, TerritoryDetail>
   selectedId: string | null
+  focusTrigger: number
   showMicronodes: boolean
   onSelectTerritory: (territoryId: string) => void
 }
@@ -71,7 +72,7 @@ function FitToRegion({ polygons, region }: { polygons: GeoFeatureCollection; reg
   useEffect(() => {
     const bounds = L.latLngBounds([])
     const regionLayers = L.geoJSON(toFeatureCollection(polygons) as never, {
-      filter: (feature) => normalizeLookupName(String(feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
+      filter: (feature) => normalizeLookupName(String(feature?.properties?.region ?? feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
     })
 
     if (regionLayers.getLayers().length > 0) {
@@ -93,11 +94,13 @@ function FitToRegion({ polygons, region }: { polygons: GeoFeatureCollection; reg
 function FocusSelectedTerritory({
   selectedId,
   region,
+  focusTrigger,
   riskById,
   layerRegistryRef,
 }: {
   selectedId: string | null
   region: RegionKey
+  focusTrigger: number
   riskById: Map<string, RiskItem>
   layerRegistryRef: MutableRefObject<Map<string, Layer>>
 }) {
@@ -129,7 +132,7 @@ function FocusSelectedTerritory({
     if (typeof selectedLayer.openPopup === 'function') {
       selectedLayer.openPopup()
     }
-  }, [layerRegistryRef, map, region, riskById, selectedId])
+  }, [layerRegistryRef, map, region, riskById, selectedId, focusTrigger])
 
   return null
 }
@@ -162,6 +165,7 @@ export function OperationalMap({
   riskItems,
   territoryDetails,
   selectedId,
+  focusTrigger,
   showMicronodes,
   onSelectTerritory,
 }: OperationalMapProps) {
@@ -171,7 +175,7 @@ export function OperationalMap({
   const regionPolygons: GeoFeatureCollection = {
     type: 'FeatureCollection',
     features: polygonCollection.features.filter(
-      (feature) => normalizeLookupName(String(feature.properties?.region_type ?? '')) === normalizeLookupName(region),
+      (feature) => normalizeLookupName(String(feature.properties?.region ?? feature.properties?.region_type ?? '')) === normalizeLookupName(region),
     ),
   }
 
@@ -238,6 +242,7 @@ export function OperationalMap({
       <FocusSelectedTerritory
         selectedId={selectedId}
         region={region}
+        focusTrigger={focusTrigger}
         riskById={riskById}
         layerRegistryRef={layerRegistryRef}
       />
