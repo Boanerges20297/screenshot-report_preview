@@ -149,16 +149,62 @@ Com base nesses dados do modelo preditivo de risco, gere uma RECOMENDAÇÃO OPER
 - Não comece com "Claro" ou "Aqui está" - vá direto ao ponto`
 
     const controller = new AbortController()
+    const webhookUrl = import.meta.env.VITE_GOOGLE_WEBHOOK_URL
 
-    callGemini(prompt, keys, controller.signal)
-      .then((text) => {
+    const fetchSmartRecommendation = async () => {
+      try {
+        // 1. Tentar ler do cache (Página 2 via Webhook)
+        if (webhookUrl) {
+          try {
+            const cacheRes = await fetch(webhookUrl, {
+              method: 'POST',
+              headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+              body: JSON.stringify({ action: 'get_cache', area_id: cacheKey }),
+              signal: controller.signal,
+            })
+            const cacheData = await cacheRes.json()
+            if (cacheData.status === 'success' && cacheData.data?.text) {
+              const text = cacheData.data.text
+              cache.set(cacheKey, text)
+              setState({ text, loading: false, error: null })
+              return // Usa o cache, pula o Gemini
+            }
+          } catch (err) {
+            console.warn('[AI] Falha ao verificar cache no Google Sheets:', err)
+          }
+        }
+
+        // 2. Não há (ou está expirado), chama o modelo do Gemini
+        if (controller.signal.aborted) return
+        const text = await callGemini(prompt, keys, controller.signal)
+
+        // 3. Salva no cache local (memória) e atualiza o estado
         cache.set(cacheKey, text)
-        setState({ text, loading: false, error: null })
-      })
-      .catch((err: Error) => {
+        if (!controller.signal.aborted) {
+          setState({ text, loading: false, error: null })
+        }
+
+        // 4. Salvar o novo resultado no cache do Google Sheets ("Página 2")
+        if (webhookUrl && !controller.signal.aborted) {
+          // Fire-and-forget, sem 'await' para não atrasar a UI
+          fetch(webhookUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+            body: JSON.stringify({
+              action: 'save_cache',
+              area_id: cacheKey,
+              area_name: territory,
+              text: text,
+            }),
+          }).catch((err) => console.warn('[AI] Falha ao salvar cache no Google Sheets:', err))
+        }
+      } catch (err: any) {
         if (err.name === 'AbortError') return
         setState({ text: null, loading: false, error: err.message })
-      })
+      }
+    }
+
+    fetchSmartRecommendation()
 
     return () => controller.abort()
   }, [risk, detail])
