@@ -34,13 +34,31 @@ export function AddExogenousEventForm({ onClose }: Props) {
     }
 
     try {
+      // Compilar todos os dados em texto único para a coluna descricao
+      const now = new Date()
+      const hora = now.toTimeString().slice(0, 5) // HH:MM
+      const compiledText = [
+        formData.natureza.toUpperCase(),
+        formData.descricao.trim(),
+        formData.bairro.toUpperCase(),
+        formData.municipio.toUpperCase(),
+        hora,
+      ]
+        .filter(Boolean)
+        .join(' - ')
+
+      const payload = {
+        ...formData,
+        descricao: compiledText,
+      }
+
       // Usar text/plain evita o preflight de CORS no Google Apps Script
       const response = await fetch(webhookUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'text/plain;charset=utf-8',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(payload),
       })
 
       const result = await response.json()
