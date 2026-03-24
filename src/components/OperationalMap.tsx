@@ -1,4 +1,4 @@
-import { useEffect, useRef, type MutableRefObject } from 'react'
+import { useState, useEffect, useRef, type MutableRefObject } from 'react'
 import { GeoJSON, MapContainer, Pane, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Layer } from 'leaflet'
@@ -13,6 +13,7 @@ import {
   type RiskItem,
   type TerritoryDetail,
 } from '../lib/snapshot'
+import { MapSearchBox } from './MapSearchBox'
 
 type OperationalMapProps = {
   region: RegionKey
@@ -169,6 +170,7 @@ export function OperationalMap({
   showMicronodes,
   onSelectTerritory,
 }: OperationalMapProps) {
+  const [map, setMap] = useState<L.Map | null>(null)
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
   const layerRegistryRef = useRef<Map<string, Layer>>(new Map())
   const polygonCollection = toFeatureCollection(polygons)
@@ -233,9 +235,11 @@ export function OperationalMap({
   }, [region])
 
   return (
-    <MapContainer center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
-      <TileLayer
-        attribution='&copy; OpenStreetMap contributors &copy; CARTO'
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      <MapSearchBox map={map} polygons={regionPolygons} onSelectTerritory={onSelectTerritory} />
+      <MapContainer ref={setMap} center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
+        <TileLayer
+          attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
       />
       <FitToRegion polygons={regionPolygons} region={region} />
@@ -286,6 +290,7 @@ export function OperationalMap({
           />
         </Pane>
       ) : null}
-    </MapContainer>
+      </MapContainer>
+    </div>
   )
 }
