@@ -262,6 +262,17 @@ export function OperationalMap({
             key={`micronodes-${region}`}
             data={micronodes as never}
             filter={(feature) => normalizeLookupName(String(feature?.properties?.region ?? '')) === normalizeLookupName(region)}
+            style={(feature) => {
+              const geoFeature = feature as unknown as GeoFeature
+              const factionStr = String(geoFeature?.properties?.faction ?? 'N/A')
+              const color = factionColor(factionStr)
+              return {
+                color: color,
+                weight: 2,
+                fillColor: color,
+                fillOpacity: 0.4,
+              }
+            }}
             pointToLayer={(feature, latlng) =>
               L.circleMarker(latlng, {
                 radius: 4,
