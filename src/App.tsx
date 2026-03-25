@@ -306,21 +306,6 @@ function App() {
             <span className="risk-dot" style={{ backgroundColor: riskLevelColor(topRegionalItems[0]?.score ?? 0) }} />
           </div>
 
-          <div className="region-kpis">
-            <div>
-              <span>Em alerta</span>
-              <strong>{regionalPriorityCount}</strong>
-            </div>
-            <div>
-              <span>Críticos</span>
-              <strong>{regionalCriticalCount}</strong>
-            </div>
-            <div>
-              <span>Altos</span>
-              <strong>{regionalHighCount}</strong>
-            </div>
-          </div>
-
           <div className="top-list">
             {topRegionalItems.map((item) => (
               <button
@@ -341,6 +326,21 @@ function App() {
                 </div>
               </button>
             ))}
+          </div>
+
+          <div className="region-kpis">
+            <div>
+              <span>Em alerta</span>
+              <strong>{regionalPriorityCount}</strong>
+            </div>
+            <div>
+              <span>Críticos</span>
+              <strong>{regionalCriticalCount}</strong>
+            </div>
+            <div>
+              <span>Altos</span>
+              <strong>{regionalHighCount}</strong>
+            </div>
           </div>
         </aside>
 
