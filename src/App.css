@@ -202,6 +202,9 @@
   font-size: clamp(1.4rem, 1.3vw, 1.9rem);
   line-height: 1.1;
   color: #0f172a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .metric-card.feature strong,
@@ -324,6 +327,7 @@
   padding: 14px;
   background: rgba(248, 250, 252, 0.96);
   border: 1px solid rgba(148, 163, 184, 0.15);
+  min-width: 0;
 }
 
 .top-list {
