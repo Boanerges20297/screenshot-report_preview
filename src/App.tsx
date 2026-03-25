@@ -429,8 +429,12 @@ function App() {
                   <strong>{regionalSummary?.total_nodes ?? 0}</strong>
                 </div>
                 <div>
-                  <span>Em alerta</span>
-                  <strong>{regionalPriorityCount}</strong>
+                  <span>Saturação</span>
+                  <strong>
+                    {regionalSummary?.total_nodes
+                      ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
+                      : '0'}%
+                  </strong>
                 </div>
                 <div>
                   <span>Críticos</span>
@@ -441,12 +445,8 @@ function App() {
                   <strong>{regionalHighCount}</strong>
                 </div>
                 <div>
-                  <span>Saturação</span>
-                  <strong>
-                    {regionalSummary?.total_nodes
-                      ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
-                      : '0'}%
-                  </strong>
+                  <span>Em alerta</span>
+                  <strong>{regionalPriorityCount}</strong>
                 </div>
                 <div>
                   <span>Líder</span>
