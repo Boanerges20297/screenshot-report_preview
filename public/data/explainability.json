@@ -1,5 +1,34 @@
 {
-  "interior:ITAPAJE": {
+  "rmf:CAUCAIA": {
+    "confidence": 0.95,
+    "confidence_label": "Alta",
+    "confidence_pct": 95.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: EUSEBIO.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
+    "name": "CAUCAIA",
+    "node_id": 91,
+    "rank": 1,
+    "risk_score_pct": 84.33323074853631,
+    "score": 8.43332307485363,
+    "summary": "**CAUCAIA** está na posição **#1** do ranking — identificada como uma das 5 áreas mais críticas."
+  },
+  "rmf:MARACANAU": {
     "confidence": 0.95,
     "confidence_label": "Alta",
     "confidence_pct": 95.0,
@@ -11,79 +40,21 @@
       }
     ],
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "ITAPAJE",
-    "node_id": 44,
-    "rank": 1,
-    "risk_score_pct": 86.99991529659641,
-    "score": 8.699991529659641,
-    "summary": "**ITAPAJE** está na posição **#1** do ranking — identificada como uma das 5 áreas mais críticas."
-  },
-  "rmf:CAUCAIA": {
-    "confidence": 0.95,
-    "confidence_label": "Alta",
-    "confidence_pct": 95.0,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 4 ocorrências registradas recentemente (alta de 4 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      },
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: EUSEBIO.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      },
-      {
-        "explanation": "⚡ **Alerta de Conflito**: 3 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
-      },
-      {
-        "explanation": "🛡️ **Supressão Qualificada**: 3 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
-        "importance": "medium",
-        "name": "Ações de Supressão"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "CAUCAIA",
-    "node_id": 91,
-    "rank": 2,
-    "risk_score_pct": 86.30711525158299,
-    "score": 8.630711525158299,
-    "summary": "**CAUCAIA** está na posição **#2** do ranking — identificada como uma das 5 áreas mais críticas."
-  },
-  "rmf:MARACANAU": {
-    "confidence": 0.95,
-    "confidence_label": "Alta",
-    "confidence_pct": 95.0,
-    "factors": [
-      {
-        "explanation": "⚡ **Alerta de Conflito**: 2 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
-      },
-      {
-        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
-        "importance": "medium",
-        "name": "Ações de Supressão"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
     "name": "MARACANAU",
     "node_id": 90,
-    "rank": 3,
-    "risk_score_pct": 79.99989443497074,
-    "score": 7.999989443497074,
-    "summary": "**MARACANAU** está na posição **#3** do ranking — identificada como uma das 5 áreas mais críticas."
+    "rank": 2,
+    "risk_score_pct": 74.90881436542881,
+    "score": 7.490881436542881,
+    "summary": "**MARACANAU** está na posição **#2** do ranking — identificada como uma das 5 áreas mais críticas."
   },
   "fortaleza:BARROSO": {
-    "confidence": 0.95,
+    "confidence": 0.9483327790101369,
     "confidence_label": "Alta",
-    "confidence_pct": 95.0,
+    "confidence_pct": 94.8,
     "factors": [
       {
-        "explanation": "📊 **Persistência de crimes**: Manutenção de 4 ocorrências na janela atual, indicando inércia criminal.",
-        "importance": "medium",
+        "explanation": "🔄 **Base histórica**: Histórico de 1 ocorrência(s) em área de monitoramento constante.",
+        "importance": "low",
         "name": "Padrão Temporal"
       },
       {
@@ -95,15 +66,72 @@
     "interpretation": "Confiança do modelo é **alta** para esta previsão.",
     "name": "BARROSO",
     "node_id": 7,
+    "rank": 3,
+    "risk_score_pct": 69.66655580202739,
+    "score": 6.966655580202739,
+    "summary": "**BARROSO** está na posição **#3** do ranking — identificada como uma das 5 áreas mais críticas."
+  },
+  "interior:LIMOEIRO DO NORTE": {
+    "confidence": 0.9370411821939653,
+    "confidence_label": "Alta",
+    "confidence_pct": 93.7,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
+    "name": "LIMOEIRO DO NORTE",
+    "node_id": 59,
     "rank": 4,
-    "risk_score_pct": 76.99988913536072,
-    "score": 7.699988913536072,
-    "summary": "**BARROSO** está na posição **#4** do ranking — identificada como uma das 5 áreas mais críticas."
+    "risk_score_pct": 67.40823643879307,
+    "score": 6.740823643879307,
+    "summary": "**LIMOEIRO DO NORTE** está na posição **#4** do ranking — identificada como uma das 5 áreas mais críticas."
+  },
+  "interior:JUAZEIRO DO NORTE": {
+    "confidence": 0.8749994066097444,
+    "confidence_label": "Alta",
+    "confidence_pct": 87.5,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "JUAZEIRO DO NORTE",
+    "node_id": 40,
+    "rank": 5,
+    "risk_score_pct": 54.9998813219489,
+    "score": 5.49998813219489,
+    "summary": "**JUAZEIRO DO NORTE** está na posição **#5** do ranking — identificada como uma das 5 áreas mais críticas."
+  },
+  "interior:IRACEMA": {
+    "confidence": 0.8580730319756376,
+    "confidence_label": "Alta",
+    "confidence_pct": 85.8,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "IRACEMA",
+    "node_id": 66,
+    "rank": 6,
+    "risk_score_pct": 51.6146063951275,
+    "score": 5.16146063951275,
+    "summary": "**IRACEMA** está na posição **#6** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:IGUATU": {
-    "confidence": 0.95,
+    "confidence": 0.8480787977316088,
     "confidence_label": "Alta",
-    "confidence_pct": 95.0,
+    "confidence_pct": 84.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -111,90 +139,99 @@
         "name": "Histórico Estático"
       }
     ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "IGUATU",
     "node_id": 41,
-    "rank": 5,
-    "risk_score_pct": 73.806183432303,
-    "score": 7.3806183432303,
-    "summary": "**IGUATU** está na posição **#5** do ranking — identificada como uma das 5 áreas mais críticas."
+    "rank": 7,
+    "risk_score_pct": 49.615759546321755,
+    "score": 4.961575954632176,
+    "summary": "**IGUATU** está na posição **#7** do ranking — identificada como área de alta prioridade tática."
   },
-  "fortaleza:ANTONIO BEZERRA": {
-    "confidence": 0.95,
+  "interior:ITAPAJE": {
+    "confidence": 0.8346725297707425,
     "confidence_label": "Alta",
-    "confidence_pct": 95.0,
+    "confidence_pct": 83.5,
     "factors": [
       {
-        "explanation": "📈 **Aumento real de criminalidade**: 4 ocorrências registradas recentemente (alta de 4 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      },
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, PADRE ANDRADE, VILA VELHA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
       }
     ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
-    "name": "ANTONIO BEZERRA",
-    "node_id": 26,
-    "rank": 6,
-    "risk_score_pct": 70.72049808502197,
-    "score": 7.072049808502197,
-    "summary": "**ANTONIO BEZERRA** está na posição **#6** do ranking — identificada como área de alta prioridade tática."
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "ITAPAJE",
+    "node_id": 44,
+    "rank": 8,
+    "risk_score_pct": 46.9345059541485,
+    "score": 4.69345059541485,
+    "summary": "**ITAPAJE** está na posição **#8** do ranking — identificada como área de alta prioridade tática."
+  },
+  "interior:CARIRE": {
+    "confidence": 0.8341276588775819,
+    "confidence_label": "Alta",
+    "confidence_pct": 83.4,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "CARIRE",
+    "node_id": 51,
+    "rank": 9,
+    "risk_score_pct": 46.825531775516396,
+    "score": 4.68255317755164,
+    "summary": "**CARIRE** está na posição **#9** do ranking — identificada como área de alta prioridade tática."
+  },
+  "interior:VARZEA ALEGRE": {
+    "confidence": 0.8296480345465844,
+    "confidence_label": "Alta",
+    "confidence_pct": 83.0,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "VARZEA ALEGRE",
+    "node_id": 54,
+    "rank": 10,
+    "risk_score_pct": 45.9296069093169,
+    "score": 4.59296069093169,
+    "summary": "**VARZEA ALEGRE** está na posição **#10** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:SIQUEIRA": {
-    "confidence": 0.9054296620686848,
+    "confidence": 0.8229048597812652,
     "confidence_label": "Alta",
-    "confidence_pct": 90.5,
+    "confidence_pct": 82.3,
     "factors": [
       {
-        "explanation": "📈 **Aumento real de criminalidade**: 2 ocorrências registradas recentemente (alta de 2 em relação ao período anterior).",
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
         "importance": "high",
         "name": "Padrão Temporal"
       },
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, NOVO MONDUBIM, ALTO ALEGRE.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ALTO ALEGRE, BOM JARDIM, CANINDEZINHO.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "SIQUEIRA",
     "node_id": 6,
-    "rank": 8,
-    "risk_score_pct": 61.08593241373698,
-    "score": 6.108593241373698,
-    "summary": "**SIQUEIRA** está na posição **#8** do ranking — identificada como área de alta prioridade tática."
-  },
-  "fortaleza:BOM JARDIM": {
-    "confidence": 0.8988065461317698,
-    "confidence_label": "Alta",
-    "confidence_pct": 89.9,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 3 ocorrências registradas recentemente (alta de 3 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      },
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, NOVO MONDUBIM, ALTO ALEGRE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "BOM JARDIM",
-    "node_id": 20,
-    "rank": 9,
-    "risk_score_pct": 59.76130922635395,
-    "score": 5.976130922635395,
-    "summary": "**BOM JARDIM** está na posição **#9** do ranking — identificada como área de alta prioridade tática."
+    "rank": 12,
+    "risk_score_pct": 44.580971956253045,
+    "score": 4.458097195625305,
+    "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:GROAIRAS": {
-    "confidence": 0.907389709029407,
+    "confidence": 0.8225871798135942,
     "confidence_label": "Alta",
-    "confidence_pct": 90.7,
+    "confidence_pct": 82.3,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -202,60 +239,41 @@
         "name": "Histórico Estático"
       }
     ],
-    "interpretation": "Confiança do modelo é **alta** para esta previsão.",
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "GROAIRAS",
     "node_id": 42,
-    "rank": 7,
-    "risk_score_pct": 61.477941805881386,
-    "score": 6.147794180588138,
-    "summary": "**GROAIRAS** está na posição **#7** do ranking — identificada como área de alta prioridade tática."
+    "rank": 13,
+    "risk_score_pct": 44.51743596271886,
+    "score": 4.451743596271886,
+    "summary": "**GROAIRAS** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
   },
-  "fortaleza:BARRA DO CEARA": {
-    "confidence": 0.8546171621481577,
+  "fortaleza:ALTO ALEGRE": {
+    "confidence": 0.8223508179187775,
     "confidence_label": "Alta",
-    "confidence_pct": 85.5,
+    "confidence_pct": 82.2,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, PADRE ANDRADE, VILA VELHA.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, MONDUBIM, BOM JARDIM.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "BARRA DO CEARA",
-    "node_id": 1,
-    "rank": 11,
-    "risk_score_pct": 50.92343242963155,
-    "score": 5.092343242963155,
-    "summary": "**BARRA DO CEARA** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
-  },
-  "interior:TIANGUA": {
-    "confidence": 0.8617197063305087,
-    "confidence_label": "Alta",
-    "confidence_pct": 86.2,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "TIANGUA",
-    "node_id": 48,
-    "rank": 10,
-    "risk_score_pct": 52.34394126610172,
-    "score": 5.234394126610172,
-    "summary": "**TIANGUA** está na posição **#10** do ranking — identificada como área de alta prioridade tática."
+    "name": "ALTO ALEGRE",
+    "node_id": 0,
+    "rank": 14,
+    "risk_score_pct": 44.47016358375549,
+    "score": 4.447016358375549,
+    "summary": "**ALTO ALEGRE** está na posição **#14** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:ANCURI": {
-    "confidence": 0.8402980041503907,
+    "confidence": 0.8232236411174139,
     "confidence_label": "Alta",
-    "confidence_pct": 84.0,
+    "confidence_pct": 82.3,
     "factors": [
       {
-        "explanation": "📊 **Persistência de crimes**: Manutenção de 3 ocorrências na janela atual, indicando inércia criminal.",
-        "importance": "medium",
+        "explanation": "🔄 **Base histórica**: Histórico de 2 ocorrência(s) em área de monitoramento constante.",
+        "importance": "low",
         "name": "Padrão Temporal"
       },
       {
@@ -267,15 +285,58 @@
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "ANCURI",
     "node_id": 28,
-    "rank": 13,
-    "risk_score_pct": 48.059600830078125,
-    "score": 4.805960083007813,
-    "summary": "**ANCURI** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
+    "rank": 11,
+    "risk_score_pct": 44.64472822348277,
+    "score": 4.464472822348277,
+    "summary": "**ANCURI** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
+  },
+  "fortaleza:MONDUBIM": {
+    "confidence": 0.8132961571216584,
+    "confidence_label": "Alta",
+    "confidence_pct": 81.3,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ALTO ALEGRE, BOM JARDIM, CANINDEZINHO.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "MONDUBIM",
+    "node_id": 14,
+    "rank": 15,
+    "risk_score_pct": 42.659231424331665,
+    "score": 4.2659231424331665,
+    "summary": "**MONDUBIM** está na posição **#15** do ranking — identificada como área de alta prioridade tática."
+  },
+  "interior:TIANGUA": {
+    "confidence": 0.8104157325365251,
+    "confidence_label": "Alta",
+    "confidence_pct": 81.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "TIANGUA",
+    "node_id": 48,
+    "rank": 16,
+    "risk_score_pct": 42.08314650730504,
+    "score": 4.208314650730504,
+    "summary": "**TIANGUA** está na posição **#16** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:SOBRAL": {
-    "confidence": 0.8464849304892725,
+    "confidence": 0.8087517794706529,
     "confidence_label": "Alta",
-    "confidence_pct": 84.6,
+    "confidence_pct": 80.9,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -286,115 +347,15 @@
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "SOBRAL",
     "node_id": 43,
-    "rank": 12,
-    "risk_score_pct": 49.2969860978545,
-    "score": 4.92969860978545,
-    "summary": "**SOBRAL** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
-  },
-  "fortaleza:MESSEJANA": {
-    "confidence": 0.8121259987354279,
-    "confidence_label": "Alta",
-    "confidence_pct": 81.2,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, CURIO.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      },
-      {
-        "explanation": "🛡️ **Supressão Qualificada**: 2 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
-        "importance": "medium",
-        "name": "Ações de Supressão"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "MESSEJANA",
-    "node_id": 8,
-    "rank": 16,
-    "risk_score_pct": 42.42519974708557,
-    "score": 4.242519974708557,
-    "summary": "**MESSEJANA** está na posição **#16** do ranking — identificada como área de alta prioridade tática."
-  },
-  "interior:CARIRE": {
-    "confidence": 0.8278570629892852,
-    "confidence_label": "Alta",
-    "confidence_pct": 82.8,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "CARIRE",
-    "node_id": 51,
-    "rank": 14,
-    "risk_score_pct": 45.57141259785705,
-    "score": 4.557141259785705,
-    "summary": "**CARIRE** está na posição **#14** do ranking — identificada como área de alta prioridade tática."
-  },
-  "interior:LIMOEIRO DO NORTE": {
-    "confidence": 0.8255827364065356,
-    "confidence_label": "Alta",
-    "confidence_pct": 82.6,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "LIMOEIRO DO NORTE",
-    "node_id": 59,
-    "rank": 15,
-    "risk_score_pct": 45.116547281307106,
-    "score": 4.5116547281307104,
-    "summary": "**LIMOEIRO DO NORTE** está na posição **#15** do ranking — identificada como área de alta prioridade tática."
-  },
-  "fortaleza:CURIO": {
-    "confidence": 0.7817263036966324,
-    "confidence_label": "Moderada",
-    "confidence_pct": 78.2,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, PARQUE IRACEMA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "CURIO",
-    "node_id": 18,
-    "rank": 23,
-    "risk_score_pct": 36.34526073932648,
-    "score": 3.6345260739326477,
-    "summary": "**CURIO** está na posição **#23** do ranking — identificada como área de atenção moderada."
-  },
-  "interior:IRACEMA": {
-    "confidence": 0.8009630343057816,
-    "confidence_label": "Alta",
-    "confidence_pct": 80.1,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "IRACEMA",
-    "node_id": 66,
     "rank": 17,
-    "risk_score_pct": 40.19260686115635,
-    "score": 4.019260686115635,
-    "summary": "**IRACEMA** está na posição **#17** do ranking — identificada como área de alta prioridade tática."
+    "risk_score_pct": 41.7503558941306,
+    "score": 4.17503558941306,
+    "summary": "**SOBRAL** está na posição **#17** do ranking — identificada como área de alta prioridade tática."
   },
-  "interior:CAPISTRANO": {
-    "confidence": 0.7960011538603013,
+  "interior:JAGUARUANA": {
+    "confidence": 0.79375382033369,
     "confidence_label": "Moderada",
-    "confidence_pct": 79.6,
+    "confidence_pct": 79.4,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -403,17 +364,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "CAPISTRANO",
-    "node_id": 58,
+    "name": "JAGUARUANA",
+    "node_id": 67,
     "rank": 18,
-    "risk_score_pct": 39.20023077206029,
-    "score": 3.9200230772060287,
-    "summary": "**CAPISTRANO** está na posição **#18** do ranking — identificada como área de alta prioridade tática."
+    "risk_score_pct": 38.75076406673802,
+    "score": 3.875076406673802,
+    "summary": "**JAGUARUANA** está na posição **#18** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:GRACA": {
-    "confidence": 0.7929171946384614,
+    "confidence": 0.7824206974842256,
     "confidence_label": "Moderada",
-    "confidence_pct": 79.3,
+    "confidence_pct": 78.2,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -425,14 +386,14 @@
     "name": "GRACA",
     "node_id": 57,
     "rank": 19,
-    "risk_score_pct": 38.583438927692306,
-    "score": 3.8583438927692306,
+    "risk_score_pct": 36.48413949684514,
+    "score": 3.648413949684514,
     "summary": "**GRACA** está na posição **#19** do ranking — identificada como área de alta prioridade tática."
   },
-  "interior:JUAZEIRO DO NORTE": {
-    "confidence": 0.7841958303489394,
+  "interior:UMIRIM": {
+    "confidence": 0.7818097349741167,
     "confidence_label": "Moderada",
-    "confidence_pct": 78.4,
+    "confidence_pct": 78.2,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -441,17 +402,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "JUAZEIRO DO NORTE",
-    "node_id": 40,
+    "name": "UMIRIM",
+    "node_id": 70,
     "rank": 20,
-    "risk_score_pct": 36.839166069787865,
-    "score": 3.6839166069787863,
-    "summary": "**JUAZEIRO DO NORTE** está na posição **#20** do ranking — identificada como área de alta prioridade tática."
+    "risk_score_pct": 36.36194699482335,
+    "score": 3.636194699482335,
+    "summary": "**UMIRIM** está na posição **#20** do ranking — identificada como área de alta prioridade tática."
   },
-  "interior:ITAREMA": {
-    "confidence": 0.7837710705139345,
+  "interior:CAPISTRANO": {
+    "confidence": 0.7814552661516374,
     "confidence_label": "Moderada",
-    "confidence_pct": 78.4,
+    "confidence_pct": 78.1,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -460,36 +421,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "ITAREMA",
-    "node_id": 64,
+    "name": "CAPISTRANO",
+    "node_id": 58,
     "rank": 21,
-    "risk_score_pct": 36.75421410278691,
-    "score": 3.675421410278691,
-    "summary": "**ITAREMA** está na posição **#21** do ranking — identificada como área de alta prioridade tática."
-  },
-  "interior:BANABUIU": {
-    "confidence": 0.7837710705139345,
-    "confidence_label": "Moderada",
-    "confidence_pct": 78.4,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "BANABUIU",
-    "node_id": 68,
-    "rank": 22,
-    "risk_score_pct": 36.75421410278691,
-    "score": 3.675421410278691,
-    "summary": "**BANABUIU** está na posição **#22** do ranking — identificada como área de atenção moderada."
+    "risk_score_pct": 36.2910532303275,
+    "score": 3.62910532303275,
+    "summary": "**CAPISTRANO** está na posição **#21** do ranking — identificada como área de alta prioridade tática."
   },
   "interior:URUBURETAMA": {
-    "confidence": 0.7782508310415452,
+    "confidence": 0.7708873030283159,
     "confidence_label": "Moderada",
-    "confidence_pct": 77.8,
+    "confidence_pct": 77.1,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -501,69 +443,12 @@
     "name": "URUBURETAMA",
     "node_id": 47,
     "rank": 24,
-    "risk_score_pct": 35.65016620830907,
-    "score": 3.5650166208309066,
+    "risk_score_pct": 34.17746060566319,
+    "score": 3.4177460605663192,
     "summary": "**URUBURETAMA** está na posição **#24** do ranking — identificada como área de atenção moderada."
   },
-  "fortaleza:PARQUE IRACEMA": {
-    "confidence": 0.7566855281591416,
-    "confidence_label": "Moderada",
-    "confidence_pct": 75.7,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, CURIO.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "PARQUE IRACEMA",
-    "node_id": 31,
-    "rank": 28,
-    "risk_score_pct": 31.33710563182831,
-    "score": 3.1337105631828313,
-    "summary": "**PARQUE IRACEMA** está na posição **#28** do ranking — identificada como área de atenção moderada."
-  },
-  "fortaleza:NOVO MONDUBIM": {
-    "confidence": 0.7575704485177994,
-    "confidence_label": "Moderada",
-    "confidence_pct": 75.8,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, BOM JARDIM, ALTO ALEGRE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "NOVO MONDUBIM",
-    "node_id": 30,
-    "rank": 27,
-    "risk_score_pct": 31.51408970355988,
-    "score": 3.151408970355988,
-    "summary": "**NOVO MONDUBIM** está na posição **#27** do ranking — identificada como área de atenção moderada."
-  },
-  "fortaleza:ALTO ALEGRE": {
-    "confidence": 0.7536157548427582,
-    "confidence_label": "Moderada",
-    "confidence_pct": 75.4,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, BOM JARDIM, NOVO MONDUBIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "ALTO ALEGRE",
-    "node_id": 0,
-    "rank": 30,
-    "risk_score_pct": 30.72315096855164,
-    "score": 3.072315096855164,
-    "summary": "**ALTO ALEGRE** está na posição **#30** do ranking — identificada como área de atenção moderada."
-  },
-  "interior:PALMACIA": {
-    "confidence": 0.77044088659069,
+  "interior:ITAREMA": {
+    "confidence": 0.7703133550026124,
     "confidence_label": "Moderada",
     "confidence_pct": 77.0,
     "factors": [
@@ -574,17 +459,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "PALMACIA",
-    "node_id": 82,
+    "name": "ITAREMA",
+    "node_id": 64,
     "rank": 25,
-    "risk_score_pct": 34.088177318138015,
-    "score": 3.4088177318138015,
-    "summary": "**PALMACIA** está na posição **#25** do ranking — identificada como área de atenção moderada."
+    "risk_score_pct": 34.062671000522506,
+    "score": 3.4062671000522506,
+    "summary": "**ITAREMA** está na posição **#25** do ranking — identificada como área de atenção moderada."
   },
-  "interior:VICOSA DO CEARA": {
-    "confidence": 0.7645852474980659,
+  "interior:BANABUIU": {
+    "confidence": 0.7703133550026124,
     "confidence_label": "Moderada",
-    "confidence_pct": 76.5,
+    "confidence_pct": 77.0,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -593,17 +478,41 @@
       }
     ],
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "VICOSA DO CEARA",
-    "node_id": 46,
+    "name": "BANABUIU",
+    "node_id": 68,
     "rank": 26,
-    "risk_score_pct": 32.917049499613185,
-    "score": 3.2917049499613187,
-    "summary": "**VICOSA DO CEARA** está na posição **#26** do ranking — identificada como área de atenção moderada."
+    "risk_score_pct": 34.062671000522506,
+    "score": 3.4062671000522506,
+    "summary": "**BANABUIU** está na posição **#26** do ranking — identificada como área de atenção moderada."
+  },
+  "fortaleza:BOM JARDIM": {
+    "confidence": 0.7675497015317281,
+    "confidence_label": "Moderada",
+    "confidence_pct": 76.8,
+    "factors": [
+      {
+        "explanation": "🔄 **Base histórica**: Histórico de 1 ocorrência(s) em área de monitoramento constante.",
+        "importance": "low",
+        "name": "Padrão Temporal"
+      },
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, ALTO ALEGRE, MONDUBIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "BOM JARDIM",
+    "node_id": 20,
+    "rank": 28,
+    "risk_score_pct": 33.50994030634562,
+    "score": 3.350994030634562,
+    "summary": "**BOM JARDIM** está na posição **#28** do ranking — identificada como área de atenção moderada."
   },
   "interior:ARATUBA": {
-    "confidence": 0.7560367814750082,
+    "confidence": 0.7688621309139436,
     "confidence_label": "Moderada",
-    "confidence_pct": 75.6,
+    "confidence_pct": 76.9,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -614,32 +523,70 @@
     "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
     "name": "ARATUBA",
     "node_id": 45,
-    "rank": 29,
-    "risk_score_pct": 31.20735629500164,
-    "score": 3.1207356295001643,
-    "summary": "**ARATUBA** está na posição **#29** do ranking — identificada como área de atenção moderada."
+    "rank": 27,
+    "risk_score_pct": 33.77242618278874,
+    "score": 3.377242618278874,
+    "summary": "**ARATUBA** está na posição **#27** do ranking — identificada como área de atenção moderada."
   },
-  "fortaleza:CANINDEZINHO": {
-    "confidence": 0.7306038320064545,
+  "interior:ITAPIUNA": {
+    "confidence": 0.765822621855945,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.1,
+    "confidence_pct": 76.6,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, BOM JARDIM, NOVO MONDUBIM.",
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "ITAPIUNA",
+    "node_id": 63,
+    "rank": 29,
+    "risk_score_pct": 33.16452437118901,
+    "score": 3.316452437118901,
+    "summary": "**ITAPIUNA** está na posição **#29** do ranking — identificada como área de atenção moderada."
+  },
+  "fortaleza:CURIO": {
+    "confidence": 0.7737915694713593,
+    "confidence_label": "Moderada",
+    "confidence_pct": 77.4,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, PARQUE IRACEMA.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CANINDEZINHO",
-    "node_id": 24,
-    "rank": 50,
-    "risk_score_pct": 26.120766401290897,
-    "score": 2.61207664012909,
-    "summary": "**CANINDEZINHO** está na posição **#50** do ranking — identificada como área de atenção moderada."
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "CURIO",
+    "node_id": 18,
+    "rank": 23,
+    "risk_score_pct": 34.75831389427185,
+    "score": 3.475831389427185,
+    "summary": "**CURIO** está na posição **#23** do ranking — identificada como área de atenção moderada."
+  },
+  "interior:FRECHEIRINHA": {
+    "confidence": 0.7611554664113229,
+    "confidence_label": "Moderada",
+    "confidence_pct": 76.1,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "FRECHEIRINHA",
+    "node_id": 74,
+    "rank": 30,
+    "risk_score_pct": 32.2310932822646,
+    "score": 3.2231093282264602,
+    "summary": "**FRECHEIRINHA** está na posição **#30** do ranking — identificada como área de atenção moderada."
   },
   "interior:BATURITE": {
-    "confidence": 0.7499998000004,
+    "confidence": 0.749622481737346,
     "confidence_label": "Moderada",
     "confidence_pct": 75.0,
     "factors": [
@@ -652,13 +599,13 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "BATURITE",
     "node_id": 49,
-    "rank": 31,
-    "risk_score_pct": 29.999960000080005,
-    "score": 2.9999960000080006,
-    "summary": "**BATURITE** está na posição **#31** do ranking — identificada como área de atenção moderada."
+    "rank": 32,
+    "risk_score_pct": 29.92449634746922,
+    "score": 2.992449634746922,
+    "summary": "**BATURITE** está na posição **#32** do ranking — identificada como área de atenção moderada."
   },
-  "interior:UMIRIM": {
-    "confidence": 0.7483028423525995,
+  "interior:PALMACIA": {
+    "confidence": 0.7483159255721277,
     "confidence_label": "Moderada",
     "confidence_pct": 74.8,
     "factors": [
@@ -669,53 +616,39 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "UMIRIM",
-    "node_id": 70,
-    "rank": 32,
-    "risk_score_pct": 29.66056847051991,
-    "score": 2.966056847051991,
-    "summary": "**UMIRIM** está na posição **#32** do ranking — identificada como área de atenção moderada."
+    "name": "PALMACIA",
+    "node_id": 82,
+    "rank": 33,
+    "risk_score_pct": 29.66318511442555,
+    "score": 2.9663185114425548,
+    "summary": "**PALMACIA** está na posição **#33** do ranking — identificada como área de atenção moderada."
+  },
+  "fortaleza:CANINDEZINHO": {
+    "confidence": 0.7549661278724671,
+    "confidence_label": "Moderada",
+    "confidence_pct": 75.5,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, ALTO ALEGRE, MONDUBIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "CANINDEZINHO",
+    "node_id": 24,
+    "rank": 31,
+    "risk_score_pct": 30.99322557449341,
+    "score": 3.0993225574493413,
+    "summary": "**CANINDEZINHO** está na posição **#31** do ranking — identificada como área de atenção moderada."
   },
   "interior:PEREIRO": {
-    "confidence": 0.7455426555611795,
-    "confidence_label": "Moderada",
-    "confidence_pct": 74.6,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PEREIRO",
-    "node_id": 69,
-    "rank": 33,
-    "risk_score_pct": 29.108531112235912,
-    "score": 2.910853111223591,
-    "summary": "**PEREIRO** está na posição **#33** do ranking — identificada como área de atenção moderada."
-  },
-  "interior:UBAJARA": {
-    "confidence": 0.7453846138455575,
-    "confidence_label": "Moderada",
-    "confidence_pct": 74.5,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "UBAJARA",
-    "node_id": 83,
-    "rank": 34,
-    "risk_score_pct": 29.076922769111523,
-    "score": 2.907692276911152,
-    "summary": "**UBAJARA** está na posição **#34** do ranking — identificada como área de atenção moderada."
-  },
-  "interior:MUCAMBO": {
-    "confidence": 0.7408163723089403,
+    "confidence": 0.7413130727150148,
     "confidence_label": "Moderada",
     "confidence_pct": 74.1,
     "factors": [
@@ -726,17 +659,36 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "MUCAMBO",
-    "node_id": 87,
+    "name": "PEREIRO",
+    "node_id": 69,
+    "rank": 34,
+    "risk_score_pct": 28.26261454300297,
+    "score": 2.826261454300297,
+    "summary": "**PEREIRO** está na posição **#34** do ranking — identificada como área de atenção moderada."
+  },
+  "interior:UBAJARA": {
+    "confidence": 0.7402662065365022,
+    "confidence_label": "Moderada",
+    "confidence_pct": 74.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "UBAJARA",
+    "node_id": 83,
     "rank": 35,
-    "risk_score_pct": 28.163274461788067,
-    "score": 2.8163274461788066,
-    "summary": "**MUCAMBO** está na posição **#35** do ranking — identificada como área de atenção moderada."
+    "risk_score_pct": 28.053241307300457,
+    "score": 2.8053241307300456,
+    "summary": "**UBAJARA** está na posição **#35** do ranking — identificada como área de atenção moderada."
   },
   "interior:JIJOCA DE JERICOACOARA": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -747,15 +699,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "JIJOCA DE JERICOACOARA",
     "node_id": 52,
-    "rank": 36,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**JIJOCA DE JERICOACOARA** está na posição **#36** do ranking — identificada como área de atenção moderada."
+    "rank": 37,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**JIJOCA DE JERICOACOARA** está na posição **#37** do ranking — identificada como área de atenção moderada."
   },
   "interior:CARIRIACU": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -766,15 +718,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CARIRIACU",
     "node_id": 55,
-    "rank": 37,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**CARIRIACU** está na posição **#37** do ranking — identificada como área de atenção moderada."
+    "rank": 38,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**CARIRIACU** está na posição **#38** do ranking — identificada como área de atenção moderada."
   },
   "interior:ACARAPE": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -785,15 +737,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ACARAPE",
     "node_id": 61,
-    "rank": 38,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**ACARAPE** está na posição **#38** do ranking — identificada como área de atenção moderada."
+    "rank": 39,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**ACARAPE** está na posição **#39** do ranking — identificada como área de atenção moderada."
   },
   "interior:ITAICABA": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -804,15 +756,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ITAICABA",
     "node_id": 71,
-    "rank": 39,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**ITAICABA** está na posição **#39** do ranking — identificada como área de atenção moderada."
+    "rank": 40,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**ITAICABA** está na posição **#40** do ranking — identificada como área de atenção moderada."
   },
   "interior:ASSARE": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -823,15 +775,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ASSARE",
     "node_id": 72,
-    "rank": 40,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**ASSARE** está na posição **#40** do ranking — identificada como área de atenção moderada."
+    "rank": 41,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**ASSARE** está na posição **#41** do ranking — identificada como área de atenção moderada."
   },
   "interior:TURURU": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -842,15 +794,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "TURURU",
     "node_id": 73,
-    "rank": 41,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**TURURU** está na posição **#41** do ranking — identificada como área de atenção moderada."
+    "rank": 42,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**TURURU** está na posição **#42** do ranking — identificada como área de atenção moderada."
   },
   "interior:ALTO SANTO": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -861,15 +813,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ALTO SANTO",
     "node_id": 76,
-    "rank": 42,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**ALTO SANTO** está na posição **#42** do ranking — identificada como área de atenção moderada."
+    "rank": 43,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**ALTO SANTO** está na posição **#43** do ranking — identificada como área de atenção moderada."
   },
   "interior:CEDRO": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -880,15 +832,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CEDRO",
     "node_id": 77,
-    "rank": 43,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**CEDRO** está na posição **#43** do ranking — identificada como área de atenção moderada."
+    "rank": 44,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**CEDRO** está na posição **#44** do ranking — identificada como área de atenção moderada."
   },
   "interior:SANTANA DO ACARAU": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -899,15 +851,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "SANTANA DO ACARAU",
     "node_id": 79,
-    "rank": 44,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**SANTANA DO ACARAU** está na posição **#44** do ranking — identificada como área de atenção moderada."
+    "rank": 45,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**SANTANA DO ACARAU** está na posição **#45** do ranking — identificada como área de atenção moderada."
   },
   "interior:IBARETAMA": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -918,15 +870,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "IBARETAMA",
     "node_id": 80,
-    "rank": 45,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**IBARETAMA** está na posição **#45** do ranking — identificada como área de atenção moderada."
+    "rank": 46,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**IBARETAMA** está na posição **#46** do ranking — identificada como área de atenção moderada."
   },
   "interior:ANTONINA DO NORTE": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.7375498589613145,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -937,15 +889,34 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "ANTONINA DO NORTE",
     "node_id": 81,
-    "rank": 46,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**ANTONINA DO NORTE** está na posição **#46** do ranking — identificada como área de atenção moderada."
+    "rank": 47,
+    "risk_score_pct": 27.50997179226292,
+    "score": 2.750997179226292,
+    "summary": "**ANTONINA DO NORTE** está na posição **#47** do ranking — identificada como área de atenção moderada."
+  },
+  "interior:MUCAMBO": {
+    "confidence": 0.7377210285999483,
+    "confidence_label": "Moderada",
+    "confidence_pct": 73.8,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "MUCAMBO",
+    "node_id": 87,
+    "rank": 36,
+    "risk_score_pct": 27.544205719989666,
+    "score": 2.7544205719989665,
+    "summary": "**MUCAMBO** está na posição **#36** do ranking — identificada como área de atenção moderada."
   },
   "interior:RERIUTABA": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.737549814257831,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -956,15 +927,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "RERIUTABA",
     "node_id": 88,
-    "rank": 47,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**RERIUTABA** está na posição **#47** do ranking — identificada como área de atenção moderada."
+    "rank": 48,
+    "risk_score_pct": 27.509962851566204,
+    "score": 2.7509962851566203,
+    "summary": "**RERIUTABA** está na posição **#48** do ranking — identificada como área de atenção moderada."
   },
   "interior:SENADOR POMPEU": {
-    "confidence": 0.7357410591580575,
+    "confidence": 0.737549814257831,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.6,
+    "confidence_pct": 73.8,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -975,15 +946,72 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "SENADOR POMPEU",
     "node_id": 89,
-    "rank": 48,
-    "risk_score_pct": 27.148211831611523,
-    "score": 2.714821183161152,
-    "summary": "**SENADOR POMPEU** está na posição **#48** do ranking — identificada como área de atenção moderada."
+    "rank": 49,
+    "risk_score_pct": 27.509962851566204,
+    "score": 2.7509962851566203,
+    "summary": "**SENADOR POMPEU** está na posição **#49** do ranking — identificada como área de atenção moderada."
   },
-  "interior:JAGUARUANA": {
-    "confidence": 0.7307005998232072,
+  "fortaleza:ANTONIO BEZERRA": {
+    "confidence": 0.7260497049490611,
     "confidence_label": "Moderada",
-    "confidence_pct": 73.1,
+    "confidence_pct": 72.6,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, VILA VELHA, CARLITO PAMPLONA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "ANTONIO BEZERRA",
+    "node_id": 26,
+    "rank": 55,
+    "risk_score_pct": 25.209940989812214,
+    "score": 2.5209940989812214,
+    "summary": "**ANTONIO BEZERRA** está na posição **#55** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:NOVO MONDUBIM": {
+    "confidence": 0.735594454407692,
+    "confidence_label": "Moderada",
+    "confidence_pct": 73.6,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, ALTO ALEGRE, MONDUBIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "NOVO MONDUBIM",
+    "node_id": 30,
+    "rank": 50,
+    "risk_score_pct": 27.118890881538395,
+    "score": 2.7118890881538396,
+    "summary": "**NOVO MONDUBIM** está na posição **#50** do ranking — identificada como área de atenção moderada."
+  },
+  "rmf:SAO LUIS DO CURU": {
+    "confidence": 0.7342129654685656,
+    "confidence_label": "Moderada",
+    "confidence_pct": 73.4,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "SAO LUIS DO CURU",
+    "node_id": 99,
+    "rank": 51,
+    "risk_score_pct": 26.842593093713123,
+    "score": 2.6842593093713125,
+    "summary": "**SAO LUIS DO CURU** está na posição **#51** do ranking — identificada como área de atenção moderada."
+  },
+  "interior:VICOSA DO CEARA": {
+    "confidence": 0.7326347556450075,
+    "confidence_label": "Moderada",
+    "confidence_pct": 73.3,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -992,125 +1020,87 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JAGUARUANA",
-    "node_id": 67,
-    "rank": 49,
-    "risk_score_pct": 26.14011996464146,
-    "score": 2.614011996464146,
-    "summary": "**JAGUARUANA** está na posição **#49** do ranking — identificada como área de atenção moderada."
+    "name": "VICOSA DO CEARA",
+    "node_id": 46,
+    "rank": 52,
+    "risk_score_pct": 26.526951129001507,
+    "score": 2.6526951129001506,
+    "summary": "**VICOSA DO CEARA** está na posição **#52** do ranking — identificada como área de atenção moderada."
   },
-  "fortaleza:PADRE ANDRADE": {
-    "confidence": 0.7166425764560699,
+  "fortaleza:MESSEJANA": {
+    "confidence": 0.7767369776964188,
     "confidence_label": "Moderada",
-    "confidence_pct": 71.7,
+    "confidence_pct": 77.7,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, VILA VELHA.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, CURIO.",
         "importance": "high",
         "name": "Correlação Espacial"
       },
       {
-        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "explanation": "⚡ **Alerta de Conflito**: 2 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
         "importance": "high",
         "name": "Eventos Críticos"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PADRE ANDRADE",
-    "node_id": 38,
-    "rank": 55,
-    "risk_score_pct": 23.32851529121399,
-    "score": 2.332851529121399,
-    "summary": "**PADRE ANDRADE** está na posição **#55** do ranking — identificada como área monitorada."
-  },
-  "interior:AURORA": {
-    "confidence": 0.7293611636757851,
-    "confidence_label": "Moderada",
-    "confidence_pct": 72.9,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 2 ocorrências registradas recentemente (alta de 2 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "AURORA",
-    "node_id": 84,
-    "rank": 51,
-    "risk_score_pct": 25.87223273515701,
-    "score": 2.587223273515701,
-    "summary": "**AURORA** está na posição **#51** do ranking — identificada como área de atenção moderada."
-  },
-  "fortaleza:PLANALTO AYRTON SENNA": {
-    "confidence": 0.7025013595819473,
-    "confidence_label": "Moderada",
-    "confidence_pct": 70.3,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, NOVO MONDUBIM, ALTO ALEGRE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PLANALTO AYRTON SENNA",
-    "node_id": 2,
-    "rank": 56,
-    "risk_score_pct": 20.500271916389465,
-    "score": 2.0500271916389465,
-    "summary": "**PLANALTO AYRTON SENNA** está na posição **#56** do ranking — identificada como área monitorada."
-  },
-  "interior:VARZEA ALEGRE": {
-    "confidence": 0.7206776017094012,
-    "confidence_label": "Moderada",
-    "confidence_pct": 72.1,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "VARZEA ALEGRE",
-    "node_id": 54,
-    "rank": 53,
-    "risk_score_pct": 24.135520341880255,
-    "score": 2.4135520341880254,
-    "summary": "**VARZEA ALEGRE** está na posição **#53** do ranking — identificada como área de atenção moderada."
-  },
-  "rmf:SAO LUIS DO CURU": {
-    "confidence": 0.72,
-    "confidence_label": "Moderada",
-    "confidence_pct": 72.0,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
       },
       {
-        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "explanation": "🛡️ **Supressão Qualificada**: 3 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
         "importance": "medium",
         "name": "Ações de Supressão"
       }
     ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SAO LUIS DO CURU",
-    "node_id": 99,
-    "rank": 54,
-    "risk_score_pct": 24.0,
-    "score": 2.4,
-    "summary": "**SAO LUIS DO CURU** está na posição **#54** do ranking — identificada como área de atenção moderada."
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "MESSEJANA",
+    "node_id": 8,
+    "rank": 22,
+    "risk_score_pct": 35.34739553928375,
+    "score": 3.5347395539283752,
+    "summary": "**MESSEJANA** está na posição **#22** do ranking — identificada como área de atenção moderada."
   },
-  "fortaleza:VILA VELHA": {
-    "confidence": 0.7015575051307678,
+  "rmf:PARAIPABA": {
+    "confidence": 0.7290909081449111,
     "confidence_label": "Moderada",
-    "confidence_pct": 70.2,
+    "confidence_pct": 72.9,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PARAIPABA",
+    "node_id": 98,
+    "rank": 54,
+    "risk_score_pct": 25.818181628982227,
+    "score": 2.5818181628982226,
+    "summary": "**PARAIPABA** está na posição **#54** do ranking — identificada como área de atenção moderada."
+  },
+  "fortaleza:BARRA DO CEARA": {
+    "confidence": 0.7298521157105764,
+    "confidence_label": "Moderada",
+    "confidence_pct": 73.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, VILA VELHA, CARLITO PAMPLONA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "BARRA DO CEARA",
+    "node_id": 1,
+    "rank": 53,
+    "risk_score_pct": 25.970423142115273,
+    "score": 2.597042314211527,
+    "summary": "**BARRA DO CEARA** está na posição **#53** do ranking — identificada como área de atenção moderada."
+  },
+  "fortaleza:VILA VELHA": {
+    "confidence": 0.7117467999458312,
+    "confidence_label": "Moderada",
+    "confidence_pct": 71.2,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, CARLITO PAMPLONA.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
@@ -1118,96 +1108,53 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "VILA VELHA",
     "node_id": 25,
-    "rank": 57,
-    "risk_score_pct": 20.311501026153564,
-    "score": 2.0311501026153564,
-    "summary": "**VILA VELHA** está na posição **#57** do ranking — identificada como área monitorada."
+    "rank": 56,
+    "risk_score_pct": 22.34935998916626,
+    "score": 2.234935998916626,
+    "summary": "**VILA VELHA** está na posição **#56** do ranking — identificada como área monitorada."
   },
-  "fortaleza:CARLITO PAMPLONA": {
-    "confidence": 0.6951694965362548,
+  "fortaleza:PLANALTO AYRTON SENNA": {
+    "confidence": 0.7089513421058654,
+    "confidence_label": "Moderada",
+    "confidence_pct": 70.9,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ALTO ALEGRE, MONDUBIM, BOM JARDIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PLANALTO AYRTON SENNA",
+    "node_id": 2,
+    "rank": 57,
+    "risk_score_pct": 21.790268421173096,
+    "score": 2.1790268421173096,
+    "summary": "**PLANALTO AYRTON SENNA** está na posição **#57** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:JOSE WALTER": {
+    "confidence": 0.6947502374649047,
     "confidence_label": "Moderada",
     "confidence_pct": 69.5,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MONDUBIM, NOVO MONDUBIM.",
         "importance": "high",
         "name": "Correlação Espacial"
-      },
-      {
-        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CARLITO PAMPLONA",
-    "node_id": 22,
+    "name": "JOSE WALTER",
+    "node_id": 15,
     "rank": 59,
-    "risk_score_pct": 19.033899307250977,
-    "score": 1.9033899307250977,
-    "summary": "**CARLITO PAMPLONA** está na posição **#59** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:PARQUE SAO JOSE": {
-    "confidence": 0.6844086676836013,
-    "confidence_label": "Moderada",
-    "confidence_pct": 68.4,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, BOM JARDIM, NOVO MONDUBIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PARQUE SAO JOSE",
-    "node_id": 10,
-    "rank": 62,
-    "risk_score_pct": 16.881733536720276,
-    "score": 1.6881733536720276,
-    "summary": "**PARQUE SAO JOSE** está na posição **#62** do ranking — identificada como área monitorada."
-  },
-  "interior:OROS": {
-    "confidence": 0.7004343282183011,
-    "confidence_label": "Moderada",
-    "confidence_pct": 70.0,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "OROS",
-    "node_id": 62,
-    "rank": 58,
-    "risk_score_pct": 20.086865643660225,
-    "score": 2.0086865643660223,
-    "summary": "**OROS** está na posição **#58** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:BONSUCESSO": {
-    "confidence": 0.6758276849985122,
-    "confidence_label": "Moderada",
-    "confidence_pct": 67.6,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, SIQUEIRA, BOM JARDIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "BONSUCESSO",
-    "node_id": 36,
-    "rank": 63,
-    "risk_score_pct": 15.165536999702454,
-    "score": 1.5165536999702454,
-    "summary": "**BONSUCESSO** está na posição **#63** do ranking — identificada como área monitorada."
+    "risk_score_pct": 18.950047492980957,
+    "score": 1.8950047492980957,
+    "summary": "**JOSE WALTER** está na posição **#59** do ranking — identificada como área monitorada."
   },
   "rmf:HORIZONTE": {
-    "confidence": 0.6894033309817313,
+    "confidence": 0.6972730174163977,
     "confidence_label": "Moderada",
-    "confidence_pct": 68.9,
+    "confidence_pct": 69.7,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1218,375 +1165,61 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "HORIZONTE",
     "node_id": 93,
-    "rank": 60,
-    "risk_score_pct": 17.880666196346283,
-    "score": 1.7880666196346282,
-    "summary": "**HORIZONTE** está na posição **#60** do ranking — identificada como área monitorada."
+    "rank": 58,
+    "risk_score_pct": 19.45460348327955,
+    "score": 1.945460348327955,
+    "summary": "**HORIZONTE** está na posição **#58** do ranking — identificada como área monitorada."
   },
-  "interior:FRECHEIRINHA": {
-    "confidence": 0.6854468759634202,
-    "confidence_label": "Moderada",
-    "confidence_pct": 68.5,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "FRECHEIRINHA",
-    "node_id": 74,
-    "rank": 61,
-    "risk_score_pct": 17.089375192684063,
-    "score": 1.7089375192684062,
-    "summary": "**FRECHEIRINHA** está na posição **#61** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:DOM LUSTOSA": {
-    "confidence": 0.664216074347496,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.4,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BOM JARDIM, BARRA DO CEARA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "DOM LUSTOSA",
-    "node_id": 33,
-    "rank": 65,
-    "risk_score_pct": 12.843214869499207,
-    "score": 1.2843214869499207,
-    "summary": "**DOM LUSTOSA** está na posição **#65** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:PASSARE": {
-    "confidence": 0.664686757326126,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.5,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, PARQUE IRACEMA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      },
-      {
-        "explanation": "⚡ **Alerta de Conflito**: 3 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PASSARE",
-    "node_id": 21,
-    "rank": 64,
-    "risk_score_pct": 12.93735146522522,
-    "score": 1.293735146522522,
-    "summary": "**PASSARE** está na posição **#64** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:JARDIM GUANABARA": {
-    "confidence": 0.6521241545677184,
-    "confidence_label": "Moderada",
-    "confidence_pct": 65.2,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JARDIM GUANABARA",
-    "node_id": 35,
-    "rank": 74,
-    "risk_score_pct": 10.424830913543701,
-    "score": 1.0424830913543701,
-    "summary": "**JARDIM GUANABARA** está na posição **#74** do ranking — identificada como área monitorada."
-  },
-  "rmf:PACAJUS": {
-    "confidence": 0.6628736896440387,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PACAJUS",
-    "node_id": 92,
-    "rank": 66,
-    "risk_score_pct": 12.574737928807735,
-    "score": 1.2574737928807735,
-    "summary": "**PACAJUS** está na posição **#66** do ranking — identificada como área monitorada."
-  },
-  "rmf:PACATUBA": {
-    "confidence": 0.6628736896440387,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PACATUBA",
-    "node_id": 94,
-    "rank": 67,
-    "risk_score_pct": 12.574737928807735,
-    "score": 1.2574737928807735,
-    "summary": "**PACATUBA** está na posição **#67** do ranking — identificada como área monitorada."
-  },
-  "rmf:PINDORETAMA": {
-    "confidence": 0.6628736896440387,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PINDORETAMA",
-    "node_id": 95,
-    "rank": 68,
-    "risk_score_pct": 12.574737928807735,
-    "score": 1.2574737928807735,
-    "summary": "**PINDORETAMA** está na posição **#68** do ranking — identificada como área monitorada."
-  },
-  "rmf:ITAITINGA": {
-    "confidence": 0.6628736896440387,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ITAITINGA",
-    "node_id": 96,
-    "rank": 69,
-    "risk_score_pct": 12.574737928807735,
-    "score": 1.2574737928807735,
-    "summary": "**ITAITINGA** está na posição **#69** do ranking — identificada como área monitorada."
-  },
-  "rmf:PARAIPABA": {
-    "confidence": 0.6628736896440387,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
-        "importance": "medium",
-        "name": "Ações de Supressão"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PARAIPABA",
-    "node_id": 98,
-    "rank": 70,
-    "risk_score_pct": 12.574737928807735,
-    "score": 1.2574737928807735,
-    "summary": "**PARAIPABA** está na posição **#70** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:GRANJA PORTUGAL": {
-    "confidence": 0.6356849923729896,
-    "confidence_label": "Moderada",
-    "confidence_pct": 63.6,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, SIQUEIRA, BOM JARDIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "GRANJA PORTUGAL",
-    "node_id": 32,
-    "rank": 78,
-    "risk_score_pct": 7.13699847459793,
-    "score": 0.713699847459793,
-    "summary": "**GRANJA PORTUGAL** está na posição **#78** do ranking — identificada como área monitorada."
-  },
-  "rmf:EUSEBIO": {
-    "confidence": 0.6627123482525349,
-    "confidence_label": "Moderada",
-    "confidence_pct": 66.3,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: CAUCAIA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "EUSEBIO",
-    "node_id": 97,
-    "rank": 71,
-    "risk_score_pct": 12.542469650506973,
-    "score": 1.2542469650506973,
-    "summary": "**EUSEBIO** está na posição **#71** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:MONDUBIM": {
-    "confidence": 0.7288987815380097,
-    "confidence_label": "Moderada",
-    "confidence_pct": 72.9,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, NOVO MONDUBIM, ALTO ALEGRE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      },
-      {
-        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
-        "importance": "medium",
-        "name": "Ações de Supressão"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "MONDUBIM",
-    "node_id": 14,
-    "rank": 52,
-    "risk_score_pct": 25.779756307601932,
-    "score": 2.5779756307601933,
-    "summary": "**MONDUBIM** está na posição **#52** do ranking — identificada como área de atenção moderada."
-  },
-  "fortaleza:JANGURUSSU": {
-    "confidence": 0.65476865619421,
-    "confidence_label": "Moderada",
-    "confidence_pct": 65.5,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, MESSEJANA.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JANGURUSSU",
-    "node_id": 3,
-    "rank": 73,
-    "risk_score_pct": 10.95373123884201,
-    "score": 1.095373123884201,
-    "summary": "**JANGURUSSU** está na posição **#73** do ranking — identificada como área monitorada."
-  },
-  "interior:ITAPIUNA": {
-    "confidence": 0.6606383443363613,
+  "fortaleza:PADRE ANDRADE": {
+    "confidence": 0.6611057326197624,
     "confidence_label": "Moderada",
     "confidence_pct": 66.1,
     "factors": [
       {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ITAPIUNA",
-    "node_id": 63,
-    "rank": 72,
-    "risk_score_pct": 12.127668867272268,
-    "score": 1.2127668867272268,
-    "summary": "**ITAPIUNA** está na posição **#72** do ranking — identificada como área monitorada."
-  },
-  "interior:POTENGI": {
-    "confidence": 0.6472499772906303,
-    "confidence_label": "Moderada",
-    "confidence_pct": 64.7,
-    "factors": [
-      {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "POTENGI",
-    "node_id": 85,
-    "rank": 75,
-    "risk_score_pct": 9.449995458126068,
-    "score": 0.9449995458126068,
-    "summary": "**POTENGI** está na posição **#75** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:CRISTO REDENTOR": {
-    "confidence": 0.624029542505741,
-    "confidence_label": "Moderada",
-    "confidence_pct": 62.4,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CRISTO REDENTOR",
-    "node_id": 4,
-    "rank": 84,
-    "risk_score_pct": 4.805908501148223,
-    "score": 0.4805908501148223,
-    "summary": "**CRISTO REDENTOR** está na posição **#84** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:SAO MIGUEL": {
-    "confidence": 0.6235298991203307,
-    "confidence_label": "Moderada",
-    "confidence_pct": 62.4,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BOM JARDIM, BARRA DO CEARA.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, VILA VELHA.",
         "importance": "high",
         "name": "Correlação Espacial"
       },
       {
-        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SAO MIGUEL",
-    "node_id": 34,
-    "rank": 85,
-    "risk_score_pct": 4.705979824066161,
-    "score": 0.4705979824066161,
-    "summary": "**SAO MIGUEL** está na posição **#85** do ranking — identificada como área monitorada."
+    "name": "PADRE ANDRADE",
+    "node_id": 38,
+    "rank": 63,
+    "risk_score_pct": 12.221146523952484,
+    "score": 1.2221146523952484,
+    "summary": "**PADRE ANDRADE** está na posição **#63** do ranking — identificada como área monitorada."
   },
-  "fortaleza:QUINTINO CUNHA": {
-    "confidence": 0.6176807761192321,
+  "fortaleza:PARQUE SAO JOSE": {
+    "confidence": 0.6585540875792503,
     "confidence_label": "Moderada",
-    "confidence_pct": 61.8,
+    "confidence_pct": 65.9,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, ALTO ALEGRE, MONDUBIM.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "QUINTINO CUNHA",
-    "node_id": 19,
-    "rank": 89,
-    "risk_score_pct": 3.536155223846435,
-    "score": 0.3536155223846435,
-    "summary": "**QUINTINO CUNHA** está na posição **#89** do ranking — identificada como área monitorada."
+    "name": "PARQUE SAO JOSE",
+    "node_id": 10,
+    "rank": 64,
+    "risk_score_pct": 11.710817515850067,
+    "score": 1.1710817515850067,
+    "summary": "**PARQUE SAO JOSE** está na posição **#64** do ranking — identificada como área monitorada."
   },
   "fortaleza:EDSON QUEIROZ": {
-    "confidence": 0.6387545496225356,
+    "confidence": 0.6416475728154182,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.9,
+    "confidence_pct": 64.2,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: CURIO, PARQUE IRACEMA, VICENTE PINZON.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: CURIO, PARQUE IRACEMA, PRAIA DO FUTURO.",
         "importance": "high",
         "name": "Correlação Espacial"
       },
@@ -1599,72 +1232,177 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "EDSON QUEIROZ",
     "node_id": 27,
-    "rank": 76,
-    "risk_score_pct": 7.75090992450714,
-    "score": 0.775090992450714,
-    "summary": "**EDSON QUEIROZ** está na posição **#76** do ranking — identificada como área monitorada."
+    "rank": 74,
+    "risk_score_pct": 8.329514563083649,
+    "score": 0.8329514563083649,
+    "summary": "**EDSON QUEIROZ** está na posição **#74** do ranking — identificada como área monitorada."
   },
-  "interior:TEJUCUOCA": {
-    "confidence": 0.6373798206448554,
+  "fortaleza:PASSARE": {
+    "confidence": 0.6566207364201545,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.7,
+    "confidence_pct": 65.7,
     "factors": [
       {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MONDUBIM, MESSEJANA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 3 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "TEJUCUOCA",
-    "node_id": 86,
-    "rank": 77,
-    "risk_score_pct": 7.475964128971099,
-    "score": 0.7475964128971099,
-    "summary": "**TEJUCUOCA** está na posição **#77** do ranking — identificada como área monitorada."
+    "name": "PASSARE",
+    "node_id": 21,
+    "rank": 66,
+    "risk_score_pct": 11.324147284030914,
+    "score": 1.1324147284030914,
+    "summary": "**PASSARE** está na posição **#66** do ranking — identificada como área monitorada."
   },
-  "fortaleza:GRANJA LISBOA": {
-    "confidence": 0.6143026754260063,
+  "fortaleza:PARQUE IRACEMA": {
+    "confidence": 0.669911752641201,
     "confidence_label": "Moderada",
-    "confidence_pct": 61.4,
+    "confidence_pct": 67.0,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, BOM JARDIM, NOVO MONDUBIM.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, CURIO.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "GRANJA LISBOA",
-    "node_id": 9,
-    "rank": 90,
-    "risk_score_pct": 2.860535085201263,
-    "score": 0.2860535085201263,
-    "summary": "**GRANJA LISBOA** está na posição **#90** do ranking — identificada como área monitorada."
+    "name": "PARQUE IRACEMA",
+    "node_id": 31,
+    "rank": 60,
+    "risk_score_pct": 13.982350528240204,
+    "score": 1.3982350528240204,
+    "summary": "**PARQUE IRACEMA** está na posição **#60** do ranking — identificada como área monitorada."
   },
-  "fortaleza:PIRAMBU": {
-    "confidence": 0.6119269423186778,
+  "interior:OROS": {
+    "confidence": 0.6581178905814886,
     "confidence_label": "Moderada",
-    "confidence_pct": 61.2,
+    "confidence_pct": 65.8,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANTONIO BEZERRA, BARRA DO CEARA, PADRE ANDRADE.",
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "OROS",
+    "node_id": 62,
+    "rank": 65,
+    "risk_score_pct": 11.623578116297722,
+    "score": 1.1623578116297721,
+    "summary": "**OROS** está na posição **#65** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:CARLITO PAMPLONA": {
+    "confidence": 0.6613179251551627,
+    "confidence_label": "Moderada",
+    "confidence_pct": 66.1,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, VILA VELHA.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PIRAMBU",
-    "node_id": 16,
-    "rank": 91,
-    "risk_score_pct": 2.38538846373558,
-    "score": 0.238538846373558,
-    "summary": "**PIRAMBU** está na posição **#91** do ranking — identificada como área monitorada."
+    "name": "CARLITO PAMPLONA",
+    "node_id": 22,
+    "rank": 62,
+    "risk_score_pct": 12.263585031032562,
+    "score": 1.2263585031032562,
+    "summary": "**CARLITO PAMPLONA** está na posição **#62** do ranking — identificada como área monitorada."
   },
-  "interior:ACOPIARA": {
-    "confidence": 0.6309938013553619,
+  "rmf:EUSEBIO": {
+    "confidence": 0.6549412311054766,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.1,
+    "confidence_pct": 65.5,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: CAUCAIA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "EUSEBIO",
+    "node_id": 97,
+    "rank": 67,
+    "risk_score_pct": 10.988246221095324,
+    "score": 1.0988246221095324,
+    "summary": "**EUSEBIO** está na posição **#67** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:JANGURUSSU": {
+    "confidence": 0.6695601895451545,
+    "confidence_label": "Moderada",
+    "confidence_pct": 67.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, MESSEJANA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "JANGURUSSU",
+    "node_id": 3,
+    "rank": 61,
+    "risk_score_pct": 13.912037909030914,
+    "score": 1.3912037909030914,
+    "summary": "**JANGURUSSU** está na posição **#61** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:QUINTINO CUNHA": {
+    "confidence": 0.6431361615657806,
+    "confidence_label": "Moderada",
+    "confidence_pct": 64.3,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, VILA VELHA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "QUINTINO CUNHA",
+    "node_id": 19,
+    "rank": 73,
+    "risk_score_pct": 8.627232313156128,
+    "score": 0.8627232313156128,
+    "summary": "**QUINTINO CUNHA** está na posição **#73** do ranking — identificada como área monitorada."
+  },
+  "rmf:PACAJUS": {
+    "confidence": 0.65,
+    "confidence_label": "Moderada",
+    "confidence_pct": 65.0,
+    "factors": [
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PACAJUS",
+    "node_id": 92,
+    "rank": 68,
+    "risk_score_pct": 10.0,
+    "score": 1.0,
+    "summary": "**PACAJUS** está na posição **#68** do ranking — identificada como área monitorada."
+  },
+  "rmf:PACATUBA": {
+    "confidence": 0.65,
+    "confidence_label": "Moderada",
+    "confidence_pct": 65.0,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1673,17 +1411,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ACOPIARA",
-    "node_id": 53,
-    "rank": 79,
-    "risk_score_pct": 6.198760271072387,
-    "score": 0.6198760271072387,
-    "summary": "**ACOPIARA** está na posição **#79** do ranking — identificada como área monitorada."
+    "name": "PACATUBA",
+    "node_id": 94,
+    "rank": 69,
+    "risk_score_pct": 10.0,
+    "score": 1.0,
+    "summary": "**PACATUBA** está na posição **#69** do ranking — identificada como área monitorada."
   },
-  "interior:GENERAL SAMPAIO": {
-    "confidence": 0.6309938013553619,
+  "rmf:PINDORETAMA": {
+    "confidence": 0.65,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.1,
+    "confidence_pct": 65.0,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1692,17 +1430,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "GENERAL SAMPAIO",
-    "node_id": 56,
-    "rank": 80,
-    "risk_score_pct": 6.198760271072387,
-    "score": 0.6198760271072387,
-    "summary": "**GENERAL SAMPAIO** está na posição **#80** do ranking — identificada como área monitorada."
+    "name": "PINDORETAMA",
+    "node_id": 95,
+    "rank": 70,
+    "risk_score_pct": 10.0,
+    "score": 1.0,
+    "summary": "**PINDORETAMA** está na posição **#70** do ranking — identificada como área monitorada."
   },
-  "interior:CRATEUS": {
-    "confidence": 0.6309938013553619,
+  "rmf:ITAITINGA": {
+    "confidence": 0.65,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.1,
+    "confidence_pct": 65.0,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1711,17 +1449,17 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "CRATEUS",
-    "node_id": 60,
-    "rank": 81,
-    "risk_score_pct": 6.198760271072387,
-    "score": 0.6198760271072387,
-    "summary": "**CRATEUS** está na posição **#81** do ranking — identificada como área monitorada."
+    "name": "ITAITINGA",
+    "node_id": 96,
+    "rank": 71,
+    "risk_score_pct": 10.0,
+    "score": 1.0,
+    "summary": "**ITAITINGA** está na posição **#71** do ranking — identificada como área monitorada."
   },
-  "interior:ITAPIPOCA": {
-    "confidence": 0.6309938013553619,
+  "interior:AURORA": {
+    "confidence": 0.6457397488007943,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.1,
+    "confidence_pct": 64.6,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1730,17 +1468,55 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "ITAPIPOCA",
-    "node_id": 75,
-    "rank": 82,
-    "risk_score_pct": 6.198760271072387,
-    "score": 0.6198760271072387,
-    "summary": "**ITAPIPOCA** está na posição **#82** do ranking — identificada como área monitorada."
+    "name": "AURORA",
+    "node_id": 84,
+    "rank": 72,
+    "risk_score_pct": 9.147949760158857,
+    "score": 0.9147949760158858,
+    "summary": "**AURORA** está na posição **#72** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:BONSUCESSO": {
+    "confidence": 0.6376011848449706,
+    "confidence_label": "Moderada",
+    "confidence_pct": 63.8,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, MONDUBIM, BOM JARDIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "BONSUCESSO",
+    "node_id": 36,
+    "rank": 75,
+    "risk_score_pct": 7.52023696899414,
+    "score": 0.752023696899414,
+    "summary": "**BONSUCESSO** está na posição **#75** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:PRAIA DO FUTURO": {
+    "confidence": 0.6253718167543411,
+    "confidence_label": "Moderada",
+    "confidence_pct": 62.5,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: EDSON QUEIROZ, VICENTE PINZON.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PRAIA DO FUTURO",
+    "node_id": 17,
+    "rank": 78,
+    "risk_score_pct": 5.074363350868224,
+    "score": 0.5074363350868224,
+    "summary": "**PRAIA DO FUTURO** está na posição **#78** do ranking — identificada como área monitorada."
   },
   "fortaleza:PARQUE SANTA MARIA": {
-    "confidence": 0.619822609424591,
+    "confidence": 0.6337544575333595,
     "confidence_label": "Moderada",
-    "confidence_pct": 62.0,
+    "confidence_pct": 63.4,
     "factors": [
       {
         "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, MESSEJANA.",
@@ -1751,15 +1527,15 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PARQUE SANTA MARIA",
     "node_id": 23,
-    "rank": 88,
-    "risk_score_pct": 3.9645218849182124,
-    "score": 0.39645218849182123,
-    "summary": "**PARQUE SANTA MARIA** está na posição **#88** do ranking — identificada como área monitorada."
+    "rank": 76,
+    "risk_score_pct": 6.750891506671905,
+    "score": 0.6750891506671904,
+    "summary": "**PARQUE SANTA MARIA** está na posição **#76** do ranking — identificada como área monitorada."
   },
-  "interior:NOVA OLINDA": {
-    "confidence": 0.6299925997853278,
+  "interior:MILAGRES": {
+    "confidence": 0.6315107226371764,
     "confidence_label": "Moderada",
-    "confidence_pct": 63.0,
+    "confidence_pct": 63.2,
     "factors": [
       {
         "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
@@ -1768,17 +1544,36 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "NOVA OLINDA",
-    "node_id": 50,
-    "rank": 83,
-    "risk_score_pct": 5.998519957065581,
-    "score": 0.5998519957065581,
-    "summary": "**NOVA OLINDA** está na posição **#83** do ranking — identificada como área monitorada."
+    "name": "MILAGRES",
+    "node_id": 65,
+    "rank": 77,
+    "risk_score_pct": 6.302144527435302,
+    "score": 0.6302144527435302,
+    "summary": "**MILAGRES** está na posição **#77** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:DOM LUSTOSA": {
+    "confidence": 0.6156744688749313,
+    "confidence_label": "Moderada",
+    "confidence_pct": 61.6,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, BARRA DO CEARA, ANTONIO BEZERRA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "DOM LUSTOSA",
+    "node_id": 33,
+    "rank": 79,
+    "risk_score_pct": 3.1348937749862666,
+    "score": 0.31348937749862665,
+    "summary": "**DOM LUSTOSA** está na posição **#79** do ranking — identificada como área monitorada."
   },
   "fortaleza:CONJUNTO PALMEIRAS": {
-    "confidence": 0.6201086744666099,
+    "confidence": 0.615672792494297,
     "confidence_label": "Moderada",
-    "confidence_pct": 62.0,
+    "confidence_pct": 61.6,
     "factors": [
       {
         "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, ANCURI, MESSEJANA.",
@@ -1789,34 +1584,53 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "CONJUNTO PALMEIRAS",
     "node_id": 12,
-    "rank": 87,
-    "risk_score_pct": 4.02173489332199,
-    "score": 0.402173489332199,
-    "summary": "**CONJUNTO PALMEIRAS** está na posição **#87** do ranking — identificada como área monitorada."
+    "rank": 80,
+    "risk_score_pct": 3.134558498859405,
+    "score": 0.3134558498859405,
+    "summary": "**CONJUNTO PALMEIRAS** está na posição **#80** do ranking — identificada como área monitorada."
   },
-  "fortaleza:JOSE WALTER": {
-    "confidence": 0.6234167844057082,
+  "fortaleza:GRANJA LISBOA": {
+    "confidence": 0.6149391263723373,
     "confidence_label": "Moderada",
-    "confidence_pct": 62.3,
+    "confidence_pct": 61.5,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, NOVO MONDUBIM, MONDUBIM.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, ALTO ALEGRE, BOM JARDIM.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JOSE WALTER",
-    "node_id": 15,
-    "rank": 86,
-    "risk_score_pct": 4.683356881141662,
-    "score": 0.46833568811416615,
-    "summary": "**JOSE WALTER** está na posição **#86** do ranking — identificada como área monitorada."
+    "name": "GRANJA LISBOA",
+    "node_id": 9,
+    "rank": 81,
+    "risk_score_pct": 2.987825274467468,
+    "score": 0.29878252744674677,
+    "summary": "**GRANJA LISBOA** está na posição **#81** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:JARDIM DAS OLIVEIRAS": {
+    "confidence": 0.609370644390583,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.9,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, CURIO.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "JARDIM DAS OLIVEIRAS",
+    "node_id": 11,
+    "rank": 84,
+    "risk_score_pct": 1.8741288781166072,
+    "score": 0.1874128878116607,
+    "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#84** do ranking — identificada como área monitorada."
   },
   "fortaleza:VICENTE PINZON": {
-    "confidence": 0.6,
+    "confidence": 0.6028089925646781,
     "confidence_label": "Moderada",
-    "confidence_pct": 60.0,
+    "confidence_pct": 60.3,
     "factors": [
       {
         "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: EDSON QUEIROZ, PRAIA DO FUTURO.",
@@ -1832,105 +1646,77 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "VICENTE PINZON",
     "node_id": 5,
-    "rank": 93,
-    "risk_score_pct": 0.0,
-    "score": 0.0,
-    "summary": "**VICENTE PINZON** está na posição **#93** do ranking — identificada como área monitorada."
+    "rank": 85,
+    "risk_score_pct": 0.5617985129356379,
+    "score": 0.05617985129356379,
+    "summary": "**VICENTE PINZON** está na posição **#85** do ranking — identificada como área monitorada."
   },
-  "fortaleza:PRAIA DO FUTURO": {
-    "confidence": 0.6,
+  "fortaleza:GRANJA PORTUGAL": {
+    "confidence": 0.6107953108847141,
     "confidence_label": "Moderada",
-    "confidence_pct": 60.0,
+    "confidence_pct": 61.1,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: EDSON QUEIROZ, VICENTE PINZON.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: SIQUEIRA, MONDUBIM, BOM JARDIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "GRANJA PORTUGAL",
+    "node_id": 32,
+    "rank": 83,
+    "risk_score_pct": 2.159062176942825,
+    "score": 0.21590621769428248,
+    "summary": "**GRANJA PORTUGAL** está na posição **#83** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:JARDIM GUANABARA": {
+    "confidence": 0.6147549331188201,
+    "confidence_label": "Moderada",
+    "confidence_pct": 61.5,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, VILA VELHA.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PRAIA DO FUTURO",
-    "node_id": 17,
-    "rank": 96,
-    "risk_score_pct": 0.0,
-    "score": 0.0,
-    "summary": "**PRAIA DO FUTURO** está na posição **#96** do ranking — identificada como área monitorada."
+    "name": "JARDIM GUANABARA",
+    "node_id": 35,
+    "rank": 82,
+    "risk_score_pct": 2.9509866237640376,
+    "score": 0.29509866237640375,
+    "summary": "**JARDIM GUANABARA** está na posição **#82** do ranking — identificada como área monitorada."
   },
-  "fortaleza:JACARECANGA": {
+  "fortaleza:CRISTO REDENTOR": {
     "confidence": 0.6,
     "confidence_label": "Moderada",
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, PADRE ANDRADE, CARLITO PAMPLONA.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, VILA VELHA.",
         "importance": "high",
         "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JACARECANGA",
-    "node_id": 37,
-    "rank": 98,
-    "risk_score_pct": 0.0,
-    "score": 0.0,
-    "summary": "**JACARECANGA** está na posição **#98** do ranking — identificada como área monitorada."
-  },
-  "interior:SOLONOPOLE": {
-    "confidence": 0.609027824550867,
-    "confidence_label": "Moderada",
-    "confidence_pct": 60.9,
-    "factors": [
+      },
       {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "SOLONOPOLE",
-    "node_id": 78,
-    "rank": 92,
-    "risk_score_pct": 1.8055649101734157,
-    "score": 0.18055649101734156,
-    "summary": "**SOLONOPOLE** está na posição **#92** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:JARDIM DAS OLIVEIRAS": {
-    "confidence": 0.6,
-    "confidence_label": "Moderada",
-    "confidence_pct": 60.0,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MESSEJANA, CURIO.",
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
         "importance": "high",
-        "name": "Correlação Espacial"
+        "name": "Eventos Críticos"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "JARDIM DAS OLIVEIRAS",
-    "node_id": 11,
-    "rank": 94,
+    "name": "CRISTO REDENTOR",
+    "node_id": 4,
+    "rank": 87,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#94** do ranking — identificada como área monitorada."
-  },
-  "fortaleza:PARQUE DOIS IRMAOS": {
-    "confidence": 0.6,
-    "confidence_label": "Moderada",
-    "confidence_pct": 60.0,
-    "factors": [
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, NOVO MONDUBIM, MONDUBIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "PARQUE DOIS IRMAOS",
-    "node_id": 29,
-    "rank": 97,
-    "risk_score_pct": 0.0,
-    "score": 0.0,
-    "summary": "**PARQUE DOIS IRMAOS** está na posição **#97** do ranking — identificada como área monitorada."
+    "summary": "**CRISTO REDENTOR** está na posição **#87** do ranking — identificada como área monitorada."
   },
   "fortaleza:PEDRAS": {
     "confidence": 0.6,
@@ -1938,7 +1724,7 @@
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANCURI, JANGURUSSU, CONJUNTO PALMEIRAS.",
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: ANCURI, JANGURUSSU, PARQUE SANTA MARIA.",
         "importance": "high",
         "name": "Correlação Espacial"
       }
@@ -1946,10 +1732,91 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "PEDRAS",
     "node_id": 13,
-    "rank": 95,
+    "rank": 88,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**PEDRAS** está na posição **#95** do ranking — identificada como área monitorada."
+    "summary": "**PEDRAS** está na posição **#88** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:PIRAMBU": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, ANTONIO BEZERRA, CARLITO PAMPLONA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PIRAMBU",
+    "node_id": 16,
+    "rank": 89,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**PIRAMBU** está na posição **#89** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:PARQUE DOIS IRMAOS": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARROSO, MONDUBIM, NOVO MONDUBIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "PARQUE DOIS IRMAOS",
+    "node_id": 29,
+    "rank": 90,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**PARQUE DOIS IRMAOS** está na posição **#90** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:SAO MIGUEL": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, BARRA DO CEARA, ANTONIO BEZERRA.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "SAO MIGUEL",
+    "node_id": 34,
+    "rank": 91,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**SAO MIGUEL** está na posição **#91** do ranking — identificada como área monitorada."
+  },
+  "fortaleza:JACARECANGA": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BARRA DO CEARA, CARLITO PAMPLONA, PADRE ANDRADE.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "JACARECANGA",
+    "node_id": 37,
+    "rank": 92,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**JACARECANGA** está na posição **#92** do ranking — identificada como área monitorada."
   },
   "fortaleza:BOA VISTA/CASTELAO": {
     "confidence": 0.6,
@@ -1965,12 +1832,12 @@
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
     "name": "BOA VISTA/CASTELAO",
     "node_id": 39,
-    "rank": 99,
+    "rank": 93,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**BOA VISTA/CASTELAO** está na posição **#99** do ranking — identificada como área monitorada."
+    "summary": "**BOA VISTA/CASTELAO** está na posição **#93** do ranking — identificada como área monitorada."
   },
-  "interior:MILAGRES": {
+  "interior:NOVA OLINDA": {
     "confidence": 0.6,
     "confidence_label": "Moderada",
     "confidence_pct": 60.0,
@@ -1982,18 +1849,156 @@
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
-    "name": "MILAGRES",
-    "node_id": 65,
+    "name": "NOVA OLINDA",
+    "node_id": 50,
+    "rank": 94,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**NOVA OLINDA** está na posição **#94** do ranking — identificada como área monitorada."
+  },
+  "interior:ACOPIARA": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "ACOPIARA",
+    "node_id": 53,
+    "rank": 95,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**ACOPIARA** está na posição **#95** do ranking — identificada como área monitorada."
+  },
+  "interior:GENERAL SAMPAIO": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "GENERAL SAMPAIO",
+    "node_id": 56,
+    "rank": 96,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**GENERAL SAMPAIO** está na posição **#96** do ranking — identificada como área monitorada."
+  },
+  "interior:CRATEUS": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "CRATEUS",
+    "node_id": 60,
+    "rank": 97,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**CRATEUS** está na posição **#97** do ranking — identificada como área monitorada."
+  },
+  "interior:ITAPIPOCA": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "ITAPIPOCA",
+    "node_id": 75,
+    "rank": 98,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**ITAPIPOCA** está na posição **#98** do ranking — identificada como área monitorada."
+  },
+  "interior:SOLONOPOLE": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "SOLONOPOLE",
+    "node_id": 78,
+    "rank": 99,
+    "risk_score_pct": 0.0,
+    "score": 0.0,
+    "summary": "**SOLONOPOLE** está na posição **#99** do ranking — identificada como área monitorada."
+  },
+  "interior:POTENGI": {
+    "confidence": 0.6,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "POTENGI",
+    "node_id": 85,
     "rank": 100,
     "risk_score_pct": 0.0,
     "score": 0.0,
-    "summary": "**MILAGRES** está na posição **#100** do ranking — identificada como área monitorada."
+    "summary": "**POTENGI** está na posição **#100** do ranking — identificada como área monitorada."
+  },
+  "interior:TEJUCUOCA": {
+    "confidence": 0.6002477474510669,
+    "confidence_label": "Moderada",
+    "confidence_pct": 60.0,
+    "factors": [
+      {
+        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
+        "importance": "low",
+        "name": "Histórico Estático"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
+    "name": "TEJUCUOCA",
+    "node_id": 86,
+    "rank": 86,
+    "risk_score_pct": 0.04954949021339361,
+    "score": 0.004954949021339361,
+    "summary": "**TEJUCUOCA** está na posição **#86** do ranking — identificada como área monitorada."
   },
   "rmf:AQUIRAZ": {
     "confidence": 0.6,
     "confidence_label": "Moderada",
     "confidence_pct": 60.0,
     "factors": [
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
+      },
       {
         "explanation": "🛡️ **Supressão Qualificada**: 2 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
         "importance": "medium",
@@ -2014,7 +2019,7 @@
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "🛡️ **Supressão Qualificada**: 2 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "explanation": "🛡️ **Supressão Qualificada**: 4 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
         "importance": "medium",
         "name": "Ações de Supressão"
       }
@@ -2036,6 +2041,11 @@
         "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
         "importance": "high",
         "name": "Eventos Críticos"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
@@ -2052,9 +2062,9 @@
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
@@ -2071,9 +2081,9 @@
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "🔄 **Área de Atenção Permanente**: O risco é derivado da base estatística de longo prazo e densidade populacional.",
-        "importance": "low",
-        "name": "Histórico Estático"
+        "explanation": "🛡️ **Supressão Qualificada**: 2 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",
@@ -2109,9 +2119,9 @@
     "confidence_pct": 60.0,
     "factors": [
       {
-        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
-        "importance": "high",
-        "name": "Eventos Críticos"
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",

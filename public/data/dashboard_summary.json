@@ -1,29 +1,29 @@
 {
   "global": {
     "total_nodes": 109,
-    "active_locations": 11,
-    "top_region": "interior",
-    "top_name": "ITAPAJE",
-    "avg_risk": 24.17
+    "active_locations": 6,
+    "top_region": "rmf",
+    "top_name": "CAUCAIA",
+    "avg_risk": 21.38
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 22.52,
-      "max_risk": 77.0,
+      "avg_risk": 16.3,
+      "max_risk": 69.7,
       "top_name": "BARROSO"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 14.93,
-      "max_risk": 86.3,
+      "avg_risk": 14.86,
+      "max_risk": 84.3,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 29.0,
-      "max_risk": 87.0,
-      "top_name": "ITAPAJE"
+      "avg_risk": 27.91,
+      "max_risk": 67.4,
+      "top_name": "LIMOEIRO DO NORTE"
     }
   }
 }
