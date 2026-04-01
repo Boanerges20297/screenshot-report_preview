@@ -248,30 +248,6 @@
     "score": 4.386543299234125,
     "summary": "**ITAPAJE** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
   },
-  "fortaleza:SIQUEIRA": {
-    "confidence": 0.8160003322362899,
-    "confidence_label": "Alta",
-    "confidence_pct": 81.6,
-    "factors": [
-      {
-        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
-        "importance": "high",
-        "name": "Padrão Temporal"
-      },
-      {
-        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, ALTO ALEGRE, NOVO MONDUBIM.",
-        "importance": "high",
-        "name": "Correlação Espacial"
-      }
-    ],
-    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
-    "name": "SIQUEIRA",
-    "node_id": 6,
-    "rank": 12,
-    "risk_score_pct": 43.20006644725799,
-    "score": 4.320006644725799,
-    "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
-  },
   "interior:CARIRE": {
     "confidence": 0.8111142533757394,
     "confidence_label": "Alta",
@@ -290,6 +266,35 @@
     "risk_score_pct": 42.222850675147896,
     "score": 4.22228506751479,
     "summary": "**CARIRE** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
+  },
+  "fortaleza:SIQUEIRA": {
+    "confidence": 0.8160003322362899,
+    "confidence_label": "Alta",
+    "confidence_pct": 81.6,
+    "factors": [
+      {
+        "explanation": "📈 **Aumento real de criminalidade**: 1 ocorrências registradas recentemente (alta de 1 em relação ao período anterior).",
+        "importance": "high",
+        "name": "Padrão Temporal"
+      },
+      {
+        "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, ALTO ALEGRE, NOVO MONDUBIM.",
+        "importance": "high",
+        "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "🛡️ **Supressão Qualificada**: 1 ação(ões) policial(is) qualificada(s) detectada(s). O risco pode estar sendo mitigado de forma parcial e temporária.",
+        "importance": "medium",
+        "name": "Ações de Supressão"
+      }
+    ],
+    "interpretation": "Confiança do modelo é **moderada**. Baseada em tendências consistentes.",
+    "name": "SIQUEIRA",
+    "node_id": 6,
+    "rank": 12,
+    "risk_score_pct": 43.20006644725799,
+    "score": 4.320006644725799,
+    "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
   },
   "fortaleza:ALTO ALEGRE": {
     "confidence": 0.7958843737840653,
@@ -1585,6 +1590,11 @@
         "explanation": "📍 **Efeito de contágio**: Influência direta do risco elevado nos vizinhos: BOM JARDIM, SIQUEIRA, ALTO ALEGRE.",
         "importance": "high",
         "name": "Correlação Espacial"
+      },
+      {
+        "explanation": "⚡ **Alerta de Conflito**: 1 evento(s) grave(s) (homicídios/ataques) registrados no setor recentemente.",
+        "importance": "high",
+        "name": "Eventos Críticos"
       }
     ],
     "interpretation": "Confiança do modelo é **baixa**. Use como orientação preventiva devido à volatilidade.",

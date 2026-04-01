@@ -28,43 +28,47 @@
     },
     "efficiency_metrics": {
       "assigned_brute_cvli": 14,
-      "assigned_exogenous": 2,
-      "assigned_police_qualified_actions": 9,
-      "assigned_total_events": 16,
+      "assigned_exogenous": 3,
+      "assigned_police_qualified_actions": 26,
+      "assigned_total_events": 17,
       "brute_cvli": 14,
       "date": "2026-03-31",
-      "exogenous": 4,
-      "exogenous_conflict": 4,
+      "exogenous": 7,
+      "exogenous_conflict": 7,
       "fortaleza": {
-        "active_locations": 6,
+        "active_locations": 7,
         "gt_sample": [
           "SIQUEIRA",
           "BARROSO",
           "BOM JARDIM",
           "ANCURI",
           "PASSARE",
-          "EDSON QUEIROZ"
+          "EDSON QUEIROZ",
+          "MESSEJANA"
         ],
         "hits10": [
+          "MESSEJANA",
           "BOM JARDIM",
           "BARROSO",
           "ANCURI",
           "SIQUEIRA"
         ],
         "hits20": [
+          "MESSEJANA",
           "BOM JARDIM",
           "BARROSO",
           "ANCURI",
           "SIQUEIRA"
         ],
         "hits5": [
+          "MESSEJANA",
           "BOM JARDIM",
           "BARROSO",
           "ANCURI"
         ],
-        "p10": 0.4,
-        "p20": 0.2,
-        "p5": 0.6,
+        "p10": 0.5,
+        "p20": 0.25,
+        "p5": 0.8,
         "ranking_top10": [
           "MESSEJANA",
           "BOM JARDIM",
@@ -77,14 +81,14 @@
           "BARRA DO CEARA",
           "ANTONIO BEZERRA"
         ],
-        "recall10": 0.6667,
-        "recall20": 0.6667,
-        "recall5": 0.5,
-        "total_events": 7,
+        "recall10": 0.7143,
+        "recall20": 0.7143,
+        "recall5": 0.5714,
+        "total_events": 8,
         "total_nodes": 40
       },
       "global": {
-        "active_locations": 15,
+        "active_locations": 16,
         "gt_sample": [
           "SIQUEIRA",
           "BARROSO",
@@ -105,6 +109,7 @@
         "hits10": [
           "LIMOEIRO DO NORTE",
           "VARZEA ALEGRE",
+          "MESSEJANA",
           "BOM JARDIM",
           "BARROSO",
           "ANCURI"
@@ -112,6 +117,7 @@
         "hits20": [
           "LIMOEIRO DO NORTE",
           "VARZEA ALEGRE",
+          "MESSEJANA",
           "BOM JARDIM",
           "BARROSO",
           "ANCURI",
@@ -124,8 +130,8 @@
           "LIMOEIRO DO NORTE",
           "VARZEA ALEGRE"
         ],
-        "p10": 0.5,
-        "p20": 0.45,
+        "p10": 0.6,
+        "p20": 0.5,
         "p5": 0.4,
         "ranking_top10": [
           "CAUCAIA",
@@ -139,10 +145,10 @@
           "MONDUBIM",
           "ANCURI"
         ],
-        "recall10": 0.3333,
-        "recall20": 0.6,
-        "recall5": 0.1333,
-        "total_events": 16,
+        "recall10": 0.375,
+        "recall20": 0.625,
+        "recall5": 0.125,
+        "total_events": 17,
         "total_nodes": 109
       },
       "interior": {
@@ -196,8 +202,8 @@
         "total_events": 7,
         "total_nodes": 50
       },
-      "police_administrative_events_7d": 7,
-      "police_qualified_actions_7d": 17,
+      "police_administrative_events_7d": 24,
+      "police_qualified_actions_7d": 40,
       "rmf": {
         "active_locations": 2,
         "gt_sample": [
@@ -237,19 +243,21 @@
         "total_events": 2,
         "total_nodes": 19
       },
-      "total_events": 18,
-      "unmapped_exogenous": 2,
+      "total_events": 21,
+      "unmapped_exogenous": 4,
       "unmapped_exogenous_sample": [
         "Jardim Cearense",
-        "Catuana"
+        "Catuana",
+        "Parangaba",
+        "Montese"
       ],
-      "unmapped_police_qualified_actions": 8,
-      "unmapped_total_events": 2
+      "unmapped_police_qualified_actions": 14,
+      "unmapped_total_events": 4
     },
     "intelligence_label": "Janela de Inteligência: 28/03 a 03/04 (Atualizada com Eventos de Hoje)",
     "last_date_base": "27/03/2026",
     "manager_view": {
-      "confidence_explanation": "Cobertura territorial estimada em 81.4%: separação dos top 10% territórios em relação à média (desvio padrão 17.39). Consultar Cov@20 no dashboard admin para métrica real.",
+      "confidence_explanation": "Cobertura territorial estimada em 81.4%: separação dos top 10% territórios em relação à média (desvio padrão 17.36). Consultar Cov@20 no dashboard admin para métrica real.",
       "confidence_label": "Alta",
       "confidence_pct": 81.4,
       "recommendation": "Manter operações regulares e monitorar tendências.",
@@ -268,7 +276,7 @@
         "low_max": 30.0,
         "moderate_min": 31.0
       },
-      "top_10_percent_threshold": 43.64,
+      "top_10_percent_threshold": 42.52,
       "top_1_percent_threshold": 74.59200000000003,
       "top_5_percent_threshold": 50.3
     },
@@ -279,9 +287,9 @@
       "moderate_min": 31.0
     },
     "start_cvli": "2022-01-01 00:00:00",
-    "stats_overall_mean": 19.222018348623852,
-    "stats_overall_std": 17.38525346746787,
-    "stats_top10_mean": 57.09000000000001,
+    "stats_overall_mean": 19.206422018348626,
+    "stats_overall_std": 17.362509834367437,
+    "stats_top10_mean": 57.080000000000005,
     "stats_top5_mean": 65.10000000000001,
     "stats_top5_min": 51.8,
     "top10": [
@@ -352,7 +360,7 @@
         "name": "ANCURI",
         "node_id": 28,
         "region_type": "fortaleza",
-        "risk_score": 46.5,
+        "risk_score": 46.4,
         "status_label": "MODERADO"
       }
     ],
@@ -390,21 +398,21 @@
           "name": "ANCURI",
           "node_id": 28,
           "region_type": "fortaleza",
-          "risk_score": 46.5,
+          "risk_score": 46.4,
           "status_label": "MODERADO"
         },
         {
           "name": "SIQUEIRA",
           "node_id": 6,
           "region_type": "fortaleza",
-          "risk_score": 43.6,
+          "risk_score": 42.0,
           "status_label": "MODERADO"
         },
         {
           "name": "ALTO ALEGRE",
           "node_id": 0,
           "region_type": "fortaleza",
-          "risk_score": 39.8,
+          "risk_score": 39.7,
           "status_label": "MODERADO"
         },
         {
@@ -764,7 +772,7 @@
       "clean_name": "ANCURI",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 46.5,
+      "score": 46.4,
       "rank_region": 5,
       "rank_global": 10,
       "momentum_7d": 0.0,
@@ -772,7 +780,7 @@
       "recent_cvli": 1,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 46.5,
+      "tension_index": 46.4,
       "status": "MODERADO",
       "trend": "stable",
       "summary": "**ANCURI** está na posição **#10** do ranking — identificada como área de alta prioridade tática."
@@ -798,26 +806,6 @@
       "summary": "**ITAPAJE** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
     },
     {
-      "id": "fortaleza:SIQUEIRA",
-      "node_id": 6,
-      "name": "SIQUEIRA",
-      "clean_name": "SIQUEIRA",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 43.6,
-      "rank_region": 6,
-      "rank_global": 12,
-      "momentum_7d": -1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 43.6,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
-    },
-    {
       "id": "interior:CARIRE",
       "node_id": 51,
       "name": "CARIRE",
@@ -826,7 +814,7 @@
       "municipality": "CARIRE",
       "score": 42.2,
       "rank_region": 5,
-      "rank_global": 13,
+      "rank_global": 12,
       "momentum_7d": -1.0,
       "momentum_14d": 1.0,
       "recent_cvli": 0,
@@ -838,13 +826,33 @@
       "summary": "**CARIRE** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
     },
     {
+      "id": "fortaleza:SIQUEIRA",
+      "node_id": 6,
+      "name": "SIQUEIRA",
+      "clean_name": "SIQUEIRA",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 42.0,
+      "rank_region": 6,
+      "rank_global": 13,
+      "momentum_7d": -1.0,
+      "momentum_14d": 1.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 1,
+      "faction": "CV",
+      "tension_index": 42.0,
+      "status": "MODERADO",
+      "trend": "stable",
+      "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
+    },
+    {
       "id": "fortaleza:ALTO ALEGRE",
       "node_id": 0,
       "name": "ALTO ALEGRE",
       "clean_name": "ALTO ALEGRE",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 39.8,
+      "score": 39.7,
       "rank_region": 7,
       "rank_global": 14,
       "momentum_7d": 0.0,
@@ -852,7 +860,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 39.8,
+      "tension_index": 39.7,
       "status": "MODERADO",
       "trend": "stable",
       "summary": "**ALTO ALEGRE** está na posição **#14** do ranking — identificada como área de alta prioridade tática."
@@ -1024,7 +1032,7 @@
       "clean_name": "CANINDEZINHO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 32.0,
+      "score": 31.9,
       "rank_region": 13,
       "rank_global": 23,
       "momentum_7d": 0.0,
@@ -1032,7 +1040,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 32.0,
+      "tension_index": 31.9,
       "status": "MODERADO",
       "trend": "stable",
       "summary": "**CANINDEZINHO** está na posição **#23** do ranking — identificada como área de atenção moderada."
@@ -1184,7 +1192,7 @@
       "clean_name": "JANGURUSSU",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 25.0,
+      "score": 25.1,
       "rank_region": 15,
       "rank_global": 31,
       "momentum_7d": 0.0,
@@ -1192,7 +1200,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 25.0,
+      "tension_index": 25.1,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "**JANGURUSSU** está na posição **#31** do ranking — identificada como área de atenção moderada."
@@ -1904,7 +1912,7 @@
       "clean_name": "PARQUE SANTA MARIA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 12.8,
+      "score": 12.9,
       "rank_region": 22,
       "rank_global": 67,
       "momentum_7d": 0.0,
@@ -1912,7 +1920,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 12.8,
+      "tension_index": 12.9,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "**PARQUE SANTA MARIA** está na posição **#67** do ranking — identificada como área monitorada."
@@ -2084,7 +2092,7 @@
       "clean_name": "PASSARE",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 8.0,
+      "score": 8.1,
       "rank_region": 25,
       "rank_global": 76,
       "momentum_7d": 0.0,
@@ -2092,7 +2100,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 2,
       "faction": "CV",
-      "tension_index": 8.0,
+      "tension_index": 8.1,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "**PASSARE** está na posição **#76** do ranking — identificada como área monitorada."
@@ -2150,7 +2158,7 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 0,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 5.1,
       "status": "BAIXO",
@@ -2244,7 +2252,7 @@
       "clean_name": "BONSUCESSO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 0.4,
+      "score": 0.3,
       "rank_region": 33,
       "rank_global": 84,
       "momentum_7d": 0.0,
@@ -2252,7 +2260,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 0.4,
+      "tension_index": 0.3,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "**BONSUCESSO** está na posição **#84** do ranking — identificada como área monitorada."

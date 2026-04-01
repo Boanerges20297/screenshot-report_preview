@@ -284,8 +284,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": -3.0,
     "critical_streets": "AV. DIONISIO LEONEL AGUIAR",
-    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 46.50.",
-    "risk_score": 46.5,
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 46.40.",
+    "risk_score": 46.4,
     "status": "MODERADO"
   },
   "interior:ITAPAJE": {
@@ -318,20 +318,6 @@
     "risk_score": 43.8,
     "status": "MODERADO"
   },
-  "fortaleza:SIQUEIRA": {
-    "name": "SIQUEIRA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": -1.0,
-    "momentum_14d": 1.0,
-    "critical_streets": "RUA JOSE MAURICIO, 858",
-    "summary": "Território em nível moderado. Momentum de 14 dias em aceleração. Tensão territorial atual em 43.60.",
-    "risk_score": 43.6,
-    "status": "MODERADO"
-  },
   "interior:CARIRE": {
     "name": "CARIRE",
     "municipality": "CARIRE",
@@ -352,6 +338,20 @@
     "risk_score": 42.2,
     "status": "MODERADO"
   },
+  "fortaleza:SIQUEIRA": {
+    "name": "SIQUEIRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "critical_streets": "RUA JOSE MAURICIO, 858",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 42.00.",
+    "risk_score": 42.0,
+    "status": "MODERADO"
+  },
   "fortaleza:ALTO ALEGRE": {
     "name": "ALTO ALEGRE",
     "municipality": "Fortaleza",
@@ -362,8 +362,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA JORNALISTA VICENTE LOIOLA, RUA URBANO TEIXEIRA DE MENEZES, S/N",
-    "summary": "Território em nível moderado. Tensão territorial atual em 39.80.",
-    "risk_score": 39.8,
+    "summary": "Território em nível moderado. Tensão territorial atual em 39.70.",
+    "risk_score": 39.7,
     "status": "MODERADO"
   },
   "fortaleza:CURIO": {
@@ -500,8 +500,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 32.00.",
-    "risk_score": 32.0,
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 31.90.",
+    "risk_score": 31.9,
     "status": "MODERADO"
   },
   "interior:TIANGUA": {
@@ -676,8 +676,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 25.00.",
-    "risk_score": 25.0,
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 25.10.",
+    "risk_score": 25.1,
     "status": "BAIXO"
   },
   "rmf:PARAIPABA": {
@@ -1391,8 +1391,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 12.80.",
-    "risk_score": 12.8,
+    "summary": "Território em nível baixo. Tensão territorial atual em 12.90.",
+    "risk_score": 12.9,
     "status": "BAIXO"
   },
   "interior:OROS": {
@@ -1626,8 +1626,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 8.00.",
-    "risk_score": 8.0,
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 8.10.",
+    "risk_score": 8.1,
     "status": "BAIXO"
   },
   "fortaleza:EDSON QUEIROZ": {
@@ -1664,11 +1664,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
-    "summary": "Território em nível baixo. Tensão territorial atual em 5.10.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 5.10.",
     "risk_score": 5.1,
     "status": "BAIXO"
   },
@@ -1738,8 +1738,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.40.",
-    "risk_score": 0.4,
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.30.",
+    "risk_score": 0.3,
     "status": "BAIXO"
   },
   "fortaleza:VICENTE PINZON": {
