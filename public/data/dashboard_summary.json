@@ -1,28 +1,28 @@
 {
   "global": {
     "total_nodes": 109,
-    "active_locations": 8,
+    "active_locations": 7,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 19.21
+    "avg_risk": 19.24
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 19.29,
-      "max_risk": 50.5,
-      "top_name": "BOM JARDIM"
+      "avg_risk": 19.25,
+      "max_risk": 58.7,
+      "top_name": "BARROSO"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 14.84,
+      "avg_risk": 15.09,
       "max_risk": 84.3,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
       "avg_risk": 20.8,
-      "max_risk": 58.4,
+      "max_risk": 69.4,
       "top_name": "LIMOEIRO DO NORTE"
     }
   }

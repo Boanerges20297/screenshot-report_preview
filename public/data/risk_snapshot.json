@@ -1,17 +1,17 @@
 {
   "meta": {
     "counts": {
-      "alto": 3,
+      "alto": 4,
       "baixo": 85,
       "crítico": 2,
-      "moderado": 19
+      "moderado": 18
     },
     "counts_by_region": {
       "fortaleza": {
-        "alto": 0,
+        "alto": 1,
         "baixo": 27,
         "crítico": 0,
-        "moderado": 13
+        "moderado": 12
       },
       "interior": {
         "alto": 3,
@@ -27,68 +27,67 @@
       }
     },
     "efficiency_metrics": {
-      "assigned_brute_cvli": 14,
-      "assigned_exogenous": 3,
-      "assigned_police_qualified_actions": 26,
-      "assigned_total_events": 17,
-      "brute_cvli": 14,
-      "date": "2026-03-31",
+      "assigned_brute_cvli": 18,
+      "assigned_exogenous": 2,
+      "assigned_police_qualified_actions": 22,
+      "assigned_total_events": 20,
+      "brute_cvli": 18,
+      "date": "2026-04-03",
       "exogenous": 7,
       "exogenous_conflict": 7,
       "fortaleza": {
-        "active_locations": 7,
+        "active_locations": 6,
         "gt_sample": [
           "SIQUEIRA",
           "BARROSO",
           "BOM JARDIM",
           "ANCURI",
-          "PASSARE",
-          "EDSON QUEIROZ",
-          "MESSEJANA"
+          "MESSEJANA",
+          "GRANJA LISBOA"
         ],
         "hits10": [
+          "BARROSO",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "ANCURI",
           "SIQUEIRA"
         ],
         "hits20": [
+          "BARROSO",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "ANCURI",
           "SIQUEIRA"
         ],
         "hits5": [
+          "BARROSO",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "ANCURI"
         ],
         "p10": 0.5,
         "p20": 0.25,
         "p5": 0.8,
         "ranking_top10": [
+          "BARROSO",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "MONDUBIM",
           "ANCURI",
           "SIQUEIRA",
-          "ALTO ALEGRE",
           "CURIO",
+          "ALTO ALEGRE",
           "BARRA DO CEARA",
-          "ANTONIO BEZERRA"
+          "PARQUE IRACEMA"
         ],
-        "recall10": 0.7143,
-        "recall20": 0.7143,
-        "recall5": 0.5714,
-        "total_events": 8,
+        "recall10": 0.8333,
+        "recall20": 0.8333,
+        "recall5": 0.6667,
+        "total_events": 9,
         "total_nodes": 40
       },
       "global": {
-        "active_locations": 16,
+        "active_locations": 15,
         "gt_sample": [
           "SIQUEIRA",
           "BARROSO",
@@ -103,23 +102,23 @@
           "OROS",
           "IRACEMA",
           "AURORA",
-          "PASSARE",
-          "EDSON QUEIROZ"
+          "MESSEJANA",
+          "GRANJA LISBOA"
         ],
         "hits10": [
           "LIMOEIRO DO NORTE",
+          "BARROSO",
           "VARZEA ALEGRE",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "ANCURI"
         ],
         "hits20": [
           "LIMOEIRO DO NORTE",
+          "BARROSO",
           "VARZEA ALEGRE",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "ANCURI",
           "SIQUEIRA",
           "CARIRE",
@@ -128,7 +127,7 @@
         ],
         "hits5": [
           "LIMOEIRO DO NORTE",
-          "VARZEA ALEGRE"
+          "BARROSO"
         ],
         "p10": 0.6,
         "p20": 0.5,
@@ -137,18 +136,18 @@
           "CAUCAIA",
           "MARACANAU",
           "LIMOEIRO DO NORTE",
+          "BARROSO",
           "JUAZEIRO DO NORTE",
           "VARZEA ALEGRE",
           "MESSEJANA",
           "BOM JARDIM",
-          "BARROSO",
           "MONDUBIM",
           "ANCURI"
         ],
-        "recall10": 0.375,
-        "recall20": 0.625,
-        "recall5": 0.125,
-        "total_events": 17,
+        "recall10": 0.4,
+        "recall20": 0.6667,
+        "recall5": 0.1333,
+        "total_events": 20,
         "total_nodes": 109
       },
       "interior": {
@@ -199,11 +198,11 @@
         "recall10": 0.7143,
         "recall20": 0.7143,
         "recall5": 0.4286,
-        "total_events": 7,
+        "total_events": 8,
         "total_nodes": 50
       },
-      "police_administrative_events_7d": 24,
-      "police_qualified_actions_7d": 40,
+      "police_administrative_events_7d": 21,
+      "police_qualified_actions_7d": 32,
       "rmf": {
         "active_locations": 2,
         "gt_sample": [
@@ -240,26 +239,27 @@
         "recall10": 1.0,
         "recall20": 1.0,
         "recall5": 1.0,
-        "total_events": 2,
+        "total_events": 3,
         "total_nodes": 19
       },
-      "total_events": 21,
-      "unmapped_exogenous": 4,
+      "total_events": 25,
+      "unmapped_exogenous": 5,
       "unmapped_exogenous_sample": [
-        "Jardim Cearense",
-        "Catuana",
         "Parangaba",
-        "Montese"
+        "Montese",
+        "Aldeota",
+        "Padre Romualdo",
+        "Benfica"
       ],
-      "unmapped_police_qualified_actions": 14,
-      "unmapped_total_events": 4
+      "unmapped_police_qualified_actions": 10,
+      "unmapped_total_events": 5
     },
     "intelligence_label": "Janela de Inteligência: 28/03 a 03/04 (Atualizada com Eventos de Hoje)",
     "last_date_base": "27/03/2026",
     "manager_view": {
-      "confidence_explanation": "Cobertura territorial estimada em 81.4%: separação dos top 10% territórios em relação à média (desvio padrão 17.36). Consultar Cov@20 no dashboard admin para métrica real.",
+      "confidence_explanation": "Cobertura territorial estimada em 81.2%: separação dos top 10% territórios em relação à média (desvio padrão 17.75). Consultar Cov@20 no dashboard admin para métrica real.",
       "confidence_label": "Alta",
-      "confidence_pct": 81.4,
+      "confidence_pct": 81.2,
       "recommendation": "Manter operações regulares e monitorar tendências.",
       "source": "computed",
       "state_temperature_color": "#A8DADC",
@@ -276,9 +276,9 @@
         "low_max": 30.0,
         "moderate_min": 31.0
       },
-      "top_10_percent_threshold": 42.52,
-      "top_1_percent_threshold": 74.59200000000003,
-      "top_5_percent_threshold": 50.3
+      "top_10_percent_threshold": 42.92,
+      "top_1_percent_threshold": 75.47200000000001,
+      "top_5_percent_threshold": 50.959999999999994
     },
     "risk_thresholds": {
       "critical_min": 71.0,
@@ -287,11 +287,11 @@
       "moderate_min": 31.0
     },
     "start_cvli": "2022-01-01 00:00:00",
-    "stats_overall_mean": 19.206422018348626,
-    "stats_overall_std": 17.362509834367437,
-    "stats_top10_mean": 57.080000000000005,
-    "stats_top5_mean": 65.10000000000001,
-    "stats_top5_min": 51.8,
+    "stats_overall_mean": 19.238532110091743,
+    "stats_overall_std": 17.74805795426789,
+    "stats_top10_mean": 58.85000000000001,
+    "stats_top5_mean": 68.68,
+    "stats_top5_min": 55.0,
     "top10": [
       {
         "name": "CAUCAIA",
@@ -311,7 +311,14 @@
         "name": "LIMOEIRO DO NORTE",
         "node_id": 59,
         "region_type": "interior",
-        "risk_score": 58.4,
+        "risk_score": 69.4,
+        "status_label": "ALTO"
+      },
+      {
+        "name": "BARROSO",
+        "node_id": 7,
+        "region_type": "fortaleza",
+        "risk_score": 58.7,
         "status_label": "ALTO"
       },
       {
@@ -325,22 +332,8 @@
         "name": "VARZEA ALEGRE",
         "node_id": 54,
         "region_type": "interior",
-        "risk_score": 51.8,
+        "risk_score": 51.6,
         "status_label": "ALTO"
-      },
-      {
-        "name": "BOM JARDIM",
-        "node_id": 20,
-        "region_type": "fortaleza",
-        "risk_score": 50.5,
-        "status_label": "MODERADO"
-      },
-      {
-        "name": "BARROSO",
-        "node_id": 7,
-        "region_type": "fortaleza",
-        "risk_score": 50.0,
-        "status_label": "MODERADO"
       },
       {
         "name": "MESSEJANA",
@@ -350,35 +343,35 @@
         "status_label": "MODERADO"
       },
       {
+        "name": "BOM JARDIM",
+        "node_id": 20,
+        "region_type": "fortaleza",
+        "risk_score": 49.4,
+        "status_label": "MODERADO"
+      },
+      {
         "name": "MONDUBIM",
         "node_id": 14,
         "region_type": "fortaleza",
-        "risk_score": 48.4,
+        "risk_score": 47.5,
         "status_label": "MODERADO"
       },
       {
         "name": "ANCURI",
         "node_id": 28,
         "region_type": "fortaleza",
-        "risk_score": 46.4,
+        "risk_score": 46.6,
         "status_label": "MODERADO"
       }
     ],
     "top10_by_region": {
       "fortaleza": [
         {
-          "name": "BOM JARDIM",
-          "node_id": 20,
-          "region_type": "fortaleza",
-          "risk_score": 50.5,
-          "status_label": "MODERADO"
-        },
-        {
           "name": "BARROSO",
           "node_id": 7,
           "region_type": "fortaleza",
-          "risk_score": 50.0,
-          "status_label": "MODERADO"
+          "risk_score": 58.7,
+          "status_label": "ALTO"
         },
         {
           "name": "MESSEJANA",
@@ -388,52 +381,59 @@
           "status_label": "MODERADO"
         },
         {
+          "name": "BOM JARDIM",
+          "node_id": 20,
+          "region_type": "fortaleza",
+          "risk_score": 49.4,
+          "status_label": "MODERADO"
+        },
+        {
           "name": "MONDUBIM",
           "node_id": 14,
           "region_type": "fortaleza",
-          "risk_score": 48.4,
+          "risk_score": 47.5,
           "status_label": "MODERADO"
         },
         {
           "name": "ANCURI",
           "node_id": 28,
           "region_type": "fortaleza",
-          "risk_score": 46.4,
+          "risk_score": 46.6,
           "status_label": "MODERADO"
         },
         {
           "name": "SIQUEIRA",
           "node_id": 6,
           "region_type": "fortaleza",
-          "risk_score": 42.0,
+          "risk_score": 42.7,
           "status_label": "MODERADO"
         },
         {
           "name": "ALTO ALEGRE",
           "node_id": 0,
           "region_type": "fortaleza",
-          "risk_score": 39.7,
+          "risk_score": 38.9,
           "status_label": "MODERADO"
         },
         {
           "name": "CURIO",
           "node_id": 18,
           "region_type": "fortaleza",
-          "risk_score": 38.0,
+          "risk_score": 37.9,
           "status_label": "MODERADO"
         },
         {
           "name": "BARRA DO CEARA",
           "node_id": 1,
           "region_type": "fortaleza",
-          "risk_score": 34.9,
+          "risk_score": 34.7,
           "status_label": "MODERADO"
         },
         {
           "name": "ANTONIO BEZERRA",
           "node_id": 26,
           "region_type": "fortaleza",
-          "risk_score": 33.2,
+          "risk_score": 32.4,
           "status_label": "MODERADO"
         }
       ],
@@ -442,7 +442,7 @@
           "name": "LIMOEIRO DO NORTE",
           "node_id": 59,
           "region_type": "interior",
-          "risk_score": 58.4,
+          "risk_score": 69.4,
           "status_label": "ALTO"
         },
         {
@@ -456,7 +456,7 @@
           "name": "VARZEA ALEGRE",
           "node_id": 54,
           "region_type": "interior",
-          "risk_score": 51.8,
+          "risk_score": 51.6,
           "status_label": "ALTO"
         },
         {
@@ -470,7 +470,7 @@
           "name": "CARIRE",
           "node_id": 51,
           "region_type": "interior",
-          "risk_score": 42.2,
+          "risk_score": 42.0,
           "status_label": "MODERADO"
         },
         {
@@ -484,28 +484,28 @@
           "name": "GROAIRAS",
           "node_id": 42,
           "region_type": "interior",
-          "risk_score": 34.3,
+          "risk_score": 34.1,
           "status_label": "MODERADO"
         },
         {
           "name": "IGUATU",
           "node_id": 41,
           "region_type": "interior",
-          "risk_score": 34.0,
+          "risk_score": 33.6,
           "status_label": "MODERADO"
         },
         {
           "name": "TIANGUA",
           "node_id": 48,
           "region_type": "interior",
-          "risk_score": 31.6,
+          "risk_score": 31.4,
           "status_label": "MODERADO"
         },
         {
           "name": "ARATUBA",
           "node_id": 45,
           "region_type": "interior",
-          "risk_score": 30.9,
+          "risk_score": 30.7,
           "status_label": "BAIXO"
         }
       ],
@@ -528,14 +528,14 @@
           "name": "PARAIPABA",
           "node_id": 98,
           "region_type": "rmf",
-          "risk_score": 24.7,
+          "risk_score": 29.6,
           "status_label": "BAIXO"
         },
         {
           "name": "SAO LUIS DO CURU",
           "node_id": 99,
           "region_type": "rmf",
-          "risk_score": 24.0,
+          "risk_score": 23.9,
           "status_label": "BAIXO"
         },
         {
@@ -549,7 +549,7 @@
           "name": "EUSEBIO",
           "node_id": 97,
           "region_type": "rmf",
-          "risk_score": 13.0,
+          "risk_score": 13.1,
           "status_label": "BAIXO"
         },
         {
@@ -598,12 +598,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": -2.0,
       "recent_cvli": 0,
-      "recent_exogenous": 6,
+      "recent_exogenous": 4,
       "faction": "CV",
       "tension_index": 84.3,
       "status": "CRÍTICO",
       "trend": "stable",
-      "summary": "**CAUCAIA** está na posição **#1** do ranking — identificada como uma das 5 áreas mais críticas."
+      "summary": "**CAUCAIA** está na posição **#1** do ranking, com score **8.43/10** e confiança **95.6%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "rmf:MARACANAU",
@@ -618,12 +618,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 4,
+      "recent_exogenous": 5,
       "faction": "CV",
       "tension_index": 76.0,
       "status": "CRÍTICO",
       "trend": "stable",
-      "summary": "**MARACANAU** está na posição **#2** do ranking — identificada como uma das 5 áreas mais críticas."
+      "summary": "**MARACANAU** está na posição **#2** do ranking, com score **7.60/10** e confiança **95.6%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "interior:LIMOEIRO DO NORTE",
@@ -632,18 +632,38 @@
       "clean_name": "LIMOEIRO DO NORTE",
       "region": "interior",
       "municipality": "LIMOEIRO DO NORTE",
-      "score": 58.4,
+      "score": 69.4,
       "rank_region": 1,
       "rank_global": 3,
-      "momentum_7d": 1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 1,
+      "momentum_7d": 2.0,
+      "momentum_14d": 2.0,
+      "recent_cvli": 2,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 58.4,
+      "tension_index": 69.4,
       "status": "ALTO",
       "trend": "stable",
-      "summary": "**LIMOEIRO DO NORTE** está na posição **#3** do ranking — identificada como uma das 5 áreas mais críticas."
+      "summary": "**LIMOEIRO DO NORTE** está na posição **#3** do ranking, com score **6.94/10** e confiança **94.6%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por aceleração recente de CVLI na janela observada."
+    },
+    {
+      "id": "fortaleza:BARROSO",
+      "node_id": 7,
+      "name": "BARROSO",
+      "clean_name": "BARROSO",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 58.7,
+      "rank_region": 1,
+      "rank_global": 4,
+      "momentum_7d": 2.0,
+      "momentum_14d": -5.0,
+      "recent_cvli": 2,
+      "recent_exogenous": 2,
+      "faction": "CV",
+      "tension_index": 58.7,
+      "status": "ALTO",
+      "trend": "stable",
+      "summary": "**BARROSO** está na posição **#4** do ranking, com score **5.96/10** e confiança **93.8%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:JUAZEIRO DO NORTE",
@@ -654,7 +674,7 @@
       "municipality": "JUAZEIRO DO NORTE",
       "score": 55.0,
       "rank_region": 2,
-      "rank_global": 4,
+      "rank_global": 5,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -663,7 +683,7 @@
       "tension_index": 55.0,
       "status": "ALTO",
       "trend": "stable",
-      "summary": "**JUAZEIRO DO NORTE** está na posição **#4** do ranking — identificada como uma das 5 áreas mais críticas."
+      "summary": "**JUAZEIRO DO NORTE** está na posição **#5** do ranking, com score **5.50/10** e confiança **82.2%** — identificada como uma das 5 áreas mais críticas. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:VARZEA ALEGRE",
@@ -672,58 +692,18 @@
       "clean_name": "VARZEA ALEGRE",
       "region": "interior",
       "municipality": "VARZEA ALEGRE",
-      "score": 51.8,
+      "score": 51.6,
       "rank_region": 3,
-      "rank_global": 5,
+      "rank_global": 6,
       "momentum_7d": -1.0,
       "momentum_14d": 1.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 51.8,
+      "tension_index": 51.6,
       "status": "ALTO",
       "trend": "stable",
-      "summary": "**VARZEA ALEGRE** está na posição **#5** do ranking — identificada como uma das 5 áreas mais críticas."
-    },
-    {
-      "id": "fortaleza:BOM JARDIM",
-      "node_id": 20,
-      "name": "BOM JARDIM",
-      "clean_name": "BOM JARDIM",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 50.5,
-      "rank_region": 1,
-      "rank_global": 6,
-      "momentum_7d": -1.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 50.5,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**BOM JARDIM** está na posição **#7** do ranking — identificada como área de alta prioridade tática."
-    },
-    {
-      "id": "fortaleza:BARROSO",
-      "node_id": 7,
-      "name": "BARROSO",
-      "clean_name": "BARROSO",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 50.0,
-      "rank_region": 2,
-      "rank_global": 7,
-      "momentum_7d": 1.0,
-      "momentum_14d": -6.0,
-      "recent_cvli": 1,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 50.0,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**BARROSO** está na posição **#8** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**VARZEA ALEGRE** está na posição **#6** do ranking, com score **5.16/10** e confiança **92.4%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
     },
     {
       "id": "fortaleza:MESSEJANA",
@@ -733,17 +713,37 @@
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 50.0,
-      "rank_region": 3,
-      "rank_global": 8,
+      "rank_region": 2,
+      "rank_global": 7,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 4,
+      "recent_exogenous": 3,
       "faction": "MASSA",
       "tension_index": 50.0,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**MESSEJANA** está na posição **#6** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**MESSEJANA** está na posição **#7** do ranking, com score **5.00/10** e confiança **90.1%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    },
+    {
+      "id": "fortaleza:BOM JARDIM",
+      "node_id": 20,
+      "name": "BOM JARDIM",
+      "clean_name": "BOM JARDIM",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 49.4,
+      "rank_region": 3,
+      "rank_global": 8,
+      "momentum_7d": -1.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 49.4,
+      "status": "MODERADO",
+      "trend": "stable",
+      "summary": "**BOM JARDIM** está na posição **#8** do ranking, com score **4.90/10** e confiança **85.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:MONDUBIM",
@@ -752,18 +752,18 @@
       "clean_name": "MONDUBIM",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 48.4,
+      "score": 47.5,
       "rank_region": 4,
       "rank_global": 9,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 48.4,
+      "tension_index": 47.5,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**MONDUBIM** está na posição **#9** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**MONDUBIM** está na posição **#9** do ranking, com score **4.70/10** e confiança **73.8%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:ANCURI",
@@ -772,18 +772,18 @@
       "clean_name": "ANCURI",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 46.4,
+      "score": 46.6,
       "rank_region": 5,
       "rank_global": 10,
-      "momentum_7d": 0.0,
-      "momentum_14d": -3.0,
-      "recent_cvli": 1,
+      "momentum_7d": 1.0,
+      "momentum_14d": -2.0,
+      "recent_cvli": 2,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 46.4,
+      "tension_index": 46.6,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**ANCURI** está na posição **#10** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**ANCURI** está na posição **#10** do ranking, com score **4.65/10** e confiança **91.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:ITAPAJE",
@@ -803,27 +803,7 @@
       "tension_index": 43.8,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**ITAPAJE** está na posição **#11** do ranking — identificada como área de alta prioridade tática."
-    },
-    {
-      "id": "interior:CARIRE",
-      "node_id": 51,
-      "name": "CARIRE",
-      "clean_name": "CARIRE",
-      "region": "interior",
-      "municipality": "CARIRE",
-      "score": 42.2,
-      "rank_region": 5,
-      "rank_global": 12,
-      "momentum_7d": -1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 42.2,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**CARIRE** está na posição **#13** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**ITAPAJE** está na posição **#11** do ranking, com score **4.38/10** e confiança **82.2%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:SIQUEIRA",
@@ -832,18 +812,38 @@
       "clean_name": "SIQUEIRA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 42.0,
+      "score": 42.7,
       "rank_region": 6,
-      "rank_global": 13,
+      "rank_global": 12,
       "momentum_7d": -1.0,
       "momentum_14d": 1.0,
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
+      "tension_index": 42.7,
+      "status": "MODERADO",
+      "trend": "stable",
+      "summary": "**SIQUEIRA** está na posição **#12** do ranking, com score **4.28/10** e confiança **88.1%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+    },
+    {
+      "id": "interior:CARIRE",
+      "node_id": 51,
+      "name": "CARIRE",
+      "clean_name": "CARIRE",
+      "region": "interior",
+      "municipality": "CARIRE",
+      "score": 42.0,
+      "rank_region": 5,
+      "rank_global": 13,
+      "momentum_7d": -1.0,
+      "momentum_14d": 1.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
       "tension_index": 42.0,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**SIQUEIRA** está na posição **#12** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**CARIRE** está na posição **#13** do ranking, com score **4.20/10** e confiança **87.9%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
     },
     {
       "id": "fortaleza:ALTO ALEGRE",
@@ -852,7 +852,7 @@
       "clean_name": "ALTO ALEGRE",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 39.7,
+      "score": 38.9,
       "rank_region": 7,
       "rank_global": 14,
       "momentum_7d": 0.0,
@@ -860,10 +860,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 39.7,
+      "tension_index": 38.9,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**ALTO ALEGRE** está na posição **#14** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**ALTO ALEGRE** está na posição **#15** do ranking, com score **3.85/10** e confiança **72.7%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:CURIO",
@@ -872,18 +872,18 @@
       "clean_name": "CURIO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 38.0,
+      "score": 37.9,
       "rank_region": 8,
       "rank_global": 15,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 2,
+      "recent_exogenous": 3,
       "faction": "MASSA",
-      "tension_index": 38.0,
+      "tension_index": 37.9,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**CURIO** está na posição **#15** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**CURIO** está na posição **#14** do ranking, com score **3.85/10** e confiança **72.1%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:IRACEMA",
@@ -903,7 +903,7 @@
       "tension_index": 37.1,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**IRACEMA** está na posição **#16** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**IRACEMA** está na posição **#16** do ranking, com score **3.71/10** e confiança **85.9%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
     },
     {
       "id": "fortaleza:BARRA DO CEARA",
@@ -912,7 +912,7 @@
       "clean_name": "BARRA DO CEARA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 34.9,
+      "score": 34.7,
       "rank_region": 9,
       "rank_global": 17,
       "momentum_7d": 0.0,
@@ -920,10 +920,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 34.9,
+      "tension_index": 34.7,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**BARRA DO CEARA** está na posição **#17** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**BARRA DO CEARA** está na posição **#17** do ranking, com score **3.43/10** e confiança **81.3%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:GROAIRAS",
@@ -932,7 +932,7 @@
       "clean_name": "GROAIRAS",
       "region": "interior",
       "municipality": "GROAIRAS",
-      "score": 34.3,
+      "score": 34.1,
       "rank_region": 7,
       "rank_global": 18,
       "momentum_7d": 0.0,
@@ -940,10 +940,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "MASSA",
-      "tension_index": 34.3,
+      "tension_index": 34.1,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**GROAIRAS** está na posição **#18** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**GROAIRAS** está na posição **#18** do ranking, com score **3.41/10** e confiança **67.9%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:IGUATU",
@@ -952,7 +952,7 @@
       "clean_name": "IGUATU",
       "region": "interior",
       "municipality": "IGUATU",
-      "score": 34.0,
+      "score": 33.6,
       "rank_region": 8,
       "rank_global": 19,
       "momentum_7d": 0.0,
@@ -960,10 +960,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 34.0,
+      "tension_index": 33.6,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**IGUATU** está na posição **#19** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**IGUATU** está na posição **#19** do ranking, com score **3.36/10** e confiança **76.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:ANTONIO BEZERRA",
@@ -972,7 +972,7 @@
       "clean_name": "ANTONIO BEZERRA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 33.2,
+      "score": 32.4,
       "rank_region": 10,
       "rank_global": 20,
       "momentum_7d": 0.0,
@@ -980,30 +980,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 33.2,
+      "tension_index": 32.4,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**ANTONIO BEZERRA** está na posição **#20** do ranking — identificada como área de alta prioridade tática."
-    },
-    {
-      "id": "fortaleza:NOVO MONDUBIM",
-      "node_id": 30,
-      "name": "NOVO MONDUBIM",
-      "clean_name": "NOVO MONDUBIM",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 32.7,
-      "rank_region": 11,
-      "rank_global": 21,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 32.7,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**NOVO MONDUBIM** está na posição **#22** do ranking — identificada como área de atenção moderada."
+      "summary": "**ANTONIO BEZERRA** está na posição **#21** do ranking, com score **3.20/10** e confiança **84.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PARQUE IRACEMA",
@@ -1013,8 +993,8 @@
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 32.4,
-      "rank_region": 12,
-      "rank_global": 22,
+      "rank_region": 11,
+      "rank_global": 21,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -1023,7 +1003,27 @@
       "tension_index": 32.4,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**PARQUE IRACEMA** está na posição **#21** do ranking — identificada como área de alta prioridade tática."
+      "summary": "**PARQUE IRACEMA** está na posição **#20** do ranking, com score **3.26/10** e confiança **71.2%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    },
+    {
+      "id": "fortaleza:NOVO MONDUBIM",
+      "node_id": 30,
+      "name": "NOVO MONDUBIM",
+      "clean_name": "NOVO MONDUBIM",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 32.0,
+      "rank_region": 12,
+      "rank_global": 22,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 32.0,
+      "status": "MODERADO",
+      "trend": "stable",
+      "summary": "**NOVO MONDUBIM** está na posição **#22** do ranking, com score **3.17/10** e confiança **67.6%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:CANINDEZINHO",
@@ -1032,7 +1032,7 @@
       "clean_name": "CANINDEZINHO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 31.9,
+      "score": 31.5,
       "rank_region": 13,
       "rank_global": 23,
       "momentum_7d": 0.0,
@@ -1040,10 +1040,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 31.9,
+      "tension_index": 31.5,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**CANINDEZINHO** está na posição **#23** do ranking — identificada como área de atenção moderada."
+      "summary": "**CANINDEZINHO** está na posição **#24** do ranking, com score **3.13/10** e confiança **73.8%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:TIANGUA",
@@ -1052,7 +1052,7 @@
       "clean_name": "TIANGUA",
       "region": "interior",
       "municipality": "TIANGUA",
-      "score": 31.6,
+      "score": 31.4,
       "rank_region": 9,
       "rank_global": 24,
       "momentum_7d": 0.0,
@@ -1060,10 +1060,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 31.6,
+      "tension_index": 31.4,
       "status": "MODERADO",
       "trend": "stable",
-      "summary": "**TIANGUA** está na posição **#24** do ranking — identificada como área de atenção moderada."
+      "summary": "**TIANGUA** está na posição **#23** do ranking, com score **3.14/10** e confiança **67.6%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ARATUBA",
@@ -1072,7 +1072,7 @@
       "clean_name": "ARATUBA",
       "region": "interior",
       "municipality": "ARATUBA",
-      "score": 30.9,
+      "score": 30.7,
       "rank_region": 10,
       "rank_global": 25,
       "momentum_7d": 0.0,
@@ -1080,10 +1080,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 30.9,
+      "tension_index": 30.7,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ARATUBA** está na posição **#25** do ranking — identificada como área de atenção moderada."
+      "summary": "**ARATUBA** está na posição **#25** do ranking, com score **3.07/10** e confiança **66.0%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:JAGUARUANA",
@@ -1092,7 +1092,7 @@
       "clean_name": "JAGUARUANA",
       "region": "interior",
       "municipality": "JAGUARUANA",
-      "score": 30.3,
+      "score": 30.1,
       "rank_region": 11,
       "rank_global": 26,
       "momentum_7d": 0.0,
@@ -1100,110 +1100,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "MASSA",
-      "tension_index": 30.3,
+      "tension_index": 30.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JAGUARUANA** está na posição **#26** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "interior:ITAPIUNA",
-      "node_id": 63,
-      "name": "ITAPIUNA",
-      "clean_name": "ITAPIUNA",
-      "region": "interior",
-      "municipality": "ITAPIUNA",
-      "score": 28.8,
-      "rank_region": 12,
-      "rank_global": 27,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 28.8,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**ITAPIUNA** está na posição **#27** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "fortaleza:PLANALTO AYRTON SENNA",
-      "node_id": 2,
-      "name": "PLANALTO AYRTON SENNA",
-      "clean_name": "PLANALTO AYRTON SENNA",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 28.4,
-      "rank_region": 14,
-      "rank_global": 28,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 28.4,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**PLANALTO AYRTON SENNA** está na posição **#28** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "interior:SOBRAL",
-      "node_id": 43,
-      "name": "SOBRAL",
-      "clean_name": "SOBRAL",
-      "region": "interior",
-      "municipality": "SOBRAL",
-      "score": 25.9,
-      "rank_region": 13,
-      "rank_global": 29,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 25.9,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**SOBRAL** está na posição **#29** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "interior:BATURITE",
-      "node_id": 49,
-      "name": "BATURITE",
-      "clean_name": "BATURITE",
-      "region": "interior",
-      "municipality": "BATURITE",
-      "score": 25.8,
-      "rank_region": 14,
-      "rank_global": 30,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 25.8,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**BATURITE** está na posição **#30** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "fortaleza:JANGURUSSU",
-      "node_id": 3,
-      "name": "JANGURUSSU",
-      "clean_name": "JANGURUSSU",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 25.1,
-      "rank_region": 15,
-      "rank_global": 31,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 1,
-      "faction": "CV",
-      "tension_index": 25.1,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**JANGURUSSU** está na posição **#31** do ranking — identificada como área de atenção moderada."
+      "summary": "**JAGUARUANA** está na posição **#26** do ranking, com score **3.01/10** e confiança **66.9%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:PARAIPABA",
@@ -1212,18 +1112,118 @@
       "clean_name": "PARAIPABA",
       "region": "rmf",
       "municipality": "PARAIPABA",
-      "score": 24.7,
+      "score": 29.6,
       "rank_region": 3,
-      "rank_global": 32,
-      "momentum_7d": 1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 1,
+      "rank_global": 27,
+      "momentum_7d": 2.0,
+      "momentum_14d": 2.0,
+      "recent_cvli": 2,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 24.7,
+      "tension_index": 29.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARAIPABA** está na posição **#32** do ranking — identificada como área de atenção moderada."
+      "summary": "**PARAIPABA** está na posição **#27** do ranking, com score **2.96/10** e confiança **82.8%** — identificada como área de atenção moderada. A posição é sustentada por aceleração recente de CVLI na janela observada."
+    },
+    {
+      "id": "interior:ITAPIUNA",
+      "node_id": 63,
+      "name": "ITAPIUNA",
+      "clean_name": "ITAPIUNA",
+      "region": "interior",
+      "municipality": "ITAPIUNA",
+      "score": 28.5,
+      "rank_region": 12,
+      "rank_global": 28,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 28.5,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**ITAPIUNA** está na posição **#28** do ranking, com score **2.85/10** e confiança **65.0%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    },
+    {
+      "id": "fortaleza:PLANALTO AYRTON SENNA",
+      "node_id": 2,
+      "name": "PLANALTO AYRTON SENNA",
+      "clean_name": "PLANALTO AYRTON SENNA",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 27.8,
+      "rank_region": 14,
+      "rank_global": 29,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 27.8,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**PLANALTO AYRTON SENNA** está na posição **#29** do ranking, com score **2.75/10** e confiança **72.3%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    },
+    {
+      "id": "interior:SOBRAL",
+      "node_id": 43,
+      "name": "SOBRAL",
+      "clean_name": "SOBRAL",
+      "region": "interior",
+      "municipality": "SOBRAL",
+      "score": 25.5,
+      "rank_region": 13,
+      "rank_global": 30,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 25.5,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**SOBRAL** está na posição **#31** do ranking, com score **2.55/10** e confiança **70.5%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    },
+    {
+      "id": "interior:BATURITE",
+      "node_id": 49,
+      "name": "BATURITE",
+      "clean_name": "BATURITE",
+      "region": "interior",
+      "municipality": "BATURITE",
+      "score": 25.5,
+      "rank_region": 14,
+      "rank_global": 31,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 25.5,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**BATURITE** está na posição **#30** do ranking, com score **2.55/10** e confiança **65.5%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    },
+    {
+      "id": "fortaleza:JANGURUSSU",
+      "node_id": 3,
+      "name": "JANGURUSSU",
+      "clean_name": "JANGURUSSU",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 24.8,
+      "rank_region": 15,
+      "rank_global": 32,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 24.8,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**JANGURUSSU** está na posição **#32** do ranking, com score **2.46/10** e confiança **73.4%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:VICOSA DO CEARA",
@@ -1232,7 +1232,7 @@
       "clean_name": "VICOSA DO CEARA",
       "region": "interior",
       "municipality": "VICOSA DO CEARA",
-      "score": 24.4,
+      "score": 24.2,
       "rank_region": 15,
       "rank_global": 33,
       "momentum_7d": 0.0,
@@ -1240,30 +1240,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 24.4,
+      "tension_index": 24.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**VICOSA DO CEARA** está na posição **#33** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "interior:UMIRIM",
-      "node_id": 70,
-      "name": "UMIRIM",
-      "clean_name": "UMIRIM",
-      "region": "interior",
-      "municipality": "UMIRIM",
-      "score": 24.0,
-      "rank_region": 16,
-      "rank_global": 34,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 24.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**UMIRIM** está na posição **#34** do ranking — identificada como área de atenção moderada."
+      "summary": "**VICOSA DO CEARA** está na posição **#33** do ranking, com score **2.42/10** e confiança **63.0%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:SAO LUIS DO CURU",
@@ -1272,18 +1252,38 @@
       "clean_name": "SAO LUIS DO CURU",
       "region": "rmf",
       "municipality": "SAO LUIS DO CURU",
-      "score": 24.0,
+      "score": 23.9,
       "rank_region": 4,
-      "rank_global": 35,
+      "rank_global": 34,
       "momentum_7d": -1.0,
       "momentum_14d": 1.0,
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 24.0,
+      "tension_index": 23.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SAO LUIS DO CURU** está na posição **#35** do ranking — identificada como área de atenção moderada."
+      "summary": "**SAO LUIS DO CURU** está na posição **#34** do ranking, com score **2.39/10** e confiança **78.0%** — identificada como área de atenção moderada. A posição é sustentada por aceleração recente de CVLI na janela observada."
+    },
+    {
+      "id": "interior:UMIRIM",
+      "node_id": 70,
+      "name": "UMIRIM",
+      "clean_name": "UMIRIM",
+      "region": "interior",
+      "municipality": "UMIRIM",
+      "score": 23.7,
+      "rank_region": 16,
+      "rank_global": 35,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 23.7,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**UMIRIM** está na posição **#35** do ranking, com score **2.37/10** e confiança **63.2%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:URUBURETAMA",
@@ -1292,7 +1292,7 @@
       "clean_name": "URUBURETAMA",
       "region": "interior",
       "municipality": "URUBURETAMA",
-      "score": 23.4,
+      "score": 23.1,
       "rank_region": 17,
       "rank_global": 36,
       "momentum_7d": 0.0,
@@ -1300,10 +1300,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 23.4,
+      "tension_index": 23.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**URUBURETAMA** está na posição **#36** do ranking — identificada como área de atenção moderada."
+      "summary": "**URUBURETAMA** está na posição **#36** do ranking, com score **2.31/10** e confiança **62.9%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ITAREMA",
@@ -1312,7 +1312,7 @@
       "clean_name": "ITAREMA",
       "region": "interior",
       "municipality": "ITAREMA",
-      "score": 23.1,
+      "score": 22.8,
       "rank_region": 18,
       "rank_global": 37,
       "momentum_7d": 0.0,
@@ -1320,10 +1320,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 23.1,
+      "tension_index": 22.8,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ITAREMA** está na posição **#37** do ranking — identificada como área de atenção moderada."
+      "summary": "**ITAREMA** está na posição **#37** do ranking, com score **2.28/10** e confiança **62.1%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:BANABUIU",
@@ -1332,7 +1332,7 @@
       "clean_name": "BANABUIU",
       "region": "interior",
       "municipality": "BANABUIU",
-      "score": 23.1,
+      "score": 22.8,
       "rank_region": 19,
       "rank_global": 38,
       "momentum_7d": 0.0,
@@ -1340,10 +1340,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 23.1,
+      "tension_index": 22.8,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BANABUIU** está na posição **#38** do ranking — identificada como área de atenção moderada."
+      "summary": "**BANABUIU** está na posição **#38** do ranking, com score **2.28/10** e confiança **62.6%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:CAPISTRANO",
@@ -1352,29 +1352,9 @@
       "clean_name": "CAPISTRANO",
       "region": "interior",
       "municipality": "CAPISTRANO",
-      "score": 22.9,
+      "score": 22.5,
       "rank_region": 20,
       "rank_global": 39,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 22.9,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**CAPISTRANO** está na posição **#39** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "interior:FRECHEIRINHA",
-      "node_id": 74,
-      "name": "FRECHEIRINHA",
-      "clean_name": "FRECHEIRINHA",
-      "region": "interior",
-      "municipality": "FRECHEIRINHA",
-      "score": 22.5,
-      "rank_region": 21,
-      "rank_global": 40,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -1383,7 +1363,27 @@
       "tension_index": 22.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**FRECHEIRINHA** está na posição **#40** do ranking — identificada como área de atenção moderada."
+      "summary": "**CAPISTRANO** está na posição **#39** do ranking, com score **2.25/10** e confiança **61.8%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    },
+    {
+      "id": "interior:FRECHEIRINHA",
+      "node_id": 74,
+      "name": "FRECHEIRINHA",
+      "clean_name": "FRECHEIRINHA",
+      "region": "interior",
+      "municipality": "FRECHEIRINHA",
+      "score": 22.2,
+      "rank_region": 21,
+      "rank_global": 40,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 22.2,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**FRECHEIRINHA** está na posição **#40** do ranking, com score **2.22/10** e confiança **62.2%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:CARLITO PAMPLONA",
@@ -1392,7 +1392,7 @@
       "clean_name": "CARLITO PAMPLONA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 22.1,
+      "score": 21.5,
       "rank_region": 16,
       "rank_global": 41,
       "momentum_7d": 0.0,
@@ -1400,10 +1400,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 22.1,
+      "tension_index": 21.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CARLITO PAMPLONA** está na posição **#41** do ranking — identificada como área de atenção moderada."
+      "summary": "**CARLITO PAMPLONA** está na posição **#41** do ranking, com score **2.12/10** e confiança **61.8%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:VILA VELHA",
@@ -1412,7 +1412,7 @@
       "clean_name": "VILA VELHA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 21.9,
+      "score": 21.3,
       "rank_region": 17,
       "rank_global": 42,
       "momentum_7d": 0.0,
@@ -1420,10 +1420,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 21.9,
+      "tension_index": 21.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**VILA VELHA** está na posição **#42** do ranking — identificada como área de atenção moderada."
+      "summary": "**VILA VELHA** está na posição **#42** do ranking, com score **2.10/10** e confiança **62.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:PALMACIA",
@@ -1432,7 +1432,7 @@
       "clean_name": "PALMACIA",
       "region": "interior",
       "municipality": "PALMACIA",
-      "score": 20.9,
+      "score": 20.6,
       "rank_region": 22,
       "rank_global": 43,
       "momentum_7d": 0.0,
@@ -1440,10 +1440,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 20.9,
+      "tension_index": 20.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PALMACIA** está na posição **#43** do ranking — identificada como área de atenção moderada."
+      "summary": "**PALMACIA** está na posição **#43** do ranking, com score **2.06/10** e confiança **60.8%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:PARQUE SAO JOSE",
@@ -1452,7 +1452,7 @@
       "clean_name": "PARQUE SAO JOSE",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 20.7,
+      "score": 20.2,
       "rank_region": 18,
       "rank_global": 44,
       "momentum_7d": 0.0,
@@ -1460,10 +1460,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 20.7,
+      "tension_index": 20.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARQUE SAO JOSE** está na posição **#44** do ranking — identificada como área de atenção moderada."
+      "summary": "**PARQUE SAO JOSE** está na posição **#45** do ranking, com score **1.99/10** e confiança **63.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:GRACA",
@@ -1472,7 +1472,7 @@
       "clean_name": "GRACA",
       "region": "interior",
       "municipality": "GRACA",
-      "score": 20.4,
+      "score": 20.0,
       "rank_region": 23,
       "rank_global": 45,
       "momentum_7d": 0.0,
@@ -1480,10 +1480,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 20.4,
+      "tension_index": 20.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GRACA** está na posição **#45** do ranking — identificada como área de atenção moderada."
+      "summary": "**GRACA** está na posição **#44** do ranking, com score **2.00/10** e confiança **61.1%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:PEREIRO",
@@ -1492,7 +1492,7 @@
       "clean_name": "PEREIRO",
       "region": "interior",
       "municipality": "PEREIRO",
-      "score": 19.5,
+      "score": 19.2,
       "rank_region": 24,
       "rank_global": 46,
       "momentum_7d": 0.0,
@@ -1500,10 +1500,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 19.5,
+      "tension_index": 19.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PEREIRO** está na posição **#46** do ranking — identificada como área de atenção moderada."
+      "summary": "**PEREIRO** está na posição **#46** do ranking, com score **1.92/10** e confiança **59.0%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:UBAJARA",
@@ -1512,7 +1512,7 @@
       "clean_name": "UBAJARA",
       "region": "interior",
       "municipality": "UBAJARA",
-      "score": 19.2,
+      "score": 18.9,
       "rank_region": 25,
       "rank_global": 47,
       "momentum_7d": 0.0,
@@ -1520,30 +1520,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 19.2,
+      "tension_index": 18.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**UBAJARA** está na posição **#47** do ranking — identificada como área de atenção moderada."
-    },
-    {
-      "id": "fortaleza:PADRE ANDRADE",
-      "node_id": 38,
-      "name": "PADRE ANDRADE",
-      "clean_name": "PADRE ANDRADE",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 19.0,
-      "rank_region": 19,
-      "rank_global": 48,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 19.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**PADRE ANDRADE** está na posição **#49** do ranking — identificada como área de atenção moderada."
+      "summary": "**UBAJARA** está na posição **#47** do ranking, com score **1.89/10** e confiança **58.8%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:HORIZONTE",
@@ -1554,7 +1534,7 @@
       "municipality": "HORIZONTE",
       "score": 18.9,
       "rank_region": 5,
-      "rank_global": 49,
+      "rank_global": 48,
       "momentum_7d": 0.0,
       "momentum_14d": -1.0,
       "recent_cvli": 0,
@@ -1563,7 +1543,27 @@
       "tension_index": 18.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**HORIZONTE** está na posição **#48** do ranking — identificada como área de atenção moderada."
+      "summary": "**HORIZONTE** está na posição **#48** do ranking, com score **1.89/10** e confiança **78.2%** — identificada como área de atenção moderada. A posição é sustentada por eventos críticos recentes associados ao território."
+    },
+    {
+      "id": "fortaleza:PADRE ANDRADE",
+      "node_id": 38,
+      "name": "PADRE ANDRADE",
+      "clean_name": "PADRE ANDRADE",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 18.5,
+      "rank_region": 19,
+      "rank_global": 49,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 18.5,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**PADRE ANDRADE** está na posição **#49** do ranking, com score **1.82/10** e confiança **58.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:MUCAMBO",
@@ -1572,7 +1572,7 @@
       "clean_name": "MUCAMBO",
       "region": "interior",
       "municipality": "MUCAMBO",
-      "score": 17.8,
+      "score": 17.5,
       "rank_region": 26,
       "rank_global": 50,
       "momentum_7d": 0.0,
@@ -1580,10 +1580,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.8,
+      "tension_index": 17.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**MUCAMBO** está na posição **#50** do ranking — identificada como área de atenção moderada."
+      "summary": "**MUCAMBO** está na posição **#50** do ranking, com score **1.75/10** e confiança **58.0%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:JIJOCA DE JERICOACOARA",
@@ -1592,7 +1592,7 @@
       "clean_name": "JIJOCA DE JERICOACOARA",
       "region": "interior",
       "municipality": "JIJOCA DE JERICOACOARA",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 27,
       "rank_global": 51,
       "momentum_7d": 0.0,
@@ -1600,10 +1600,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JIJOCA DE JERICOACOARA** está na posição **#51** do ranking — identificada como área de atenção moderada."
+      "summary": "**JIJOCA DE JERICOACOARA** está na posição **#51** do ranking, com score **1.73/10** e confiança **57.9%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:CARIRIACU",
@@ -1612,7 +1612,7 @@
       "clean_name": "CARIRIACU",
       "region": "interior",
       "municipality": "CARIRIACU",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 28,
       "rank_global": 52,
       "momentum_7d": 0.0,
@@ -1620,10 +1620,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CARIRIACU** está na posição **#52** do ranking — identificada como área de atenção moderada."
+      "summary": "**CARIRIACU** está na posição **#52** do ranking, com score **1.73/10** e confiança **65.2%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ACARAPE",
@@ -1632,7 +1632,7 @@
       "clean_name": "ACARAPE",
       "region": "interior",
       "municipality": "ACARAPE",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 29,
       "rank_global": 53,
       "momentum_7d": 0.0,
@@ -1640,10 +1640,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ACARAPE** está na posição **#53** do ranking — identificada como área de atenção moderada."
+      "summary": "**ACARAPE** está na posição **#53** do ranking, com score **1.73/10** e confiança **56.1%** — identificada como área de atenção moderada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "interior:ITAICABA",
@@ -1652,7 +1652,7 @@
       "clean_name": "ITAICABA",
       "region": "interior",
       "municipality": "ITAICABA",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 30,
       "rank_global": 54,
       "momentum_7d": 0.0,
@@ -1660,10 +1660,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ITAICABA** está na posição **#54** do ranking — identificada como área de atenção moderada."
+      "summary": "**ITAICABA** está na posição **#54** do ranking, com score **1.73/10** e confiança **59.3%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ASSARE",
@@ -1672,7 +1672,7 @@
       "clean_name": "ASSARE",
       "region": "interior",
       "municipality": "ASSARE",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 31,
       "rank_global": 55,
       "momentum_7d": 0.0,
@@ -1680,10 +1680,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ASSARE** está na posição **#55** do ranking — identificada como área monitorada."
+      "summary": "**ASSARE** está na posição **#55** do ranking, com score **1.73/10** e confiança **58.1%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:TURURU",
@@ -1692,7 +1692,7 @@
       "clean_name": "TURURU",
       "region": "interior",
       "municipality": "TURURU",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 32,
       "rank_global": 56,
       "momentum_7d": 0.0,
@@ -1700,10 +1700,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**TURURU** está na posição **#56** do ranking — identificada como área monitorada."
+      "summary": "**TURURU** está na posição **#56** do ranking, com score **1.73/10** e confiança **57.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ALTO SANTO",
@@ -1712,7 +1712,7 @@
       "clean_name": "ALTO SANTO",
       "region": "interior",
       "municipality": "ALTO SANTO",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 33,
       "rank_global": 57,
       "momentum_7d": 0.0,
@@ -1720,10 +1720,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ALTO SANTO** está na posição **#57** do ranking — identificada como área monitorada."
+      "summary": "**ALTO SANTO** está na posição **#57** do ranking, com score **1.73/10** e confiança **57.9%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:CEDRO",
@@ -1732,7 +1732,7 @@
       "clean_name": "CEDRO",
       "region": "interior",
       "municipality": "CEDRO",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 34,
       "rank_global": 58,
       "momentum_7d": 0.0,
@@ -1740,10 +1740,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CEDRO** está na posição **#58** do ranking — identificada como área monitorada."
+      "summary": "**CEDRO** está na posição **#58** do ranking, com score **1.73/10** e confiança **65.2%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:SANTANA DO ACARAU",
@@ -1752,7 +1752,7 @@
       "clean_name": "SANTANA DO ACARAU",
       "region": "interior",
       "municipality": "SANTANA DO ACARAU",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 35,
       "rank_global": 59,
       "momentum_7d": 0.0,
@@ -1760,10 +1760,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SANTANA DO ACARAU** está na posição **#59** do ranking — identificada como área monitorada."
+      "summary": "**SANTANA DO ACARAU** está na posição **#59** do ranking, com score **1.73/10** e confiança **58.3%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:IBARETAMA",
@@ -1772,7 +1772,7 @@
       "clean_name": "IBARETAMA",
       "region": "interior",
       "municipality": "IBARETAMA",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 36,
       "rank_global": 60,
       "momentum_7d": 0.0,
@@ -1780,10 +1780,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "TCP/GDE",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**IBARETAMA** está na posição **#60** do ranking — identificada como área monitorada."
+      "summary": "**IBARETAMA** está na posição **#60** do ranking, com score **1.73/10** e confiança **57.0%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ANTONINA DO NORTE",
@@ -1792,7 +1792,7 @@
       "clean_name": "ANTONINA DO NORTE",
       "region": "interior",
       "municipality": "ANTONINA DO NORTE",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 37,
       "rank_global": 61,
       "momentum_7d": 0.0,
@@ -1800,10 +1800,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ANTONINA DO NORTE** está na posição **#61** do ranking — identificada como área monitorada."
+      "summary": "**ANTONINA DO NORTE** está na posição **#61** do ranking, com score **1.73/10** e confiança **56.9%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:RERIUTABA",
@@ -1812,7 +1812,7 @@
       "clean_name": "RERIUTABA",
       "region": "interior",
       "municipality": "RERIUTABA",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 38,
       "rank_global": 62,
       "momentum_7d": 0.0,
@@ -1820,10 +1820,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**RERIUTABA** está na posição **#62** do ranking — identificada como área monitorada."
+      "summary": "**RERIUTABA** está na posição **#62** do ranking, com score **1.73/10** e confiança **56.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:SENADOR POMPEU",
@@ -1832,7 +1832,7 @@
       "clean_name": "SENADOR POMPEU",
       "region": "interior",
       "municipality": "SENADOR POMPEU",
-      "score": 17.6,
+      "score": 17.3,
       "rank_region": 39,
       "rank_global": 63,
       "momentum_7d": 0.0,
@@ -1840,10 +1840,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 17.6,
+      "tension_index": 17.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SENADOR POMPEU** está na posição **#63** do ranking — identificada como área monitorada."
+      "summary": "**SENADOR POMPEU** está na posição **#63** do ranking, com score **1.73/10** e confiança **63.0%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:JARDIM GUANABARA",
@@ -1852,7 +1852,7 @@
       "clean_name": "JARDIM GUANABARA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 16.2,
+      "score": 15.7,
       "rank_region": 20,
       "rank_global": 64,
       "momentum_7d": 0.0,
@@ -1860,10 +1860,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 16.2,
+      "tension_index": 15.7,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JARDIM GUANABARA** está na posição **#64** do ranking — identificada como área monitorada."
+      "summary": "**JARDIM GUANABARA** está na posição **#64** do ranking, com score **1.54/10** e confiança **56.6%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:DOM LUSTOSA",
@@ -1872,7 +1872,7 @@
       "clean_name": "DOM LUSTOSA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 14.0,
+      "score": 13.6,
       "rank_region": 21,
       "rank_global": 65,
       "momentum_7d": 0.0,
@@ -1880,10 +1880,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 14.0,
+      "tension_index": 13.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**DOM LUSTOSA** está na posição **#65** do ranking — identificada como área monitorada."
+      "summary": "**DOM LUSTOSA** está na posição **#65** do ranking, com score **1.33/10** e confiança **55.8%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "rmf:EUSEBIO",
@@ -1892,7 +1892,7 @@
       "clean_name": "EUSEBIO",
       "region": "rmf",
       "municipality": "EUSEBIO",
-      "score": 13.0,
+      "score": 13.1,
       "rank_region": 6,
       "rank_global": 66,
       "momentum_7d": 0.0,
@@ -1900,10 +1900,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 13.0,
+      "tension_index": 13.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**EUSEBIO** está na posição **#66** do ranking — identificada como área monitorada."
+      "summary": "**EUSEBIO** está na posição **#66** do ranking, com score **1.31/10** e confiança **69.5%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PARQUE SANTA MARIA",
@@ -1912,7 +1912,7 @@
       "clean_name": "PARQUE SANTA MARIA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 12.9,
+      "score": 12.6,
       "rank_region": 22,
       "rank_global": 67,
       "momentum_7d": 0.0,
@@ -1920,30 +1920,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 12.9,
+      "tension_index": 12.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARQUE SANTA MARIA** está na posição **#67** do ranking — identificada como área monitorada."
-    },
-    {
-      "id": "interior:OROS",
-      "node_id": 62,
-      "name": "OROS",
-      "clean_name": "OROS",
-      "region": "interior",
-      "municipality": "OROS",
-      "score": 10.5,
-      "rank_region": 40,
-      "rank_global": 68,
-      "momentum_7d": -1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "NEUTRO",
-      "tension_index": 10.5,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**OROS** está na posição **#68** do ranking — identificada como área monitorada."
+      "summary": "**PARQUE SANTA MARIA** está na posição **#67** do ranking, com score **1.25/10** e confiança **59.0%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "rmf:PACAJUS",
@@ -1954,7 +1934,7 @@
       "municipality": "PACAJUS",
       "score": 10.4,
       "rank_region": 7,
-      "rank_global": 69,
+      "rank_global": 68,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -1963,7 +1943,7 @@
       "tension_index": 10.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PACAJUS** está na posição **#70** do ranking — identificada como área monitorada."
+      "summary": "**PACAJUS** está na posição **#69** do ranking, com score **1.04/10** e confiança **54.3%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:PINDORETAMA",
@@ -1974,7 +1954,7 @@
       "municipality": "PINDORETAMA",
       "score": 10.4,
       "rank_region": 8,
-      "rank_global": 70,
+      "rank_global": 69,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -1983,27 +1963,7 @@
       "tension_index": 10.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PINDORETAMA** está na posição **#69** do ranking — identificada como área monitorada."
-    },
-    {
-      "id": "fortaleza:CRISTO REDENTOR",
-      "node_id": 4,
-      "name": "CRISTO REDENTOR",
-      "clean_name": "CRISTO REDENTOR",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 10.3,
-      "rank_region": 23,
-      "rank_global": 71,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 1,
-      "faction": "CV",
-      "tension_index": 10.3,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**CRISTO REDENTOR** está na posição **#73** do ranking — identificada como área monitorada."
+      "summary": "**PINDORETAMA** está na posição **#68** do ranking, com score **1.04/10** e confiança **53.9%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:PACATUBA",
@@ -2014,7 +1974,7 @@
       "municipality": "PACATUBA",
       "score": 10.2,
       "rank_region": 9,
-      "rank_global": 72,
+      "rank_global": 70,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -2023,7 +1983,27 @@
       "tension_index": 10.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PACATUBA** está na posição **#71** do ranking — identificada como área monitorada."
+      "summary": "**PACATUBA** está na posição **#70** do ranking, com score **1.02/10** e confiança **63.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    },
+    {
+      "id": "interior:OROS",
+      "node_id": 62,
+      "name": "OROS",
+      "clean_name": "OROS",
+      "region": "interior",
+      "municipality": "OROS",
+      "score": 10.1,
+      "rank_region": 40,
+      "rank_global": 71,
+      "momentum_7d": -1.0,
+      "momentum_14d": 1.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "NEUTRO",
+      "tension_index": 10.1,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**OROS** está na posição **#71** do ranking, com score **1.01/10** e confiança **62.1%** — identificada como área monitorada. A posição é sustentada por aceleração recente de CVLI na janela observada."
     },
     {
       "id": "rmf:ITAITINGA",
@@ -2034,16 +2014,36 @@
       "municipality": "ITAITINGA",
       "score": 10.0,
       "rank_region": 10,
-      "rank_global": 73,
+      "rank_global": 72,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 0,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 10.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ITAITINGA** está na posição **#72** do ranking — identificada como área monitorada."
+      "summary": "**ITAITINGA** está na posição **#72** do ranking, com score **1.00/10** e confiança **59.2%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
+    },
+    {
+      "id": "fortaleza:CRISTO REDENTOR",
+      "node_id": 4,
+      "name": "CRISTO REDENTOR",
+      "clean_name": "CRISTO REDENTOR",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 9.9,
+      "rank_region": 23,
+      "rank_global": 73,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 1,
+      "faction": "CV",
+      "tension_index": 9.9,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**CRISTO REDENTOR** está na posição **#73** do ranking, com score **0.96/10** e confiança **66.9%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:AURORA",
@@ -2052,7 +2052,7 @@
       "clean_name": "AURORA",
       "region": "interior",
       "municipality": "AURORA",
-      "score": 9.4,
+      "score": 9.2,
       "rank_region": 41,
       "rank_global": 74,
       "momentum_7d": 0.0,
@@ -2060,10 +2060,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "NEUTRO",
-      "tension_index": 9.4,
+      "tension_index": 9.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**AURORA** está na posição **#74** do ranking — identificada como área monitorada."
+      "summary": "**AURORA** está na posição **#74** do ranking, com score **0.92/10** e confiança **60.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "fortaleza:JOSE WALTER",
@@ -2072,7 +2072,7 @@
       "clean_name": "JOSE WALTER",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 8.3,
+      "score": 7.9,
       "rank_region": 24,
       "rank_global": 75,
       "momentum_7d": 0.0,
@@ -2080,10 +2080,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 8.3,
+      "tension_index": 7.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JOSE WALTER** está na posição **#75** do ranking — identificada como área monitorada."
+      "summary": "**JOSE WALTER** está na posição **#75** do ranking, com score **0.77/10** e confiança **56.9%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PASSARE",
@@ -2092,18 +2092,18 @@
       "clean_name": "PASSARE",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 8.1,
+      "score": 7.7,
       "rank_region": 25,
       "rank_global": 76,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 2,
+      "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 8.1,
+      "tension_index": 7.7,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PASSARE** está na posição **#76** do ranking — identificada como área monitorada."
+      "summary": "**PASSARE** está na posição **#76** do ranking, com score **0.76/10** e confiança **57.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:EDSON QUEIROZ",
@@ -2112,18 +2112,18 @@
       "clean_name": "EDSON QUEIROZ",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 6.8,
+      "score": 6.7,
       "rank_region": 26,
       "rank_global": 77,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 6.8,
+      "tension_index": 6.7,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**EDSON QUEIROZ** está na posição **#77** do ranking — identificada como área monitorada."
+      "summary": "**EDSON QUEIROZ** está na posição **#77** do ranking, com score **0.67/10** e confiança **54.1%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:SAO MIGUEL",
@@ -2132,7 +2132,7 @@
       "clean_name": "SAO MIGUEL",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 6.8,
+      "score": 6.5,
       "rank_region": 27,
       "rank_global": 78,
       "momentum_7d": 0.0,
@@ -2140,10 +2140,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 6.8,
+      "tension_index": 6.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SAO MIGUEL** está na posição **#78** do ranking — identificada como área monitorada."
+      "summary": "**SAO MIGUEL** está na posição **#78** do ranking, com score **0.63/10** e confiança **52.8%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:GRANJA LISBOA",
@@ -2152,7 +2152,7 @@
       "clean_name": "GRANJA LISBOA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 5.1,
+      "score": 4.9,
       "rank_region": 28,
       "rank_global": 79,
       "momentum_7d": 0.0,
@@ -2160,10 +2160,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 1,
       "faction": "CV",
-      "tension_index": 5.1,
+      "tension_index": 4.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GRANJA LISBOA** está na posição **#79** do ranking — identificada como área monitorada."
+      "summary": "**GRANJA LISBOA** está na posição **#79** do ranking, com score **0.47/10** e confiança **66.7%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PRAIA DO FUTURO",
@@ -2172,7 +2172,7 @@
       "clean_name": "PRAIA DO FUTURO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
-      "score": 4.5,
+      "score": 4.4,
       "rank_region": 29,
       "rank_global": 80,
       "momentum_7d": 0.0,
@@ -2180,50 +2180,10 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 4.5,
+      "tension_index": 4.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PRAIA DO FUTURO** está na posição **#80** do ranking — identificada como área monitorada."
-    },
-    {
-      "id": "fortaleza:CONJUNTO PALMEIRAS",
-      "node_id": 12,
-      "name": "CONJUNTO PALMEIRAS",
-      "clean_name": "CONJUNTO PALMEIRAS",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 3.8,
-      "rank_region": 30,
-      "rank_global": 81,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 3.8,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**CONJUNTO PALMEIRAS** está na posição **#83** do ranking — identificada como área monitorada."
-    },
-    {
-      "id": "fortaleza:PIRAMBU",
-      "node_id": 16,
-      "name": "PIRAMBU",
-      "clean_name": "PIRAMBU",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 3.8,
-      "rank_region": 31,
-      "rank_global": 82,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 3.8,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**PIRAMBU** está na posição **#82** do ranking — identificada como área monitorada."
+      "summary": "**PRAIA DO FUTURO** está na posição **#80** do ranking, com score **0.44/10** e confiança **51.9%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:JACARECANGA",
@@ -2232,18 +2192,58 @@
       "clean_name": "JACARECANGA",
       "region": "fortaleza",
       "municipality": "Fortaleza",
+      "score": 3.9,
+      "rank_region": 30,
+      "rank_global": 81,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 1,
+      "faction": "CV",
+      "tension_index": 3.9,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**JACARECANGA** está na posição **#81** do ranking, com score **0.39/10** e confiança **55.7%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    },
+    {
+      "id": "fortaleza:CONJUNTO PALMEIRAS",
+      "node_id": 12,
+      "name": "CONJUNTO PALMEIRAS",
+      "clean_name": "CONJUNTO PALMEIRAS",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
+      "score": 3.7,
+      "rank_region": 31,
+      "rank_global": 82,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 3.7,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "**CONJUNTO PALMEIRAS** está na posição **#82** do ranking, com score **0.36/10** e confiança **55.4%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    },
+    {
+      "id": "fortaleza:PIRAMBU",
+      "node_id": 16,
+      "name": "PIRAMBU",
+      "clean_name": "PIRAMBU",
+      "region": "fortaleza",
+      "municipality": "Fortaleza",
       "score": 3.6,
       "rank_region": 32,
       "rank_global": 83,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "faction": "CV",
       "tension_index": 3.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JACARECANGA** está na posição **#81** do ranking — identificada como área monitorada."
+      "summary": "**PIRAMBU** está na posição **#83** do ranking, com score **0.35/10** e confiança **52.0%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:BONSUCESSO",
@@ -2263,7 +2263,7 @@
       "tension_index": 0.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BONSUCESSO** está na posição **#84** do ranking — identificada como área monitorada."
+      "summary": "**BONSUCESSO** está na posição **#84** do ranking, com score **0.01/10** e confiança **49.7%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:VICENTE PINZON",
@@ -2283,7 +2283,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**VICENTE PINZON** está na posição **#85** do ranking — identificada como área monitorada."
+      "summary": "**VICENTE PINZON** está na posição **#85** do ranking, com score **0.00/10** e confiança **47.9%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:JARDIM DAS OLIVEIRAS",
@@ -2303,7 +2303,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#86** do ranking — identificada como área monitorada."
+      "summary": "**JARDIM DAS OLIVEIRAS** está na posição **#86** do ranking, com score **0.00/10** e confiança **53.0%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PEDRAS",
@@ -2323,7 +2323,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PEDRAS** está na posição **#87** do ranking — identificada como área monitorada."
+      "summary": "**PEDRAS** está na posição **#87** do ranking, com score **0.00/10** e confiança **49.3%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:QUINTINO CUNHA",
@@ -2343,7 +2343,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**QUINTINO CUNHA** está na posição **#88** do ranking — identificada como área monitorada."
+      "summary": "**QUINTINO CUNHA** está na posição **#88** do ranking, com score **0.00/10** e confiança **62.3%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:PARQUE DOIS IRMAOS",
@@ -2363,7 +2363,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARQUE DOIS IRMAOS** está na posição **#89** do ranking — identificada como área monitorada."
+      "summary": "**PARQUE DOIS IRMAOS** está na posição **#89** do ranking, com score **0.00/10** e confiança **52.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:GRANJA PORTUGAL",
@@ -2383,7 +2383,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GRANJA PORTUGAL** está na posição **#90** do ranking — identificada como área monitorada."
+      "summary": "**GRANJA PORTUGAL** está na posição **#90** do ranking, com score **0.00/10** e confiança **61.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "fortaleza:BOA VISTA/CASTELAO",
@@ -2403,7 +2403,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BOA VISTA/CASTELAO** está na posição **#91** do ranking — identificada como área monitorada."
+      "summary": "**BOA VISTA/CASTELAO** está na posição **#91** do ranking, com score **0.00/10** e confiança **52.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:NOVA OLINDA",
@@ -2423,7 +2423,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**NOVA OLINDA** está na posição **#92** do ranking — identificada como área monitorada."
+      "summary": "**NOVA OLINDA** está na posição **#92** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ACOPIARA",
@@ -2443,7 +2443,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ACOPIARA** está na posição **#93** do ranking — identificada como área monitorada."
+      "summary": "**ACOPIARA** está na posição **#93** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:GENERAL SAMPAIO",
@@ -2463,7 +2463,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GENERAL SAMPAIO** está na posição **#94** do ranking — identificada como área monitorada."
+      "summary": "**GENERAL SAMPAIO** está na posição **#94** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:CRATEUS",
@@ -2483,7 +2483,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CRATEUS** está na posição **#95** do ranking — identificada como área monitorada."
+      "summary": "**CRATEUS** está na posição **#95** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:MILAGRES",
@@ -2503,7 +2503,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**MILAGRES** está na posição **#96** do ranking — identificada como área monitorada."
+      "summary": "**MILAGRES** está na posição **#96** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:ITAPIPOCA",
@@ -2523,7 +2523,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ITAPIPOCA** está na posição **#97** do ranking — identificada como área monitorada."
+      "summary": "**ITAPIPOCA** está na posição **#97** do ranking, com score **0.00/10** e confiança **49.3%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:SOLONOPOLE",
@@ -2543,7 +2543,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SOLONOPOLE** está na posição **#98** do ranking — identificada como área monitorada."
+      "summary": "**SOLONOPOLE** está na posição **#98** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:POTENGI",
@@ -2563,7 +2563,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**POTENGI** está na posição **#99** do ranking — identificada como área monitorada."
+      "summary": "**POTENGI** está na posição **#99** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "interior:TEJUCUOCA",
@@ -2583,7 +2583,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**TEJUCUOCA** está na posição **#100** do ranking — identificada como área monitorada."
+      "summary": "**TEJUCUOCA** está na posição **#100** do ranking, com score **0.00/10** e confiança **43.8%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:AQUIRAZ",
@@ -2598,12 +2598,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 2,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**AQUIRAZ** está na posição **#101** do ranking — identificada como área monitorada."
+      "summary": "**AQUIRAZ** está na posição **#101** do ranking, com score **0.00/10** e confiança **54.7%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:PARACURU",
@@ -2618,12 +2618,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 4,
+      "recent_exogenous": 2,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARACURU** está na posição **#102** do ranking — identificada como área monitorada."
+      "summary": "**PARACURU** está na posição **#102** do ranking, com score **0.00/10** e confiança **46.3%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:MARANGUAPE",
@@ -2638,12 +2638,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 4,
+      "recent_exogenous": 2,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**MARANGUAPE** está na posição **#103** do ranking — identificada como área monitorada."
+      "summary": "**MARANGUAPE** está na posição **#103** do ranking, com score **0.00/10** e confiança **51.8%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:GUAIUBA",
@@ -2663,7 +2663,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GUAIUBA** está na posição **#104** do ranking — identificada como área monitorada."
+      "summary": "**GUAIUBA** está na posição **#104** do ranking, com score **0.00/10** e confiança **47.0%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:TRAIRI",
@@ -2678,12 +2678,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 3,
+      "recent_exogenous": 4,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**TRAIRI** está na posição **#105** do ranking — identificada como área monitorada."
+      "summary": "**TRAIRI** está na posição **#105** do ranking, com score **0.00/10** e confiança **53.1%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:CHOROZINHO",
@@ -2703,7 +2703,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CHOROZINHO** está na posição **#106** do ranking — identificada como área monitorada."
+      "summary": "**CHOROZINHO** está na posição **#106** do ranking, com score **0.00/10** e confiança **47.2%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:CASCAVEL",
@@ -2723,7 +2723,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CASCAVEL** está na posição **#107** do ranking — identificada como área monitorada."
+      "summary": "**CASCAVEL** está na posição **#107** do ranking, com score **0.00/10** e confiança **53.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:SAO GONCALO DO AMARANTE",
@@ -2743,7 +2743,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SAO GONCALO DO AMARANTE** está na posição **#108** do ranking — identificada como área monitorada."
+      "summary": "**SAO GONCALO DO AMARANTE** está na posição **#108** do ranking, com score **0.00/10** e confiança **46.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
       "id": "rmf:BEBERIBE",
@@ -2763,7 +2763,7 @@
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BEBERIBE** está na posição **#109** do ranking — identificada como área monitorada."
+      "summary": "**BEBERIBE** está na posição **#109** do ranking, com score **0.00/10** e confiança **52.6%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     }
   ]
 }
