@@ -19,7 +19,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 5,
+    "recent_exogenous": 4,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -74,7 +74,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível crítico. Eventos exógenos recentes: 5. Tensão territorial atual em 76.00.",
+    "summary": "Território em nível crítico. Eventos exógenos recentes: 4. Tensão territorial atual em 76.00.",
     "risk_score": 76.0,
     "status": "CRÍTICO"
   },
@@ -118,8 +118,8 @@
     "momentum_7d": 2.0,
     "momentum_14d": -5.0,
     "critical_streets": "RUA EST. DO ITAPERI",
-    "summary": "Território em nível alto. CVLI recente: 2 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 58.70.",
-    "risk_score": 58.7,
+    "summary": "Território em nível alto. CVLI recente: 2 nos últimos 7 dias. Eventos exógenos recentes: 2. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 59.20.",
+    "risk_score": 59.2,
     "status": "ALTO"
   },
   "interior:JUAZEIRO DO NORTE": {
@@ -233,11 +233,11 @@
     "region": "fortaleza",
     "faction": "MASSA",
     "recent_cvli": 0,
-    "recent_exogenous": 3,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CAIO FACO, 791, CURIO",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 3. Tensão territorial atual em 50.00.",
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Tensão territorial atual em 50.00.",
     "risk_score": 50.0,
     "status": "MODERADO"
   },
@@ -261,12 +261,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Tensão territorial atual em 47.50.",
-    "risk_score": 47.5,
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 46.90.",
+    "risk_score": 46.9,
     "status": "MODERADO"
   },
   "fortaleza:ANCURI": {
@@ -319,12 +319,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 2,
     "momentum_7d": -1.0,
     "momentum_14d": 1.0,
     "critical_streets": "RUA JOSE MAURICIO, 858",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 42.70.",
-    "risk_score": 42.7,
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 2. Momentum de 14 dias em aceleração. Tensão territorial atual em 42.80.",
+    "risk_score": 42.8,
     "status": "MODERADO"
   },
   "interior:CARIRE": {
@@ -357,8 +357,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA JORNALISTA VICENTE LOIOLA, RUA URBANO TEIXEIRA DE MENEZES, S/N",
-    "summary": "Território em nível moderado. Tensão territorial atual em 38.90.",
-    "risk_score": 38.9,
+    "summary": "Território em nível moderado. Tensão territorial atual em 38.80.",
+    "risk_score": 38.8,
     "status": "MODERADO"
   },
   "fortaleza:CURIO": {
@@ -367,12 +367,12 @@
     "region": "fortaleza",
     "faction": "MASSA",
     "recent_cvli": 0,
-    "recent_exogenous": 3,
+    "recent_exogenous": 4,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. WASHINGTON SOARES, 7250",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 3. Tensão territorial atual em 37.90.",
-    "risk_score": 37.9,
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 4. Tensão territorial atual em 38.00.",
+    "risk_score": 38.0,
     "status": "MODERADO"
   },
   "interior:IRACEMA": {
@@ -453,8 +453,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": -2.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 32.40.",
-    "risk_score": 32.4,
+    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 32.30.",
+    "risk_score": 32.3,
     "status": "MODERADO"
   },
   "fortaleza:PARQUE IRACEMA": {
@@ -467,8 +467,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Tensão territorial atual em 32.40.",
-    "risk_score": 32.4,
+    "summary": "Território em nível moderado. Tensão territorial atual em 32.30.",
+    "risk_score": 32.3,
     "status": "MODERADO"
   },
   "fortaleza:NOVO MONDUBIM": {
@@ -491,12 +491,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
-    "summary": "Território em nível moderado. Eventos exógenos recentes: 1. Tensão territorial atual em 31.50.",
-    "risk_score": 31.5,
+    "summary": "Território em nível moderado. Tensão territorial atual em 31.60.",
+    "risk_score": 31.6,
     "status": "MODERADO"
   },
   "interior:TIANGUA": {
@@ -569,7 +569,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 2,
-    "recent_exogenous": 1,
+    "recent_exogenous": 3,
     "momentum_7d": 2.0,
     "momentum_14d": 2.0,
     "critical_streets": [
@@ -599,7 +599,7 @@
         "score": 8
       }
     ],
-    "summary": "Território em nível baixo. CVLI recente: 2 nos últimos 7 dias. Eventos exógenos recentes: 1. Momentum de 14 dias em aceleração. Tensão territorial atual em 29.60.",
+    "summary": "Território em nível baixo. CVLI recente: 2 nos últimos 7 dias. Eventos exógenos recentes: 3. Momentum de 14 dias em aceleração. Tensão territorial atual em 29.60.",
     "risk_score": 29.6,
     "status": "BAIXO"
   },
@@ -867,8 +867,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 21.50.",
-    "risk_score": 21.5,
+    "summary": "Território em nível baixo. Tensão territorial atual em 21.40.",
+    "risk_score": 21.4,
     "status": "BAIXO"
   },
   "fortaleza:VILA VELHA": {
@@ -909,8 +909,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA SANTA LIDUINA, 58, VILA ROSANGELA",
-    "summary": "Território em nível baixo. Tensão territorial atual em 20.20.",
-    "risk_score": 20.2,
+    "summary": "Território em nível baixo. Tensão territorial atual em 20.10.",
+    "risk_score": 20.1,
     "status": "BAIXO"
   },
   "interior:GRACA": {
@@ -992,11 +992,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 18.50.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 18.50.",
     "risk_score": 18.5,
     "status": "BAIXO"
   },
@@ -1333,8 +1333,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 15.70.",
-    "risk_score": 15.7,
+    "summary": "Território em nível baixo. Tensão territorial atual em 15.60.",
+    "risk_score": 15.6,
     "status": "BAIXO"
   },
   "fortaleza:DOM LUSTOSA": {
@@ -1347,8 +1347,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 13.60.",
-    "risk_score": 13.6,
+    "summary": "Território em nível baixo. Tensão territorial atual em 13.50.",
+    "risk_score": 13.5,
     "status": "BAIXO"
   },
   "rmf:EUSEBIO": {
@@ -1396,7 +1396,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -1406,7 +1406,7 @@
         "score": 3
       }
     ],
-    "summary": "Território em nível baixo. Tensão territorial atual em 10.40.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.40.",
     "risk_score": 10.4,
     "status": "BAIXO"
   },
@@ -1430,7 +1430,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -1485,7 +1485,7 @@
         "score": 5
       }
     ],
-    "summary": "Território em nível baixo. Tensão territorial atual em 10.20.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.20.",
     "risk_score": 10.2,
     "status": "BAIXO"
   },
@@ -1509,7 +1509,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -1542,9 +1542,19 @@
         "cvli": 0,
         "loc": "LAJE DOS GATOS",
         "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RIACHAO",
+        "score": 10
+      },
+      {
+        "cvli": 0,
+        "loc": "OCUPACAO",
+        "score": 5
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.00.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
     "risk_score": 10.0,
     "status": "BAIXO"
   },
@@ -1554,11 +1564,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA MARCILIO DIAS, 1615",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 9.90.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 9.90.",
     "risk_score": 9.9,
     "status": "BAIXO"
   },
@@ -1603,11 +1613,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA PAU BRASIL S/N",
-    "summary": "Território em nível baixo. Tensão territorial atual em 7.90.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 7.90.",
     "risk_score": 7.9,
     "status": "BAIXO"
   },
@@ -1621,8 +1631,22 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
-    "summary": "Território em nível baixo. Tensão territorial atual em 7.70.",
-    "risk_score": 7.7,
+    "summary": "Território em nível baixo. Tensão territorial atual em 7.80.",
+    "risk_score": 7.8,
+    "status": "BAIXO"
+  },
+  "fortaleza:SAO MIGUEL": {
+    "name": "SAO MIGUEL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 1,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 6.50.",
+    "risk_score": 6.5,
     "status": "BAIXO"
   },
   "fortaleza:EDSON QUEIROZ": {
@@ -1635,22 +1659,8 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA LUCAS FRANCISCO ANTONIO, RUA MARTINS DE CASTRO, 482",
-    "summary": "Território em nível baixo. Tensão territorial atual em 6.70.",
-    "risk_score": 6.7,
-    "status": "BAIXO"
-  },
-  "fortaleza:SAO MIGUEL": {
-    "name": "SAO MIGUEL",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
-    "summary": "Território em nível baixo. Tensão territorial atual em 6.50.",
-    "risk_score": 6.5,
+    "summary": "Território em nível baixo. Tensão territorial atual em 6.00.",
+    "risk_score": 6.0,
     "status": "BAIXO"
   },
   "fortaleza:GRANJA LISBOA": {
@@ -1667,8 +1677,8 @@
     "risk_score": 4.9,
     "status": "BAIXO"
   },
-  "fortaleza:PRAIA DO FUTURO": {
-    "name": "PRAIA DO FUTURO",
+  "fortaleza:JACARECANGA": {
+    "name": "JACARECANGA",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1676,23 +1686,9 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
-    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
-    "summary": "Território em nível baixo. Tensão territorial atual em 4.40.",
-    "risk_score": 4.4,
-    "status": "BAIXO"
-  },
-  "fortaleza:JACARECANGA": {
-    "name": "JACARECANGA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 1,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
     "critical_streets": "RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 3.90.",
-    "risk_score": 3.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.00.",
+    "risk_score": 4.0,
     "status": "BAIXO"
   },
   "fortaleza:CONJUNTO PALMEIRAS": {
@@ -1779,6 +1775,20 @@
     "risk_score": 0.0,
     "status": "BAIXO"
   },
+  "fortaleza:PRAIA DO FUTURO": {
+    "name": "PRAIA DO FUTURO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 2,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "risk_score": 0.0,
+    "status": "BAIXO"
+  },
   "fortaleza:QUINTINO CUNHA": {
     "name": "QUINTINO CUNHA",
     "municipality": "Fortaleza",
@@ -1813,11 +1823,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -2036,7 +2046,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2084,9 +2094,14 @@
         "cvli": 0,
         "loc": "PINGO DE OURO",
         "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRAINHA",
+        "score": 5
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -2096,7 +2111,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2111,7 +2126,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -2161,7 +2176,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2181,7 +2196,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -2191,7 +2206,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 4,
+    "recent_exogenous": 3,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2236,7 +2251,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 3.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
