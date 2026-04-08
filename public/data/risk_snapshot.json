@@ -128,7 +128,6 @@
           "CAUCAIA",
           "JUAZEIRO DO NORTE",
           "MARACANAU",
-          "LIMOEIRO DO NORTE",
           "BARROSO",
           "MESSEJANA",
           "ALTO ALEGRE",
@@ -233,7 +232,6 @@
         "ranking_top10": [
           "CAUCAIA",
           "MARACANAU",
-          "PARAIPABA",
           "SAO LUIS DO CURU",
           "PARAIPABA",
           "HORIZONTE",
@@ -317,13 +315,6 @@
         "node_id": 90,
         "region_type": "rmf",
         "risk_score": 68.1,
-        "status_label": "ALTO"
-      },
-      {
-        "name": "LIMOEIRO DO NORTE",
-        "node_id": 59,
-        "region_type": "interior",
-        "risk_score": 69.4,
         "status_label": "ALTO"
       },
       {
@@ -428,8 +419,8 @@
           "status_label": "MODERADO"
         },
         {
-          "name": "BOM JARDIM",
-          "node_id": 20,
+          "name": "CURIO",
+          "node_id": 19,
           "region_type": "fortaleza",
           "risk_score": 34.0,
           "status_label": "MODERADO"
@@ -473,7 +464,7 @@
         },
         {
           "name": "IRACEMA",
-          "node_id": 66,
+          "node_id": 63,
           "region_type": "interior",
           "risk_score": 50.8,
           "status_label": "MODERADO"
@@ -519,20 +510,6 @@
           "region_type": "interior",
           "risk_score": 42.6,
           "status_label": "MODERADO"
-        },
-        {
-          "name": "TIANGUA",
-          "node_id": 48,
-          "region_type": "interior",
-          "risk_score": 31.4,
-          "status_label": "MODERADO"
-        },
-        {
-          "name": "ARATUBA",
-          "node_id": 45,
-          "region_type": "interior",
-          "risk_score": 30.7,
-          "status_label": "BAIXO"
         }
       ],
       "rmf": [
@@ -549,13 +526,6 @@
           "region_type": "rmf",
           "risk_score": 68.1,
           "status_label": "ALTO"
-        },
-        {
-          "name": "PARAIPABA",
-          "node_id": 98,
-          "region_type": "rmf",
-          "risk_score": 29.6,
-          "status_label": "BAIXO"
         },
         {
           "name": "SAO LUIS DO CURU",
@@ -671,7 +641,7 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 2,
       "faction": "CV",
       "tension_index": 68.1,
       "status": "ALTO",
@@ -1053,8 +1023,8 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 55.0,
-      "status": "ALTO",
+      "tension_index": 36.5,
+      "status": "MODERADO",
       "trend": "stable",
       "summary": "**ITAPIUNA** está na posição **#22** do ranking, com score **3.65/10** e confiança **67.6%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
@@ -1099,30 +1069,10 @@
       "summary": "**MONDUBIM** está na posição **#24** do ranking, com score **3.43/10** e confiança **70.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
-      "id": "interior:VARZEA ALEGRE",
-      "node_id": 54,
-      "name": "VARZEA ALEGRE",
-      "clean_name": "VARZEA ALEGRE",
-      "region": "interior",
-      "municipality": "VARZEA ALEGRE",
-      "score": 51.6,
-      "rank_region": 3,
-      "rank_global": 6,
-      "momentum_7d": -1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "TCP/GDE",
-      "tension_index": 51.6,
-      "status": "ALTO",
-      "trend": "stable",
-      "summary": "**VARZEA ALEGRE** está na posição **#6** do ranking, com score **5.16/10** e confiança **92.4%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
-    },
-    {
-      "id": "fortaleza:MESSEJANA",
-      "node_id": 8,
-      "name": "MESSEJANA",
-      "clean_name": "MESSEJANA",
+      "id": "fortaleza:CURIO",
+      "node_id": 19,
+      "name": "CURIO",
+      "clean_name": "CURIO",
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 34.0,
@@ -1221,8 +1171,8 @@
     {
       "id": "fortaleza:NOVO MONDUBIM",
       "node_id": 28,
-      "name": "ANCURI",
-      "clean_name": "ANCURI",
+      "name": "NOVO MONDUBIM",
+      "clean_name": "NOVO MONDUBIM",
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 30.6,
@@ -1251,12 +1201,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 0,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 29.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**GRANJA LISBOA** está na posição **#31** do ranking, com score **2.99/10** e confiança **75.0%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "**GRANJA LISBOA** está na posição **#31** do ranking, com score **2.99/10** e confiança **81.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:ITAPAJE",
@@ -1419,30 +1369,10 @@
       "summary": "**BANABUIU** está na posição **#39** do ranking, com score **2.68/10** e confiança **63.3%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
-      "id": "fortaleza:PADRE ANDRADE",
-      "node_id": 38,
-      "name": "PADRE ANDRADE",
-      "clean_name": "PADRE ANDRADE",
-      "region": "fortaleza",
-      "municipality": "Fortaleza",
-      "score": 18.5,
-      "rank_region": 19,
-      "rank_global": 49,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 1,
-      "faction": "CV",
-      "tension_index": 18.5,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "**PADRE ANDRADE** está na posição **#49** do ranking, com score **1.82/10** e confiança **70.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
-    },
-    {
-      "id": "interior:MUCAMBO",
-      "node_id": 87,
-      "name": "MUCAMBO",
-      "clean_name": "MUCAMBO",
+      "id": "interior:FRECHEIRINHA",
+      "node_id": 78,
+      "name": "FRECHEIRINHA",
+      "clean_name": "FRECHEIRINHA",
       "region": "interior",
       "municipality": "FRECHEIRINHA",
       "score": 25.1,
@@ -2520,7 +2450,7 @@
     },
     {
       "id": "interior:MILAGRES",
-      "node_id": 65,
+      "node_id": 68,
       "name": "MILAGRES",
       "clean_name": "MILAGRES",
       "region": "interior",
@@ -2751,7 +2681,7 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 3,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",

@@ -1245,16 +1245,17 @@
       "nearby_impact_names": []
     },
     "event_metrics": {
-      "events_count_total": 1,
+      "events_count_total": 2,
       "critical_event_count": 1,
-      "suppression_event_count": 0,
-      "event_types_count": 1,
+      "suppression_event_count": 1,
+      "event_types_count": 2,
       "event_types": [
-        "RAIO 05 MARACANAÚ"
+        "RAIO 05 MARACANAÚ",
+        "MANDADO DE PRISÃO"
       ],
-      "total_event_intensity": 1.0,
+      "total_event_intensity": 2.0,
       "conflict_intensity": 1.0,
-      "suppression_intensity": 0.0
+      "suppression_intensity": 1.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
@@ -1286,9 +1287,9 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
-      "critical_event_share": 1.0,
-      "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 1000000.0,
+      "critical_event_share": 0.5,
+      "suppression_event_share": 0.5,
+      "conflict_to_suppression_intensity_ratio": 1.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.1429,
@@ -1329,8 +1330,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 70.0,
-          "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
+          "score_pct": 80.0,
+          "text": "1 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 1,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -1343,21 +1344,29 @@
           "direction": "positive",
           "score_pct": 100.0,
           "text": "Tensão territorial 1,00 e facção predominante CV sustentam a pressão estrutural do território."
+        },
+        {
+          "name": "Fatores de cautela",
+          "direction": "negative",
+          "score_pct": 1.7,
+          "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
-      "caveats": [],
+      "caveats": [
+        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
+      ],
       "signal_scores": {
         "rank_strength": 0.9725,
         "score_separation": 1.0,
         "temporal_signal": 0.15,
         "spatial_signal": 0.0,
-        "event_signal": 0.7,
+        "event_signal": 0.8,
         "intelligence_signal": 0.9,
         "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
-        "suppression_penalty": 0.0,
+        "suppression_penalty": 0.0167,
         "sparse_penalty": 0.0,
         "ambiguity_penalty": 0.0,
         "conflict_ambiguity_penalty": 0.0
@@ -1710,7 +1719,7 @@
     },
     "academic_text": {
       "abstract_ptbr": "MARACANAU ocupa a posição #3 entre 109 territórios, com score de 6,81/10 e confiança analítica de 95,3%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar MARACANAU como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
+      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar MARACANAU como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
@@ -15652,13 +15661,15 @@
       ]
     },
     "event_metrics": {
-      "events_count_total": 0,
-      "critical_event_count": 0,
+      "events_count_total": 1,
+      "critical_event_count": 1,
       "suppression_event_count": 0,
-      "event_types_count": 0,
-      "event_types": [],
-      "total_event_intensity": 0.0,
-      "conflict_intensity": 0.0,
+      "event_types_count": 1,
+      "event_types": [
+        "CASAL CONDUZIDO"
+      ],
+      "total_event_intensity": 1.0,
+      "conflict_intensity": 1.0,
       "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
@@ -15691,21 +15702,21 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.1,
       "conflict_neighbor_share": 0.0,
-      "critical_event_share": 0.0,
+      "critical_event_share": 1.0,
       "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 0.0,
+      "conflict_to_suppression_intensity_ratio": 1000000.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.1429,
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 75.0,
+      "confidence_pct": 81.1,
       "confidence_label": "Moderada",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.7498,
+      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
+      "evidence_confidence": 0.8438,
       "fallback_confidence_seed": 0.7495,
-      "corroboration_count": 2,
+      "corroboration_count": 3,
       "components": [
         {
           "name": "Separação no ranking",
@@ -15734,8 +15745,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 0.0,
-          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
+          "score_pct": 70.0,
+          "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -15756,7 +15767,7 @@
         "score_separation": 0.6353,
         "temporal_signal": 0.15,
         "spatial_signal": 0.1707,
-        "event_signal": 0.0,
+        "event_signal": 0.7,
         "intelligence_signal": 0.36,
         "structural_signal": 0.625,
         "market_signal": 0.0
@@ -16114,7 +16125,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "GRANJA LISBOA ocupa a posição #31 entre 109 territórios, com score de 2,99/10 e confiança analítica de 75,0%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "GRANJA LISBOA ocupa a posição #31 entre 109 territórios, com score de 2,99/10 e confiança analítica de 81,1%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar GRANJA LISBOA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }

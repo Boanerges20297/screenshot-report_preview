@@ -64,7 +64,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 4,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -119,7 +119,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível alto. Eventos exógenos recentes: 1. Tensão territorial atual em 68.10.",
+    "summary": "Território em nível alto. Eventos exógenos recentes: 2. Tensão territorial atual em 68.10.",
     "risk_score": 68.1,
     "status": "ALTO"
   },
@@ -170,7 +170,7 @@
     "municipality": "LIMOEIRO DO NORTE",
     "region": "interior",
     "faction": "TCP/GDE",
-    "recent_cvli": 2,
+    "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": 1.0,
@@ -738,11 +738,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
-    "summary": "Território em nível baixo. Tensão territorial atual em 29.90.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 29.90.",
     "risk_score": 29.9,
     "status": "BAIXO"
   },
@@ -1360,105 +1360,12 @@
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "RUA FRANCISCO DAS CHAGAS BARRETO LIMA",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA FRANCISCO EVANDRO SOUSA FILHO",
+        "loc": "HORIZONTE",
         "score": 4
       },
       {
         "cvli": 0,
-        "loc": "COMUNIDADE DO GATO MORTO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA TABELIÃO ILDEFONSO CAVALCANTE",
-        "score": 3
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA DOUTOR JOÃO DO MONTE",
-        "score": 2
-      }
-    ],
-    "summary": "Território em nível baixo. Tensão territorial atual em 25.50.",
-    "risk_score": 25.5,
-    "status": "BAIXO"
-  },
-  "interior:BATURITE": {
-    "name": "BATURITE",
-    "municipality": "BATURITE",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "ALTO ALEGRE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "ALTO DA CRUZ",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA SÃO FRANCISCO",
-        "score": 1
-      }
-    ],
-    "summary": "Território em nível baixo. Tensão territorial atual em 25.50.",
-    "risk_score": 25.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:JANGURUSSU": {
-    "name": "JANGURUSSU",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
-    "summary": "Território em nível baixo. Tensão territorial atual em 24.80.",
-    "risk_score": 24.8,
-    "status": "BAIXO"
-  },
-  "interior:VICOSA DO CEARA": {
-    "name": "VICOSA DO CEARA",
-    "municipality": "VICOSA DO CEARA",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 24.20.",
-    "risk_score": 24.2,
-    "status": "BAIXO"
-  },
-  "rmf:SAO LUIS DO CURU": {
-    "name": "SAO LUIS DO CURU",
-    "municipality": "SAO LUIS DO CURU",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 1,
-    "momentum_7d": -1.0,
-    "momentum_14d": 1.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "PANTANAL",
+        "loc": "VILA CATU",
         "score": 16
       }
     ],
@@ -1637,7 +1544,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -1891,7 +1798,7 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
@@ -2184,26 +2091,6 @@
     "risk_score": 0.0,
     "status": "BAIXO"
   },
-  "interior:TEJUCUOCA": {
-    "name": "TEJUCUOCA",
-    "municipality": "TEJUCUOCA",
-    "region": "interior",
-    "faction": "NEUTRO",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA JOSÉ ANDRADE DE SOUSA",
-        "score": 4
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
   "rmf:AQUIRAZ": {
     "name": "AQUIRAZ",
     "municipality": "AQUIRAZ",
@@ -2258,11 +2145,6 @@
         "cvli": 0,
         "loc": "PINGO DE OURO",
         "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PRAINHA",
-        "score": 5
       }
     ],
     "summary": "Território em nível baixo.",
@@ -2375,7 +2257,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 3,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2420,7 +2302,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 3.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -2456,12 +2338,12 @@
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "ESTRADA PARA A PRAIA DA CAPONGA",
+        "loc": "RUA ANTÔNIO CAMILO",
         "score": 4
       },
       {
         "cvli": 1,
-        "loc": "RUA ANTÔNIO CAMILO",
+        "loc": "ESTRADA PARA A PRAIA DA CAPONGA",
         "score": 4
       },
       {

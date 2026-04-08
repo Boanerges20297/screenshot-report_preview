@@ -317,7 +317,9 @@
   },
   "rmf:MARACANAU": {
     "confidence": 0.9531929617880123,
-    "confidence_caveats": [],
+    "confidence_caveats": [
+      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
+    ],
     "confidence_components": [
       {
         "direction": "positive",
@@ -346,8 +348,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 70.0,
-        "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
+        "score_pct": 80.0,
+        "text": "1 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 1,0."
       },
       {
         "direction": "positive",
@@ -360,6 +362,12 @@
         "name": "Estrutura territorial",
         "score_pct": 100.0,
         "text": "Tensão territorial 1,00 e facção predominante CV sustentam a pressão estrutural do território."
+      },
+      {
+        "direction": "negative",
+        "name": "Fatores de cautela",
+        "score_pct": 1.7,
+        "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
@@ -397,10 +405,10 @@
         "value": "1,00"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 1 crítico(s) e 0 de supressão qualificada.",
+        "explanation": "🚨 **Eventos exógenos**: 2 evento(s) recente(s), sendo 1 crítico(s) e 1 de supressão qualificada.",
         "importance": "high",
         "name": "Eventos exógenos recentes",
-        "value": "1"
+        "value": "2"
       },
       {
         "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 1,00.",
@@ -445,16 +453,16 @@
         "value": "0"
       },
       {
+        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
+        "importance": "medium",
+        "name": "Intensidade de supressão",
+        "value": "1,00"
+      },
+      {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
         "importance": "medium",
         "name": "Inteligência policial recente",
         "value": "0,0"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
       }
     ],
     "interpretation": "Confiança **alta** para decisão operacional, com 3 bloco(s) independentes sustentando a leitura.",
@@ -467,7 +475,7 @@
     "structured_result": {
       "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "MARACANAU entra na posição #3, no top 2,8% do ranking, com score de 6,81/10 (68,1%). No ciclo atual, isso coloca o território em faixa de prioridade máxima e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar MARACANAU como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
+      "manager_guidance": "Para a operação, a leitura mais segura é tratar MARACANAU como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
       "technical_basis": "A decisão técnica combina distância do score em relação à média (45,9 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 1 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
@@ -4891,7 +4899,7 @@
     "summary": "**NOVO MONDUBIM** está na posição **#30** do ranking, com score **3.06/10** e confiança **69.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:GRANJA LISBOA": {
-    "confidence": 0.7496580829021131,
+    "confidence": 0.810758082902113,
     "confidence_caveats": [],
     "confidence_components": [
       {
@@ -4921,8 +4929,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
+        "score_pct": 70.0,
+        "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
       },
       {
         "direction": "positive",
@@ -4937,9 +4945,9 @@
         "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
       }
     ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Moderada",
-    "confidence_pct": 75.0,
+    "confidence_pct": 81.1,
     "factors": [
       {
         "explanation": "📌 **Posição global**: GRANJA LISBOA ocupa a posição #31 entre 109 territórios monitorados.",
@@ -4966,10 +4974,28 @@
         "value": "1"
       },
       {
+        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 1 crítico(s) e 0 de supressão qualificada.",
+        "importance": "high",
+        "name": "Eventos exógenos recentes",
+        "value": "1"
+      },
+      {
+        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 1,00.",
+        "importance": "high",
+        "name": "Intensidade de conflito",
+        "value": "1,00"
+      },
+      {
         "explanation": "🛣️ **Logradouros críticos**: 4 referência(s) territorial(is) destacada(s). Destaques: AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179.",
         "importance": "high",
         "name": "Logradouros críticos",
         "value": "4"
+      },
+      {
+        "explanation": "✅ **Corroboração**: a decisão está apoiada em 3 bloco(s) independentes de evidência convergente.",
+        "importance": "high",
+        "name": "Corroboração da confiança",
+        "value": "3"
       },
       {
         "explanation": "🧭 **Faixa percentual**: o território permanece no top 28,4% do ranking e segue na primeira faixa de atenção.",
@@ -5002,28 +5028,10 @@
         "value": "0"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
         "importance": "medium",
         "name": "Inteligência policial recente",
         "value": "0,0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "2"
       },
       {
         "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
@@ -5032,7 +5040,7 @@
         "value": "0,00"
       }
     ],
-    "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 2 bloco(s) fortes de evidência.",
+    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (3 bloco(s) de evidência).",
     "name": "GRANJA LISBOA",
     "node_id": 9,
     "rank": 31,
@@ -5040,13 +5048,13 @@
     "score": 2.9881761074066158,
     "source": "elite_contextual",
     "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "GRANJA LISBOA entra na posição #31, no top 28,4% do ranking, com score de 2,99/10 (29,9%). No ciclo atual, isso coloca o território em faixa de atenção moderada e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar GRANJA LISBOA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (7,6 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 1 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (7,6 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 1 vizinho(s) crítico(s), 1 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**GRANJA LISBOA** está na posição **#31** do ranking, com score **2.99/10** e confiança **75.0%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "summary": "**GRANJA LISBOA** está na posição **#31** do ranking, com score **2.99/10** e confiança **81.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "interior:ITAPAJE": {
     "confidence": 0.7064715495039056,
