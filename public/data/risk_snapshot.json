@@ -29,7 +29,7 @@
     "efficiency_metrics": {
       "assigned_brute_cvli": 16,
       "assigned_exogenous": 1,
-      "assigned_police_qualified_actions": 4,
+      "assigned_police_qualified_actions": 5,
       "assigned_total_events": 17,
       "brute_cvli": 16,
       "date": "2026-04-08",
@@ -210,8 +210,8 @@
         "total_events": 13,
         "total_nodes": 50
       },
-      "police_administrative_events_7d": 3,
-      "police_qualified_actions_7d": 7,
+      "police_administrative_events_7d": 4,
+      "police_qualified_actions_7d": 8,
       "rmf": {
         "active_locations": 1,
         "gt_sample": [
@@ -2641,12 +2641,12 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 0,
+      "recent_exogenous": 1,
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**MARANGUAPE** está na posição **#103** do ranking, com score **0.00/10** e confiança **53.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "**MARANGUAPE** está na posição **#103** do ranking, com score **0.00/10** e confiança **62.7%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
     },
     {
       "id": "rmf:GUAIUBA",

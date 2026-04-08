@@ -2187,7 +2187,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -2215,9 +2215,14 @@
         "cvli": 0,
         "loc": "LAGOA DO JUVENAL",
         "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CONDOMINIO DA SANTA",
+        "score": 10
       }
     ],
-    "summary": "Território em nível baixo.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },

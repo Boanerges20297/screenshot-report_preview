@@ -16836,10 +16836,8 @@
     "summary": "**PARACURU** está na posição **#102** do ranking, com score **0.00/10** e confiança **48.5%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
   },
   "rmf:MARANGUAPE": {
-    "confidence": 0.534450014143901,
-    "confidence_caveats": [
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
+    "confidence": 0.627400014143901,
+    "confidence_caveats": [],
     "confidence_components": [
       {
         "direction": "positive",
@@ -16868,31 +16866,25 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
+        "score_pct": 70.0,
+        "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
       },
       {
         "direction": "positive",
         "name": "Inteligência e ruas críticas",
-        "score_pct": 45.0,
-        "text": "Sinal de inteligência recente em 0,0 e 5 referência(s) territoriais críticas."
+        "score_pct": 54.0,
+        "text": "Sinal de inteligência recente em 0,0 e 6 referência(s) territoriais críticas."
       },
       {
         "direction": "positive",
         "name": "Estrutura territorial",
         "score_pct": 62.5,
         "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 4.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Muito baixa",
-    "confidence_pct": 53.4,
+    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
+    "confidence_label": "Baixa",
+    "confidence_pct": 62.7,
     "factors": [
       {
         "explanation": "📌 **Posição global**: MARANGUAPE ocupa a posição #103 entre 109 territórios monitorados.",
@@ -16913,10 +16905,28 @@
         "value": "0,50"
       },
       {
-        "explanation": "🛣️ **Logradouros críticos**: 5 referência(s) territorial(is) destacada(s). Destaques: {'loc': 'CACHOEIRA', 'cvli': 0, 'score': 16}, {'loc': 'BOA VISTA', 'cvli': 0, 'score': 16}, {'loc': 'RODOVIARIA', 'cvli': 0, 'score': 16}, {'loc': 'PAPARA', 'cvli': 0, 'score': 16}.",
+        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 1 crítico(s) e 0 de supressão qualificada.",
+        "importance": "high",
+        "name": "Eventos exógenos recentes",
+        "value": "1"
+      },
+      {
+        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 1,00.",
+        "importance": "high",
+        "name": "Intensidade de conflito",
+        "value": "1,00"
+      },
+      {
+        "explanation": "🛣️ **Logradouros críticos**: 6 referência(s) territorial(is) destacada(s). Destaques: {'loc': 'CACHOEIRA', 'cvli': 0, 'score': 16}, {'loc': 'BOA VISTA', 'cvli': 0, 'score': 16}, {'loc': 'RODOVIARIA', 'cvli': 0, 'score': 16}, {'loc': 'PAPARA', 'cvli': 0, 'score': 16}.",
         "importance": "high",
         "name": "Logradouros críticos",
-        "value": "5"
+        "value": "6"
+      },
+      {
+        "explanation": "✅ **Corroboração**: a decisão está apoiada em 3 bloco(s) independentes de evidência convergente.",
+        "importance": "high",
+        "name": "Corroboração da confiança",
+        "value": "3"
       },
       {
         "explanation": "🧭 **Faixa percentual**: o território permanece no top 94,5% do ranking e segue na primeira faixa de atenção.",
@@ -16955,28 +16965,10 @@
         "value": "0"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
         "importance": "medium",
         "name": "Inteligência policial recente",
         "value": "0,0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "2"
       },
       {
         "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
@@ -16985,7 +16977,7 @@
         "value": "0,00"
       }
     ],
-    "interpretation": "Confiança **baixa**. Use como orientação preventiva e não como evidência conclusiva isolada.",
+    "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 3 bloco(s) fortes de evidência.",
     "name": "MARANGUAPE",
     "node_id": 102,
     "rank": 103,
@@ -16993,13 +16985,13 @@
     "score": 0.0,
     "source": "elite_contextual",
     "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "MARANGUAPE entra na posição #103, no top 94,5% do ranking, com score de 0,00/10 (0,0%). No ciclo atual, isso coloca o território em faixa de monitoramento preventivo e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar MARANGUAPE como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (-22,3 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (-22,3 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 1 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**MARANGUAPE** está na posição **#103** do ranking, com score **0.00/10** e confiança **53.4%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+    "summary": "**MARANGUAPE** está na posição **#103** do ranking, com score **0.00/10** e confiança **62.7%** — identificada como área monitorada. A posição é sustentada por eventos críticos recentes associados ao território."
   },
   "rmf:GUAIUBA": {
     "confidence": 0.48279588570353393,

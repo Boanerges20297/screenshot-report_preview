@@ -52817,19 +52817,21 @@
       "nearby_impact_names": []
     },
     "event_metrics": {
-      "events_count_total": 0,
-      "critical_event_count": 0,
+      "events_count_total": 1,
+      "critical_event_count": 1,
       "suppression_event_count": 0,
-      "event_types_count": 0,
-      "event_types": [],
-      "total_event_intensity": 0.0,
-      "conflict_intensity": 0.0,
+      "event_types_count": 1,
+      "event_types": [
+        "DESCONHECIDO"
+      ],
+      "total_event_intensity": 1.0,
+      "conflict_intensity": 1.0,
       "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
       "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 5,
+      "critical_streets_count": 6,
       "critical_streets_reference": "{'loc': 'CACHOEIRA', 'cvli': 0, 'score': 16}, {'loc': 'BOA VISTA', 'cvli': 0, 'score': 16}, {'loc': 'RODOVIARIA', 'cvli': 0, 'score': 16}, {'loc': 'PAPARA', 'cvli': 0, 'score': 16}",
       "global_cvli_latest": 0.0
     },
@@ -52856,21 +52858,21 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
-      "critical_event_share": 0.0,
+      "critical_event_share": 1.0,
       "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 0.0,
+      "conflict_to_suppression_intensity_ratio": 1000000.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.1429,
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 53.4,
-      "confidence_label": "Muito baixa",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.4992,
+      "confidence_pct": 62.7,
+      "confidence_label": "Baixa",
+      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
+      "evidence_confidence": 0.6422,
       "fallback_confidence_seed": 0.6,
-      "corroboration_count": 2,
+      "corroboration_count": 3,
       "components": [
         {
           "name": "Separação no ranking",
@@ -52899,45 +52901,37 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 0.0,
-          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
+          "score_pct": 70.0,
+          "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
         },
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 45.0,
-          "text": "Sinal de inteligência recente em 0,0 e 5 referência(s) territoriais críticas."
+          "score_pct": 54.0,
+          "text": "Sinal de inteligência recente em 0,0 e 6 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
           "direction": "positive",
           "score_pct": 62.5,
           "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-        },
-        {
-          "name": "Fatores de cautela",
-          "direction": "negative",
-          "score_pct": 4.0,
-          "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
-      "caveats": [
-        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-      ],
+      "caveats": [],
       "signal_scores": {
         "rank_strength": 0.055,
         "score_separation": 0.106,
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
-        "event_signal": 0.0,
-        "intelligence_signal": 0.45,
+        "event_signal": 0.7,
+        "intelligence_signal": 0.54,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
       "penalties": {
         "suppression_penalty": 0.0,
         "sparse_penalty": 0.0,
-        "ambiguity_penalty": 0.04,
+        "ambiguity_penalty": 0.0,
         "conflict_ambiguity_penalty": 0.0
       }
     },
@@ -53287,7 +53281,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "MARANGUAPE ocupa a posição #103 entre 109 territórios, com score de 0,00/10 e confiança analítica de 53,4%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "MARANGUAPE ocupa a posição #103 entre 109 territórios, com score de 0,00/10 e confiança analítica de 62,7%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar MARANGUAPE como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
