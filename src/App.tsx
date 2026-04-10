@@ -67,7 +67,11 @@ function App() {
     ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null
     : null
   const _selectedTerritory = snapshot && selectedId ? snapshot.territoryDetails[selectedId] ?? null : null
-  const aiRec = useAIRecommendation(_selectedRisk, _selectedTerritory)
+  const _explainability = snapshot && selectedId ? snapshot.explainability[selectedId] ?? null : null
+  const _explainabilityAcademics = snapshot && selectedId ? snapshot.explainabilityAcademics[selectedId] ?? null : null
+  const _regionalTop = regionalItems.slice(0, 5).map(it => `${it.name} (${it.score.toFixed(1)}%)`)
+  
+  const aiRec = useAIRecommendation(_selectedRisk, _selectedTerritory, _explainability, _explainabilityAcademics, _regionalTop)
 
   if (error) {
     return (
@@ -405,7 +409,7 @@ function App() {
               </div>
 
               <div className="recommendation-box">
-                <span>Recomendação operacional · IA</span>
+                <span>Auditoria E-GCN · IA</span>
                 {aiRec.loading ? (
                   <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA...</p>
                 ) : aiRec.error ? (
@@ -456,7 +460,7 @@ function App() {
               <div className="detail-copy" style={{ marginTop: '1rem' }}>
                 <h3>Orientação</h3>
                 <p>
-                  Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a recomendação operacional gerada por IA.
+                  Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica do modelo E-GCN.
                 </p>
               </div>
             </>

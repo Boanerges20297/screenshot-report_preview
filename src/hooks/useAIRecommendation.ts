@@ -95,7 +95,10 @@ async function callGemini(prompt: string, keys: string[], signal: AbortSignal): 
 
 export function useAIRecommendation(
   risk: RiskItem | null,
-  detail: TerritoryDetail | null
+  detail: TerritoryDetail | null,
+  explainability: any | null = null,
+  academics: any | null = null,
+  regionalTop: string[] = []
 ): AIRecommendationState {
   const [state, setState] = useState<AIRecommendationState>({
     text: null,
@@ -107,7 +110,7 @@ export function useAIRecommendation(
     const keys = getApiKeys()
     if (!risk || keys.length === 0) return
 
-    const cacheKey = `${risk.id}-${risk.score}-${detail?.recent_cvli ?? 0}-${detail?.recent_exogenous ?? 0}`
+    const cacheKey = `${risk.id}-${risk.score}-${detail?.recent_cvli ?? 0}-${detail?.recent_exogenous ?? 0}-${explainability?.confidence_pct ?? 0}`
     if (cache.has(cacheKey)) {
       setState({ text: cache.get(cacheKey)!, loading: false, error: null })
       return
@@ -122,31 +125,47 @@ export function useAIRecommendation(
     const momentum14d = detail?.momentum_14d ?? risk.momentum_14d ?? 0
     const faction = risk.faction || 'Não identificada'
     const territory = risk.name ?? 'Território'
+    const municipality = risk.municipality || detail?.municipality || ''
+    const tensionIndex = risk.tension_index ?? 0
+    const trend = risk.trend || 'Estável'
     const streets = detail?.critical_streets
       ? Array.isArray(detail.critical_streets)
-        ? detail.critical_streets.slice(0, 3).map((s) => s.loc).join(', ')
+        ? detail.critical_streets.slice(0, 5).map((s) => s.loc).join(', ')
         : detail.critical_streets
       : 'Não informado'
     const summary = detail?.summary ?? risk.summary ?? ''
 
-    const prompt = `Você é um analista operacional de segurança pública de alto nível do Estado do Ceará, Brasil.
+    // Novos dados ricos
+    const confidence = explainability?.confidence_pct ?? 'N/A'
+    const confidenceLabel = explainability?.confidence_label ?? 'N/A'
+    const components = explainability?.confidence_components
+      ? explainability.confidence_components.map((c: any) => `- ${c.name}: ${c.text}`).join('\n')
+      : 'N/A'
+    const academicMetrics = academics?.ranking_metrics 
+      ? `Rank Global: ${academics.ranking_metrics.rank_global}/${academics.ranking_metrics.total_nodes}, Gap para Média: ${academics.score_distribution_metrics?.score_gap_pct}%`
+      : 'N/A'
 
-Território: ${territory}
-Score de risco preditivo: ${score.toFixed(1)}%
-Facção dominante: ${faction}
-CVLI recente (7 dias): ${cvli}
-Eventos exógenos recentes: ${exog}
-Momentum 7 dias: ${momentum7d > 0 ? `+${momentum7d}` : momentum7d}
-Momentum 14 dias: ${momentum14d > 0 ? `+${momentum14d}` : momentum14d}
-Logradouros críticos: ${streets}
-Leitura analítica: ${summary}
+    const prompt = `Você é um auditor sênior de inteligência profunda e assessor técnico direto do Comandante. 
+Sua missão é interpretar o "humor" do motor E-GCN e entregar uma visão estratégica e perspicaz, identificando se o modelo está detectando padrões invisíveis ou se precisa de correção.
 
-Com base nesses dados do modelo preditivo de risco, gere uma RECOMENDAÇÃO OPERACIONAL CONCISA (máximo 3 frases).
-- Use linguagem técnica e assertiva de segurança pública
-- Indique o nível de prioridade (CRÍTICO / ALTO / MODERADO / ROTINA)
-- Mencione especificamente a facção, os logradouros críticos se houver e os dados de CVLI/exógenos se relevantes
-- Não use bullet points, escreva em texto corrido
-- Não comece com "Claro" ou "Aqui está" - vá direto ao ponto`
+Ficha Técnica do Território:
+- Nome: ${territory} (${municipality})
+- Predição E-GCN: ${score.toFixed(1)}% (Tendência: ${trend}) | Confiança: ${confidence}% (${confidenceLabel})
+- Índice de Tensão Estrutural: ${tensionIndex.toFixed(2)}
+- CVLI 7d: ${cvli} | Eventos Exógenos: ${exog}
+- Momentum Temporal (7d/14d): ${momentum7d}/${momentum14d}
+- Contexto Regional (Top 5): ${regionalTop.join(', ')}
+- Componentes de Inteligência:
+${components}
+- Leitura Congelada: ${summary}
+
+Escreva uma AUDITORIA ESTRATÉGICA (máximo 3 frases) no estilo narrativo:
+- Comece com "Comandante,".
+- Use expressões como "o motor de inteligência profunda prevê...", "percebi que...", "a convergência aponta para...".
+- Tente correlacionar com a dinâmica regional ou com a discrepância entre os dados frios (CVLI) e a tensão latente.
+- Aponte se o crime está convergindo para outro ponto ou se a pressão estrutural justifica a atenção mesmo sem gatilhos recentes.
+- Mantenha a densidade técnica mas com linguagem de assessor de alto nível.
+- NADA de recomendações operacionais (patrulhamento, equipes, etc).`
 
     const controller = new AbortController()
     const webhookUrl = import.meta.env.VITE_GOOGLE_WEBHOOK_URL

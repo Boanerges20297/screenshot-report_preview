@@ -91,6 +91,8 @@ export type SnapshotData = {
   summary: DashboardSummary
   risk: RiskSnapshot
   territoryDetails: Record<string, TerritoryDetail>
+  explainability: Record<string, any>
+  explainabilityAcademics: Record<string, any>
   polygons: GeoFeatureCollection
   micronodes: GeoFeatureCollection
   top30: Record<RegionKey, GeoFeatureCollection>
@@ -317,17 +319,29 @@ function enrichPolygonsWithRisk(polygons: GeoFeatureCollection, riskItems: RiskI
 }
 
 export async function loadSnapshot(): Promise<SnapshotData> {
-  const [manifest, risk, territoryDetails, polygons, micronodes, topFortaleza, topRmf, topInterior] =
-    await Promise.all([
-      loadJson<SnapshotManifest>('/data/manifest.json'),
-      loadJson<RiskSnapshot>('/data/risk_snapshot.json'),
-      loadJson<Record<string, TerritoryDetail>>('/data/territory_details.json'),
-      loadJson<GeoFeatureCollection>('/data/polygons.geojson'),
-      loadJson<GeoFeatureCollection>('/data/micronodes.geojson'),
-      loadJson<GeoFeatureCollection>('/data/top30_capital.geojson'),
-      loadJson<GeoFeatureCollection>('/data/top30_rmf.geojson'),
-      loadJson<GeoFeatureCollection>('/data/top30_interior.geojson'),
-    ])
+  const [
+    manifest,
+    risk,
+    territoryDetails,
+    explainability,
+    explainabilityAcademics,
+    polygons,
+    micronodes,
+    topFortaleza,
+    topRmf,
+    topInterior,
+  ] = await Promise.all([
+    loadJson<SnapshotManifest>('/data/manifest.json'),
+    loadJson<RiskSnapshot>('/data/risk_snapshot.json'),
+    loadJson<Record<string, TerritoryDetail>>('/data/territory_details.json'),
+    loadJson<Record<string, any>>('/data/explainability.json'),
+    loadJson<Record<string, any>>('/data/explainability_academics.json'),
+    loadJson<GeoFeatureCollection>('/data/polygons.geojson'),
+    loadJson<GeoFeatureCollection>('/data/micronodes.geojson'),
+    loadJson<GeoFeatureCollection>('/data/top30_capital.geojson'),
+    loadJson<GeoFeatureCollection>('/data/top30_rmf.geojson'),
+    loadJson<GeoFeatureCollection>('/data/top30_interior.geojson'),
+  ])
 
   const dedupedItems = dedupeRiskItems(risk.items)
   const derivedCounts = buildCounts(dedupedItems)
@@ -346,6 +360,8 @@ export async function loadSnapshot(): Promise<SnapshotData> {
       items: dedupedItems,
     },
     territoryDetails,
+    explainability,
+    explainabilityAcademics,
     polygons: enrichedPolygons,
     micronodes,
     top30: {
