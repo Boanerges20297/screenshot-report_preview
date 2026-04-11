@@ -1,16 +1,16 @@
 {
   "global": {
     "total_nodes": 109,
-    "active_locations": 8,
+    "active_locations": 10,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 22.19
+    "avg_risk": 22.05
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 22.8,
-      "max_risk": 55.0,
+      "avg_risk": 22.42,
+      "max_risk": 61.9,
       "top_name": "BARROSO"
     },
     "rmf": {
