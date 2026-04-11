@@ -150,11 +150,14 @@ Sua missão é interpretar o "humor" do motor E-GCN e entregar uma visão estrat
 
 Ficha Técnica do Território:
 - Nome: ${territory} (${municipality})
+- Facção Predominante: ${faction}
 - Predição E-GCN: ${score.toFixed(1)}% (Tendência: ${trend}) | Confiança: ${confidence}% (${confidenceLabel})
 - Índice de Tensão Estrutural: ${tensionIndex.toFixed(2)}
 - CVLI 7d: ${cvli} | Eventos Exógenos: ${exog}
 - Momentum Temporal (7d/14d): ${momentum7d}/${momentum14d}
+- Logradouros Críticos: ${streets}
 - Contexto Regional (Top 5): ${regionalTop.join(', ')}
+- Métricas Acadêmicas: ${academicMetrics}
 - Componentes de Inteligência:
 ${components}
 - Leitura Congelada: ${summary}

@@ -55,22 +55,27 @@ function App() {
     // Only clear selection if currently selected territory doesn't belong to this region
     // Do NOT auto-select — let user click voluntarily
     if (selectedId) {
-      const regionalItems = snapshot.risk.items.filter((item) => item.region === region)
-      if (!regionalItems.some((item) => item.id === selectedId)) {
+      const items = snapshot.risk.items.filter((item) => item.region === region)
+      if (!items.some((item) => item.id === selectedId)) {
         setSelectedId(null)
       }
     }
   }, [region, selectedId, snapshot])
 
-  // Must be called unconditionally before any early return (Rules of Hooks)
   const _selectedRisk = snapshot && selectedId
     ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null
     : null
   const _selectedTerritory = snapshot && selectedId ? snapshot.territoryDetails[selectedId] ?? null : null
   const _explainability = snapshot && selectedId ? snapshot.explainability[selectedId] ?? null : null
   const _explainabilityAcademics = snapshot && selectedId ? snapshot.explainabilityAcademics[selectedId] ?? null : null
-  const _regionalTop = regionalItems.slice(0, 5).map(it => `${it.name} (${it.score.toFixed(1)}%)`)
   
+  const regionalItems = snapshot 
+    ? snapshot.risk.items
+        .filter((item) => item.region === region)
+        .sort((left, right) => right.score - left.score)
+    : []
+  
+  const _regionalTop = regionalItems.slice(0, 5).map(it => `${it.name} (${it.score.toFixed(1)}%)`)
   const aiRec = useAIRecommendation(_selectedRisk, _selectedTerritory, _explainability, _explainabilityAcademics, _regionalTop)
 
   if (error) {
@@ -86,6 +91,7 @@ function App() {
   }
 
   if (!snapshot) {
+    // ... rest of loading screen
     return (
       <main className="app-shell">
         <section className="loading-shell">
@@ -168,13 +174,10 @@ function App() {
     )
   }
 
-  const regionalItems = snapshot.risk.items
-    .filter((item) => item.region === region)
-    .sort((left, right) => right.score - left.score)
   const topRegionalItems = regionalItems.slice(0, 30)
   const regionalSummary = snapshot.summary.regions[region]
-  const selectedTerritory = selectedId ? snapshot.territoryDetails[selectedId] : null
-  const selectedRisk = selectedId ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null : null
+  const selectedTerritory = _selectedTerritory
+  const selectedRisk = _selectedRisk
   const managerView = snapshot.risk.meta.manager_view as {
     confidence_pct: number
     confidence_label: string
