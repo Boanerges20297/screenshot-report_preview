@@ -4,15 +4,15 @@
     "active_locations": 10,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 22.05
+    "avg_risk": 20.97
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "active_locations": 10,
-      "avg_risk": 22.45,
-      "max_risk": 61.9,
-      "top_name": "BARROSO"
+      "active_locations": 8,
+      "avg_risk": 19.51,
+      "max_risk": 60.0,
+      "top_name": "MESSEJANA"
     },
     "rmf": {
       "total_nodes": 19,
@@ -24,7 +24,7 @@
     "interior": {
       "total_nodes": 50,
       "active_locations": 10,
-      "avg_risk": 24.46,
+      "avg_risk": 24.47,
       "max_risk": 72.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
