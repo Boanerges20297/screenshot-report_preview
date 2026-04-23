@@ -103,7 +103,10 @@ async function loadJson<T>(path: string): Promise<T> {
   if (!response.ok) {
     throw new Error(`Falha ao carregar ${path}: ${response.status}`)
   }
-  return response.json() as Promise<T>
+  // Sanitize NaN values produced by Python/Pandas serialization (invalid JSON)
+  const text = await response.text()
+  const sanitized = text.replace(/:\s*NaN\b/g, ': null')
+  return JSON.parse(sanitized) as T
 }
 
 function hasAccents(value: string): boolean {
