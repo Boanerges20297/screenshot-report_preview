@@ -109,6 +109,12 @@ async function loadJson<T>(path: string): Promise<T> {
   return JSON.parse(sanitized) as T
 }
 
+const VALID_REGIONS = new Set<string>(['fortaleza', 'rmf', 'interior'])
+
+function normalizeRegion(region: string): RegionKey {
+  return VALID_REGIONS.has(region) ? (region as RegionKey) : 'interior'
+}
+
 function hasAccents(value: string): boolean {
   return /[^\u0000-\u007f]/.test(value)
 }
@@ -157,6 +163,7 @@ function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
   for (const rawItem of [...items].sort((left, right) => right.score - left.score)) {
     const normalizedItem: RiskItem = {
       ...rawItem,
+      region: normalizeRegion(rawItem.region),
       id: rawItem.id || buildTerritoryId(rawItem.region, rawItem.name),
       clean_name: rawItem.clean_name || normalizeLookupName(rawItem.name),
     }
@@ -221,7 +228,8 @@ function buildCounts(items: RiskItem[]): { counts: Record<string, number>; count
   for (const item of items) {
     const band = riskBandForItem(item)
     counts[band] += 1
-    countsByRegion[item.region][band] += 1
+    const regionKey = normalizeRegion(item.region)
+    countsByRegion[regionKey][band] += 1
   }
 
   return { counts, countsByRegion }
