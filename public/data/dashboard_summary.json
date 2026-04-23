@@ -1,28 +1,28 @@
 {
   "global": {
-    "total_nodes": 109,
-    "active_locations": 3,
+    "total_nodes": 1626,
+    "active_locations": 12,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 19.6
+    "avg_risk": 20.45
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 22.01,
-      "max_risk": 50.0,
-      "top_name": "ALTO ALEGRE"
+      "avg_risk": 28.06,
+      "max_risk": 82.3,
+      "top_name": "BARROSO"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 6.86,
-      "max_risk": 85.7,
+      "avg_risk": 17.24,
+      "max_risk": 83.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 22.5,
-      "max_risk": 83.7,
+      "avg_risk": 29.37,
+      "max_risk": 81.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
   }
