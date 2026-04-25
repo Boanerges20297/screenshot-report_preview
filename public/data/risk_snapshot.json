@@ -807,7 +807,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**SOBRAL** está na posição **#11** do ranking, com score **10.00/10** e confiança **95.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:ARATUBA",
@@ -827,7 +827,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**ARATUBA** está na posição **#2** do ranking, com score **10.00/10** e confiança **77.9%** — identificada como uma das 5 áreas mais críticas. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:VICOSA DO CEARA",
@@ -847,7 +847,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**VICOSA DO CEARA** está na posição **#5** do ranking, com score **10.00/10** e confiança **77.9%** — identificada como uma das 5 áreas mais críticas. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:TIANGUA",
@@ -867,7 +867,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**TIANGUA** está na posição **#6** do ranking, com score **10.00/10** e confiança **88.2%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:BATURITE",
@@ -887,7 +887,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**BATURITE** está na posição **#7** do ranking, com score **10.00/10** e confiança **79.6%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:LIMOEIRO DO NORTE",
@@ -907,7 +907,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**LIMOEIRO DO NORTE** está na posição **#9** do ranking, com score **10.00/10** e confiança **88.2%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:CARIRIACU",
@@ -927,7 +927,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**CARIRIACU** está na posição **#10** do ranking, com score **10.00/10** e confiança **95.6%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+      "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 100.00."
     },
     {
       "id": "rmf:MARACANAU",
@@ -947,7 +947,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**MARACANAU** está na posição **#11** do ranking, com score **10.00/10** e confiança **90.0%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível crítico. Tensão territorial atual em 100.00."
     },
     {
       "id": "rmf:CAUCAIA",
@@ -967,7 +967,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**CAUCAIA** está na posição **#12** do ranking, com score **10.00/10** e confiança **95.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 100.00."
     },
     {
       "id": "rmf:HORIZONTE",
@@ -987,7 +987,7 @@
       "tension_index": 100.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**HORIZONTE** está na posição **#13** do ranking, com score **10.00/10** e confiança **94.3%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+      "summary": "Território em nível crítico. CVLI recente: 4 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 100.00."
     },
     {
       "id": "interior:GROAIRAS",
@@ -1007,7 +1007,7 @@
       "tension_index": 95.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**GROAIRAS** está na posição **#2** do ranking, com score **10.00/10** e confiança **77.9%** — identificada como uma das 5 áreas mais críticas. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 95.00."
     },
     {
       "id": "interior:VARZEA ALEGRE",
@@ -1027,7 +1027,7 @@
       "tension_index": 95.0,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**VARZEA ALEGRE** está na posição **#8** do ranking, com score **10.00/10** e confiança **87.0%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível crítico. Tensão territorial atual em 95.00."
     },
     {
       "id": "interior:ITAPAJE",
@@ -1047,7 +1047,7 @@
       "tension_index": 89.8,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**ITAPAJE** está na posição **#14** do ranking, com score **9.85/10** e confiança **84.1%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 89.80."
     },
     {
       "id": "interior:ITAPIUNA",
@@ -1067,7 +1067,7 @@
       "tension_index": 87.5,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**ITAPIUNA** está na posição **#15** do ranking, com score **9.56/10** e confiança **77.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 87.50."
     },
     {
       "id": "interior:JAGUARUANA",
@@ -1087,7 +1087,7 @@
       "tension_index": 85.6,
       "status": "Crítico",
       "trend": "stable",
-      "summary": "**JAGUARUANA** está na posição **#16** do ranking, com score **9.33/10** e confiança **79.0%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível crítico. Tensão territorial atual em 85.60."
     },
     {
       "id": "interior:IGUATU",
@@ -1107,7 +1107,7 @@
       "tension_index": 84.0,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**IGUATU** está na posição **#17** do ranking, com score **9.14/10** e confiança **78.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 84.00."
     },
     {
       "id": "fortaleza:DOM LUSTOSA",
@@ -1127,7 +1127,7 @@
       "tension_index": 83.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**DOM LUSTOSA** está na posição **#18** do ranking, com score **9.13/10** e confiança **93.5%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+      "summary": "Território em nível alto. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 83.90."
     },
     {
       "id": "interior:MILAGRES",
@@ -1147,7 +1147,7 @@
       "tension_index": 81.5,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**MILAGRES** está na posição **#20** do ranking, com score **8.84/10** e confiança **77.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 81.50."
     },
     {
       "id": "interior:URUBURETAMA",
@@ -1167,7 +1167,7 @@
       "tension_index": 80.2,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**URUBURETAMA** está na posição **#21** do ranking, com score **8.68/10** e confiança **87.6%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 80.20."
     },
     {
       "id": "interior:CRATO",
@@ -1187,7 +1187,7 @@
       "tension_index": 80.0,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**CRATO** está na posição **#22** do ranking, com score **8.65/10** e confiança **87.6%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Tensão territorial atual em 80.00."
     },
     {
       "id": "interior:JIJOCA DE JERICOACOARA",
@@ -1207,7 +1207,7 @@
       "tension_index": 79.6,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**JIJOCA DE JERICOACOARA** está na posição **#23** do ranking, com score **8.61/10** e confiança **86.4%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 79.60."
     },
     {
       "id": "interior:SANTANA DO ACARAU",
@@ -1227,7 +1227,7 @@
       "tension_index": 78.0,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**SANTANA DO ACARAU** está na posição **#24** do ranking, com score **8.41/10** e confiança **88.1%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 78.00."
     },
     {
       "id": "interior:UMIRIM",
@@ -1247,7 +1247,7 @@
       "tension_index": 77.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**UMIRIM** está na posição **#25** do ranking, com score **8.41/10** e confiança **78.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 77.90."
     },
     {
       "id": "interior:ACOPIARA",
@@ -1267,7 +1267,7 @@
       "tension_index": 77.7,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ACOPIARA** está na posição **#26** do ranking, com score **8.38/10** e confiança **86.4%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 77.70."
     },
     {
       "id": "interior:CEDRO",
@@ -1287,7 +1287,7 @@
       "tension_index": 77.7,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**CEDRO** está na posição **#27** do ranking, com score **8.38/10** e confiança **91.1%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 77.70."
     },
     {
       "id": "interior:FRECHEIRINHA",
@@ -1307,7 +1307,7 @@
       "tension_index": 77.6,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**FRECHEIRINHA** está na posição **#28** do ranking, com score **8.37/10** e confiança **78.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 77.60."
     },
     {
       "id": "interior:NOVA OLINDA",
@@ -1327,7 +1327,7 @@
       "tension_index": 77.4,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**NOVA OLINDA** está na posição **#29** do ranking, com score **8.34/10** e confiança **77.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 77.40."
     },
     {
       "id": "interior:CARIRE",
@@ -1347,7 +1347,7 @@
       "tension_index": 75.6,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**CARIRE** está na posição **#30** do ranking, com score **8.13/10** e confiança **78.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 75.60."
     },
     {
       "id": "interior:IRACEMA",
@@ -1367,7 +1367,7 @@
       "tension_index": 74.5,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**IRACEMA** está na posição **#31** do ranking, com score **7.99/10** e confiança **78.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 74.50."
     },
     {
       "id": "fortaleza:MESSEJANA",
@@ -1387,7 +1387,7 @@
       "tension_index": 72.3,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**MESSEJANA** está na posição **#53** do ranking, com score **6.94/10** e confiança **95.5%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+      "summary": "Território em nível alto. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 72.30."
     },
     {
       "id": "interior:ITAREMA",
@@ -1407,7 +1407,7 @@
       "tension_index": 72.0,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ITAREMA** está na posição **#32** do ranking, com score **7.70/10** e confiança **77.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 72.00."
     },
     {
       "id": "interior:BANABUIU",
@@ -1427,7 +1427,7 @@
       "tension_index": 72.0,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**BANABUIU** está na posição **#33** do ranking, com score **7.70/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 72.00."
     },
     {
       "id": "interior:GENERAL SAMPAIO",
@@ -1447,7 +1447,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**GENERAL SAMPAIO** está na posição **#34** do ranking, com score **7.56/10** e confiança **77.8%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ACARAPE",
@@ -1467,7 +1467,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ACARAPE** está na posição **#35** do ranking, com score **7.56/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ITAICABA",
@@ -1487,7 +1487,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ITAICABA** está na posição **#36** do ranking, com score **7.56/10** e confiança **79.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ASSARE",
@@ -1507,7 +1507,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ASSARE** está na posição **#37** do ranking, com score **7.56/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:TURURU",
@@ -1527,7 +1527,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**TURURU** está na posição **#38** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:PEREIRO",
@@ -1547,7 +1547,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**PEREIRO** está na posição **#39** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ALTO SANTO",
@@ -1567,7 +1567,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ALTO SANTO** está na posição **#40** do ranking, com score **7.56/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ITAPIPOCA",
@@ -1587,7 +1587,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ITAPIPOCA** está na posição **#41** do ranking, com score **7.56/10** e confiança **87.5%** — identificada como área de alta prioridade tática. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:MUCAMBO",
@@ -1607,7 +1607,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**MUCAMBO** está na posição **#42** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:ANTONINA DO NORTE",
@@ -1627,7 +1627,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**ANTONINA DO NORTE** está na posição **#43** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:PALMACIA",
@@ -1647,7 +1647,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**PALMACIA** está na posição **#44** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:IBARETAMA",
@@ -1667,7 +1667,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**IBARETAMA** está na posição **#45** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:UBAJARA",
@@ -1687,7 +1687,7 @@
       "tension_index": 70.9,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**UBAJARA** está na posição **#46** do ranking, com score **7.56/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.90."
     },
     {
       "id": "interior:SOLONOPOLE",
@@ -1707,7 +1707,7 @@
       "tension_index": 70.7,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**SOLONOPOLE** está na posição **#47** do ranking, com score **7.53/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.70."
     },
     {
       "id": "interior:AURORA",
@@ -1727,7 +1727,7 @@
       "tension_index": 70.6,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**AURORA** está na posição **#48** do ranking, com score **7.53/10** e confiança **84.0%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.60."
     },
     {
       "id": "fortaleza:BARROSO",
@@ -1747,7 +1747,7 @@
       "tension_index": 70.2,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**BARROSO** está na posição **#55** do ranking, com score **5.18/10** e confiança **87.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 70.20."
     },
     {
       "id": "interior:CAPISTRANO",
@@ -1767,7 +1767,7 @@
       "tension_index": 70.1,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**CAPISTRANO** está na posição **#50** do ranking, com score **7.46/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.10."
     },
     {
       "id": "interior:OROS",
@@ -1787,7 +1787,7 @@
       "tension_index": 70.1,
       "status": "Alto",
       "trend": "stable",
-      "summary": "**OROS** está na posição **#49** do ranking, com score **7.46/10** e confiança **77.7%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível alto. Tensão territorial atual em 70.10."
     },
     {
       "id": "interior:GRACA",
@@ -1807,7 +1807,7 @@
       "tension_index": 69.6,
       "status": "Moderado",
       "trend": "stable",
-      "summary": "**GRACA** está na posição **#51** do ranking, com score **7.40/10** e confiança **78.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível moderado. Tensão territorial atual em 69.60."
     },
     {
       "id": "interior:FORQUILHA",
@@ -1827,7 +1827,7 @@
       "tension_index": 68.2,
       "status": "Moderado",
       "trend": "stable",
-      "summary": "**FORQUILHA** está na posição **#52** do ranking, com score **7.23/10** e confiança **95.1%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível moderado. Tensão territorial atual em 68.20."
     },
     {
       "id": "fortaleza:ANCURI",
@@ -1847,7 +1847,7 @@
       "tension_index": 50.9,
       "status": "Moderado",
       "trend": "stable",
-      "summary": "**ANCURI** está na posição **#61** do ranking, com score **3.32/10** e confiança **76.8%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível moderado. Tensão territorial atual em 50.90."
     },
     {
       "id": "fortaleza:ALTO ALEGRE",
@@ -1867,7 +1867,7 @@
       "tension_index": 41.4,
       "status": "Moderado",
       "trend": "stable",
-      "summary": "**ALTO ALEGRE** está na posição **#58** do ranking, com score **3.99/10** e confiança **74.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível moderado. Tensão territorial atual em 41.40."
     },
     {
       "id": "fortaleza:JANGURUSSU",
@@ -1887,7 +1887,7 @@
       "tension_index": 34.9,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**JANGURUSSU** está na posição **#63** do ranking, com score **2.54/10** e confiança **77.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 34.90."
     },
     {
       "id": "fortaleza:PARQUE DOIS IRMAOS",
@@ -1907,7 +1907,7 @@
       "tension_index": 27.3,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**PARQUE DOIS IRMAOS** está na posição **#59** do ranking, com score **3.91/10** e confiança **88.7%** — identificada como área de alta prioridade tática. A posição é sustentada por aceleração recente de CVLI na janela observada."
+      "summary": "Território em nível baixo. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 27.30."
     },
     {
       "id": "fortaleza:VICENTE PINZON",
@@ -1927,7 +1927,7 @@
       "tension_index": 24.5,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**VICENTE PINZON** está na posição **#3107** do ranking, com score **1.60/10** e confiança **51.9%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 24.50."
     },
     {
       "id": "fortaleza:PARQUE IRACEMA",
@@ -1947,7 +1947,7 @@
       "tension_index": 24.4,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**PARQUE IRACEMA** está na posição **#3101** do ranking, com score **1.93/10** e confiança **57.4%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 24.40."
     },
     {
       "id": "fortaleza:JOSE WALTER",
@@ -1967,7 +1967,7 @@
       "tension_index": 24.3,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**JOSE WALTER** está na posição **#3105** do ranking, com score **1.92/10** e confiança **57.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 24.30."
     },
     {
       "id": "fortaleza:CURIO",
@@ -1987,7 +1987,7 @@
       "tension_index": 23.8,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**CURIO** está na posição **#65** do ranking, com score **2.08/10** e confiança **69.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 23.80."
     },
     {
       "id": "fortaleza:ANTONIO BEZERRA",
@@ -2007,7 +2007,7 @@
       "tension_index": 23.4,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**ANTONIO BEZERRA** está na posição **#3111** do ranking, com score **1.50/10** e confiança **54.0%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 23.40."
     },
     {
       "id": "fortaleza:BOM JARDIM",
@@ -2027,7 +2027,7 @@
       "tension_index": 22.1,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**BOM JARDIM** está na posição **#3117** do ranking, com score **1.41/10** e confiança **53.8%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 22.10."
     },
     {
       "id": "fortaleza:CANINDEZINHO",
@@ -2047,7 +2047,7 @@
       "tension_index": 21.8,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**CANINDEZINHO** está na posição **#3115** do ranking, com score **1.42/10** e confiança **58.6%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 21.80."
     },
     {
       "id": "fortaleza:PASSARE",
@@ -2067,7 +2067,7 @@
       "tension_index": 20.3,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**PASSARE** está na posição **#3120** do ranking, com score **1.33/10** e confiança **55.2%** — identificada como área monitorada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.30."
     },
     {
       "id": "nan:G00001",
@@ -2087,7 +2087,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00001** está na posição **#67** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00002",
@@ -2107,7 +2107,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00002** está na posição **#68** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00003",
@@ -2127,7 +2127,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00003** está na posição **#69** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00004",
@@ -2147,7 +2147,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00004** está na posição **#70** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00005",
@@ -2167,7 +2167,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00005** está na posição **#71** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00006",
@@ -2187,7 +2187,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00006** está na posição **#72** do ranking, com score **2.00/10** e confiança **65.5%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00007",
@@ -2207,7 +2207,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00007** está na posição **#73** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00008",
@@ -2227,7 +2227,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00008** está na posição **#74** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00009",
@@ -2247,7 +2247,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00009** está na posição **#75** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00010",
@@ -2267,7 +2267,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00010** está na posição **#76** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00011",
@@ -2287,7 +2287,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00011** está na posição **#77** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00012",
@@ -2307,7 +2307,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00012** está na posição **#78** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00017",
@@ -2327,7 +2327,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00017** está na posição **#79** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00023",
@@ -2347,7 +2347,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00023** está na posição **#80** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00025",
@@ -2367,7 +2367,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00025** está na posição **#81** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00026",
@@ -2387,7 +2387,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00026** está na posição **#82** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00028",
@@ -2407,7 +2407,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00028** está na posição **#83** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00029",
@@ -2427,7 +2427,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00029** está na posição **#84** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00031",
@@ -2447,7 +2447,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00031** está na posição **#85** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00032",
@@ -2467,7 +2467,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00032** está na posição **#86** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00033",
@@ -2487,7 +2487,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00033** está na posição **#87** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00034",
@@ -2507,7 +2507,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00034** está na posição **#88** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00041",
@@ -2527,7 +2527,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00041** está na posição **#89** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00043",
@@ -2547,7 +2547,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00043** está na posição **#90** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00044",
@@ -2567,7 +2567,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00044** está na posição **#91** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00047",
@@ -2587,7 +2587,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00047** está na posição **#92** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00055",
@@ -2607,7 +2607,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00055** está na posição **#93** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00056",
@@ -2627,7 +2627,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00056** está na posição **#94** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00057",
@@ -2647,7 +2647,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00057** está na posição **#95** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00058",
@@ -2667,7 +2667,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00058** está na posição **#96** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00059",
@@ -2687,7 +2687,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00059** está na posição **#97** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00060",
@@ -2707,7 +2707,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00060** está na posição **#98** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00061",
@@ -2727,7 +2727,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00061** está na posição **#99** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00062",
@@ -2747,7 +2747,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00062** está na posição **#100** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00063",
@@ -2767,7 +2767,7 @@
       "tension_index": 20.0,
       "status": "Baixo",
       "trend": "stable",
-      "summary": "**G00063** está na posição **#101** do ranking, com score **2.00/10** e confiança **65.4%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "nan:G00064",
