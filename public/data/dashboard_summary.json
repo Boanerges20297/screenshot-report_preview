@@ -1,28 +1,28 @@
 {
   "global": {
-    "total_nodes": 109,
-    "active_locations": 15,
-    "top_region": "fortaleza",
-    "top_name": "BARROSO",
-    "avg_risk": 28.67
+    "total_nodes": 1626,
+    "active_locations": 54,
+    "top_region": "interior",
+    "top_name": "JUAZEIRO DO NORTE",
+    "avg_risk": 21.71
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 33.23,
-      "max_risk": 100.0,
-      "top_name": "BARROSO"
+      "avg_risk": 19.57,
+      "max_risk": 83.8,
+      "top_name": "DOM LUSTOSA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 17.24,
-      "max_risk": 83.0,
-      "top_name": "CAUCAIA"
+      "avg_risk": 22.1,
+      "max_risk": 100.0,
+      "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 29.37,
-      "max_risk": 81.0,
+      "avg_risk": 75.19,
+      "max_risk": 100.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
   }
