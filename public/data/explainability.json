@@ -1,6 +1,6 @@
 {
   "rmf:CAUCAIA": {
-    "confidence": 0.881501480347116,
+    "confidence": 0.8845348136804492,
     "confidence_caveats": [
       "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
       "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
@@ -33,8 +33,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 20.0,
-        "text": "0 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 0,0."
+        "score_pct": 10.0,
+        "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
       },
       {
         "direction": "positive",
@@ -51,13 +51,13 @@
       {
         "direction": "negative",
         "name": "Fatores de cautela",
-        "score_pct": 9.3,
-        "text": "Supressão recente=2 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+        "score_pct": 7.7,
+        "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Alta",
-    "confidence_pct": 88.2,
+    "confidence_pct": 88.5,
     "factors": [
       {
         "explanation": "📌 **Posição global**: CAUCAIA ocupa a posição #1 entre 3265 territórios monitorados.",
@@ -90,10 +90,10 @@
         "value": "1,00"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 2 evento(s) recente(s), sendo 0 crítico(s) e 2 de supressão qualificada.",
+        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 0 crítico(s) e 1 de supressão qualificada.",
         "importance": "high",
         "name": "Eventos exógenos recentes",
-        "value": "2"
+        "value": "1"
       },
       {
         "explanation": "🛣️ **Logradouros críticos**: 10 referência(s) territorial(is) destacada(s). Destaques: {'loc': 'GUADALAJARA', 'cvli': 2, 'score': 11}, {'loc': 'ANTONIO BEZERRA', 'cvli': 1, 'score': 9}, {'loc': 'RUA ANTÔNIO CARLOS MAGALHÃES', 'cvli': 1, 'score': 8}, {'loc': 'RUA ACAPULCO', 'cvli': 1, 'score': 8}.",
@@ -132,10 +132,10 @@
         "value": "0,00"
       },
       {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 2,00 e pedem leitura de mitigação de curto prazo.",
+        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
         "importance": "medium",
         "name": "Intensidade de supressão",
-        "value": "2,00"
+        "value": "1,00"
       },
       {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
@@ -160,11 +160,11 @@
     "structured_result": {
       "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "CAUCAIA entra na posição #1, no top 0,0% do ranking, com score de 7,81/10 (78,1%). No ciclo atual, isso coloca o território em faixa de prioridade máxima e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 2 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "manager_guidance": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
       "technical_basis": "A decisão técnica combina distância do score em relação à média (57,3 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**CAUCAIA** está na posição **#1** do ranking, com score **7.81/10** e confiança **88.2%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por eventos críticos recentes associados ao território."
+    "summary": "**CAUCAIA** está na posição **#1** do ranking, com score **7.81/10** e confiança **88.5%** — identificada como uma das 5 áreas mais críticas. A posição é sustentada por eventos críticos recentes associados ao território."
   },
   "interior:CARIRE": {
     "confidence": 0.9550765911398666,
@@ -11613,9 +11613,10 @@
     "summary": "**CONJUNTO ESPERANCA** está na posição **#85** do ranking, com score **3.52/10** e confiança **75.2%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:MESSEJANA": {
-    "confidence": 0.885151304462052,
+    "confidence": 0.778551304462052,
     "confidence_caveats": [
-      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
+      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
+      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva."
     ],
     "confidence_components": [
       {
@@ -11645,8 +11646,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 80.0,
-        "text": "1 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 1,0."
+        "score_pct": 10.0,
+        "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
       },
       {
         "direction": "positive",
@@ -11663,13 +11664,13 @@
       {
         "direction": "negative",
         "name": "Fatores de cautela",
-        "score_pct": 1.7,
+        "score_pct": 8.7,
         "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Alta",
-    "confidence_pct": 88.5,
+    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
+    "confidence_label": "Moderada",
+    "confidence_pct": 77.9,
     "factors": [
       {
         "explanation": "📌 **Posição global**: MESSEJANA ocupa a posição #86 entre 3265 territórios monitorados.",
@@ -11696,16 +11697,10 @@
         "value": "3"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 2 evento(s) recente(s), sendo 1 crítico(s) e 1 de supressão qualificada.",
+        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 0 crítico(s) e 1 de supressão qualificada.",
         "importance": "high",
         "name": "Eventos exógenos recentes",
-        "value": "2"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 1,00.",
-        "importance": "high",
-        "name": "Intensidade de conflito",
-        "value": "1,00"
+        "value": "1"
       },
       {
         "explanation": "🛣️ **Logradouros críticos**: 3 referência(s) territorial(is) destacada(s). Destaques: RUA CAIO FACO, 791, CURIO.",
@@ -11744,6 +11739,12 @@
         "value": "0"
       },
       {
+        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
+        "importance": "medium",
+        "name": "Intensidade de conflito",
+        "value": "0,00"
+      },
+      {
         "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
         "importance": "medium",
         "name": "Intensidade de supressão",
@@ -11756,13 +11757,13 @@
         "value": "0,0"
       },
       {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
+        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
         "importance": "medium",
         "name": "Corroboração da confiança",
-        "value": "2"
+        "value": "1"
       }
     ],
-    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (2 bloco(s) de evidência).",
+    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (1 bloco(s) de evidência).",
     "name": "MESSEJANA",
     "node_id": 65,
     "rank": 86,
@@ -11770,13 +11771,13 @@
     "score": 3.4562711203855416,
     "source": "elite_contextual",
     "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "MESSEJANA entra na posição #86, no top 2,6% do ranking, com score de 3,46/10 (34,6%). No ciclo atual, isso coloca o território em faixa de alta prioridade tática e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar MESSEJANA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (13,8 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 3 vizinho(s) crítico(s), 1 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (13,8 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 3 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**MESSEJANA** está na posição **#86** do ranking, com score **3.46/10** e confiança **88.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "summary": "**MESSEJANA** está na posição **#86** do ranking, com score **3.46/10** e confiança **77.9%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:EDSON QUEIROZ": {
     "confidence": 0.874341082909269,
@@ -13095,8 +13096,11 @@
     "summary": "**VILA VELHA** está na posição **#99** do ranking, com score **2.88/10** e confiança **72.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:VICENTE PINZON": {
-    "confidence": 0.8394255971296019,
-    "confidence_caveats": [],
+    "confidence": 0.7198255971296018,
+    "confidence_caveats": [
+      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
+      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
+    ],
     "confidence_components": [
       {
         "direction": "positive",
@@ -13125,8 +13129,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 70.0,
-        "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
+        "score_pct": 0.0,
+        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
       },
       {
         "direction": "positive",
@@ -13139,11 +13143,17 @@
         "name": "Estrutura territorial",
         "score_pct": 62.5,
         "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+      },
+      {
+        "direction": "negative",
+        "name": "Fatores de cautela",
+        "score_pct": 9.0,
+        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Moderada",
-    "confidence_pct": 83.9,
+    "confidence_pct": 72.0,
     "factors": [
       {
         "explanation": "📌 **Posição global**: VICENTE PINZON ocupa a posição #101 entre 3265 territórios monitorados.",
@@ -13162,18 +13172,6 @@
         "importance": "high",
         "name": "Tensão territorial",
         "value": "0,50"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 1 crítico(s) e 0 de supressão qualificada.",
-        "importance": "high",
-        "name": "Eventos exógenos recentes",
-        "value": "1"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 1,00.",
-        "importance": "high",
-        "name": "Intensidade de conflito",
-        "value": "1,00"
       },
       {
         "explanation": "🛣️ **Logradouros críticos**: 1 referência(s) territorial(is) destacada(s). Destaques: RUA DA LUA (SEM NUMERO).",
@@ -13218,16 +13216,28 @@
         "value": "0"
       },
       {
+        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
+        "importance": "medium",
+        "name": "Eventos exógenos recentes",
+        "value": "0"
+      },
+      {
+        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
+        "importance": "medium",
+        "name": "Intensidade de conflito",
+        "value": "0,00"
+      },
+      {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
         "importance": "medium",
         "name": "Inteligência policial recente",
         "value": "0,0"
       },
       {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
+        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
         "importance": "medium",
         "name": "Corroboração da confiança",
-        "value": "2"
+        "value": "1"
       },
       {
         "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
@@ -13236,7 +13246,7 @@
         "value": "0,00"
       }
     ],
-    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (2 bloco(s) de evidência).",
+    "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 1 bloco(s) fortes de evidência.",
     "name": "VICENTE PINZON",
     "node_id": 105,
     "rank": 101,
@@ -13244,13 +13254,13 @@
     "score": 2.8536806339782603,
     "source": "elite_contextual",
     "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
+      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "VICENTE PINZON entra na posição #101, no top 3,1% do ranking, com score de 2,85/10 (28,5%). No ciclo atual, isso coloca o território em faixa de alta prioridade tática e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar VICENTE PINZON como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (7,7 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 1 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (7,7 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**VICENTE PINZON** está na posição **#101** do ranking, com score **2.85/10** e confiança **83.9%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "summary": "**VICENTE PINZON** está na posição **#101** do ranking, com score **2.85/10** e confiança **72.0%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:PRAIA DO FUTURO": {
     "confidence": 0.7187271314297119,
@@ -13587,9 +13597,8 @@
     "summary": "**TABAPUA** está na posição **#105** do ranking, com score **2.75/10** e confiança **71.7%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:PARQUE DAS NACOES": {
-    "confidence": 0.6869207257153396,
+    "confidence": 0.7029540590486729,
     "confidence_caveats": [
-      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
       "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
       "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
     ],
@@ -13621,8 +13630,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 10.0,
-        "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
+        "score_pct": 0.0,
+        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
       },
       {
         "direction": "positive",
@@ -13639,13 +13648,13 @@
       {
         "direction": "negative",
         "name": "Fatores de cautela",
-        "score_pct": 12.7,
-        "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+        "score_pct": 9.0,
+        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 68.7,
+    "confidence_label": "Moderada",
+    "confidence_pct": 70.3,
     "factors": [
       {
         "explanation": "📌 **Posição global**: PARQUE DAS NACOES ocupa a posição #106 entre 3265 territórios monitorados.",
@@ -13664,12 +13673,6 @@
         "importance": "high",
         "name": "Tensão territorial",
         "value": "0,50"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 0 crítico(s) e 1 de supressão qualificada.",
-        "importance": "high",
-        "name": "Eventos exógenos recentes",
-        "value": "1"
       },
       {
         "explanation": "🧭 **Faixa percentual**: o território permanece no top 3,2% do ranking e segue na primeira faixa de atenção.",
@@ -13708,16 +13711,16 @@
         "value": "0"
       },
       {
+        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
+        "importance": "medium",
+        "name": "Eventos exógenos recentes",
+        "value": "0"
+      },
+      {
         "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
         "importance": "medium",
         "name": "Intensidade de conflito",
         "value": "0,00"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "medium",
-        "name": "Intensidade de supressão",
-        "value": "1,00"
       },
       {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
@@ -13736,6 +13739,12 @@
         "importance": "medium",
         "name": "Corroboração da confiança",
         "value": "1"
+      },
+      {
+        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
+        "importance": "low",
+        "name": "Intensidade de supressão",
+        "value": "0,00"
       }
     ],
     "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 1 bloco(s) fortes de evidência.",
@@ -13748,11 +13757,11 @@
     "structured_result": {
       "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "PARQUE DAS NACOES entra na posição #106, no top 3,2% do ranking, com score de 2,73/10 (27,3%). No ciclo atual, isso coloca o território em faixa de alta prioridade tática e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar PARQUE DAS NACOES como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "manager_guidance": "Para a operação, a leitura mais segura é tratar PARQUE DAS NACOES como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
       "technical_basis": "A decisão técnica combina distância do score em relação à média (6,5 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**PARQUE DAS NACOES** está na posição **#106** do ranking, com score **2.73/10** e confiança **68.7%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "summary": "**PARQUE DAS NACOES** está na posição **#106** do ranking, com score **2.73/10** e confiança **70.3%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:CONJUNTO CEARA": {
     "confidence": 0.7107730857468411,
@@ -16738,7 +16747,7 @@
     "node_id": 119,
     "name": "ARACAPE",
     "risk_score_pct": 24.9,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 24.90.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 24.90.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -16988,7 +16997,7 @@
     "node_id": 113,
     "name": "SAO MIGUEL",
     "risk_score_pct": 23.1,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 23.10.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 23.10.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32438,7 +32447,7 @@
     "node_id": 78,
     "name": "PARQUE MANIBURA",
     "risk_score_pct": 13.1,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 13.10.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 13.10.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32537,8 +32546,8 @@
   "fortaleza:CIDADE DOS FUNCIONARIOS": {
     "node_id": 22,
     "name": "CIDADE DOS FUNCIONARIOS",
-    "risk_score_pct": 1.4,
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.40.",
+    "risk_score_pct": 0.0,
+    "summary": "Território em nível baixo.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32588,7 +32597,7 @@
     "node_id": 3258,
     "name": "MARANGUAPE",
     "risk_score_pct": 0.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32608,7 +32617,7 @@
     "node_id": 3260,
     "name": "TRAIRI",
     "risk_score_pct": 0.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32638,7 +32647,7 @@
     "node_id": 3263,
     "name": "SAO GONCALO DO AMARANTE",
     "risk_score_pct": 0.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,

@@ -231,17 +231,16 @@
       "nearby_impact_names": []
     },
     "event_metrics": {
-      "events_count_total": 2,
+      "events_count_total": 1,
       "critical_event_count": 0,
-      "suppression_event_count": 2,
-      "event_types_count": 2,
+      "suppression_event_count": 1,
+      "event_types_count": 1,
       "event_types": [
-        "ST MARINHO",
         "TRÁFICO"
       ],
-      "total_event_intensity": 2.0,
+      "total_event_intensity": 1.0,
       "conflict_intensity": 0.0,
-      "suppression_intensity": 2.0
+      "suppression_intensity": 1.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
@@ -282,10 +281,10 @@
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 88.1,
+      "confidence_pct": 88.5,
       "confidence_label": "Alta",
       "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.8446,
+      "evidence_confidence": 0.8492,
       "fallback_confidence_seed": 0.95,
       "corroboration_count": 2,
       "components": [
@@ -316,8 +315,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 20.0,
-          "text": "0 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 0,0."
+          "score_pct": 10.0,
+          "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -334,8 +333,8 @@
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 9.3,
-          "text": "Supressão recente=2 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+          "score_pct": 7.7,
+          "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
@@ -347,13 +346,13 @@
         "score_separation": 1.0,
         "temporal_signal": 0.15,
         "spatial_signal": 0.0,
-        "event_signal": 0.2,
+        "event_signal": 0.1,
         "intelligence_signal": 0.9,
         "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
-        "suppression_penalty": 0.0333,
+        "suppression_penalty": 0.0167,
         "sparse_penalty": 0.0,
         "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.02
@@ -705,8 +704,8 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "CAUCAIA ocupa a posição #1 entre 1708 territórios, com score de 7,81/10 e confiança analítica de 88,1%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 2 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "abstract_ptbr": "CAUCAIA ocupa a posição #1 entre 1708 territórios, com score de 7,81/10 e confiança analítica de 88,5%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
@@ -6382,7 +6381,7 @@
     "identification": {
       "region_type": "FORTALEZA",
       "faction": "CV",
-      "tier": "top_5"
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 13,
@@ -8038,8 +8037,8 @@
         {
           "name": "Corroboração espacial",
           "direction": "positive",
-          "score_pct": 14.8,
-          "text": "0 vizinho(s) crítico(s) entre 3 adjacentes, com média vizinha de 32,9%."
+          "score_pct": 0.0,
+          "text": "0 vizinho(s) crítico(s) entre 0 adjacentes, com média vizinha de 0,0%."
         },
         {
           "name": "Eventos observados",
@@ -8050,8 +8049,8 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 45.0,
-          "text": "Sinal de inteligência recente em 0,0 e 5 referência(s) territoriais críticas."
+          "score_pct": 0.0,
+          "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
@@ -10136,132 +10135,14 @@
         "spatial_signal": 0.0,
         "event_signal": 0.0,
         "intelligence_signal": 0.0,
-        "global_cvli_context": 0.0,
-        "holiday_flag": 0.0,
-        "cvp_hot_day_flag": 1.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
+        "structural_signal": 0.625,
+        "market_signal": 0.0
       },
-      "sum_7d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 3.5,
-        "weekday_monday": 1.0,
-        "weekday_tuesday": 1.0,
-        "weekday_wednesday": 1.0,
-        "weekday_thursday": 1.0,
-        "weekday_friday_weighted": 1.5,
-        "weekday_saturday": 1.0,
-        "weekday_sunday": 1.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 2.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 2.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 1.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      },
-      "sum_14d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 7.0,
-        "weekday_monday": 2.0,
-        "weekday_tuesday": 2.0,
-        "weekday_wednesday": 2.0,
-        "weekday_thursday": 2.0,
-        "weekday_friday_weighted": 3.0,
-        "weekday_saturday": 2.0,
-        "weekday_sunday": 2.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 9.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 4.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 5.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      },
-      "sum_30d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 15.0,
-        "weekday_monday": 5.0,
-        "weekday_tuesday": 5.0,
-        "weekday_wednesday": 4.0,
-        "weekday_thursday": 4.0,
-        "weekday_friday_weighted": 6.0,
-        "weekday_saturday": 4.0,
-        "weekday_sunday": 4.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 25.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 8.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 9.0,
-        "holiday_flag": 2.0,
-        "cvp_hot_day_flag": 11.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
+      "penalties": {
+        "suppression_penalty": 0.0,
+        "sparse_penalty": 0.05,
+        "ambiguity_penalty": 0.04,
+        "conflict_ambiguity_penalty": 0.0
       }
     },
     "feature_channels": {
@@ -33806,7 +33687,7 @@
     "source": "academic_parallel",
     "identification": {
       "region_type": "INTERIOR",
-      "faction": "PCC",
+      "faction": "TCP/GDE",
       "tier": "long_tail_20"
     },
     "ranking_metrics": {
@@ -33823,12 +33704,12 @@
       "score_zscore": 2.8696
     },
     "temporal_metrics": {
-      "cvli_recent_7d": 1,
+      "cvli_recent_7d": 0,
       "cvli_previous_7d": 0,
-      "cvli_recent_14d": 1,
+      "cvli_recent_14d": 0,
       "cvli_previous_14d": 0,
-      "cvli_recent_30d": 1,
-      "rolling_cvli_7d_latest": 1.0
+      "cvli_recent_30d": 0,
+      "rolling_cvli_7d_latest": 0.0
     },
     "spatial_metrics": {
       "geo_neighbor_count": 0,
@@ -33849,10 +33730,10 @@
       "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
-      "intel_recent_14d": 2.0,
+      "intel_recent_14d": 0.0,
       "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 2,
-      "critical_streets_reference": "{'loc': 'RUA SEBASTIÃO MIRANDA', 'cvli': 1, 'score': 4}, {'loc': 'CARIRE', 'cvli': 1, 'score': 3}",
+      "critical_streets_count": 0,
+      "critical_streets_reference": "Sem logradouros críticos recentes",
       "global_cvli_latest": 0.0
     },
     "environmental_and_calendar_metrics": {
@@ -33865,7 +33746,7 @@
     "territorial_structure_metrics": {
       "tension_index": 0.5,
       "region_type": "INTERIOR",
-      "faction": "PCC"
+      "faction": "TCP/GDE"
     },
     "derived_indices": {
       "rank_inverse_pct": 96.19,
@@ -33881,7 +33762,7 @@
       "critical_event_share": 0.0,
       "suppression_event_share": 0.0,
       "conflict_to_suppression_intensity_ratio": 0.0,
-      "intel_to_vehicle_ratio": 2000000.0,
+      "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0714,
       "weekend_share_14d": 0.2857
@@ -33927,518 +33808,6 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 45.5,
-          "text": "Sinal de inteligência recente em 2,0 e 2 referência(s) territoriais críticas."
-        },
-        {
-          "name": "Estrutura territorial",
-          "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante PCC sustentam a pressão estrutural do território."
-        }
-      ],
-      "caveats": [],
-      "signal_scores": {
-        "rank_strength": 0.9267,
-        "score_separation": 1.0,
-        "temporal_signal": 1.0,
-        "spatial_signal": 0.0,
-        "event_signal": 0.0,
-        "intelligence_signal": 0.455,
-        "structural_signal": 0.625,
-        "market_signal": 0.0
-      },
-      "penalties": {
-        "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
-        "ambiguity_penalty": 0.0,
-        "conflict_ambiguity_penalty": 0.0
-      }
-    },
-    "feature_channels": {
-      "catalog": {
-        "0": {
-          "key": "cvli_count",
-          "label": "CVLI diário",
-          "description": "Contagem diária de CVLI no território."
-        },
-        "1": {
-          "key": "vehicle_crime_pressure",
-          "label": "Pressão de crimes veiculares",
-          "description": "Canal ponderado para crimes patrimoniais e de veículos."
-        },
-        "2": {
-          "key": "territorial_tension",
-          "label": "Tensão territorial",
-          "description": "Índice estrutural de tensão faccional do território."
-        },
-        "3": {
-          "key": "weekday_monday",
-          "label": "Segunda-feira",
-          "description": "Indicador sazonal de segunda-feira."
-        },
-        "4": {
-          "key": "weekday_tuesday",
-          "label": "Terça-feira",
-          "description": "Indicador sazonal de terça-feira."
-        },
-        "5": {
-          "key": "weekday_wednesday",
-          "label": "Quarta-feira",
-          "description": "Indicador sazonal de quarta-feira."
-        },
-        "6": {
-          "key": "weekday_thursday",
-          "label": "Quinta-feira",
-          "description": "Indicador sazonal de quinta-feira."
-        },
-        "7": {
-          "key": "weekday_friday_weighted",
-          "label": "Sexta-feira reforçada",
-          "description": "Indicador sazonal com reforço específico de sexta-feira."
-        },
-        "8": {
-          "key": "weekday_saturday",
-          "label": "Sábado",
-          "description": "Indicador sazonal de sábado."
-        },
-        "9": {
-          "key": "weekday_sunday",
-          "label": "Domingo",
-          "description": "Indicador sazonal de domingo."
-        },
-        "10": {
-          "key": "month_january",
-          "label": "Janeiro",
-          "description": "Indicador sazonal de janeiro."
-        },
-        "11": {
-          "key": "month_february",
-          "label": "Fevereiro",
-          "description": "Indicador sazonal de fevereiro."
-        },
-        "12": {
-          "key": "month_march",
-          "label": "Março",
-          "description": "Indicador sazonal de março."
-        },
-        "13": {
-          "key": "month_april",
-          "label": "Abril",
-          "description": "Indicador sazonal de abril."
-        },
-        "14": {
-          "key": "month_may",
-          "label": "Maio",
-          "description": "Indicador sazonal de maio."
-        },
-        "15": {
-          "key": "month_june",
-          "label": "Junho",
-          "description": "Indicador sazonal de junho."
-        },
-        "16": {
-          "key": "month_july",
-          "label": "Julho",
-          "description": "Indicador sazonal de julho."
-        },
-        "17": {
-          "key": "month_august",
-          "label": "Agosto",
-          "description": "Indicador sazonal de agosto."
-        },
-        "18": {
-          "key": "month_september",
-          "label": "Setembro",
-          "description": "Indicador sazonal de setembro."
-        },
-        "19": {
-          "key": "month_october",
-          "label": "Outubro",
-          "description": "Indicador sazonal de outubro."
-        },
-        "20": {
-          "key": "month_november",
-          "label": "Novembro",
-          "description": "Indicador sazonal de novembro."
-        },
-        "21": {
-          "key": "month_december",
-          "label": "Dezembro",
-          "description": "Indicador sazonal de dezembro."
-        },
-        "22": {
-          "key": "weekend_flag",
-          "label": "Fim de semana",
-          "description": "Indicador binário de fim de semana."
-        },
-        "23": {
-          "key": "channel_23_reserved",
-          "label": "Canal reservado 23",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "24": {
-          "key": "rolling_cvli_7d",
-          "label": "Rolling CVLI 7d",
-          "description": "Soma móvel de 7 dias do canal de CVLI."
-        },
-        "25": {
-          "key": "channel_25_reserved",
-          "label": "Canal reservado 25",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "26": {
-          "key": "channel_26_reserved",
-          "label": "Canal reservado 26",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "27": {
-          "key": "intelligence_signal",
-          "label": "Sinal de inteligência",
-          "description": "Canal ponderado de ocorrências classificadas como inteligência."
-        },
-        "28": {
-          "key": "global_cvli_context",
-          "label": "Contexto global de CVLI",
-          "description": "Agregado global diário de CVLI sobre todos os nós da região."
-        },
-        "29": {
-          "key": "holiday_flag",
-          "label": "Feriado nacional",
-          "description": "Indicador binário de feriado nacional brasileiro."
-        },
-        "30": {
-          "key": "cvp_hot_day_flag",
-          "label": "Dia quente CVP",
-          "description": "Indicador binário de dias quentes da regra CVP."
-        },
-        "31": {
-          "key": "precipitation_mm",
-          "label": "Precipitação",
-          "description": "Precipitação diária em milímetros."
-        },
-        "32": {
-          "key": "significant_rain_flag",
-          "label": "Chuva significativa",
-          "description": "Indicador binário para precipitação acima de 5 mm."
-        },
-        "33": {
-          "key": "momentum_delta_7d",
-          "label": "Momentum 7d",
-          "description": "Diferença entre o CVLI dos 7 dias recentes e a janela anterior de 7 dias."
-        },
-        "34": {
-          "key": "momentum_delta_14d",
-          "label": "Momentum 14d",
-          "description": "Diferença entre o CVLI dos 14 dias recentes e a janela anterior de 14 dias."
-        },
-        "35": {
-          "key": "momentum_delta_30d",
-          "label": "Momentum 30d",
-          "description": "Diferença entre o CVLI dos 30 dias recentes e a janela anterior de 30 dias."
-        },
-        "36": {
-          "key": "cold_streak_inverse",
-          "label": "Cold streak inverso",
-          "description": "Sequência de dias sem CVLI, codificada como valor negativo truncado em 30 dias."
-        }
-      },
-      "latest_timestep": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 0.5,
-        "weekday_monday": 0.0,
-        "weekday_tuesday": 1.0,
-        "weekday_wednesday": 0.0,
-        "weekday_thursday": 0.0,
-        "weekday_friday_weighted": 0.0,
-        "weekday_saturday": 0.0,
-        "weekday_sunday": 0.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 0.0,
-        "month_may": 1.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 0.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 1.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 0.0,
-        "holiday_flag": 0.0,
-        "cvp_hot_day_flag": 1.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 1.0,
-        "momentum_delta_14d": 1.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -6.0
-      },
-      "sum_7d": {
-        "cvli_count": 1.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 3.5,
-        "weekday_monday": 1.0,
-        "weekday_tuesday": 1.0,
-        "weekday_wednesday": 1.0,
-        "weekday_thursday": 1.0,
-        "weekday_friday_weighted": 1.5,
-        "weekday_saturday": 1.0,
-        "weekday_sunday": 1.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 2.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 2.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 7.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 2.0,
-        "global_cvli_context": 1.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 1.0,
-        "momentum_delta_14d": 1.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -6.0
-      },
-      "sum_14d": {
-        "cvli_count": 1.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 7.0,
-        "weekday_monday": 2.0,
-        "weekday_tuesday": 2.0,
-        "weekday_wednesday": 2.0,
-        "weekday_thursday": 2.0,
-        "weekday_friday_weighted": 3.0,
-        "weekday_saturday": 2.0,
-        "weekday_sunday": 2.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 9.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 4.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 7.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 2.0,
-        "global_cvli_context": 3.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 1.0,
-        "momentum_delta_14d": 1.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -6.0
-      },
-      "sum_30d": {
-        "cvli_count": 1.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 15.0,
-        "weekday_monday": 5.0,
-        "weekday_tuesday": 5.0,
-        "weekday_wednesday": 4.0,
-        "weekday_thursday": 4.0,
-        "weekday_friday_weighted": 6.0,
-        "weekday_saturday": 4.0,
-        "weekday_sunday": 4.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 25.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 8.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 7.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 2.0,
-        "global_cvli_context": 6.0,
-        "holiday_flag": 2.0,
-        "cvp_hot_day_flag": 11.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 1.0,
-        "momentum_delta_14d": 1.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -6.0
-      }
-    },
-    "academic_text": {
-      "abstract_ptbr": "CARIRE ocupa a posição #14 entre 191 territórios, com score de 5,04/10 e confiança analítica de 92,2%. O caso combina pressão relativa elevada, estrutura territorial de PCC e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CARIRE como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
-      "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
-    }
-  },
-  "fortaleza:NOVO MONDUBIM": {
-    "node_id": 71,
-    "name": "NOVO MONDUBIM",
-    "source": "academic_parallel",
-    "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "long_tail_20"
-    },
-    "ranking_metrics": {
-      "rank_global": 15,
-      "total_nodes": 191,
-      "top_slice_pct": 7.853,
-      "score_0_10": 4.99,
-      "score_pct": 49.9
-    },
-    "score_distribution_metrics": {
-      "mean_score_pct": 26.7958,
-      "median_score_pct": 24.8,
-      "score_gap_pct": 23.1042,
-      "score_zscore": 1.6162
-    },
-    "temporal_metrics": {
-      "cvli_recent_7d": 0,
-      "cvli_previous_7d": 0,
-      "cvli_recent_14d": 0,
-      "cvli_previous_14d": 0,
-      "cvli_recent_30d": 0,
-      "rolling_cvli_7d_latest": 0.0
-    },
-    "spatial_metrics": {
-      "geo_neighbor_count": 11,
-      "conflict_neighbor_count": 0,
-      "high_risk_neighbor_count": 2,
-      "neighbor_mean_score_pct": 31.3,
-      "neighbor_max_score_pct": 61.0,
-      "nearby_impact_names": [
-        "CANINDEZINHO",
-        "BOM JARDIM",
-        "CONJUNTO ESPERANCA",
-        "MONDUBIM",
-        "PARQUE SAO JOSE"
-      ]
-    },
-    "event_metrics": {
-      "events_count_total": 0,
-      "critical_event_count": 0,
-      "suppression_event_count": 0,
-      "event_types_count": 0,
-      "event_types": [],
-      "total_event_intensity": 0.0,
-      "conflict_intensity": 0.0,
-      "suppression_intensity": 0.0
-    },
-    "intelligence_and_market_metrics": {
-      "intel_recent_14d": 0.0,
-      "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 0,
-      "critical_streets_reference": "Sem logradouros críticos recentes",
-      "global_cvli_latest": 0.0
-    },
-    "environmental_and_calendar_metrics": {
-      "rain_acc_14d_mm": 0.0,
-      "rainy_days_14d": 0,
-      "holiday_days_14d": 1,
-      "hot_days_14d": 6,
-      "weekend_days_14d": 4
-    },
-    "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
-    },
-    "derived_indices": {
-      "rank_inverse_pct": 92.67,
-      "score_gap_pct": 23.104,
-      "score_zscore": 1.6162,
-      "top_slice_pct": 7.853,
-      "cvli_delta_7d": 0,
-      "cvli_delta_14d": 0,
-      "cvli_growth_ratio_7d": 0.0,
-      "cvli_growth_ratio_14d": 0.0,
-      "high_risk_neighbor_share": 0.1818,
-      "conflict_neighbor_share": 0.0,
-      "critical_event_share": 0.0,
-      "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 0.0,
-      "intel_to_vehicle_ratio": 0.0,
-      "rainy_day_share_14d": 0.0,
-      "holiday_share_14d": 0.0714,
-      "weekend_share_14d": 0.2857
-    },
-    "confidence_analysis": {
-      "confidence_pct": 78.3,
-      "confidence_label": "Moderada",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.7477,
-      "fallback_confidence_seed": 0.8495,
-      "corroboration_count": 1,
-      "components": [
-        {
-          "name": "Separação no ranking",
-          "direction": "positive",
-          "score_pct": 92.1,
-          "text": "Posição #15 e permanência no top 7,9% mantêm o território na primeira faixa de atenção."
-        },
-        {
-          "name": "Distância estatística da média",
-          "direction": "positive",
-          "score_pct": 100.0,
-          "text": "Score atual opera 23,1 pontos percentuais acima da média, com z-score 1,62."
-        },
-        {
-          "name": "Corroboração temporal",
-          "direction": "positive",
-          "score_pct": 15.0,
-          "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-        },
-        {
-          "name": "Corroboração espacial",
-          "direction": "positive",
-          "score_pct": 24.1,
-          "text": "2 vizinho(s) crítico(s) entre 11 adjacentes, com média vizinha de 31,3%."
-        },
-        {
-          "name": "Eventos observados",
-          "direction": "positive",
-          "score_pct": 0.0,
-          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-        },
-        {
-          "name": "Inteligência e ruas críticas",
-          "direction": "positive",
           "score_pct": 0.0,
           "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
@@ -34446,17 +33815,18 @@
           "name": "Estrutura territorial",
           "direction": "positive",
           "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "text": "Tensão territorial 0,50 e facção predominante TCP/GDE sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 5.0,
+          "score_pct": 9.0,
           "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
-        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva."
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
+        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
         "rank_strength": 0.9614,
@@ -34471,526 +33841,6 @@
       "penalties": {
         "suppression_penalty": 0.0,
         "sparse_penalty": 0.05,
-        "ambiguity_penalty": 0.0,
-        "conflict_ambiguity_penalty": 0.0
-      }
-    },
-    "feature_channels": {
-      "catalog": {
-        "0": {
-          "key": "cvli_count",
-          "label": "CVLI diário",
-          "description": "Contagem diária de CVLI no território."
-        },
-        "1": {
-          "key": "vehicle_crime_pressure",
-          "label": "Pressão de crimes veiculares",
-          "description": "Canal ponderado para crimes patrimoniais e de veículos."
-        },
-        "2": {
-          "key": "territorial_tension",
-          "label": "Tensão territorial",
-          "description": "Índice estrutural de tensão faccional do território."
-        },
-        "3": {
-          "key": "weekday_monday",
-          "label": "Segunda-feira",
-          "description": "Indicador sazonal de segunda-feira."
-        },
-        "4": {
-          "key": "weekday_tuesday",
-          "label": "Terça-feira",
-          "description": "Indicador sazonal de terça-feira."
-        },
-        "5": {
-          "key": "weekday_wednesday",
-          "label": "Quarta-feira",
-          "description": "Indicador sazonal de quarta-feira."
-        },
-        "6": {
-          "key": "weekday_thursday",
-          "label": "Quinta-feira",
-          "description": "Indicador sazonal de quinta-feira."
-        },
-        "7": {
-          "key": "weekday_friday_weighted",
-          "label": "Sexta-feira reforçada",
-          "description": "Indicador sazonal com reforço específico de sexta-feira."
-        },
-        "8": {
-          "key": "weekday_saturday",
-          "label": "Sábado",
-          "description": "Indicador sazonal de sábado."
-        },
-        "9": {
-          "key": "weekday_sunday",
-          "label": "Domingo",
-          "description": "Indicador sazonal de domingo."
-        },
-        "10": {
-          "key": "month_january",
-          "label": "Janeiro",
-          "description": "Indicador sazonal de janeiro."
-        },
-        "11": {
-          "key": "month_february",
-          "label": "Fevereiro",
-          "description": "Indicador sazonal de fevereiro."
-        },
-        "12": {
-          "key": "month_march",
-          "label": "Março",
-          "description": "Indicador sazonal de março."
-        },
-        "13": {
-          "key": "month_april",
-          "label": "Abril",
-          "description": "Indicador sazonal de abril."
-        },
-        "14": {
-          "key": "month_may",
-          "label": "Maio",
-          "description": "Indicador sazonal de maio."
-        },
-        "15": {
-          "key": "month_june",
-          "label": "Junho",
-          "description": "Indicador sazonal de junho."
-        },
-        "16": {
-          "key": "month_july",
-          "label": "Julho",
-          "description": "Indicador sazonal de julho."
-        },
-        "17": {
-          "key": "month_august",
-          "label": "Agosto",
-          "description": "Indicador sazonal de agosto."
-        },
-        "18": {
-          "key": "month_september",
-          "label": "Setembro",
-          "description": "Indicador sazonal de setembro."
-        },
-        "19": {
-          "key": "month_october",
-          "label": "Outubro",
-          "description": "Indicador sazonal de outubro."
-        },
-        "20": {
-          "key": "month_november",
-          "label": "Novembro",
-          "description": "Indicador sazonal de novembro."
-        },
-        "21": {
-          "key": "month_december",
-          "label": "Dezembro",
-          "description": "Indicador sazonal de dezembro."
-        },
-        "22": {
-          "key": "weekend_flag",
-          "label": "Fim de semana",
-          "description": "Indicador binário de fim de semana."
-        },
-        "23": {
-          "key": "channel_23_reserved",
-          "label": "Canal reservado 23",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "24": {
-          "key": "rolling_cvli_7d",
-          "label": "Rolling CVLI 7d",
-          "description": "Soma móvel de 7 dias do canal de CVLI."
-        },
-        "25": {
-          "key": "channel_25_reserved",
-          "label": "Canal reservado 25",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "26": {
-          "key": "channel_26_reserved",
-          "label": "Canal reservado 26",
-          "description": "Canal reservado sem uso analítico explícito na camada atual."
-        },
-        "27": {
-          "key": "intelligence_signal",
-          "label": "Sinal de inteligência",
-          "description": "Canal ponderado de ocorrências classificadas como inteligência."
-        },
-        "28": {
-          "key": "global_cvli_context",
-          "label": "Contexto global de CVLI",
-          "description": "Agregado global diário de CVLI sobre todos os nós da região."
-        },
-        "29": {
-          "key": "holiday_flag",
-          "label": "Feriado nacional",
-          "description": "Indicador binário de feriado nacional brasileiro."
-        },
-        "30": {
-          "key": "cvp_hot_day_flag",
-          "label": "Dia quente CVP",
-          "description": "Indicador binário de dias quentes da regra CVP."
-        },
-        "31": {
-          "key": "precipitation_mm",
-          "label": "Precipitação",
-          "description": "Precipitação diária em milímetros."
-        },
-        "32": {
-          "key": "significant_rain_flag",
-          "label": "Chuva significativa",
-          "description": "Indicador binário para precipitação acima de 5 mm."
-        },
-        "33": {
-          "key": "momentum_delta_7d",
-          "label": "Momentum 7d",
-          "description": "Diferença entre o CVLI dos 7 dias recentes e a janela anterior de 7 dias."
-        },
-        "34": {
-          "key": "momentum_delta_14d",
-          "label": "Momentum 14d",
-          "description": "Diferença entre o CVLI dos 14 dias recentes e a janela anterior de 14 dias."
-        },
-        "35": {
-          "key": "momentum_delta_30d",
-          "label": "Momentum 30d",
-          "description": "Diferença entre o CVLI dos 30 dias recentes e a janela anterior de 30 dias."
-        },
-        "36": {
-          "key": "cold_streak_inverse",
-          "label": "Cold streak inverso",
-          "description": "Sequência de dias sem CVLI, codificada como valor negativo truncado em 30 dias."
-        }
-      },
-      "latest_timestep": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 0.5,
-        "weekday_monday": 0.0,
-        "weekday_tuesday": 1.0,
-        "weekday_wednesday": 0.0,
-        "weekday_thursday": 0.0,
-        "weekday_friday_weighted": 0.0,
-        "weekday_saturday": 0.0,
-        "weekday_sunday": 0.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 0.0,
-        "month_may": 1.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 0.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 0.0,
-        "holiday_flag": 0.0,
-        "cvp_hot_day_flag": 1.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      },
-      "sum_7d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 3.5,
-        "weekday_monday": 1.0,
-        "weekday_tuesday": 1.0,
-        "weekday_wednesday": 1.0,
-        "weekday_thursday": 1.0,
-        "weekday_friday_weighted": 1.5,
-        "weekday_saturday": 1.0,
-        "weekday_sunday": 1.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 2.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 2.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 1.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      },
-      "sum_14d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 7.0,
-        "weekday_monday": 2.0,
-        "weekday_tuesday": 2.0,
-        "weekday_wednesday": 2.0,
-        "weekday_thursday": 2.0,
-        "weekday_friday_weighted": 3.0,
-        "weekday_saturday": 2.0,
-        "weekday_sunday": 2.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 9.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 4.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 5.0,
-        "holiday_flag": 1.0,
-        "cvp_hot_day_flag": 6.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      },
-      "sum_30d": {
-        "cvli_count": 0.0,
-        "vehicle_crime_pressure": 0.0,
-        "territorial_tension": 15.0,
-        "weekday_monday": 5.0,
-        "weekday_tuesday": 5.0,
-        "weekday_wednesday": 4.0,
-        "weekday_thursday": 4.0,
-        "weekday_friday_weighted": 6.0,
-        "weekday_saturday": 4.0,
-        "weekday_sunday": 4.0,
-        "month_january": 0.0,
-        "month_february": 0.0,
-        "month_march": 0.0,
-        "month_april": 25.0,
-        "month_may": 5.0,
-        "month_june": 0.0,
-        "month_july": 0.0,
-        "month_august": 0.0,
-        "month_september": 0.0,
-        "month_october": 0.0,
-        "month_november": 0.0,
-        "month_december": 0.0,
-        "weekend_flag": 8.0,
-        "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
-        "channel_25_reserved": 0.0,
-        "channel_26_reserved": 0.0,
-        "intelligence_signal": 0.0,
-        "global_cvli_context": 9.0,
-        "holiday_flag": 2.0,
-        "cvp_hot_day_flag": 11.0,
-        "precipitation_mm": 0.0,
-        "significant_rain_flag": 0.0,
-        "momentum_delta_7d": 0.0,
-        "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": 0.0,
-        "cold_streak_inverse": -30.0
-      }
-    },
-    "academic_text": {
-      "abstract_ptbr": "NOVO MONDUBIM ocupa a posição #15 entre 191 territórios, com score de 4,99/10 e confiança analítica de 78,3%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar NOVO MONDUBIM como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
-      "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
-    }
-  },
-  "fortaleza:ANCURI": {
-    "node_id": 5,
-    "name": "ANCURI",
-    "source": "academic_parallel",
-    "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "long_tail_20"
-    },
-    "ranking_metrics": {
-      "rank_global": 16,
-      "total_nodes": 191,
-      "top_slice_pct": 8.377,
-      "score_0_10": 4.97,
-      "score_pct": 49.7
-    },
-    "score_distribution_metrics": {
-      "mean_score_pct": 26.7958,
-      "median_score_pct": 24.8,
-      "score_gap_pct": 22.9042,
-      "score_zscore": 1.6023
-    },
-    "temporal_metrics": {
-      "cvli_recent_7d": 0,
-      "cvli_previous_7d": 0,
-      "cvli_recent_14d": 0,
-      "cvli_previous_14d": 1,
-      "cvli_recent_30d": 1,
-      "rolling_cvli_7d_latest": 0.0
-    },
-    "spatial_metrics": {
-      "geo_neighbor_count": 5,
-      "conflict_neighbor_count": 1,
-      "high_risk_neighbor_count": 0,
-      "neighbor_mean_score_pct": 27.3167,
-      "neighbor_max_score_pct": 43.8,
-      "nearby_impact_names": [
-        "JANGURUSSU",
-        "PEDRAS",
-        "SAO BENTO",
-        "PARQUE SANTA MARIA",
-        "SANTA CLARA"
-      ]
-    },
-    "event_metrics": {
-      "events_count_total": 0,
-      "critical_event_count": 0,
-      "suppression_event_count": 0,
-      "event_types_count": 0,
-      "event_types": [],
-      "total_event_intensity": 0.0,
-      "conflict_intensity": 0.0,
-      "suppression_intensity": 0.0
-    },
-    "intelligence_and_market_metrics": {
-      "intel_recent_14d": 0.0,
-      "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 1,
-      "critical_streets_reference": "AV. DIONISIO LEONEL AGUIAR",
-      "global_cvli_latest": 0.0
-    },
-    "environmental_and_calendar_metrics": {
-      "rain_acc_14d_mm": 0.0,
-      "rainy_days_14d": 0,
-      "holiday_days_14d": 1,
-      "hot_days_14d": 6,
-      "weekend_days_14d": 4
-    },
-    "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
-    },
-    "derived_indices": {
-      "rank_inverse_pct": 92.15,
-      "score_gap_pct": 22.904,
-      "score_zscore": 1.6023,
-      "top_slice_pct": 8.377,
-      "cvli_delta_7d": 0,
-      "cvli_delta_14d": -1,
-      "cvli_growth_ratio_7d": 0.0,
-      "cvli_growth_ratio_14d": -1.0,
-      "high_risk_neighbor_share": 0.0,
-      "conflict_neighbor_share": 0.2,
-      "critical_event_share": 0.0,
-      "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 0.0,
-      "intel_to_vehicle_ratio": 0.0,
-      "rainy_day_share_14d": 0.0,
-      "holiday_share_14d": 0.0714,
-      "weekend_share_14d": 0.2857
-    },
-    "confidence_analysis": {
-      "confidence_pct": 83.7,
-      "confidence_label": "Moderada",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.8313,
-      "fallback_confidence_seed": 0.8485,
-      "corroboration_count": 2,
-      "components": [
-        {
-          "name": "Separação no ranking",
-          "direction": "positive",
-          "score_pct": 91.6,
-          "text": "Posição #16 e permanência no top 8,4% mantêm o território na primeira faixa de atenção."
-        },
-        {
-          "name": "Distância estatística da média",
-          "direction": "positive",
-          "score_pct": 100.0,
-          "text": "Score atual opera 22,9 pontos percentuais acima da média, com z-score 1,60."
-        },
-        {
-          "name": "Corroboração temporal",
-          "direction": "positive",
-          "score_pct": 60.0,
-          "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 1."
-        },
-        {
-          "name": "Corroboração espacial",
-          "direction": "positive",
-          "score_pct": 12.3,
-          "text": "0 vizinho(s) crítico(s) entre 5 adjacentes, com média vizinha de 27,3%."
-        },
-        {
-          "name": "Eventos observados",
-          "direction": "positive",
-          "score_pct": 0.0,
-          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-        },
-        {
-          "name": "Inteligência e ruas críticas",
-          "direction": "positive",
-          "score_pct": 9.0,
-          "text": "Sinal de inteligência recente em 0,0 e 1 referência(s) territoriais críticas."
-        },
-        {
-          "name": "Estrutura territorial",
-          "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-        },
-        {
-          "name": "Fatores de cautela",
-          "direction": "negative",
-          "score_pct": 4.0,
-          "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-        }
-      ],
-      "caveats": [
-        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-      ],
-      "signal_scores": {
-        "rank_strength": 0.9162,
-        "score_separation": 1.0,
-        "temporal_signal": 0.6,
-        "spatial_signal": 0.1229,
-        "event_signal": 0.0,
-        "intelligence_signal": 0.09,
-        "structural_signal": 0.625,
-        "market_signal": 0.0
-      },
-      "penalties": {
-        "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
         "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
@@ -35351,7 +34201,7 @@
     "name": "BOM JARDIM",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "INTERIOR",
+      "region_type": "FORTALEZA",
       "faction": "CV",
       "tier": "long_tail_20"
     },
@@ -35928,7 +34778,7 @@
     },
     "territorial_structure_metrics": {
       "tension_index": 0.5,
-      "region_type": "INTERIOR",
+      "region_type": "FORTALEZA",
       "faction": "CV"
     },
     "derived_indices": {
@@ -36448,7 +35298,7 @@
     },
     "territorial_structure_metrics": {
       "tension_index": 0.5,
-      "region_type": "INTERIOR",
+      "region_type": "FORTALEZA",
       "faction": "CV"
     },
     "derived_indices": {
@@ -37466,16 +36316,15 @@
       ]
     },
     "event_metrics": {
-      "events_count_total": 2,
-      "critical_event_count": 1,
+      "events_count_total": 1,
+      "critical_event_count": 0,
       "suppression_event_count": 1,
-      "event_types_count": 2,
+      "event_types_count": 1,
       "event_types": [
-        "HOMICIDIO A BALA",
         "PORTE ILEGAL"
       ],
-      "total_event_intensity": 2.0,
-      "conflict_intensity": 1.0,
+      "total_event_intensity": 1.0,
+      "conflict_intensity": 0.0,
       "suppression_intensity": 1.0
     },
     "intelligence_and_market_metrics": {
@@ -37508,21 +36357,21 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.4286,
       "conflict_neighbor_share": 0.2857,
-      "critical_event_share": 0.5,
-      "suppression_event_share": 0.5,
-      "conflict_to_suppression_intensity_ratio": 1.0,
+      "critical_event_share": 0.0,
+      "suppression_event_share": 1.0,
+      "conflict_to_suppression_intensity_ratio": 0.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0714,
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 88.4,
-      "confidence_label": "Alta",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.9432,
+      "confidence_pct": 77.7,
+      "confidence_label": "Moderada",
+      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
+      "evidence_confidence": 0.7792,
       "fallback_confidence_seed": 0.773,
-      "corroboration_count": 2,
+      "corroboration_count": 1,
       "components": [
         {
           "name": "Separação no ranking",
@@ -37551,8 +36400,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 80.0,
-          "text": "1 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 1,0."
+          "score_pct": 10.0,
+          "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -37569,28 +36418,29 @@
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 1.7,
+          "score_pct": 8.7,
           "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
-        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
+        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva."
       ],
       "signal_scores": {
         "rank_strength": 0.9584,
         "score_separation": 1.0,
         "temporal_signal": 0.15,
         "spatial_signal": 0.4074,
-        "event_signal": 0.8,
+        "event_signal": 0.1,
         "intelligence_signal": 0.27,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
       "penalties": {
         "suppression_penalty": 0.0167,
-        "sparse_penalty": 0.0,
+        "sparse_penalty": 0.05,
         "ambiguity_penalty": 0.0,
-        "conflict_ambiguity_penalty": 0.0
+        "conflict_ambiguity_penalty": 0.02
       }
     },
     "feature_channels": {
@@ -37939,7 +36789,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "MESSEJANA ocupa a posição #71 entre 1708 territórios, com score de 3,46/10 e confiança analítica de 88,4%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "MESSEJANA ocupa a posição #71 entre 1708 territórios, com score de 3,46/10 e confiança analítica de 77,7%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar MESSEJANA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
@@ -42132,15 +40982,13 @@
       ]
     },
     "event_metrics": {
-      "events_count_total": 1,
-      "critical_event_count": 1,
+      "events_count_total": 0,
+      "critical_event_count": 0,
       "suppression_event_count": 0,
-      "event_types_count": 1,
-      "event_types": [
-        "HOMICIDIO A BALA"
-      ],
-      "total_event_intensity": 1.0,
-      "conflict_intensity": 1.0,
+      "event_types_count": 0,
+      "event_types": [],
+      "total_event_intensity": 0.0,
+      "conflict_intensity": 0.0,
       "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
@@ -42173,21 +41021,21 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
-      "critical_event_share": 1.0,
+      "critical_event_share": 0.0,
       "suppression_event_share": 0.0,
-      "conflict_to_suppression_intensity_ratio": 1000000.0,
+      "conflict_to_suppression_intensity_ratio": 0.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0714,
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 82.7,
+      "confidence_pct": 70.7,
       "confidence_label": "Moderada",
-      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.8724,
+      "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
+      "evidence_confidence": 0.6884,
       "fallback_confidence_seed": 0.7425,
-      "corroboration_count": 2,
+      "corroboration_count": 1,
       "components": [
         {
           "name": "Separação no ranking",
@@ -42216,8 +41064,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 70.0,
-          "text": "1 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 1,0."
+          "score_pct": 0.0,
+          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -42230,23 +41078,32 @@
           "direction": "positive",
           "score_pct": 62.5,
           "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+        },
+        {
+          "name": "Fatores de cautela",
+          "direction": "negative",
+          "score_pct": 9.0,
+          "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
-      "caveats": [],
+      "caveats": [
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
+        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
+      ],
       "signal_scores": {
         "rank_strength": 0.9532,
         "score_separation": 0.8816,
         "temporal_signal": 0.15,
         "spatial_signal": 0.1212,
-        "event_signal": 0.7,
+        "event_signal": 0.0,
         "intelligence_signal": 0.09,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
       "penalties": {
         "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
-        "ambiguity_penalty": 0.0,
+        "sparse_penalty": 0.05,
+        "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
     },
@@ -42596,7 +41453,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "VICENTE PINZON ocupa a posição #80 entre 1708 territórios, com score de 2,85/10 e confiança analítica de 82,7%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "VICENTE PINZON ocupa a posição #80 entre 1708 territórios, com score de 2,85/10 e confiança analítica de 70,7%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar VICENTE PINZON como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
@@ -43688,16 +42545,14 @@
       ]
     },
     "event_metrics": {
-      "events_count_total": 1,
+      "events_count_total": 0,
       "critical_event_count": 0,
-      "suppression_event_count": 1,
-      "event_types_count": 1,
-      "event_types": [
-        "RAIO 04 CAUCAIA"
-      ],
-      "total_event_intensity": 1.0,
+      "suppression_event_count": 0,
+      "event_types_count": 0,
+      "event_types": [],
+      "total_event_intensity": 0.0,
       "conflict_intensity": 0.0,
-      "suppression_intensity": 1.0
+      "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
@@ -43730,7 +42585,7 @@
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
       "critical_event_share": 0.0,
-      "suppression_event_share": 1.0,
+      "suppression_event_share": 0.0,
       "conflict_to_suppression_intensity_ratio": 0.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
@@ -43738,10 +42593,10 @@
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 67.6,
+      "confidence_pct": 69.2,
       "confidence_label": "Baixa",
       "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.6431,
+      "evidence_confidence": 0.6678,
       "fallback_confidence_seed": 0.7365,
       "corroboration_count": 1,
       "components": [
@@ -43772,8 +42627,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 10.0,
-          "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
+          "score_pct": 0.0,
+          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -43790,12 +42645,11 @@
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 12.7,
-          "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+          "score_pct": 9.0,
+          "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
-        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
         "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
         "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
@@ -43804,16 +42658,16 @@
         "score_separation": 0.8189,
         "temporal_signal": 0.15,
         "spatial_signal": 0.1028,
-        "event_signal": 0.1,
+        "event_signal": 0.0,
         "intelligence_signal": 0.0,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
       "penalties": {
-        "suppression_penalty": 0.0167,
+        "suppression_penalty": 0.0,
         "sparse_penalty": 0.05,
         "ambiguity_penalty": 0.04,
-        "conflict_ambiguity_penalty": 0.02
+        "conflict_ambiguity_penalty": 0.0
       }
     },
     "feature_channels": {
@@ -44162,8 +43016,8 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "PARQUE DAS NACOES ocupa a posição #83 entre 1708 territórios, com score de 2,73/10 e confiança analítica de 67,6%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar PARQUE DAS NACOES como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "abstract_ptbr": "PARQUE DAS NACOES ocupa a posição #83 entre 1708 territórios, com score de 2,73/10 e confiança analítica de 69,2%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar PARQUE DAS NACOES como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },

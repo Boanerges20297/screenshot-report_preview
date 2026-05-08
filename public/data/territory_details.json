@@ -5,11 +5,11 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CORONEL CORREIA, S/N",
-    "summary": "Território em nível alto. Eventos exógenos recentes: 2. Tensão territorial atual em 78.10.",
+    "summary": "Território em nível alto. Eventos exógenos recentes: 1. Tensão territorial atual em 78.10.",
     "risk_score": 78.1,
     "status": "Alto"
   },
@@ -1687,11 +1687,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CAIO FACO, 791, CURIO",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 34.60.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 34.60.",
     "risk_score": 34.6,
     "status": "Baixo"
   },
@@ -1813,11 +1813,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA DA LUA (SEM NUMERO)",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 28.50.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 28.50.",
     "risk_score": 28.5,
     "status": "Baixo"
   },
@@ -1855,11 +1855,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 27.30.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 27.30.",
     "risk_score": 27.3,
     "status": "Baixo"
   },
@@ -2331,11 +2331,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA DO POCO, 48",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 24.90.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 24.90.",
     "risk_score": 24.9,
     "status": "Baixo"
   },
@@ -2681,11 +2681,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA ELIZEU ORIA COM RUA ESMERINO PARENTE",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 23.10.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 23.10.",
     "risk_score": 23.1,
     "status": "Baixo"
   },
@@ -24104,20 +24104,6 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
-    "critical_streets": "AV. MOZAR LUCENA, 1400",
-    "summary": "Território em nível baixo. Tensão territorial atual em 35.60.",
-    "risk_score": 35.6,
-    "status": "Baixo"
-  },
-  "interior:IGUATU": {
-    "name": "IGUATU",
-    "municipality": "IGUATU",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
     "summary": "Território em nível baixo. Tensão territorial atual em 16.90.",
     "risk_score": 16.9,
@@ -24325,11 +24311,11 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 13.10.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 13.10.",
     "risk_score": 13.1,
     "status": "Baixo"
   },
@@ -24758,7 +24744,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 4,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -24788,7 +24774,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
     "risk_score": 0.0,
     "status": "Baixo"
   },
@@ -24833,7 +24819,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -24883,7 +24869,7 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "Baixo"
   },
@@ -24953,27 +24939,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "VILA MARIANA",
-        "score": 5
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "Baixo"
-  },
-  "rmf:SAO GONCALO DO AMARANTE": {
-    "name": "SAO GONCALO DO AMARANTE",
-    "municipality": "SAO GONCALO DO AMARANTE",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -24983,7 +24949,7 @@
         "score": 4
       }
     ],
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "Baixo"
   },
