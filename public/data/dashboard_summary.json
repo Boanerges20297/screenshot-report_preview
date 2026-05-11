@@ -1,28 +1,28 @@
 {
   "global": {
     "total_nodes": 191,
-    "active_locations": 22,
-    "top_region": "fortaleza",
-    "top_name": "CURIO",
-    "avg_risk": 27.84
+    "active_locations": 10,
+    "top_region": "interior",
+    "top_name": "JUAZEIRO DO NORTE",
+    "avg_risk": 23.94
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 27.77,
-      "max_risk": 100.0,
-      "top_name": "CURIO"
+      "avg_risk": 22.68,
+      "max_risk": 70.0,
+      "top_name": "PARQUE IRACEMA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 16.87,
-      "max_risk": 98.7,
-      "top_name": "MARACANAU"
+      "avg_risk": 11.97,
+      "max_risk": 82.0,
+      "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 32.18,
-      "max_risk": 81.3,
+      "avg_risk": 31.55,
+      "max_risk": 94.3,
       "top_name": "JUAZEIRO DO NORTE"
     }
   }
