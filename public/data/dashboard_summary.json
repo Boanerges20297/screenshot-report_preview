@@ -1,15 +1,15 @@
 {
   "global": {
-    "total_nodes": 1708,
-    "active_locations": 15,
+    "total_nodes": 191,
+    "active_locations": 11,
     "top_region": "interior",
     "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 21.03
+    "avg_risk": 29.05
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 31.9,
+      "avg_risk": 31.96,
       "max_risk": 70.0,
       "top_name": "AEROLANDIA"
     },
@@ -21,7 +21,7 @@
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 31.55,
+      "avg_risk": 28.45,
       "max_risk": 94.3,
       "top_name": "JUAZEIRO DO NORTE"
     }
