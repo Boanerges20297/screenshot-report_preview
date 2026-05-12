@@ -227,6 +227,24 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+  align-items: center;
+}
+
+.layer-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 12px;
+  border-left: 1px solid rgba(15, 23, 42, 0.1);
+}
+
+.control-label {
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #64748b;
+  margin-right: 4px;
 }
 
 .region-pill,
@@ -414,6 +432,21 @@
 .leaflet-container {
   background: linear-gradient(180deg, #dbeafe, #e2e8f0);
   font-family: 'Bahnschrift', 'Aptos', 'Segoe UI', sans-serif;
+}
+
+.leaflet-tooltip {
+  background-color: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(15, 23, 42, 0.15);
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.1);
+  border-radius: 0;
+  padding: 8px 12px;
+}
+
+.territory-tooltip::before,
+.micronode-tooltip::before,
+.elite-tooltip::before,
+.top30-tooltip::before {
+  display: none; /* Hide default leaflet tooltip arrow */
 }
 
 .detail-panel h2,

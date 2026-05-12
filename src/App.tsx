@@ -23,6 +23,8 @@ function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [focusTrigger, setFocusTrigger] = useState(0)
   const [showMicronodes, setShowMicronodes] = useState(false)
+  const [showTop30, setShowTop30] = useState(true)
+  const [showEliteP10, setShowEliteP10] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -292,13 +294,33 @@ function App() {
             + Registrar Evento
           </button>
           
-          <button
-            type="button"
-            className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
-            onClick={() => setShowMicronodes((value) => !value)}
-          >
-            {showMicronodes ? 'Ocultar ORCRIM' : 'Mostrar ORCRIM'}
-          </button>
+          <div className="layer-controls">
+            <span className="control-label">Camadas Táticas:</span>
+            <button
+              type="button"
+              className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
+              onClick={() => setShowMicronodes((value) => !value)}
+            >
+              {showMicronodes ? 'Ocultar ORCRIM' : 'Mostrar ORCRIM'}
+            </button>
+
+            <button
+              type="button"
+              className={showTop30 ? 'toggle-button active' : 'toggle-button'}
+              onClick={() => setShowTop30((value) => !value)}
+            >
+              {showTop30 ? 'Ocultar Top 30' : 'Mostrar Top 30'}
+            </button>
+
+            <button
+              type="button"
+              className={showEliteP10 ? 'toggle-button active' : 'toggle-button'}
+              onClick={() => setShowEliteP10((value) => !value)}
+              style={showEliteP10 ? { backgroundColor: '#8b0000', color: 'white', borderColor: '#450000' } : {}}
+            >
+              {showEliteP10 ? 'Ocultar Elite P10' : 'Mostrar Elite P10'}
+            </button>
+          </div>
         </div>
       </section>
 
@@ -356,12 +378,15 @@ function App() {
             region={region}
             polygons={snapshot.polygons}
             top30={snapshot.top30[region]}
+            top30EliteP10={snapshot.top30EliteP10}
             micronodes={snapshot.micronodes}
             riskItems={regionalItems}
             territoryDetails={snapshot.territoryDetails}
             selectedId={selectedId}
             focusTrigger={focusTrigger}
             showMicronodes={showMicronodes}
+            showTop30={showTop30}
+            showEliteP10={showEliteP10}
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setFocusTrigger((n) => n + 1)

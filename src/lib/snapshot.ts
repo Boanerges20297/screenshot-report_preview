@@ -96,6 +96,7 @@ export type SnapshotData = {
   polygons: GeoFeatureCollection
   micronodes: GeoFeatureCollection
   top30: Record<RegionKey, GeoFeatureCollection>
+  top30EliteP10: GeoFeatureCollection
 }
 
 async function loadJson<T>(path: string): Promise<T> {
@@ -341,6 +342,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
     topFortaleza,
     topRmf,
     topInterior,
+    topEliteP10,
   ] = await Promise.all([
     loadJson<SnapshotManifest>('/data/manifest.json'),
     loadJson<RiskSnapshot>('/data/risk_snapshot.json'),
@@ -352,6 +354,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
     loadJson<GeoFeatureCollection>('/data/top30_capital.geojson'),
     loadJson<GeoFeatureCollection>('/data/top30_rmf.geojson'),
     loadJson<GeoFeatureCollection>('/data/top30_interior.geojson'),
+    loadJson<GeoFeatureCollection>('/data/top30_elite_p10.geojson'),
   ])
 
   const dedupedItems = dedupeRiskItems(risk.items)
@@ -380,6 +383,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
       rmf: topRmf,
       interior: topInterior,
     },
+    top30EliteP10: topEliteP10,
   }
 }
 
