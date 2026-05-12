@@ -19,6 +19,7 @@ type OperationalMapProps = {
   region: RegionKey
   polygons: GeoFeatureCollection
   top30: GeoFeatureCollection
+  top30EliteP10: GeoFeatureCollection
   micronodes: GeoFeatureCollection
   riskItems: RiskItem[]
   territoryDetails: Record<string, TerritoryDetail>
