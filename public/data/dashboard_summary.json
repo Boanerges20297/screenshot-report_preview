@@ -1,22 +1,22 @@
 {
   "global": {
-    "total_nodes": 191,
-    "active_locations": 10,
+    "total_nodes": 1708,
+    "active_locations": 15,
     "top_region": "interior",
     "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 23.94
+    "avg_risk": 21.03
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 22.68,
+      "avg_risk": 31.9,
       "max_risk": 70.0,
-      "top_name": "PARQUE IRACEMA"
+      "top_name": "AEROLANDIA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 11.97,
-      "max_risk": 82.0,
+      "avg_risk": 5.93,
+      "max_risk": 72.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
