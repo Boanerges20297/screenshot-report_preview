@@ -19,17 +19,11 @@
         "crítico": 1,
         "moderado": 13
       },
-      "nan": {
-        "alto": 0,
-        "baixo": 1517,
-        "crítico": 0,
-        "moderado": 0
-      },
       "rmf": {
         "alto": 0,
-        "baixo": 18,
+        "baixo": 17,
         "crítico": 1,
-        "moderado": 0
+        "moderado": 1
       }
     },
     "efficiency_metrics": {
@@ -73,7 +67,6 @@
         "p20": 0.25,
         "p5": 0.6,
         "ranking_top10": [
-          "AEROLANDIA",
           "PARQUE IRACEMA",
           "AEROLANDIA",
           "CURIO",
@@ -205,35 +198,35 @@
         ],
         "hits10": [
           "CAUCAIA",
-          "TRAIRI",
           "ITAITINGA",
-          "HORIZONTE"
+          "HORIZONTE",
+          "TRAIRI"
         ],
         "hits20": [
           "CAUCAIA",
-          "TRAIRI",
           "ITAITINGA",
-          "HORIZONTE"
+          "HORIZONTE",
+          "TRAIRI"
         ],
         "hits5": [
           "CAUCAIA",
-          "TRAIRI",
-          "ITAITINGA"
+          "ITAITINGA",
+          "HORIZONTE"
         ],
         "p10": 0.4,
         "p20": 0.2105,
         "p5": 0.6,
         "ranking_top10": [
           "CAUCAIA",
-          "TRAIRI",
           "MARACANAU",
           "ITAITINGA",
-          "PACAJUS",
+          "PARAIPABA",
           "HORIZONTE",
+          "TRAIRI",
           "PACATUBA",
           "PINDORETAMA",
-          "PARAIPABA",
-          "EUSEBIO"
+          "EUSEBIO",
+          "SAO LUIS DO CURU"
         ],
         "recall10": 1.0,
         "recall20": 1.0,
@@ -288,7 +281,7 @@
     "top10": [
       {
         "name": "JUAZEIRO DO NORTE",
-        "node_id": 3196,
+        "node_id": 122,
         "region_type": "interior",
         "risk_score": 94.3,
         "status_label": "CRÍTICO"
@@ -360,15 +353,8 @@
     "top10_by_region": {
       "fortaleza": [
         {
-          "name": "AEROLANDIA",
-          "node_id": 0,
-          "region_type": "fortaleza",
-          "risk_score": 70.0,
-          "status_label": "ALTO"
-        },
-        {
-          "name": "AEROLANDIA",
-          "node_id": 0,
+          "name": "PARQUE IRACEMA",
+          "node_id": 77,
           "region_type": "fortaleza",
           "risk_score": 70.0,
           "status_label": "ALTO"
@@ -454,14 +440,14 @@
         },
         {
           "name": "ARATUBA",
-          "node_id": 3203,
+          "node_id": 129,
           "region_type": "interior",
           "risk_score": 51.9,
           "status_label": "ALTO"
         },
         {
           "name": "CARIRE",
-          "node_id": 3207,
+          "node_id": 133,
           "region_type": "interior",
           "risk_score": 48.0,
           "status_label": "MODERADO"
@@ -514,70 +500,70 @@
           "name": "CAUCAIA",
           "node_id": 173,
           "region_type": "rmf",
-          "risk_score": 72.0,
+          "risk_score": 82.0,
           "status_label": "CRÍTICO"
-        },
-        {
-          "name": "TRAIRI",
-          "node_id": 3260,
-          "region_type": "rmf",
-          "risk_score": 16.8,
-          "status_label": "BAIXO"
         },
         {
           "name": "MARACANAU",
           "node_id": 172,
           "region_type": "rmf",
-          "risk_score": 13.9,
-          "status_label": "BAIXO"
+          "risk_score": 33.3,
+          "status_label": "MODERADO"
         },
         {
           "name": "ITAITINGA",
-          "node_id": 3254,
+          "node_id": 180,
           "region_type": "rmf",
-          "risk_score": 9.9,
-          "status_label": "BAIXO"
-        },
-        {
-          "name": "PACAJUS",
-          "node_id": 3248,
-          "region_type": "rmf",
-          "risk_score": 0.0,
-          "status_label": "BAIXO"
-        },
-        {
-          "name": "HORIZONTE",
-          "node_id": 3249,
-          "region_type": "rmf",
-          "risk_score": 0.0,
-          "status_label": "BAIXO"
-        },
-        {
-          "name": "PACATUBA",
-          "node_id": 3250,
-          "region_type": "rmf",
-          "risk_score": 0.0,
-          "status_label": "BAIXO"
-        },
-        {
-          "name": "PINDORETAMA",
-          "node_id": 3251,
-          "region_type": "rmf",
-          "risk_score": 0.0,
+          "risk_score": 24.6,
           "status_label": "BAIXO"
         },
         {
           "name": "PARAIPABA",
-          "node_id": 3252,
+          "node_id": 178,
           "region_type": "rmf",
-          "risk_score": 0.0,
+          "risk_score": 14.5,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "HORIZONTE",
+          "node_id": 175,
+          "region_type": "rmf",
+          "risk_score": 12.4,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "TRAIRI",
+          "node_id": 186,
+          "region_type": "rmf",
+          "risk_score": 10.6,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "PACAJUS",
+          "node_id": 174,
+          "region_type": "rmf",
+          "risk_score": 10.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "PACATUBA",
+          "node_id": 176,
+          "region_type": "rmf",
+          "risk_score": 10.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "PINDORETAMA",
+          "node_id": 177,
+          "region_type": "rmf",
+          "risk_score": 10.0,
           "status_label": "BAIXO"
         },
         {
           "name": "EUSEBIO",
-          "node_id": 3253,
+          "node_id": 179,
           "region_type": "rmf",
-          "risk_score": 0.0,
+          "risk_score": 10.0,
           "status_label": "BAIXO"
         }
       ]
@@ -587,7 +573,7 @@
   "items": [
     {
       "id": "interior:JUAZEIRO DO NORTE",
-      "node_id": 3196,
+      "node_id": 122,
       "name": "JUAZEIRO DO NORTE",
       "clean_name": "JUAZEIRO DO NORTE",
       "region": "interior",
@@ -1340,7 +1326,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 46.3,
+      "tension_index": 33.9,
       "status": "MODERADO",
       "trend": "stable",
       "summary": "**FARIAS BRITO** está na posição **#38** do ranking, com score **3.39/10** e confiança **68.4%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
@@ -1426,30 +1412,10 @@
       "summary": "**MARACANAU** está na posição **#42** do ranking, com score **3.33/10** e confiança **77.7%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
     },
     {
-      "id": "interior:JAGUARUANA",
-      "node_id": 3229,
-      "name": "JAGUARUANA",
-      "clean_name": "JAGUARUANA",
-      "region": "interior",
-      "municipality": "JAGUARUANA",
-      "score": 40.5,
-      "rank_region": 14,
-      "rank_global": 29,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "OKAIDA",
-      "tension_index": 40.5,
-      "status": "MODERADO",
-      "trend": "stable",
-      "summary": "**JAGUARUANA** está na posição **#40** do ranking, com score **4.05/10** e confiança **74.3%** — identificada como área de alta prioridade tática. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
-    },
-    {
-      "id": "fortaleza:CENTRO",
-      "node_id": 20,
-      "name": "CENTRO",
-      "clean_name": "CENTRO",
+      "id": "fortaleza:PICI",
+      "node_id": 89,
+      "name": "PICI",
+      "clean_name": "PICI",
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 33.1,
@@ -3867,7 +3833,7 @@
     },
     {
       "id": "interior:ITAREMA",
-      "node_id": 3223,
+      "node_id": 149,
       "name": "ITAREMA",
       "clean_name": "ITAREMA",
       "region": "interior",
@@ -4020,7 +3986,7 @@
       "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 13.9,
+      "tension_index": 14.5,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "Território em nível baixo. Tensão territorial atual em 14.50."
@@ -4067,14 +4033,94 @@
     },
     {
       "id": "interior:FORQUILHA",
-      "node_id": 3232,
+      "node_id": 158,
       "name": "FORQUILHA",
       "clean_name": "FORQUILHA",
       "region": "interior",
       "municipality": "FORQUILHA",
       "score": 10.0,
       "rank_region": 48,
-      "rank_global": 1688,
+      "rank_global": 174,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 10.0,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "Território em nível baixo. Tensão territorial atual em 10.00."
+    },
+    {
+      "id": "rmf:PACAJUS",
+      "node_id": 174,
+      "name": "PACAJUS",
+      "clean_name": "PACAJUS",
+      "region": "rmf",
+      "municipality": "PACAJUS",
+      "score": 10.0,
+      "rank_region": 7,
+      "rank_global": 175,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 10.0,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "Território em nível baixo. Tensão territorial atual em 10.00."
+    },
+    {
+      "id": "rmf:PACATUBA",
+      "node_id": 176,
+      "name": "PACATUBA",
+      "clean_name": "PACATUBA",
+      "region": "rmf",
+      "municipality": "PACATUBA",
+      "score": 10.0,
+      "rank_region": 8,
+      "rank_global": 176,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 10.0,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "Território em nível baixo. Tensão territorial atual em 10.00."
+    },
+    {
+      "id": "rmf:PINDORETAMA",
+      "node_id": 177,
+      "name": "PINDORETAMA",
+      "clean_name": "PINDORETAMA",
+      "region": "rmf",
+      "municipality": "PINDORETAMA",
+      "score": 10.0,
+      "rank_region": 9,
+      "rank_global": 177,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
+      "recent_exogenous": 0,
+      "faction": "CV",
+      "tension_index": 10.0,
+      "status": "BAIXO",
+      "trend": "stable",
+      "summary": "Território em nível baixo. Tensão territorial atual em 10.00."
+    },
+    {
+      "id": "rmf:EUSEBIO",
+      "node_id": 179,
+      "name": "EUSEBIO",
+      "clean_name": "EUSEBIO",
+      "region": "rmf",
+      "municipality": "EUSEBIO",
+      "score": 10.0,
+      "rank_region": 10,
+      "rank_global": 178,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -4091,19 +4137,19 @@
       "name": "SAO LUIS DO CURU",
       "clean_name": "SAO LUIS DO CURU",
       "region": "rmf",
-      "municipality": "ITAITINGA",
-      "score": 9.9,
-      "rank_region": 4,
-      "rank_global": 1689,
-      "momentum_7d": 1.0,
-      "momentum_14d": 1.0,
-      "recent_cvli": 1,
+      "municipality": "SAO LUIS DO CURU",
+      "score": 10.0,
+      "rank_region": 11,
+      "rank_global": 179,
+      "momentum_7d": 0.0,
+      "momentum_14d": 0.0,
+      "recent_cvli": 0,
       "recent_exogenous": 0,
       "faction": "CV",
-      "tension_index": 9.9,
+      "tension_index": 10.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 9.90."
+      "summary": "Território em nível baixo. Tensão territorial atual em 10.00."
     },
     {
       "id": "interior:TEJUCUOCA",
@@ -4186,146 +4232,6 @@
       "summary": "Território em nível baixo."
     },
     {
-      "id": "rmf:PACAJUS",
-      "node_id": 3248,
-      "name": "PACAJUS",
-      "clean_name": "PACAJUS",
-      "region": "rmf",
-      "municipality": "PACAJUS",
-      "score": 0.0,
-      "rank_region": 5,
-      "rank_global": 1694,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
-      "id": "rmf:HORIZONTE",
-      "node_id": 3249,
-      "name": "HORIZONTE",
-      "clean_name": "HORIZONTE",
-      "region": "rmf",
-      "municipality": "HORIZONTE",
-      "score": 0.0,
-      "rank_region": 6,
-      "rank_global": 1695,
-      "momentum_7d": 0.0,
-      "momentum_14d": -1.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento."
-    },
-    {
-      "id": "rmf:PACATUBA",
-      "node_id": 3250,
-      "name": "PACATUBA",
-      "clean_name": "PACATUBA",
-      "region": "rmf",
-      "municipality": "PACATUBA",
-      "score": 0.0,
-      "rank_region": 7,
-      "rank_global": 1696,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
-      "id": "rmf:PINDORETAMA",
-      "node_id": 3251,
-      "name": "PINDORETAMA",
-      "clean_name": "PINDORETAMA",
-      "region": "rmf",
-      "municipality": "PINDORETAMA",
-      "score": 0.0,
-      "rank_region": 8,
-      "rank_global": 1697,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
-      "id": "rmf:PARAIPABA",
-      "node_id": 3252,
-      "name": "PARAIPABA",
-      "clean_name": "PARAIPABA",
-      "region": "rmf",
-      "municipality": "PARAIPABA",
-      "score": 0.0,
-      "rank_region": 9,
-      "rank_global": 1698,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
-      "id": "rmf:EUSEBIO",
-      "node_id": 3253,
-      "name": "EUSEBIO",
-      "clean_name": "EUSEBIO",
-      "region": "rmf",
-      "municipality": "EUSEBIO",
-      "score": 0.0,
-      "rank_region": 10,
-      "rank_global": 1699,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
-      "id": "rmf:SAO LUIS DO CURU",
-      "node_id": 3255,
-      "name": "SAO LUIS DO CURU",
-      "clean_name": "SAO LUIS DO CURU",
-      "region": "rmf",
-      "municipality": "SAO LUIS DO CURU",
-      "score": 0.0,
-      "rank_region": 11,
-      "rank_global": 1700,
-      "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
-      "recent_cvli": 0,
-      "recent_exogenous": 0,
-      "faction": "CV",
-      "tension_index": 0.0,
-      "status": "BAIXO",
-      "trend": "stable",
-      "summary": "Território em nível baixo."
-    },
-    {
       "id": "rmf:AQUIRAZ",
       "node_id": 182,
       "name": "AQUIRAZ",
@@ -4334,7 +4240,7 @@
       "municipality": "AQUIRAZ",
       "score": 0.0,
       "rank_region": 12,
-      "rank_global": 1701,
+      "rank_global": 184,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -4354,7 +4260,7 @@
       "municipality": "PARACURU",
       "score": 0.0,
       "rank_region": 13,
-      "rank_global": 1702,
+      "rank_global": 185,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -4374,7 +4280,7 @@
       "municipality": "MARANGUAPE",
       "score": 0.0,
       "rank_region": 14,
-      "rank_global": 1703,
+      "rank_global": 186,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,

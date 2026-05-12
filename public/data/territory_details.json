@@ -781,51 +781,60 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
-    "critical_streets": "RUA FREI HUMBERTO, 57",
-    "summary": "Território em nível moderado. Tensão territorial atual em 33.70.",
-    "risk_score": 33.7,
-    "status": "MODERADO"
-  },
-  "fortaleza:CAMBEBA": {
-    "name": "CAMBEBA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Tensão territorial atual em 33.60.",
-    "risk_score": 33.6,
-    "status": "MODERADO"
-  },
-  "fortaleza:BARRA DO CEARA": {
-    "name": "BARRA DO CEARA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
-    "summary": "Território em nível moderado. Tensão territorial atual em 33.40.",
-    "risk_score": 33.4,
-    "status": "MODERADO"
-  },
-  "fortaleza:BONSUCESSO": {
-    "name": "BONSUCESSO",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível moderado. Tensão territorial atual em 33.40.",
-    "risk_score": 33.4,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "CONJUNTO PALMEIRAS",
+        "score": 3
+      },
+      {
+        "cvli": 0,
+        "loc": "JARI",
+        "score": 32
+      },
+      {
+        "cvli": 0,
+        "loc": "AVENIDA EDSON MAGALHÃES",
+        "score": 19
+      },
+      {
+        "cvli": 0,
+        "loc": "BOM JARDIM",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALVORADA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MUCUNA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RESIDENCIAL JABUTI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA NOVA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BOM JESUS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JAGATA",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível moderado. Tensão territorial atual em 33.30.",
+    "risk_score": 33.3,
     "status": "MODERADO"
   },
   "fortaleza:PICI": {
@@ -1495,8 +1504,8 @@
     "risk_score": 29.5,
     "status": "BAIXO"
   },
-  "fortaleza:SAPIRANGA / COITE": {
-    "name": "SAPIRANGA / COITE",
+  "fortaleza:CAIS DO PORTO": {
+    "name": "CAIS DO PORTO",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -3191,101 +3200,8 @@
         "score": 16
       }
     ],
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 16.80.",
-    "risk_score": 16.8,
-    "status": "BAIXO"
-  },
-  "interior:ITAREMA": {
-    "name": "ITAREMA",
-    "municipality": "ITAREMA",
-    "region": "interior",
-    "faction": "TCP/GDE",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 15.90.",
-    "risk_score": 15.9,
-    "status": "BAIXO"
-  },
-  "rmf:MARACANAU": {
-    "name": "MARACANAU",
-    "municipality": "MARACANAU",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "CONJUNTO PALMEIRAS",
-        "score": 3
-      },
-      {
-        "cvli": 0,
-        "loc": "JARI",
-        "score": 32
-      },
-      {
-        "cvli": 0,
-        "loc": "AVENIDA EDSON MAGALHÃES",
-        "score": 19
-      },
-      {
-        "cvli": 0,
-        "loc": "BOM JARDIM",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "ALVORADA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "MUCUNA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RESIDENCIAL JABUTI",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA NOVA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BOM JESUS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JAGATA",
-        "score": 16
-      }
-    ],
-    "summary": "Território em nível baixo. Tensão territorial atual em 13.90.",
-    "risk_score": 13.9,
-    "status": "BAIXO"
-  },
-  "interior:JIJOCA DE JERICOACOARA": {
-    "name": "JIJOCA DE JERICOACOARA",
-    "municipality": "JIJOCA DE JERICOACOARA",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo. Tensão territorial atual em 12.70.",
-    "risk_score": 12.7,
+    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 10.60.",
+    "risk_score": 10.6,
     "status": "BAIXO"
   },
   "interior:FORQUILHA": {
@@ -3333,69 +3249,173 @@
     "risk_score": 10.0,
     "status": "BAIXO"
   },
-  "rmf:ITAITINGA": {
-    "name": "ITAITINGA",
-    "municipality": "ITAITINGA",
+  "rmf:PACAJUS": {
+    "name": "PACAJUS",
+    "municipality": "PACAJUS",
     "region": "rmf",
     "faction": "CV",
-    "recent_cvli": 1,
+    "recent_cvli": 0,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
     "critical_streets": [
       {
-        "cvli": 2,
-        "loc": "ANCURI",
-        "score": 8
-      },
-      {
         "cvli": 1,
-        "loc": "CARACANGA",
+        "loc": "RUA DORALICE MARQUÊS DA SILVA",
         "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA QUATORZE",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "PEDRAS",
-        "score": 18
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO ALTO DO BODE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CARAPIO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "MULTIRAO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "LAJE DOS GATOS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "ITAITINGA",
-        "score": 2
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA JOÃO FLORINDO RODRIGUES",
-        "score": 2
       }
     ],
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 9.90.",
-    "risk_score": 9.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
+    "status": "BAIXO"
+  },
+  "rmf:PACATUBA": {
+    "name": "PACATUBA",
+    "municipality": "PACATUBA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR H",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR F",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR G",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA RICA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "QUIOBAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CACHOEIRA DO PARAISO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRACINHA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO SAO LUIS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENTO",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
+    "status": "BAIXO"
+  },
+  "rmf:PINDORETAMA": {
+    "name": "PINDORETAMA",
+    "municipality": "PINDORETAMA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
+    "status": "BAIXO"
+  },
+  "rmf:EUSEBIO": {
+    "name": "EUSEBIO",
+    "municipality": "EUSEBIO",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JABUTI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ANCURI",
+        "score": 5
+      },
+      {
+        "cvli": 0,
+        "loc": "CONDOMÍNIO VILA DI FIORI",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "COACU",
+        "score": 3
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTA CLARA",
+        "score": 2
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA ITAJAÍ",
+        "score": 2
+      },
+      {
+        "cvli": 0,
+        "loc": "AVENIDA PARNAMIRIM",
+        "score": 2
+      },
+      {
+        "cvli": 0,
+        "loc": "EUSEBIO",
+        "score": 1
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
+    "status": "BAIXO"
+  },
+  "rmf:SAO LUIS DO CURU": {
+    "name": "SAO LUIS DO CURU",
+    "municipality": "SAO LUIS DO CURU",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PANTANAL",
+        "score": 16
+      }
+    ],
+    "summary": "Território em nível baixo. Tensão territorial atual em 10.00.",
+    "risk_score": 10.0,
     "status": "BAIXO"
   },
   "interior:TEJUCUOCA": {
@@ -3472,250 +3492,6 @@
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:PACAJUS": {
-    "name": "PACAJUS",
-    "municipality": "PACAJUS",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA DORALICE MARQUÊS DA SILVA",
-        "score": 4
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:HORIZONTE": {
-    "name": "HORIZONTE",
-    "municipality": "HORIZONTE",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": -1.0,
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA PROFESSORA MARIA OZELIA COSTA DE OLIVEIRA",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA CATU",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "HORIZONTE",
-        "score": 4
-      }
-    ],
-    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:PACATUBA": {
-    "name": "PACATUBA",
-    "municipality": "PACATUBA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR H",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR F",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR G",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA RICA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "QUIOBAL",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CACHOEIRA DO PARAISO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PRACINHA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO SAO LUIS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SAO BENTO",
-        "score": 16
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:PINDORETAMA": {
-    "name": "PINDORETAMA",
-    "municipality": "PINDORETAMA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:PARAIPABA": {
-    "name": "PARAIPABA",
-    "municipality": "PARAIPABA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "CORRÉGO DO MATO",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "SETOR C1",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SETOR C2",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CAMBOAS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BOA VISTA",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "SETOR E",
-        "score": 8
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:EUSEBIO": {
-    "name": "EUSEBIO",
-    "municipality": "EUSEBIO",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "JABUTI",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "ANCURI",
-        "score": 5
-      },
-      {
-        "cvli": 0,
-        "loc": "CONDOMÍNIO VILA DI FIORI",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "COACU",
-        "score": 3
-      },
-      {
-        "cvli": 0,
-        "loc": "SANTA CLARA",
-        "score": 2
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA ITAJAÍ",
-        "score": 2
-      },
-      {
-        "cvli": 0,
-        "loc": "AVENIDA PARNAMIRIM",
-        "score": 2
-      },
-      {
-        "cvli": 0,
-        "loc": "EUSEBIO",
-        "score": 1
-      }
-    ],
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:SAO LUIS DO CURU": {
-    "name": "SAO LUIS DO CURU",
-    "municipality": "SAO LUIS DO CURU",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "PANTANAL",
-        "score": 16
-      }
-    ],
     "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
