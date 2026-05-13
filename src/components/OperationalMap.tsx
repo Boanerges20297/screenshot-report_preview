@@ -40,8 +40,8 @@ type SelectableLayer = Layer & {
 }
 
 const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }> = {
-  fortaleza: { center: [-3.79, -38.54], zoom: 11 },
-  rmf: { center: [-3.78, -38.7], zoom: 9 },
+  fortaleza: { center: [-4.04, -38.53], zoom: 12 },
+  rmf: { center: [-3.78, -38.7], zoom: 10 },
   interior: { center: [-5.1, -39.6], zoom: 7 },
 }
 
@@ -74,23 +74,9 @@ function FitToRegion({ polygons, region }: { polygons: GeoFeatureCollection; reg
   const map = useMap()
 
   useEffect(() => {
-    const bounds = L.latLngBounds([])
-    const regionLayers = L.geoJSON(toFeatureCollection(polygons) as never, {
-      filter: (feature) => normalizeLookupName(String(feature?.properties?.region ?? feature?.properties?.region_type ?? '')) === normalizeLookupName(region),
-    })
-
-    if (regionLayers.getLayers().length > 0) {
-      bounds.extend(regionLayers.getBounds())
-    }
-
-    if (bounds.isValid()) {
-      map.fitBounds(bounds.pad(0.03), { animate: true, maxZoom: REGION_VIEW[region].zoom })
-      return
-    }
-
-    const fallback = REGION_VIEW[region]
-    map.setView(fallback.center, fallback.zoom)
-  }, [map, polygons, region])
+    const view = REGION_VIEW[region]
+    map.setView(view.center, view.zoom, { animate: true })
+  }, [map, region])
 
   return null
 }
@@ -130,7 +116,12 @@ function FocusSelectedTerritory({
     if (typeof selectedLayer.getBounds === 'function') {
       const bounds = selectedLayer.getBounds()
       if (bounds.isValid()) {
-        map.fitBounds(bounds.pad(0.35), { animate: true, maxZoom: Math.max(REGION_VIEW[region].zoom + 1, 12) })
+        map.fitBounds(bounds.pad(0.35), { 
+          animate: true, 
+          maxZoom: Math.max(REGION_VIEW[region].zoom + 1, 12),
+          paddingTopLeft: [0, 80],
+          paddingBottomRight: [0, 100]
+        })
       }
     }
     if (typeof selectedLayer.openPopup === 'function') {

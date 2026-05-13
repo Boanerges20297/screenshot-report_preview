@@ -335,7 +335,7 @@ function App() {
             <span className="risk-dot" style={{ backgroundColor: riskLevelColor(topRegionalItems[0]?.score ?? 0) }} />
           </div>
 
-          <div className="top-list">
+          <div className="top-list scroll-area">
             {topRegionalItems.map((item) => (
               <button
                 type="button"
@@ -399,97 +399,102 @@ function App() {
             <>
               <p className="eyebrow">Território selecionado</p>
               <h2>{selectedRisk.name}</h2>
-              <div className="detail-grid">
-                <div>
-                  <span>Score</span>
-                  <strong>{selectedRisk.score?.toFixed(1) ?? '0.0'}%</strong>
+              
+              <div className="detail-content scroll-area">
+                <div className="detail-grid">
+                  <div>
+                    <span>Score</span>
+                    <strong>{selectedRisk.score?.toFixed(1) ?? '0.0'}%</strong>
+                  </div>
+                  <div>
+                    <span>Facção</span>
+                    <strong>{selectedTerritory?.faction ?? selectedRisk.faction ?? 'N/A'}</strong>
+                  </div>
+                  <div>
+                    <span>Momentum 7d</span>
+                    <strong>{selectedTerritory?.momentum_7d ?? selectedRisk.momentum_7d ?? 0}</strong>
+                  </div>
+                  <div>
+                    <span>Momentum 14d</span>
+                    <strong>{selectedTerritory?.momentum_14d ?? selectedRisk.momentum_14d ?? 0}</strong>
+                  </div>
+                  <div>
+                    <span>CVLI recente</span>
+                    <strong>{selectedTerritory?.recent_cvli ?? selectedRisk.recent_cvli ?? 0}</strong>
+                  </div>
+                  <div>
+                    <span>Exógenos</span>
+                    <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
+                  </div>
                 </div>
-                <div>
-                  <span>Facção</span>
-                  <strong>{selectedTerritory?.faction ?? selectedRisk.faction ?? 'N/A'}</strong>
-                </div>
-                <div>
-                  <span>Momentum 7d</span>
-                  <strong>{selectedTerritory?.momentum_7d ?? selectedRisk.momentum_7d ?? 0}</strong>
-                </div>
-                <div>
-                  <span>Momentum 14d</span>
-                  <strong>{selectedTerritory?.momentum_14d ?? selectedRisk.momentum_14d ?? 0}</strong>
-                </div>
-                <div>
-                  <span>CVLI recente</span>
-                  <strong>{selectedTerritory?.recent_cvli ?? selectedRisk.recent_cvli ?? 0}</strong>
-                </div>
-                <div>
-                  <span>Exógenos</span>
-                  <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
-                </div>
-              </div>
 
-              <div className="detail-copy">
-                <h3>Leitura congelada</h3>
-                <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
-              </div>
+                <div className="detail-copy">
+                  <h3>Leitura congelada</h3>
+                  <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
+                </div>
 
-              <div className="detail-copy">
-                <h3>Logradouros críticos</h3>
-                <p>{formatCriticalStreets(selectedTerritory)}</p>
-              </div>
+                <div className="detail-copy">
+                  <h3>Logradouros críticos</h3>
+                  <p>{formatCriticalStreets(selectedTerritory)}</p>
+                </div>
 
-              <div className="recommendation-box">
-                <span>Auditoria E-GCN · IA</span>
-                {aiRec.loading ? (
-                  <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA...</p>
-                ) : aiRec.error ? (
-                  <p style={{ opacity: 0.55, fontSize: '0.82em' }}>
-                    Falha na análise via IA: {aiRec.error}
-                  </p>
-                ) : aiRec.text ? (
-                  <p>{aiRec.text}</p>
-                ) : (
-                  <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando seleção de território...</p>
-                )}
+                <div className="recommendation-box">
+                  <span>Auditoria E-GCN · IA</span>
+                  {aiRec.loading ? (
+                    <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA...</p>
+                  ) : aiRec.error ? (
+                    <p style={{ opacity: 0.55, fontSize: '0.82em' }}>
+                      Falha na análise via IA: {aiRec.error}
+                    </p>
+                  ) : aiRec.text ? (
+                    <p>{aiRec.text}</p>
+                  ) : (
+                    <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando seleção de território...</p>
+                  )}
+                </div>
               </div>
             </>
           ) : (
             <>
               <p className="eyebrow">Visão regional</p>
               <h2>{REGION_LABELS[region]}</h2>
-              <div className="detail-grid">
-                <div>
-                  <span>Localidades</span>
-                  <strong>{regionalSummary?.total_nodes ?? 0}</strong>
+              <div className="detail-content scroll-area">
+                <div className="detail-grid">
+                  <div>
+                    <span>Localidades</span>
+                    <strong>{regionalSummary?.total_nodes ?? 0}</strong>
+                  </div>
+                  <div>
+                    <span>Saturação</span>
+                    <strong>
+                      {regionalSummary?.total_nodes
+                        ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
+                        : '0'}%
+                    </strong>
+                  </div>
+                  <div>
+                    <span>Críticos</span>
+                    <strong>{regionalCriticalCount}</strong>
+                  </div>
+                  <div>
+                    <span>Altos</span>
+                    <strong>{regionalHighCount}</strong>
+                  </div>
+                  <div>
+                    <span>Em alerta</span>
+                    <strong>{regionalPriorityCount}</strong>
+                  </div>
+                  <div>
+                    <span>Líder</span>
+                    <strong>{regionalLeader?.name ?? 'N/A'}</strong>
+                  </div>
                 </div>
-                <div>
-                  <span>Saturação</span>
-                  <strong>
-                    {regionalSummary?.total_nodes
-                      ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
-                      : '0'}%
-                  </strong>
+                <div className="detail-copy" style={{ marginTop: '1rem' }}>
+                  <h3>Orientação</h3>
+                  <p>
+                    Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica do modelo E-GCN.
+                  </p>
                 </div>
-                <div>
-                  <span>Críticos</span>
-                  <strong>{regionalCriticalCount}</strong>
-                </div>
-                <div>
-                  <span>Altos</span>
-                  <strong>{regionalHighCount}</strong>
-                </div>
-                <div>
-                  <span>Em alerta</span>
-                  <strong>{regionalPriorityCount}</strong>
-                </div>
-                <div>
-                  <span>Líder</span>
-                  <strong>{regionalLeader?.name ?? 'N/A'}</strong>
-                </div>
-              </div>
-              <div className="detail-copy" style={{ marginTop: '1rem' }}>
-                <h3>Orientação</h3>
-                <p>
-                  Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica do modelo E-GCN.
-                </p>
               </div>
             </>
           )}
