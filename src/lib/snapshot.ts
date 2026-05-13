@@ -46,6 +46,7 @@ export type RiskItem = {
   recent_cvli: number
   recent_exogenous: number
   faction: string
+  peak_hours?: string
   tension_index: number
   status: string
   trend: string
@@ -62,6 +63,7 @@ export type TerritoryDetail = {
   momentum_7d: number
   momentum_14d: number
   critical_streets: string | Array<{ loc: string; cvli: number; score: number }>
+  peak_hours?: string
   summary: string
   risk_score: number
   status: string
@@ -158,6 +160,15 @@ function normalizePolygonLookupName(value: string): string {
   return normalizeLookupName(String(value || '').replace(/\s*-\s*AIS.*$/i, ''))
 }
 
+function extractPeakHours(value: { peak_hours?: string | null } | null | undefined, metrics?: Record<string, unknown> | null): string {
+  const direct = String(value?.peak_hours ?? '').trim()
+  if (direct) {
+    return direct
+  }
+  const nested = String(metrics?.peak_hours ?? '').trim()
+  return nested
+}
+
 function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
   const dedupedById = new Map<string, RiskItem>()
 
@@ -167,6 +178,7 @@ function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
       region: normalizeRegion(rawItem.region),
       id: rawItem.id || buildTerritoryId(rawItem.region, rawItem.name),
       clean_name: rawItem.clean_name || normalizeLookupName(rawItem.name),
+      peak_hours: extractPeakHours(rawItem),
     }
     const existing = dedupedById.get(normalizedItem.id)
 
@@ -183,6 +195,7 @@ function dedupeRiskItems(items: RiskItem[]): RiskItem[] {
       node_id: existing.node_id ?? normalizedItem.node_id,
       recent_cvli: Math.max(existing.recent_cvli, normalizedItem.recent_cvli),
       recent_exogenous: Math.max(existing.recent_exogenous, normalizedItem.recent_exogenous),
+      peak_hours: existing.peak_hours || normalizedItem.peak_hours,
       momentum_7d: Math.abs(normalizedItem.momentum_7d) > Math.abs(existing.momentum_7d)
         ? normalizedItem.momentum_7d
         : existing.momentum_7d,
@@ -316,12 +329,14 @@ function enrichPolygonsWithRisk(polygons: GeoFeatureCollection, riskItems: RiskI
           rank_global: riskItem?.rank_global ?? null,
           status_label: riskItem?.status ?? null,
           trend: riskItem?.trend ?? null,
+          peak_hours: (extractPeakHours(riskItem, feature.properties?.metrics as Record<string, unknown> | null) || feature.properties?.peak_hours) ?? null,
           metrics: riskItem
             ? {
                 momentum_7d: riskItem.momentum_7d,
                 momentum_14d: riskItem.momentum_14d,
                 recent_cvli: riskItem.recent_cvli,
                 recent_exogenous: riskItem.recent_exogenous,
+                peak_hours: extractPeakHours(riskItem) || null,
               }
             : feature.properties?.metrics ?? {},
         },
@@ -360,6 +375,15 @@ export async function loadSnapshot(): Promise<SnapshotData> {
   const dedupedItems = dedupeRiskItems(risk.items)
   const derivedCounts = buildCounts(dedupedItems)
   const enrichedPolygons = enrichPolygonsWithRisk(polygons, dedupedItems)
+  const normalizedTerritoryDetails = Object.fromEntries(
+    Object.entries(territoryDetails).map(([territoryId, detail]) => [
+      territoryId,
+      {
+        ...detail,
+        peak_hours: extractPeakHours(detail),
+      },
+    ]),
+  ) as Record<string, TerritoryDetail>
 
   return {
     manifest,
@@ -373,7 +397,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
       },
       items: dedupedItems,
     },
-    territoryDetails,
+    territoryDetails: normalizedTerritoryDetails,
     explainability,
     explainabilityAcademics,
     polygons: enrichedPolygons,

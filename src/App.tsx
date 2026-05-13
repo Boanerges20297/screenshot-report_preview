@@ -17,6 +17,11 @@ const REGION_LABELS: Record<RegionKey, string> = {
   interior: 'Interior',
 }
 
+function formatPeakHours(value?: string | null): string {
+  const text = String(value ?? '').trim()
+  return text || 'Sem padrão horário consolidado'
+}
+
 function App() {
   const [snapshot, setSnapshot] = useState<SnapshotData | null>(null)
   const [region, setRegion] = useState<RegionKey>('fortaleza')
@@ -352,6 +357,7 @@ function App() {
                   <span>
                     {item.faction || 'N/A'} · {item.score.toFixed(1)}%
                   </span>
+                  {item.peak_hours ? <small>⏱ {item.peak_hours}</small> : null}
                 </div>
               </button>
             ))}
@@ -426,11 +432,20 @@ function App() {
                     <span>Exógenos</span>
                     <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
                   </div>
+                  <div>
+                    <span>Janela crítica</span>
+                    <strong>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</strong>
+                  </div>
                 </div>
 
                 <div className="detail-copy">
                   <h3>Leitura congelada</h3>
                   <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
+                </div>
+
+                <div className="detail-copy">
+                  <h3>Horário crítico padrão</h3>
+                  <p>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</p>
                 </div>
 
                 <div className="detail-copy">

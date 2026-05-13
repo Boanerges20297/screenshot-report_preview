@@ -45,6 +45,27 @@ const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }>
   interior: { center: [-5.1, -39.6], zoom: 7 },
 }
 
+function getPeakHoursFromSources(
+  detail?: TerritoryDetail | null,
+  riskItem?: RiskItem | null,
+  props?: Record<string, unknown> | null,
+): string {
+  const fromDetail = String(detail?.peak_hours ?? '').trim()
+  if (fromDetail) {
+    return fromDetail
+  }
+  const fromRisk = String(riskItem?.peak_hours ?? '').trim()
+  if (fromRisk) {
+    return fromRisk
+  }
+  const fromProps = String(props?.peak_hours ?? '').trim()
+  if (fromProps) {
+    return fromProps
+  }
+  const metrics = props?.metrics as Record<string, unknown> | undefined
+  return String(metrics?.peak_hours ?? '').trim()
+}
+
 function toFeatureCollection(payload: GeoFeatureCollection): GeoFeatureCollection {
   if (payload?.type === 'FeatureCollection' && Array.isArray(payload.features)) {
     return payload
@@ -211,6 +232,7 @@ export function OperationalMap({
     const territoryId = buildTerritoryId(region, normalizePolygonName(name))
     const riskItem = riskById.get(territoryId)
     const detail = territoryDetails[territoryId]
+    const peakHours = getPeakHoursFromSources(detail, riskItem, feature.properties)
 
     layer.on({
       click: () => onSelectTerritory(territoryId),
@@ -228,6 +250,7 @@ export function OperationalMap({
           <div><strong>Momentum 14d:</strong> ${detail?.momentum_14d ?? riskItem?.momentum_14d ?? 0}</div>
           <div><strong>CVLI recente:</strong> ${detail?.recent_cvli ?? riskItem?.recent_cvli ?? 0}</div>
           <div><strong>Exógenos:</strong> ${detail?.recent_exogenous ?? riskItem?.recent_exogenous ?? 0}</div>
+          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
         </div>
         <div style="margin-top:10px;font-size:12px;color:#475569;line-height:1.45;">${detail?.summary ?? riskItem?.summary ?? 'Sem resumo congelado.'}</div>
       </div>
@@ -237,6 +260,7 @@ export function OperationalMap({
       <div style="font-family:system-ui,sans-serif;font-weight:600;color:#0f172a;text-align:center;">
         <div>${name}</div>
         <div style="font-weight:400;color:#475569;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
+        ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'territory-tooltip' })
   }
@@ -247,6 +271,7 @@ export function OperationalMap({
     }
     const props = feature.properties || {}
     const area = String(props.area_oficial ?? props.micronodo ?? 'Micronodo')
+    const peakHours = getPeakHoursFromSources(null, null, props)
     layer.bindPopup(`
       <div style="min-width:220px;font-family:system-ui,sans-serif;">
         <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;">ORCRIM</div>
@@ -254,6 +279,7 @@ export function OperationalMap({
         <div style="margin-top:8px;font-size:13px;color:#334155;">
           <div><strong>Micronodo:</strong> ${String(props.micronodo ?? 'N/A')}</div>
           <div><strong>Facção:</strong> ${String(props.faction ?? 'N/A')}</div>
+          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
         </div>
       </div>
     `)
@@ -262,6 +288,7 @@ export function OperationalMap({
       <div style="font-family:system-ui,sans-serif;font-weight:600;color:#0f172a;text-align:center;">
         <div>ORCRIM: ${area}</div>
         <div style="font-weight:400;color:#475569;font-size:12px;margin-top:2px;">Facção: ${String(props.faction ?? 'N/A')}</div>
+        ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'micronode-tooltip' })
   }
@@ -271,6 +298,7 @@ export function OperationalMap({
       return
     }
     const props = feature.properties || {}
+    const peakHours = getPeakHoursFromSources(null, null, props)
     layer.bindPopup(`
       <div style="min-width:240px;font-family:system-ui,sans-serif;">
         <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#8b0000;font-weight:800;">ELITE P10 · ALTA PRIORIDADE</div>
@@ -280,6 +308,7 @@ export function OperationalMap({
           <div><strong>Risco:</strong> ${props.indice_risco ?? 'N/A'}%</div>
           <div><strong>Natureza:</strong> ${props.natureza ?? 'N/A'}</div>
           <div><strong>Raio:</strong> ${props.raio ?? 'N/A'}</div>
+          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
         </div>
         <div style="margin-top:10px;padding:8px;background:#fff1f2;border-radius:4px;font-size:12px;color:#991b1b;border:1px solid #fecdd3;">
           <strong>Alerta:</strong> Este micronodo pertence à elite P10 de maior criticidade tática.
@@ -291,6 +320,7 @@ export function OperationalMap({
       <div style="font-family:system-ui,sans-serif;font-weight:600;color:#8b0000;text-align:center;">
         <div>Elite P10: ${props.bairro ?? 'Território'}</div>
         <div style="font-weight:400;color:#991b1b;font-size:12px;margin-top:2px;">Risco: ${props.indice_risco ?? 'N/A'}%</div>
+        ${peakHours ? `<div style="font-weight:400;color:#7f1d1d;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'elite-tooltip' })
   }
@@ -329,6 +359,7 @@ export function OperationalMap({
             onEachFeature={(feature, layer) => {
               const props = feature.properties || {}
               const name = props.name ?? props.Name ?? props.bairro ?? 'Território Top 30'
+              const peakHours = getPeakHoursFromSources(null, null, props)
               layer.bindPopup(`
                 <div style="min-width:220px;font-family:system-ui,sans-serif;">
                   <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#f97316;font-weight:700;">Top 30 Tático</div>
@@ -336,6 +367,7 @@ export function OperationalMap({
                   <div style="margin-top:8px;font-size:13px;color:#334155;">
                     <div><strong>Rank:</strong> #${props.rank ?? 'N/A'}</div>
                     <div><strong>Risco:</strong> ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
+                    ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
                   </div>
                 </div>
               `)
@@ -343,6 +375,7 @@ export function OperationalMap({
                 <div style="font-family:system-ui,sans-serif;font-weight:600;color:#f97316;text-align:center;">
                   <div>Top 30: ${name}</div>
                   <div style="font-weight:400;color:#c2410c;font-size:12px;margin-top:2px;">Risco: ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
+                  ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
                 </div>
               `, { sticky: true, direction: 'auto', className: 'top30-tooltip' })
             }}
