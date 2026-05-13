@@ -1,28 +1,28 @@
 {
   "global": {
-    "total_nodes": 191,
-    "active_locations": 10,
+    "total_nodes": 1708,
+    "active_locations": 13,
     "top_region": "interior",
     "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 15.88
+    "avg_risk": 19.59
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 17.43,
-      "max_risk": 69.9,
+      "avg_risk": 16.67,
+      "max_risk": 81.8,
       "top_name": "AEROLANDIA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 11.97,
-      "max_risk": 82.0,
+      "avg_risk": 14.33,
+      "max_risk": 81.7,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 13.56,
-      "max_risk": 94.3,
+      "avg_risk": 16.32,
+      "max_risk": 94.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
   }
