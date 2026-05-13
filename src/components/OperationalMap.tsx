@@ -70,7 +70,7 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
-function FitToRegion({ polygons, region }: { polygons: GeoFeatureCollection; region: RegionKey }) {
+function FitToRegion({ region }: { polygons: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
   useEffect(() => {
