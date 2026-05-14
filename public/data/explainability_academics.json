@@ -20270,7 +20270,7 @@
     "source": "academic_parallel",
     "identification": {
       "region_type": "FORTALEZA",
-      "faction": "CV",
+      "faction": "MASSA",
       "tier": "long_tail_20"
     },
     "ranking_metrics": {
@@ -20335,7 +20335,7 @@
     "territorial_structure_metrics": {
       "tension_index": 0.5,
       "region_type": "FORTALEZA",
-      "faction": "CV"
+      "faction": "MASSA"
     },
     "derived_indices": {
       "rank_inverse_pct": 97.72,
@@ -20404,7 +20404,7 @@
           "name": "Estrutura territorial",
           "direction": "positive",
           "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "text": "Tensão territorial 0,50 e facção predominante MASSA sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -20779,7 +20779,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "MESSEJANA ocupa a posição #40 entre 1708 territórios, com score de 2,67/10 e confiança analítica de 77,1%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "MESSEJANA ocupa a posição #40 entre 1708 territórios, com score de 2,67/10 e confiança analítica de 77,1%. O caso combina pressão relativa elevada, estrutura territorial de MASSA e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar MESSEJANA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }

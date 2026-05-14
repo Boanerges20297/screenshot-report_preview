@@ -6419,7 +6419,7 @@
         "direction": "positive",
         "name": "Estrutura territorial",
         "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+        "text": "Tensão territorial 0,50 e facção predominante MASSA sustentam a pressão estrutural do território."
       },
       {
         "direction": "negative",
@@ -6481,10 +6481,10 @@
         "value": "0"
       },
       {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
+        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a MASSA, com efeito direto na leitura operacional.",
         "importance": "medium",
         "name": "Facção predominante",
-        "value": "CV"
+        "value": "MASSA"
       },
       {
         "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
@@ -6535,7 +6535,7 @@
       "executive_summary": "MESSEJANA entra na posição #61, no top 1,9% do ranking, com score de 2,67/10 (26,7%). No ciclo atual, isso coloca o território em faixa de alta prioridade tática e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar MESSEJANA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (6,8 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 3 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (6,8 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 3 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção MASSA."
     },
     "summary": "**MESSEJANA** está na posição **#61** do ranking, com score **2.67/10** e confiança **77.9%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },

@@ -262071,6 +262071,65 @@
         "coordinates": [
           [
             [
+              -40.96968,
+              -3.833661
+            ],
+            [
+              -40.972439,
+              -3.833284
+            ],
+            [
+              -40.972835,
+              -3.83298
+            ],
+            [
+              -40.973269,
+              -3.834055
+            ],
+            [
+              -40.973248,
+              -3.836014
+            ],
+            [
+              -40.972867,
+              -3.838073
+            ],
+            [
+              -40.970222,
+              -3.838249
+            ],
+            [
+              -40.970133,
+              -3.835762
+            ],
+            [
+              -40.969589,
+              -3.834371
+            ],
+            [
+              -40.96968,
+              -3.833661
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2033",
+      "properties": {
+        "area_oficial": "UBAJARA",
+        "faction": "CV",
+        "lat": -3.8350665,
+        "long": -40.97155957848392,
+        "micronodo": "Olinda Ubajara - Tianguá ",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.079481,
               -5.105104
             ],
@@ -262338,13 +262397,144 @@
         ],
         "type": "Polygon"
       },
-      "id": "2033",
+      "id": "2034",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "CV",
         "lat": -5.0975415,
         "long": -38.075824315021414,
         "micronodo": "ARRAIAL - LIMOEIRO DO NORTE - TCP",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -41.008647,
+              -3.843969
+            ],
+            [
+              -41.007978,
+              -3.845312
+            ],
+            [
+              -41.006738,
+              -3.844514
+            ],
+            [
+              -41.00667,
+              -3.84486
+            ],
+            [
+              -41.00611,
+              -3.844785
+            ],
+            [
+              -41.00587,
+              -3.84652
+            ],
+            [
+              -41.005104,
+              -3.846494
+            ],
+            [
+              -41.005081,
+              -3.845648
+            ],
+            [
+              -41.004526,
+              -3.845622
+            ],
+            [
+              -41.00464,
+              -3.846482
+            ],
+            [
+              -41.00421,
+              -3.846542
+            ],
+            [
+              -41.004081,
+              -3.845842
+            ],
+            [
+              -41.003592,
+              -3.845866
+            ],
+            [
+              -41.003086,
+              -3.84357
+            ],
+            [
+              -41.00228,
+              -3.843658
+            ],
+            [
+              -41.002218,
+              -3.843449
+            ],
+            [
+              -41.001829,
+              -3.843512
+            ],
+            [
+              -41.001755,
+              -3.843302
+            ],
+            [
+              -41.00088,
+              -3.843185
+            ],
+            [
+              -41.000926,
+              -3.842369
+            ],
+            [
+              -41.001849,
+              -3.842393
+            ],
+            [
+              -41.001879,
+              -3.842171
+            ],
+            [
+              -41.00292,
+              -3.84218
+            ],
+            [
+              -41.002932,
+              -3.842045
+            ],
+            [
+              -41.003949,
+              -3.842104
+            ],
+            [
+              -41.004058,
+              -3.842788
+            ],
+            [
+              -41.00591,
+              -3.843
+            ],
+            [
+              -41.008647,
+              -3.843969
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2035",
+      "properties": {
+        "area_oficial": "UBAJARA",
+        "faction": "CV",
+        "lat": -3.8442415,
+        "long": -41.005872622314605,
+        "micronodo": "Nova Veneza",
         "region": "interior"
       },
       "type": "Feature"
@@ -262505,7 +262695,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2034",
+      "id": "2036",
       "properties": {
         "area_oficial": "JAGUARUANA",
         "faction": "CV",
@@ -262780,7 +262970,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2035",
+      "id": "2037",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "CV",
@@ -262871,7 +263061,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2036",
+      "id": "2038",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -263030,7 +263220,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2037",
+      "id": "2039",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -263209,7 +263399,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2038",
+      "id": "2040",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -263312,7 +263502,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2039",
+      "id": "2041",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -263427,7 +263617,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2040",
+      "id": "2042",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -263530,7 +263720,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2041",
+      "id": "2043",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -263645,7 +263835,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2042",
+      "id": "2044",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -263728,7 +263918,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2043",
+      "id": "2045",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -263943,7 +264133,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2044",
+      "id": "2046",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -264042,7 +264232,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2045",
+      "id": "2047",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -264313,7 +264503,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2046",
+      "id": "2048",
       "properties": {
         "area_oficial": "COREAÚ",
         "faction": "PCC",
@@ -264424,7 +264614,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2047",
+      "id": "2049",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -264759,7 +264949,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2048",
+      "id": "2050",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -264922,7 +265112,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2049",
+      "id": "2051",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -265121,7 +265311,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2050",
+      "id": "2052",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -265236,7 +265426,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2051",
+      "id": "2053",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -265339,7 +265529,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2052",
+      "id": "2054",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -265386,7 +265576,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2053",
+      "id": "2055",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -265465,7 +265655,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2054",
+      "id": "2056",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -265516,7 +265706,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2055",
+      "id": "2057",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -265627,7 +265817,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2056",
+      "id": "2058",
       "properties": {
         "area_oficial": "ALCÂNTARAS",
         "faction": "PCC",
@@ -265754,7 +265944,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2057",
+      "id": "2059",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -265957,7 +266147,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2058",
+      "id": "2060",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -266060,7 +266250,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2059",
+      "id": "2061",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -266131,7 +266321,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2060",
+      "id": "2062",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -266222,7 +266412,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2061",
+      "id": "2063",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -266313,7 +266503,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2062",
+      "id": "2064",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -266608,7 +266798,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2063",
+      "id": "2065",
       "properties": {
         "area_oficial": "ANTONINA DO NORTE",
         "faction": "PCC",
@@ -266740,7 +266930,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2064",
+      "id": "2066",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -266855,7 +267045,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2065",
+      "id": "2067",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -266930,7 +267120,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2066",
+      "id": "2068",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -267081,7 +267271,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2067",
+      "id": "2069",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -267244,7 +267434,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2068",
+      "id": "2070",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -267323,7 +267513,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2069",
+      "id": "2071",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -267610,7 +267800,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2070",
+      "id": "2072",
       "properties": {
         "area_oficial": "SOBRAL",
         "faction": "PCC",
@@ -267833,7 +268023,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2071",
+      "id": "2073",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -268097,7 +268287,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2072",
+      "id": "2074",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -268160,7 +268350,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2073",
+      "id": "2075",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -268407,7 +268597,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2074",
+      "id": "2076",
       "properties": {
         "area_oficial": "INDEPENDÊNCIA",
         "faction": "PCC",
@@ -268498,7 +268688,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2075",
+      "id": "2077",
       "properties": {
         "area_oficial": "SANTANA DO ACARAÚ",
         "faction": "PCC",
@@ -268765,7 +268955,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2076",
+      "id": "2078",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -268960,7 +269150,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2077",
+      "id": "2079",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -269055,7 +269245,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2078",
+      "id": "2080",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -269134,7 +269324,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2079",
+      "id": "2081",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -269653,7 +269843,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2080",
+      "id": "2082",
       "properties": {
         "area_oficial": "ORÓS",
         "faction": "PCC",
@@ -269724,7 +269914,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2081",
+      "id": "2083",
       "properties": {
         "area_oficial": "ITAPAJÉ",
         "faction": "PCC",
@@ -269787,7 +269977,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2082",
+      "id": "2084",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -270086,7 +270276,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2083",
+      "id": "2085",
       "properties": {
         "area_oficial": "ACOPIARA",
         "faction": "PCC",
@@ -270309,7 +270499,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2084",
+      "id": "2086",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -270372,7 +270562,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2085",
+      "id": "2087",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -270571,7 +270761,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2086",
+      "id": "2088",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -270650,7 +270840,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2087",
+      "id": "2089",
       "properties": {
         "area_oficial": "MISSÃO VELHA",
         "faction": "PCC",
@@ -270797,7 +270987,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2088",
+      "id": "2090",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -270936,7 +271126,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2089",
+      "id": "2091",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -270999,7 +271189,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2090",
+      "id": "2092",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -271078,7 +271268,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2091",
+      "id": "2093",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -271229,7 +271419,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2092",
+      "id": "2094",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -271360,7 +271550,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2093",
+      "id": "2095",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -271491,7 +271681,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2094",
+      "id": "2096",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -271554,7 +271744,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2095",
+      "id": "2097",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -271773,7 +271963,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2096",
+      "id": "2098",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -271996,7 +272186,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2097",
+      "id": "2099",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -272187,7 +272377,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2098",
+      "id": "2100",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -272514,7 +272704,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2099",
+      "id": "2101",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -272645,7 +272835,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2100",
+      "id": "2102",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -272900,7 +273090,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2101",
+      "id": "2103",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -273023,7 +273213,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2102",
+      "id": "2104",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -273650,7 +273840,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2103",
+      "id": "2105",
       "properties": {
         "area_oficial": "MISSÃO VELHA",
         "faction": "PCC",
@@ -273849,7 +274039,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2104",
+      "id": "2106",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -274044,7 +274234,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2105",
+      "id": "2107",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -274099,7 +274289,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2106",
+      "id": "2108",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -274158,7 +274348,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2107",
+      "id": "2109",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -274257,7 +274447,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2108",
+      "id": "2110",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -274512,7 +274702,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2109",
+      "id": "2111",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -274651,7 +274841,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2110",
+      "id": "2112",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -274834,7 +275024,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2111",
+      "id": "2113",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -274921,7 +275111,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2112",
+      "id": "2114",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -275756,7 +275946,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2113",
+      "id": "2115",
       "properties": {
         "area_oficial": "PIQUET CARNEIRO",
         "faction": "PCC",
@@ -276319,7 +276509,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2114",
+      "id": "2116",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -276774,7 +276964,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2115",
+      "id": "2117",
       "properties": {
         "area_oficial": "PEDRA BRANCA",
         "faction": "PCC",
@@ -277005,7 +277195,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2116",
+      "id": "2118",
       "properties": {
         "area_oficial": "MADALENA",
         "faction": "PCC",
@@ -277136,7 +277326,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2117",
+      "id": "2119",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -277383,7 +277573,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2118",
+      "id": "2120",
       "properties": {
         "area_oficial": "QUITERIANÓPOLIS",
         "faction": "PCC",
@@ -277606,7 +277796,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2119",
+      "id": "2121",
       "properties": {
         "area_oficial": "ARNEIROZ",
         "faction": "PCC",
@@ -277789,7 +277979,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2120",
+      "id": "2122",
       "properties": {
         "area_oficial": "CATARINA",
         "faction": "PCC",
@@ -277872,7 +278062,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2121",
+      "id": "2123",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -277935,7 +278125,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2122",
+      "id": "2124",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -278306,7 +278496,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2123",
+      "id": "2125",
       "properties": {
         "area_oficial": "LAVRAS DA MANGABEIRA",
         "faction": "PCC",
@@ -278550,7 +278740,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2124",
+      "id": "2126",
       "properties": {
         "area_oficial": "DEPUTADO IRAPUAN PINHEIRO",
         "faction": "PCC",
@@ -278765,7 +278955,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2125",
+      "id": "2127",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -279024,7 +279214,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2126",
+      "id": "2128",
       "properties": {
         "area_oficial": "SOLONÓPOLE",
         "faction": "PCC",
@@ -279115,7 +279305,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2127",
+      "id": "2129",
       "properties": {
         "area_oficial": "PALHANO",
         "faction": "PCC",
@@ -279382,7 +279572,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2128",
+      "id": "2130",
       "properties": {
         "area_oficial": "PORTEIRAS",
         "faction": "PCC",
@@ -279618,7 +279808,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2129",
+      "id": "2131",
       "properties": {
         "area_oficial": "PALHANO",
         "faction": "PCC",
@@ -279773,7 +279963,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2130",
+      "id": "2132",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -279896,7 +280086,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2131",
+      "id": "2133",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -279939,7 +280129,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2132",
+      "id": "2134",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -280222,7 +280412,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2133",
+      "id": "2135",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -280385,7 +280575,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2134",
+      "id": "2136",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -280464,7 +280654,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2135",
+      "id": "2137",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -280583,7 +280773,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2136",
+      "id": "2138",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -280730,7 +280920,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2137",
+      "id": "2139",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -280893,7 +281083,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2138",
+      "id": "2140",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -281012,7 +281202,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2139",
+      "id": "2141",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -281103,7 +281293,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2140",
+      "id": "2142",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -281570,7 +281760,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2141",
+      "id": "2143",
       "properties": {
         "area_oficial": "URUBURETAMA",
         "faction": "PCC",
@@ -281729,7 +281919,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2142",
+      "id": "2144",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -281916,7 +282106,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2143",
+      "id": "2145",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -282375,7 +282565,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2144",
+      "id": "2146",
       "properties": {
         "area_oficial": "ARARIPE",
         "faction": "PCC",
@@ -282566,7 +282756,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2145",
+      "id": "2147",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -282673,7 +282863,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2146",
+      "id": "2148",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -282848,7 +283038,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2147",
+      "id": "2149",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -282955,7 +283145,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2148",
+      "id": "2150",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -283078,7 +283268,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2149",
+      "id": "2151",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -283197,7 +283387,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2150",
+      "id": "2152",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -283328,7 +283518,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2151",
+      "id": "2153",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -283459,7 +283649,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2152",
+      "id": "2154",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -283602,7 +283792,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2153",
+      "id": "2155",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -283717,7 +283907,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2154",
+      "id": "2156",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -283812,7 +284002,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2155",
+      "id": "2157",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -283939,7 +284129,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2156",
+      "id": "2158",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284030,7 +284220,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2157",
+      "id": "2159",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284105,7 +284295,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2158",
+      "id": "2160",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284160,7 +284350,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2159",
+      "id": "2161",
       "properties": {
         "area_oficial": "CENTRO",
         "faction": "PCC",
@@ -284228,7 +284418,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2160",
+      "id": "2162",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284343,7 +284533,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2161",
+      "id": "2163",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284430,7 +284620,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2162",
+      "id": "2164",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -284613,7 +284803,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2163",
+      "id": "2165",
       "properties": {
         "area_oficial": "PENTECOSTE",
         "faction": "PCC",
@@ -284676,7 +284866,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2164",
+      "id": "2166",
       "properties": {
         "area_oficial": "PENTECOSTE",
         "faction": "PCC",
@@ -284743,7 +284933,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2165",
+      "id": "2167",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -284858,7 +285048,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2166",
+      "id": "2168",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -284973,7 +285163,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2167",
+      "id": "2169",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -285012,7 +285202,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2168",
+      "id": "2170",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285103,7 +285293,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2169",
+      "id": "2171",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -285222,7 +285412,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2170",
+      "id": "2172",
       "properties": {
         "area_oficial": "ALCÂNTARAS",
         "faction": "PCC",
@@ -285353,7 +285543,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2171",
+      "id": "2173",
       "properties": {
         "area_oficial": "TIANGUÁ",
         "faction": "PCC",
@@ -285600,7 +285790,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2172",
+      "id": "2174",
       "properties": {
         "area_oficial": "GENERAL SAMPAIO",
         "faction": "PCC",
@@ -285704,7 +285894,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2173",
+      "id": "2175",
       "properties": {
         "area_oficial": "GROAIRAS",
         "faction": "PCC",
@@ -285939,7 +286129,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2174",
+      "id": "2176",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -286034,7 +286224,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2175",
+      "id": "2177",
       "properties": {
         "area_oficial": "MUCAMBO",
         "faction": "PCC",
@@ -286205,7 +286395,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2176",
+      "id": "2178",
       "properties": {
         "area_oficial": "MUCAMBO",
         "faction": "PCC",
@@ -286508,7 +286698,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2177",
+      "id": "2179",
       "properties": {
         "area_oficial": "ERERÉ",
         "faction": "PCC",
@@ -286795,7 +286985,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2178",
+      "id": "2180",
       "properties": {
         "area_oficial": "PALHANO",
         "faction": "PCC",
@@ -286946,7 +287136,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2179",
+      "id": "2181",
       "properties": {
         "area_oficial": "PALHANO",
         "faction": "PCC",
@@ -287073,7 +287263,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2180",
+      "id": "2182",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -287368,7 +287558,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2181",
+      "id": "2183",
       "properties": {
         "area_oficial": "PEDRA BRANCA",
         "faction": "PCC",
@@ -287727,7 +287917,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2182",
+      "id": "2184",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -287918,7 +288108,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2183",
+      "id": "2185",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288085,7 +288275,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2184",
+      "id": "2186",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288204,7 +288394,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2185",
+      "id": "2187",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288447,7 +288637,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2186",
+      "id": "2188",
       "properties": {
         "area_oficial": "ACARAPE",
         "faction": "PCC",
@@ -288667,7 +288857,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2187",
+      "id": "2189",
       "properties": {
         "area_oficial": "BELA VISTA",
         "faction": "PCC",
@@ -288739,7 +288929,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2188",
+      "id": "2190",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -288806,7 +288996,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2189",
+      "id": "2191",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -288869,7 +289059,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2190",
+      "id": "2192",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -288968,7 +289158,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2191",
+      "id": "2193",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -289067,7 +289257,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2192",
+      "id": "2194",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -289130,7 +289320,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2193",
+      "id": "2195",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -289217,7 +289407,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2194",
+      "id": "2196",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -289436,7 +289626,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2195",
+      "id": "2197",
       "properties": {
         "area_oficial": "NOVA OLINDA",
         "faction": "PCC",
@@ -289795,7 +289985,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2196",
+      "id": "2198",
       "properties": {
         "area_oficial": "NOVA OLINDA",
         "faction": "PCC",
@@ -289919,7 +290109,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2197",
+      "id": "2199",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290134,7 +290324,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2198",
+      "id": "2200",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -290221,7 +290411,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2199",
+      "id": "2201",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290352,7 +290542,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2200",
+      "id": "2202",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -290411,7 +290601,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2201",
+      "id": "2203",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -290510,7 +290700,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2202",
+      "id": "2204",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290613,7 +290803,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2203",
+      "id": "2205",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290720,7 +290910,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2204",
+      "id": "2206",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290799,7 +290989,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2205",
+      "id": "2207",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -290862,7 +291052,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2206",
+      "id": "2208",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291029,7 +291219,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2207",
+      "id": "2209",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291104,7 +291294,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2208",
+      "id": "2210",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291215,7 +291405,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2209",
+      "id": "2211",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291334,7 +291524,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2210",
+      "id": "2212",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291401,7 +291591,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2211",
+      "id": "2213",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291500,7 +291690,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2212",
+      "id": "2214",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -291803,7 +291993,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2213",
+      "id": "2215",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -292050,7 +292240,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2214",
+      "id": "2216",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -292177,7 +292367,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2215",
+      "id": "2217",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -292344,7 +292534,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2216",
+      "id": "2218",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -292463,7 +292653,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2217",
+      "id": "2219",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -292566,7 +292756,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2218",
+      "id": "2220",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -292749,7 +292939,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2219",
+      "id": "2221",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -292832,7 +293022,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2220",
+      "id": "2222",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -293119,7 +293309,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2221",
+      "id": "2223",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -293198,7 +293388,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2222",
+      "id": "2224",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -293305,7 +293495,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2223",
+      "id": "2225",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -293400,7 +293590,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2224",
+      "id": "2226",
       "properties": {
         "area_oficial": "MILAGRES",
         "faction": "PCC",
@@ -293488,7 +293678,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2225",
+      "id": "2227",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -293979,7 +294169,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2226",
+      "id": "2228",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -294498,7 +294688,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2227",
+      "id": "2229",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -294849,7 +295039,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2228",
+      "id": "2230",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -294936,7 +295126,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2229",
+      "id": "2231",
       "properties": {
         "area_oficial": "SÃO MIGUEL",
         "faction": "PCC",
@@ -295212,7 +295402,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2230",
+      "id": "2232",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -295303,7 +295493,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2231",
+      "id": "2233",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -295534,7 +295724,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2232",
+      "id": "2234",
       "properties": {
         "area_oficial": "QUIXERÉ",
         "faction": "PCC",
@@ -295705,7 +295895,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2233",
+      "id": "2235",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -296522,7 +296712,7 @@
         ],
         "type": "MultiPolygon"
       },
-      "id": "2234",
+      "id": "2236",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -297511,7 +297701,7 @@
         ],
         "type": "MultiPolygon"
       },
-      "id": "2235",
+      "id": "2237",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -297786,7 +297976,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2236",
+      "id": "2238",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -298105,7 +298295,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2237",
+      "id": "2239",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -298576,7 +298766,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2238",
+      "id": "2240",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -299103,7 +299293,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2239",
+      "id": "2241",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -299458,7 +299648,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2240",
+      "id": "2242",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -299593,7 +299783,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2241",
+      "id": "2243",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -300288,7 +300478,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2242",
+      "id": "2244",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -300391,7 +300581,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2243",
+      "id": "2245",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -300518,7 +300708,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2244",
+      "id": "2246",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -300661,7 +300851,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2245",
+      "id": "2247",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -300824,7 +301014,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2246",
+      "id": "2248",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -300951,7 +301141,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2247",
+      "id": "2249",
       "properties": {
         "area_oficial": "GROAIRAS",
         "faction": "PCC",
@@ -301022,13 +301212,112 @@
         ],
         "type": "Polygon"
       },
-      "id": "2248",
+      "id": "2250",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
         "lat": -7.2406536500000005,
         "long": -39.40538481857287,
         "micronodo": "ALTO DA PENHA",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -41.006964,
+              -3.71926
+            ],
+            [
+              -41.006921,
+              -3.720493
+            ],
+            [
+              -41.00626,
+              -3.720818
+            ],
+            [
+              -41.006386,
+              -3.721254
+            ],
+            [
+              -41.005852,
+              -3.721393
+            ],
+            [
+              -41.005764,
+              -3.722227
+            ],
+            [
+              -41.001876,
+              -3.723637
+            ],
+            [
+              -41.000678,
+              -3.722673
+            ],
+            [
+              -40.999194,
+              -3.721915
+            ],
+            [
+              -40.999294,
+              -3.721257
+            ],
+            [
+              -41.000646,
+              -3.721421
+            ],
+            [
+              -41.000777,
+              -3.720528
+            ],
+            [
+              -41.001664,
+              -3.720482
+            ],
+            [
+              -41.003552,
+              -3.720756
+            ],
+            [
+              -41.003675,
+              -3.72085
+            ],
+            [
+              -41.003711,
+              -3.721001
+            ],
+            [
+              -41.004024,
+              -3.721018
+            ],
+            [
+              -41.004444,
+              -3.719371
+            ],
+            [
+              -41.004625,
+              -3.719083
+            ],
+            [
+              -41.006964,
+              -3.71926
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2251",
+      "properties": {
+        "area_oficial": "TIANGUA",
+        "faction": "PCC",
+        "lat": -3.721325,
+        "long": -41.0033866601384,
+        "micronodo": "Por do Sol",
         "region": "interior"
       },
       "type": "Feature"
@@ -301329,13 +301618,287 @@
         ],
         "type": "Polygon"
       },
-      "id": "2249",
+      "id": "2252",
       "properties": {
         "area_oficial": "COREAÚ",
         "faction": "PCC",
         "lat": -3.74283,
         "long": -40.6907057989011,
         "micronodo": "Ubaúna - Coreaú ",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -41.006534,
+              -3.74209
+            ],
+            [
+              -41.006997,
+              -3.741922
+            ],
+            [
+              -41.007328,
+              -3.74237
+            ],
+            [
+              -41.00726,
+              -3.7425
+            ],
+            [
+              -41.00669,
+              -3.743041
+            ],
+            [
+              -41.006422,
+              -3.742799
+            ],
+            [
+              -41.005706,
+              -3.743174
+            ],
+            [
+              -41.005845,
+              -3.743444
+            ],
+            [
+              -41.005777,
+              -3.743562
+            ],
+            [
+              -41.006126,
+              -3.744119
+            ],
+            [
+              -41.007128,
+              -3.743719
+            ],
+            [
+              -41.007302,
+              -3.7439
+            ],
+            [
+              -41.007282,
+              -3.743972
+            ],
+            [
+              -41.007105,
+              -3.744062
+            ],
+            [
+              -41.007171,
+              -3.744338
+            ],
+            [
+              -41.006383,
+              -3.744655
+            ],
+            [
+              -41.006395,
+              -3.744729
+            ],
+            [
+              -41.005916,
+              -3.744918
+            ],
+            [
+              -41.005946,
+              -3.745055
+            ],
+            [
+              -41.005732,
+              -3.745165
+            ],
+            [
+              -41.005824,
+              -3.74547
+            ],
+            [
+              -41.005574,
+              -3.7456
+            ],
+            [
+              -41.005107,
+              -3.744923
+            ],
+            [
+              -41.004701,
+              -3.744043
+            ],
+            [
+              -41.004536,
+              -3.744087
+            ],
+            [
+              -41.00424,
+              -3.744244
+            ],
+            [
+              -41.004432,
+              -3.744765
+            ],
+            [
+              -41.004151,
+              -3.744816
+            ],
+            [
+              -41.003959,
+              -3.744428
+            ],
+            [
+              -41.003821,
+              -3.74437
+            ],
+            [
+              -41.003522,
+              -3.743734
+            ],
+            [
+              -41.003863,
+              -3.743574
+            ],
+            [
+              -41.003976,
+              -3.743828
+            ],
+            [
+              -41.004287,
+              -3.743711
+            ],
+            [
+              -41.004567,
+              -3.74358
+            ],
+            [
+              -41.00443,
+              -3.743202
+            ],
+            [
+              -41.004181,
+              -3.743284
+            ],
+            [
+              -41.004065,
+              -3.74296
+            ],
+            [
+              -41.006534,
+              -3.74209
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2253",
+      "properties": {
+        "area_oficial": "TIANGUA",
+        "faction": "PCC",
+        "lat": -3.7437810000000002,
+        "long": -41.00500757532723,
+        "micronodo": "Bairro Subestação ",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -41.002909,
+              -3.723766
+            ],
+            [
+              -41.004534,
+              -3.726842
+            ],
+            [
+              -41.004354,
+              -3.726934
+            ],
+            [
+              -41.004424,
+              -3.727086
+            ],
+            [
+              -41.004174,
+              -3.727183
+            ],
+            [
+              -41.00452,
+              -3.727967
+            ],
+            [
+              -41.004014,
+              -3.728166
+            ],
+            [
+              -41.004715,
+              -3.729484
+            ],
+            [
+              -41.004826,
+              -3.729896
+            ],
+            [
+              -41.004706,
+              -3.729972
+            ],
+            [
+              -41.004335,
+              -3.73016
+            ],
+            [
+              -41.003688,
+              -3.730332
+            ],
+            [
+              -41.003109,
+              -3.730491
+            ],
+            [
+              -41.000907,
+              -3.730149
+            ],
+            [
+              -40.999492,
+              -3.727658
+            ],
+            [
+              -41.000018,
+              -3.727283
+            ],
+            [
+              -40.998977,
+              -3.725548
+            ],
+            [
+              -41.000919,
+              -3.72391
+            ],
+            [
+              -41.001249,
+              -3.724357
+            ],
+            [
+              -41.002909,
+              -3.723766
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2254",
+      "properties": {
+        "area_oficial": "TIANGUA",
+        "faction": "PCC",
+        "lat": -3.7271345,
+        "long": -41.00211395,
+        "micronodo": "Bairro Santo Anônio",
         "region": "interior"
       },
       "type": "Feature"
@@ -301436,13 +301999,156 @@
         ],
         "type": "Polygon"
       },
-      "id": "2250",
+      "id": "2255",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
         "lat": -7.223516699999999,
         "long": -39.37378527528241,
         "micronodo": "ÁREA DE INFLUÊNCIA DO PCC",
+        "region": "interior"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -40.992718,
+              -3.737354
+            ],
+            [
+              -40.993306,
+              -3.73764
+            ],
+            [
+              -40.993185,
+              -3.737946
+            ],
+            [
+              -40.99328,
+              -3.738011
+            ],
+            [
+              -40.993168,
+              -3.738193
+            ],
+            [
+              -40.993515,
+              -3.73837
+            ],
+            [
+              -40.994364,
+              -3.738889
+            ],
+            [
+              -40.995715,
+              -3.740889
+            ],
+            [
+              -40.995328,
+              -3.741148
+            ],
+            [
+              -40.995823,
+              -3.742065
+            ],
+            [
+              -40.99542,
+              -3.742292
+            ],
+            [
+              -40.994905,
+              -3.741541
+            ],
+            [
+              -40.993984,
+              -3.74215
+            ],
+            [
+              -40.993834,
+              -3.741883
+            ],
+            [
+              -40.993215,
+              -3.741228
+            ],
+            [
+              -40.992773,
+              -3.741659
+            ],
+            [
+              -40.992986,
+              -3.742039
+            ],
+            [
+              -40.992847,
+              -3.742191
+            ],
+            [
+              -40.992634,
+              -3.74232
+            ],
+            [
+              -40.992775,
+              -3.742768
+            ],
+            [
+              -40.992009,
+              -3.743559
+            ],
+            [
+              -40.992339,
+              -3.744548
+            ],
+            [
+              -40.992536,
+              -3.744481
+            ],
+            [
+              -40.993109,
+              -3.745876
+            ],
+            [
+              -40.992558,
+              -3.74613
+            ],
+            [
+              -40.992521,
+              -3.746035
+            ],
+            [
+              -40.992276,
+              -3.746148
+            ],
+            [
+              -40.992345,
+              -3.746357
+            ],
+            [
+              -40.991644,
+              -3.746678
+            ],
+            [
+              -40.989324,
+              -3.742558
+            ],
+            [
+              -40.992718,
+              -3.737354
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2256",
+      "properties": {
+        "area_oficial": "TIANGUA",
+        "faction": "PCC",
+        "lat": -3.741961,
+        "long": -40.99132781837453,
+        "micronodo": "Flecheiras",
         "region": "interior"
       },
       "type": "Feature"
@@ -301507,7 +302213,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2251",
+      "id": "2257",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -302210,7 +302916,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2252",
+      "id": "2258",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -302349,7 +303055,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2253",
+      "id": "2259",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -302436,7 +303142,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2254",
+      "id": "2260",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "TCP/GDE",
@@ -302591,7 +303297,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2255",
+      "id": "2261",
       "properties": {
         "area_oficial": "ALTO SANTO",
         "faction": "TCP/GDE",
@@ -302770,7 +303476,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2256",
+      "id": "2262",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -302929,7 +303635,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2257",
+      "id": "2263",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -303120,7 +303826,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2258",
+      "id": "2264",
       "properties": {
         "area_oficial": "SOBRAL",
         "faction": "TCP/GDE",
@@ -303191,7 +303897,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2259",
+      "id": "2265",
       "properties": {
         "area_oficial": "FORTIM",
         "faction": "TCP/GDE",
@@ -303650,7 +304356,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2260",
+      "id": "2266",
       "properties": {
         "area_oficial": "FORTIM",
         "faction": "TCP/GDE",
@@ -303821,7 +304527,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2261",
+      "id": "2267",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -303924,7 +304630,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2262",
+      "id": "2268",
       "properties": {
         "area_oficial": "APUIARÉS",
         "faction": "TCP/GDE",
@@ -304111,7 +304817,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2263",
+      "id": "2269",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -304270,7 +304976,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2264",
+      "id": "2270",
       "properties": {
         "area_oficial": "BATURITE",
         "faction": "TCP/GDE",
@@ -304373,7 +305079,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2265",
+      "id": "2271",
       "properties": {
         "area_oficial": "GRANJEIRO",
         "faction": "TCP/GDE",
@@ -304884,7 +305590,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2266",
+      "id": "2272",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -305015,7 +305721,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2267",
+      "id": "2273",
       "properties": {
         "area_oficial": "OCARA",
         "faction": "TCP/GDE",
@@ -305490,7 +306196,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2268",
+      "id": "2274",
       "properties": {
         "area_oficial": "ALTO SANTO",
         "faction": "TCP/GDE",
@@ -305613,7 +306319,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2269",
+      "id": "2275",
       "properties": {
         "area_oficial": "SÃO BENEDITO",
         "faction": "TCP/GDE",
@@ -305704,7 +306410,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2270",
+      "id": "2276",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -305795,7 +306501,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2271",
+      "id": "2277",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -305894,7 +306600,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2272",
+      "id": "2278",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306081,7 +306787,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2273",
+      "id": "2279",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306216,7 +306922,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2274",
+      "id": "2280",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306295,7 +307001,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2275",
+      "id": "2281",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306406,7 +307112,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2276",
+      "id": "2282",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306565,7 +307271,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2277",
+      "id": "2283",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306628,7 +307334,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2278",
+      "id": "2284",
       "properties": {
         "area_oficial": "VÁRZEA ALEGRE",
         "faction": "TCP/GDE",
@@ -306675,7 +307381,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2279",
+      "id": "2285",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -306802,7 +307508,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2280",
+      "id": "2286",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -306893,7 +307599,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2281",
+      "id": "2287",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -306968,7 +307674,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2282",
+      "id": "2288",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -307095,7 +307801,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2283",
+      "id": "2289",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -307238,7 +307944,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2284",
+      "id": "2290",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -307369,7 +308075,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2285",
+      "id": "2291",
       "properties": {
         "area_oficial": "CEDRO",
         "faction": "TCP/GDE",
@@ -307468,7 +308174,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2286",
+      "id": "2292",
       "properties": {
         "area_oficial": "ITAPIÚNA",
         "faction": "TCP/GDE",
@@ -307527,7 +308233,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2287",
+      "id": "2293",
       "properties": {
         "area_oficial": "PACATUBA",
         "faction": "TCP/GDE",
@@ -307634,7 +308340,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2288",
+      "id": "2294",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -307717,7 +308423,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2289",
+      "id": "2295",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -307840,7 +308546,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2290",
+      "id": "2296",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -307919,7 +308625,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2291",
+      "id": "2297",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -308086,7 +308792,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2292",
+      "id": "2298",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -308161,7 +308867,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2293",
+      "id": "2299",
       "properties": {
         "area_oficial": "CARIRIAÇU",
         "faction": "TCP/GDE",
@@ -308256,7 +308962,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2294",
+      "id": "2300",
       "properties": {
         "area_oficial": "PINDORETAMA",
         "faction": "TCP/GDE",
@@ -308307,7 +309013,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2295",
+      "id": "2301",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -308422,7 +309128,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2296",
+      "id": "2302",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -308465,7 +309171,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2297",
+      "id": "2303",
       "properties": {
         "area_oficial": "ALTO SANTO",
         "faction": "TCP/GDE",
@@ -308616,7 +309322,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2298",
+      "id": "2304",
       "properties": {
         "area_oficial": "IBARETAMA",
         "faction": "TCP/GDE",
@@ -308739,7 +309445,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2299",
+      "id": "2305",
       "properties": {
         "area_oficial": "IBARETAMA",
         "faction": "TCP/GDE",
@@ -308935,7 +309641,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2300",
+      "id": "2306",
       "properties": {
         "area_oficial": "ICAPUÍ",
         "faction": "TCP/GDE",
@@ -309070,7 +309776,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2301",
+      "id": "2307",
       "properties": {
         "area_oficial": "BARRO",
         "faction": "TCP/GDE",
@@ -309353,7 +310059,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2302",
+      "id": "2308",
       "properties": {
         "area_oficial": "BARRO",
         "faction": "TCP/GDE",
@@ -309540,7 +310246,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2303",
+      "id": "2309",
       "properties": {
         "area_oficial": "JATI",
         "faction": "TCP/GDE",
@@ -309703,7 +310409,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2304",
+      "id": "2310",
       "properties": {
         "area_oficial": "JARDIM",
         "faction": "TCP/GDE",
@@ -309866,7 +310572,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2305",
+      "id": "2311",
       "properties": {
         "area_oficial": "JAGUARIBE",
         "faction": "TCP/GDE",
@@ -309985,7 +310691,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2306",
+      "id": "2312",
       "properties": {
         "area_oficial": "JAGUARIBE",
         "faction": "TCP/GDE",
@@ -310088,7 +310794,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2307",
+      "id": "2313",
       "properties": {
         "area_oficial": "IBARETAMA",
         "faction": "TCP/GDE",
@@ -310255,7 +310961,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2308",
+      "id": "2314",
       "properties": {
         "area_oficial": "ALTO SANTO",
         "faction": "TCP/GDE",
@@ -310566,7 +311272,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2309",
+      "id": "2315",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -310713,7 +311419,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2310",
+      "id": "2316",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -310828,7 +311534,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2311",
+      "id": "2317",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -310895,7 +311601,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2312",
+      "id": "2318",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -311078,7 +311784,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2313",
+      "id": "2319",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -311325,7 +312031,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2314",
+      "id": "2320",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -311472,7 +312178,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2315",
+      "id": "2321",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -311639,7 +312345,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2316",
+      "id": "2322",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -311914,7 +312620,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2317",
+      "id": "2323",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -312125,72 +312831,13 @@
         ],
         "type": "Polygon"
       },
-      "id": "2318",
+      "id": "2324",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
         "lat": -5.100777,
         "long": -38.36831839045766,
         "micronodo": "Sao Francisco ",
-        "region": "interior"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -40.96968,
-              -3.833661
-            ],
-            [
-              -40.972439,
-              -3.833284
-            ],
-            [
-              -40.972835,
-              -3.83298
-            ],
-            [
-              -40.973269,
-              -3.834055
-            ],
-            [
-              -40.973248,
-              -3.836014
-            ],
-            [
-              -40.972867,
-              -3.838073
-            ],
-            [
-              -40.970222,
-              -3.838249
-            ],
-            [
-              -40.970133,
-              -3.835762
-            ],
-            [
-              -40.969589,
-              -3.834371
-            ],
-            [
-              -40.96968,
-              -3.833661
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2319",
-      "properties": {
-        "area_oficial": "UBAJARA",
-        "faction": "TCP/GDE",
-        "lat": -3.8350665,
-        "long": -40.97155957848392,
-        "micronodo": "Olinda Ubajara - Tianguá ",
         "region": "interior"
       },
       "type": "Feature"
@@ -312347,7 +312994,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2320",
+      "id": "2325",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -312398,144 +313045,13 @@
         ],
         "type": "Polygon"
       },
-      "id": "2321",
+      "id": "2326",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
         "lat": -5.100727,
         "long": -38.33291345376872,
         "micronodo": "Vazantes - Morada Nova",
-        "region": "interior"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -41.008647,
-              -3.843969
-            ],
-            [
-              -41.007978,
-              -3.845312
-            ],
-            [
-              -41.006738,
-              -3.844514
-            ],
-            [
-              -41.00667,
-              -3.84486
-            ],
-            [
-              -41.00611,
-              -3.844785
-            ],
-            [
-              -41.00587,
-              -3.84652
-            ],
-            [
-              -41.005104,
-              -3.846494
-            ],
-            [
-              -41.005081,
-              -3.845648
-            ],
-            [
-              -41.004526,
-              -3.845622
-            ],
-            [
-              -41.00464,
-              -3.846482
-            ],
-            [
-              -41.00421,
-              -3.846542
-            ],
-            [
-              -41.004081,
-              -3.845842
-            ],
-            [
-              -41.003592,
-              -3.845866
-            ],
-            [
-              -41.003086,
-              -3.84357
-            ],
-            [
-              -41.00228,
-              -3.843658
-            ],
-            [
-              -41.002218,
-              -3.843449
-            ],
-            [
-              -41.001829,
-              -3.843512
-            ],
-            [
-              -41.001755,
-              -3.843302
-            ],
-            [
-              -41.00088,
-              -3.843185
-            ],
-            [
-              -41.000926,
-              -3.842369
-            ],
-            [
-              -41.001849,
-              -3.842393
-            ],
-            [
-              -41.001879,
-              -3.842171
-            ],
-            [
-              -41.00292,
-              -3.84218
-            ],
-            [
-              -41.002932,
-              -3.842045
-            ],
-            [
-              -41.003949,
-              -3.842104
-            ],
-            [
-              -41.004058,
-              -3.842788
-            ],
-            [
-              -41.00591,
-              -3.843
-            ],
-            [
-              -41.008647,
-              -3.843969
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2322",
-      "properties": {
-        "area_oficial": "UBAJARA",
-        "faction": "TCP/GDE",
-        "lat": -3.8442415,
-        "long": -41.005872622314605,
-        "micronodo": "Nova Veneza",
         "region": "interior"
       },
       "type": "Feature"
@@ -312696,7 +313212,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2323",
+      "id": "2327",
       "properties": {
         "area_oficial": "IBIAPINA",
         "faction": "TCP/GDE",
@@ -312879,7 +313395,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2324",
+      "id": "2328",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -313070,7 +313586,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2325",
+      "id": "2329",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -313189,7 +313705,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2326",
+      "id": "2330",
       "properties": {
         "area_oficial": "PINDORETAMA",
         "faction": "TCP/GDE",
@@ -313388,7 +313904,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2327",
+      "id": "2331",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -313851,7 +314367,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2328",
+      "id": "2332",
       "properties": {
         "area_oficial": "PEREIRO",
         "faction": "TCP/GDE",
@@ -314235,7 +314751,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2329",
+      "id": "2333",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -314244,149 +314760,6 @@
         "micronodo": "Itarema",
         "region": "interior",
         "peak_hours": "Entre 02hs e 07hs"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -40.992718,
-              -3.737354
-            ],
-            [
-              -40.993306,
-              -3.73764
-            ],
-            [
-              -40.993185,
-              -3.737946
-            ],
-            [
-              -40.99328,
-              -3.738011
-            ],
-            [
-              -40.993168,
-              -3.738193
-            ],
-            [
-              -40.993515,
-              -3.73837
-            ],
-            [
-              -40.994364,
-              -3.738889
-            ],
-            [
-              -40.995715,
-              -3.740889
-            ],
-            [
-              -40.995328,
-              -3.741148
-            ],
-            [
-              -40.995823,
-              -3.742065
-            ],
-            [
-              -40.99542,
-              -3.742292
-            ],
-            [
-              -40.994905,
-              -3.741541
-            ],
-            [
-              -40.993984,
-              -3.74215
-            ],
-            [
-              -40.993834,
-              -3.741883
-            ],
-            [
-              -40.993215,
-              -3.741228
-            ],
-            [
-              -40.992773,
-              -3.741659
-            ],
-            [
-              -40.992986,
-              -3.742039
-            ],
-            [
-              -40.992847,
-              -3.742191
-            ],
-            [
-              -40.992634,
-              -3.74232
-            ],
-            [
-              -40.992775,
-              -3.742768
-            ],
-            [
-              -40.992009,
-              -3.743559
-            ],
-            [
-              -40.992339,
-              -3.744548
-            ],
-            [
-              -40.992536,
-              -3.744481
-            ],
-            [
-              -40.993109,
-              -3.745876
-            ],
-            [
-              -40.992558,
-              -3.74613
-            ],
-            [
-              -40.992521,
-              -3.746035
-            ],
-            [
-              -40.992276,
-              -3.746148
-            ],
-            [
-              -40.992345,
-              -3.746357
-            ],
-            [
-              -40.991644,
-              -3.746678
-            ],
-            [
-              -40.989324,
-              -3.742558
-            ],
-            [
-              -40.992718,
-              -3.737354
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2330",
-      "properties": {
-        "area_oficial": "TIANGUA",
-        "faction": "TCP/GDE",
-        "lat": -3.741961,
-        "long": -40.99132781837453,
-        "micronodo": "Flecheiras",
-        "region": "interior"
       },
       "type": "Feature"
     },
@@ -314498,7 +314871,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2331",
+      "id": "2334",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -314645,7 +315018,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2332",
+      "id": "2335",
       "properties": {
         "area_oficial": "QUIXADA",
         "faction": "TCP/GDE",
@@ -314828,7 +315201,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2333",
+      "id": "2336",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -314955,7 +315328,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2334",
+      "id": "2337",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -315086,7 +315459,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2335",
+      "id": "2338",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -315205,7 +315578,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2336",
+      "id": "2339",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -315336,7 +315709,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2337",
+      "id": "2340",
       "properties": {
         "area_oficial": "IRACEMA",
         "faction": "TCP/GDE",
@@ -315699,7 +316072,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2338",
+      "id": "2341",
       "properties": {
         "area_oficial": "QUIXADA",
         "faction": "TCP/GDE",
@@ -315966,7 +316339,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2339",
+      "id": "2342",
       "properties": {
         "area_oficial": "ITAREMA",
         "faction": "TCP/GDE",
@@ -316085,7 +316458,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2340",
+      "id": "2343",
       "properties": {
         "area_oficial": "JAGUARIBE",
         "faction": "TCP/GDE",
@@ -316224,7 +316597,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2341",
+      "id": "2344",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -316499,7 +316872,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2342",
+      "id": "2345",
       "properties": {
         "area_oficial": "BARROQUINHA",
         "faction": "TCP/GDE",
@@ -316842,7 +317215,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2343",
+      "id": "2346",
       "properties": {
         "area_oficial": "FORTIM",
         "faction": "TCP/GDE",
@@ -317041,7 +317414,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2344",
+      "id": "2347",
       "properties": {
         "area_oficial": "FORTIM",
         "faction": "TCP/GDE",
@@ -317240,7 +317613,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2345",
+      "id": "2348",
       "properties": {
         "area_oficial": "SÃO JOÃO DO JAGUARIBE",
         "faction": "TCP/GDE",
@@ -317855,7 +318228,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2346",
+      "id": "2349",
       "properties": {
         "area_oficial": "JAGUARETAMA",
         "faction": "TCP/GDE",
@@ -317950,7 +318323,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2347",
+      "id": "2350",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -318057,7 +318430,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2348",
+      "id": "2351",
       "properties": {
         "area_oficial": "CIDADE NOVA",
         "faction": "TCP/GDE",
@@ -318189,7 +318562,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2349",
+      "id": "2352",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -318292,7 +318665,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2350",
+      "id": "2353",
       "properties": {
         "area_oficial": "MORADA NOVA",
         "faction": "TCP/GDE",
@@ -318379,7 +318752,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2351",
+      "id": "2354",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -318462,7 +318835,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2352",
+      "id": "2355",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -318569,7 +318942,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2353",
+      "id": "2356",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -318648,7 +319021,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2354",
+      "id": "2357",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -318827,211 +319200,13 @@
         ],
         "type": "Polygon"
       },
-      "id": "2355",
+      "id": "2358",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "TCP/GDE",
         "lat": -7.47185045,
         "long": -38.977478647521295,
         "micronodo": "MORRO DOURADO - TCP",
-        "region": "interior"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -41.002909,
-              -3.723766
-            ],
-            [
-              -41.004534,
-              -3.726842
-            ],
-            [
-              -41.004354,
-              -3.726934
-            ],
-            [
-              -41.004424,
-              -3.727086
-            ],
-            [
-              -41.004174,
-              -3.727183
-            ],
-            [
-              -41.00452,
-              -3.727967
-            ],
-            [
-              -41.004014,
-              -3.728166
-            ],
-            [
-              -41.004715,
-              -3.729484
-            ],
-            [
-              -41.004826,
-              -3.729896
-            ],
-            [
-              -41.004706,
-              -3.729972
-            ],
-            [
-              -41.004335,
-              -3.73016
-            ],
-            [
-              -41.003688,
-              -3.730332
-            ],
-            [
-              -41.003109,
-              -3.730491
-            ],
-            [
-              -41.000907,
-              -3.730149
-            ],
-            [
-              -40.999492,
-              -3.727658
-            ],
-            [
-              -41.000018,
-              -3.727283
-            ],
-            [
-              -40.998977,
-              -3.725548
-            ],
-            [
-              -41.000919,
-              -3.72391
-            ],
-            [
-              -41.001249,
-              -3.724357
-            ],
-            [
-              -41.002909,
-              -3.723766
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2356",
-      "properties": {
-        "area_oficial": "TIANGUA",
-        "faction": "TCP/GDE",
-        "lat": -3.7271345,
-        "long": -41.00211395,
-        "micronodo": "Bairro Santo Anônio",
-        "region": "interior"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -41.006964,
-              -3.71926
-            ],
-            [
-              -41.006921,
-              -3.720493
-            ],
-            [
-              -41.00626,
-              -3.720818
-            ],
-            [
-              -41.006386,
-              -3.721254
-            ],
-            [
-              -41.005852,
-              -3.721393
-            ],
-            [
-              -41.005764,
-              -3.722227
-            ],
-            [
-              -41.001876,
-              -3.723637
-            ],
-            [
-              -41.000678,
-              -3.722673
-            ],
-            [
-              -40.999194,
-              -3.721915
-            ],
-            [
-              -40.999294,
-              -3.721257
-            ],
-            [
-              -41.000646,
-              -3.721421
-            ],
-            [
-              -41.000777,
-              -3.720528
-            ],
-            [
-              -41.001664,
-              -3.720482
-            ],
-            [
-              -41.003552,
-              -3.720756
-            ],
-            [
-              -41.003675,
-              -3.72085
-            ],
-            [
-              -41.003711,
-              -3.721001
-            ],
-            [
-              -41.004024,
-              -3.721018
-            ],
-            [
-              -41.004444,
-              -3.719371
-            ],
-            [
-              -41.004625,
-              -3.719083
-            ],
-            [
-              -41.006964,
-              -3.71926
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2357",
-      "properties": {
-        "area_oficial": "TIANGUA",
-        "faction": "TCP/GDE",
-        "lat": -3.721325,
-        "long": -41.0033866601384,
-        "micronodo": "Por do Sol",
         "region": "interior"
       },
       "type": "Feature"
@@ -319152,188 +319327,13 @@
         ],
         "type": "Polygon"
       },
-      "id": "2358",
+      "id": "2359",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "TCP/GDE",
         "lat": -3.716393,
         "long": -40.99832735073834,
         "micronodo": "Ceasa",
-        "region": "interior"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -41.006534,
-              -3.74209
-            ],
-            [
-              -41.006997,
-              -3.741922
-            ],
-            [
-              -41.007328,
-              -3.74237
-            ],
-            [
-              -41.00726,
-              -3.7425
-            ],
-            [
-              -41.00669,
-              -3.743041
-            ],
-            [
-              -41.006422,
-              -3.742799
-            ],
-            [
-              -41.005706,
-              -3.743174
-            ],
-            [
-              -41.005845,
-              -3.743444
-            ],
-            [
-              -41.005777,
-              -3.743562
-            ],
-            [
-              -41.006126,
-              -3.744119
-            ],
-            [
-              -41.007128,
-              -3.743719
-            ],
-            [
-              -41.007302,
-              -3.7439
-            ],
-            [
-              -41.007282,
-              -3.743972
-            ],
-            [
-              -41.007105,
-              -3.744062
-            ],
-            [
-              -41.007171,
-              -3.744338
-            ],
-            [
-              -41.006383,
-              -3.744655
-            ],
-            [
-              -41.006395,
-              -3.744729
-            ],
-            [
-              -41.005916,
-              -3.744918
-            ],
-            [
-              -41.005946,
-              -3.745055
-            ],
-            [
-              -41.005732,
-              -3.745165
-            ],
-            [
-              -41.005824,
-              -3.74547
-            ],
-            [
-              -41.005574,
-              -3.7456
-            ],
-            [
-              -41.005107,
-              -3.744923
-            ],
-            [
-              -41.004701,
-              -3.744043
-            ],
-            [
-              -41.004536,
-              -3.744087
-            ],
-            [
-              -41.00424,
-              -3.744244
-            ],
-            [
-              -41.004432,
-              -3.744765
-            ],
-            [
-              -41.004151,
-              -3.744816
-            ],
-            [
-              -41.003959,
-              -3.744428
-            ],
-            [
-              -41.003821,
-              -3.74437
-            ],
-            [
-              -41.003522,
-              -3.743734
-            ],
-            [
-              -41.003863,
-              -3.743574
-            ],
-            [
-              -41.003976,
-              -3.743828
-            ],
-            [
-              -41.004287,
-              -3.743711
-            ],
-            [
-              -41.004567,
-              -3.74358
-            ],
-            [
-              -41.00443,
-              -3.743202
-            ],
-            [
-              -41.004181,
-              -3.743284
-            ],
-            [
-              -41.004065,
-              -3.74296
-            ],
-            [
-              -41.006534,
-              -3.74209
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2359",
-      "properties": {
-        "area_oficial": "TIANGUA",
-        "faction": "TCP/GDE",
-        "lat": -3.7437810000000002,
-        "long": -41.00500757532723,
-        "micronodo": "Bairro Subestação ",
         "region": "interior"
       },
       "type": "Feature"
