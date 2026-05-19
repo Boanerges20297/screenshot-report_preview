@@ -4,12 +4,12 @@
     "active_locations": 14,
     "top_region": "fortaleza",
     "top_name": "AEROLANDIA",
-    "avg_risk": 19.55
+    "avg_risk": 19.65
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 18.82,
+      "avg_risk": 18.83,
       "max_risk": 81.8,
       "top_name": "AEROLANDIA"
     },
@@ -21,7 +21,7 @@
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 10.39,
+      "avg_risk": 13.53,
       "max_risk": 78.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
