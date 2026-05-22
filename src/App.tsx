@@ -269,19 +269,20 @@ function App() {
         </div>
 
         <div className="top-bar-center">
-          <div className="region-select-wrap">
-            <select
-              id="region-select"
-              className="region-select"
-              value={region}
-              onChange={(e) => setRegion(e.target.value as RegionKey)}
-              aria-label="Selecionar região"
-            >
-              {(['fortaleza', 'rmf', 'interior'] as RegionKey[]).map((r) => (
-                <option key={r} value={r}>{REGION_LABELS[r]}</option>
-              ))}
-            </select>
-            <span className="region-select-arrow" aria-hidden="true">▾</span>
+          <div className="region-pill-group" role="tablist" aria-label="Filtro regional">
+            {(['fortaleza', 'rmf', 'interior'] as RegionKey[]).map((r) => (
+              <button
+                key={r}
+                id={`region-pill-${r}`}
+                type="button"
+                role="tab"
+                aria-selected={r === region}
+                className={r === region ? 'region-pill active' : 'region-pill'}
+                onClick={() => setRegion(r)}
+              >
+                {REGION_LABELS[r]}
+              </button>
+            ))}
           </div>
 
           <div className="status-pill">
