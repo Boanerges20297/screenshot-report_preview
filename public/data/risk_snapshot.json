@@ -49,9 +49,7 @@
           "CONJUNTO PALMEIRAS"
         ],
         "hits10": [
-          "AEROLANDIA",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS"
+          "AEROLANDIA"
         ],
         "hits20": [
           "AEROLANDIA",
@@ -59,28 +57,26 @@
           "CONJUNTO PALMEIRAS"
         ],
         "hits5": [
-          "AEROLANDIA",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS"
+          "AEROLANDIA"
         ],
-        "p10": 0.3,
+        "p10": 0.1,
         "p20": 0.15,
-        "p5": 0.6,
+        "p5": 0.2,
         "ranking_top10": [
           "AEROLANDIA",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS",
           "MESSEJANA",
-          "CURIO",
-          "PARQUE IRACEMA",
           "BARRA DO CEARA",
-          "PRAIA DO FUTURO",
-          "ANTONIO BEZERRA",
-          "SIQUEIRA"
+          "SIQUEIRA",
+          "BARROSO",
+          "GRANJA LISBOA",
+          "CRISTO REDENTOR",
+          "CURIO",
+          "JANGURUSSU",
+          "PLANALTO AYRTON SENNA"
         ],
-        "recall10": 1.0,
+        "recall10": 0.3333,
         "recall20": 1.0,
-        "recall5": 1.0,
+        "recall5": 0.3333,
         "total_events": 5,
         "total_nodes": 122
       },
@@ -100,50 +96,44 @@
           "ALTO SANTO"
         ],
         "hits10": [
-          "AEROLANDIA",
           "ITAPAJE",
+          "AEROLANDIA",
           "VARZEA ALEGRE",
           "TIANGUA",
           "ALTO SANTO",
-          "JUAZEIRO DO NORTE",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS"
+          "JUAZEIRO DO NORTE"
         ],
         "hits20": [
-          "AEROLANDIA",
           "ITAPAJE",
+          "AEROLANDIA",
           "VARZEA ALEGRE",
           "TIANGUA",
           "ALTO SANTO",
           "JUAZEIRO DO NORTE",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS",
-          "CARIRE",
-          "TRAIRI"
+          "ANCURI"
         ],
         "hits5": [
-          "AEROLANDIA",
           "ITAPAJE",
-          "VARZEA ALEGRE"
+          "AEROLANDIA"
         ],
-        "p10": 0.8,
-        "p20": 0.5,
-        "p5": 0.6,
+        "p10": 0.6,
+        "p20": 0.35,
+        "p5": 0.4,
         "ranking_top10": [
-          "AEROLANDIA",
           "MARACANAU",
           "CAUCAIA",
           "ITAPAJE",
+          "AEROLANDIA",
+          "MESSEJANA",
           "VARZEA ALEGRE",
           "TIANGUA",
           "ALTO SANTO",
-          "JUAZEIRO DO NORTE",
-          "ANCURI",
-          "CONJUNTO PALMEIRAS"
+          "BARRA DO CEARA",
+          "JUAZEIRO DO NORTE"
         ],
-        "recall10": 0.7273,
-        "recall20": 0.9091,
-        "recall5": 0.2727,
+        "recall10": 0.5455,
+        "recall20": 0.6364,
+        "recall5": 0.1818,
         "total_events": 19,
         "total_nodes": 191
       },
