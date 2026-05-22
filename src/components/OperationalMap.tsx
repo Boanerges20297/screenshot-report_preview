@@ -91,13 +91,21 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
-function FitToRegion({ region }: { polygons: GeoFeatureCollection; region: RegionKey }) {
+function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
   useEffect(() => {
+    if (polygons && polygons.features.length > 0) {
+      const geoJsonLayer = L.geoJSON(polygons as never)
+      const bounds = geoJsonLayer.getBounds()
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { animate: true, padding: [20, 20] })
+        return
+      }
+    }
     const view = REGION_VIEW[region]
     map.setView(view.center, view.zoom, { animate: true })
-  }, [map, region])
+  }, [map, region, polygons])
 
   return null
 }

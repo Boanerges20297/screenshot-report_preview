@@ -102,7 +102,7 @@ function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [focusTrigger, setFocusTrigger] = useState(0)
   const [showMicronodes, setShowMicronodes] = useState(false)
-  const [showTop30, setShowTop30] = useState(true)
+  const [showTop30, setShowTop30] = useState(false)
   const [showEliteP10, setShowEliteP10] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -241,7 +241,7 @@ function App() {
   }
 
   // ─── Data computations ──────────────────────────────────────────────────────
-  const topRegionalItems = regionalItems.slice(0, 30)
+  const topRegionalItems = regionalItems.slice(0, 10)
   const regionalSummary = snapshot.summary.regions[region]
   const selectedTerritory = _selectedTerritory
   const selectedRisk = _selectedRisk
@@ -261,9 +261,9 @@ function App() {
       {/* ── Top Bar ── */}
       <header className="top-bar" role="banner">
         <div className="top-bar-brand">
-          <div className="top-bar-logo" aria-hidden="true">GCN</div>
+          <div className="top-bar-logo" aria-hidden="true">ST</div>
           <div>
-            <div className="top-bar-title">E‑GCN</div>
+            <div className="top-bar-title">ST-GAT/ST-GCN</div>
             <div className="top-bar-subtitle">Painel Territorial de Risco</div>
           </div>
         </div>
@@ -445,17 +445,6 @@ function App() {
           </div>
 
 
-          <div className="region-kpis-mini" aria-label="Mini-KPIs do recorte">
-            <span className="mini-kpi mini-kpi-critical" title="Críticos">
-              <strong>{regionalCriticalCount}</strong><span>Crít.</span>
-            </span>
-            <span className="mini-kpi mini-kpi-high" title="Altos">
-              <strong>{regionalHighCount}</strong><span>Alto</span>
-            </span>
-            <span className="mini-kpi" title="Em alerta">
-              <strong>{regionalPriorityCount}</strong><span>Alerta</span>
-            </span>
-          </div>
         </aside>
 
         {/* ── Map ── */}
@@ -602,40 +591,6 @@ function App() {
               </div>
 
               <div className="detail-content scroll-area">
-                <div className="detail-grid">
-                  <div>
-                    <span>Localidades</span>
-                    <strong>{regionalSummary?.total_nodes ?? 0}</strong>
-                  </div>
-                  <div>
-                    <span>Saturação</span>
-                    <strong>{saturationPct}%</strong>
-                  </div>
-                  <div>
-                    <span>Críticos</span>
-                    <strong>{regionalCriticalCount}</strong>
-                  </div>
-                  <div>
-                    <span>Altos</span>
-                    <strong>{regionalHighCount}</strong>
-                  </div>
-                  <div>
-                    <span>Em alerta</span>
-                    <strong>{regionalPriorityCount}</strong>
-                  </div>
-                  <div>
-                    <span>Pico de risco</span>
-                    <strong style={{ color: riskBandColor(regionalLeader?.score ?? 0) }}>
-                      {regionalLeader?.score?.toFixed(1) ?? '0.0'}%
-                    </strong>
-                  </div>
-                </div>
-
-                <div className="detail-copy">
-                  <h3>Líder regional</h3>
-                  <p>{regionalLeader?.name ?? 'N/A'} — {regionalLeader?.score?.toFixed(1) ?? '0.0'}% · {regionalLeader?.faction || 'N/A'}</p>
-                </div>
-
                 <div className="detail-empty">
                   <div className="detail-empty-icon" aria-hidden="true">🗺</div>
                   <p>Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica E-GCN.</p>
