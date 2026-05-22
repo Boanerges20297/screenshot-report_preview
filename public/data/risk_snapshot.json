@@ -19,6 +19,12 @@
         "crítico": 1,
         "moderado": 2
       },
+      "nan": {
+        "alto": 0,
+        "baixo": 3034,
+        "crítico": 0,
+        "moderado": 0
+      },
       "rmf": {
         "alto": 0,
         "baixo": 17,
@@ -305,7 +311,7 @@
       },
       {
         "name": "CAUCAIA",
-        "node_id": 173,
+        "node_id": 3247,
         "peak_hours": "",
         "region_type": "rmf",
         "risk_score": 83.4,
@@ -353,7 +359,7 @@
       },
       {
         "name": "VARZEA ALEGRE",
-        "node_id": 136,
+        "node_id": 3210,
         "peak_hours": "Entre 00hs e 05hs",
         "region_type": "interior",
         "risk_score": 61.8,
@@ -478,7 +484,7 @@
         },
         {
           "name": "TIANGUA",
-          "node_id": 124,
+          "node_id": 3198,
           "peak_hours": "Entre 00hs e 05hs",
           "region_type": "interior",
           "risk_score": 60.2,
@@ -486,7 +492,7 @@
         },
         {
           "name": "ALTO SANTO",
-          "node_id": 164,
+          "node_id": 3238,
           "peak_hours": "Entre 21hs e 02hs",
           "region_type": "interior",
           "risk_score": 51.0,
@@ -510,7 +516,7 @@
         },
         {
           "name": "LIMOEIRO DO NORTE",
-          "node_id": 138,
+          "node_id": 3212,
           "peak_hours": "Entre 16hs e 21hs",
           "region_type": "interior",
           "risk_score": 29.7,
@@ -541,10 +547,92 @@
           "status_label": "BAIXO"
         }
       ],
+      "nan": [
+        {
+          "name": "G00001",
+          "node_id": 122,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00002",
+          "node_id": 123,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00003",
+          "node_id": 124,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00004",
+          "node_id": 125,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00005",
+          "node_id": 126,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00006",
+          "node_id": 127,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00007",
+          "node_id": 128,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00008",
+          "node_id": 129,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00009",
+          "node_id": 130,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "name": "G00010",
+          "node_id": 131,
+          "peak_hours": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        }
+      ],
       "rmf": [
         {
           "name": "MARACANAU",
-          "node_id": 172,
+          "node_id": 3246,
           "peak_hours": "Entre 18hs e 23hs",
           "region_type": "rmf",
           "risk_score": 85.3,
@@ -560,7 +648,7 @@
         },
         {
           "name": "ITAITINGA",
-          "node_id": 180,
+          "node_id": 3254,
           "peak_hours": "Entre 14hs e 19hs",
           "region_type": "rmf",
           "risk_score": 23.7,
@@ -568,7 +656,7 @@
         },
         {
           "name": "HORIZONTE",
-          "node_id": 175,
+          "node_id": 3249,
           "peak_hours": "Entre 21hs e 02hs",
           "region_type": "rmf",
           "risk_score": 17.6,
@@ -584,7 +672,7 @@
         },
         {
           "name": "PACAJUS",
-          "node_id": 174,
+          "node_id": 3248,
           "peak_hours": "Entre 17hs e 22hs",
           "region_type": "rmf",
           "risk_score": 15.5,
@@ -592,7 +680,7 @@
         },
         {
           "name": "PACATUBA",
-          "node_id": 176,
+          "node_id": 3250,
           "peak_hours": "Entre 06hs e 11hs",
           "region_type": "rmf",
           "risk_score": 15.5,
@@ -600,7 +688,7 @@
         },
         {
           "name": "PINDORETAMA",
-          "node_id": 177,
+          "node_id": 3251,
           "peak_hours": "Entre 19hs e 00hs",
           "region_type": "rmf",
           "risk_score": 15.5,
@@ -608,7 +696,7 @@
         },
         {
           "name": "EUSEBIO",
-          "node_id": 179,
+          "node_id": 3253,
           "peak_hours": "Entre 03hs e 08hs",
           "region_type": "rmf",
           "risk_score": 15.5,
@@ -650,7 +738,7 @@
     },
     {
       "id": "rmf:CAUCAIA",
-      "node_id": 173,
+      "node_id": 3247,
       "name": "CAUCAIA",
       "clean_name": "CAUCAIA",
       "region": "rmf",
@@ -671,7 +759,7 @@
     },
     {
       "id": "interior:ITAPAJE",
-      "node_id": 128,
+      "node_id": 3202,
       "name": "ITAPAJE",
       "clean_name": "ITAPAJE",
       "region": "interior",
@@ -839,7 +927,7 @@
     },
     {
       "id": "interior:ALTO SANTO",
-      "node_id": 164,
+      "node_id": 3238,
       "name": "ALTO SANTO",
       "clean_name": "ALTO SANTO",
       "region": "interior",
@@ -965,7 +1053,7 @@
     },
     {
       "id": "interior:LIMOEIRO DO NORTE",
-      "node_id": 138,
+      "node_id": 3212,
       "name": "LIMOEIRO DO NORTE",
       "clean_name": "LIMOEIRO DO NORTE",
       "region": "interior",
@@ -33931,7 +34019,7 @@
       "tension_index": 17.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**VILA PERI** está na posição **#58** do ranking, com score **1.71/10** e confiança **65.3%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 17.10."
     },
     {
       "id": "fortaleza:VARJOTA",
@@ -33952,7 +34040,7 @@
       "tension_index": 17.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BONSUCESSO** está na posição **#59** do ranking, com score **1.70/10** e confiança **64.7%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 17.00."
     },
     {
       "id": "fortaleza:PARQUELANDIA",
@@ -33998,7 +34086,7 @@
     },
     {
       "id": "interior:ARATUBA",
-      "node_id": 129,
+      "node_id": 3203,
       "name": "ARATUBA",
       "clean_name": "ARATUBA",
       "region": "interior",
@@ -34435,7 +34523,7 @@
       "tension_index": 16.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ARATUBA** está na posição **#63** do ranking, com score **1.60/10** e confiança **59.2%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 16.00."
     },
     {
       "id": "fortaleza:MONTESE",
@@ -34682,12 +34770,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "Entre 16hs e 21hs",
+      "peak_hours": "Entre 19hs e 00hs",
       "faction": "CV",
       "tension_index": 15.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**FARIAS BRITO** está na posição **#65** do ranking, com score **1.55/10** e confiança **60.7%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.50."
     },
     {
       "id": "rmf:PACAJUS",
@@ -34829,7 +34917,7 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "Entre 17hs e 22hs",
+      "peak_hours": "Entre 18hs e 23hs",
       "faction": "CV",
       "tension_index": 15.4,
       "status": "BAIXO",
@@ -34855,7 +34943,7 @@
       "tension_index": 15.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SOBRAL** está na posição **#66** do ranking, com score **1.53/10** e confiança **68.6%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.30."
     },
     {
       "id": "fortaleza:CIDADE",
@@ -35023,7 +35111,7 @@
       "tension_index": 15.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CONJUNTO CEARA** está na posição **#67** do ranking, com score **1.50/10** e confiança **60.5%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.00."
     },
     {
       "id": "fortaleza:CAMBEBA",
@@ -35191,7 +35279,7 @@
       "tension_index": 14.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**CRATO** está na posição **#68** do ranking, com score **1.46/10** e confiança **68.2%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 14.60."
     },
     {
       "id": "fortaleza:BOA VISTA/CASTELAO",
@@ -35228,7 +35316,7 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "Entre 00hs e 05hs",
+      "peak_hours": "Entre 15hs e 20hs",
       "faction": "CV",
       "tension_index": 14.4,
       "status": "BAIXO",
@@ -35863,7 +35951,7 @@
       "tension_index": 13.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**OROS** está na posição **#72** do ranking, com score **1.34/10** e confiança **57.8%** — identificada como área de atenção moderada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.40."
     },
     {
       "id": "fortaleza:DIAS MACEDO",
@@ -35989,7 +36077,7 @@
       "tension_index": 13.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PARQUE DAS NACOES** está na posição **#75** do ranking, com score **1.31/10** e confiança **58.2%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.10."
     },
     {
       "id": "fortaleza:SAPIRANGA / COITE",
@@ -36010,7 +36098,7 @@
       "tension_index": 13.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**SAPIRANGA / COITE** está na posição **#76** do ranking, com score **1.30/10** e confiança **57.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.00."
     },
     {
       "id": "fortaleza:PARQUE PRESIDENTE VARGAS",
@@ -36031,7 +36119,7 @@
       "tension_index": 12.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**OLAVO OLIVEIRA** está na posição **#77** do ranking, com score **1.29/10** e confiança **58.0%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 12.90."
     },
     {
       "id": "fortaleza:CENTRO",
@@ -36136,7 +36224,7 @@
       "tension_index": 11.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**PRAIA DE IRACEMA** está na posição **#82** do ranking, com score **1.19/10** e confiança **57.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 11.90."
     },
     {
       "id": "fortaleza:SABIAGUABA",
@@ -36178,7 +36266,7 @@
       "tension_index": 11.1,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**ALTO DA BALANCA** está na posição **#94** do ranking, com score **1.11/10** e confiança **60.7%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "Território em nível baixo. Tensão territorial atual em 11.10."
     },
     {
       "id": "fortaleza:AEROPORTO",
@@ -36199,18 +36287,18 @@
       "tension_index": 11.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**HORIZONTE** está na posição **#98** do ranking, com score **1.10/10** e confiança **66.9%** — identificada como área monitorada. A criticidade decorre da combinação atual de score, posição relativa e sinais estruturais aprendidos pelo modelo."
+      "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 11.00."
     },
     {
       "id": "interior:URUBURETAMA",
-      "node_id": 130,
+      "node_id": 3204,
       "name": "URUBURETAMA",
       "clean_name": "URUBURETAMA",
       "region": "interior",
       "municipality": "URUBURETAMA",
       "score": 10.3,
       "rank_region": 47,
-      "rank_global": 178,
+      "rank_global": 1695,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36231,7 +36319,7 @@
       "municipality": "Fortaleza",
       "score": 9.9,
       "rank_region": 121,
-      "rank_global": 179,
+      "rank_global": 1696,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36252,7 +36340,7 @@
       "municipality": "Fortaleza",
       "score": 5.0,
       "rank_region": 122,
-      "rank_global": 180,
+      "rank_global": 1697,
       "momentum_7d": 0.0,
       "momentum_14d": -1.0,
       "recent_cvli": 0,
@@ -36266,14 +36354,14 @@
     },
     {
       "id": "interior:CRATEUS",
-      "node_id": 148,
+      "node_id": 3222,
       "name": "CRATEUS",
       "clean_name": "CRATEUS",
       "region": "interior",
       "municipality": "CRATEUS",
       "score": 4.8,
       "rank_region": 48,
-      "rank_global": 181,
+      "rank_global": 1698,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36287,7 +36375,7 @@
     },
     {
       "id": "interior:TEJUCUOCA",
-      "node_id": 167,
+      "node_id": 3241,
       "name": "TEJUCUOCA",
       "clean_name": "TEJUCUOCA",
       "region": "interior",
@@ -36329,19 +36417,19 @@
     },
     {
       "id": "rmf:AQUIRAZ",
-      "node_id": 182,
+      "node_id": 3256,
       "name": "AQUIRAZ",
       "clean_name": "AQUIRAZ",
       "region": "rmf",
       "municipality": "AQUIRAZ",
       "score": 0.0,
       "rank_region": 12,
-      "rank_global": 184,
+      "rank_global": 1701,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 4,
-      "peak_hours": "Entre 13hs e 18hs",
+      "peak_hours": "Entre 05hs e 10hs",
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
@@ -36350,14 +36438,14 @@
     },
     {
       "id": "rmf:PARACURU",
-      "node_id": 183,
+      "node_id": 3257,
       "name": "PARACURU",
       "clean_name": "PARACURU",
       "region": "rmf",
       "municipality": "PARACURU",
       "score": 0.0,
       "rank_region": 13,
-      "rank_global": 185,
+      "rank_global": 1702,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36371,14 +36459,14 @@
     },
     {
       "id": "rmf:MARANGUAPE",
-      "node_id": 184,
+      "node_id": 3258,
       "name": "MARANGUAPE",
       "clean_name": "MARANGUAPE",
       "region": "rmf",
       "municipality": "MARANGUAPE",
       "score": 0.0,
       "rank_region": 14,
-      "rank_global": 186,
+      "rank_global": 1703,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36392,14 +36480,14 @@
     },
     {
       "id": "rmf:GUAIUBA",
-      "node_id": 185,
+      "node_id": 3259,
       "name": "GUAIUBA",
       "clean_name": "GUAIUBA",
       "region": "rmf",
       "municipality": "GUAIUBA",
       "score": 0.0,
       "rank_region": 15,
-      "rank_global": 187,
+      "rank_global": 1704,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36413,14 +36501,14 @@
     },
     {
       "id": "rmf:CHOROZINHO",
-      "node_id": 187,
+      "node_id": 3261,
       "name": "CHOROZINHO",
       "clean_name": "CHOROZINHO",
       "region": "rmf",
       "municipality": "CHOROZINHO",
       "score": 0.0,
       "rank_region": 16,
-      "rank_global": 188,
+      "rank_global": 1705,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36434,14 +36522,14 @@
     },
     {
       "id": "rmf:CASCAVEL",
-      "node_id": 188,
+      "node_id": 3262,
       "name": "CASCAVEL",
       "clean_name": "CASCAVEL",
       "region": "rmf",
       "municipality": "CASCAVEL",
       "score": 0.0,
       "rank_region": 17,
-      "rank_global": 189,
+      "rank_global": 1706,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36455,14 +36543,14 @@
     },
     {
       "id": "rmf:SAO GONCALO DO AMARANTE",
-      "node_id": 189,
+      "node_id": 3263,
       "name": "SAO GONCALO DO AMARANTE",
       "clean_name": "SAO GONCALO DO AMARANTE",
       "region": "rmf",
       "municipality": "SAO GONCALO DO AMARANTE",
       "score": 0.0,
       "rank_region": 18,
-      "rank_global": 190,
+      "rank_global": 1707,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -36476,14 +36564,14 @@
     },
     {
       "id": "rmf:BEBERIBE",
-      "node_id": 190,
+      "node_id": 3264,
       "name": "BEBERIBE",
       "clean_name": "BEBERIBE",
       "region": "rmf",
       "municipality": "BEBERIBE",
       "score": 0.0,
       "rank_region": 19,
-      "rank_global": 191,
+      "rank_global": 1708,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,

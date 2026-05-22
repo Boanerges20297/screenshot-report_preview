@@ -8,8 +8,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 99.5,
-        "text": "Posição #1 e permanência no top 0,5% mantêm o território na primeira faixa de atenção."
+        "score_pct": 100.0,
+        "text": "Posição #1 e permanência no top 0,0% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -62,13 +62,13 @@
         "explanation": "📌 **Posição global**: MARACANAU ocupa a posição #1 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#1 de 191"
+        "value": "#1 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,5% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,0% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 0,5%"
+        "value": "top 0,0%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 85,3%, equivalente a 8,53/10.",
@@ -174,8 +174,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 99.0,
-        "text": "Posição #2 e permanência no top 1,0% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.9,
+        "text": "Posição #2 e permanência no top 0,1% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -225,16 +225,16 @@
     "confidence_pct": 95.6,
     "factors": [
       {
-        "explanation": "📌 **Posição global**: CAUCAIA ocupa a posição #2 entre 191 territórios monitorados.",
+        "explanation": "📌 **Posição global**: CAUCAIA ocupa a posição #2 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#2 de 191"
+        "value": "#2 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 1,0% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,1% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 1,0%"
+        "value": "top 0,1%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 83,4%, equivalente a 8,34/10.",
@@ -317,7 +317,7 @@
     ],
     "interpretation": "Confiança **alta** para decisão operacional, com 4 bloco(s) independentes sustentando a leitura.",
     "name": "CAUCAIA",
-    "node_id": 173,
+    "node_id": 3247,
     "rank": 2,
     "risk_score_pct": 83.36073721921655,
     "score": 8.336073721921654,
@@ -338,8 +338,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 98.4,
-        "text": "Posição #3 e permanência no top 1,6% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.9,
+        "text": "Posição #3 e permanência no top 0,1% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -386,13 +386,13 @@
         "explanation": "📌 **Posição global**: ITAPAJE ocupa a posição #3 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#3 de 191"
+        "value": "#3 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 1,6% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,1% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 1,6%"
+        "value": "top 0,1%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 83,2%, equivalente a 8,32/10.",
@@ -496,8 +496,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 97.9,
-        "text": "Posição #4 e permanência no top 2,1% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.9,
+        "text": "Posição #4 e permanência no top 0,1% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -544,13 +544,13 @@
         "explanation": "📌 **Posição global**: AEROLANDIA ocupa a posição #4 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#4 de 191"
+        "value": "#4 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 2,1% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,1% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 2,1%"
+        "value": "top 0,1%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 77,0%, equivalente a 7,70/10.",
@@ -656,8 +656,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 97.4,
-        "text": "Posição #5 e permanência no top 2,6% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.8,
+        "text": "Posição #5 e permanência no top 0,2% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -879,10 +879,10 @@
         "value": "#7 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 2,6% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,2% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 2,6%"
+        "value": "top 0,2%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 66,2%, equivalente a 6,62/10.",
@@ -986,8 +986,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 96.3,
-        "text": "Posição #7 e permanência no top 3,7% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.7,
+        "text": "Posição #9 e permanência no top 0,3% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -1034,13 +1034,13 @@
         "explanation": "📌 **Posição global**: ANCURI ocupa a posição #9 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#7 de 191"
+        "value": "#9 de 3265"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 3,7% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,3% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 3,7%"
+        "value": "top 0,3%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 63,5%, equivalente a 6,35/10.",
@@ -1144,8 +1144,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 95.8,
-        "text": "Posição #8 e permanência no top 4,2% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.7,
+        "text": "Posição #11 e permanência no top 0,3% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -1189,16 +1189,10 @@
     "confidence_pct": 94.2,
     "factors": [
       {
-        "explanation": "📌 **Posição global**: VARZEA ALEGRE ocupa a posição #8 entre 191 territórios monitorados.",
+        "explanation": "📌 **Posição global**: VARZEA ALEGRE ocupa a posição #11 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#8 de 191"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 4,2% do ranking e segue na primeira faixa de atenção.",
-        "importance": "high",
-        "name": "Faixa percentual do ranking",
-        "value": "top 4,2%"
+        "value": "#11 de 3265"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 61,8%, equivalente a 6,18/10.",
@@ -1247,6 +1241,12 @@
         "importance": "high",
         "name": "Corroboração da confiança",
         "value": "3"
+      },
+      {
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,3% do ranking e segue na primeira faixa de atenção.",
+        "importance": "medium",
+        "name": "Faixa percentual do ranking",
+        "value": "top 0,3%"
       },
       {
         "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a TCP/GDE, com efeito direto na leitura operacional.",
@@ -1460,8 +1460,8 @@
       {
         "direction": "positive",
         "name": "Separação no ranking",
-        "score_pct": 94.8,
-        "text": "Posição #10 e permanência no top 5,2% mantêm o território na primeira faixa de atenção."
+        "score_pct": 99.6,
+        "text": "Posição #13 e permanência no top 0,4% mantêm o território na primeira faixa de atenção."
       },
       {
         "direction": "positive",
@@ -1508,13 +1508,7 @@
         "explanation": "📌 **Posição global**: CONJUNTO PALMEIRAS ocupa a posição #13 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#10 de 191"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 5,2% do ranking e segue na primeira faixa de atenção.",
-        "importance": "high",
-        "name": "Faixa percentual do ranking",
-        "value": "top 5,2%"
+        "value": "#13 de 3265"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 59,9%, equivalente a 5,99/10.",
@@ -2671,7 +2665,7 @@
         "explanation": "📌 **Posição global**: LIMOEIRO DO NORTE ocupa a posição #24 entre 3265 territórios monitorados.",
         "importance": "high",
         "name": "Posição global",
-        "value": "#16 de 191"
+        "value": "#24 de 3265"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 29,7%, equivalente a 2,97/10.",
@@ -31297,156 +31291,7 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:VILA PERI": {
-    "confidence": 0.6534326020852197,
-    "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 69.6,
-        "text": "Posição #58 e permanência no top 30,4% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 50.5,
-        "text": "Score atual opera 0,3 pontos percentuais acima da média, com z-score 0,02."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 15.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 13.2,
-        "text": "1 vizinho(s) crítico(s) entre 12 adjacentes, com média vizinha de 19,2%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 9.0,
-        "text": "Sinal de inteligência recente em 0,0 e 1 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 5.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 65.3,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: VILA PERI ocupa a posição #58 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#58 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 17,1%, equivalente a 1,71/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "17,1%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 1 vizinho(s) estão em faixa elevada, com média de 19,2% e máximo de 57,9%.",
-        "importance": "high",
-        "name": "Vizinhos críticos",
-        "value": "1"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 1 referência(s) territorial(is) destacada(s). Destaques: DISTRITO DE SEVERINO.",
-        "importance": "high",
-        "name": "Logradouros críticos",
-        "value": "1"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 30,4% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 30,4%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera 0,3 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "0,3 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "1"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 1 bloco(s) fortes de evidência.",
+    "node_id": 107,
     "name": "VILA PERI",
     "risk_score_pct": 19.1,
     "summary": "Território em nível baixo. Tensão territorial atual em 19.10.",
@@ -31466,157 +31311,7 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:SAO MIGUEL": {
-    "confidence": 0.5932071111810294,
-    "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 63.4,
-        "text": "Posição #70 e permanência no top 36,6% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 44.2,
-        "text": "Score atual opera -2,9 pontos percentuais acima da média, com z-score -0,17."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 5.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 6.5,
-        "text": "0 vizinho(s) crítico(s) entre 11 adjacentes, com média vizinha de 14,5%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 9.0,
-        "text": "Sinal de inteligência recente em 0,0 e 1 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 9.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 59.3,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: SAO MIGUEL ocupa a posição #70 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#70 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 14,0%, equivalente a 1,40/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "14,0%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 1 referência(s) territorial(is) destacada(s). Destaques: RUA ELIZEU ORIA COM RUA ESMERINO PARENTE.",
-        "importance": "high",
-        "name": "Logradouros críticos",
-        "value": "1"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 36,6% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 36,6%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera -2,9 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "-2,9 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 0 vizinho(s) estão em faixa elevada, com média de 14,5% e máximo de 27,9%.",
-        "importance": "medium",
-        "name": "Vizinhos críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "1"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **baixa**. Use como orientação preventiva e não como evidência conclusiva isolada.",
+    "node_id": 113,
     "name": "SAO MIGUEL",
     "risk_score_pct": 18.3,
     "summary": "Território em nível baixo. Tensão territorial atual em 18.30.",
@@ -31856,156 +31551,7 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:JACARECANGA": {
-    "confidence": 0.6446982970332447,
-    "confidence_caveats": [
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 61.3,
-        "text": "Posição #74 e permanência no top 38,7% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 42.8,
-        "text": "Score atual opera -3,6 pontos percentuais acima da média, com z-score -0,22."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 5.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 6.2,
-        "text": "0 vizinho(s) crítico(s) entre 13 adjacentes, com média vizinha de 13,8%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 36.0,
-        "text": "Sinal de inteligência recente em 0,0 e 4 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 4.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 64.5,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: JACARECANGA ocupa a posição #74 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#74 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 13,3%, equivalente a 1,33/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "13,3%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 4 referência(s) territorial(is) destacada(s). Destaques: RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605.",
-        "importance": "high",
-        "name": "Logradouros críticos",
-        "value": "4"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 38,7% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 38,7%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera -3,6 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "-3,6 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 0 vizinho(s) estão em faixa elevada, com média de 13,8% e máximo de 29,0%.",
-        "importance": "medium",
-        "name": "Vizinhos críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "2"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **moderada**. A previsão serve para prevenção, mas ainda depende de validação em campo por haver apenas 2 bloco(s) fortes de evidência.",
+    "node_id": 48,
     "name": "JACARECANGA",
     "risk_score_pct": 16.6,
     "summary": "Território em nível baixo. Tensão territorial atual em 16.60.",
@@ -32225,157 +31771,7 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:PARQUE DAS NACOES": {
-    "confidence": 0.5818212225463514,
-    "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 60.7,
-        "text": "Posição #75 e permanência no top 39,3% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 42.4,
-        "text": "Score atual opera -3,7 pontos percentuais acima da média, com z-score -0,23."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 5.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 6.9,
-        "text": "0 vizinho(s) crítico(s) entre 9 adjacentes, com média vizinha de 15,4%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 0.0,
-        "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 9.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 58.2,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: PARQUE DAS NACOES ocupa a posição #75 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#75 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 13,1%, equivalente a 1,31/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "13,1%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 39,3% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 39,3%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera -3,7 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "-3,7 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 0 vizinho(s) estão em faixa elevada, com média de 15,4% e máximo de 27,9%.",
-        "importance": "medium",
-        "name": "Vizinhos críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 0 referência(s) territorial(is) destacada(s). Destaques: Sem logradouros críticos recentes.",
-        "importance": "medium",
-        "name": "Logradouros críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "1"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **baixa**. Use como orientação preventiva e não como evidência conclusiva isolada.",
+    "node_id": 111,
     "name": "PARQUE DAS NACOES",
     "risk_score_pct": 15.6,
     "summary": "Território em nível baixo. Tensão territorial atual em 15.60.",
@@ -33035,171 +32431,14 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:SAPIRANGA / COITE": {
-    "confidence": 0.5791220232909924,
-    "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 60.2,
-        "text": "Posição #76 e permanência no top 39,8% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 42.1,
-        "text": "Score atual opera -3,9 pontos percentuais acima da média, com z-score -0,24."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 5.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 5.1,
-        "text": "0 vizinho(s) crítico(s) entre 3 adjacentes, com média vizinha de 11,4%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 0.0,
-        "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 9.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 57.9,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: SAPIRANGA / COITE ocupa a posição #76 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#76 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 13,0%, equivalente a 1,30/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "13,0%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 39,8% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 39,8%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera -3,9 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "-3,9 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 0 vizinho(s) estão em faixa elevada, com média de 11,4% e máximo de 19,9%.",
-        "importance": "medium",
-        "name": "Vizinhos críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 0 referência(s) territorial(is) destacada(s). Destaques: Sem logradouros críticos recentes.",
-        "importance": "medium",
-        "name": "Logradouros críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "1"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **baixa**. Use como orientação preventiva e não como evidência conclusiva isolada.",
-    "name": "SAPIRANGA / COITE",
     "node_id": 99,
-    "rank": 76,
-    "risk_score_pct": 12.95571533881489,
-    "score": 1.295571533881489,
-    "source": "elite_contextual",
-    "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-      "executive_summary": "SAPIRANGA / COITE entra na posição #76, no top 39,8% do ranking, com score de 1,30/10 (13,0%). No ciclo atual, isso coloca o território em faixa de atenção moderada e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar SAPIRANGA / COITE como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
-      "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (-3,9 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
-    },
-    "summary": "**SAPIRANGA / COITE** está na posição **#76** do ranking, com score **1.30/10** e confiança **57.9%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "name": "SAPIRANGA / COITE",
+    "risk_score_pct": 13.0,
+    "summary": "Território em nível baixo. Tensão territorial atual em 13.00.",
+    "factors": [],
+    "caveats": [],
+    "explanation_available": false,
+    "source": "snapshot_fallback"
   },
   "fortaleza:PARQUE PRESIDENTE VARGAS": {
     "node_id": 79,
@@ -33252,171 +32491,14 @@
     "source": "snapshot_fallback"
   },
   "fortaleza:PRAIA DE IRACEMA": {
-    "confidence": 0.5710287714191566,
-    "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
-      "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
-    ],
-    "confidence_components": [
-      {
-        "direction": "positive",
-        "name": "Separação no ranking",
-        "score_pct": 57.1,
-        "text": "Posição #82 e permanência no top 42,9% mantêm o território na primeira faixa de atenção."
-      },
-      {
-        "direction": "positive",
-        "name": "Distância estatística da média",
-        "score_pct": 40.0,
-        "text": "Score atual opera -4,9 pontos percentuais acima da média, com z-score -0,30."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração temporal",
-        "score_pct": 5.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
-      },
-      {
-        "direction": "positive",
-        "name": "Corroboração espacial",
-        "score_pct": 4.0,
-        "text": "0 vizinho(s) crítico(s) entre 5 adjacentes, com média vizinha de 8,8%."
-      },
-      {
-        "direction": "positive",
-        "name": "Eventos observados",
-        "score_pct": 0.0,
-        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
-      },
-      {
-        "direction": "positive",
-        "name": "Inteligência e ruas críticas",
-        "score_pct": 0.0,
-        "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
-      },
-      {
-        "direction": "positive",
-        "name": "Estrutura territorial",
-        "score_pct": 62.5,
-        "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 9.0,
-        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
-      }
-    ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-    "confidence_label": "Baixa",
-    "confidence_pct": 57.1,
-    "factors": [
-      {
-        "explanation": "📌 **Posição global**: PRAIA DE IRACEMA ocupa a posição #82 entre 191 territórios monitorados.",
-        "importance": "high",
-        "name": "Posição global",
-        "value": "#82 de 191"
-      },
-      {
-        "explanation": "🎯 **Score atual**: o risco consolidado está em 11,9%, equivalente a 1,19/10.",
-        "importance": "high",
-        "name": "Score de risco",
-        "value": "11,9%"
-      },
-      {
-        "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
-        "importance": "high",
-        "name": "Tensão territorial",
-        "value": "0,50"
-      },
-      {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 42,9% do ranking e segue na primeira faixa de atenção.",
-        "importance": "medium",
-        "name": "Faixa percentual do ranking",
-        "value": "top 42,9%"
-      },
-      {
-        "explanation": "📈 **Desvio sobre a média**: o território opera -4,9 ponto(s) percentual(is) acima da média operacional de 16,8%.",
-        "importance": "medium",
-        "name": "Desvio sobre a média",
-        "value": "-4,9 p.p."
-      },
-      {
-        "explanation": "🩸 **CVLI 7 dias**: 0 ocorrência(s) na janela mais curta, contra 0 na janela imediatamente anterior.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 7 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
-        "importance": "medium",
-        "name": "Facção predominante",
-        "value": "CV"
-      },
-      {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
-        "importance": "medium",
-        "name": "CVLI nos últimos 14 dias",
-        "value": "0"
-      },
-      {
-        "explanation": "🧲 **Vizinhos críticos**: 0 vizinho(s) estão em faixa elevada, com média de 8,8% e máximo de 16,8%.",
-        "importance": "medium",
-        "name": "Vizinhos críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
-        "importance": "medium",
-        "name": "Eventos exógenos recentes",
-        "value": "0"
-      },
-      {
-        "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
-        "importance": "medium",
-        "name": "Intensidade de conflito",
-        "value": "0,00"
-      },
-      {
-        "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
-        "importance": "medium",
-        "name": "Inteligência policial recente",
-        "value": "0,0"
-      },
-      {
-        "explanation": "🛣️ **Logradouros críticos**: 0 referência(s) territorial(is) destacada(s). Destaques: Sem logradouros críticos recentes.",
-        "importance": "medium",
-        "name": "Logradouros críticos",
-        "value": "0"
-      },
-      {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 1 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "1"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "low",
-        "name": "Intensidade de supressão",
-        "value": "0,00"
-      }
-    ],
-    "interpretation": "Confiança **baixa**. Use como orientação preventiva e não como evidência conclusiva isolada.",
-    "name": "PRAIA DE IRACEMA",
     "node_id": 92,
-    "rank": 82,
-    "risk_score_pct": 11.900281753875916,
-    "score": 1.1900281753875916,
-    "source": "elite_contextual",
-    "structured_result": {
-      "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
-      "executive_summary": "PRAIA DE IRACEMA entra na posição #82, no top 42,9% do ranking, com score de 1,19/10 (11,9%). No ciclo atual, isso coloca o território em faixa de atenção moderada e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar PRAIA DE IRACEMA como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
-      "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (-4,9 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
-    },
-    "summary": "**PRAIA DE IRACEMA** está na posição **#82** do ranking, com score **1.19/10** e confiança **57.1%** — identificada como área de atenção moderada. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "name": "PRAIA DE IRACEMA",
+    "risk_score_pct": 11.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 11.90.",
+    "factors": [],
+    "caveats": [],
+    "explanation_available": false,
+    "source": "snapshot_fallback"
   },
   "fortaleza:SABIAGUABA": {
     "node_id": 97,
@@ -33449,7 +32531,7 @@
     "source": "snapshot_fallback"
   },
   "interior:URUBURETAMA": {
-    "node_id": 130,
+    "node_id": 3204,
     "name": "URUBURETAMA",
     "risk_score_pct": 10.3,
     "summary": "Território em nível baixo. Tensão territorial atual em 10.30.",
@@ -33479,7 +32561,7 @@
     "source": "snapshot_fallback"
   },
   "interior:CRATEUS": {
-    "node_id": 148,
+    "node_id": 3222,
     "name": "CRATEUS",
     "risk_score_pct": 4.8,
     "summary": "Território em nível baixo. Tensão territorial atual em 4.80.",
@@ -33489,7 +32571,7 @@
     "source": "snapshot_fallback"
   },
   "interior:TEJUCUOCA": {
-    "node_id": 167,
+    "node_id": 3241,
     "name": "TEJUCUOCA",
     "risk_score_pct": 4.8,
     "summary": "Território em nível baixo. Tensão territorial atual em 4.80.",
@@ -33509,7 +32591,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:AQUIRAZ": {
-    "node_id": 182,
+    "node_id": 3256,
     "name": "AQUIRAZ",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo. Eventos exógenos recentes: 4.",
@@ -33519,7 +32601,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:PARACURU": {
-    "node_id": 183,
+    "node_id": 3257,
     "name": "PARACURU",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
@@ -33529,7 +32611,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:MARANGUAPE": {
-    "node_id": 184,
+    "node_id": 3258,
     "name": "MARANGUAPE",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
@@ -33539,7 +32621,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:GUAIUBA": {
-    "node_id": 185,
+    "node_id": 3259,
     "name": "GUAIUBA",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo.",
@@ -33549,7 +32631,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:CHOROZINHO": {
-    "node_id": 187,
+    "node_id": 3261,
     "name": "CHOROZINHO",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo.",
@@ -33559,7 +32641,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:CASCAVEL": {
-    "node_id": 188,
+    "node_id": 3262,
     "name": "CASCAVEL",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo.",
@@ -33569,7 +32651,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:SAO GONCALO DO AMARANTE": {
-    "node_id": 189,
+    "node_id": 3263,
     "name": "SAO GONCALO DO AMARANTE",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
@@ -33579,7 +32661,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:BEBERIBE": {
-    "node_id": 190,
+    "node_id": 3264,
     "name": "BEBERIBE",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo.",
