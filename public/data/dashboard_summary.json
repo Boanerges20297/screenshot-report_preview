@@ -1,29 +1,29 @@
 {
   "global": {
-    "total_nodes": 191,
-    "active_locations": 14,
-    "top_region": "fortaleza",
-    "top_name": "AEROLANDIA",
-    "avg_risk": 16.84
+    "total_nodes": 1708,
+    "active_locations": 12,
+    "top_region": "rmf",
+    "top_name": "MARACANAU",
+    "avg_risk": 19.96
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 122,
-      "avg_risk": 18.83,
-      "max_risk": 81.8,
+      "avg_risk": 19.35,
+      "max_risk": 77.0,
       "top_name": "AEROLANDIA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 12.73,
-      "max_risk": 80.7,
-      "top_name": "CAUCAIA"
+      "avg_risk": 16.77,
+      "max_risk": 85.3,
+      "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 13.53,
-      "max_risk": 78.0,
-      "top_name": "JUAZEIRO DO NORTE"
+      "avg_risk": 21.45,
+      "max_risk": 83.2,
+      "top_name": "ITAPAJE"
     }
   }
 }
