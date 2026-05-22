@@ -301,12 +301,15 @@ function App() {
 
           <button
             id="theme-toggle"
-            className="theme-toggle"
+            className={`theme-toggle-switch ${theme === 'light' ? 'is-light' : ''}`}
             onClick={() => setTheme((t) => t === 'dark' ? 'light' : 'dark')}
             aria-label={theme === 'dark' ? 'Mudar para tema claro' : 'Mudar para tema escuro'}
-            title={theme === 'dark' ? 'Tema claro' : 'Tema escuro'}
+            title={theme === 'dark' ? 'Ativar tema claro' : 'Ativar tema escuro'}
           >
-            {theme === 'dark' ? '☀' : '🌙'}
+            <span className="theme-toggle-track">
+              <span className="theme-toggle-thumb" />
+            </span>
+            <span className="theme-toggle-label">{theme === 'dark' ? '🌙 Escuro' : '☀ Claro'}</span>
           </button>
         </div>
       </header>
@@ -441,19 +444,17 @@ function App() {
             ))}
           </div>
 
-          <div className="region-kpis" aria-label="KPIs do recorte regional">
-            <div>
-              <span>Alerta</span>
-              <strong>{regionalPriorityCount}</strong>
-            </div>
-            <div>
-              <span>Críticos</span>
-              <strong>{regionalCriticalCount}</strong>
-            </div>
-            <div>
-              <span>Altos</span>
-              <strong>{regionalHighCount}</strong>
-            </div>
+
+          <div className="region-kpis-mini" aria-label="Mini-KPIs do recorte">
+            <span className="mini-kpi mini-kpi-critical" title="Críticos">
+              <strong>{regionalCriticalCount}</strong><span>Crít.</span>
+            </span>
+            <span className="mini-kpi mini-kpi-high" title="Altos">
+              <strong>{regionalHighCount}</strong><span>Alto</span>
+            </span>
+            <span className="mini-kpi" title="Em alerta">
+              <strong>{regionalPriorityCount}</strong><span>Alerta</span>
+            </span>
           </div>
         </aside>
 

@@ -241,26 +241,28 @@ export function OperationalMap({
     layerRegistryRef.current.set(territoryId, layer)
 
     layer.bindPopup(`
-      <div style="min-width:240px;font-family:system-ui,sans-serif;">
-        <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;">Top 30 ${region.toUpperCase()}</div>
-        <div style="font-size:18px;font-weight:700;color:#0f172a;margin-top:4px;">${name}</div>
-        <div style="margin-top:8px;font-size:13px;color:#334155;">
-          <div><strong>Risco:</strong> ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
-          <div><strong>Facção:</strong> ${detail?.faction ?? feature.properties?.faction ?? 'N/A'}</div>
-          <div><strong>Momentum 14d:</strong> ${detail?.momentum_14d ?? riskItem?.momentum_14d ?? 0}</div>
-          <div><strong>CVLI recente:</strong> ${detail?.recent_cvli ?? riskItem?.recent_cvli ?? 0}</div>
-          <div><strong>Exógenos:</strong> ${detail?.recent_exogenous ?? riskItem?.recent_exogenous ?? 0}</div>
-          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
+      <div style="min-width:240px;font-family:'Inter',system-ui,sans-serif;">
+        <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f97316;font-weight:800;">
+          Top 30 · ${region.toUpperCase()}
         </div>
-        <div style="margin-top:10px;font-size:12px;color:#475569;line-height:1.45;">${detail?.summary ?? riskItem?.summary ?? 'Sem resumo congelado.'}</div>
+        <div style="font-size:17px;font-weight:700;color:#f1f5f9;margin-top:6px;">${name}</div>
+        <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
+          <div><span style="color:#64748b;">Risco</span> <strong style="color:#f97316;">${riskItem?.score?.toFixed(1) ?? '0.0'}%</strong></div>
+          <div><span style="color:#64748b;">Facção</span> <strong style="color:#e2e8f0;">${detail?.faction ?? feature.properties?.faction ?? 'N/A'}</strong></div>
+          <div><span style="color:#64748b;">Momentum 14d</span> <strong style="color:#e2e8f0;">${detail?.momentum_14d ?? riskItem?.momentum_14d ?? 0}</strong></div>
+          <div><span style="color:#64748b;">CVLI recente</span> <strong style="color:#e2e8f0;">${detail?.recent_cvli ?? riskItem?.recent_cvli ?? 0}</strong></div>
+          <div><span style="color:#64748b;">Exógenos</span> <strong style="color:#e2e8f0;">${detail?.recent_exogenous ?? riskItem?.recent_exogenous ?? 0}</strong></div>
+          ${peakHours ? `<div><span style="color:#64748b;">Horário crítico</span> <strong style="color:#fdba74;">⏱ ${peakHours}</strong></div>` : ''}
+        </div>
+        ${detail?.summary || riskItem?.summary ? `<div style="margin-top:10px;font-size:11px;color:#64748b;line-height:1.5;border-top:1px solid rgba(255,255,255,0.08);padding-top:8px;">${detail?.summary ?? riskItem?.summary}</div>` : ''}
       </div>
     `)
 
     layer.bindTooltip(`
-      <div style="font-family:system-ui,sans-serif;font-weight:600;color:#0f172a;text-align:center;">
-        <div>${name}</div>
-        <div style="font-weight:400;color:#475569;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
-        ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
+      <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
+        <div style="font-weight:700;color:#f1f5f9;font-size:13px;">${name}</div>
+        <div style="font-weight:600;color:#f97316;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
+        ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'territory-tooltip' })
   }
@@ -273,22 +275,23 @@ export function OperationalMap({
     const area = String(props.area_oficial ?? props.micronodo ?? 'Micronodo')
     const peakHours = getPeakHoursFromSources(null, null, props)
     layer.bindPopup(`
-      <div style="min-width:220px;font-family:system-ui,sans-serif;">
-        <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#94a3b8;">ORCRIM</div>
-        <div style="font-size:16px;font-weight:700;color:#0f172a;margin-top:4px;">${area}</div>
-        <div style="margin-top:8px;font-size:13px;color:#334155;">
-          <div><strong>Micronodo:</strong> ${String(props.micronodo ?? 'N/A')}</div>
-          <div><strong>Facção:</strong> ${String(props.faction ?? 'N/A')}</div>
-          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
+      <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
+        <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#94a3b8;font-weight:800;">ORCRIM</div>
+        <div style="font-size:16px;font-weight:700;color:#f1f5f9;margin-top:6px;">${area}</div>
+        <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
+          <div><span style="color:#64748b;">Micronodo</span> <strong style="color:#e2e8f0;">${String(props.micronodo ?? 'N/A')}</strong></div>
+          <div><span style="color:#64748b;">Facção</span> <strong style="color:#e2e8f0;">${String(props.faction ?? 'N/A')}</strong></div>
+          ${peakHours ? `<div><span style="color:#64748b;">Horário crítico</span> <strong style="color:#fdba74;">⏱ ${peakHours}</strong></div>` : ''}
         </div>
       </div>
     `)
 
     layer.bindTooltip(`
-      <div style="font-family:system-ui,sans-serif;font-weight:600;color:#0f172a;text-align:center;">
-        <div>ORCRIM: ${area}</div>
-        <div style="font-weight:400;color:#475569;font-size:12px;margin-top:2px;">Facção: ${String(props.faction ?? 'N/A')}</div>
-        ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
+      <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
+        <div style="font-weight:700;color:#94a3b8;font-size:12px;">ORCRIM</div>
+        <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${area}</div>
+        <div style="color:#64748b;font-size:11px;margin-top:2px;">Facção: ${String(props.faction ?? 'N/A')}</div>
+        ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'micronode-tooltip' })
   }
@@ -300,27 +303,28 @@ export function OperationalMap({
     const props = feature.properties || {}
     const peakHours = getPeakHoursFromSources(null, null, props)
     layer.bindPopup(`
-      <div style="min-width:240px;font-family:system-ui,sans-serif;">
-        <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#8b0000;font-weight:800;">ELITE P10 · ALTA PRIORIDADE</div>
-        <div style="font-size:18px;font-weight:700;color:#0f172a;margin-top:4px;">${props.bairro ?? 'Território Elite'}</div>
-        <div style="margin-top:8px;font-size:13px;color:#334155;">
-          <div><strong>Rank:</strong> #${props.rank ?? 'N/A'}</div>
-          <div><strong>Risco:</strong> ${props.indice_risco ?? 'N/A'}%</div>
-          <div><strong>Natureza:</strong> ${props.natureza ?? 'N/A'}</div>
-          <div><strong>Raio:</strong> ${props.raio ?? 'N/A'}</div>
-          ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
+      <div style="min-width:240px;font-family:'Inter',system-ui,sans-serif;">
+        <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f87171;font-weight:800;">⚠ ELITE P10 · ALTA PRIORIDADE</div>
+        <div style="font-size:17px;font-weight:700;color:#f1f5f9;margin-top:6px;">${props.bairro ?? 'Território Elite'}</div>
+        <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
+          <div><span style="color:#64748b;">Rank</span> <strong style="color:#e2e8f0;">#${props.rank ?? 'N/A'}</strong></div>
+          <div><span style="color:#64748b;">Risco</span> <strong style="color:#f87171;">${props.indice_risco ?? 'N/A'}%</strong></div>
+          <div><span style="color:#64748b;">Natureza</span> <strong style="color:#e2e8f0;">${props.natureza ?? 'N/A'}</strong></div>
+          <div><span style="color:#64748b;">Raio</span> <strong style="color:#e2e8f0;">${props.raio ?? 'N/A'}</strong></div>
+          ${peakHours ? `<div><span style="color:#64748b;">Horário crítico</span> <strong style="color:#fdba74;">⏱ ${peakHours}</strong></div>` : ''}
         </div>
-        <div style="margin-top:10px;padding:8px;background:#fff1f2;border-radius:4px;font-size:12px;color:#991b1b;border:1px solid #fecdd3;">
-          <strong>Alerta:</strong> Este micronodo pertence à elite P10 de maior criticidade tática.
+        <div style="margin-top:10px;padding:8px;background:rgba(239,68,68,0.12);border-radius:6px;font-size:11px;color:#f87171;border:1px solid rgba(239,68,68,0.25);">
+          <strong>Alerta:</strong> Micronodo pertence à elite P10 de maior criticidade tática.
         </div>
       </div>
     `)
 
     layer.bindTooltip(`
-      <div style="font-family:system-ui,sans-serif;font-weight:600;color:#8b0000;text-align:center;">
-        <div>Elite P10: ${props.bairro ?? 'Território'}</div>
-        <div style="font-weight:400;color:#991b1b;font-size:12px;margin-top:2px;">Risco: ${props.indice_risco ?? 'N/A'}%</div>
-        ${peakHours ? `<div style="font-weight:400;color:#7f1d1d;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
+      <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
+        <div style="font-weight:700;color:#f87171;font-size:12px;">Elite P10</div>
+        <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${props.bairro ?? 'Território'}</div>
+        <div style="color:#f87171;font-size:11px;margin-top:2px;">Risco: ${props.indice_risco ?? 'N/A'}%</div>
+        ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
     `, { sticky: true, direction: 'auto', className: 'elite-tooltip' })
   }
@@ -361,21 +365,22 @@ export function OperationalMap({
               const name = props.name ?? props.Name ?? props.bairro ?? 'Território Top 30'
               const peakHours = getPeakHoursFromSources(null, null, props)
               layer.bindPopup(`
-                <div style="min-width:220px;font-family:system-ui,sans-serif;">
-                  <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#f97316;font-weight:700;">Top 30 Tático</div>
-                  <div style="font-size:16px;font-weight:700;color:#0f172a;margin-top:4px;">${name}</div>
-                  <div style="margin-top:8px;font-size:13px;color:#334155;">
-                    <div><strong>Rank:</strong> #${props.rank ?? 'N/A'}</div>
-                    <div><strong>Risco:</strong> ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
-                    ${peakHours ? `<div><strong>Horário crítico:</strong> ${peakHours}</div>` : ''}
+                <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
+                  <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f97316;font-weight:800;">Top 30 Tático</div>
+                  <div style="font-size:16px;font-weight:700;color:#f1f5f9;margin-top:6px;">${name}</div>
+                  <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
+                    <div><span style="color:#64748b;">Rank</span> <strong style="color:#e2e8f0;">#${props.rank ?? 'N/A'}</strong></div>
+                    <div><span style="color:#64748b;">Risco</span> <strong style="color:#f97316;">${props.risk_score ?? props.indice_risco ?? 'N/A'}%</strong></div>
+                    ${peakHours ? `<div><span style="color:#64748b;">Horário crítico</span> <strong style="color:#fdba74;">⏱ ${peakHours}</strong></div>` : ''}
                   </div>
                 </div>
               `)
               layer.bindTooltip(`
-                <div style="font-family:system-ui,sans-serif;font-weight:600;color:#f97316;text-align:center;">
-                  <div>Top 30: ${name}</div>
-                  <div style="font-weight:400;color:#c2410c;font-size:12px;margin-top:2px;">Risco: ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
-                  ${peakHours ? `<div style="font-weight:400;color:#7c2d12;font-size:12px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
+                <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
+                  <div style="font-weight:700;color:#f97316;font-size:12px;">Top 30</div>
+                  <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${name}</div>
+                  <div style="color:#f97316;font-size:11px;margin-top:2px;">Risco: ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
+                  ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
                 </div>
               `, { sticky: true, direction: 'auto', className: 'top30-tooltip' })
             }}
