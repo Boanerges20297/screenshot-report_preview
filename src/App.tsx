@@ -11,16 +11,90 @@ import {
 } from './lib/snapshot'
 import './App.css'
 
+// ─── Constants ───────────────────────────────────────────────────────────────
+
 const REGION_LABELS: Record<RegionKey, string> = {
   fortaleza: 'Fortaleza',
   rmf: 'RMF',
   interior: 'Interior',
 }
 
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
 function formatPeakHours(value?: string | null): string {
   const text = String(value ?? '').trim()
   return text || 'Sem padrão horário consolidado'
 }
+
+function formatCriticalStreets(detail: TerritoryDetail | null): string {
+  if (!detail) return 'Sem logradouros críticos registrados.'
+  if (typeof detail.critical_streets === 'string') return detail.critical_streets
+  if (detail.critical_streets.length === 0) return 'Sem logradouros críticos registrados.'
+  return detail.critical_streets
+    .slice(0, 5)
+    .map((s) => `${s.loc} (${s.cvli} CVLI)`)
+    .join(', ')
+}
+
+function countRiskBands(
+  items: SnapshotData['risk']['items'],
+): Record<'crítico' | 'alto' | 'moderado' | 'baixo', number> {
+  return items.reduce(
+    (acc, item) => {
+      const s = item.status.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()
+      if (s.includes('CRIT')) acc.crítico += 1
+      else if (s.includes('ALTO')) acc.alto += 1
+      else if (s.includes('MODER')) acc.moderado += 1
+      else if (s.includes('BAIX')) acc.baixo += 1
+      else if (item.score >= 71) acc.crítico += 1
+      else if (item.score >= 51) acc.alto += 1
+      else if (item.score >= 31) acc.moderado += 1
+      else acc.baixo += 1
+      return acc
+    },
+    { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
+  )
+}
+
+/** Returns a CSS color variable name for the risk band */
+function riskBandColor(score: number): string {
+  if (score >= 71) return 'var(--critical)'
+  if (score >= 51) return 'var(--high)'
+  if (score >= 31) return 'var(--moderate)'
+  return 'var(--low)'
+}
+
+// ─── Sub-components ──────────────────────────────────────────────────────────
+
+interface KpiCardProps {
+  icon: string
+  label: string
+  value: string | number
+  sub: string
+  barPct: number
+  variant: 'critical' | 'high' | 'alert' | 'sat'
+  cardClass?: string
+}
+
+function KpiCard({ icon, label, value, sub, barPct, variant, cardClass = '' }: KpiCardProps) {
+  return (
+    <article className={`kpi-card ${cardClass}`}>
+      <div className="kpi-header">
+        <span className={`kpi-icon ${variant}`} aria-hidden="true">{icon}</span>
+        <span className="kpi-label">{label}</span>
+      </div>
+      <div className="kpi-value">{value}</div>
+      <div className="kpi-sub">{sub}</div>
+      <div className="kpi-bar-track" role="progressbar" aria-valuenow={barPct} aria-valuemin={0} aria-valuemax={100}>
+        <div className={`kpi-bar-fill ${variant}`} style={{ width: `${Math.min(barPct, 100)}%` }} />
+      </div>
+    </article>
+  )
+}
+
+// ─── Main App ─────────────────────────────────────────────────────────────────
+
+type DetailTab = 'indicadores' | 'ia' | 'logradouros'
 
 function App() {
   const [snapshot, setSnapshot] = useState<SnapshotData | null>(null)
@@ -32,59 +106,46 @@ function App() {
   const [showEliteP10, setShowEliteP10] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
+  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  const [detailTab, setDetailTab] = useState<DetailTab>('indicadores')
+
+  // Apply theme to root element
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme === 'light' ? 'light' : '')
+  }, [theme])
 
   useEffect(() => {
     let cancelled = false
-
     loadSnapshot()
-      .then((data) => {
-        if (cancelled) {
-          return
-        }
-        setSnapshot(data)
-      })
+      .then((data) => { if (!cancelled) setSnapshot(data) })
       .catch((reason) => {
-        if (cancelled) {
-          return
-        }
-        setError(reason instanceof Error ? reason.message : 'Falha ao carregar snapshot estático.')
+        if (!cancelled) setError(reason instanceof Error ? reason.message : 'Falha ao carregar snapshot.')
       })
-
-    return () => {
-      cancelled = true
-    }
+    return () => { cancelled = true }
   }, [])
 
   useEffect(() => {
-    if (!snapshot) {
-      return
-    }
-    // Only clear selection if currently selected territory doesn't belong to this region
-    // Do NOT auto-select — let user click voluntarily
-    if (selectedId) {
-      const items = snapshot.risk.items.filter((item) => item.region === region)
-      if (!items.some((item) => item.id === selectedId)) {
-        setSelectedId(null)
-      }
-    }
+    if (!snapshot || !selectedId) return
+    const items = snapshot.risk.items.filter((item) => item.region === region)
+    if (!items.some((item) => item.id === selectedId)) setSelectedId(null)
   }, [region, selectedId, snapshot])
 
+  // Derived data
   const _selectedRisk = snapshot && selectedId
     ? snapshot.risk.items.find((item) => item.id === selectedId) ?? null
     : null
   const _selectedTerritory = snapshot && selectedId ? snapshot.territoryDetails[selectedId] ?? null : null
   const _explainability = snapshot && selectedId ? snapshot.explainability[selectedId] ?? null : null
   const _explainabilityAcademics = snapshot && selectedId ? snapshot.explainabilityAcademics[selectedId] ?? null : null
-  
-  const regionalItems = snapshot 
-    ? snapshot.risk.items
-        .filter((item) => item.region === region)
-        .sort((left, right) => right.score - left.score)
+
+  const regionalItems = snapshot
+    ? snapshot.risk.items.filter((item) => item.region === region).sort((a, b) => b.score - a.score)
     : []
-  
-  const _regionalTop = regionalItems.slice(0, 5).map(it => `${it.name} (${it.score.toFixed(1)}%)`)
+
+  const _regionalTop = regionalItems.slice(0, 5).map((it) => `${it.name} (${it.score.toFixed(1)}%)`)
   const aiRec = useAIRecommendation(_selectedRisk, _selectedTerritory, _explainability, _explainabilityAcademics, _regionalTop)
 
+  // ─── Error state ────────────────────────────────────────────────────────────
   if (error) {
     return (
       <main className="app-shell">
@@ -97,8 +158,8 @@ function App() {
     )
   }
 
+  // ─── Loading state ──────────────────────────────────────────────────────────
   if (!snapshot) {
-    // ... rest of loading screen
     return (
       <main className="app-shell">
         <section className="loading-shell">
@@ -110,7 +171,6 @@ function App() {
                 Organizando camadas territoriais, ranking regional e indicadores consolidados para a leitura do snapshot.
               </p>
             </div>
-
             <div className="loading-chip-row" aria-hidden="true">
               <span className="loading-chip">Camadas territoriais</span>
               <span className="loading-chip">Ranking regional</span>
@@ -131,7 +191,6 @@ function App() {
                 <span className="loading-pill" />
               </div>
             </article>
-
             <article className="loading-card loading-card-stack">
               <div className="loading-line loading-line-kicker short" />
               <div className="loading-metric-block" />
@@ -181,191 +240,209 @@ function App() {
     )
   }
 
+  // ─── Data computations ──────────────────────────────────────────────────────
   const topRegionalItems = regionalItems.slice(0, 30)
   const regionalSummary = snapshot.summary.regions[region]
   const selectedTerritory = _selectedTerritory
   const selectedRisk = _selectedRisk
-  const managerView = snapshot.risk.meta.manager_view as {
-    confidence_pct: number
-    confidence_label: string
-    state_temperature_label: string
-    state_temperature_pct: number
-    recommendation: string
-  }
   const regionalCount = countRiskBands(regionalItems)
   const regionalLeader = topRegionalItems[0] ?? null
   const regionalPriorityCount = regionalItems.filter((item) => item.score >= 31).length
   const regionalCriticalCount = regionalCount.crítico ?? 0
   const regionalHighCount = regionalCount.alto ?? 0
+  const saturationPct = regionalSummary?.total_nodes
+    ? Math.round((regionalPriorityCount / regionalSummary.total_nodes) * 100)
+    : 0
 
+  // ─── Rendered ──────────────────────────────────────────────────────────────
   return (
-    <main className="app-shell">
-      <section className="hero-band">
-        <div className="hero-copy">
-          <div className="hero-topline">
-            <p className="eyebrow">Painel executivo</p>
-            <span className="hero-status">Snapshot homologado</span>
-          </div>
-          <h1>Painel territorial de risco e priorização operacional.</h1>
-          <p className="hero-text">
-            Recorte atual: {REGION_LABELS[region]}. Leitura consolidada do ranking regional, territórios críticos e sinais ORCRIM em formato estático para consulta executiva.
-          </p>
+    <main className="app-shell" data-region={region}>
 
-          <div className="hero-highlights">
-            <div className="hero-highlight">
-              <span>Recorte selecionado</span>
-              <strong>{REGION_LABELS[region]}</strong>
-            </div>
-            <div className="hero-highlight">
-              <span>Pico de risco</span>
-              <strong>{regionalLeader?.score?.toFixed(1) ?? '0.0'}%</strong>
-            </div>
-            <div className="hero-highlight">
-              <span>Territórios priorizados</span>
-              <strong>{regionalPriorityCount}</strong>
-            </div>
+      {/* ── Top Bar ── */}
+      <header className="top-bar" role="banner">
+        <div className="top-bar-brand">
+          <div className="top-bar-logo" aria-hidden="true">GCN</div>
+          <div>
+            <div className="top-bar-title">E‑GCN</div>
+            <div className="top-bar-subtitle">Painel Territorial de Risco</div>
           </div>
         </div>
 
-        <div className="snapshot-card">
-          <span className="badge">Publicação estática</span>
-          <div className="snapshot-meta">
-            <span>Gerado em</span>
-            <strong>{new Date(snapshot.manifest.generated_at).toLocaleString('pt-BR')}</strong>
+        <div className="top-bar-center">
+          <div className="region-select-wrap">
+            <select
+              id="region-select"
+              className="region-select"
+              value={region}
+              onChange={(e) => setRegion(e.target.value as RegionKey)}
+              aria-label="Selecionar região"
+            >
+              {(['fortaleza', 'rmf', 'interior'] as RegionKey[]).map((r) => (
+                <option key={r} value={r}>{REGION_LABELS[r]}</option>
+              ))}
+            </select>
+            <span className="region-select-arrow" aria-hidden="true">▾</span>
           </div>
-          <div className="snapshot-meta">
-            <span>Versão fonte</span>
-            <strong>Commit {snapshot.manifest.source_commit}</strong>
-          </div>
-          <div className="snapshot-meta">
-            <span>Escopo</span>
-            <strong>{snapshot.summary.global.total_nodes} localidades consolidadas</strong>
-          </div>
-          <p className="snapshot-note">{snapshot.manifest.notes}</p>
-        </div>
-      </section>
 
-      <section className="metrics-row">
-        <article className="metric-card feature">
-          <span>Maior risco</span>
-          <strong>{regionalLeader?.score?.toFixed(1) ?? '0.0'}%</strong>
-          <p>{regionalLeader?.name ?? 'Sem destaque'}</p>
-        </article>
-        <article className="metric-card warm">
-          <span>Territórios críticos</span>
-          <strong>{regionalCriticalCount}</strong>
-          <p>{regionalHighCount} em faixa alta</p>
-        </article>
-        <article className="metric-card">
-          <span>Em alerta</span>
-          <strong>{regionalPriorityCount}</strong>
-          <p>de {regionalSummary?.total_nodes ?? 0} territórios acima de 31%</p>
-        </article>
-        <article className="metric-card">
-          <span>Saturação</span>
-          <strong>
-            {regionalSummary?.total_nodes
-              ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
-              : '0'}%
-          </strong>
-          <p>{regionalLeader?.faction || managerView.confidence_label || 'Sem leitura'} lidera</p>
-        </article>
-      </section>
-
-      <section className="control-row">
-        <div className="region-switcher" role="tablist" aria-label="Filtro regional">
-          {(['fortaleza', 'rmf', 'interior'] as RegionKey[]).map((regionKey) => {
-            const isActive = regionKey === region
-            return (
-              <button
-                key={regionKey}
-                type="button"
-                className={isActive ? 'region-pill active' : 'region-pill'}
-                onClick={() => setRegion(regionKey)}
-              >
-                {regionKey === 'fortaleza' ? 'Fortaleza' : regionKey.toUpperCase()}
-              </button>
-            )
-          })}
+          <div className="status-pill">
+            <span className="status-pill-dot" aria-hidden="true" />
+            Snapshot homologado
+          </div>
         </div>
 
-        <div className="region-switcher">
+        <div className="top-bar-right">
+          <span className="snapshot-timestamp" title="Data de geração do snapshot">
+            {new Date(snapshot.manifest.generated_at).toLocaleString('pt-BR', {
+              day: '2-digit', month: '2-digit', year: '2-digit',
+              hour: '2-digit', minute: '2-digit',
+            })}
+          </span>
+
           <button
-            type="button"
-            className="toggle-button"
-            onClick={() => setShowEventForm(true)}
-            style={{ fontWeight: 800, background: '#f8fafc', borderColor: '#cbd5e1' }}
+            id="theme-toggle"
+            className="theme-toggle"
+            onClick={() => setTheme((t) => t === 'dark' ? 'light' : 'dark')}
+            aria-label={theme === 'dark' ? 'Mudar para tema claro' : 'Mudar para tema escuro'}
+            title={theme === 'dark' ? 'Tema claro' : 'Tema escuro'}
           >
-            + Registrar Evento
+            {theme === 'dark' ? '☀' : '🌙'}
           </button>
-          
-          <div className="layer-controls">
-            <span className="control-label">Camadas Táticas:</span>
-            <button
-              type="button"
-              className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
-              onClick={() => setShowMicronodes((value) => !value)}
-            >
-              {showMicronodes ? 'Ocultar ORCRIM' : 'Mostrar ORCRIM'}
-            </button>
-
-            <button
-              type="button"
-              className={showTop30 ? 'toggle-button active' : 'toggle-button'}
-              onClick={() => setShowTop30((value) => !value)}
-            >
-              {showTop30 ? 'Ocultar Top 30' : 'Mostrar Top 30'}
-            </button>
-
-            <button
-              type="button"
-              className={showEliteP10 ? 'toggle-button active' : 'toggle-button'}
-              onClick={() => setShowEliteP10((value) => !value)}
-              style={showEliteP10 ? { backgroundColor: '#8b0000', color: 'white', borderColor: '#450000' } : {}}
-            >
-              {showEliteP10 ? 'Ocultar Elite P10' : 'Mostrar Elite P10'}
-            </button>
-          </div>
         </div>
+      </header>
+
+      {/* ── KPI Row ── */}
+      <section className="kpi-row" aria-label="Indicadores regionais">
+        <KpiCard
+          icon="⚠"
+          label="Territórios críticos"
+          value={regionalCriticalCount}
+          sub={`faixa ≥ 71% de risco`}
+          barPct={(regionalCriticalCount / Math.max(regionalSummary?.total_nodes ?? 1, 1)) * 100}
+          variant="critical"
+          cardClass="kpi-critical"
+        />
+        <KpiCard
+          icon="▲"
+          label="Faixa alta"
+          value={regionalHighCount}
+          sub={`territórios 51–70%`}
+          barPct={(regionalHighCount / Math.max(regionalSummary?.total_nodes ?? 1, 1)) * 100}
+          variant="high"
+          cardClass="kpi-high"
+        />
+        <KpiCard
+          icon="◉"
+          label="Em alerta"
+          value={regionalPriorityCount}
+          sub={`de ${regionalSummary?.total_nodes ?? 0} localidades acima de 31%`}
+          barPct={saturationPct}
+          variant="alert"
+        />
+        <KpiCard
+          icon="◈"
+          label="Saturação"
+          value={`${saturationPct}%`}
+          sub={regionalLeader?.name ? `Líder: ${regionalLeader.name}` : 'Sem destaque'}
+          barPct={saturationPct}
+          variant="sat"
+        />
       </section>
 
-      <section className="workspace-grid">
-        <aside className="sidebar-panel">
+      {/* ── Controls ── */}
+      <nav className="control-row" aria-label="Controles de camada">
+        <div className="control-group">
+          <span className="control-label">Camadas:</span>
+          <button
+            id="toggle-orcrim"
+            type="button"
+            className={showMicronodes ? 'toggle-button active' : 'toggle-button'}
+            onClick={() => setShowMicronodes((v) => !v)}
+          >
+            {showMicronodes ? '✕ ORCRIM' : '+ ORCRIM'}
+          </button>
+          <button
+            id="toggle-top30"
+            type="button"
+            className={showTop30 ? 'toggle-button active' : 'toggle-button'}
+            onClick={() => setShowTop30((v) => !v)}
+          >
+            {showTop30 ? '✕ Top 30' : '+ Top 30'}
+          </button>
+          <button
+            id="toggle-elite"
+            type="button"
+            className={showEliteP10 ? 'toggle-button active-critical' : 'toggle-button'}
+            onClick={() => setShowEliteP10((v) => !v)}
+          >
+            {showEliteP10 ? '✕ Elite P10' : '+ Elite P10'}
+          </button>
+        </div>
+
+        <div className="control-group">
+          <div className="divider-v" aria-hidden="true" />
+          <span className="control-label">Snapshot:</span>
+          <span className="snapshot-timestamp">
+            Commit {snapshot.manifest.source_commit} · {snapshot.summary.global.total_nodes} localidades
+          </span>
+          <div className="divider-v" aria-hidden="true" />
+          <button
+            id="open-event-form"
+            type="button"
+            className="add-event-btn"
+            onClick={() => setShowEventForm(true)}
+          >
+            <span aria-hidden="true">＋</span> Registrar Evento
+          </button>
+        </div>
+      </nav>
+
+      {/* ── Workspace Grid ── */}
+      <section className="workspace-grid" aria-label="Espaço de trabalho operacional">
+
+        {/* ── Sidebar: Ranking ── */}
+        <aside className="sidebar-panel" aria-label="Ranking regional">
           <div className="panel-head">
             <div>
-              <p className="eyebrow">Resumo regional</p>
+              <p className="eyebrow">Ranking regional</p>
               <h2>{REGION_LABELS[region]}</h2>
-              <p className="panel-subtext">{regionalSummary?.total_nodes ?? 0} localidades consolidadas no recorte atual.</p>
+              <p className="panel-subtext">{regionalSummary?.total_nodes ?? 0} localidades consolidadas</p>
             </div>
-            <span className="risk-dot" style={{ backgroundColor: riskLevelColor(topRegionalItems[0]?.score ?? 0) }} />
+            <span
+              className="risk-dot"
+              style={{ backgroundColor: riskLevelColor(topRegionalItems[0]?.score ?? 0) }}
+              aria-hidden="true"
+            />
           </div>
 
-          <div className="top-list scroll-area">
-            {topRegionalItems.map((item) => (
+          <div className="top-list" role="listbox" aria-label="Lista de territórios por risco">
+            {topRegionalItems.map((item, idx) => (
               <button
                 type="button"
                 key={item.id}
+                id={`territory-item-${item.id}`}
+                role="option"
+                aria-selected={item.id === selectedId}
                 className={item.id === selectedId ? 'top-item active' : 'top-item'}
+                style={{ '--item-risk-color': riskBandColor(item.score) } as React.CSSProperties}
                 onClick={() => {
                   setSelectedId(item.id)
                   setFocusTrigger((n) => n + 1)
+                  setDetailTab('indicadores')
                 }}
               >
-                <span className="rank-chip">#{item.rank_region}</span>
+                <span className={`rank-chip ${idx < 3 ? 'rank-top' : ''}`}>#{item.rank_region}</span>
                 <div className="top-copy">
                   <strong>{item.name}</strong>
-                  <span>
-                    {item.faction || 'N/A'} · {item.score.toFixed(1)}%
-                  </span>
-                  {item.peak_hours ? <small>⏱ {item.peak_hours}</small> : null}
+                  <span>{item.faction || 'N/A'} · {item.score.toFixed(1)}%</span>
+                  {item.peak_hours && <small>⏱ {item.peak_hours}</small>}
                 </div>
               </button>
             ))}
           </div>
 
-          <div className="region-kpis">
+          <div className="region-kpis" aria-label="KPIs do recorte regional">
             <div>
-              <span>Em alerta</span>
+              <span>Alerta</span>
               <strong>{regionalPriorityCount}</strong>
             </div>
             <div>
@@ -379,7 +456,8 @@ function App() {
           </div>
         </aside>
 
-        <section className="map-panel">
+        {/* ── Map ── */}
+        <section className="map-panel" aria-label="Mapa operacional">
           <OperationalMap
             region={region}
             polygons={snapshot.polygons}
@@ -396,83 +474,131 @@ function App() {
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setFocusTrigger((n) => n + 1)
+              setDetailTab('indicadores')
             }}
           />
         </section>
 
-        <aside className="detail-panel">
+        {/* ── Detail Panel ── */}
+        <aside className="detail-panel" aria-label="Painel de detalhe territorial">
           {selectedRisk ? (
             <>
               <p className="eyebrow">Território selecionado</p>
               <h2>{selectedRisk.name}</h2>
-              
-              <div className="detail-content scroll-area">
-                <div className="detail-grid">
-                  <div>
-                    <span>Score</span>
-                    <strong>{selectedRisk.score?.toFixed(1) ?? '0.0'}%</strong>
-                  </div>
-                  <div>
-                    <span>Facção</span>
-                    <strong>{selectedTerritory?.faction ?? selectedRisk.faction ?? 'N/A'}</strong>
-                  </div>
-                  <div>
-                    <span>Momentum 7d</span>
-                    <strong>{selectedTerritory?.momentum_7d ?? selectedRisk.momentum_7d ?? 0}</strong>
-                  </div>
-                  <div>
-                    <span>Momentum 14d</span>
-                    <strong>{selectedTerritory?.momentum_14d ?? selectedRisk.momentum_14d ?? 0}</strong>
-                  </div>
-                  <div>
-                    <span>CVLI recente</span>
-                    <strong>{selectedTerritory?.recent_cvli ?? selectedRisk.recent_cvli ?? 0}</strong>
-                  </div>
-                  <div>
-                    <span>Exógenos</span>
-                    <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
-                  </div>
-                  <div>
-                    <span>Janela crítica</span>
-                    <strong>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</strong>
-                  </div>
-                </div>
 
-                <div className="detail-copy">
-                  <h3>Leitura congelada</h3>
-                  <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
-                </div>
+              {/* Tabs */}
+              <div className="detail-tabs" role="tablist" aria-label="Seções de detalhe">
+                {(['indicadores', 'ia', 'logradouros'] as DetailTab[]).map((tab) => (
+                  <button
+                    key={tab}
+                    id={`detail-tab-${tab}`}
+                    type="button"
+                    role="tab"
+                    aria-selected={detailTab === tab}
+                    className={detailTab === tab ? 'detail-tab active' : 'detail-tab'}
+                    onClick={() => setDetailTab(tab)}
+                  >
+                    {tab === 'indicadores' && '📊 Indicadores'}
+                    {tab === 'ia' && '🤖 Auditoria IA'}
+                    {tab === 'logradouros' && '📍 Logradouros'}
+                  </button>
+                ))}
+              </div>
 
-                <div className="detail-copy">
-                  <h3>Horário crítico padrão</h3>
-                  <p>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</p>
-                </div>
+              {/* Tab Panels */}
+              <div
+                className="detail-content scroll-area"
+                role="tabpanel"
+                aria-labelledby={`detail-tab-${detailTab}`}
+              >
+                {/* ── Indicadores Tab ── */}
+                {detailTab === 'indicadores' && (
+                  <>
+                    <div className="detail-grid">
+                      <div>
+                        <span>Score</span>
+                        <strong style={{ color: riskBandColor(selectedRisk.score) }}>
+                          {selectedRisk.score?.toFixed(1) ?? '0.0'}%
+                        </strong>
+                      </div>
+                      <div>
+                        <span>Facção</span>
+                        <strong>{selectedTerritory?.faction ?? selectedRisk.faction ?? 'N/A'}</strong>
+                      </div>
+                      <div>
+                        <span>Momentum 7d</span>
+                        <strong>{selectedTerritory?.momentum_7d ?? selectedRisk.momentum_7d ?? 0}</strong>
+                      </div>
+                      <div>
+                        <span>Momentum 14d</span>
+                        <strong>{selectedTerritory?.momentum_14d ?? selectedRisk.momentum_14d ?? 0}</strong>
+                      </div>
+                      <div>
+                        <span>CVLI recente</span>
+                        <strong>{selectedTerritory?.recent_cvli ?? selectedRisk.recent_cvli ?? 0}</strong>
+                      </div>
+                      <div>
+                        <span>Exógenos</span>
+                        <strong>{selectedTerritory?.recent_exogenous ?? selectedRisk.recent_exogenous ?? 0}</strong>
+                      </div>
+                    </div>
 
-                <div className="detail-copy">
-                  <h3>Logradouros críticos</h3>
-                  <p>{formatCriticalStreets(selectedTerritory)}</p>
-                </div>
+                    <div className="detail-copy">
+                      <h3>Janela crítica</h3>
+                      <p>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</p>
+                    </div>
 
-                <div className="recommendation-box">
-                  <span>Auditoria E-GCN · IA</span>
-                  {aiRec.loading ? (
-                    <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA...</p>
-                  ) : aiRec.error ? (
-                    <p style={{ opacity: 0.55, fontSize: '0.82em' }}>
-                      Falha na análise via IA: {aiRec.error}
-                    </p>
-                  ) : aiRec.text ? (
-                    <p>{aiRec.text}</p>
-                  ) : (
-                    <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando seleção de território...</p>
-                  )}
-                </div>
+                    <div className="detail-copy">
+                      <h3>Leitura congelada</h3>
+                      <p>{selectedTerritory?.summary ?? selectedRisk.summary ?? 'Sem resumo disponível.'}</p>
+                    </div>
+                  </>
+                )}
+
+                {/* ── IA Tab ── */}
+                {detailTab === 'ia' && (
+                  <div className="recommendation-box">
+                    <span>Auditoria E-GCN · IA</span>
+                    {aiRec.loading ? (
+                      <p style={{ opacity: 0.5, fontStyle: 'italic' }}>Analisando território via IA…</p>
+                    ) : aiRec.error ? (
+                      <p style={{ opacity: 0.55, fontSize: '0.82em' }}>
+                        Falha na análise via IA: {aiRec.error}
+                      </p>
+                    ) : aiRec.text ? (
+                      <p>{aiRec.text}</p>
+                    ) : (
+                      <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando análise…</p>
+                    )}
+                  </div>
+                )}
+
+                {/* ── Logradouros Tab ── */}
+                {detailTab === 'logradouros' && (
+                  <div className="detail-copy">
+                    <h3>Logradouros críticos</h3>
+                    <p>{formatCriticalStreets(selectedTerritory)}</p>
+                  </div>
+                )}
               </div>
             </>
           ) : (
             <>
               <p className="eyebrow">Visão regional</p>
               <h2>{REGION_LABELS[region]}</h2>
+
+              <div className="detail-tabs" role="tablist">
+                <button
+                  type="button"
+                  role="tab"
+                  aria-selected
+                  className="detail-tab active"
+                  style={{ flexGrow: 1 }}
+                >
+                  📊 Resumo regional
+                </button>
+              </div>
+
               <div className="detail-content scroll-area">
                 <div className="detail-grid">
                   <div>
@@ -481,11 +607,7 @@ function App() {
                   </div>
                   <div>
                     <span>Saturação</span>
-                    <strong>
-                      {regionalSummary?.total_nodes
-                        ? ((regionalPriorityCount / regionalSummary.total_nodes) * 100).toFixed(0)
-                        : '0'}%
-                    </strong>
+                    <strong>{saturationPct}%</strong>
                   </div>
                   <div>
                     <span>Críticos</span>
@@ -500,15 +622,21 @@ function App() {
                     <strong>{regionalPriorityCount}</strong>
                   </div>
                   <div>
-                    <span>Líder</span>
-                    <strong>{regionalLeader?.name ?? 'N/A'}</strong>
+                    <span>Pico de risco</span>
+                    <strong style={{ color: riskBandColor(regionalLeader?.score ?? 0) }}>
+                      {regionalLeader?.score?.toFixed(1) ?? '0.0'}%
+                    </strong>
                   </div>
                 </div>
-                <div className="detail-copy" style={{ marginTop: '1rem' }}>
-                  <h3>Orientação</h3>
-                  <p>
-                    Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica do modelo E-GCN.
-                  </p>
+
+                <div className="detail-copy">
+                  <h3>Líder regional</h3>
+                  <p>{regionalLeader?.name ?? 'N/A'} — {regionalLeader?.score?.toFixed(1) ?? '0.0'}% · {regionalLeader?.faction || 'N/A'}</p>
+                </div>
+
+                <div className="detail-empty">
+                  <div className="detail-empty-icon" aria-hidden="true">🗺</div>
+                  <p>Selecione um território no ranking ou no mapa para visualizar indicadores detalhados, logradouros críticos e a auditoria técnica E-GCN.</p>
                 </div>
               </div>
             </>
@@ -516,55 +644,11 @@ function App() {
         </aside>
       </section>
 
+      {/* ── Event Form Modal ── */}
       {showEventForm && (
         <AddExogenousEventForm onClose={() => setShowEventForm(false)} />
       )}
     </main>
-  )
-}
-
-
-
-function formatCriticalStreets(detail: TerritoryDetail | null): string {
-  if (!detail) {
-    return 'Sem logradouros críticos registrados.'
-  }
-  if (typeof detail.critical_streets === 'string') {
-    return detail.critical_streets
-  }
-  if (detail.critical_streets.length === 0) {
-    return 'Sem logradouros críticos registrados.'
-  }
-  return detail.critical_streets
-    .slice(0, 5)
-    .map((street) => `${street.loc} (${street.cvli} CVLI)`)
-    .join(', ')
-}
-
-function countRiskBands(items: SnapshotData['risk']['items']): Record<'crítico' | 'alto' | 'moderado' | 'baixo', number> {
-  return items.reduce(
-    (accumulator, item) => {
-      const status = item.status.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase()
-      if (status.includes('CRIT')) {
-        accumulator.crítico += 1
-      } else if (status.includes('ALTO')) {
-        accumulator.alto += 1
-      } else if (status.includes('MODER')) {
-        accumulator.moderado += 1
-      } else if (status.includes('BAIX')) {
-        accumulator.baixo += 1
-      } else if (item.score >= 71) {
-        accumulator.crítico += 1
-      } else if (item.score >= 51) {
-        accumulator.alto += 1
-      } else if (item.score >= 31) {
-        accumulator.moderado += 1
-      } else {
-        accumulator.baixo += 1
-      }
-      return accumulator
-    },
-    { crítico: 0, alto: 0, moderado: 0, baixo: 0 },
   )
 }
 
