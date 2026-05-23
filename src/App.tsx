@@ -106,7 +106,7 @@ function App() {
   const [showEliteP10, setShowEliteP10] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [theme, setTheme] = useState<'dark' | 'light'>('dark')
+  const [theme, setTheme] = useState<'dark' | 'light'>('light')
   const [detailTab, setDetailTab] = useState<DetailTab>('indicadores')
 
   // Apply theme to root element
@@ -557,7 +557,7 @@ function App() {
                         Falha na análise via IA: {aiRec.error}
                       </p>
                     ) : aiRec.text ? (
-                      <p>{aiRec.text}</p>
+                      <p style={{ whiteSpace: 'pre-wrap' }}>{aiRec.text}</p>
                     ) : (
                       <p style={{ opacity: 0.4, fontStyle: 'italic' }}>Aguardando análise…</p>
                     )}

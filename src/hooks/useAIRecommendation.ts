@@ -58,7 +58,7 @@ async function callGemini(prompt: string, keys: string[], signal: AbortSignal): 
               signal,
               body: JSON.stringify({
                 contents: [{ role: 'user', parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.4, maxOutputTokens: 200 },
+                generationConfig: { temperature: 0.4, maxOutputTokens: 1000 },
               }),
             }
           )
@@ -110,7 +110,7 @@ export function useAIRecommendation(
     const keys = getApiKeys()
     if (!risk || keys.length === 0) return
 
-    const cacheKey = `${risk.id}-${risk.score}-${detail?.recent_cvli ?? 0}-${detail?.recent_exogenous ?? 0}-${explainability?.confidence_pct ?? 0}`
+    const cacheKey = `${risk.id}-${risk.score}-${detail?.recent_cvli ?? 0}-${detail?.recent_exogenous ?? 0}-${explainability?.confidence_pct ?? 0}-v2`
     if (cache.has(cacheKey)) {
       setState({ text: cache.get(cacheKey)!, loading: false, error: null })
       return
@@ -162,13 +162,13 @@ Ficha Técnica do Território:
 ${components}
 - Leitura Congelada: ${summary}
 
-Escreva uma AUDITORIA ESTRATÉGICA (máximo 3 frases) no estilo narrativo:
+Escreva uma AUDITORIA ESTRATÉGICA ASSERTIVA (máximo 15 linhas) no estilo narrativo e direto:
 - Comece com "Comandante,".
 - Use expressões como "o motor de inteligência profunda prevê...", "percebi que...", "a convergência aponta para...".
-- Tente correlacionar com a dinâmica regional ou com a discrepância entre os dados frios (CVLI) e a tensão latente.
-- Aponte se o crime está convergindo para outro ponto ou se a pressão estrutural justifica a atenção mesmo sem gatilhos recentes.
-- Mantenha a densidade técnica mas com linguagem de assessor de alto nível.
-- NADA de recomendações operacionais (patrulhamento, equipes, etc).`
+- Correlacione a dinâmica regional com a discrepância entre os dados frios (CVLI) e a tensão latente.
+- Aponte se o crime está convergindo para outro ponto ou se a pressão estrutural justifica a atenção.
+- Inclua RECOMENDAÇÕES ESTRATÉGICAS e uma CRÍTICA TÉCNICA ao modelo (identificando possíveis pontos cegos ou vieses na predição atual).
+- Mantenha a densidade técnica, mas seja extremamente direto e assertivo.`
 
     const controller = new AbortController()
     const webhookUrl = import.meta.env.VITE_GOOGLE_WEBHOOK_URL
