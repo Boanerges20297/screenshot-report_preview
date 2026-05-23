@@ -40,8 +40,8 @@ type SelectableLayer = Layer & {
 }
 
 const REGION_VIEW: Record<RegionKey, { center: [number, number]; zoom: number }> = {
-  fortaleza: { center: [-4.04, -38.53], zoom: 12 },
-  rmf: { center: [-3.78, -38.7], zoom: 10 },
+  fortaleza: { center: [-3.75, -38.53], zoom: 12 },
+  rmf: { center: [-3.85, -38.6], zoom: 11 },
   interior: { center: [-5.1, -39.6], zoom: 7 },
 }
 
@@ -99,7 +99,7 @@ function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; reg
       const geoJsonLayer = L.geoJSON(polygons as never)
       const bounds = geoJsonLayer.getBounds()
       if (bounds.isValid()) {
-        map.fitBounds(bounds, { animate: true, padding: [20, 20] })
+        map.fitBounds(bounds, { animate: true, padding: [10, 10] })
         return
       }
     }
