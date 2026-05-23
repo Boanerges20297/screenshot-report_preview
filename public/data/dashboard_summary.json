@@ -1,17 +1,17 @@
 {
   "global": {
-    "total_nodes": 1708,
-    "active_locations": 10,
+    "total_nodes": 1700,
+    "active_locations": 16,
     "top_region": "rmf",
     "top_name": "MARACANAU",
-    "avg_risk": 19.49
+    "avg_risk": 20.1
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 122,
-      "avg_risk": 13.26,
+      "total_nodes": 114,
+      "avg_risk": 21.92,
       "max_risk": 78.3,
-      "top_name": "AEROLANDIA"
+      "top_name": "CAJAZEIRAS"
     },
     "rmf": {
       "total_nodes": 19,
