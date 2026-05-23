@@ -71,12 +71,12 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 3,
+    "recent_exogenous": 2,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA CORONEL CORREIA, S/N",
     "peak_hours": "",
-    "summary": "Território em nível crítico. Eventos exógenos recentes: 3. Tensão territorial atual em 83.60.",
+    "summary": "Território em nível crítico. Eventos exógenos recentes: 2. Tensão territorial atual em 83.60.",
     "risk_score": 83.6,
     "status": "CRÍTICO"
   },
@@ -683,12 +683,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 25.30.",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 25.30.",
     "risk_score": 25.3,
     "status": "BAIXO"
   },
@@ -24219,7 +24219,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -24270,7 +24270,7 @@
       }
     ],
     "peak_hours": "Entre 06hs e 11hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 15.40.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 15.40.",
     "risk_score": 15.4,
     "status": "BAIXO"
   },
@@ -25128,12 +25128,12 @@
     "region": "fortaleza",
     "faction": "NEUTRO",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 14hs e 19hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.30.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.30.",
     "risk_score": 10.3,
     "status": "BAIXO"
   },
@@ -25953,12 +25953,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 03hs e 08hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 5.80.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 5.80.",
     "risk_score": 5.8,
     "status": "BAIXO"
   },
@@ -26163,12 +26163,12 @@
     "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": "RUA LINDOIA, 377",
     "peak_hours": "Entre 19hs e 00hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 4.00.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.00.",
     "risk_score": 4.0,
     "status": "BAIXO"
   },
@@ -26552,7 +26552,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 1,
+    "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -26583,7 +26583,7 @@
       }
     ],
     "peak_hours": "Entre 01hs e 06hs",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },
@@ -26691,7 +26691,7 @@
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
-    "recent_exogenous": 2,
+    "recent_exogenous": 1,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
     "critical_streets": [
@@ -26707,7 +26707,7 @@
       }
     ],
     "peak_hours": "",
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "risk_score": 0.0,
     "status": "BAIXO"
   },

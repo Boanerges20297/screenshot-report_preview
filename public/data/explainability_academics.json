@@ -745,18 +745,17 @@
       "nearby_impact_names": []
     },
     "event_metrics": {
-      "events_count_total": 3,
+      "events_count_total": 2,
       "critical_event_count": 2,
-      "suppression_event_count": 1,
-      "event_types_count": 3,
+      "suppression_event_count": 0,
+      "event_types_count": 2,
       "event_types": [
         "ABANDONO DE MATERIAL",
-        "VEÍCULO LOCALIZADO",
-        "TRÁFICO DE DROGAS (CRACK"
+        "VEÍCULO LOCALIZADO"
       ],
-      "total_event_intensity": 3.0,
+      "total_event_intensity": 2.0,
       "conflict_intensity": 2.0,
-      "suppression_intensity": 1.0
+      "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
@@ -788,9 +787,9 @@
       "cvli_growth_ratio_14d": 0.0,
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
-      "critical_event_share": 0.6667,
-      "suppression_event_share": 0.3333,
-      "conflict_to_suppression_intensity_ratio": 2.0,
+      "critical_event_share": 1.0,
+      "suppression_event_share": 0.0,
+      "conflict_to_suppression_intensity_ratio": 2000000.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
@@ -832,7 +831,7 @@
           "name": "Eventos observados",
           "direction": "positive",
           "score_pct": 100.0,
-          "text": "2 evento(s) críticos, 3 tipologia(s) e intensidade acumulada de conflito 2,0."
+          "text": "2 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 2,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -845,17 +844,9 @@
           "direction": "positive",
           "score_pct": 100.0,
           "text": "Tensão territorial 1,00 e facção predominante CV sustentam a pressão estrutural do território."
-        },
-        {
-          "name": "Fatores de cautela",
-          "direction": "negative",
-          "score_pct": 1.7,
-          "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
-      "caveats": [
-        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
-      ],
+      "caveats": [],
       "signal_scores": {
         "rank_strength": 0.9988,
         "score_separation": 1.0,
@@ -867,7 +858,7 @@
         "market_signal": 0.0
       },
       "penalties": {
-        "suppression_penalty": 0.0167,
+        "suppression_penalty": 0.0,
         "sparse_penalty": 0.0,
         "ambiguity_penalty": 0.0,
         "conflict_ambiguity_penalty": 0.0
@@ -1220,7 +1211,7 @@
     },
     "academic_text": {
       "abstract_ptbr": "CAUCAIA ocupa a posição #2 entre 1708 territórios, com score de 8,36/10 e confiança analítica de 95,6%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
@@ -14164,16 +14155,14 @@
       ]
     },
     "event_metrics": {
-      "events_count_total": 1,
+      "events_count_total": 0,
       "critical_event_count": 0,
-      "suppression_event_count": 1,
-      "event_types_count": 1,
-      "event_types": [
-        "APREENSÃO DE ARMA DE FOGO (REVOLVER CAL 38)"
-      ],
-      "total_event_intensity": 1.0,
+      "suppression_event_count": 0,
+      "event_types_count": 0,
+      "event_types": [],
+      "total_event_intensity": 0.0,
       "conflict_intensity": 0.0,
-      "suppression_intensity": 1.0
+      "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
@@ -14206,7 +14195,7 @@
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
       "critical_event_share": 0.0,
-      "suppression_event_share": 1.0,
+      "suppression_event_share": 0.0,
       "conflict_to_suppression_intensity_ratio": 0.0,
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
@@ -14214,10 +14203,10 @@
       "weekend_share_14d": 0.2857
     },
     "confidence_analysis": {
-      "confidence_pct": 76.3,
+      "confidence_pct": 77.9,
       "confidence_label": "Moderada",
       "confidence_text": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
-      "evidence_confidence": 0.782,
+      "evidence_confidence": 0.8066,
       "fallback_confidence_seed": 0.7265,
       "corroboration_count": 2,
       "components": [
@@ -14248,8 +14237,8 @@
         {
           "name": "Eventos observados",
           "direction": "positive",
-          "score_pct": 10.0,
-          "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
+          "score_pct": 0.0,
+          "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
         },
         {
           "name": "Inteligência e ruas críticas",
@@ -14266,12 +14255,11 @@
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 7.7,
-          "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+          "score_pct": 4.0,
+          "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
-        "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
         "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
@@ -14279,16 +14267,16 @@
         "score_separation": 0.8544,
         "temporal_signal": 0.6,
         "spatial_signal": 0.0795,
-        "event_signal": 0.1,
+        "event_signal": 0.0,
         "intelligence_signal": 0.0,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
       "penalties": {
-        "suppression_penalty": 0.0167,
+        "suppression_penalty": 0.0,
         "sparse_penalty": 0.0,
         "ambiguity_penalty": 0.04,
-        "conflict_ambiguity_penalty": 0.02
+        "conflict_ambiguity_penalty": 0.0
       }
     },
     "feature_channels": {
@@ -14637,8 +14625,8 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "BOM JARDIM ocupa a posição #28 entre 1708 territórios, com score de 2,53/10 e confiança analítica de 76,3%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
-      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar BOM JARDIM como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "abstract_ptbr": "BOM JARDIM ocupa a posição #28 entre 1708 territórios, com score de 2,53/10 e confiança analítica de 77,9%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar BOM JARDIM como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },

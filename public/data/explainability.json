@@ -167,9 +167,7 @@
   },
   "rmf:CAUCAIA": {
     "confidence": 0.9564999999999999,
-    "confidence_caveats": [
-      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo."
-    ],
+    "confidence_caveats": [],
     "confidence_components": [
       {
         "direction": "positive",
@@ -199,7 +197,7 @@
         "direction": "positive",
         "name": "Eventos observados",
         "score_pct": 100.0,
-        "text": "2 evento(s) críticos, 3 tipologia(s) e intensidade acumulada de conflito 2,0."
+        "text": "2 evento(s) críticos, 2 tipologia(s) e intensidade acumulada de conflito 2,0."
       },
       {
         "direction": "positive",
@@ -212,12 +210,6 @@
         "name": "Estrutura territorial",
         "score_pct": 100.0,
         "text": "Tensão territorial 1,00 e facção predominante CV sustentam a pressão estrutural do território."
-      },
-      {
-        "direction": "negative",
-        "name": "Fatores de cautela",
-        "score_pct": 1.7,
-        "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
@@ -255,10 +247,10 @@
         "value": "1,00"
       },
       {
-        "explanation": "🚨 **Eventos exógenos**: 3 evento(s) recente(s), sendo 2 crítico(s) e 1 de supressão qualificada.",
+        "explanation": "🚨 **Eventos exógenos**: 2 evento(s) recente(s), sendo 2 crítico(s) e 0 de supressão qualificada.",
         "importance": "high",
         "name": "Eventos exógenos recentes",
-        "value": "3"
+        "value": "2"
       },
       {
         "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 2,00.",
@@ -303,16 +295,16 @@
         "value": "0"
       },
       {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "medium",
-        "name": "Intensidade de supressão",
-        "value": "1,00"
-      },
-      {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
         "importance": "medium",
         "name": "Inteligência policial recente",
         "value": "0,0"
+      },
+      {
+        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
+        "importance": "low",
+        "name": "Intensidade de supressão",
+        "value": "0,00"
       }
     ],
     "interpretation": "Confiança **alta** para decisão operacional, com 3 bloco(s) independentes sustentando a leitura.",
@@ -325,7 +317,7 @@
     "structured_result": {
       "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "CAUCAIA entra na posição #2, no top 0,1% do ranking, com score de 8,36/10 (83,6%). No ciclo atual, isso coloca o território em faixa de prioridade máxima e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "manager_guidance": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
       "technical_basis": "A decisão técnica combina distância do score em relação à média (63,8 p.p.), evolução temporal de CVLI (0 na janela atual contra 0 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 2 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
@@ -4417,9 +4409,8 @@
     "summary": "**VICENTE PINZON** está na posição **#43** do ranking, com score **2.57/10** e confiança **70.6%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "fortaleza:BOM JARDIM": {
-    "confidence": 0.7693205398858617,
+    "confidence": 0.785353873219195,
     "confidence_caveats": [
-      "Há ação policial de supressão recente; isso pode mitigar parte do risco no curtíssimo prazo.",
       "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
     ],
     "confidence_components": [
@@ -4450,8 +4441,8 @@
       {
         "direction": "positive",
         "name": "Eventos observados",
-        "score_pct": 10.0,
-        "text": "0 evento(s) críticos, 1 tipologia(s) e intensidade acumulada de conflito 0,0."
+        "score_pct": 0.0,
+        "text": "0 evento(s) críticos, 0 tipologia(s) e intensidade acumulada de conflito 0,0."
       },
       {
         "direction": "positive",
@@ -4468,13 +4459,13 @@
       {
         "direction": "negative",
         "name": "Fatores de cautela",
-        "score_pct": 7.7,
-        "text": "Supressão recente=1 e baixa convergência entre evidências recomendam cautela na decisão operacional."
+        "score_pct": 4.0,
+        "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Moderada",
-    "confidence_pct": 76.9,
+    "confidence_pct": 78.5,
     "factors": [
       {
         "explanation": "📌 **Posição global**: BOM JARDIM ocupa a posição #45 entre 3265 territórios monitorados.",
@@ -4493,12 +4484,6 @@
         "importance": "high",
         "name": "Tensão territorial",
         "value": "0,50"
-      },
-      {
-        "explanation": "🚨 **Eventos exógenos**: 1 evento(s) recente(s), sendo 0 crítico(s) e 1 de supressão qualificada.",
-        "importance": "high",
-        "name": "Eventos exógenos recentes",
-        "value": "1"
       },
       {
         "explanation": "🧭 **Faixa percentual**: o território permanece no top 1,4% do ranking e segue na primeira faixa de atenção.",
@@ -4537,16 +4522,16 @@
         "value": "0"
       },
       {
+        "explanation": "🚨 **Eventos exógenos**: 0 evento(s) recente(s), sendo 0 crítico(s) e 0 de supressão qualificada.",
+        "importance": "medium",
+        "name": "Eventos exógenos recentes",
+        "value": "0"
+      },
+      {
         "explanation": "💥 **Intensidade de conflito**: o somatório ponderado dos eventos críticos atingiu 0,00.",
         "importance": "medium",
         "name": "Intensidade de conflito",
         "value": "0,00"
-      },
-      {
-        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 1,00 e pedem leitura de mitigação de curto prazo.",
-        "importance": "medium",
-        "name": "Intensidade de supressão",
-        "value": "1,00"
       },
       {
         "explanation": "🕵️ **Inteligência recente**: o canal de inteligência acumulou 0,0 ponto(s) ponderado(s) na janela de 14 dias.",
@@ -4565,6 +4550,12 @@
         "importance": "medium",
         "name": "Corroboração da confiança",
         "value": "2"
+      },
+      {
+        "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
+        "importance": "low",
+        "name": "Intensidade de supressão",
+        "value": "0,00"
       }
     ],
     "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (2 bloco(s) de evidência).",
@@ -4577,11 +4568,11 @@
     "structured_result": {
       "confidence_basis": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 2 bloco(s) independentes sustentam a decisão.",
       "executive_summary": "BOM JARDIM entra na posição #45, no top 1,4% do ranking, com score de 2,53/10 (25,3%). No ciclo atual, isso coloca o território em faixa de alta prioridade tática e pede acompanhamento direto da operação.",
-      "manager_guidance": "Para a operação, a leitura mais segura é tratar BOM JARDIM como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local. Há 1 ação(ões) de supressão no histórico recente, o que pode aliviar parte do risco no curtíssimo prazo, sem descaracterizar a pressão de base.",
+      "manager_guidance": "Para a operação, a leitura mais segura é tratar BOM JARDIM como território de monitoramento reforçado, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline: ranking, séries de CVLI, adjacência territorial, tensão faccional, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
       "technical_basis": "A decisão técnica combina distância do score em relação à média (5,5 p.p.), evolução temporal de CVLI (0 na janela atual contra 1 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
-    "summary": "**BOM JARDIM** está na posição **#45** do ranking, com score **2.53/10** e confiança **76.9%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+    "summary": "**BOM JARDIM** está na posição **#45** do ranking, com score **2.53/10** e confiança **78.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
   },
   "interior:LIMOEIRO DO NORTE": {
     "confidence": 0.7074433250261407,
@@ -31309,7 +31300,7 @@
     "node_id": 3250,
     "name": "PACATUBA",
     "risk_score_pct": 15.4,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 15.40.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 15.40.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -31729,7 +31720,7 @@
     "node_id": 2,
     "name": "ALDEOTA",
     "risk_score_pct": 10.3,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.30.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.30.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32279,7 +32270,7 @@
     "node_id": 16,
     "name": "CAJAZEIRAS",
     "risk_score_pct": 5.8,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 5.80.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 5.80.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32419,7 +32410,7 @@
     "node_id": 15,
     "name": "CAIS DO PORTO",
     "risk_score_pct": 4.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 4.00.",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.00.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32619,7 +32610,7 @@
     "node_id": 3258,
     "name": "MARANGUAPE",
     "risk_score_pct": 0.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
+    "summary": "Território em nível baixo.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,
@@ -32659,7 +32650,7 @@
     "node_id": 3263,
     "name": "SAO GONCALO DO AMARANTE",
     "risk_score_pct": 0.0,
-    "summary": "Território em nível baixo. Eventos exógenos recentes: 2.",
+    "summary": "Território em nível baixo. Eventos exógenos recentes: 1.",
     "factors": [],
     "caveats": [],
     "explanation_available": false,

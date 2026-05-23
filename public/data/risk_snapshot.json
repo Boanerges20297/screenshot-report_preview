@@ -725,7 +725,7 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 3,
+      "recent_exogenous": 2,
       "peak_hours": "",
       "faction": "CV",
       "tension_index": 83.6,
@@ -1271,13 +1271,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": -1.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "peak_hours": "Entre 16hs e 21hs",
       "faction": "CV",
       "tension_index": 25.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "**BOM JARDIM** está na posição **#45** do ranking, com score **2.53/10** e confiança **76.9%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
+      "summary": "**BOM JARDIM** está na posição **#45** do ranking, com score **2.53/10** e confiança **78.5%** — identificada como área de alta prioridade tática. A posição é sustentada por pressão espacial de áreas vizinhas também críticas."
     },
     {
       "id": "interior:LIMOEIRO DO NORTE",
@@ -33695,13 +33695,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "peak_hours": "Entre 06hs e 11hs",
       "faction": "CV",
       "tension_index": 15.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 15.40."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.40."
     },
     {
       "id": "rmf:PINDORETAMA",
@@ -34577,13 +34577,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 2,
+      "recent_exogenous": 1,
       "peak_hours": "Entre 14hs e 19hs",
       "faction": "NEUTRO",
       "tension_index": 10.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 2. Tensão territorial atual em 10.30."
+      "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 10.30."
     },
     {
       "id": "fortaleza:BONSUCESSO",
@@ -35732,13 +35732,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "peak_hours": "Entre 03hs e 08hs",
       "faction": "CV",
       "tension_index": 5.8,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 5.80."
+      "summary": "Território em nível baixo. Tensão territorial atual em 5.80."
     },
     {
       "id": "fortaleza:RACHEL DE QUEIROZ",
@@ -36026,13 +36026,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "peak_hours": "Entre 19hs e 00hs",
       "faction": "CV",
       "tension_index": 4.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 1. Tensão territorial atual em 4.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 4.00."
     },
     {
       "id": "fortaleza:SALINAS",
@@ -36446,13 +36446,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 1,
+      "recent_exogenous": 0,
       "peak_hours": "Entre 01hs e 06hs",
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 1."
+      "summary": "Território em nível baixo."
     },
     {
       "id": "rmf:GUAIUBA",
@@ -36530,13 +36530,13 @@
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
-      "recent_exogenous": 2,
+      "recent_exogenous": 1,
       "peak_hours": "",
       "faction": "CV",
       "tension_index": 0.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Eventos exógenos recentes: 2."
+      "summary": "Território em nível baixo. Eventos exógenos recentes: 1."
     },
     {
       "id": "rmf:BEBERIBE",
