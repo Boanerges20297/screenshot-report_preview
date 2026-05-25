@@ -253,7 +253,7 @@ export function OperationalMap({
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f97316;font-weight:800;">
           Top 30 · ${region.toUpperCase()}
         </div>
-        <div style="font-size:17px;font-weight:700;color:#f1f5f9;margin-top:6px;">${name}</div>
+        <div style="font-size:17px;font-weight:700;color:var(--text-heading);margin-top:6px;">${name}</div>
         <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
           <div><span style="color:#64748b;">Risco</span> <strong style="color:#f97316;">${riskItem?.score?.toFixed(1) ?? '0.0'}%</strong></div>
           <div><span style="color:#64748b;">Facção</span> <strong style="color:#e2e8f0;">${detail?.faction ?? feature.properties?.faction ?? 'N/A'}</strong></div>
@@ -268,7 +268,7 @@ export function OperationalMap({
 
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
-        <div style="font-weight:700;color:#f1f5f9;font-size:13px;">${name}</div>
+        <div style="font-weight:700;color:var(--text-heading);font-size:13px;">${name}</div>
         <div style="font-weight:600;color:#f97316;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -285,7 +285,7 @@ export function OperationalMap({
     layer.bindPopup(`
       <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#94a3b8;font-weight:800;">ORCRIM</div>
-        <div style="font-size:16px;font-weight:700;color:#f1f5f9;margin-top:6px;">${area}</div>
+        <div style="font-size:16px;font-weight:700;color:var(--text-heading);margin-top:6px;">${area}</div>
         <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
           <div><span style="color:#64748b;">Micronodo</span> <strong style="color:#e2e8f0;">${String(props.micronodo ?? 'N/A')}</strong></div>
           <div><span style="color:#64748b;">Facção</span> <strong style="color:#e2e8f0;">${String(props.faction ?? 'N/A')}</strong></div>
@@ -297,7 +297,7 @@ export function OperationalMap({
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
         <div style="font-weight:700;color:#94a3b8;font-size:12px;">ORCRIM</div>
-        <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${area}</div>
+        <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${area}</div>
         <div style="color:#64748b;font-size:11px;margin-top:2px;">Facção: ${String(props.faction ?? 'N/A')}</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -313,7 +313,7 @@ export function OperationalMap({
     layer.bindPopup(`
       <div style="min-width:240px;font-family:'Inter',system-ui,sans-serif;">
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f87171;font-weight:800;">⚠ ELITE P10 · ALTA PRIORIDADE</div>
-        <div style="font-size:17px;font-weight:700;color:#f1f5f9;margin-top:6px;">${props.bairro ?? 'Território Elite'}</div>
+        <div style="font-size:17px;font-weight:700;color:var(--text-heading);margin-top:6px;">${props.bairro ?? 'Território Elite'}</div>
         <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
           <div><span style="color:#64748b;">Rank</span> <strong style="color:#e2e8f0;">#${props.rank ?? 'N/A'}</strong></div>
           <div><span style="color:#64748b;">Risco</span> <strong style="color:#f87171;">${props.indice_risco ?? 'N/A'}%</strong></div>
@@ -330,7 +330,7 @@ export function OperationalMap({
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
         <div style="font-weight:700;color:#f87171;font-size:12px;">Elite P10</div>
-        <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${props.bairro ?? 'Território'}</div>
+        <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${props.bairro ?? 'Território'}</div>
         <div style="color:#f87171;font-size:11px;margin-top:2px;">Risco: ${props.indice_risco ?? 'N/A'}%</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -375,7 +375,7 @@ export function OperationalMap({
               layer.bindPopup(`
                 <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
                   <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f97316;font-weight:800;">Top 30 Tático</div>
-                  <div style="font-size:16px;font-weight:700;color:#f1f5f9;margin-top:6px;">${name}</div>
+                  <div style="font-size:16px;font-weight:700;color:var(--text-heading);margin-top:6px;">${name}</div>
                   <div style="margin-top:10px;font-size:12px;color:#94a3b8;display:grid;gap:4px;">
                     <div><span style="color:#64748b;">Rank</span> <strong style="color:#e2e8f0;">#${props.rank ?? 'N/A'}</strong></div>
                     <div><span style="color:#64748b;">Risco</span> <strong style="color:#f97316;">${props.risk_score ?? props.indice_risco ?? 'N/A'}%</strong></div>
@@ -386,7 +386,7 @@ export function OperationalMap({
               layer.bindTooltip(`
                 <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
                   <div style="font-weight:700;color:#f97316;font-size:12px;">Top 30</div>
-                  <div style="font-weight:600;color:#f1f5f9;font-size:13px;margin-top:2px;">${name}</div>
+                  <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${name}</div>
                   <div style="color:#f97316;font-size:11px;margin-top:2px;">Risco: ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
                   ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
                 </div>
