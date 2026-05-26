@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, type MutableRefObject } from 'react'
+import { useState, useEffect, useRef, useMemo, type MutableRefObject } from 'react'
 import { GeoJSON, MapContainer, Pane, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import type { Layer } from 'leaflet'
@@ -93,16 +93,15 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
-function cvliPointBelongsToRegion(feature: GeoFeature | undefined, region: RegionKey): boolean {
-  const props = feature?.properties || {}
-  const pointRegion = normalizeLookupName(String(props.region ?? ''))
-  const pointCity = normalizeLookupName(String(props.cidade ?? props.city ?? ''))
-
-  if (region === 'fortaleza' && pointCity !== 'fortaleza') {
-    return false
-  }
-
-  return pointRegion === normalizeLookupName(region)
+function getFeatureRegion(feature: GeoFeature | undefined): string {
+  return normalizeLookupName(
+    String(
+      feature?.properties?.region ??
+        feature?.properties?.region_type ??
+        feature?.properties?.regiao ??
+        '',
+    ),
+  )
 }
 
 function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; region: RegionKey }) {
@@ -223,6 +222,31 @@ export function OperationalMap({
     ),
   }
 
+  const filteredCvliPoints: GeoFeatureCollection = useMemo(() => {
+    const selectedRegion = normalizeLookupName(region)
+    const collection = toFeatureCollection(cvliPoints)
+
+    const filtered = collection.features.filter((feature) => {
+      return getFeatureRegion(feature) === selectedRegion
+    })
+
+    console.log(
+      `[CVLI FILTER] region=${region} | entrada=${collection.features.length} | exibidos=${filtered.length}`,
+    )
+
+    return {
+      type: 'FeatureCollection',
+      features: filtered,
+    }
+  }, [cvliPoints, region])
+
+  // Debug: log region polygon count
+  if (regionPolygons.features.length === 0) {
+    console.warn(`[REGION LOAD] WARNING: No polygons found for region="${region}"! Total polygons in dataset: ${polygonCollection.features.length}`)
+  } else {
+    console.log(`[REGION LOAD] Loaded ${regionPolygons.features.length} polygons for region="${region}"`)
+  }
+
   // Derive polygonal Elite P10 geometries by matching with base polygons
   const eliteCollection = toFeatureCollection(top30EliteP10)
   const elitePropsMap = new Map<string, any>()
@@ -284,7 +308,7 @@ export function OperationalMap({
 
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
-        <div style="font-weight:700;color:var(--text-heading);font-size:13px;">${name}</div>
+        <div style="font-weight:700;color:#f97316;font-size:13px;">${name}</div>
         <div style="font-weight:600;color:#f97316;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -313,7 +337,7 @@ export function OperationalMap({
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
         <div style="font-weight:700;color:#94a3b8;font-size:12px;">ORCRIM</div>
-        <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${area}</div>
+        <div style="font-weight:600;color:#f97316;font-size:13px;margin-top:2px;">${area}</div>
         <div style="color:#64748b;font-size:11px;margin-top:2px;">Facção: ${String(props.faction ?? 'N/A')}</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -346,7 +370,7 @@ export function OperationalMap({
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
         <div style="font-weight:700;color:#f87171;font-size:12px;">Elite P10</div>
-        <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${props.bairro ?? 'Território'}</div>
+        <div style="font-weight:600;color:#f87171;font-size:13px;margin-top:2px;">${props.bairro ?? 'Território'}</div>
         <div style="color:#f87171;font-size:11px;margin-top:2px;">Risco: ${props.indice_risco ?? 'N/A'}%</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -362,10 +386,11 @@ export function OperationalMap({
     const bairro = String(props.bairro ?? 'Nao informado')
     const cidade = String(props.cidade ?? 'Nao informada')
     const vitimas = String(props.vitimas ?? 1)
+    //Adicionar contrast nos tooltips, escurecendo as fontes em 20% para melhor leitura sobre o fundo claro
     const details = `
       <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#dc2626;font-weight:800;">CVLI 90 DIAS</div>
-        <div style="font-size:15px;font-weight:800;color:#f8fafc;margin-top:6px;">${bairro} - ${cidade}</div>
+        <div style="font-size:15px;font-weight:800;color:#dc2626;margin-top:6px;">${bairro} - ${cidade}</div>
         <div style="margin-top:9px;font-size:12px;color:#cbd5e1;display:grid;gap:4px;">
           <div><span style="color:#94a3b8;">Data</span> <strong>${String(props.data ?? '')} ${String(props.hora ?? '')}</strong></div>
           ${local ? `<div><span style="color:#94a3b8;">Rua/Local</span> <strong>${local}</strong></div>` : ''}
@@ -438,7 +463,7 @@ export function OperationalMap({
               layer.bindTooltip(`
                 <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
                   <div style="font-weight:700;color:#f97316;font-size:12px;">Top 30</div>
-                  <div style="font-weight:600;color:var(--text-heading);font-size:13px;margin-top:2px;">${name}</div>
+                  <div style="font-weight:600;color:#f97316;font-size:13px;margin-top:2px;">${name}</div>
                   <div style="color:#f97316;font-size:11px;margin-top:2px;">Risco: ${props.risk_score ?? props.indice_risco ?? 'N/A'}%</div>
                   ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
                 </div>
@@ -512,13 +537,14 @@ export function OperationalMap({
       {showCvliPoints ? (
         <Pane name="cvli-points" style={{ zIndex: 460 }}>
           <GeoJSON
-            key={`cvli-points-${region}`}
-            data={cvliPoints as never}
-            filter={(feature) => {
-              const geoFeature = feature as unknown as GeoFeature
-              return cvliPointBelongsToRegion(geoFeature, region)
-            }}
-            pointToLayer={(_feature, latlng) => L.marker(latlng, { icon: cvliPinIcon(), riseOnHover: true })}
+            key={`cvli-points-${region}-${filteredCvliPoints.features.length}`}
+            data={filteredCvliPoints as never}
+            pointToLayer={(_feature, latlng) =>
+              L.marker(latlng, {
+                icon: cvliPinIcon(),
+                riseOnHover: true,
+              })
+            }
             onEachFeature={(feature, layer) => bindCvliPopup(feature as unknown as GeoFeature, layer)}
           />
         </Pane>

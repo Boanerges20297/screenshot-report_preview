@@ -4,7 +4,9 @@ import { AddExogenousEventForm } from './components/AddExogenousEventForm'
 import { useAIRecommendation } from './hooks/useAIRecommendation'
 import {
   loadSnapshot,
+  normalizeLookupName,
   riskLevelColor,
+  type GeoFeatureCollection,
   type RegionKey,
   type SnapshotData,
   type TerritoryDetail,
@@ -17,6 +19,37 @@ const REGION_LABELS: Record<RegionKey, string> = {
   fortaleza: 'Fortaleza',
   rmf: 'RMF',
   interior: 'Interior',
+}
+
+function getGeoFeatureRegion(feature: GeoFeatureCollection['features'][number]): string {
+  return normalizeLookupName(
+    String(
+      feature?.properties?.region ??
+        feature?.properties?.region_type ??
+        feature?.properties?.regiao ??
+        '',
+    ),
+  )
+}
+
+function filterFeatureCollectionByRegion(
+  collection: GeoFeatureCollection,
+  region: RegionKey,
+): GeoFeatureCollection {
+  const selectedRegion = normalizeLookupName(region)
+
+  const features = Array.isArray(collection?.features)
+    ? collection.features.filter((feature) => getGeoFeatureRegion(feature) === selectedRegion)
+    : []
+
+  console.log(
+    `[APP CVLI FILTER] region=${region} | entrada=${collection?.features?.length ?? 0} | enviados=${features.length}`,
+  )
+
+  return {
+    type: 'FeatureCollection',
+    features,
+  }
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -271,6 +304,7 @@ function App() {
   const saturationPct = regionalSummary?.total_nodes
     ? Math.round((regionalPriorityCount / regionalSummary.total_nodes) * 100)
     : 0
+  const regionalCvliPoints = filterFeatureCollectionByRegion(snapshot.cvliPoints, region)
 
   // ─── Rendered ──────────────────────────────────────────────────────────────
   return (
@@ -399,7 +433,7 @@ function App() {
             {showEliteP10 ? '✕ Elite P10' : '+ Elite P10'}
           </button>
           <button
-            id="toggle-cvli90"
+            id="toggle-elite"
             type="button"
             className={showCvliPoints ? 'toggle-button active-critical' : 'toggle-button'}
             onClick={() => setShowCvliPoints((v) => !v)}
@@ -476,12 +510,13 @@ function App() {
         {/* ── Map ── */}
         <section className="map-panel" aria-label="Mapa operacional">
           <OperationalMap
+            key={`operational-map-${region}-${showCvliPoints ? 'cvli-on' : 'cvli-off'}-${regionalCvliPoints.features.length}`}
             region={region}
             polygons={snapshot.polygons}
             top30={snapshot.top30[region]}
             top30EliteP10={snapshot.top30EliteP10}
             micronodes={snapshot.micronodes}
-            cvliPoints={snapshot.cvliPoints}
+            cvliPoints={regionalCvliPoints}
             riskItems={regionalItems}
             territoryDetails={snapshot.territoryDetails}
             selectedId={selectedId}

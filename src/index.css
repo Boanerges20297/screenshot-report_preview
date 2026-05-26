@@ -170,3 +170,68 @@ a { color: inherit; }
 .top30-tooltip::before {
   display: none;
 }
+
+/* Darken secondary text (labels & values) in tooltips while preserving
+   accent colors for titles. In light theme, force darker grays to improve
+   contrast against light basemap. */
+.territory-tooltip,
+.micronode-tooltip,
+.elite-tooltip,
+.top30-tooltip,
+.cvli-tooltip {
+  font-weight: 600;
+}
+
+/* In light theme, darken the label text (normally #64748b or #94a3b8) */
+[data-theme="light"] .territory-tooltip span,
+[data-theme="light"] .micronode-tooltip span,
+[data-theme="light"] .elite-tooltip span,
+[data-theme="light"] .top30-tooltip span,
+[data-theme="light"] .cvli-tooltip span {
+  color: rgba(30, 41, 59, 0.85) !important;
+}
+
+/* In light theme, darken the value text (strong tags, normally #e2e8f0) */
+[data-theme="light"] .territory-tooltip strong,
+[data-theme="light"] .micronode-tooltip strong,
+[data-theme="light"] .elite-tooltip strong,
+[data-theme="light"] .top30-tooltip strong,
+[data-theme="light"] .cvli-tooltip strong {
+  color: rgba(15, 23, 42, 0.92) !important;
+}
+
+/* Preserve accent colors on titles: keep reds/oranges as defined */
+[data-theme="light"] .territory-tooltip > div:first-child,
+[data-theme="light"] .micronode-tooltip > div:first-child,
+[data-theme="light"] .elite-tooltip > div:first-child,
+[data-theme="light"] .top30-tooltip > div:first-child,
+[data-theme="light"] .cvli-tooltip > div:first-child {
+  color: inherit !important;
+}
+
+/* Make the generic leaflet tooltip text a bit bolder for readability */
+.leaflet-tooltip {
+  font-weight: 600;
+}
+
+/* ─── CVLI Pin Markers ─────────────────────────────────────────── */
+.cvli-static-pin {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 18px !important;
+  height: 24px !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.cvli-static-pin-dot {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #dc2626;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #dc2626, 0 2px 6px rgba(220, 38, 38, 0.6);
+  margin-top: -2px;
+}
