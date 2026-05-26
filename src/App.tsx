@@ -398,15 +398,14 @@ function App() {
           >
             {showEliteP10 ? '✕ Elite P10' : '+ Elite P10'}
           </button>
-          <label className={showCvliPoints ? 'layer-checkbox active-critical' : 'layer-checkbox'} htmlFor="toggle-cvli90">
-            <input
-              id="toggle-cvli90"
-              type="checkbox"
-              checked={showCvliPoints}
-              onChange={(event) => setShowCvliPoints(event.currentTarget.checked)}
-            />
-            <span>CVLI 90d</span>
-          </label>
+          <button
+            id="toggle-cvli90"
+            type="button"
+            className={showCvliPoints ? 'toggle-button active-critical' : 'toggle-button'}
+            onClick={() => setShowCvliPoints((v) => !v)}
+          >
+            {showCvliPoints ? '✕ CVLI 90d' : '+ CVLI 90d'}
+          </button>
         </div>
 
         <div className="control-group">

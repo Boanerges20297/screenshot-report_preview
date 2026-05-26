@@ -511,45 +511,6 @@
   box-shadow: 0 0 12px rgba(239, 68, 68, 0.4);
 }
 
-.layer-checkbox {
-  min-height: 34px;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-full);
-  background: var(--bg-surface);
-  color: var(--text-base);
-  padding: 6px 14px 6px 10px;
-  font-size: 0.80rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  cursor: pointer;
-  transition: all 0.18s ease;
-  user-select: none;
-}
-
-.layer-checkbox:hover {
-  background: var(--bg-surface-3);
-  border-color: var(--border-strong);
-  transform: translateY(-1px);
-}
-
-.layer-checkbox input {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-  accent-color: var(--critical);
-  flex-shrink: 0;
-}
-
-.layer-checkbox.active-critical {
-  background: var(--critical);
-  border-color: var(--critical);
-  color: white;
-  box-shadow: 0 0 12px rgba(239, 68, 68, 0.4);
-}
-
 .add-event-btn {
   display: flex;
   align-items: center;
