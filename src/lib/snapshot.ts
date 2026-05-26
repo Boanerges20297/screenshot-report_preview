@@ -97,6 +97,7 @@ export type SnapshotData = {
   explainabilityAcademics: Record<string, any>
   polygons: GeoFeatureCollection
   micronodes: GeoFeatureCollection
+  cvliPoints: GeoFeatureCollection
   top30: Record<RegionKey, GeoFeatureCollection>
   top30EliteP10: GeoFeatureCollection
 }
@@ -110,6 +111,10 @@ async function loadJson<T>(path: string): Promise<T> {
   const text = await response.text()
   const sanitized = text.replace(/:\s*NaN\b/g, ': null')
   return JSON.parse(sanitized) as T
+}
+
+function resolveDataPath(fileName: string): string {
+  return new URL(`data/${fileName}`, import.meta.env.BASE_URL).toString()
 }
 
 const VALID_REGIONS = new Set<string>(['fortaleza', 'rmf', 'interior'])
@@ -354,22 +359,24 @@ export async function loadSnapshot(): Promise<SnapshotData> {
     explainabilityAcademics,
     polygons,
     micronodes,
+    cvliPoints,
     topFortaleza,
     topRmf,
     topInterior,
     topEliteP10,
   ] = await Promise.all([
-    loadJson<SnapshotManifest>('/data/manifest.json'),
-    loadJson<RiskSnapshot>('/data/risk_snapshot.json'),
-    loadJson<Record<string, TerritoryDetail>>('/data/territory_details.json'),
-    loadJson<Record<string, any>>('/data/explainability.json'),
-    loadJson<Record<string, any>>('/data/explainability_academics.json'),
-    loadJson<GeoFeatureCollection>('/data/polygons.geojson'),
-    loadJson<GeoFeatureCollection>('/data/micronodes.geojson'),
-    loadJson<GeoFeatureCollection>('/data/top30_capital.geojson'),
-    loadJson<GeoFeatureCollection>('/data/top30_rmf.geojson'),
-    loadJson<GeoFeatureCollection>('/data/top30_interior.geojson'),
-    loadJson<GeoFeatureCollection>('/data/top30_elite_p10.geojson'),
+    loadJson<SnapshotManifest>(resolveDataPath('manifest.json')),
+    loadJson<RiskSnapshot>(resolveDataPath('risk_snapshot.json')),
+    loadJson<Record<string, TerritoryDetail>>(resolveDataPath('territory_details.json')),
+    loadJson<Record<string, any>>(resolveDataPath('explainability.json')),
+    loadJson<Record<string, any>>(resolveDataPath('explainability_academics.json')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('polygons.geojson')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('micronodes.geojson')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('cvli_points.geojson')).catch((): GeoFeatureCollection => ({ type: 'FeatureCollection', features: [] })),
+    loadJson<GeoFeatureCollection>(resolveDataPath('top30_capital.geojson')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('top30_rmf.geojson')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('top30_interior.geojson')),
+    loadJson<GeoFeatureCollection>(resolveDataPath('top30_elite_p10.geojson')),
   ])
 
   const dedupedItems = dedupeRiskItems(risk.items)
@@ -402,6 +409,7 @@ export async function loadSnapshot(): Promise<SnapshotData> {
     explainabilityAcademics,
     polygons: enrichedPolygons,
     micronodes,
+    cvliPoints,
     top30: {
       fortaleza: topFortaleza,
       rmf: topRmf,

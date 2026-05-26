@@ -21,6 +21,7 @@ type OperationalMapProps = {
   top30: GeoFeatureCollection
   top30EliteP10: GeoFeatureCollection
   micronodes: GeoFeatureCollection
+  cvliPoints: GeoFeatureCollection
   riskItems: RiskItem[]
   territoryDetails: Record<string, TerritoryDetail>
   selectedId: string | null
@@ -28,6 +29,7 @@ type OperationalMapProps = {
   showMicronodes: boolean
   showTop30: boolean
   showEliteP10: boolean
+  showCvliPoints: boolean
   onSelectTerritory: (territoryId: string) => void
 }
 
@@ -187,6 +189,7 @@ export function OperationalMap({
   top30: _top30,
   top30EliteP10,
   micronodes,
+  cvliPoints,
   riskItems,
   territoryDetails,
   selectedId,
@@ -194,6 +197,7 @@ export function OperationalMap({
   showMicronodes,
   showTop30,
   showEliteP10,
+  showCvliPoints,
   onSelectTerritory,
 }: OperationalMapProps) {
   const [map, setMap] = useState<L.Map | null>(null)
@@ -336,6 +340,42 @@ export function OperationalMap({
       </div>
     `, { sticky: true, direction: 'auto', className: 'elite-tooltip' })
   }
+
+  function bindCvliPopup(feature: GeoFeature | undefined, layer: Layer) {
+    if (!feature) {
+      return
+    }
+    const props = feature.properties || {}
+    const local = String(props.local ?? props.rua ?? '').trim()
+    const bairro = String(props.bairro ?? 'Nao informado')
+    const cidade = String(props.cidade ?? 'Nao informada')
+    const vitimas = String(props.vitimas ?? 1)
+    const details = `
+      <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
+        <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#dc2626;font-weight:800;">CVLI 90 DIAS</div>
+        <div style="font-size:15px;font-weight:800;color:#f8fafc;margin-top:6px;">${bairro} - ${cidade}</div>
+        <div style="margin-top:9px;font-size:12px;color:#cbd5e1;display:grid;gap:4px;">
+          <div><span style="color:#94a3b8;">Data</span> <strong>${String(props.data ?? '')} ${String(props.hora ?? '')}</strong></div>
+          ${local ? `<div><span style="color:#94a3b8;">Rua/Local</span> <strong>${local}</strong></div>` : ''}
+          <div><span style="color:#94a3b8;">Vitimas</span> <strong>${vitimas}</strong></div>
+          ${props.arma ? `<div><span style="color:#94a3b8;">Meio</span> <strong>${String(props.arma)}</strong></div>` : ''}
+          <div><span style="color:#94a3b8;">Evento</span> <strong>${String(props.tipo_evento ?? 'CVLI')}</strong></div>
+        </div>
+      </div>
+    `
+    layer.bindTooltip(details, { sticky: true, direction: 'top', className: 'cvli-tooltip' })
+    layer.bindPopup(details)
+  }
+
+  function cvliPinIcon() {
+    return L.divIcon({
+      className: 'cvli-static-pin',
+      html: '<span class="cvli-static-pin-dot"></span>',
+      iconSize: [18, 24],
+      iconAnchor: [9, 22],
+      popupAnchor: [0, -22],
+    })
+  }
   useEffect(() => {
     layerRegistryRef.current = new Map()
   }, [region])
@@ -453,6 +493,18 @@ export function OperationalMap({
               })
             }}
             onEachFeature={(feature, layer) => bindMicronodePopup(feature as unknown as GeoFeature, layer)}
+          />
+        </Pane>
+      ) : null}
+
+      {showCvliPoints ? (
+        <Pane name="cvli-points" style={{ zIndex: 460 }}>
+          <GeoJSON
+            key={`cvli-points-${region}`}
+            data={cvliPoints as never}
+            filter={(feature) => normalizeLookupName(String(feature?.properties?.region ?? '')) === normalizeLookupName(region)}
+            pointToLayer={(_feature, latlng) => L.marker(latlng, { icon: cvliPinIcon(), riseOnHover: true })}
+            onEachFeature={(feature, layer) => bindCvliPopup(feature as unknown as GeoFeature, layer)}
           />
         </Pane>
       ) : null}

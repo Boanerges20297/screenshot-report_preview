@@ -104,6 +104,7 @@ function App() {
   const [showMicronodes, setShowMicronodes] = useState(false)
   const [showTop30, setShowTop30] = useState(false)
   const [showEliteP10, setShowEliteP10] = useState(false)
+  const [showCvliPoints, setShowCvliPoints] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [theme, setTheme] = useState<'dark' | 'light'>('light')
@@ -113,6 +114,23 @@ function App() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme === 'light' ? 'light' : '')
   }, [theme])
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const opensCvli90 =
+      params.get('view') === 'cvli90' ||
+      params.get('pinpoints') === 'cvli90' ||
+      params.get('cvli90') === '1'
+    if (!opensCvli90) return
+    const requestedRegion = params.get('region')
+    if (requestedRegion === 'fortaleza' || requestedRegion === 'rmf' || requestedRegion === 'interior') {
+      setRegion(requestedRegion)
+    }
+    setShowCvliPoints(true)
+    setShowMicronodes(false)
+    setShowTop30(false)
+    setShowEliteP10(false)
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -380,6 +398,15 @@ function App() {
           >
             {showEliteP10 ? '✕ Elite P10' : '+ Elite P10'}
           </button>
+          <label className={showCvliPoints ? 'layer-checkbox active-critical' : 'layer-checkbox'} htmlFor="toggle-cvli90">
+            <input
+              id="toggle-cvli90"
+              type="checkbox"
+              checked={showCvliPoints}
+              onChange={(event) => setShowCvliPoints(event.currentTarget.checked)}
+            />
+            <span>CVLI 90d</span>
+          </label>
         </div>
 
         <div className="control-group">
@@ -455,6 +482,7 @@ function App() {
             top30={snapshot.top30[region]}
             top30EliteP10={snapshot.top30EliteP10}
             micronodes={snapshot.micronodes}
+            cvliPoints={snapshot.cvliPoints}
             riskItems={regionalItems}
             territoryDetails={snapshot.territoryDetails}
             selectedId={selectedId}
@@ -462,6 +490,7 @@ function App() {
             showMicronodes={showMicronodes}
             showTop30={showTop30}
             showEliteP10={showEliteP10}
+            showCvliPoints={showCvliPoints}
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setFocusTrigger((n) => n + 1)

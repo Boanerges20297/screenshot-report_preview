@@ -511,6 +511,45 @@
   box-shadow: 0 0 12px rgba(239, 68, 68, 0.4);
 }
 
+.layer-checkbox {
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-full);
+  background: var(--bg-surface);
+  color: var(--text-base);
+  padding: 6px 14px 6px 10px;
+  font-size: 0.80rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+}
+
+.layer-checkbox:hover {
+  background: var(--bg-surface-3);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
+}
+
+.layer-checkbox input {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  accent-color: var(--critical);
+  flex-shrink: 0;
+}
+
+.layer-checkbox.active-critical {
+  background: var(--critical);
+  border-color: var(--critical);
+  color: white;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.4);
+}
+
 .add-event-btn {
   display: flex;
   align-items: center;
@@ -634,6 +673,43 @@
   margin-top: 4px;
   flex-shrink: 0;
   box-shadow: 0 0 0 4px rgba(148, 163, 184, 0.12);
+}
+
+.cvli-static-pin {
+  position: relative;
+  pointer-events: auto;
+}
+
+.cvli-static-pin-dot {
+  position: absolute;
+  left: 3px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  display: block;
+  background: #dc2626;
+  border: 2px solid #ffffff;
+  border-radius: 50% 50% 50% 0;
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.55);
+  transform: rotate(-45deg);
+}
+
+.cvli-static-pin-dot::after {
+  content: '';
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  width: 4px;
+  height: 4px;
+  background: #ffffff;
+  border-radius: 999px;
+}
+
+.cvli-tooltip {
+  border: 1px solid rgba(220, 38, 38, 0.32);
+  background: rgba(15, 23, 42, 0.94);
+  color: #f8fafc;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.28);
 }
 
 /* ── Mini KPIs at bottom of sidebar (compact, non-redundant) ── */
