@@ -114,7 +114,8 @@ async function loadJson<T>(path: string): Promise<T> {
 }
 
 function resolveDataPath(fileName: string): string {
-  return new URL(`data/${fileName}`, import.meta.env.BASE_URL).toString()
+  const base = import.meta.env.BASE_URL || '/'
+  return `${base.endsWith('/') ? base : `${base}/`}data/${fileName}`
 }
 
 const VALID_REGIONS = new Set<string>(['fortaleza', 'rmf', 'interior'])
