@@ -1,15 +1,15 @@
 {
   "global": {
-    "total_nodes": 178,
+    "total_nodes": 1700,
     "active_locations": 9,
     "top_region": "rmf",
     "top_name": "MARACANAU",
-    "avg_risk": 16.38
+    "avg_risk": 19.62
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 109,
-      "avg_risk": 15.62,
+      "total_nodes": 114,
+      "avg_risk": 15.82,
       "max_risk": 80.9,
       "top_name": "BARRA DO CEARA"
     },
