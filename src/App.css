@@ -667,10 +667,29 @@
 }
 
 .cvli-tooltip {
-  border: 1px solid rgba(220, 38, 38, 0.32);
-  background: rgba(15, 23, 42, 0.94);
+  border: 1px solid rgba(248, 113, 113, 0.5);
+  background: #0f172a;
   color: #f8fafc;
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.28);
+}
+
+.leaflet-tooltip.cvli-tooltip {
+  background: #0f172a !important;
+  border-color: rgba(248, 113, 113, 0.5) !important;
+  color: #f8fafc !important;
+  opacity: 1 !important;
+}
+
+.leaflet-tooltip.cvli-tooltip::before {
+  border-top-color: #0f172a !important;
+}
+
+.leaflet-tooltip.cvli-tooltip span {
+  color: #cbd5e1 !important;
+}
+
+.leaflet-tooltip.cvli-tooltip strong {
+  color: #ffffff !important;
 }
 
 /* ── Mini KPIs at bottom of sidebar (compact, non-redundant) ── */

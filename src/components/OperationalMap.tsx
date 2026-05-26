@@ -162,6 +162,18 @@ function pointInsideFeatureCollection(pointFeature: GeoFeature | undefined, poly
   })
 }
 
+function cvliPointBelongsToRegion(feature: GeoFeature | undefined, region: RegionKey, polygons: GeoFeatureCollection): boolean {
+  const props = feature?.properties || {}
+  const pointRegion = normalizeLookupName(String(props.region ?? ''))
+  const pointCity = normalizeLookupName(String(props.cidade ?? props.city ?? ''))
+
+  if (region === 'fortaleza' && pointCity !== 'fortaleza') {
+    return false
+  }
+
+  return pointRegion === normalizeLookupName(region) && pointInsideFeatureCollection(feature, polygons)
+}
+
 function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; region: RegionKey }) {
   const map = useMap()
 
@@ -573,10 +585,7 @@ export function OperationalMap({
             data={cvliPoints as never}
             filter={(feature) => {
               const geoFeature = feature as unknown as GeoFeature
-              return (
-                normalizeLookupName(String(geoFeature?.properties?.region ?? '')) === normalizeLookupName(region) &&
-                pointInsideFeatureCollection(geoFeature, regionPolygons)
-              )
+              return cvliPointBelongsToRegion(geoFeature, region, regionPolygons)
             }}
             pointToLayer={(_feature, latlng) => L.marker(latlng, { icon: cvliPinIcon(), riseOnHover: true })}
             onEachFeature={(feature, layer) => bindCvliPopup(feature as unknown as GeoFeature, layer)}
