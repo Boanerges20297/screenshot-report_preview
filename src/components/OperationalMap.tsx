@@ -405,12 +405,16 @@ export function OperationalMap({
   }
 
   function cvliPinIcon() {
+    const html = '<div style="position:relative;width:18px;height:24px;">'
+        + '<div style="position:absolute;left:3px;top:0;width:12px;height:12px;background:#dc2626;border:2px solid #fff;border-radius:50% 50% 50% 0;transform:rotate(-45deg);box-shadow:0 1px 4px rgba(0,0,0,0.45);"></div>'
+        + '<div style="position:absolute;left:7px;top:4px;width:4px;height:4px;background:#fff;border-radius:50%;"></div>'
+        + '</div>'
     return L.divIcon({
-      className: 'cvli-static-pin',
-      html: '<span class="cvli-static-pin-dot"></span>',
+      html: html,
+      className: 'cvli-pinpoint',
       iconSize: [18, 24],
       iconAnchor: [9, 22],
-      popupAnchor: [0, -22],
+      popupAnchor: [0, -22]
     })
   }
   useEffect(() => {
