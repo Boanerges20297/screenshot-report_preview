@@ -93,76 +93,7 @@ function normalizePolygonName(value: string): string {
   return normalizeLookupName(value.replace(/\s*-\s*AIS.*$/i, ''))
 }
 
-function pointCoordinates(feature: GeoFeature | undefined): [number, number] | null {
-  const geometry = feature?.geometry as { type?: string; coordinates?: unknown } | undefined
-  if (geometry?.type !== 'Point' || !Array.isArray(geometry.coordinates)) {
-    return null
-  }
-
-  const [lng, lat] = geometry.coordinates
-  if (typeof lng !== 'number' || typeof lat !== 'number') {
-    return null
-  }
-
-  return [lng, lat]
-}
-
-function pointInRing(point: [number, number], ring: unknown): boolean {
-  if (!Array.isArray(ring) || ring.length < 4) {
-    return false
-  }
-
-  const [x, y] = point
-  let inside = false
-  for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    const start = ring[i]
-    const end = ring[j]
-    if (!Array.isArray(start) || !Array.isArray(end)) {
-      continue
-    }
-    const xi = Number(start[0])
-    const yi = Number(start[1])
-    const xj = Number(end[0])
-    const yj = Number(end[1])
-    const intersects = yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi
-    if (intersects) {
-      inside = !inside
-    }
-  }
-  return inside
-}
-
-function pointInPolygon(point: [number, number], polygon: unknown): boolean {
-  if (!Array.isArray(polygon) || polygon.length === 0) {
-    return false
-  }
-
-  if (!pointInRing(point, polygon[0])) {
-    return false
-  }
-
-  return !polygon.slice(1).some((hole) => pointInRing(point, hole))
-}
-
-function pointInsideFeatureCollection(pointFeature: GeoFeature | undefined, polygons: GeoFeatureCollection): boolean {
-  const point = pointCoordinates(pointFeature)
-  if (!point) {
-    return false
-  }
-
-  return polygons.features.some((polygonFeature) => {
-    const geometry = polygonFeature.geometry as { type?: string; coordinates?: unknown } | undefined
-    if (geometry?.type === 'Polygon') {
-      return pointInPolygon(point, geometry.coordinates)
-    }
-    if (geometry?.type === 'MultiPolygon' && Array.isArray(geometry.coordinates)) {
-      return geometry.coordinates.some((polygon) => pointInPolygon(point, polygon))
-    }
-    return false
-  })
-}
-
-function cvliPointBelongsToRegion(feature: GeoFeature | undefined, region: RegionKey, polygons: GeoFeatureCollection): boolean {
+function cvliPointBelongsToRegion(feature: GeoFeature | undefined, region: RegionKey): boolean {
   const props = feature?.properties || {}
   const pointRegion = normalizeLookupName(String(props.region ?? ''))
   const pointCity = normalizeLookupName(String(props.cidade ?? props.city ?? ''))
@@ -171,7 +102,7 @@ function cvliPointBelongsToRegion(feature: GeoFeature | undefined, region: Regio
     return false
   }
 
-  return pointRegion === normalizeLookupName(region) && pointInsideFeatureCollection(feature, polygons)
+  return pointRegion === normalizeLookupName(region)
 }
 
 function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; region: RegionKey }) {
@@ -585,7 +516,7 @@ export function OperationalMap({
             data={cvliPoints as never}
             filter={(feature) => {
               const geoFeature = feature as unknown as GeoFeature
-              return cvliPointBelongsToRegion(geoFeature, region, regionPolygons)
+              return cvliPointBelongsToRegion(geoFeature, region)
             }}
             pointToLayer={(_feature, latlng) => L.marker(latlng, { icon: cvliPinIcon(), riseOnHover: true })}
             onEachFeature={(feature, layer) => bindCvliPopup(feature as unknown as GeoFeature, layer)}
