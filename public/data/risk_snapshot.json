@@ -38,7 +38,7 @@
       "assigned_police_qualified_actions": 0,
       "assigned_total_events": 21,
       "brute_cvli": 21,
-      "date": "2026-05-25 00:00:00",
+      "date": "2026-05-26 00:00:00",
       "exogenous": 0,
       "exogenous_conflict": 0,
       "fortaleza": {
@@ -52,39 +52,39 @@
         ],
         "hits10": [
           "BARRA DO CEARA",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "ANCURI",
-          "SAO BENTO"
+          "SAO BENTO",
+          "CAJAZEIRAS",
+          "ANCURI"
         ],
         "hits20": [
           "BARRA DO CEARA",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "ANCURI",
-          "SAO BENTO"
+          "SAO BENTO",
+          "CAJAZEIRAS",
+          "ANCURI"
         ],
         "hits5": [
           "BARRA DO CEARA",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "ANCURI",
-          "SAO BENTO"
+          "SAO BENTO",
+          "CAJAZEIRAS",
+          "ANCURI"
         ],
         "p10": 0.5,
         "p20": 0.25,
         "p5": 1.0,
         "ranking_top10": [
           "BARRA DO CEARA",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "ANCURI",
           "SAO BENTO",
+          "CAJAZEIRAS",
+          "ANCURI",
           "MONDUBIM",
-          "MESSEJANA",
           "PEDRAS",
+          "JOSE WALTER",
           "BARROSO",
-          "PLANALTO AYRTON SENNA"
+          "MESSEJANA"
         ],
         "recall10": 1.0,
         "recall20": 1.0,
@@ -113,47 +113,46 @@
         ],
         "hits10": [
           "BARRA DO CEARA",
-          "ITAPAJE",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "TIANGUA",
-          "ANCURI",
+          "ITAPAJE",
           "SAO BENTO",
-          "VARZEA ALEGRE"
+          "TIANGUA",
+          "CAJAZEIRAS",
+          "ANCURI"
         ],
         "hits20": [
           "BARRA DO CEARA",
-          "ITAPAJE",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "TIANGUA",
-          "ANCURI",
+          "ITAPAJE",
           "SAO BENTO",
+          "TIANGUA",
+          "CAJAZEIRAS",
+          "ANCURI",
           "VARZEA ALEGRE",
-          "ALTO SANTO",
-          "GROAIRAS"
+          "GROAIRAS",
+          "ALTO SANTO"
         ],
         "hits5": [
           "BARRA DO CEARA",
-          "ITAPAJE",
-          "CAJAZEIRAS"
+          "BONSUCESSO",
+          "ITAPAJE"
         ],
-        "p10": 0.8,
+        "p10": 0.7,
         "p20": 0.5,
         "p5": 0.6,
         "ranking_top10": [
+          "BARRA DO CEARA",
           "MARACANAU",
           "CAUCAIA",
-          "BARRA DO CEARA",
-          "ITAPAJE",
-          "CAJAZEIRAS",
           "BONSUCESSO",
-          "TIANGUA",
-          "ANCURI",
+          "ITAPAJE",
           "SAO BENTO",
-          "VARZEA ALEGRE"
+          "TIANGUA",
+          "CAJAZEIRAS",
+          "ANCURI",
+          "MONDUBIM"
         ],
-        "recall10": 0.5333,
+        "recall10": 0.4667,
         "recall20": 0.6667,
         "recall5": 0.2,
         "total_events": 21,
@@ -174,26 +173,26 @@
           "ITAPAJE",
           "TIANGUA",
           "VARZEA ALEGRE",
-          "ALTO SANTO",
           "GROAIRAS",
-          "POTENGI",
-          "CARIRE"
+          "ALTO SANTO",
+          "CARIRE",
+          "POTENGI"
         ],
         "hits20": [
           "ITAPAJE",
           "TIANGUA",
           "VARZEA ALEGRE",
-          "ALTO SANTO",
           "GROAIRAS",
-          "POTENGI",
-          "CARIRE"
+          "ALTO SANTO",
+          "CARIRE",
+          "POTENGI"
         ],
         "hits5": [
           "ITAPAJE",
           "TIANGUA",
           "VARZEA ALEGRE",
-          "ALTO SANTO",
-          "GROAIRAS"
+          "GROAIRAS",
+          "ALTO SANTO"
         ],
         "p10": 0.7,
         "p20": 0.35,
@@ -202,12 +201,12 @@
           "ITAPAJE",
           "TIANGUA",
           "VARZEA ALEGRE",
-          "ALTO SANTO",
           "GROAIRAS",
-          "POTENGI",
-          "CARIRE",
-          "LIMOEIRO DO NORTE",
+          "ALTO SANTO",
           "SOBRAL",
+          "CARIRE",
+          "POTENGI",
+          "LIMOEIRO DO NORTE",
           "URUBURETAMA"
         ],
         "recall10": 1.0,
@@ -246,13 +245,13 @@
           "MARACANAU",
           "CAUCAIA",
           "PACATUBA",
-          "HORIZONTE",
           "ITAITINGA",
-          "PARAIPABA",
+          "HORIZONTE",
           "TRAIRI",
-          "EUSEBIO",
-          "SAO LUIS DO CURU",
-          "PACAJUS"
+          "PARAIPABA",
+          "PACAJUS",
+          "PINDORETAMA",
+          "EUSEBIO"
         ],
         "recall10": 1.0,
         "recall20": 1.0,
