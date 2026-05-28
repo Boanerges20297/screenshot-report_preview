@@ -214,6 +214,28 @@ export function OperationalMap({
   const [map, setMap] = useState<L.Map | null>(null)
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
   const layerRegistryRef = useRef<Map<string, Layer>>(new Map())
+  const activeCvliTooltipRef = useRef<{ layer: Layer; timeoutId: any } | null>(null)
+
+  useEffect(() => {
+    const handleDocumentClick = (e: MouseEvent) => {
+      if (activeCvliTooltipRef.current) {
+        const target = e.target as HTMLElement
+        if (target && target.closest('.cvli-pinpoint')) {
+          return
+        }
+        clearTimeout(activeCvliTooltipRef.current.timeoutId)
+        try {
+          activeCvliTooltipRef.current.layer.closeTooltip()
+        } catch (err) {}
+        activeCvliTooltipRef.current = null
+      }
+    }
+
+    document.addEventListener('click', handleDocumentClick, true)
+    return () => {
+      document.removeEventListener('click', handleDocumentClick, true)
+    }
+  }, [])
   const polygonCollection = toFeatureCollection(polygons)
   const regionPolygons: GeoFeatureCollection = {
     type: 'FeatureCollection',
@@ -400,8 +422,34 @@ export function OperationalMap({
         </div>
       </div>
     `
-    layer.bindTooltip(details, { sticky: true, direction: 'top', className: 'cvli-tooltip' })
-    layer.bindPopup(details)
+    layer.bindTooltip(details, { direction: 'top', className: 'cvli-tooltip' })
+    layer.off('mouseover')
+    layer.off('mouseout')
+    layer.on('click', (e) => {
+      if (activeCvliTooltipRef.current) {
+        clearTimeout(activeCvliTooltipRef.current.timeoutId)
+        try {
+          activeCvliTooltipRef.current.layer.closeTooltip()
+        } catch (err) {}
+      }
+
+      layer.openTooltip()
+
+      const timeoutId = setTimeout(() => {
+        try {
+          layer.closeTooltip()
+        } catch (err) {}
+        if (activeCvliTooltipRef.current?.layer === layer) {
+          activeCvliTooltipRef.current = null
+        }
+      }, 10000)
+
+      activeCvliTooltipRef.current = { layer, timeoutId }
+
+      if (e && (e as any).originalEvent) {
+        L.DomEvent.stopPropagation((e as any).originalEvent)
+      }
+    })
   }
 
   function cvliPinIcon() {
