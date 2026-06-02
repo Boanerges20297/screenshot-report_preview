@@ -1,28 +1,28 @@
 {
   "global": {
-    "total_nodes": 1700,
-    "active_locations": 9,
+    "total_nodes": 2189,
+    "active_locations": 8,
     "top_region": "fortaleza",
     "top_name": "BARRA DO CEARA",
-    "avg_risk": 19.5
+    "avg_risk": 19.6
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 114,
-      "avg_risk": 13.41,
-      "max_risk": 93.0,
+      "total_nodes": 603,
+      "avg_risk": 18.59,
+      "max_risk": 89.3,
       "top_name": "BARRA DO CEARA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 16.81,
+      "avg_risk": 16.49,
       "max_risk": 85.3,
       "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 19.28,
-      "max_risk": 65.1,
+      "avg_risk": 20.99,
+      "max_risk": 61.8,
       "top_name": "ITAPAJE"
     }
   }
