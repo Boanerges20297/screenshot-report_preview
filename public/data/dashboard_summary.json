@@ -1,29 +1,29 @@
 {
   "global": {
     "total_nodes": 2189,
-    "active_locations": 8,
-    "top_region": "fortaleza",
-    "top_name": "BARRA DO CEARA",
-    "avg_risk": 19.84
+    "active_locations": 9,
+    "top_region": "rmf",
+    "top_name": "MARACANAU",
+    "avg_risk": 19.53
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 603,
-      "avg_risk": 19.46,
-      "max_risk": 87.6,
-      "top_name": "BARRA DO CEARA"
+      "avg_risk": 18.42,
+      "max_risk": 71.3,
+      "top_name": "PARQUE DOIS IRMAOS"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 15.54,
+      "avg_risk": 16.34,
       "max_risk": 85.3,
       "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 21.22,
-      "max_risk": 66.0,
-      "top_name": "ITAPAJE"
+      "avg_risk": 19.92,
+      "max_risk": 67.2,
+      "top_name": "TIANGUA"
     }
   }
 }
