@@ -9,89 +9,41 @@ type AIRecommendationState = {
 
 const cache = new Map<string, string>()
 
-/** Collect all configured Gemini API keys from env vars.
- * NOTE: Vite requires STATIC references to import.meta.env — dynamic access returns undefined.
- */
-function getApiKeys(): string[] {
-  const candidates = [
-    import.meta.env.VITE_GEMINI_API_KEY_1 as string | undefined,
-    import.meta.env.VITE_GEMINI_API_KEY_2 as string | undefined,
-    import.meta.env.VITE_GEMINI_API_KEY_3 as string | undefined,
-  ]
-  const keys = [...new Set(candidates.filter((k): k is string => Boolean(k)))]
-  console.debug(`[AI] ${keys.length} chave(s) Gemini carregada(s)`)
-  return keys
-}
-
-const MODELS = [
-  'gemini-2.5-flash-lite',  // 15 RPM, 1000 RPD — highest free quota
-  'gemini-2.5-flash',       // 10 RPM, 500 RPD
-]
-
-function wait(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms))
-}
-
-async function callGemini(prompt: string, keys: string[], signal: AbortSignal): Promise<string> {
-  let lastError: Error = new Error('No API keys configured')
-
-  // Try each model, and for each model try each key, with retry delay on 429
-  for (const model of MODELS) {
-    for (let idx = 0; idx < keys.length; idx++) {
-      const key = keys[idx]
-      // Up to 2 attempts per key (wait + retry on 429)
-      for (let attempt = 0; attempt < 2; attempt++) {
-        if (attempt > 0) {
-          console.debug(`[AI] Aguardando 3s antes de retry (chave ${idx + 1}, modelo ${model})...`)
-          await wait(3000)
-        }
-
-        try {
-          if (signal.aborted) throw new DOMException('Aborted', 'AbortError')
-          console.debug(`[AI] Tentando chave ${idx + 1}/${keys.length} com modelo ${model} (tentativa ${attempt + 1})...`)
-
-          const res = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`,
-            {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              signal,
-              body: JSON.stringify({
-                contents: [{ role: 'user', parts: [{ text: prompt }] }],
-                generationConfig: { temperature: 0.4, maxOutputTokens: 1000 },
-              }),
-            }
-          )
-
-          if (res.status === 429) {
-            console.warn(`[AI] Chave ${idx + 1} / ${model} → 429, ${attempt === 0 ? 'vai esperar e retry...' : 'pulando pra próxima chave.'}`)
-            lastError = new Error(`Todas as chaves com quota esgotada. Aguarde ~1 minuto.`)
-            continue // inner retry loop
-          }
-
-          if (!res.ok) {
-            const body = await res.text().catch(() => '')
-            console.warn(`[AI] Chave ${idx + 1} / ${model} → HTTP ${res.status}:`, body.slice(0, 120))
-            lastError = new Error(`HTTP ${res.status}`)
-            break // skip retries for this key, try next key
-          }
-
-          const data = await res.json()
-          const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? ''
-          if (!text) throw new Error('Resposta vazia do modelo')
-          console.debug(`[AI] ✅ Sucesso com chave ${idx + 1} / ${model}`)
-          return text
-        } catch (err) {
-          if ((err as Error).name === 'AbortError') throw err
-          lastError = err as Error
-        }
-      }
+function buildGeminiError(status: number, body: string): Error {
+  try {
+    const parsed = JSON.parse(body)
+    const message = parsed?.error
+    if (typeof message === 'string' && message.trim()) {
+      return new Error(message.trim())
     }
+  } catch {
+    // Fall back to generic HTTP handling when the response is not JSON.
   }
 
-  throw lastError
+  return new Error(`HTTP ${status}`)
 }
 
+async function callRecommendationApi(prompt: string, signal: AbortSignal): Promise<string> {
+  const response = await fetch('/api/ai-recommendation', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    signal,
+    body: JSON.stringify({ prompt }),
+  })
+
+  if (!response.ok) {
+    const body = await response.text().catch(() => '')
+    throw buildGeminiError(response.status, body)
+  }
+
+  const data = await response.json()
+  const text: string = data?.text ?? ''
+  if (!text) {
+    throw new Error('Resposta vazia da auditoria IA.')
+  }
+
+  return text
+}
 
 export function useAIRecommendation(
   risk: RiskItem | null,
@@ -107,8 +59,7 @@ export function useAIRecommendation(
   })
 
   useEffect(() => {
-    const keys = getApiKeys()
-    if (!risk || keys.length === 0) return
+    if (!risk) return
 
     const cacheKey = `${risk.id}-${risk.score}-${detail?.recent_cvli ?? 0}-${detail?.recent_exogenous ?? 0}-${explainability?.confidence_pct ?? 0}-v2`
     if (cache.has(cacheKey)) {
@@ -123,59 +74,57 @@ export function useAIRecommendation(
     const exog = detail?.recent_exogenous ?? risk.recent_exogenous ?? 0
     const momentum7d = detail?.momentum_7d ?? risk.momentum_7d ?? 0
     const momentum14d = detail?.momentum_14d ?? risk.momentum_14d ?? 0
-    const faction = risk.faction || 'Não identificada'
-    const territory = risk.name ?? 'Território'
+    const faction = risk.faction || 'Nao identificada'
+    const territory = risk.name ?? 'Territorio'
     const municipality = risk.municipality || detail?.municipality || ''
     const tensionIndex = risk.tension_index ?? 0
-    const trend = risk.trend || 'Estável'
+    const trend = risk.trend || 'Estavel'
     const streets = detail?.critical_streets
       ? Array.isArray(detail.critical_streets)
-        ? detail.critical_streets.slice(0, 5).map((s) => s.loc).join(', ')
+        ? detail.critical_streets.slice(0, 5).map((street) => street.loc).join(', ')
         : detail.critical_streets
-      : 'Não informado'
+      : 'Nao informado'
     const summary = detail?.summary ?? risk.summary ?? ''
 
-    // Novos dados ricos
     const confidence = explainability?.confidence_pct ?? 'N/A'
     const confidenceLabel = explainability?.confidence_label ?? 'N/A'
     const components = explainability?.confidence_components
-      ? explainability.confidence_components.map((c: any) => `- ${c.name}: ${c.text}`).join('\n')
+      ? explainability.confidence_components.map((component: any) => `- ${component.name}: ${component.text}`).join('\n')
       : 'N/A'
-    const academicMetrics = academics?.ranking_metrics 
-      ? `Rank Global: ${academics.ranking_metrics.rank_global}/${academics.ranking_metrics.total_nodes}, Gap para Média: ${academics.score_distribution_metrics?.score_gap_pct}%`
+    const academicMetrics = academics?.ranking_metrics
+      ? `Rank Global: ${academics.ranking_metrics.rank_global}/${academics.ranking_metrics.total_nodes}, Gap para Media: ${academics.score_distribution_metrics?.score_gap_pct}%`
       : 'N/A'
 
-    const prompt = `Você é um auditor sênior de inteligência profunda e assessor técnico direto do Comandante. 
-Sua missão é interpretar o "humor" do motor E-GCN e entregar uma visão estratégica e perspicaz, identificando se o modelo está detectando padrões invisíveis ou se precisa de correção.
+    const prompt = `Voce e um auditor senior de inteligencia profunda e assessor tecnico direto do Comandante.
+Sua missao e interpretar o "humor" do motor E-GCN e entregar uma visao estrategica e perspicaz, identificando se o modelo esta detectando padroes invisiveis ou se precisa de correcao.
 
-Ficha Técnica do Território:
+Ficha Tecnica do Territorio:
 - Nome: ${territory} (${municipality})
-- Facção Predominante: ${faction}
-- Predição E-GCN: ${score.toFixed(1)}% (Tendência: ${trend}) | Confiança: ${confidence}% (${confidenceLabel})
-- Índice de Tensão Estrutural: ${tensionIndex.toFixed(2)}
-- CVLI 7d: ${cvli} | Eventos Exógenos: ${exog}
+- Faccao Predominante: ${faction}
+- Predicao E-GCN: ${score.toFixed(1)}% (Tendencia: ${trend}) | Confianca: ${confidence}% (${confidenceLabel})
+- Indice de Tensao Estrutural: ${tensionIndex.toFixed(2)}
+- CVLI 7d: ${cvli} | Eventos Exogenos: ${exog}
 - Momentum Temporal (7d/14d): ${momentum7d}/${momentum14d}
-- Logradouros Críticos: ${streets}
+- Logradouros Criticos: ${streets}
 - Contexto Regional (Top 5): ${regionalTop.join(', ')}
-- Métricas Acadêmicas: ${academicMetrics}
-- Componentes de Inteligência:
+- Metricas Academicas: ${academicMetrics}
+- Componentes de Inteligencia:
 ${components}
 - Leitura Congelada: ${summary}
 
-Escreva uma AUDITORIA ESTRATÉGICA ASSERTIVA (máximo 15 linhas) no estilo narrativo e direto:
+Escreva uma AUDITORIA ESTRATEGICA ASSERTIVA (maximo 15 linhas) no estilo narrativo e direto:
 - Comece com "Comandante,".
-- Use expressões como "o motor de inteligência profunda prevê...", "percebi que...", "a convergência aponta para...".
-- Correlacione a dinâmica regional com a discrepância entre os dados frios (CVLI) e a tensão latente.
-- Aponte se o crime está convergindo para outro ponto ou se a pressão estrutural justifica a atenção.
-- Inclua RECOMENDAÇÕES ESTRATÉGICAS e uma CRÍTICA TÉCNICA ao modelo (identificando possíveis pontos cegos ou vieses na predição atual).
-- Mantenha a densidade técnica, mas seja extremamente direto e assertivo.`
+- Use expressoes como "o motor de inteligencia profunda preve...", "percebi que...", "a convergencia aponta para...".
+- Correlacione a dinamica regional com a discrepancia entre os dados frios (CVLI) e a tensao latente.
+- Aponte se o crime esta convergindo para outro ponto ou se a pressao estrutural justifica a atencao.
+- Inclua RECOMENDACOES ESTRATEGICAS e uma CRITICA TECNICA ao modelo (identificando possiveis pontos cegos ou vieses na predicao atual).
+- Mantenha a densidade tecnica, mas seja extremamente direto e assertivo.`
 
     const controller = new AbortController()
     const webhookUrl = import.meta.env.VITE_GOOGLE_WEBHOOK_URL
 
     const fetchSmartRecommendation = async () => {
       try {
-        // 1. Tentar ler do cache (Página 2 via Webhook)
         if (webhookUrl) {
           try {
             const cacheRes = await fetch(webhookUrl, {
@@ -189,26 +138,22 @@ Escreva uma AUDITORIA ESTRATÉGICA ASSERTIVA (máximo 15 linhas) no estilo narra
               const text = cacheData.data.text
               cache.set(cacheKey, text)
               setState({ text, loading: false, error: null })
-              return // Usa o cache, pula o Gemini
+              return
             }
           } catch (err) {
             console.warn('[AI] Falha ao verificar cache no Google Sheets:', err)
           }
         }
 
-        // 2. Não há (ou está expirado), chama o modelo do Gemini
         if (controller.signal.aborted) return
-        const text = await callGemini(prompt, keys, controller.signal)
+        const text = await callRecommendationApi(prompt, controller.signal)
 
-        // 3. Salva no cache local (memória) e atualiza o estado
         cache.set(cacheKey, text)
         if (!controller.signal.aborted) {
           setState({ text, loading: false, error: null })
         }
 
-        // 4. Salvar o novo resultado no cache do Google Sheets ("Página 2")
         if (webhookUrl && !controller.signal.aborted) {
-          // Fire-and-forget, sem 'await' para não atrasar a UI
           fetch(webhookUrl, {
             method: 'POST',
             headers: { 'Content-Type': 'text/plain;charset=utf-8' },
@@ -216,7 +161,7 @@ Escreva uma AUDITORIA ESTRATÉGICA ASSERTIVA (máximo 15 linhas) no estilo narra
               action: 'save_cache',
               area_id: cacheKey,
               area_name: territory,
-              text: text,
+              text,
             }),
           }).catch((err) => console.warn('[AI] Falha ao salvar cache no Google Sheets:', err))
         }
@@ -229,7 +174,7 @@ Escreva uma AUDITORIA ESTRATÉGICA ASSERTIVA (máximo 15 linhas) no estilo narra
     fetchSmartRecommendation()
 
     return () => controller.abort()
-  }, [risk, detail])
+  }, [risk, detail, explainability, academics, regionalTop])
 
   return state
 }
