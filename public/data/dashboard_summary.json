@@ -1,29 +1,29 @@
 {
   "global": {
-    "total_nodes": 2189,
-    "active_locations": 7,
-    "top_region": "interior",
-    "top_name": "TIANGUA",
-    "avg_risk": 19.7
+    "total_nodes": 2186,
+    "active_locations": 30,
+    "top_region": "rmf",
+    "top_name": "CAUCAIA",
+    "avg_risk": 20.7
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 603,
-      "avg_risk": 18.73,
-      "max_risk": 51.8,
-      "top_name": "PARQUE DOIS IRMAOS"
+      "total_nodes": 600,
+      "avg_risk": 20.77,
+      "max_risk": 89.5,
+      "top_name": "ALVARO WEYNE"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 10.02,
-      "max_risk": 62.5,
-      "top_name": "TRAIRI"
+      "avg_risk": 15.37,
+      "max_risk": 92.5,
+      "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 25.87,
-      "max_risk": 77.9,
-      "top_name": "TIANGUA"
+      "avg_risk": 43.01,
+      "max_risk": 83.5,
+      "top_name": "ITAPIUNA"
     }
   }
 }
