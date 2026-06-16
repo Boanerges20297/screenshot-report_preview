@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "2026-06-12T21-18-41",
-  "generated_at": "2026-06-12T21:18:41-03:00",
+  "snapshot_id": "2026-06-16T16-07-57",
+  "generated_at": "2026-06-16T16:07:57-03:00",
   "source_repo": "Report Preview",
-  "source_commit": "e75792d15",
+  "source_commit": "3b468ca4c",
   "model_label": "ELITE P10",
-  "model_architecture": "Deep ST-GAT Elite (Regionalizado)",
+  "model_architecture": "Poisson Ranker Estadual",
   "momentum_window_days": 14,
   "regions": [
     "fortaleza",
