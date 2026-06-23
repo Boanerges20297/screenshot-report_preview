@@ -1,15 +1,15 @@
 {
   "global": {
-    "total_nodes": 2186,
-    "active_locations": 7,
+    "total_nodes": 170,
+    "active_locations": 8,
     "top_region": "rmf",
     "top_name": "CAUCAIA",
-    "avg_risk": 19.28
+    "avg_risk": 11.38
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 600,
-      "avg_risk": 17.75,
+      "total_nodes": 101,
+      "avg_risk": 7.58,
       "max_risk": 78.4,
       "top_name": "BARRA DO CEARA"
     },
@@ -21,8 +21,8 @@
     },
     "interior": {
       "total_nodes": 50,
-      "avg_risk": 17.74,
-      "max_risk": 94.7,
+      "avg_risk": 18.17,
+      "max_risk": 94.4,
       "top_name": "SOBRAL"
     }
   }
