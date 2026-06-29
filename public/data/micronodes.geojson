@@ -284488,6 +284488,89 @@
         "coordinates": [
           [
             [
+              -38.48348,
+              -3.842466
+            ],
+            [
+              -38.484924,
+              -3.840983
+            ],
+            [
+              -38.48535,
+              -3.842063
+            ],
+            [
+              -38.485464,
+              -3.842025
+            ],
+            [
+              -38.485536,
+              -3.842244
+            ],
+            [
+              -38.484702,
+              -3.842234
+            ],
+            [
+              -38.484825,
+              -3.843033
+            ],
+            [
+              -38.484711,
+              -3.843048
+            ],
+            [
+              -38.484855,
+              -3.843782
+            ],
+            [
+              -38.484352,
+              -3.843875
+            ],
+            [
+              -38.484317,
+              -3.843356
+            ],
+            [
+              -38.483879,
+              -3.843469
+            ],
+            [
+              -38.483898,
+              -3.843559
+            ],
+            [
+              -38.483761,
+              -3.843592
+            ],
+            [
+              -38.483649,
+              -3.843046
+            ],
+            [
+              -38.48348,
+              -3.842466
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "id": "2150",
+      "properties": {
+        "area_oficial": "COAÇU",
+        "faction": "CV",
+        "lat": -3.842355,
+        "long": -38.48415435397543,
+        "micronodo": "Os Forno",
+        "region": "fortaleza"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -37.984711,
               -4.919816
             ],
@@ -284563,7 +284646,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2150",
+      "id": "2151",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -284662,7 +284745,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2151",
+      "id": "2152",
       "properties": {
         "area_oficial": "GROAIRAS",
         "faction": "PCC",
@@ -284822,7 +284905,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2152",
+      "id": "2153",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -284877,7 +284960,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2153",
+      "id": "2154",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285056,7 +285139,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2154",
+      "id": "2155",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -285171,7 +285254,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2155",
+      "id": "2156",
       "properties": {
         "area_oficial": "AEROPORTO",
         "faction": "PCC",
@@ -285343,7 +285426,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2156",
+      "id": "2157",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285478,7 +285561,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2157",
+      "id": "2158",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285541,7 +285624,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2158",
+      "id": "2159",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285632,7 +285715,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2159",
+      "id": "2160",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -285735,7 +285818,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2160",
+      "id": "2161",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -285850,7 +285933,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2161",
+      "id": "2162",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -286029,7 +286112,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2162",
+      "id": "2163",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -286132,7 +286215,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2163",
+      "id": "2164",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -286247,7 +286330,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2164",
+      "id": "2165",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -286330,7 +286413,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2165",
+      "id": "2166",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -286545,7 +286628,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2166",
+      "id": "2167",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -286644,7 +286727,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2167",
+      "id": "2168",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -286916,7 +286999,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2168",
+      "id": "2169",
       "properties": {
         "area_oficial": "COREAÚ",
         "faction": "PCC",
@@ -287027,7 +287110,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2169",
+      "id": "2170",
       "properties": {
         "area_oficial": "ASSARÉ",
         "faction": "PCC",
@@ -287362,7 +287445,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2170",
+      "id": "2171",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -287525,7 +287608,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2171",
+      "id": "2172",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -287724,7 +287807,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2172",
+      "id": "2173",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -287839,7 +287922,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2173",
+      "id": "2174",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -287942,7 +288025,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2174",
+      "id": "2175",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -287989,7 +288072,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2175",
+      "id": "2176",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -288068,7 +288151,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2176",
+      "id": "2177",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -288119,7 +288202,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2177",
+      "id": "2178",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -288230,7 +288313,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2178",
+      "id": "2179",
       "properties": {
         "area_oficial": "ALCÂNTARAS",
         "faction": "PCC",
@@ -288357,7 +288440,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2179",
+      "id": "2180",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288560,7 +288643,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2180",
+      "id": "2181",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288663,7 +288746,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2181",
+      "id": "2182",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -288734,7 +288817,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2182",
+      "id": "2183",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -288825,7 +288908,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2183",
+      "id": "2184",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -288916,7 +288999,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2184",
+      "id": "2185",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -289211,7 +289294,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2185",
+      "id": "2186",
       "properties": {
         "area_oficial": "ANTONINA DO NORTE",
         "faction": "PCC",
@@ -289343,7 +289426,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2186",
+      "id": "2187",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -289458,7 +289541,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2187",
+      "id": "2188",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -289533,7 +289616,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2188",
+      "id": "2189",
       "properties": {
         "area_oficial": "MARECHAL RONDON",
         "faction": "PCC",
@@ -289684,7 +289767,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2189",
+      "id": "2190",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -289847,7 +289930,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2190",
+      "id": "2191",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -289926,7 +290009,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2191",
+      "id": "2192",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -290213,7 +290296,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2192",
+      "id": "2193",
       "properties": {
         "area_oficial": "SOBRAL",
         "faction": "PCC",
@@ -290436,7 +290519,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2193",
+      "id": "2194",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -290700,7 +290783,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2194",
+      "id": "2195",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -290763,7 +290846,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2195",
+      "id": "2196",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -291010,7 +291093,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2196",
+      "id": "2197",
       "properties": {
         "area_oficial": "INDEPENDÊNCIA",
         "faction": "PCC",
@@ -291101,7 +291184,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2197",
+      "id": "2198",
       "properties": {
         "area_oficial": "SANTANA DO ACARAÚ",
         "faction": "PCC",
@@ -291368,7 +291451,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2198",
+      "id": "2199",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -291563,7 +291646,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2199",
+      "id": "2200",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -291658,7 +291741,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2200",
+      "id": "2201",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -292177,7 +292260,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2201",
+      "id": "2202",
       "properties": {
         "area_oficial": "ORÓS",
         "faction": "PCC",
@@ -292248,7 +292331,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2202",
+      "id": "2203",
       "properties": {
         "area_oficial": "ITAPAJÉ",
         "faction": "PCC",
@@ -292311,7 +292394,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2203",
+      "id": "2204",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -292610,7 +292693,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2204",
+      "id": "2205",
       "properties": {
         "area_oficial": "ACOPIARA",
         "faction": "PCC",
@@ -292833,7 +292916,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2205",
+      "id": "2206",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -292896,7 +292979,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2206",
+      "id": "2207",
       "properties": {
         "area_oficial": "BARBALHA",
         "faction": "PCC",
@@ -293095,7 +293178,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2207",
+      "id": "2208",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -293174,7 +293257,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2208",
+      "id": "2209",
       "properties": {
         "area_oficial": "MISSÃO VELHA",
         "faction": "PCC",
@@ -293321,7 +293404,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2209",
+      "id": "2210",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -293460,7 +293543,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2210",
+      "id": "2211",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -293523,7 +293606,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2211",
+      "id": "2212",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -293602,7 +293685,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2212",
+      "id": "2213",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -293753,7 +293836,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2213",
+      "id": "2214",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -293884,7 +293967,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2214",
+      "id": "2215",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -294015,7 +294098,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2215",
+      "id": "2216",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -294078,7 +294161,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2216",
+      "id": "2217",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -294297,7 +294380,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2217",
+      "id": "2218",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -294520,7 +294603,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2218",
+      "id": "2219",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -294711,7 +294794,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2219",
+      "id": "2220",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -295038,7 +295121,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2220",
+      "id": "2221",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -295169,7 +295252,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2221",
+      "id": "2222",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -295424,7 +295507,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2222",
+      "id": "2223",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -295547,7 +295630,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2223",
+      "id": "2224",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -296174,7 +296257,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2224",
+      "id": "2225",
       "properties": {
         "area_oficial": "MISSÃO VELHA",
         "faction": "PCC",
@@ -296373,7 +296456,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2225",
+      "id": "2226",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -296568,7 +296651,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2226",
+      "id": "2227",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -296623,7 +296706,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2227",
+      "id": "2228",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -296682,7 +296765,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2228",
+      "id": "2229",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -296781,7 +296864,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2229",
+      "id": "2230",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -297036,7 +297119,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2230",
+      "id": "2231",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -297175,7 +297258,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2231",
+      "id": "2232",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -297358,7 +297441,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2232",
+      "id": "2233",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -297445,7 +297528,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2233",
+      "id": "2234",
       "properties": {
         "area_oficial": "MOMBAÇA",
         "faction": "PCC",
@@ -298280,7 +298363,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2234",
+      "id": "2235",
       "properties": {
         "area_oficial": "PIQUET CARNEIRO",
         "faction": "PCC",
@@ -298843,7 +298926,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2235",
+      "id": "2236",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -299298,7 +299381,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2236",
+      "id": "2237",
       "properties": {
         "area_oficial": "PEDRA BRANCA",
         "faction": "PCC",
@@ -299529,7 +299612,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2237",
+      "id": "2238",
       "properties": {
         "area_oficial": "MADALENA",
         "faction": "PCC",
@@ -299660,7 +299743,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2238",
+      "id": "2239",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -299907,7 +299990,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2239",
+      "id": "2240",
       "properties": {
         "area_oficial": "QUITERIANÓPOLIS",
         "faction": "PCC",
@@ -300130,7 +300213,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2240",
+      "id": "2241",
       "properties": {
         "area_oficial": "ARNEIROZ",
         "faction": "PCC",
@@ -300313,7 +300396,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2241",
+      "id": "2242",
       "properties": {
         "area_oficial": "CATARINA",
         "faction": "PCC",
@@ -300396,7 +300479,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2242",
+      "id": "2243",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -300459,7 +300542,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2243",
+      "id": "2244",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -300830,7 +300913,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2244",
+      "id": "2245",
       "properties": {
         "area_oficial": "LAVRAS DA MANGABEIRA",
         "faction": "PCC",
@@ -301074,7 +301157,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2245",
+      "id": "2246",
       "properties": {
         "area_oficial": "DEPUTADO IRAPUAN PINHEIRO",
         "faction": "PCC",
@@ -301289,7 +301372,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2246",
+      "id": "2247",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -301548,7 +301631,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2247",
+      "id": "2248",
       "properties": {
         "area_oficial": "SOLONÓPOLE",
         "faction": "PCC",
@@ -301815,7 +301898,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2248",
+      "id": "2249",
       "properties": {
         "area_oficial": "PORTEIRAS",
         "faction": "PCC",
@@ -301971,7 +302054,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2249",
+      "id": "2250",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -302094,7 +302177,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2250",
+      "id": "2251",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -302137,7 +302220,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2251",
+      "id": "2252",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -302420,7 +302503,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2252",
+      "id": "2253",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -302583,7 +302666,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2253",
+      "id": "2254",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -302662,7 +302745,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2254",
+      "id": "2255",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -302781,7 +302864,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2255",
+      "id": "2256",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -302928,7 +303011,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2256",
+      "id": "2257",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -303091,7 +303174,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2257",
+      "id": "2258",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -303210,7 +303293,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2258",
+      "id": "2259",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -303301,7 +303384,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2259",
+      "id": "2260",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -303768,7 +303851,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2260",
+      "id": "2261",
       "properties": {
         "area_oficial": "URUBURETAMA",
         "faction": "PCC",
@@ -303927,7 +304010,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2261",
+      "id": "2262",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -304114,7 +304197,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2262",
+      "id": "2263",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "PCC",
@@ -304573,7 +304656,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2263",
+      "id": "2264",
       "properties": {
         "area_oficial": "ARARIPE",
         "faction": "PCC",
@@ -304764,7 +304847,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2264",
+      "id": "2265",
       "properties": {
         "area_oficial": "BOA VIAGEM",
         "faction": "PCC",
@@ -304871,7 +304954,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2265",
+      "id": "2266",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -305046,7 +305129,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2266",
+      "id": "2267",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -305153,7 +305236,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2267",
+      "id": "2268",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -305276,7 +305359,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2268",
+      "id": "2269",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -305395,7 +305478,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2269",
+      "id": "2270",
       "properties": {
         "area_oficial": "AURORA",
         "faction": "PCC",
@@ -305526,7 +305609,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2270",
+      "id": "2271",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -305657,7 +305740,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2271",
+      "id": "2272",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -305800,7 +305883,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2272",
+      "id": "2273",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -305915,7 +305998,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2273",
+      "id": "2274",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -306010,7 +306093,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2274",
+      "id": "2275",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306137,7 +306220,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2275",
+      "id": "2276",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306228,7 +306311,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2276",
+      "id": "2277",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306303,7 +306386,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2277",
+      "id": "2278",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306359,7 +306442,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2278",
+      "id": "2279",
       "properties": {
         "area_oficial": "CENTRO",
         "faction": "PCC",
@@ -306427,7 +306510,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2279",
+      "id": "2280",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306542,7 +306625,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2280",
+      "id": "2281",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306629,7 +306712,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2281",
+      "id": "2282",
       "properties": {
         "area_oficial": "NOVO ORIENTE",
         "faction": "PCC",
@@ -306812,7 +306895,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2282",
+      "id": "2283",
       "properties": {
         "area_oficial": "PENTECOSTE",
         "faction": "PCC",
@@ -306875,7 +306958,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2283",
+      "id": "2284",
       "properties": {
         "area_oficial": "PENTECOSTE",
         "faction": "PCC",
@@ -306942,7 +307025,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2284",
+      "id": "2285",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -307057,7 +307140,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2285",
+      "id": "2286",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -307172,7 +307255,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2286",
+      "id": "2287",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -307211,7 +307294,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2287",
+      "id": "2288",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -307302,7 +307385,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2288",
+      "id": "2289",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -307421,7 +307504,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2289",
+      "id": "2290",
       "properties": {
         "area_oficial": "ALCÂNTARAS",
         "faction": "PCC",
@@ -307552,7 +307635,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2290",
+      "id": "2291",
       "properties": {
         "area_oficial": "TIANGUÁ",
         "faction": "PCC",
@@ -307799,7 +307882,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2291",
+      "id": "2292",
       "properties": {
         "area_oficial": "GENERAL SAMPAIO",
         "faction": "PCC",
@@ -307903,7 +307986,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2292",
+      "id": "2293",
       "properties": {
         "area_oficial": "GROAIRAS",
         "faction": "PCC",
@@ -308138,7 +308221,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2293",
+      "id": "2294",
       "properties": {
         "area_oficial": "CARIRE",
         "faction": "PCC",
@@ -308233,7 +308316,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2294",
+      "id": "2295",
       "properties": {
         "area_oficial": "MUCAMBO",
         "faction": "PCC",
@@ -308404,7 +308487,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2295",
+      "id": "2296",
       "properties": {
         "area_oficial": "MUCAMBO",
         "faction": "PCC",
@@ -308707,7 +308790,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2296",
+      "id": "2297",
       "properties": {
         "area_oficial": "ERERÉ",
         "faction": "PCC",
@@ -308834,7 +308917,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2297",
+      "id": "2298",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -309129,7 +309212,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2298",
+      "id": "2299",
       "properties": {
         "area_oficial": "PEDRA BRANCA",
         "faction": "PCC",
@@ -309488,7 +309571,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2299",
+      "id": "2300",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -309679,7 +309762,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2300",
+      "id": "2301",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -309846,7 +309929,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2301",
+      "id": "2302",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -309965,7 +310048,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2302",
+      "id": "2303",
       "properties": {
         "area_oficial": "TRAIRI",
         "faction": "PCC",
@@ -310208,7 +310291,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2303",
+      "id": "2304",
       "properties": {
         "area_oficial": "ACARAPE",
         "faction": "PCC",
@@ -310428,7 +310511,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2304",
+      "id": "2305",
       "properties": {
         "area_oficial": "BELA VISTA",
         "faction": "PCC",
@@ -310500,7 +310583,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2305",
+      "id": "2306",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -310567,7 +310650,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2306",
+      "id": "2307",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -310630,7 +310713,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2307",
+      "id": "2308",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -310729,7 +310812,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2308",
+      "id": "2309",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -310828,7 +310911,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2309",
+      "id": "2310",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -310891,7 +310974,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2310",
+      "id": "2311",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -310978,7 +311061,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2311",
+      "id": "2312",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -311197,7 +311280,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2312",
+      "id": "2313",
       "properties": {
         "area_oficial": "NOVA OLINDA",
         "faction": "PCC",
@@ -311556,7 +311639,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2313",
+      "id": "2314",
       "properties": {
         "area_oficial": "NOVA OLINDA",
         "faction": "PCC",
@@ -311680,7 +311763,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2314",
+      "id": "2315",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -311895,7 +311978,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2315",
+      "id": "2316",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -311982,7 +312065,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2316",
+      "id": "2317",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312113,7 +312196,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2317",
+      "id": "2318",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -312172,7 +312255,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2318",
+      "id": "2319",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "PCC",
@@ -312271,7 +312354,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2319",
+      "id": "2320",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312374,7 +312457,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2320",
+      "id": "2321",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312481,7 +312564,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2321",
+      "id": "2322",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312560,7 +312643,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2322",
+      "id": "2323",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312623,7 +312706,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2323",
+      "id": "2324",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312790,7 +312873,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2324",
+      "id": "2325",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312865,7 +312948,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2325",
+      "id": "2326",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -312976,7 +313059,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2326",
+      "id": "2327",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -313095,7 +313178,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2327",
+      "id": "2328",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -313162,7 +313245,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2328",
+      "id": "2329",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -313261,7 +313344,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2329",
+      "id": "2330",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -313564,7 +313647,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2330",
+      "id": "2331",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -313811,7 +313894,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2331",
+      "id": "2332",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -313938,7 +314021,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2332",
+      "id": "2333",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -314105,7 +314188,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2333",
+      "id": "2334",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -314224,7 +314307,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2334",
+      "id": "2335",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -314327,7 +314410,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2335",
+      "id": "2336",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -314510,7 +314593,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2336",
+      "id": "2337",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -314593,7 +314676,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2337",
+      "id": "2338",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -314880,7 +314963,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2338",
+      "id": "2339",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -314959,7 +315042,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2339",
+      "id": "2340",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -315066,7 +315149,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2340",
+      "id": "2341",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -315161,7 +315244,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2341",
+      "id": "2342",
       "properties": {
         "area_oficial": "MILAGRES",
         "faction": "PCC",
@@ -315249,7 +315332,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2342",
+      "id": "2343",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -315740,7 +315823,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2343",
+      "id": "2344",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -316259,7 +316342,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2344",
+      "id": "2345",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -316610,7 +316693,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2345",
+      "id": "2346",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -316697,7 +316780,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2346",
+      "id": "2347",
       "properties": {
         "area_oficial": "SÃO MIGUEL",
         "faction": "PCC",
@@ -316973,7 +317056,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2347",
+      "id": "2348",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -317064,7 +317147,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2348",
+      "id": "2349",
       "properties": {
         "area_oficial": "MAURITI",
         "faction": "PCC",
@@ -317295,7 +317378,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2349",
+      "id": "2350",
       "properties": {
         "area_oficial": "QUIXERÉ",
         "faction": "PCC",
@@ -317466,7 +317549,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2350",
+      "id": "2351",
       "properties": {
         "area_oficial": "TAUÁ",
         "faction": "PCC",
@@ -318283,7 +318366,7 @@
         ],
         "type": "MultiPolygon"
       },
-      "id": "2351",
+      "id": "2352",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -319272,7 +319355,7 @@
         ],
         "type": "MultiPolygon"
       },
-      "id": "2352",
+      "id": "2353",
       "properties": {
         "area_oficial": "RUSSAS",
         "faction": "PCC",
@@ -319547,7 +319630,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2353",
+      "id": "2354",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -319866,7 +319949,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2354",
+      "id": "2355",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -320337,7 +320420,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2355",
+      "id": "2356",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -320864,7 +320947,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2356",
+      "id": "2357",
       "properties": {
         "area_oficial": "LIMOEIRO DO NORTE",
         "faction": "PCC",
@@ -321219,7 +321302,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2357",
+      "id": "2358",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -321354,7 +321437,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2358",
+      "id": "2359",
       "properties": {
         "area_oficial": "SENADOR POMPEU",
         "faction": "PCC",
@@ -322049,7 +322132,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2359",
+      "id": "2360",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -322152,7 +322235,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2360",
+      "id": "2361",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -322279,7 +322362,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2361",
+      "id": "2362",
       "properties": {
         "area_oficial": "ITAPIPOCA",
         "faction": "PCC",
@@ -322422,7 +322505,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2362",
+      "id": "2363",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -322585,7 +322668,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2363",
+      "id": "2364",
       "properties": {
         "area_oficial": "BREJO SANTO",
         "faction": "PCC",
@@ -322712,7 +322795,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2364",
+      "id": "2365",
       "properties": {
         "area_oficial": "GROAIRAS",
         "faction": "PCC",
@@ -322783,7 +322866,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2365",
+      "id": "2366",
       "properties": {
         "area_oficial": "CRATO",
         "faction": "PCC",
@@ -322882,7 +322965,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2366",
+      "id": "2367",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -323189,7 +323272,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2367",
+      "id": "2368",
       "properties": {
         "area_oficial": "COREAÚ",
         "faction": "PCC",
@@ -323364,7 +323447,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2368",
+      "id": "2369",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -323463,7 +323546,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2369",
+      "id": "2370",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -323570,7 +323653,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2370",
+      "id": "2371",
       "properties": {
         "area_oficial": "JUAZEIRO DO NORTE",
         "faction": "PCC",
@@ -323713,7 +323796,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2371",
+      "id": "2372",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "PCC",
@@ -323828,7 +323911,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2372",
+      "id": "2373",
       "properties": {
         "area_oficial": "MIRAIMA",
         "faction": "PCC",
@@ -323900,7 +323983,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2373",
+      "id": "2374",
       "properties": {
         "area_oficial": "QUIXERE",
         "faction": "PCC",
@@ -324063,7 +324146,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2374",
+      "id": "2375",
       "properties": {
         "area_oficial": "JARDIM",
         "faction": "PCC",
@@ -324198,7 +324281,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2375",
+      "id": "2376",
       "properties": {
         "area_oficial": "BARRO",
         "faction": "PCC",
@@ -324481,7 +324564,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2376",
+      "id": "2377",
       "properties": {
         "area_oficial": "BARRO",
         "faction": "PCC",
@@ -324668,7 +324751,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2377",
+      "id": "2378",
       "properties": {
         "area_oficial": "JATI",
         "faction": "PCC",
@@ -324767,7 +324850,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2378",
+      "id": "2379",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -325470,7 +325553,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2379",
+      "id": "2380",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -325609,7 +325692,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2380",
+      "id": "2381",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -325788,7 +325871,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2381",
+      "id": "2382",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -325947,7 +326030,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2382",
+      "id": "2383",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -326138,7 +326221,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2383",
+      "id": "2384",
       "properties": {
         "area_oficial": "SOBRAL",
         "faction": "TCP/GDE",
@@ -326261,7 +326344,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2384",
+      "id": "2385",
       "properties": {
         "area_oficial": "SÃO BENEDITO",
         "faction": "TCP/GDE",
@@ -326428,7 +326511,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2385",
+      "id": "2386",
       "properties": {
         "area_oficial": "IBIAPINA",
         "faction": "TCP/GDE",
@@ -326523,7 +326606,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2386",
+      "id": "2387",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -326630,7 +326713,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2387",
+      "id": "2388",
       "properties": {
         "area_oficial": "CIDADE NOVA",
         "faction": "TCP/GDE",
@@ -326762,7 +326845,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2388",
+      "id": "2389",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -326849,7 +326932,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2389",
+      "id": "2390",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -326932,7 +327015,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2390",
+      "id": "2391",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -327039,7 +327122,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2391",
+      "id": "2392",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -327118,7 +327201,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2392",
+      "id": "2393",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -327245,7 +327328,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2393",
+      "id": "2394",
       "properties": {
         "area_oficial": "TIANGUA",
         "faction": "TCP/GDE",
@@ -327444,7 +327527,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2394",
+      "id": "2395",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -327523,7 +327606,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2395",
+      "id": "2396",
       "properties": {
         "area_oficial": "GRAÇA",
         "faction": "TCP/GDE",
@@ -327590,7 +327673,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2396",
+      "id": "2397",
       "properties": {
         "area_oficial": "MERUOCA",
         "faction": "TCP/GDE",
@@ -327705,7 +327788,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2397",
+      "id": "2398",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -327980,7 +328063,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2398",
+      "id": "2399",
       "properties": {
         "area_oficial": "SAO BENEDITO",
         "faction": "TCP/GDE",
@@ -328255,7 +328338,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2399",
+      "id": "2400",
       "properties": {
         "area_oficial": "BARROQUINHA",
         "faction": "MASSA",
@@ -328390,7 +328473,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2400",
+      "id": "2401",
       "properties": {
         "area_oficial": "FORTIM",
         "faction": "MASSA",
@@ -328457,7 +328540,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2401",
+      "id": "2402",
       "properties": {
         "area_oficial": "PARQUE IRACEMA",
         "faction": "MASSA",
@@ -328544,7 +328627,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2402",
+      "id": "2403",
       "properties": {
         "area_oficial": "MESSEJANA",
         "faction": "MASSA",
@@ -328659,7 +328742,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2403",
+      "id": "2404",
       "properties": {
         "area_oficial": "MESSEJANA",
         "faction": "MASSA",
@@ -328722,7 +328805,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2404",
+      "id": "2405",
       "properties": {
         "area_oficial": "PARQUE IRACEMA",
         "faction": "MASSA",
@@ -329005,7 +329088,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2405",
+      "id": "2406",
       "properties": {
         "area_oficial": "CAMBEBA",
         "faction": "MASSA",
@@ -329044,7 +329127,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2406",
+      "id": "2407",
       "properties": {
         "area_oficial": "MESSEJANA",
         "faction": "MASSA",
@@ -329219,7 +329302,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2407",
+      "id": "2408",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -329414,7 +329497,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2408",
+      "id": "2409",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -329485,7 +329568,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2409",
+      "id": "2410",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -329548,7 +329631,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2410",
+      "id": "2411",
       "properties": {
         "area_oficial": "MESSEJANA",
         "faction": "MASSA",
@@ -329591,7 +329674,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2411",
+      "id": "2412",
       "properties": {
         "area_oficial": "PARQUE IRACEMA",
         "faction": "MASSA",
@@ -329682,7 +329765,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2412",
+      "id": "2413",
       "properties": {
         "area_oficial": "PARQUE IRACEMA",
         "faction": "MASSA",
@@ -329741,7 +329824,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2413",
+      "id": "2414",
       "properties": {
         "area_oficial": "PARQUE IRACEMA",
         "faction": "MASSA",
@@ -330036,7 +330119,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2414",
+      "id": "2415",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -330383,7 +330466,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2415",
+      "id": "2416",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -330478,7 +330561,7 @@
         ],
         "type": "Polygon"
       },
-      "id": "2416",
+      "id": "2417",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
@@ -330585,96 +330668,13 @@
         ],
         "type": "Polygon"
       },
-      "id": "2417",
+      "id": "2418",
       "properties": {
         "area_oficial": "CURIÓ",
         "faction": "MASSA",
         "lat": -3.819031,
         "long": -38.47931675879908,
         "micronodo": "Castanhola ",
-        "region": "fortaleza"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.48348,
-              -3.842466
-            ],
-            [
-              -38.484924,
-              -3.840983
-            ],
-            [
-              -38.48535,
-              -3.842063
-            ],
-            [
-              -38.485464,
-              -3.842025
-            ],
-            [
-              -38.485536,
-              -3.842244
-            ],
-            [
-              -38.484702,
-              -3.842234
-            ],
-            [
-              -38.484825,
-              -3.843033
-            ],
-            [
-              -38.484711,
-              -3.843048
-            ],
-            [
-              -38.484855,
-              -3.843782
-            ],
-            [
-              -38.484352,
-              -3.843875
-            ],
-            [
-              -38.484317,
-              -3.843356
-            ],
-            [
-              -38.483879,
-              -3.843469
-            ],
-            [
-              -38.483898,
-              -3.843559
-            ],
-            [
-              -38.483761,
-              -3.843592
-            ],
-            [
-              -38.483649,
-              -3.843046
-            ],
-            [
-              -38.48348,
-              -3.842466
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "id": "2418",
-      "properties": {
-        "area_oficial": "COAÇU",
-        "faction": "MASSA",
-        "lat": -3.842355,
-        "long": -38.48415435397543,
-        "micronodo": "Os Forno",
         "region": "fortaleza"
       },
       "type": "Feature"
