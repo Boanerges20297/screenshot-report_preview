@@ -39871,7 +39871,7 @@
         "long": -37.76909970352917,
         "micronodo": "José de Alencar",
         "region": "interior",
-        "peak_hours": "Entre 12hs e 17hs"
+        "peak_hours": "Entre 13hs e 18hs"
       },
       "type": "Feature"
     },
@@ -331679,7 +331679,8 @@
         "lat": -6.78858145,
         "long": -38.7185734,
         "micronodo": "IPAUMIRIM ",
-        "region": "interior"
+        "region": "interior",
+        "peak_hours": "Entre 00hs e 05hs"
       },
       "type": "Feature"
     },
