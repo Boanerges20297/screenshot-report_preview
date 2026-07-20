@@ -275,7 +275,7 @@
       "properties": {
         "bairro": "CAUCAIA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -576,7 +576,7 @@
       "properties": {
         "bairro": "CAUCAIA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -877,7 +877,7 @@
       "properties": {
         "bairro": "CAUCAIA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1006,7 +1006,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1022,13 +1022,13 @@
         "node_id": 4,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 4,
         "region": "interior",
-        "risk_score": 74.21,
-        "score": 74.21,
+        "risk_score": 74.282,
+        "score": 74.282,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1156,7 +1156,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1172,13 +1172,13 @@
         "node_id": 5,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 5,
         "region": "interior",
-        "risk_score": 72.28,
-        "score": 72.28,
+        "risk_score": 72.352,
+        "score": 72.352,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1242,7 +1242,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1258,13 +1258,13 @@
         "node_id": 6,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 6,
         "region": "interior",
-        "risk_score": 70.541,
-        "score": 70.541,
+        "risk_score": 70.613,
+        "score": 70.613,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1324,7 +1324,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.595299",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1340,13 +1340,13 @@
         "node_id": 7,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 7,
         "region": "interior",
-        "risk_score": 70.205,
-        "score": 70.205,
+        "risk_score": 70.277,
+        "score": 70.277,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1394,7 +1394,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1410,13 +1410,13 @@
         "node_id": 8,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 8,
         "region": "interior",
-        "risk_score": 69.166,
-        "score": 69.166,
+        "risk_score": 69.238,
+        "score": 69.238,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1492,7 +1492,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1508,13 +1508,13 @@
         "node_id": 9,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 9,
         "region": "interior",
-        "risk_score": 68.353,
-        "score": 68.353,
+        "risk_score": 68.425,
+        "score": 68.425,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1566,7 +1566,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1582,13 +1582,13 @@
         "node_id": 10,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 10,
         "region": "interior",
-        "risk_score": 67.503,
-        "score": 67.503,
+        "risk_score": 67.575,
+        "score": 67.575,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1692,7 +1692,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1708,13 +1708,13 @@
         "node_id": 11,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 11,
         "region": "interior",
-        "risk_score": 67.369,
-        "score": 67.369,
+        "risk_score": 67.441,
+        "score": 67.441,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1790,7 +1790,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1806,13 +1806,13 @@
         "node_id": 12,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 12,
         "region": "interior",
-        "risk_score": 67.186,
-        "score": 67.186,
+        "risk_score": 67.258,
+        "score": 67.258,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1912,7 +1912,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1928,13 +1928,13 @@
         "node_id": 13,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 13,
         "region": "interior",
-        "risk_score": 66.713,
-        "score": 66.713,
+        "risk_score": 66.785,
+        "score": 66.785,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2022,7 +2022,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2038,13 +2038,13 @@
         "node_id": 14,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 14,
         "region": "interior",
-        "risk_score": 66.521,
-        "score": 66.521,
+        "risk_score": 66.593,
+        "score": 66.593,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2248,7 +2248,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2264,13 +2264,13 @@
         "node_id": 15,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 15,
         "region": "interior",
-        "risk_score": 66.463,
-        "score": 66.463,
+        "risk_score": 66.535,
+        "score": 66.535,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2438,7 +2438,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2454,13 +2454,13 @@
         "node_id": 16,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 16,
         "region": "interior",
-        "risk_score": 66.285,
-        "score": 66.285,
+        "risk_score": 66.357,
+        "score": 66.357,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2504,7 +2504,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2520,13 +2520,13 @@
         "node_id": 17,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 17,
         "region": "interior",
-        "risk_score": 65.929,
-        "score": 65.929,
+        "risk_score": 66.001,
+        "score": 66.001,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2606,7 +2606,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2622,13 +2622,13 @@
         "node_id": 18,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 18,
         "region": "interior",
-        "risk_score": 65.771,
-        "score": 65.771,
+        "risk_score": 65.843,
+        "score": 65.843,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2764,7 +2764,7 @@
       "properties": {
         "bairro": "MERUOCA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2870,7 +2870,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2886,13 +2886,13 @@
         "node_id": 20,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 20,
         "region": "interior",
-        "risk_score": 64.459,
-        "score": 64.459,
+        "risk_score": 64.531,
+        "score": 64.531,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2944,7 +2944,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2960,13 +2960,13 @@
         "node_id": 21,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 21,
         "region": "interior",
-        "risk_score": 64.401,
-        "score": 64.401,
+        "risk_score": 64.473,
+        "score": 64.473,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3078,7 +3078,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3094,13 +3094,13 @@
         "node_id": 22,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 22,
         "region": "interior",
-        "risk_score": 64.064,
-        "score": 64.064,
+        "risk_score": 64.136,
+        "score": 64.136,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3164,7 +3164,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3180,13 +3180,13 @@
         "node_id": 23,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 23,
         "region": "interior",
-        "risk_score": 63.95,
-        "score": 63.95,
+        "risk_score": 64.022,
+        "score": 64.022,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3290,7 +3290,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3306,13 +3306,13 @@
         "node_id": 24,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 24,
         "region": "interior",
-        "risk_score": 63.647,
-        "score": 63.647,
+        "risk_score": 63.719,
+        "score": 63.719,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3348,7 +3348,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3364,13 +3364,13 @@
         "node_id": 25,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 25,
         "region": "interior",
-        "risk_score": 63.603,
-        "score": 63.603,
+        "risk_score": 63.675,
+        "score": 63.675,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3530,7 +3530,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3546,13 +3546,13 @@
         "node_id": 26,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 26,
         "region": "interior",
-        "risk_score": 63.599,
-        "score": 63.599,
+        "risk_score": 63.671,
+        "score": 63.671,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3712,7 +3712,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3728,13 +3728,13 @@
         "node_id": 27,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 27,
         "region": "interior",
-        "risk_score": 63.388,
-        "score": 63.388,
+        "risk_score": 63.46,
+        "score": 63.46,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3798,7 +3798,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3814,13 +3814,13 @@
         "node_id": 28,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 28,
         "region": "interior",
-        "risk_score": 63.216,
-        "score": 63.216,
+        "risk_score": 63.288,
+        "score": 63.288,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3944,7 +3944,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3960,13 +3960,13 @@
         "node_id": 29,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 29,
         "region": "interior",
-        "risk_score": 63.211,
-        "score": 63.211,
+        "risk_score": 63.283,
+        "score": 63.283,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4098,7 +4098,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4113,13 +4113,13 @@
         "node_id": 30,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 30,
         "region": "interior",
-        "risk_score": 62.58,
-        "score": 62.58,
+        "risk_score": 62.652,
+        "score": 62.652,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4255,7 +4255,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4271,13 +4271,13 @@
         "node_id": 31,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 31,
         "region": "interior",
-        "risk_score": 62.451,
-        "score": 62.451,
+        "risk_score": 62.523,
+        "score": 62.523,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4329,7 +4329,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4345,13 +4345,13 @@
         "node_id": 32,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 32,
         "region": "interior",
-        "risk_score": 62.343,
-        "score": 62.343,
+        "risk_score": 62.415,
+        "score": 62.415,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4427,7 +4427,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4441,13 +4441,13 @@
         "node_id": 33,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 33,
         "region": "interior",
-        "risk_score": 62.318,
-        "score": 62.318,
+        "risk_score": 62.39,
+        "score": 62.39,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4491,7 +4491,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4507,13 +4507,13 @@
         "node_id": 34,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 34,
         "region": "interior",
-        "risk_score": 62.277,
-        "score": 62.277,
+        "risk_score": 62.349,
+        "score": 62.349,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4609,7 +4609,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4625,13 +4625,13 @@
         "node_id": 35,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 35,
         "region": "interior",
-        "risk_score": 62.14,
-        "score": 62.14,
+        "risk_score": 62.212,
+        "score": 62.212,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4807,7 +4807,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4823,13 +4823,13 @@
         "node_id": 36,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 36,
         "region": "interior",
-        "risk_score": 61.795,
-        "score": 61.795,
+        "risk_score": 61.867,
+        "score": 61.867,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4933,7 +4933,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4947,13 +4947,13 @@
         "node_id": 37,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 37,
         "region": "interior",
-        "risk_score": 61.788,
-        "score": 61.788,
+        "risk_score": 61.86,
+        "score": 61.86,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5025,7 +5025,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5041,13 +5041,13 @@
         "node_id": 38,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 38,
         "region": "interior",
-        "risk_score": 61.698,
-        "score": 61.698,
+        "risk_score": 61.77,
+        "score": 61.77,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5095,7 +5095,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5111,13 +5111,13 @@
         "node_id": 39,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 39,
         "region": "interior",
-        "risk_score": 61.392,
-        "score": 61.392,
+        "risk_score": 61.464,
+        "score": 61.464,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5185,7 +5185,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5201,13 +5201,13 @@
         "node_id": 40,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 40,
         "region": "interior",
-        "risk_score": 61.378,
-        "score": 61.378,
+        "risk_score": 61.45,
+        "score": 61.45,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5339,7 +5339,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5355,13 +5355,13 @@
         "node_id": 41,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 41,
         "region": "interior",
-        "risk_score": 61.303,
-        "score": 61.303,
+        "risk_score": 61.375,
+        "score": 61.375,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5397,7 +5397,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5413,99 +5413,13 @@
         "node_id": 42,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
         "rank": 42,
         "region": "interior",
-        "risk_score": 61.268,
-        "score": 61.268,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -40.269605,
-              -3.802154
-            ],
-            [
-              -40.267385,
-              -3.805544
-            ],
-            [
-              -40.267069,
-              -3.805424
-            ],
-            [
-              -40.266534,
-              -3.806317
-            ],
-            [
-              -40.26613,
-              -3.806947
-            ],
-            [
-              -40.264982,
-              -3.805886
-            ],
-            [
-              -40.26497,
-              -3.805826
-            ],
-            [
-              -40.26541,
-              -3.805357
-            ],
-            [
-              -40.266095,
-              -3.804444
-            ],
-            [
-              -40.266562,
-              -3.80376
-            ],
-            [
-              -40.268145,
-              -3.801241
-            ],
-            [
-              -40.269605,
-              -3.802154
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "SOBRAL",
-        "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 6.9,
-        "municipality": "SOBRAL",
-        "name": "1° de Maio",
-        "nearby_streets": [
-          "1° DE MAIO",
-          "CIDADE DE DEUS- FORQUILHA",
-          "AREA SEM NOME"
-        ],
-        "nearby_streets_count": 14,
-        "node_id": 43,
-        "parent_area": "SOBRAL",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 67.0,
-        "parent_status": "ALTO",
-        "peak_hours": "Entre 17hs e 22hs",
-        "rank": 43,
-        "region": "interior",
-        "risk_score": 60.928,
-        "score": 60.928,
+        "risk_score": 61.34,
+        "score": 61.34,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5569,7 +5483,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5580,16 +5494,102 @@
           "BELA VISTA - CRATO"
         ],
         "nearby_streets_count": 1,
-        "node_id": 44,
+        "node_id": 43,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
+        "rank": 43,
+        "region": "interior",
+        "risk_score": 60.967,
+        "score": 60.967,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -40.269605,
+              -3.802154
+            ],
+            [
+              -40.267385,
+              -3.805544
+            ],
+            [
+              -40.267069,
+              -3.805424
+            ],
+            [
+              -40.266534,
+              -3.806317
+            ],
+            [
+              -40.26613,
+              -3.806947
+            ],
+            [
+              -40.264982,
+              -3.805886
+            ],
+            [
+              -40.26497,
+              -3.805826
+            ],
+            [
+              -40.26541,
+              -3.805357
+            ],
+            [
+              -40.266095,
+              -3.804444
+            ],
+            [
+              -40.266562,
+              -3.80376
+            ],
+            [
+              -40.268145,
+              -3.801241
+            ],
+            [
+              -40.269605,
+              -3.802154
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SOBRAL",
+        "faction": "CV",
+        "generated_at": "2026-07-20T09:45:01.604033",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.9,
+        "municipality": "SOBRAL",
+        "name": "1° de Maio",
+        "nearby_streets": [
+          "1° DE MAIO",
+          "CIDADE DE DEUS- FORQUILHA",
+          "AREA SEM NOME"
+        ],
+        "nearby_streets_count": 14,
+        "node_id": 44,
+        "parent_area": "SOBRAL",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 67.0,
+        "parent_status": "ALTO",
+        "peak_hours": "Entre 17hs e 22hs",
         "rank": 44,
         "region": "interior",
-        "risk_score": 60.895,
-        "score": 60.895,
+        "risk_score": 60.928,
+        "score": 60.928,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5637,7 +5637,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5660,84 +5660,6 @@
         "region": "interior",
         "risk_score": 60.779,
         "score": 60.779,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -40.265194,
-              -3.799779
-            ],
-            [
-              -40.265606,
-              -3.799864
-            ],
-            [
-              -40.265667,
-              -3.799526
-            ],
-            [
-              -40.266616,
-              -3.799771
-            ],
-            [
-              -40.267691,
-              -3.800446
-            ],
-            [
-              -40.266588,
-              -3.802116
-            ],
-            [
-              -40.266232,
-              -3.801911
-            ],
-            [
-              -40.264917,
-              -3.801673
-            ],
-            [
-              -40.264936,
-              -3.80135
-            ],
-            [
-              -40.265194,
-              -3.799779
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "SOBRAL",
-        "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 6.729,
-        "municipality": "SOBRAL",
-        "name": "Jubina",
-        "nearby_streets": [
-          "JUBINA",
-          "COHAB",
-          "SALSA"
-        ],
-        "nearby_streets_count": 13,
-        "node_id": 46,
-        "parent_area": "SOBRAL",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 67.0,
-        "parent_status": "ALTO",
-        "peak_hours": "Entre 17hs e 22hs",
-        "rank": 46,
-        "region": "interior",
-        "risk_score": 60.619,
-        "score": 60.619,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -6045,7 +5967,7 @@
       "properties": {
         "bairro": "JUAZEIRO DO NORTE",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6056,16 +5978,94 @@
           "HORTO- JUAZEIRO DO NORTE"
         ],
         "nearby_streets_count": 1,
-        "node_id": 47,
+        "node_id": 46,
         "parent_area": "JUAZEIRO DO NORTE",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 77.5,
+        "parent_risk_score": 77.6,
         "parent_status": "CRÍTICO",
         "peak_hours": "Entre 18hs e 23hs",
+        "rank": 46,
+        "region": "interior",
+        "risk_score": 60.623,
+        "score": 60.623,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -40.265194,
+              -3.799779
+            ],
+            [
+              -40.265606,
+              -3.799864
+            ],
+            [
+              -40.265667,
+              -3.799526
+            ],
+            [
+              -40.266616,
+              -3.799771
+            ],
+            [
+              -40.267691,
+              -3.800446
+            ],
+            [
+              -40.266588,
+              -3.802116
+            ],
+            [
+              -40.266232,
+              -3.801911
+            ],
+            [
+              -40.264917,
+              -3.801673
+            ],
+            [
+              -40.264936,
+              -3.80135
+            ],
+            [
+              -40.265194,
+              -3.799779
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SOBRAL",
+        "faction": "CV",
+        "generated_at": "2026-07-20T09:45:01.604033",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.729,
+        "municipality": "SOBRAL",
+        "name": "Jubina",
+        "nearby_streets": [
+          "JUBINA",
+          "COHAB",
+          "SALSA"
+        ],
+        "nearby_streets_count": 13,
+        "node_id": 47,
+        "parent_area": "SOBRAL",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 67.0,
+        "parent_status": "ALTO",
+        "peak_hours": "Entre 17hs e 22hs",
         "rank": 47,
         "region": "interior",
-        "risk_score": 60.551,
-        "score": 60.551,
+        "risk_score": 60.619,
+        "score": 60.619,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -6173,7 +6173,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6483,7 +6483,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6625,7 +6625,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6723,7 +6723,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6813,7 +6813,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6899,7 +6899,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -6997,7 +6997,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "TCP/GDE",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7207,7 +7207,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7265,7 +7265,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7363,7 +7363,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7509,7 +7509,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.604033",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7607,7 +7607,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7749,7 +7749,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7811,7 +7811,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -7965,7 +7965,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8051,7 +8051,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8125,7 +8125,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8279,7 +8279,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8353,7 +8353,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8391,7 +8391,7 @@
       "properties": {
         "bairro": "GRANJA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "is_tactical": true,
         "local_street_pressure": 1.794,
         "municipality": "GRANJA LISBOA",
@@ -8605,7 +8605,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8679,7 +8679,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8753,7 +8753,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -8791,7 +8791,7 @@
       "properties": {
         "bairro": "GRANJA",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "is_tactical": true,
         "local_street_pressure": 0.821,
         "municipality": "GRANJA LISBOA",
@@ -9091,7 +9091,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -9161,7 +9161,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -9429,7 +9429,7 @@
       "properties": {
         "bairro": "MARACANAÚ",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "MultiPolygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -9527,7 +9527,7 @@
       "properties": {
         "bairro": "SOBRAL",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -9607,7 +9607,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -9848,7 +9848,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10006,7 +10006,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10175,7 +10175,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10252,7 +10252,7 @@
       "properties": {
         "bairro": "JOSÉ DE ALENCAR",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10418,7 +10418,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10567,7 +10567,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -10808,7 +10808,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11025,7 +11025,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11174,7 +11174,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11383,7 +11383,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11624,7 +11624,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11722,7 +11722,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -11856,7 +11856,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12010,7 +12010,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12136,7 +12136,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12326,7 +12326,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12568,7 +12568,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12650,7 +12650,7 @@
       "properties": {
         "bairro": "BOA VIAGEM",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -12747,7 +12747,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -13093,7 +13093,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -13331,7 +13331,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -13513,7 +13513,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -13787,7 +13787,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -13997,7 +13997,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.611061",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14103,7 +14103,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14237,7 +14237,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14591,7 +14591,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14676,7 +14676,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14782,7 +14782,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -14892,7 +14892,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -15174,7 +15174,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -15392,7 +15392,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -15682,7 +15682,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -15900,7 +15900,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -15982,7 +15982,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "PCC",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -16071,7 +16071,7 @@
       "properties": {
         "bairro": "CRATO",
         "faction": "CV",
-        "generated_at": "2026-07-20T09:35:32.629497",
+        "generated_at": "2026-07-20T09:45:01.605439",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -16098,7 +16098,7 @@
     }
   ],
   "metadata": {
-    "generated_at": "2026-07-20T09:35:32.629497",
+    "generated_at": "2026-07-20T09:45:01.605439",
     "region": "interior",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
