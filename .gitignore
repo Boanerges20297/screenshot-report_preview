@@ -12,6 +12,7 @@ node_modules
 dist
 dist-ssr
 *.local
+%USERPROFILE%/
 
 # Editor directories and files
 .vscode/*
