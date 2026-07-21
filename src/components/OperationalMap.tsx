@@ -201,6 +201,66 @@ function MapEventsHandler({ onMapClick }: { onMapClick: () => void }) {
   return null
 }
 
+function ResetViewButton({
+  map,
+  region,
+  polygons,
+  onReset,
+}: {
+  map: L.Map | null
+  region: RegionKey
+  polygons: GeoFeatureCollection
+  onReset: () => void
+}) {
+  const handleReset = () => {
+    if (!map) {
+      return
+    }
+
+    map.closePopup()
+    onReset()
+
+    if (polygons.features.length > 0) {
+      const bounds = L.geoJSON(polygons as never).getBounds()
+      if (bounds.isValid()) {
+        map.fitBounds(bounds, { animate: true, padding: [10, 10] })
+        return
+      }
+    }
+
+    const view = REGION_VIEW[region]
+    map.setView(view.center, view.zoom, { animate: true })
+  }
+
+  return (
+    <button
+      type="button"
+      className="map-reset-view-button"
+      onClick={handleReset}
+      title="Voltar para a visao inicial"
+      aria-label="Voltar para a visao inicial"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M3 12a9 9 0 1 0 3-6.708"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+        />
+        <path
+          d="M3 4v4h4"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  )
+}
+
 function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, RiskItem>, selectedId: string | null) {
   const name = normalizePolygonName(extractFeatureName(feature))
   const region = String(feature?.properties?.region ?? feature?.properties?.region_type ?? 'fortaleza') as RegionKey
@@ -528,6 +588,12 @@ export function OperationalMap({
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <MapSearchBox map={map} polygons={regionPolygons} onSelectTerritory={onSelectTerritory} />
+      <ResetViewButton
+        map={map}
+        region={region}
+        polygons={regionPolygons}
+        onReset={() => onSelectTerritory(null)}
+      />
       <MapContainer ref={setMap} center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
         <TileLayer
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
