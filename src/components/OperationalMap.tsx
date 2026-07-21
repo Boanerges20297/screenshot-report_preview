@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useMemo, type MutableRefObject } from 'react'
-import { GeoJSON, MapContainer, Pane, TileLayer, useMap } from 'react-leaflet'
+import { GeoJSON, MapContainer, Pane, TileLayer, useMap, useMapEvents } from 'react-leaflet'
 import L from 'leaflet'
 import type { Layer } from 'leaflet'
 import {
@@ -30,7 +30,7 @@ type OperationalMapProps = {
   showTop30: boolean
   showEliteP10: boolean
   showCvliPoints: boolean
-  onSelectTerritory: (territoryId: string) => void
+  onSelectTerritory: (territoryId: string | null) => void
 }
 
 type SelectableLayer = Layer & {
@@ -104,10 +104,21 @@ function getFeatureRegion(feature: GeoFeature | undefined): string {
   )
 }
 
-function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; region: RegionKey }) {
+function FitToRegion({
+  polygons,
+  region,
+  selectedId,
+}: {
+  polygons: GeoFeatureCollection
+  region: RegionKey
+  selectedId: string | null
+}) {
   const map = useMap()
 
   useEffect(() => {
+    if (selectedId) {
+      return
+    }
     if (polygons && polygons.features.length > 0) {
       const geoJsonLayer = L.geoJSON(polygons as never)
       const bounds = geoJsonLayer.getBounds()
@@ -118,7 +129,7 @@ function FitToRegion({ region, polygons }: { polygons: GeoFeatureCollection; reg
     }
     const view = REGION_VIEW[region]
     map.setView(view.center, view.zoom, { animate: true })
-  }, [map, region, polygons])
+  }, [map, region, polygons, selectedId])
 
   return null
 }
@@ -174,6 +185,22 @@ function FocusSelectedTerritory({
   return null
 }
 
+function MapEventsHandler({ onMapClick }: { onMapClick: () => void }) {
+  const map = useMap()
+
+  useMapEvents({
+    click: (e) => {
+      const target = e.originalEvent.target as HTMLElement | null
+      if (target?.closest('.leaflet-interactive,.leaflet-popup,.leaflet-control,.map-search-container,.cvli-pinpoint')) {
+        return
+      }
+      map.closePopup()
+      onMapClick()
+    },
+  })
+  return null
+}
+
 function topLayerStyle(feature: GeoFeature | undefined, riskById: Map<string, RiskItem>, selectedId: string | null) {
   const name = normalizePolygonName(extractFeatureName(feature))
   const region = String(feature?.properties?.region ?? feature?.properties?.region_type ?? 'fortaleza') as RegionKey
@@ -212,7 +239,7 @@ export function OperationalMap({
   onSelectTerritory,
 }: OperationalMapProps) {
   const [map, setMap] = useState<L.Map | null>(null)
-  const riskById = new Map(riskItems.map((item) => [item.id, item]))
+  const riskById = useMemo(() => new Map(riskItems.map((item) => [item.id, item])), [riskItems])
   const layerRegistryRef = useRef<Map<string, Layer>>(new Map())
   const activeCvliTooltipRef = useRef<{ layer: Layer; timeoutId: any } | null>(null)
 
@@ -236,13 +263,17 @@ export function OperationalMap({
       document.removeEventListener('click', handleDocumentClick, true)
     }
   }, [])
-  const polygonCollection = toFeatureCollection(polygons)
-  const regionPolygons: GeoFeatureCollection = {
-    type: 'FeatureCollection',
-    features: polygonCollection.features.filter(
-      (feature) => normalizeLookupName(String(feature.properties?.region ?? feature.properties?.region_type ?? '')) === normalizeLookupName(region),
-    ),
-  }
+  const polygonCollection = useMemo(() => toFeatureCollection(polygons), [polygons])
+  const regionPolygons: GeoFeatureCollection = useMemo(() => {
+    return {
+      type: 'FeatureCollection',
+      features: polygonCollection.features.filter(
+        (feature) =>
+          normalizeLookupName(String(feature.properties?.region ?? feature.properties?.region_type ?? '')) ===
+          normalizeLookupName(region),
+      ),
+    }
+  }, [polygonCollection, region])
 
   const filteredCvliPoints: GeoFeatureCollection = useMemo(() => {
     const selectedRegion = normalizeLookupName(region)
@@ -270,29 +301,31 @@ export function OperationalMap({
   }
 
   // Derive polygonal Elite P10 geometries by matching with base polygons
-  const eliteCollection = toFeatureCollection(top30EliteP10)
-  const elitePropsMap = new Map<string, any>()
-  eliteCollection.features.forEach(f => {
-    const name = normalizePolygonName(String(f.properties?.bairro ?? f.properties?.name ?? ''))
-    if (name) elitePropsMap.set(name, f.properties)
-  })
-
-  const elitePolygons: GeoFeatureCollection = {
-    type: 'FeatureCollection',
-    features: regionPolygons.features.filter(f => {
-      const name = normalizePolygonName(extractFeatureName(f))
-      return elitePropsMap.has(name)
-    }).map(f => {
-      const name = normalizePolygonName(extractFeatureName(f))
-      return {
-        ...f,
-        properties: {
-          ...f.properties,
-          ...elitePropsMap.get(name)
-        }
-      }
+  const elitePolygons: GeoFeatureCollection = useMemo(() => {
+    const eliteCollection = toFeatureCollection(top30EliteP10)
+    const elitePropsMap = new Map<string, any>()
+    eliteCollection.features.forEach(f => {
+      const name = normalizePolygonName(String(f.properties?.bairro ?? f.properties?.name ?? ''))
+      if (name) elitePropsMap.set(name, f.properties)
     })
-  }
+
+    return {
+      type: 'FeatureCollection',
+      features: regionPolygons.features.filter(f => {
+        const name = normalizePolygonName(extractFeatureName(f))
+        return elitePropsMap.has(name)
+      }).map(f => {
+        const name = normalizePolygonName(extractFeatureName(f))
+        return {
+          ...f,
+          properties: {
+            ...f.properties,
+            ...elitePropsMap.get(name)
+          }
+        }
+      })
+    }
+  }, [regionPolygons, top30EliteP10])
 
   function bindTopPopup(feature: GeoFeature | undefined, layer: Layer) {
     if (!feature) {
@@ -305,7 +338,12 @@ export function OperationalMap({
     const peakHours = getPeakHoursFromSources(detail, riskItem, feature.properties)
 
     layer.on({
-      click: () => onSelectTerritory(territoryId),
+      click: (e: any) => {
+        if (e && e.originalEvent) {
+          L.DomEvent.stopPropagation(e.originalEvent)
+        }
+        onSelectTerritory(territoryId)
+      },
     })
 
     layerRegistryRef.current.set(territoryId, layer)
@@ -344,6 +382,15 @@ export function OperationalMap({
     const props = feature.properties || {}
     const area = String(props.area_oficial ?? props.micronodo ?? 'Micronodo')
     const peakHours = getPeakHoursFromSources(null, null, props)
+
+    layer.on({
+      click: (e: any) => {
+        if (e && e.originalEvent) {
+          L.DomEvent.stopPropagation(e.originalEvent)
+        }
+      },
+    })
+
     layer.bindPopup(`
       <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#94a3b8;font-weight:800;">ORCRIM</div>
@@ -372,6 +419,15 @@ export function OperationalMap({
     }
     const props = feature.properties || {}
     const peakHours = getPeakHoursFromSources(null, null, props)
+
+    layer.on({
+      click: (e: any) => {
+        if (e && e.originalEvent) {
+          L.DomEvent.stopPropagation(e.originalEvent)
+        }
+      },
+    })
+
     layer.bindPopup(`
       <div style="min-width:240px;font-family:'Inter',system-ui,sans-serif;">
         <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f87171;font-weight:800;">⚠ ELITE P10 · ALTA PRIORIDADE</div>
@@ -477,7 +533,7 @@ export function OperationalMap({
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
         url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
       />
-      <FitToRegion polygons={regionPolygons} region={region} />
+      <FitToRegion polygons={regionPolygons} region={region} selectedId={selectedId} />
       <FocusSelectedTerritory
         selectedId={selectedId}
         region={region}
@@ -485,6 +541,7 @@ export function OperationalMap({
         riskById={riskById}
         layerRegistryRef={layerRegistryRef}
       />
+      <MapEventsHandler onMapClick={() => onSelectTerritory(null)} />
 
       {showTop30 && (
         <Pane name="top30-tatico" style={{ zIndex: 425 }}>
@@ -501,6 +558,15 @@ export function OperationalMap({
               const props = feature.properties || {}
               const name = props.name ?? props.Name ?? props.bairro ?? 'Território Top 30'
               const peakHours = getPeakHoursFromSources(null, null, props)
+
+              layer.on({
+                click: (e: any) => {
+                  if (e && e.originalEvent) {
+                    L.DomEvent.stopPropagation(e.originalEvent)
+                  }
+                },
+              })
+
               layer.bindPopup(`
                 <div style="min-width:220px;font-family:'Inter',system-ui,sans-serif;">
                   <div style="font-size:10px;letter-spacing:.10em;text-transform:uppercase;color:#f97316;font-weight:800;">Top 30 Tático</div>

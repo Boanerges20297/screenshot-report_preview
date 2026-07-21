@@ -15,7 +15,7 @@ type SearchResult = {
 type MapSearchBoxProps = {
   map: L.Map | null
   polygons: GeoFeatureCollection
-  onSelectTerritory: (id: string) => void
+  onSelectTerritory: (id: string | null) => void
 }
 
 export function MapSearchBox({ map, polygons, onSelectTerritory }: MapSearchBoxProps) {
