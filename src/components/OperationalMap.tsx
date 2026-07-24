@@ -31,6 +31,7 @@ type OperationalMapProps = {
   showEliteP10: boolean
   showCvliPoints: boolean
   onSelectTerritory: (territoryId: string | null) => void
+  onFocusTerritory?: (territoryId: string) => void
 }
 
 type SelectableLayer = Layer & {
@@ -148,6 +149,7 @@ function FocusSelectedTerritory({
   layerRegistryRef: MutableRefObject<Map<string, Layer>>
 }) {
   const map = useMap()
+  const lastFocusTriggerRef = useRef(focusTrigger)
 
   useEffect(() => {
     layerRegistryRef.current.forEach((layer) => {
@@ -164,6 +166,12 @@ function FocusSelectedTerritory({
 
     if (typeof selectedLayer.bringToFront === 'function') {
       selectedLayer.bringToFront()
+    }
+
+    const shouldFocus = focusTrigger !== lastFocusTriggerRef.current
+    lastFocusTriggerRef.current = focusTrigger
+    if (!shouldFocus) {
+      return
     }
 
     if (typeof selectedLayer.getBounds === 'function') {
@@ -297,6 +305,7 @@ export function OperationalMap({
   showEliteP10,
   showCvliPoints,
   onSelectTerritory,
+  onFocusTerritory,
 }: OperationalMapProps) {
   const [map, setMap] = useState<L.Map | null>(null)
   const riskById = useMemo(() => new Map(riskItems.map((item) => [item.id, item])), [riskItems])
@@ -428,7 +437,7 @@ export function OperationalMap({
 
     layer.bindTooltip(`
       <div style="font-family:'Inter',system-ui,sans-serif;text-align:center;">
-        <div style="font-weight:700;color:#f97316;font-size:13px;">${name}</div>
+        <div style="font-weight:700;color:#f8fafc;font-size:13px;">${name}</div>
         <div style="font-weight:600;color:#f97316;font-size:12px;margin-top:2px;">Risco: ${riskItem?.score?.toFixed(1) ?? '0.0'}%</div>
         ${peakHours ? `<div style="color:#fdba74;font-size:11px;margin-top:2px;">⏱ ${peakHours}</div>` : ''}
       </div>
@@ -587,7 +596,12 @@ export function OperationalMap({
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-      <MapSearchBox map={map} polygons={regionPolygons} onSelectTerritory={onSelectTerritory} />
+      <MapSearchBox
+        map={map}
+        polygons={regionPolygons}
+        onSelectTerritory={onSelectTerritory}
+        onFocusTerritory={onFocusTerritory}
+      />
       <ResetViewButton
         map={map}
         region={region}

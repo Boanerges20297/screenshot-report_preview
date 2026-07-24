@@ -16,9 +16,10 @@ type MapSearchBoxProps = {
   map: L.Map | null
   polygons: GeoFeatureCollection
   onSelectTerritory: (id: string | null) => void
+  onFocusTerritory?: (id: string) => void
 }
 
-export function MapSearchBox({ map, polygons, onSelectTerritory }: MapSearchBoxProps) {
+export function MapSearchBox({ map, polygons, onSelectTerritory, onFocusTerritory }: MapSearchBoxProps) {
   const [query, setQuery] = useState('')
   const [results, setResults] = useState<SearchResult[]>([])
   const [isOpen, setIsOpen] = useState(false)
@@ -121,6 +122,7 @@ export function MapSearchBox({ map, polygons, onSelectTerritory }: MapSearchBoxP
     
     if (result.type === 'polygon' && result.id) {
       onSelectTerritory(result.id)
+      onFocusTerritory?.(result.id)
     } else if (result.type === 'geo' && result.lat && result.lon && map) {
       // Fly to geo result and place a pin
       const latlng = new L.LatLng(result.lat, result.lon)

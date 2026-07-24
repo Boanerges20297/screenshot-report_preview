@@ -169,6 +169,19 @@ path.leaflet-interactive:focus {
   color: #0f172a;
 }
 
+[data-theme="light"] .leaflet-popup-content,
+[data-theme="light"] .leaflet-popup-content div,
+[data-theme="light"] .leaflet-popup-content span,
+[data-theme="light"] .leaflet-popup-content strong,
+[data-theme="light"] .territory-tooltip div {
+  color: #1e293b !important;
+}
+
+[data-theme="light"] .leaflet-popup-content strong,
+[data-theme="light"] .territory-tooltip div:nth-child(2) {
+  color: #ea580c !important;
+}
+
 .territory-tooltip::before,
 .micronode-tooltip::before,
 .elite-tooltip::before,
