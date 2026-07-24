@@ -1,29 +1,29 @@
 {
   "global": {
     "total_nodes": 2107,
-    "active_locations": 19,
+    "active_locations": 15,
     "top_region": "rmf",
     "top_name": "MARACANAU",
-    "avg_risk": 20.48
+    "avg_risk": 20.32
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 551,
-      "avg_risk": 20.7,
-      "max_risk": 93.7,
-      "top_name": "GRANJA LISBOA"
+      "avg_risk": 20.06,
+      "max_risk": 75.0,
+      "top_name": "ANCURI"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 18.11,
+      "avg_risk": 18.85,
       "max_risk": 100.0,
       "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 53.31,
-      "max_risk": 99.4,
-      "top_name": "BOA VIAGEM"
+      "avg_risk": 52.79,
+      "max_risk": 99.9,
+      "top_name": "CRATO"
     }
   }
 }
