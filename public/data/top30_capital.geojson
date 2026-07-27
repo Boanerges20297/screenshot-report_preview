@@ -59,11 +59,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.63,
+        "local_street_pressure": 14.624,
         "municipality": "Fortaleza",
         "name": "Levada",
         "nearby_streets": [
@@ -75,7 +75,7 @@
         "node_id": 1,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -86,8 +86,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 1,
         "region": "fortaleza",
-        "risk_score": 73.04,
-        "score": 73.04,
+        "risk_score": 71.083,
+        "score": 71.083,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -202,11 +202,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 13.732,
+        "local_street_pressure": 13.729,
         "municipality": "Fortaleza",
         "name": "Conjunto São Bernardo",
         "nearby_streets": [
@@ -218,7 +218,7 @@
         "node_id": 2,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -229,8 +229,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 2,
         "region": "fortaleza",
-        "risk_score": 72.395,
-        "score": 72.395,
+        "risk_score": 70.449,
+        "score": 70.449,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -269,11 +269,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.022,
+        "local_street_pressure": 14.02,
         "municipality": "Fortaleza",
         "name": "Comunidade da Portelinha- Messejana",
         "nearby_streets": [
@@ -285,7 +285,7 @@
         "node_id": 3,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -296,8 +296,87 @@
         "peak_weekday_share": 0.2273,
         "rank": 3,
         "region": "fortaleza",
-        "risk_score": 71.566,
-        "score": 71.566,
+        "risk_score": 69.978,
+        "score": 69.978,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 44
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.489511,
+              -3.829305
+            ],
+            [
+              -38.488698,
+              -3.829426
+            ],
+            [
+              -38.488652,
+              -3.829139
+            ],
+            [
+              -38.488604,
+              -3.828909
+            ],
+            [
+              -38.488599,
+              -3.828778
+            ],
+            [
+              -38.488615,
+              -3.828699
+            ],
+            [
+              -38.489482,
+              -3.828969
+            ],
+            [
+              -38.489511,
+              -3.829305
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.411,
+        "municipality": "Fortaleza",
+        "name": "Beco da Maravilha",
+        "nearby_streets": [
+          "BECO DA MARAVILHA",
+          "RUA DOUTOR JOAQUIM BENTO",
+          "RUA SANTO EXPEDITO"
+        ],
+        "nearby_streets_count": 54,
+        "node_id": 4,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 79.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 4,
+        "region": "fortaleza",
+        "risk_score": 69.575,
+        "score": 69.575,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -360,11 +439,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 13.116,
+        "local_street_pressure": 13.114,
         "municipality": "Fortaleza",
         "name": "Comunidade da Conquista",
         "nearby_streets": [
@@ -373,89 +452,10 @@
           "RUA VILAMAR DAMASCENO"
         ],
         "nearby_streets_count": 49,
-        "node_id": 4,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
-        "parent_status": "CRÍTICO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1364,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2273,
-        "rank": 4,
-        "region": "fortaleza",
-        "risk_score": 71.208,
-        "score": 71.208,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 44
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.489511,
-              -3.829305
-            ],
-            [
-              -38.488698,
-              -3.829426
-            ],
-            [
-              -38.488652,
-              -3.829139
-            ],
-            [
-              -38.488604,
-              -3.828909
-            ],
-            [
-              -38.488599,
-              -3.828778
-            ],
-            [
-              -38.488615,
-              -3.828699
-            ],
-            [
-              -38.489482,
-              -3.828969
-            ],
-            [
-              -38.489511,
-              -3.829305
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 13.414,
-        "municipality": "Fortaleza",
-        "name": "Beco da Maravilha",
-        "nearby_streets": [
-          "BECO DA MARAVILHA",
-          "RUA DOUTOR JOAQUIM BENTO",
-          "RUA SANTO EXPEDITO"
-        ],
-        "nearby_streets_count": 54,
         "node_id": 5,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -466,8 +466,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 5,
         "region": "fortaleza",
-        "risk_score": 71.173,
-        "score": 71.173,
+        "risk_score": 69.527,
+        "score": 69.527,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -554,11 +554,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 12.383,
+        "local_street_pressure": 12.382,
         "municipality": "Fortaleza",
         "name": "Parque Iracema I",
         "nearby_streets": [
@@ -570,7 +570,7 @@
         "node_id": 6,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -581,8 +581,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 6,
         "region": "fortaleza",
-        "risk_score": 70.963,
-        "score": 70.963,
+        "risk_score": 69.193,
+        "score": 69.193,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -637,7 +637,7 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -653,7 +653,7 @@
         "node_id": 7,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -664,8 +664,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 7,
         "region": "fortaleza",
-        "risk_score": 70.746,
-        "score": 70.746,
+        "risk_score": 68.764,
+        "score": 68.764,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -744,7 +744,7 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -760,7 +760,7 @@
         "node_id": 8,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1364,
@@ -771,8 +771,8 @@
         "peak_weekday_share": 0.2273,
         "rank": 8,
         "region": "fortaleza",
-        "risk_score": 69.131,
-        "score": 69.131,
+        "risk_score": 67.361,
+        "score": 67.361,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -987,7 +987,7 @@
       "properties": {
         "bairro": "COAÇU",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1003,7 +1003,7 @@
         "node_id": 9,
         "parent_area": "COAÇU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 17,
         "peak_hour_share": 0.5,
@@ -1014,8 +1014,8 @@
         "peak_weekday_share": 0.75,
         "rank": 9,
         "region": "fortaleza",
-        "risk_score": 65.686,
-        "score": 65.686,
+        "risk_score": 63.466,
+        "score": 63.466,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1082,7 +1082,7 @@
       "properties": {
         "bairro": "PARQUE SANTA MARIA",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1098,12 +1098,12 @@
         "node_id": 10,
         "parent_area": "PARQUE SANTA MARIA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 79.2,
         "parent_status": "CRÍTICO",
         "rank": 10,
         "region": "fortaleza",
-        "risk_score": 64.369,
-        "score": 64.369,
+        "risk_score": 62.742,
+        "score": 62.742,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1163,7 +1163,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1179,7 +1179,7 @@
         "node_id": 11,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1190,8 +1190,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 11,
         "region": "fortaleza",
-        "risk_score": 50.961,
-        "score": 50.961,
+        "risk_score": 51.992,
+        "score": 51.992,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1274,7 +1274,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1290,7 +1290,7 @@
         "node_id": 12,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1301,8 +1301,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 12,
         "region": "fortaleza",
-        "risk_score": 50.33,
-        "score": 50.33,
+        "risk_score": 51.354,
+        "score": 51.354,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1353,7 +1353,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1369,7 +1369,7 @@
         "node_id": 13,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1380,81 +1380,12 @@
         "peak_weekday_share": 0.2326,
         "rank": 13,
         "region": "fortaleza",
-        "risk_score": 50.238,
-        "score": 50.238,
+        "risk_score": 51.288,
+        "score": 51.288,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
         "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.571998,
-              -3.704517
-            ],
-            [
-              -38.57221,
-              -3.704881
-            ],
-            [
-              -38.572339,
-              -3.705307
-            ],
-            [
-              -38.572093,
-              -3.70541
-            ],
-            [
-              -38.572222,
-              -3.705794
-            ],
-            [
-              -38.570119,
-              -3.706544
-            ],
-            [
-              -38.569664,
-              -3.705362
-            ],
-            [
-              -38.571998,
-              -3.704517
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CRISTO REDENTOR",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 24.764,
-        "municipality": "Fortaleza",
-        "name": "Morro da Colônia (Complexo da Barra do Ceará)",
-        "nearby_streets": [
-          "RUA JOSÉ LUÍS NETO",
-          "RUA TAMBAÚ",
-          "MORRO DA COLÔNIA (COMPLEXO DA BARRA DO CEARÁ)"
-        ],
-        "nearby_streets_count": 91,
-        "node_id": 14,
-        "parent_area": "CRISTO REDENTOR",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "rank": 14,
-        "region": "fortaleza",
-        "risk_score": 50.093,
-        "score": 50.093,
-        "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     },
@@ -1509,7 +1440,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1522,10 +1453,10 @@
           "COMANDINHO"
         ],
         "nearby_streets_count": 97,
-        "node_id": 15,
+        "node_id": 14,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1534,14 +1465,83 @@
         "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2326,
-        "rank": 15,
+        "rank": 14,
         "region": "fortaleza",
-        "risk_score": 50.053,
-        "score": 50.053,
+        "risk_score": 51.109,
+        "score": 51.109,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
         "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.571998,
+              -3.704517
+            ],
+            [
+              -38.57221,
+              -3.704881
+            ],
+            [
+              -38.572339,
+              -3.705307
+            ],
+            [
+              -38.572093,
+              -3.70541
+            ],
+            [
+              -38.572222,
+              -3.705794
+            ],
+            [
+              -38.570119,
+              -3.706544
+            ],
+            [
+              -38.569664,
+              -3.705362
+            ],
+            [
+              -38.571998,
+              -3.704517
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CRISTO REDENTOR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 24.764,
+        "municipality": "Fortaleza",
+        "name": "Morro da Colônia (Complexo da Barra do Ceará)",
+        "nearby_streets": [
+          "RUA JOSÉ LUÍS NETO",
+          "RUA TAMBAÚ",
+          "MORRO DA COLÔNIA (COMPLEXO DA BARRA DO CEARÁ)"
+        ],
+        "nearby_streets_count": 91,
+        "node_id": 15,
+        "parent_area": "CRISTO REDENTOR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "rank": 15,
+        "region": "fortaleza",
+        "risk_score": 51.093,
+        "score": 51.093,
+        "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     },
@@ -1604,7 +1604,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1620,7 +1620,7 @@
         "node_id": 16,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1631,8 +1631,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 16,
         "region": "fortaleza",
-        "risk_score": 49.939,
-        "score": 49.939,
+        "risk_score": 50.955,
+        "score": 50.955,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1711,7 +1711,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1727,7 +1727,7 @@
         "node_id": 17,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1738,8 +1738,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 17,
         "region": "fortaleza",
-        "risk_score": 49.836,
-        "score": 49.836,
+        "risk_score": 50.856,
+        "score": 50.856,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1794,7 +1794,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1810,7 +1810,7 @@
         "node_id": 18,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1821,8 +1821,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 18,
         "region": "fortaleza",
-        "risk_score": 49.667,
-        "score": 49.667,
+        "risk_score": 50.73,
+        "score": 50.73,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -1933,7 +1933,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1949,7 +1949,7 @@
         "node_id": 19,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -1960,8 +1960,154 @@
         "peak_weekday_share": 0.2326,
         "rank": 19,
         "region": "fortaleza",
-        "risk_score": 49.543,
-        "score": 49.543,
+        "risk_score": 50.405,
+        "score": 50.405,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.579026,
+              -3.702283
+            ],
+            [
+              -38.579523,
+              -3.70226
+            ],
+            [
+              -38.5796,
+              -3.702583
+            ],
+            [
+              -38.579228,
+              -3.702728
+            ],
+            [
+              -38.579049,
+              -3.702376
+            ],
+            [
+              -38.579026,
+              -3.702283
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 23.945,
+        "municipality": "Fortaleza",
+        "name": "Beco da Pompeia",
+        "nearby_streets": [
+          "BECO DA POMPEIA",
+          "COMUNIDADE DO HX",
+          "AREA SEM NOME"
+        ],
+        "nearby_streets_count": 75,
+        "node_id": 20,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 20,
+        "region": "fortaleza",
+        "risk_score": 50.387,
+        "score": 50.387,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.580001,
+              -3.704217
+            ],
+            [
+              -38.580586,
+              -3.703954
+            ],
+            [
+              -38.58083,
+              -3.70448
+            ],
+            [
+              -38.580242,
+              -3.70476
+            ],
+            [
+              -38.580124,
+              -3.704505
+            ],
+            [
+              -38.580054,
+              -3.704384
+            ],
+            [
+              -38.580001,
+              -3.704217
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 23.843,
+        "municipality": "Fortaleza",
+        "name": "Beco Da Zeza",
+        "nearby_streets": [
+          "BECO DA ZEZA",
+          "AREA SEM NOME",
+          "AVENIDA 20 DE JANEIRO"
+        ],
+        "nearby_streets_count": 77,
+        "node_id": 21,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 21,
+        "region": "fortaleza",
+        "risk_score": 50.326,
+        "score": 50.326,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2024,7 +2170,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2037,10 +2183,10 @@
           "4 VARAS"
         ],
         "nearby_streets_count": 77,
-        "node_id": 20,
+        "node_id": 22,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2049,81 +2195,10 @@
         "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2326,
-        "rank": 20,
+        "rank": 22,
         "region": "fortaleza",
-        "risk_score": 49.453,
-        "score": 49.453,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.579026,
-              -3.702283
-            ],
-            [
-              -38.579523,
-              -3.70226
-            ],
-            [
-              -38.5796,
-              -3.702583
-            ],
-            [
-              -38.579228,
-              -3.702728
-            ],
-            [
-              -38.579049,
-              -3.702376
-            ],
-            [
-              -38.579026,
-              -3.702283
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 23.945,
-        "municipality": "Fortaleza",
-        "name": "Beco da Pompeia",
-        "nearby_streets": [
-          "BECO DA POMPEIA",
-          "COMUNIDADE DO HX",
-          "AREA SEM NOME"
-        ],
-        "nearby_streets_count": 75,
-        "node_id": 21,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 21,
-        "region": "fortaleza",
-        "risk_score": 49.311,
-        "score": 49.311,
+        "risk_score": 50.326,
+        "score": 50.326,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2218,7 +2293,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2231,85 +2306,10 @@
           "CONJ. JACIARA"
         ],
         "nearby_streets_count": 90,
-        "node_id": 22,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 22,
-        "region": "fortaleza",
-        "risk_score": 49.293,
-        "score": 49.293,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.580001,
-              -3.704217
-            ],
-            [
-              -38.580586,
-              -3.703954
-            ],
-            [
-              -38.58083,
-              -3.70448
-            ],
-            [
-              -38.580242,
-              -3.70476
-            ],
-            [
-              -38.580124,
-              -3.704505
-            ],
-            [
-              -38.580054,
-              -3.704384
-            ],
-            [
-              -38.580001,
-              -3.704217
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 23.843,
-        "municipality": "Fortaleza",
-        "name": "Beco Da Zeza",
-        "nearby_streets": [
-          "BECO DA ZEZA",
-          "AREA SEM NOME",
-          "AVENIDA 20 DE JANEIRO"
-        ],
-        "nearby_streets_count": 77,
         "node_id": 23,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2320,8 +2320,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 23,
         "region": "fortaleza",
-        "risk_score": 49.256,
-        "score": 49.256,
+        "risk_score": 50.282,
+        "score": 50.282,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2368,7 +2368,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2384,7 +2384,7 @@
         "node_id": 24,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2395,8 +2395,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 24,
         "region": "fortaleza",
-        "risk_score": 48.385,
-        "score": 48.385,
+        "risk_score": 49.402,
+        "score": 49.402,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2451,7 +2451,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2467,7 +2467,7 @@
         "node_id": 25,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2478,8 +2478,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 25,
         "region": "fortaleza",
-        "risk_score": 48.371,
-        "score": 48.371,
+        "risk_score": 49.397,
+        "score": 49.397,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2518,7 +2518,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2534,7 +2534,7 @@
         "node_id": 26,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2545,8 +2545,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 26,
         "region": "fortaleza",
-        "risk_score": 48.352,
-        "score": 48.352,
+        "risk_score": 49.363,
+        "score": 49.363,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2701,7 +2701,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2717,7 +2717,7 @@
         "node_id": 27,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -2728,8 +2728,234 @@
         "peak_weekday_share": 0.2326,
         "rank": 27,
         "region": "fortaleza",
-        "risk_score": 48.27,
-        "score": 48.27,
+        "risk_score": 49.283,
+        "score": 49.283,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.573113,
+              -3.701367
+            ],
+            [
+              -38.573171,
+              -3.701493
+            ],
+            [
+              -38.573362,
+              -3.701418
+            ],
+            [
+              -38.573388,
+              -3.70144
+            ],
+            [
+              -38.573483,
+              -3.701628
+            ],
+            [
+              -38.57351,
+              -3.70163
+            ],
+            [
+              -38.573683,
+              -3.702136
+            ],
+            [
+              -38.573565,
+              -3.702207
+            ],
+            [
+              -38.573737,
+              -3.702661
+            ],
+            [
+              -38.573714,
+              -3.702746
+            ],
+            [
+              -38.572397,
+              -3.703263
+            ],
+            [
+              -38.57209,
+              -3.702672
+            ],
+            [
+              -38.571931,
+              -3.702224
+            ],
+            [
+              -38.572259,
+              -3.702098
+            ],
+            [
+              -38.572193,
+              -3.701877
+            ],
+            [
+              -38.57235,
+              -3.701818
+            ],
+            [
+              -38.572316,
+              -3.701729
+            ],
+            [
+              -38.572387,
+              -3.701704
+            ],
+            [
+              -38.572363,
+              -3.701622
+            ],
+            [
+              -38.572471,
+              -3.701569
+            ],
+            [
+              -38.57257,
+              -3.701832
+            ],
+            [
+              -38.572643,
+              -3.701815
+            ],
+            [
+              -38.572671,
+              -3.701782
+            ],
+            [
+              -38.573005,
+              -3.701683
+            ],
+            [
+              -38.572973,
+              -3.701594
+            ],
+            [
+              -38.573076,
+              -3.701554
+            ],
+            [
+              -38.573032,
+              -3.70142
+            ],
+            [
+              -38.573113,
+              -3.701367
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 21.994,
+        "municipality": "Fortaleza",
+        "name": "Favela da 3P",
+        "nearby_streets": [
+          "FAVELA DA 3P",
+          "4 VARAS",
+          "FAVELA DA CIRANDAR"
+        ],
+        "nearby_streets_count": 80,
+        "node_id": 28,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 28,
+        "region": "fortaleza",
+        "risk_score": 49.138,
+        "score": 49.138,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.582709,
+              -3.705032
+            ],
+            [
+              -38.583224,
+              -3.704782
+            ],
+            [
+              -38.583911,
+              -3.706262
+            ],
+            [
+              -38.583337,
+              -3.706396
+            ],
+            [
+              -38.582709,
+              -3.705032
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 22.076,
+        "municipality": "Fortaleza",
+        "name": "Conjunto 7 Prédios",
+        "nearby_streets": [
+          "CONJUNTO 7 PRÉDIOS",
+          "BECO DA 20",
+          "LAMA SECA"
+        ],
+        "nearby_streets_count": 77,
+        "node_id": 29,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 29,
+        "region": "fortaleza",
+        "risk_score": 49.136,
+        "score": 49.136,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -2968,7 +3194,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2981,236 +3207,10 @@
           "COMUNIDADE GRAFITEIROS"
         ],
         "nearby_streets_count": 83,
-        "node_id": 28,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 28,
-        "region": "fortaleza",
-        "risk_score": 48.232,
-        "score": 48.232,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.573113,
-              -3.701367
-            ],
-            [
-              -38.573171,
-              -3.701493
-            ],
-            [
-              -38.573362,
-              -3.701418
-            ],
-            [
-              -38.573388,
-              -3.70144
-            ],
-            [
-              -38.573483,
-              -3.701628
-            ],
-            [
-              -38.57351,
-              -3.70163
-            ],
-            [
-              -38.573683,
-              -3.702136
-            ],
-            [
-              -38.573565,
-              -3.702207
-            ],
-            [
-              -38.573737,
-              -3.702661
-            ],
-            [
-              -38.573714,
-              -3.702746
-            ],
-            [
-              -38.572397,
-              -3.703263
-            ],
-            [
-              -38.57209,
-              -3.702672
-            ],
-            [
-              -38.571931,
-              -3.702224
-            ],
-            [
-              -38.572259,
-              -3.702098
-            ],
-            [
-              -38.572193,
-              -3.701877
-            ],
-            [
-              -38.57235,
-              -3.701818
-            ],
-            [
-              -38.572316,
-              -3.701729
-            ],
-            [
-              -38.572387,
-              -3.701704
-            ],
-            [
-              -38.572363,
-              -3.701622
-            ],
-            [
-              -38.572471,
-              -3.701569
-            ],
-            [
-              -38.57257,
-              -3.701832
-            ],
-            [
-              -38.572643,
-              -3.701815
-            ],
-            [
-              -38.572671,
-              -3.701782
-            ],
-            [
-              -38.573005,
-              -3.701683
-            ],
-            [
-              -38.572973,
-              -3.701594
-            ],
-            [
-              -38.573076,
-              -3.701554
-            ],
-            [
-              -38.573032,
-              -3.70142
-            ],
-            [
-              -38.573113,
-              -3.701367
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 21.994,
-        "municipality": "Fortaleza",
-        "name": "Favela da 3P",
-        "nearby_streets": [
-          "FAVELA DA 3P",
-          "4 VARAS",
-          "FAVELA DA CIRANDAR"
-        ],
-        "nearby_streets_count": 80,
-        "node_id": 29,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 29,
-        "region": "fortaleza",
-        "risk_score": 48.112,
-        "score": 48.112,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.582709,
-              -3.705032
-            ],
-            [
-              -38.583224,
-              -3.704782
-            ],
-            [
-              -38.583911,
-              -3.706262
-            ],
-            [
-              -38.583337,
-              -3.706396
-            ],
-            [
-              -38.582709,
-              -3.705032
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 22.076,
-        "municipality": "Fortaleza",
-        "name": "Conjunto 7 Prédios",
-        "nearby_streets": [
-          "CONJUNTO 7 PRÉDIOS",
-          "BECO DA 20",
-          "LAMA SECA"
-        ],
-        "nearby_streets_count": 77,
         "node_id": 30,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -3221,8 +3221,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 30,
         "region": "fortaleza",
-        "risk_score": 48.079,
-        "score": 48.079,
+        "risk_score": 49.126,
+        "score": 49.126,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -3293,7 +3293,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3309,7 +3309,7 @@
         "node_id": 31,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -3320,8 +3320,139 @@
         "peak_weekday_share": 0.2326,
         "rank": 31,
         "region": "fortaleza",
-        "risk_score": 47.491,
-        "score": 47.491,
+        "risk_score": 48.534,
+        "score": 48.534,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.57923,
+              -3.698288
+            ],
+            [
+              -38.579022,
+              -3.69843
+            ],
+            [
+              -38.579499,
+              -3.698673
+            ],
+            [
+              -38.579277,
+              -3.699223
+            ],
+            [
+              -38.579649,
+              -3.698998
+            ],
+            [
+              -38.579697,
+              -3.699119
+            ],
+            [
+              -38.579748,
+              -3.699175
+            ],
+            [
+              -38.579798,
+              -3.699133
+            ],
+            [
+              -38.579952,
+              -3.699627
+            ],
+            [
+              -38.579988,
+              -3.699799
+            ],
+            [
+              -38.580091,
+              -3.700124
+            ],
+            [
+              -38.579589,
+              -3.699926
+            ],
+            [
+              -38.57931,
+              -3.699748
+            ],
+            [
+              -38.578707,
+              -3.699255
+            ],
+            [
+              -38.577764,
+              -3.697339
+            ],
+            [
+              -38.577827,
+              -3.697308
+            ],
+            [
+              -38.577798,
+              -3.697211
+            ],
+            [
+              -38.57829,
+              -3.696963
+            ],
+            [
+              -38.579041,
+              -3.696965
+            ],
+            [
+              -38.579614,
+              -3.698121
+            ],
+            [
+              -38.57923,
+              -3.698288
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 20.697,
+        "municipality": "Fortaleza",
+        "name": "Morro do Grêmio",
+        "nearby_streets": [
+          "MORRO DO GRÊMIO",
+          "RUA DO LEME",
+          "GOIABEIRAS"
+        ],
+        "nearby_streets_count": 63,
+        "node_id": 32,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 32,
+        "region": "fortaleza",
+        "risk_score": 48.303,
+        "score": 48.303,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -3504,7 +3635,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3517,141 +3648,10 @@
           "COMUNIDADE DO CAMPINHO"
         ],
         "nearby_streets_count": 60,
-        "node_id": 32,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 32,
-        "region": "fortaleza",
-        "risk_score": 47.334,
-        "score": 47.334,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.57923,
-              -3.698288
-            ],
-            [
-              -38.579022,
-              -3.69843
-            ],
-            [
-              -38.579499,
-              -3.698673
-            ],
-            [
-              -38.579277,
-              -3.699223
-            ],
-            [
-              -38.579649,
-              -3.698998
-            ],
-            [
-              -38.579697,
-              -3.699119
-            ],
-            [
-              -38.579748,
-              -3.699175
-            ],
-            [
-              -38.579798,
-              -3.699133
-            ],
-            [
-              -38.579952,
-              -3.699627
-            ],
-            [
-              -38.579988,
-              -3.699799
-            ],
-            [
-              -38.580091,
-              -3.700124
-            ],
-            [
-              -38.579589,
-              -3.699926
-            ],
-            [
-              -38.57931,
-              -3.699748
-            ],
-            [
-              -38.578707,
-              -3.699255
-            ],
-            [
-              -38.577764,
-              -3.697339
-            ],
-            [
-              -38.577827,
-              -3.697308
-            ],
-            [
-              -38.577798,
-              -3.697211
-            ],
-            [
-              -38.57829,
-              -3.696963
-            ],
-            [
-              -38.579041,
-              -3.696965
-            ],
-            [
-              -38.579614,
-              -3.698121
-            ],
-            [
-              -38.57923,
-              -3.698288
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 20.697,
-        "municipality": "Fortaleza",
-        "name": "Morro do Grêmio",
-        "nearby_streets": [
-          "MORRO DO GRÊMIO",
-          "RUA DO LEME",
-          "GOIABEIRAS"
-        ],
-        "nearby_streets_count": 63,
         "node_id": 33,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -3662,103 +3662,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 33,
         "region": "fortaleza",
-        "risk_score": 47.307,
-        "score": 47.307,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-07",
-        "temporal_sample_size": 43
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.577764,
-              -3.697339
-            ],
-            [
-              -38.578707,
-              -3.699255
-            ],
-            [
-              -38.579623,
-              -3.699968
-            ],
-            [
-              -38.579774,
-              -3.700357
-            ],
-            [
-              -38.577821,
-              -3.701278
-            ],
-            [
-              -38.576524,
-              -3.698506
-            ],
-            [
-              -38.576465,
-              -3.698383
-            ],
-            [
-              -38.576863,
-              -3.698129
-            ],
-            [
-              -38.577117,
-              -3.697932
-            ],
-            [
-              -38.57748,
-              -3.697709
-            ],
-            [
-              -38.577492,
-              -3.697443
-            ],
-            [
-              -38.577764,
-              -3.697339
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "BARRA DO CEARÁ",
-        "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 20.318,
-        "municipality": "Fortaleza",
-        "name": "Goiabeiras",
-        "nearby_streets": [
-          "RUA DOUTOR JOSÉ ROBERTO SALES",
-          "GOIABEIRAS",
-          "MORRO DO GRÊMIO"
-        ],
-        "nearby_streets_count": 64,
-        "node_id": 34,
-        "parent_area": "BARRA DO CEARÁ",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 0,
-        "peak_hour_share": 0.1163,
-        "peak_hour_start": 19,
-        "peak_hours": "Entre 19hs e 00hs",
-        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2326,
-        "rank": 34,
-        "region": "fortaleza",
-        "risk_score": 47.253,
-        "score": 47.253,
+        "risk_score": 48.275,
+        "score": 48.275,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -3861,7 +3766,7 @@
       "properties": {
         "bairro": "CRISTO REDENTOR",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3874,16 +3779,111 @@
           "RUA JOSÉ LUÍS NETO"
         ],
         "nearby_streets_count": 81,
-        "node_id": 35,
+        "node_id": 34,
         "parent_area": "CRISTO REDENTOR",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
+        "rank": 34,
+        "region": "fortaleza",
+        "risk_score": 48.264,
+        "score": 48.264,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.577764,
+              -3.697339
+            ],
+            [
+              -38.578707,
+              -3.699255
+            ],
+            [
+              -38.579623,
+              -3.699968
+            ],
+            [
+              -38.579774,
+              -3.700357
+            ],
+            [
+              -38.577821,
+              -3.701278
+            ],
+            [
+              -38.576524,
+              -3.698506
+            ],
+            [
+              -38.576465,
+              -3.698383
+            ],
+            [
+              -38.576863,
+              -3.698129
+            ],
+            [
+              -38.577117,
+              -3.697932
+            ],
+            [
+              -38.57748,
+              -3.697709
+            ],
+            [
+              -38.577492,
+              -3.697443
+            ],
+            [
+              -38.577764,
+              -3.697339
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 20.318,
+        "municipality": "Fortaleza",
+        "name": "Goiabeiras",
+        "nearby_streets": [
+          "RUA DOUTOR JOSÉ ROBERTO SALES",
+          "GOIABEIRAS",
+          "MORRO DO GRÊMIO"
+        ],
+        "nearby_streets_count": 64,
+        "node_id": 35,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
         "rank": 35,
         "region": "fortaleza",
-        "risk_score": 47.251,
-        "score": 47.251,
-        "source_geometry_type": "Polygon"
+        "risk_score": 48.177,
+        "score": 48.177,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
       },
       "type": "Feature"
     },
@@ -3962,7 +3962,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3978,7 +3978,7 @@
         "node_id": 36,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -3989,8 +3989,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 36,
         "region": "fortaleza",
-        "risk_score": 47.085,
-        "score": 47.085,
+        "risk_score": 48.142,
+        "score": 48.142,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -4041,7 +4041,7 @@
       "properties": {
         "bairro": "CRISTO REDENTOR",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4057,12 +4057,12 @@
         "node_id": 37,
         "parent_area": "CRISTO REDENTOR",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "rank": 37,
         "region": "fortaleza",
-        "risk_score": 46.693,
-        "score": 46.693,
+        "risk_score": 47.747,
+        "score": 47.747,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4106,7 +4106,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4122,7 +4122,7 @@
         "node_id": 38,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -4133,8 +4133,8 @@
         "peak_weekday_share": 0.2326,
         "rank": 38,
         "region": "fortaleza",
-        "risk_score": 46.597,
-        "score": 46.597,
+        "risk_score": 47.617,
+        "score": 47.617,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
@@ -4197,7 +4197,7 @@
       "properties": {
         "bairro": "BARRA DO CEARÁ",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4213,7 +4213,7 @@
         "node_id": 39,
         "parent_area": "BARRA DO CEARÁ",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 41.0,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 0,
         "peak_hour_share": 0.1163,
@@ -4224,12 +4224,2536 @@
         "peak_weekday_share": 0.2326,
         "rank": 39,
         "region": "fortaleza",
-        "risk_score": 46.361,
-        "score": 46.361,
+        "risk_score": 47.398,
+        "score": 47.398,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
         "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.584107,
+              -3.703042
+            ],
+            [
+              -38.585995,
+              -3.702168
+            ],
+            [
+              -38.586447,
+              -3.70315
+            ],
+            [
+              -38.584588,
+              -3.704044
+            ],
+            [
+              -38.584107,
+              -3.703042
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 19.388,
+        "municipality": "Fortaleza",
+        "name": "Campo do Cruzeiro",
+        "nearby_streets": [
+          "CAMPO DO CRUZEIRO",
+          "COMUNIDADE DO CAMPINHO",
+          "CONJUNTO 7 PRÉDIOS"
+        ],
+        "nearby_streets_count": 67,
+        "node_id": 40,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 40,
+        "region": "fortaleza",
+        "risk_score": 47.353,
+        "score": 47.353,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.583639,
+              -3.696937
+            ],
+            [
+              -38.583654,
+              -3.697169
+            ],
+            [
+              -38.583675,
+              -3.697292
+            ],
+            [
+              -38.583723,
+              -3.697296
+            ],
+            [
+              -38.583744,
+              -3.697381
+            ],
+            [
+              -38.583839,
+              -3.697606
+            ],
+            [
+              -38.583854,
+              -3.697766
+            ],
+            [
+              -38.583865,
+              -3.6981
+            ],
+            [
+              -38.583822,
+              -3.698542
+            ],
+            [
+              -38.583488,
+              -3.698501
+            ],
+            [
+              -38.583294,
+              -3.698445
+            ],
+            [
+              -38.583117,
+              -3.698336
+            ],
+            [
+              -38.583051,
+              -3.698214
+            ],
+            [
+              -38.583033,
+              -3.698145
+            ],
+            [
+              -38.582866,
+              -3.698114
+            ],
+            [
+              -38.582526,
+              -3.698134
+            ],
+            [
+              -38.582597,
+              -3.698462
+            ],
+            [
+              -38.582599,
+              -3.69867
+            ],
+            [
+              -38.582553,
+              -3.698895
+            ],
+            [
+              -38.58246,
+              -3.699023
+            ],
+            [
+              -38.582255,
+              -3.699135
+            ],
+            [
+              -38.581623,
+              -3.69941
+            ],
+            [
+              -38.581019,
+              -3.698165
+            ],
+            [
+              -38.581258,
+              -3.698041
+            ],
+            [
+              -38.581183,
+              -3.697768
+            ],
+            [
+              -38.581249,
+              -3.69774
+            ],
+            [
+              -38.581219,
+              -3.69771
+            ],
+            [
+              -38.58117,
+              -3.697613
+            ],
+            [
+              -38.581149,
+              -3.69763
+            ],
+            [
+              -38.581077,
+              -3.697481
+            ],
+            [
+              -38.58148,
+              -3.697286
+            ],
+            [
+              -38.581454,
+              -3.69715
+            ],
+            [
+              -38.581989,
+              -3.69707
+            ],
+            [
+              -38.582421,
+              -3.69704
+            ],
+            [
+              -38.583097,
+              -3.696969
+            ],
+            [
+              -38.583639,
+              -3.696937
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 18.871,
+        "municipality": "Fortaleza",
+        "name": "Favelinha",
+        "nearby_streets": [
+          "FAVELINHA",
+          "COMUNIDADE SÃO ANTONIO",
+          "RUA JANGADA"
+        ],
+        "nearby_streets_count": 54,
+        "node_id": 41,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 41,
+        "region": "fortaleza",
+        "risk_score": 47.103,
+        "score": 47.103,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.583854,
+              -3.695891
+            ],
+            [
+              -38.583843,
+              -3.695926
+            ],
+            [
+              -38.583859,
+              -3.696372
+            ],
+            [
+              -38.583784,
+              -3.696467
+            ],
+            [
+              -38.583687,
+              -3.69664
+            ],
+            [
+              -38.583671,
+              -3.696795
+            ],
+            [
+              -38.583639,
+              -3.696937
+            ],
+            [
+              -38.583097,
+              -3.696969
+            ],
+            [
+              -38.582421,
+              -3.69704
+            ],
+            [
+              -38.581989,
+              -3.69707
+            ],
+            [
+              -38.581454,
+              -3.69715
+            ],
+            [
+              -38.581451,
+              -3.697257
+            ],
+            [
+              -38.58092,
+              -3.697501
+            ],
+            [
+              -38.580766,
+              -3.697064
+            ],
+            [
+              -38.580645,
+              -3.696758
+            ],
+            [
+              -38.581198,
+              -3.696451
+            ],
+            [
+              -38.581413,
+              -3.69629
+            ],
+            [
+              -38.581676,
+              -3.696215
+            ],
+            [
+              -38.583038,
+              -3.695958
+            ],
+            [
+              -38.583854,
+              -3.695891
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 17.655,
+        "municipality": "Fortaleza",
+        "name": "Comunidade São Antonio",
+        "nearby_streets": [
+          "COMUNIDADE SÃO ANTONIO",
+          "COMUNIDADE SÃO PEDRO",
+          "FAVELINHA"
+        ],
+        "nearby_streets_count": 52,
+        "node_id": 42,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 42,
+        "region": "fortaleza",
+        "risk_score": 46.19,
+        "score": 46.19,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.584898,
+              -3.710726
+            ],
+            [
+              -38.587109,
+              -3.710408
+            ],
+            [
+              -38.587248,
+              -3.710498
+            ],
+            [
+              -38.588357,
+              -3.709823
+            ],
+            [
+              -38.58851,
+              -3.709791
+            ],
+            [
+              -38.588152,
+              -3.71119
+            ],
+            [
+              -38.58798,
+              -3.711787
+            ],
+            [
+              -38.586615,
+              -3.711889
+            ],
+            [
+              -38.585111,
+              -3.712054
+            ],
+            [
+              -38.583758,
+              -3.712113
+            ],
+            [
+              -38.584311,
+              -3.710836
+            ],
+            [
+              -38.584898,
+              -3.710726
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 17.302,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Riacho Doce- Barra do Ceará",
+        "nearby_streets": [
+          "COMUNIDADE RIACHO DOCE- BARRA DO CEARÁ",
+          "COMUNIDADE DO GUETO NOVO",
+          "RUA MANUEL MOURA"
+        ],
+        "nearby_streets_count": 72,
+        "node_id": 43,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 43,
+        "region": "fortaleza",
+        "risk_score": 46.099,
+        "score": 46.099,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.578952,
+              -3.696656
+            ],
+            [
+              -38.579034,
+              -3.69661
+            ],
+            [
+              -38.5793,
+              -3.696573
+            ],
+            [
+              -38.579288,
+              -3.69642
+            ],
+            [
+              -38.579358,
+              -3.696368
+            ],
+            [
+              -38.579694,
+              -3.69633
+            ],
+            [
+              -38.579697,
+              -3.696158
+            ],
+            [
+              -38.580143,
+              -3.695819
+            ],
+            [
+              -38.580288,
+              -3.695782
+            ],
+            [
+              -38.580607,
+              -3.6967
+            ],
+            [
+              -38.580424,
+              -3.696738
+            ],
+            [
+              -38.580068,
+              -3.696784
+            ],
+            [
+              -38.579712,
+              -3.696832
+            ],
+            [
+              -38.579416,
+              -3.696885
+            ],
+            [
+              -38.578977,
+              -3.696902
+            ],
+            [
+              -38.578952,
+              -3.696656
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 17.394,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Língua da Cobra",
+        "nearby_streets": [
+          "COMUNIDADE LÍNGUA DA COBRA",
+          "MORRO DO GRÊMIO",
+          "COMUNIDADE SÃO PEDRO"
+        ],
+        "nearby_streets_count": 54,
+        "node_id": 44,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 44,
+        "region": "fortaleza",
+        "risk_score": 45.917,
+        "score": 45.917,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.584024,
+              -3.696931
+            ],
+            [
+              -38.584032,
+              -3.697107
+            ],
+            [
+              -38.584071,
+              -3.697103
+            ],
+            [
+              -38.584087,
+              -3.697172
+            ],
+            [
+              -38.584045,
+              -3.697186
+            ],
+            [
+              -38.584128,
+              -3.697484
+            ],
+            [
+              -38.584173,
+              -3.697474
+            ],
+            [
+              -38.584202,
+              -3.697543
+            ],
+            [
+              -38.584218,
+              -3.697547
+            ],
+            [
+              -38.584239,
+              -3.697525
+            ],
+            [
+              -38.584245,
+              -3.697531
+            ],
+            [
+              -38.584269,
+              -3.697513
+            ],
+            [
+              -38.584339,
+              -3.697597
+            ],
+            [
+              -38.58436,
+              -3.697578
+            ],
+            [
+              -38.584547,
+              -3.697743
+            ],
+            [
+              -38.584686,
+              -3.697658
+            ],
+            [
+              -38.584708,
+              -3.697688
+            ],
+            [
+              -38.584671,
+              -3.697721
+            ],
+            [
+              -38.584779,
+              -3.697796
+            ],
+            [
+              -38.584821,
+              -3.697732
+            ],
+            [
+              -38.584867,
+              -3.697763
+            ],
+            [
+              -38.584853,
+              -3.697809
+            ],
+            [
+              -38.585046,
+              -3.697893
+            ],
+            [
+              -38.585066,
+              -3.69785
+            ],
+            [
+              -38.585208,
+              -3.697916
+            ],
+            [
+              -38.585286,
+              -3.697954
+            ],
+            [
+              -38.58534,
+              -3.697964
+            ],
+            [
+              -38.585396,
+              -3.697961
+            ],
+            [
+              -38.585376,
+              -3.697914
+            ],
+            [
+              -38.585449,
+              -3.697888
+            ],
+            [
+              -38.585501,
+              -3.69796
+            ],
+            [
+              -38.585845,
+              -3.69773
+            ],
+            [
+              -38.5858,
+              -3.69764
+            ],
+            [
+              -38.585927,
+              -3.697577
+            ],
+            [
+              -38.585899,
+              -3.697508
+            ],
+            [
+              -38.585975,
+              -3.697458
+            ],
+            [
+              -38.58604,
+              -3.697435
+            ],
+            [
+              -38.586266,
+              -3.69777
+            ],
+            [
+              -38.58632,
+              -3.697756
+            ],
+            [
+              -38.586545,
+              -3.698086
+            ],
+            [
+              -38.586695,
+              -3.698053
+            ],
+            [
+              -38.586502,
+              -3.697386
+            ],
+            [
+              -38.586626,
+              -3.697342
+            ],
+            [
+              -38.586925,
+              -3.698279
+            ],
+            [
+              -38.586184,
+              -3.698877
+            ],
+            [
+              -38.585426,
+              -3.699341
+            ],
+            [
+              -38.585228,
+              -3.698956
+            ],
+            [
+              -38.584725,
+              -3.699269
+            ],
+            [
+              -38.584499,
+              -3.698918
+            ],
+            [
+              -38.58468,
+              -3.698741
+            ],
+            [
+              -38.584952,
+              -3.6986
+            ],
+            [
+              -38.584922,
+              -3.698587
+            ],
+            [
+              -38.584853,
+              -3.69855
+            ],
+            [
+              -38.584737,
+              -3.69849
+            ],
+            [
+              -38.584631,
+              -3.698394
+            ],
+            [
+              -38.584569,
+              -3.698321
+            ],
+            [
+              -38.584547,
+              -3.698346
+            ],
+            [
+              -38.58452,
+              -3.698394
+            ],
+            [
+              -38.584292,
+              -3.698293
+            ],
+            [
+              -38.583924,
+              -3.698127
+            ],
+            [
+              -38.583933,
+              -3.697933
+            ],
+            [
+              -38.58391,
+              -3.697739
+            ],
+            [
+              -38.583899,
+              -3.697661
+            ],
+            [
+              -38.583861,
+              -3.697595
+            ],
+            [
+              -38.583739,
+              -3.697282
+            ],
+            [
+              -38.583678,
+              -3.697064
+            ],
+            [
+              -38.583639,
+              -3.696937
+            ],
+            [
+              -38.584024,
+              -3.696931
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 17.174,
+        "municipality": "Fortaleza",
+        "name": "Morro Do Santiago",
+        "nearby_streets": [
+          "MORRO DO SANTIAGO",
+          "RUA SANTIAGO DA BARRA DO CEARÁ",
+          "COMUNIDADE DO POLO DA BARRA"
+        ],
+        "nearby_streets_count": 50,
+        "node_id": 45,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 45,
+        "region": "fortaleza",
+        "risk_score": 45.88,
+        "score": 45.88,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.588444,
+              -3.707942
+            ],
+            [
+              -38.587508,
+              -3.708416
+            ],
+            [
+              -38.587443,
+              -3.708395
+            ],
+            [
+              -38.587025,
+              -3.708012
+            ],
+            [
+              -38.58707,
+              -3.707977
+            ],
+            [
+              -38.587089,
+              -3.707763
+            ],
+            [
+              -38.587089,
+              -3.707691
+            ],
+            [
+              -38.586746,
+              -3.707536
+            ],
+            [
+              -38.58622,
+              -3.707313
+            ],
+            [
+              -38.586091,
+              -3.70719
+            ],
+            [
+              -38.586121,
+              -3.707129
+            ],
+            [
+              -38.586215,
+              -3.707056
+            ],
+            [
+              -38.586234,
+              -3.707
+            ],
+            [
+              -38.586298,
+              -3.706917
+            ],
+            [
+              -38.586373,
+              -3.706987
+            ],
+            [
+              -38.586496,
+              -3.70688
+            ],
+            [
+              -38.586727,
+              -3.707003
+            ],
+            [
+              -38.587458,
+              -3.705799
+            ],
+            [
+              -38.587599,
+              -3.705981
+            ],
+            [
+              -38.588071,
+              -3.706287
+            ],
+            [
+              -38.589118,
+              -3.705638
+            ],
+            [
+              -38.588646,
+              -3.704852
+            ],
+            [
+              -38.589276,
+              -3.704495
+            ],
+            [
+              -38.58973,
+              -3.705291
+            ],
+            [
+              -38.590006,
+              -3.705139
+            ],
+            [
+              -38.59069,
+              -3.706289
+            ],
+            [
+              -38.590127,
+              -3.708368
+            ],
+            [
+              -38.590002,
+              -3.708254
+            ],
+            [
+              -38.589566,
+              -3.708701
+            ],
+            [
+              -38.589808,
+              -3.708937
+            ],
+            [
+              -38.589623,
+              -3.709041
+            ],
+            [
+              -38.588444,
+              -3.707942
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.049,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Gato Morto",
+        "nearby_streets": [
+          "COMUNIDADE DO GATO MORTO",
+          "LAMA SECA",
+          "COMUNIDADE RIACHO DOCE- BARRA DO CEARÁ"
+        ],
+        "nearby_streets_count": 65,
+        "node_id": 46,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 46,
+        "region": "fortaleza",
+        "risk_score": 45.427,
+        "score": 45.427,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.566653,
+              -3.705855
+            ],
+            [
+              -38.56717,
+              -3.705524
+            ],
+            [
+              -38.567402,
+              -3.705317
+            ],
+            [
+              -38.567777,
+              -3.705304
+            ],
+            [
+              -38.567735,
+              -3.705082
+            ],
+            [
+              -38.568076,
+              -3.704302
+            ],
+            [
+              -38.568351,
+              -3.704339
+            ],
+            [
+              -38.56912,
+              -3.704388
+            ],
+            [
+              -38.568992,
+              -3.70631
+            ],
+            [
+              -38.568677,
+              -3.706335
+            ],
+            [
+              -38.567015,
+              -3.706858
+            ],
+            [
+              -38.566653,
+              -3.705855
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CRISTO REDENTOR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.304,
+        "municipality": "(Complexo Da Barra Do Ceará)",
+        "name": "Cristo Redentor Colônia - (Complexo Da Barra Do Ceará)",
+        "nearby_streets": [
+          "CRISTO REDENTOR COLÔNIA - (COMPLEXO DA BARRA DO CEARÁ)",
+          "JAMBALAIA / MORRO DO FALCÃO",
+          "LAJE DA COLÔNIA"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 47,
+        "parent_area": "CRISTO REDENTOR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "rank": 47,
+        "region": "fortaleza",
+        "risk_score": 45.307,
+        "score": 45.307,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.585426,
+              -3.699341
+            ],
+            [
+              -38.586184,
+              -3.698877
+            ],
+            [
+              -38.586925,
+              -3.698279
+            ],
+            [
+              -38.587176,
+              -3.69903
+            ],
+            [
+              -38.587373,
+              -3.699367
+            ],
+            [
+              -38.587398,
+              -3.699438
+            ],
+            [
+              -38.5874,
+              -3.69951
+            ],
+            [
+              -38.58745,
+              -3.699562
+            ],
+            [
+              -38.587619,
+              -3.699623
+            ],
+            [
+              -38.587701,
+              -3.699724
+            ],
+            [
+              -38.587778,
+              -3.699825
+            ],
+            [
+              -38.587051,
+              -3.700175
+            ],
+            [
+              -38.586898,
+              -3.700139
+            ],
+            [
+              -38.586776,
+              -3.700033
+            ],
+            [
+              -38.586728,
+              -3.699916
+            ],
+            [
+              -38.586616,
+              -3.699831
+            ],
+            [
+              -38.586556,
+              -3.699963
+            ],
+            [
+              -38.586575,
+              -3.700084
+            ],
+            [
+              -38.586614,
+              -3.700215
+            ],
+            [
+              -38.586591,
+              -3.700342
+            ],
+            [
+              -38.586127,
+              -3.700614
+            ],
+            [
+              -38.585426,
+              -3.699341
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.141,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Do Pombal",
+        "nearby_streets": [
+          "COMUNIDADE DO POMBAL",
+          "MORRO DO SANTIAGO",
+          "RUA SANTIAGO DA BARRA DO CEARÁ"
+        ],
+        "nearby_streets_count": 51,
+        "node_id": 48,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 48,
+        "region": "fortaleza",
+        "risk_score": 45.134,
+        "score": 45.134,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.616822,
+              -3.800875
+            ],
+            [
+              -38.617085,
+              -3.801619
+            ],
+            [
+              -38.61539,
+              -3.801838
+            ],
+            [
+              -38.61554,
+              -3.803241
+            ],
+            [
+              -38.614902,
+              -3.8033
+            ],
+            [
+              -38.614676,
+              -3.80156
+            ],
+            [
+              -38.613604,
+              -3.801614
+            ],
+            [
+              -38.613464,
+              -3.800126
+            ],
+            [
+              -38.614569,
+              -3.799992
+            ],
+            [
+              -38.614735,
+              -3.801517
+            ],
+            [
+              -38.615336,
+              -3.801475
+            ],
+            [
+              -38.615293,
+              -3.801052
+            ],
+            [
+              -38.616822,
+              -3.800875
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.245,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Tatumandé",
+        "nearby_streets": [
+          "CONJUNTO TATUMANDÉ",
+          "TATUMUNDÉ",
+          "RUA JOSÉ MAURÍCIO"
+        ],
+        "nearby_streets_count": 48,
+        "node_id": 49,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 49,
+        "region": "fortaleza",
+        "risk_score": 45.122,
+        "score": 45.122,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.614426,
+              -3.803502
+            ],
+            [
+              -38.615016,
+              -3.804508
+            ],
+            [
+              -38.614224,
+              -3.805191
+            ],
+            [
+              -38.614337,
+              -3.80533
+            ],
+            [
+              -38.614194,
+              -3.805468
+            ],
+            [
+              -38.614033,
+              -3.805566
+            ],
+            [
+              -38.613833,
+              -3.805707
+            ],
+            [
+              -38.613707,
+              -3.805675
+            ],
+            [
+              -38.613254,
+              -3.8061
+            ],
+            [
+              -38.612582,
+              -3.805412
+            ],
+            [
+              -38.612654,
+              -3.805349
+            ],
+            [
+              -38.612028,
+              -3.804729
+            ],
+            [
+              -38.612704,
+              -3.80412
+            ],
+            [
+              -38.612513,
+              -3.80391
+            ],
+            [
+              -38.612226,
+              -3.803968
+            ],
+            [
+              -38.612165,
+              -3.80385
+            ],
+            [
+              -38.612356,
+              -3.803783
+            ],
+            [
+              -38.612586,
+              -3.803707
+            ],
+            [
+              -38.612808,
+              -3.803591
+            ],
+            [
+              -38.613064,
+              -3.80345
+            ],
+            [
+              -38.613278,
+              -3.803705
+            ],
+            [
+              -38.614168,
+              -3.803502
+            ],
+            [
+              -38.614426,
+              -3.803502
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.156,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Buraco",
+        "nearby_streets": [
+          "COMUNIDADE DO BURACO",
+          "RUA JOSÉ MAURÍCIO",
+          "RUA MARIA NÚBIA DE QUEIROZ"
+        ],
+        "nearby_streets_count": 50,
+        "node_id": 50,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 50,
+        "region": "fortaleza",
+        "risk_score": 45.085,
+        "score": 45.085,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.583762,
+              -3.695259
+            ],
+            [
+              -38.583768,
+              -3.695869
+            ],
+            [
+              -38.583408,
+              -3.695892
+            ],
+            [
+              -38.583038,
+              -3.695958
+            ],
+            [
+              -38.582019,
+              -3.696126
+            ],
+            [
+              -38.581488,
+              -3.696239
+            ],
+            [
+              -38.581378,
+              -3.696279
+            ],
+            [
+              -38.581161,
+              -3.696459
+            ],
+            [
+              -38.58062,
+              -3.696692
+            ],
+            [
+              -38.580298,
+              -3.69576
+            ],
+            [
+              -38.581756,
+              -3.695323
+            ],
+            [
+              -38.582244,
+              -3.695248
+            ],
+            [
+              -38.582716,
+              -3.695227
+            ],
+            [
+              -38.583381,
+              -3.695222
+            ],
+            [
+              -38.583762,
+              -3.695259
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.034,
+        "municipality": "Fortaleza",
+        "name": "Comunidade São Pedro",
+        "nearby_streets": [
+          "COMUNIDADE SÃO PEDRO",
+          "COMUNIDADE SÃO ANTONIO",
+          "COMUNIDADE DO POLO DA BARRA"
+        ],
+        "nearby_streets_count": 48,
+        "node_id": 51,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 51,
+        "region": "fortaleza",
+        "risk_score": 45.068,
+        "score": 45.068,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.615438,
+              -3.801901
+            ],
+            [
+              -38.617099,
+              -3.801674
+            ],
+            [
+              -38.617355,
+              -3.802404
+            ],
+            [
+              -38.616878,
+              -3.802483
+            ],
+            [
+              -38.616363,
+              -3.802558
+            ],
+            [
+              -38.615528,
+              -3.802643
+            ],
+            [
+              -38.615438,
+              -3.801901
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.258,
+        "municipality": "Fortaleza",
+        "name": "Tatumundé",
+        "nearby_streets": [
+          "TATUMUNDÉ",
+          "CONJUNTO TATUMANDÉ",
+          "CONJUNTO RAQUEL DE QUEIROZ"
+        ],
+        "nearby_streets_count": 46,
+        "node_id": 52,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 52,
+        "region": "fortaleza",
+        "risk_score": 44.993,
+        "score": 44.993,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.620471,
+              -3.813681
+            ],
+            [
+              -38.622478,
+              -3.816914
+            ],
+            [
+              -38.622816,
+              -3.817551
+            ],
+            [
+              -38.618701,
+              -3.821592
+            ],
+            [
+              -38.613141,
+              -3.815854
+            ],
+            [
+              -38.614662,
+              -3.815388
+            ],
+            [
+              -38.615724,
+              -3.815046
+            ],
+            [
+              -38.615804,
+              -3.813863
+            ],
+            [
+              -38.615922,
+              -3.813606
+            ],
+            [
+              -38.61766,
+              -3.813103
+            ],
+            [
+              -38.617274,
+              -3.812011
+            ],
+            [
+              -38.619055,
+              -3.81139
+            ],
+            [
+              -38.620471,
+              -3.813681
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.376,
+        "municipality": "Fortaleza",
+        "name": "SIQUEIRA",
+        "nearby_streets": [
+          "SIQUEIRA",
+          "RUA ITAPOÃ",
+          "PARAÍSO VERDE"
+        ],
+        "nearby_streets_count": 37,
+        "node_id": 53,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 53,
+        "region": "fortaleza",
+        "risk_score": 44.628,
+        "score": 44.628,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.617596,
+              -3.802445
+            ],
+            [
+              -38.618052,
+              -3.80297
+            ],
+            [
+              -38.618025,
+              -3.803227
+            ],
+            [
+              -38.616781,
+              -3.804254
+            ],
+            [
+              -38.616244,
+              -3.803596
+            ],
+            [
+              -38.617596,
+              -3.802445
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.667,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Raquel de Queiroz",
+        "nearby_streets": [
+          "CONJUNTO RAQUEL DE QUEIROZ",
+          "TATUMUNDÉ",
+          "CONJUNTO TATUMANDÉ"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 55,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 54,
+        "region": "fortaleza",
+        "risk_score": 44.596,
+        "score": 44.596,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.612168,
+              -3.798248
+            ],
+            [
+              -38.612686,
+              -3.798342
+            ],
+            [
+              -38.612722,
+              -3.800001
+            ],
+            [
+              -38.612322,
+              -3.800004
+            ],
+            [
+              -38.612182,
+              -3.800038
+            ],
+            [
+              -38.612168,
+              -3.798248
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.658,
+        "municipality": "Fortaleza",
+        "name": "Canal",
+        "nearby_streets": [
+          "CANAL",
+          "CONJUNTO TATUMANDÉ",
+          "RUA MARIA NÚBIA DE QUEIROZ"
+        ],
+        "nearby_streets_count": 51,
+        "node_id": 56,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 55,
+        "region": "fortaleza",
+        "risk_score": 44.559,
+        "score": 44.559,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.586415,
+              -3.696668
+            ],
+            [
+              -38.586308,
+              -3.696705
+            ],
+            [
+              -38.586281,
+              -3.696563
+            ],
+            [
+              -38.586182,
+              -3.696593
+            ],
+            [
+              -38.586133,
+              -3.696379
+            ],
+            [
+              -38.58594,
+              -3.696405
+            ],
+            [
+              -38.58587,
+              -3.69632
+            ],
+            [
+              -38.585865,
+              -3.696199
+            ],
+            [
+              -38.585828,
+              -3.696108
+            ],
+            [
+              -38.585905,
+              -3.696092
+            ],
+            [
+              -38.585897,
+              -3.696044
+            ],
+            [
+              -38.585841,
+              -3.696047
+            ],
+            [
+              -38.585828,
+              -3.695929
+            ],
+            [
+              -38.585844,
+              -3.695859
+            ],
+            [
+              -38.585828,
+              -3.69576
+            ],
+            [
+              -38.585744,
+              -3.69575
+            ],
+            [
+              -38.585616,
+              -3.69575
+            ],
+            [
+              -38.585508,
+              -3.695766
+            ],
+            [
+              -38.585433,
+              -3.695782
+            ],
+            [
+              -38.58542,
+              -3.695878
+            ],
+            [
+              -38.585406,
+              -3.695934
+            ],
+            [
+              -38.585256,
+              -3.69594
+            ],
+            [
+              -38.585262,
+              -3.695894
+            ],
+            [
+              -38.585189,
+              -3.695881
+            ],
+            [
+              -38.585071,
+              -3.6959
+            ],
+            [
+              -38.584969,
+              -3.6959
+            ],
+            [
+              -38.584972,
+              -3.69595
+            ],
+            [
+              -38.584824,
+              -3.69595
+            ],
+            [
+              -38.584814,
+              -3.696012
+            ],
+            [
+              -38.584808,
+              -3.696074
+            ],
+            [
+              -38.585133,
+              -3.696044
+            ],
+            [
+              -38.58523,
+              -3.696052
+            ],
+            [
+              -38.585211,
+              -3.696111
+            ],
+            [
+              -38.585122,
+              -3.696124
+            ],
+            [
+              -38.585125,
+              -3.696194
+            ],
+            [
+              -38.585103,
+              -3.696207
+            ],
+            [
+              -38.585087,
+              -3.696317
+            ],
+            [
+              -38.585012,
+              -3.696341
+            ],
+            [
+              -38.584937,
+              -3.696346
+            ],
+            [
+              -38.584937,
+              -3.696234
+            ],
+            [
+              -38.584862,
+              -3.696231
+            ],
+            [
+              -38.584865,
+              -3.696317
+            ],
+            [
+              -38.584752,
+              -3.696328
+            ],
+            [
+              -38.584639,
+              -3.696336
+            ],
+            [
+              -38.584604,
+              -3.696389
+            ],
+            [
+              -38.584546,
+              -3.696395
+            ],
+            [
+              -38.584543,
+              -3.696526
+            ],
+            [
+              -38.584602,
+              -3.696528
+            ],
+            [
+              -38.584586,
+              -3.696577
+            ],
+            [
+              -38.584548,
+              -3.69659
+            ],
+            [
+              -38.584417,
+              -3.696609
+            ],
+            [
+              -38.584422,
+              -3.6967
+            ],
+            [
+              -38.584575,
+              -3.696702
+            ],
+            [
+              -38.584575,
+              -3.696794
+            ],
+            [
+              -38.584484,
+              -3.69681
+            ],
+            [
+              -38.584481,
+              -3.696858
+            ],
+            [
+              -38.584446,
+              -3.696866
+            ],
+            [
+              -38.584444,
+              -3.696909
+            ],
+            [
+              -38.5845,
+              -3.696901
+            ],
+            [
+              -38.584505,
+              -3.696941
+            ],
+            [
+              -38.58458,
+              -3.696962
+            ],
+            [
+              -38.584642,
+              -3.69697
+            ],
+            [
+              -38.584669,
+              -3.696919
+            ],
+            [
+              -38.584736,
+              -3.696935
+            ],
+            [
+              -38.584731,
+              -3.697166
+            ],
+            [
+              -38.584575,
+              -3.697123
+            ],
+            [
+              -38.584473,
+              -3.69708
+            ],
+            [
+              -38.584481,
+              -3.697198
+            ],
+            [
+              -38.584409,
+              -3.697224
+            ],
+            [
+              -38.584393,
+              -3.697259
+            ],
+            [
+              -38.58435,
+              -3.697265
+            ],
+            [
+              -38.584304,
+              -3.697109
+            ],
+            [
+              -38.584363,
+              -3.697088
+            ],
+            [
+              -38.584336,
+              -3.696976
+            ],
+            [
+              -38.584299,
+              -3.696917
+            ],
+            [
+              -38.58428,
+              -3.696815
+            ],
+            [
+              -38.584173,
+              -3.696815
+            ],
+            [
+              -38.584073,
+              -3.696807
+            ],
+            [
+              -38.584025,
+              -3.696818
+            ],
+            [
+              -38.584024,
+              -3.696931
+            ],
+            [
+              -38.583639,
+              -3.696937
+            ],
+            [
+              -38.583671,
+              -3.696795
+            ],
+            [
+              -38.583684,
+              -3.69664
+            ],
+            [
+              -38.583784,
+              -3.696467
+            ],
+            [
+              -38.583856,
+              -3.696372
+            ],
+            [
+              -38.583851,
+              -3.695891
+            ],
+            [
+              -38.58413,
+              -3.695878
+            ],
+            [
+              -38.584425,
+              -3.695284
+            ],
+            [
+              -38.58458,
+              -3.695177
+            ],
+            [
+              -38.586313,
+              -3.695273
+            ],
+            [
+              -38.586367,
+              -3.695291
+            ],
+            [
+              -38.586318,
+              -3.69588
+            ],
+            [
+              -38.586302,
+              -3.696084
+            ],
+            [
+              -38.586319,
+              -3.696307
+            ],
+            [
+              -38.58637,
+              -3.696497
+            ],
+            [
+              -38.586415,
+              -3.696668
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.894,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Polo da Barra",
+        "nearby_streets": [
+          "COMUNIDADE DO POLO DA BARRA",
+          "RUA SANTIAGO DA BARRA DO CEARÁ",
+          "MORRO DO SANTIAGO"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 57,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 56,
+        "region": "fortaleza",
+        "risk_score": 44.279,
+        "score": 44.279,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.620471,
+              -3.813681
+            ],
+            [
+              -38.619055,
+              -3.81139
+            ],
+            [
+              -38.618469,
+              -3.810483
+            ],
+            [
+              -38.618147,
+              -3.810879
+            ],
+            [
+              -38.617621,
+              -3.811104
+            ],
+            [
+              -38.617353,
+              -3.81066
+            ],
+            [
+              -38.617551,
+              -3.810526
+            ],
+            [
+              -38.617514,
+              -3.810392
+            ],
+            [
+              -38.617927,
+              -3.810103
+            ],
+            [
+              -38.617744,
+              -3.809734
+            ],
+            [
+              -38.618024,
+              -3.809546
+            ],
+            [
+              -38.617283,
+              -3.808315
+            ],
+            [
+              -38.619408,
+              -3.806945
+            ],
+            [
+              -38.61988,
+              -3.807095
+            ],
+            [
+              -38.620309,
+              -3.80808
+            ],
+            [
+              -38.620716,
+              -3.808915
+            ],
+            [
+              -38.621467,
+              -3.809428
+            ],
+            [
+              -38.62269,
+              -3.809964
+            ],
+            [
+              -38.623881,
+              -3.811248
+            ],
+            [
+              -38.620471,
+              -3.813681
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.323,
+        "municipality": "Fortaleza",
+        "name": "Paraíso Verde",
+        "nearby_streets": [
+          "PARAÍSO VERDE",
+          "RUA C ( LOTEAMENTO PARAÍSO VERDE)",
+          "AREA SEM NOME"
+        ],
+        "nearby_streets_count": 38,
+        "node_id": 59,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 57,
+        "region": "fortaleza",
+        "risk_score": 43.935,
+        "score": 43.935,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
       },
       "type": "Feature"
     },
@@ -4338,7 +6862,7 @@
       "properties": {
         "bairro": "GRANJA LISBOA",
         "faction": "CV",
-        "generated_at": "2026-07-24T16:48:35.500299",
+        "generated_at": "2026-07-27T20:38:28.929476",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4351,10 +6875,10 @@
           "MUTIRÃO DA SÃO FRANCISCO"
         ],
         "nearby_streets_count": 47,
-        "node_id": 40,
+        "node_id": 60,
         "parent_area": "GRANJA LISBOA",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 44.3,
+        "parent_risk_score": 42.5,
         "parent_status": "MODERADO",
         "peak_hour_end": 16,
         "peak_hour_share": 0.0833,
@@ -4363,24 +6887,2281 @@
         "peak_time_label": "Terca-feira, entre 11hs e 16hs",
         "peak_weekday": "Terca-feira",
         "peak_weekday_share": 0.1667,
-        "rank": 40,
+        "rank": 58,
         "region": "fortaleza",
-        "risk_score": 46.334,
-        "score": 46.334,
+        "risk_score": 43.652,
+        "score": 43.652,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
         "temporal_sample_size": 48
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.62018,
+              -3.800201
+            ],
+            [
+              -38.622224,
+              -3.802861
+            ],
+            [
+              -38.620754,
+              -3.803819
+            ],
+            [
+              -38.619804,
+              -3.80255
+            ],
+            [
+              -38.619364,
+              -3.802872
+            ],
+            [
+              -38.618715,
+              -3.801994
+            ],
+            [
+              -38.618528,
+              -3.801619
+            ],
+            [
+              -38.62018,
+              -3.800201
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.868,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Miguel Arraes",
+        "nearby_streets": [
+          "CONJUNTO MIGUEL ARRAES",
+          "CONJUNTO RAQUEL DE QUEIROZ",
+          "TATUMUNDÉ"
+        ],
+        "nearby_streets_count": 36,
+        "node_id": 61,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 59,
+        "region": "fortaleza",
+        "risk_score": 43.596,
+        "score": 43.596,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.626978,
+              -3.80904
+            ],
+            [
+              -38.625202,
+              -3.810313
+            ],
+            [
+              -38.624176,
+              -3.809022
+            ],
+            [
+              -38.623736,
+              -3.80929
+            ],
+            [
+              -38.622706,
+              -3.808316
+            ],
+            [
+              -38.621848,
+              -3.806972
+            ],
+            [
+              -38.624036,
+              -3.805211
+            ],
+            [
+              -38.626978,
+              -3.80904
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.881,
+        "municipality": "Fortaleza",
+        "name": "Loteamento Jatobá",
+        "nearby_streets": [
+          "LOTEAMENTO JATOBÁ",
+          "RUA C ( LOTEAMENTO PARAÍSO VERDE)",
+          "AREA SEM NOME"
+        ],
+        "nearby_streets_count": 33,
+        "node_id": 62,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 60,
+        "region": "fortaleza",
+        "risk_score": 43.214,
+        "score": 43.214,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.590548,
+              -3.702298
+            ],
+            [
+              -38.590504,
+              -3.702473
+            ],
+            [
+              -38.590531,
+              -3.702493
+            ],
+            [
+              -38.590498,
+              -3.702624
+            ],
+            [
+              -38.589728,
+              -3.702506
+            ],
+            [
+              -38.589696,
+              -3.702702
+            ],
+            [
+              -38.589566,
+              -3.70268
+            ],
+            [
+              -38.589567,
+              -3.702598
+            ],
+            [
+              -38.589424,
+              -3.702606
+            ],
+            [
+              -38.589412,
+              -3.702642
+            ],
+            [
+              -38.589348,
+              -3.70265
+            ],
+            [
+              -38.589342,
+              -3.702605
+            ],
+            [
+              -38.589195,
+              -3.702603
+            ],
+            [
+              -38.589193,
+              -3.702655
+            ],
+            [
+              -38.589055,
+              -3.702646
+            ],
+            [
+              -38.588856,
+              -3.70264
+            ],
+            [
+              -38.588833,
+              -3.702508
+            ],
+            [
+              -38.588644,
+              -3.702514
+            ],
+            [
+              -38.588596,
+              -3.702365
+            ],
+            [
+              -38.588804,
+              -3.702322
+            ],
+            [
+              -38.589032,
+              -3.702342
+            ],
+            [
+              -38.589114,
+              -3.702326
+            ],
+            [
+              -38.589248,
+              -3.702324
+            ],
+            [
+              -38.589395,
+              -3.702318
+            ],
+            [
+              -38.58939,
+              -3.702302
+            ],
+            [
+              -38.589444,
+              -3.702308
+            ],
+            [
+              -38.589542,
+              -3.702315
+            ],
+            [
+              -38.590112,
+              -3.70241
+            ],
+            [
+              -38.590132,
+              -3.702104
+            ],
+            [
+              -38.590548,
+              -3.702298
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.287,
+        "municipality": "Fortaleza",
+        "name": "Vilinha",
+        "nearby_streets": [
+          "VILINHA",
+          "COMUNIDADE DO GATO MORTO",
+          "CAMPO DO CRUZEIRO"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 63,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.1163,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.2326,
+        "rank": 61,
+        "region": "fortaleza",
+        "risk_score": 43.07,
+        "score": 43.07,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.618827,
+              -3.791711
+            ],
+            [
+              -38.618018,
+              -3.79198
+            ],
+            [
+              -38.614977,
+              -3.792966
+            ],
+            [
+              -38.613448,
+              -3.788186
+            ],
+            [
+              -38.616683,
+              -3.787153
+            ],
+            [
+              -38.621948,
+              -3.785699
+            ],
+            [
+              -38.623283,
+              -3.790429
+            ],
+            [
+              -38.621838,
+              -3.790856
+            ],
+            [
+              -38.620435,
+              -3.791218
+            ],
+            [
+              -38.620011,
+              -3.789887
+            ],
+            [
+              -38.61955,
+              -3.790008
+            ],
+            [
+              -38.619356,
+              -3.789324
+            ],
+            [
+              -38.619081,
+              -3.7894
+            ],
+            [
+              -38.61896,
+              -3.78901
+            ],
+            [
+              -38.618728,
+              -3.789076
+            ],
+            [
+              -38.618676,
+              -3.788917
+            ],
+            [
+              -38.61857,
+              -3.788929
+            ],
+            [
+              -38.618603,
+              -3.789009
+            ],
+            [
+              -38.618517,
+              -3.78905
+            ],
+            [
+              -38.618555,
+              -3.789182
+            ],
+            [
+              -38.618434,
+              -3.789265
+            ],
+            [
+              -38.618454,
+              -3.789429
+            ],
+            [
+              -38.618352,
+              -3.789447
+            ],
+            [
+              -38.618268,
+              -3.789226
+            ],
+            [
+              -38.618114,
+              -3.789228
+            ],
+            [
+              -38.618187,
+              -3.789405
+            ],
+            [
+              -38.618277,
+              -3.789585
+            ],
+            [
+              -38.618388,
+              -3.789673
+            ],
+            [
+              -38.618423,
+              -3.789837
+            ],
+            [
+              -38.618361,
+              -3.789854
+            ],
+            [
+              -38.618399,
+              -3.790038
+            ],
+            [
+              -38.618563,
+              -3.789984
+            ],
+            [
+              -38.618608,
+              -3.790128
+            ],
+            [
+              -38.618664,
+              -3.790133
+            ],
+            [
+              -38.618757,
+              -3.790132
+            ],
+            [
+              -38.618794,
+              -3.790247
+            ],
+            [
+              -38.618638,
+              -3.790293
+            ],
+            [
+              -38.619011,
+              -3.791659
+            ],
+            [
+              -38.618827,
+              -3.791711
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.955,
+        "municipality": "Fortaleza",
+        "name": "Alto da Paz",
+        "nearby_streets": [
+          "ALTO DA PAZ",
+          "AREA SEM NOME",
+          "FAVELINHA- GRANJA LISBOA"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 65,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 62,
+        "region": "fortaleza",
+        "risk_score": 42.732,
+        "score": 42.732,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.624935,
+              -3.799243
+            ],
+            [
+              -38.625219,
+              -3.801363
+            ],
+            [
+              -38.623138,
+              -3.801641
+            ],
+            [
+              -38.62302,
+              -3.800892
+            ],
+            [
+              -38.622875,
+              -3.799495
+            ],
+            [
+              -38.624935,
+              -3.799243
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.327,
+        "municipality": "Fortaleza",
+        "name": "Comunidade dos Sem Terra",
+        "nearby_streets": [
+          "COMUNIDADE DOS SEM TERRA",
+          "CONJUNTO MIGUEL ARRAES",
+          "COMUNIDADE DO MUTIRÃO"
+        ],
+        "nearby_streets_count": 30,
+        "node_id": 66,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 63,
+        "region": "fortaleza",
+        "risk_score": 42.443,
+        "score": 42.443,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.61502,
+              -3.782303
+            ],
+            [
+              -38.61586,
+              -3.785932
+            ],
+            [
+              -38.61438,
+              -3.786394
+            ],
+            [
+              -38.614072,
+              -3.785672
+            ],
+            [
+              -38.614111,
+              -3.785597
+            ],
+            [
+              -38.613363,
+              -3.782736
+            ],
+            [
+              -38.61502,
+              -3.782303
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.917,
+        "municipality": "Fortaleza",
+        "name": "Mutirão da São Francisco",
+        "nearby_streets": [
+          "MUTIRÃO DA SÃO FRANCISCO",
+          "RUA EDSON MARTINS",
+          "RESIDENCIAL MARIA ALVES CARIOCA"
+        ],
+        "nearby_streets_count": 48,
+        "node_id": 67,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 64,
+        "region": "fortaleza",
+        "risk_score": 42.406,
+        "score": 42.406,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.608907,
+              -3.788956
+            ],
+            [
+              -38.610267,
+              -3.788514
+            ],
+            [
+              -38.610446,
+              -3.789092
+            ],
+            [
+              -38.609092,
+              -3.789549
+            ],
+            [
+              -38.608907,
+              -3.788956
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.261,
+        "municipality": "Fortaleza",
+        "name": "Travessa",
+        "nearby_streets": [
+          "TRAVESSA",
+          "BECO DO EDSON",
+          "RUA CORONEL JOÃO CORREIA"
+        ],
+        "nearby_streets_count": 51,
+        "node_id": 68,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 65,
+        "region": "fortaleza",
+        "risk_score": 42.381,
+        "score": 42.381,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.61772,
+              -3.798947
+            ],
+            [
+              -38.617932,
+              -3.797893
+            ],
+            [
+              -38.618612,
+              -3.79804
+            ],
+            [
+              -38.618606,
+              -3.797931
+            ],
+            [
+              -38.618648,
+              -3.797849
+            ],
+            [
+              -38.6185,
+              -3.797408
+            ],
+            [
+              -38.618424,
+              -3.797292
+            ],
+            [
+              -38.618369,
+              -3.797052
+            ],
+            [
+              -38.617653,
+              -3.797135
+            ],
+            [
+              -38.617674,
+              -3.796616
+            ],
+            [
+              -38.617151,
+              -3.79595
+            ],
+            [
+              -38.617236,
+              -3.795703
+            ],
+            [
+              -38.616442,
+              -3.795754
+            ],
+            [
+              -38.61596,
+              -3.795727
+            ],
+            [
+              -38.615777,
+              -3.795395
+            ],
+            [
+              -38.615675,
+              -3.795073
+            ],
+            [
+              -38.615471,
+              -3.794402
+            ],
+            [
+              -38.617509,
+              -3.793725
+            ],
+            [
+              -38.617719,
+              -3.794419
+            ],
+            [
+              -38.620047,
+              -3.793629
+            ],
+            [
+              -38.620074,
+              -3.793894
+            ],
+            [
+              -38.622188,
+              -3.793749
+            ],
+            [
+              -38.622743,
+              -3.798677
+            ],
+            [
+              -38.620039,
+              -3.799008
+            ],
+            [
+              -38.619535,
+              -3.799148
+            ],
+            [
+              -38.61772,
+              -3.798947
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.215,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Forró do Meu",
+        "nearby_streets": [
+          "RUA NS 03",
+          "COMUNIDADE FORRÓ DO MEU",
+          "COMUNIDADE MUTIRÃO"
+        ],
+        "nearby_streets_count": 47,
+        "node_id": 69,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 66,
+        "region": "fortaleza",
+        "risk_score": 42.247,
+        "score": 42.247,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.613401,
+              -3.782919
+            ],
+            [
+              -38.614111,
+              -3.785597
+            ],
+            [
+              -38.614072,
+              -3.785672
+            ],
+            [
+              -38.61125,
+              -3.786591
+            ],
+            [
+              -38.610841,
+              -3.78525
+            ],
+            [
+              -38.611228,
+              -3.784544
+            ],
+            [
+              -38.61154,
+              -3.783238
+            ],
+            [
+              -38.613363,
+              -3.782736
+            ],
+            [
+              -38.613401,
+              -3.782919
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.419,
+        "municipality": "Fortaleza",
+        "name": "Favela da Mangueira",
+        "nearby_streets": [
+          "FAVELA DA MANGUEIRA",
+          "MUTIRÃO DA SÃO FRANCISCO",
+          "RUA EDSON MARTINS"
+        ],
+        "nearby_streets_count": 47,
+        "node_id": 70,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 67,
+        "region": "fortaleza",
+        "risk_score": 42.162,
+        "score": 42.162,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.609432,
+              -3.785962
+            ],
+            [
+              -38.6098,
+              -3.787047
+            ],
+            [
+              -38.608399,
+              -3.787486
+            ],
+            [
+              -38.608224,
+              -3.78687
+            ],
+            [
+              -38.608459,
+              -3.786788
+            ],
+            [
+              -38.608878,
+              -3.786617
+            ],
+            [
+              -38.608873,
+              -3.78656
+            ],
+            [
+              -38.609137,
+              -3.786256
+            ],
+            [
+              -38.609406,
+              -3.785896
+            ],
+            [
+              -38.609432,
+              -3.785962
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.721,
+        "municipality": "Fortaleza",
+        "name": "Beco do Edson",
+        "nearby_streets": [
+          "BECO DO EDSON",
+          "TRAVESSA",
+          "FAVELA DA MANGUEIRA"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 71,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 68,
+        "region": "fortaleza",
+        "risk_score": 42.024,
+        "score": 42.024,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.615778,
+              -3.798663
+            ],
+            [
+              -38.611774,
+              -3.798057
+            ],
+            [
+              -38.611071,
+              -3.795809
+            ],
+            [
+              -38.615411,
+              -3.794396
+            ],
+            [
+              -38.615628,
+              -3.795093
+            ],
+            [
+              -38.615885,
+              -3.795736
+            ],
+            [
+              -38.617151,
+              -3.79595
+            ],
+            [
+              -38.617637,
+              -3.796613
+            ],
+            [
+              -38.617575,
+              -3.797111
+            ],
+            [
+              -38.616084,
+              -3.796841
+            ],
+            [
+              -38.615778,
+              -3.798663
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.623,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Mutirão",
+        "nearby_streets": [
+          "COMUNIDADE MUTIRÃO",
+          "RUA NS 03",
+          "COMUNIDADE FORRÓ DO MEU"
+        ],
+        "nearby_streets_count": 48,
+        "node_id": 72,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 69,
+        "region": "fortaleza",
+        "risk_score": 42.019,
+        "score": 42.019,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.616436,
+              -3.782759
+            ],
+            [
+              -38.616595,
+              -3.783393
+            ],
+            [
+              -38.615543,
+              -3.783619
+            ],
+            [
+              -38.615442,
+              -3.783217
+            ],
+            [
+              -38.615377,
+              -3.783021
+            ],
+            [
+              -38.616436,
+              -3.782759
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.38,
+        "municipality": "Fortaleza",
+        "name": "Residencial Maria Alves Carioca",
+        "nearby_streets": [
+          "RESIDENCIAL MARIA ALVES CARIOCA",
+          "MUTIRÃO DA SÃO FRANCISCO",
+          "RUA EDSON MARTINS"
+        ],
+        "nearby_streets_count": 46,
+        "node_id": 73,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 70,
+        "region": "fortaleza",
+        "risk_score": 41.765,
+        "score": 41.765,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.629544,
+              -3.801196
+            ],
+            [
+              -38.629759,
+              -3.801892
+            ],
+            [
+              -38.627758,
+              -3.802459
+            ],
+            [
+              -38.627581,
+              -3.801758
+            ],
+            [
+              -38.629544,
+              -3.801196
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.069,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Mutirão",
+        "nearby_streets": [
+          "COMUNIDADE DO MUTIRÃO",
+          "AP DO JATOBÁ - JARDIM DO EDEM",
+          "COMUNIDADE DO CEMITÉRIO"
+        ],
+        "nearby_streets_count": 25,
+        "node_id": 74,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 71,
+        "region": "fortaleza",
+        "risk_score": 41.43,
+        "score": 41.43,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.476203,
+              -3.814657
+            ],
+            [
+              -38.475576,
+              -3.81518
+            ],
+            [
+              -38.476097,
+              -3.815794
+            ],
+            [
+              -38.475993,
+              -3.815881
+            ],
+            [
+              -38.475452,
+              -3.815222
+            ],
+            [
+              -38.474839,
+              -3.815705
+            ],
+            [
+              -38.475409,
+              -3.816396
+            ],
+            [
+              -38.475309,
+              -3.816466
+            ],
+            [
+              -38.474787,
+              -3.815825
+            ],
+            [
+              -38.474487,
+              -3.816049
+            ],
+            [
+              -38.474435,
+              -3.815959
+            ],
+            [
+              -38.474334,
+              -3.815294
+            ],
+            [
+              -38.47442,
+              -3.81523
+            ],
+            [
+              -38.474399,
+              -3.814973
+            ],
+            [
+              -38.474308,
+              -3.814882
+            ],
+            [
+              -38.474256,
+              -3.813992
+            ],
+            [
+              -38.47427,
+              -3.813479
+            ],
+            [
+              -38.47434,
+              -3.813479
+            ],
+            [
+              -38.474658,
+              -3.813839
+            ],
+            [
+              -38.47489,
+              -3.814108
+            ],
+            [
+              -38.47499,
+              -3.814061
+            ],
+            [
+              -38.475146,
+              -3.814191
+            ],
+            [
+              -38.4755,
+              -3.813847
+            ],
+            [
+              -38.475935,
+              -3.81352
+            ],
+            [
+              -38.475966,
+              -3.813121
+            ],
+            [
+              -38.474258,
+              -3.812979
+            ],
+            [
+              -38.474271,
+              -3.812861
+            ],
+            [
+              -38.476335,
+              -3.813
+            ],
+            [
+              -38.476382,
+              -3.813127
+            ],
+            [
+              -38.476984,
+              -3.81386
+            ],
+            [
+              -38.478288,
+              -3.812792
+            ],
+            [
+              -38.478358,
+              -3.812882
+            ],
+            [
+              -38.47701,
+              -3.814015
+            ],
+            [
+              -38.476925,
+              -3.813932
+            ],
+            [
+              -38.476139,
+              -3.814576
+            ],
+            [
+              -38.476203,
+              -3.814657
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JOSÉ DE ALENCAR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.075,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Seu Rosa",
+        "nearby_streets": [
+          "COMUNIDADE DO SEU ROSA",
+          "AREA SEM NOME",
+          "RUA LUÍS ORIÁ"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 75,
+        "parent_area": "JOSÉ DE ALENCAR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.6,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Quinta-feira, entre 15hs e 20hs",
+        "peak_weekday": "Quinta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 72,
+        "region": "fortaleza",
+        "risk_score": 40.993,
+        "score": 40.993,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 22
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.62904,
+              -3.797983
+            ],
+            [
+              -38.628809,
+              -3.795874
+            ],
+            [
+              -38.630896,
+              -3.795655
+            ],
+            [
+              -38.631154,
+              -3.797748
+            ],
+            [
+              -38.62904,
+              -3.797983
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.135,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Cemitério",
+        "nearby_streets": [
+          "COMUNIDADE DO CEMITÉRIO",
+          "AP DO JATOBÁ - JARDIM DO EDEM",
+          "COMUNIDADE DO MUTIRÃO"
+        ],
+        "nearby_streets_count": 23,
+        "node_id": 76,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 73,
+        "region": "fortaleza",
+        "risk_score": 40.932,
+        "score": 40.932,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.62195,
+              -3.791529
+            ],
+            [
+              -38.622117,
+              -3.792966
+            ],
+            [
+              -38.620959,
+              -3.79306
+            ],
+            [
+              -38.620823,
+              -3.793191
+            ],
+            [
+              -38.619976,
+              -3.793238
+            ],
+            [
+              -38.619992,
+              -3.793292
+            ],
+            [
+              -38.619924,
+              -3.793285
+            ],
+            [
+              -38.619701,
+              -3.792933
+            ],
+            [
+              -38.61848,
+              -3.793377
+            ],
+            [
+              -38.618083,
+              -3.792043
+            ],
+            [
+              -38.618907,
+              -3.791754
+            ],
+            [
+              -38.619461,
+              -3.791574
+            ],
+            [
+              -38.620526,
+              -3.791277
+            ],
+            [
+              -38.621821,
+              -3.79093
+            ],
+            [
+              -38.62195,
+              -3.791529
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.4,
+        "municipality": "Fortaleza",
+        "name": "Favelinha- Granja Lisboa",
+        "nearby_streets": [
+          "FAVELINHA- GRANJA LISBOA",
+          "COMUNIDADE FORRÓ DO MEU",
+          "ALTO DA PAZ"
+        ],
+        "nearby_streets_count": 42,
+        "node_id": 77,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 74,
+        "region": "fortaleza",
+        "risk_score": 40.685,
+        "score": 40.685,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.472577,
+              -3.815896
+            ],
+            [
+              -38.472663,
+              -3.81642
+            ],
+            [
+              -38.471949,
+              -3.816929
+            ],
+            [
+              -38.470844,
+              -3.816388
+            ],
+            [
+              -38.470774,
+              -3.815751
+            ],
+            [
+              -38.470683,
+              -3.815757
+            ],
+            [
+              -38.470667,
+              -3.815585
+            ],
+            [
+              -38.471649,
+              -3.815708
+            ],
+            [
+              -38.471649,
+              -3.815778
+            ],
+            [
+              -38.472577,
+              -3.815896
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JOSÉ DE ALENCAR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.436,
+        "municipality": "Fortaleza",
+        "name": "Coqueiral",
+        "nearby_streets": [
+          "COQUEIRAL",
+          "RUA BRANCA",
+          "COMUNIDADE DO SEU ROSA"
+        ],
+        "nearby_streets_count": 50,
+        "node_id": 78,
+        "parent_area": "JOSÉ DE ALENCAR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.6,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Quinta-feira, entre 15hs e 20hs",
+        "peak_weekday": "Quinta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 75,
+        "region": "fortaleza",
+        "risk_score": 40.42,
+        "score": 40.42,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 22
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.6312022,
+              -3.7985154
+            ],
+            [
+              -38.6313598,
+              -3.7998161
+            ],
+            [
+              -38.6303245,
+              -3.8000969
+            ],
+            [
+              -38.6293457,
+              -3.8003989
+            ],
+            [
+              -38.6291554,
+              -3.7987905
+            ],
+            [
+              -38.6312022,
+              -3.7985154
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SIQUEIRA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.439,
+        "municipality": "JARDIM DO EDEM",
+        "name": "AP DO JATOBÁ - JARDIM DO EDEM",
+        "nearby_streets": [
+          "AP DO JATOBÁ - JARDIM DO EDEM",
+          "COMUNIDADE DO CEMITÉRIO",
+          "COMUNIDADE DO MUTIRÃO"
+        ],
+        "nearby_streets_count": 16,
+        "node_id": 79,
+        "parent_area": "SIQUEIRA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 46.1,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1143,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Sexta-feira, entre 11hs e 16hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2,
+        "rank": 76,
+        "region": "fortaleza",
+        "risk_score": 40.382,
+        "score": 40.382,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 35
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.625166,
+              -3.780342
+            ],
+            [
+              -38.625301,
+              -3.780941
+            ],
+            [
+              -38.625408,
+              -3.781027
+            ],
+            [
+              -38.625976,
+              -3.783034
+            ],
+            [
+              -38.624523,
+              -3.783436
+            ],
+            [
+              -38.624346,
+              -3.782729
+            ],
+            [
+              -38.622913,
+              -3.78312
+            ],
+            [
+              -38.622538,
+              -3.781766
+            ],
+            [
+              -38.62397,
+              -3.781369
+            ],
+            [
+              -38.623804,
+              -3.780706
+            ],
+            [
+              -38.625166,
+              -3.780342
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.739,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Leonel Brizola",
+        "nearby_streets": [
+          "CONJUNTO LEONEL BRIZOLA",
+          "CAIC",
+          "CR"
+        ],
+        "nearby_streets_count": 39,
+        "node_id": 80,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 77,
+        "region": "fortaleza",
+        "risk_score": 40.218,
+        "score": 40.218,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.62636,
+              -3.793266
+            ],
+            [
+              -38.625456,
+              -3.793381
+            ],
+            [
+              -38.625373,
+              -3.792691
+            ],
+            [
+              -38.626274,
+              -3.792559
+            ],
+            [
+              -38.62636,
+              -3.793266
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "GRANJA LISBOA",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.796,
+        "municipality": "Fortaleza",
+        "name": "Comunidade Raquel",
+        "nearby_streets": [
+          "COMUNIDADE RAQUEL",
+          "FAVELINHA- GRANJA LISBOA",
+          "COMUNIDADE FORRÓ DO MEU"
+        ],
+        "nearby_streets_count": 29,
+        "node_id": 83,
+        "parent_area": "GRANJA LISBOA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 42.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.0833,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1667,
+        "rank": 78,
+        "region": "fortaleza",
+        "risk_score": 38.608,
+        "score": 38.608,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 48
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.47715,
+              -3.808251
+            ],
+            [
+              -38.477326,
+              -3.808259
+            ],
+            [
+              -38.477464,
+              -3.808292
+            ],
+            [
+              -38.477782,
+              -3.808358
+            ],
+            [
+              -38.478101,
+              -3.808389
+            ],
+            [
+              -38.478074,
+              -3.808518
+            ],
+            [
+              -38.477886,
+              -3.808507
+            ],
+            [
+              -38.477843,
+              -3.809278
+            ],
+            [
+              -38.478036,
+              -3.809326
+            ],
+            [
+              -38.47802,
+              -3.809481
+            ],
+            [
+              -38.478388,
+              -3.809505
+            ],
+            [
+              -38.478388,
+              -3.809564
+            ],
+            [
+              -38.477969,
+              -3.80954
+            ],
+            [
+              -38.477865,
+              -3.810664
+            ],
+            [
+              -38.476928,
+              -3.810597
+            ],
+            [
+              -38.47715,
+              -3.808251
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JOSÉ DE ALENCAR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.879,
+        "municipality": "Fortaleza",
+        "name": "Pantanal",
+        "nearby_streets": [
+          "PANTANAL",
+          "AVENIDA ENGENHEIRO LEAL LIMA VERDE",
+          "RUA GRANJA SÃO FRANCISCO"
+        ],
+        "nearby_streets_count": 41,
+        "node_id": 84,
+        "parent_area": "JOSÉ DE ALENCAR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.6,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Quinta-feira, entre 15hs e 20hs",
+        "peak_weekday": "Quinta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 79,
+        "region": "fortaleza",
+        "risk_score": 37.992,
+        "score": 37.992,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 22
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.465702,
+              -3.808047
+            ],
+            [
+              -38.466115,
+              -3.8091
+            ],
+            [
+              -38.466236,
+              -3.809114
+            ],
+            [
+              -38.466571,
+              -3.810118
+            ],
+            [
+              -38.465382,
+              -3.810806
+            ],
+            [
+              -38.465039,
+              -3.810193
+            ],
+            [
+              -38.46479,
+              -3.810231
+            ],
+            [
+              -38.464299,
+              -3.809916
+            ],
+            [
+              -38.464186,
+              -3.809751
+            ],
+            [
+              -38.463833,
+              -3.809752
+            ],
+            [
+              -38.463795,
+              -3.809553
+            ],
+            [
+              -38.464055,
+              -3.809425
+            ],
+            [
+              -38.463422,
+              -3.808053
+            ],
+            [
+              -38.464338,
+              -3.808053
+            ],
+            [
+              -38.465702,
+              -3.808047
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JOSÉ DE ALENCAR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.602,
+        "municipality": "Fortaleza",
+        "name": "Buriti",
+        "nearby_streets": [
+          "BURITI",
+          "VIA URBANA",
+          "RUA BRANCA"
+        ],
+        "nearby_streets_count": 38,
+        "node_id": 85,
+        "parent_area": "JOSÉ DE ALENCAR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.6,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Quinta-feira, entre 15hs e 20hs",
+        "peak_weekday": "Quinta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 80,
+        "region": "fortaleza",
+        "risk_score": 36.582,
+        "score": 36.582,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 22
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.467263,
+              -3.805231
+            ],
+            [
+              -38.467943,
+              -3.805128
+            ],
+            [
+              -38.468737,
+              -3.807798
+            ],
+            [
+              -38.467657,
+              -3.807786
+            ],
+            [
+              -38.467263,
+              -3.805231
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JOSÉ DE ALENCAR",
+        "faction": "CV",
+        "generated_at": "2026-07-27T20:38:28.929476",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.448,
+        "municipality": "Fortaleza",
+        "name": "Via Urbana",
+        "nearby_streets": [
+          "VIA URBANA",
+          "BURITI",
+          "RUA GRANJA SÃO FRANCISCO"
+        ],
+        "nearby_streets_count": 35,
+        "node_id": 86,
+        "parent_area": "JOSÉ DE ALENCAR",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.6,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Quinta-feira, entre 15hs e 20hs",
+        "peak_weekday": "Quinta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 81,
+        "region": "fortaleza",
+        "risk_score": 36.331,
+        "score": 36.331,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 22
+      },
+      "type": "Feature"
     }
   ],
   "metadata": {
-    "generated_at": "2026-07-24T16:48:35.501809",
+    "generated_at": "2026-07-27T20:38:28.929476",
     "region": "capital",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
-    "total": 71
+    "total": 88
   },
   "type": "FeatureCollection"
 }
