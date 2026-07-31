@@ -1,27 +1,27 @@
 {
   "global": {
     "total_nodes": 2107,
-    "active_locations": 15,
+    "active_locations": 13,
     "top_region": "interior",
     "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 20.31
+    "avg_risk": 20.37
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 551,
-      "avg_risk": 20.11,
-      "max_risk": 75.0,
+      "avg_risk": 20.48,
+      "max_risk": 83.3,
       "top_name": "José de Alencar"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 21.13,
+      "avg_risk": 24.98,
       "max_risk": 100.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 48.47,
+      "avg_risk": 41.34,
       "max_risk": 100.0,
       "top_name": "JUAZEIRO DO NORTE"
     }
