@@ -1097,6 +1097,47 @@
   font-family: inherit;
 }
 
+.map-reset-view-button {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  z-index: 1000;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  background: rgba(5, 12, 26, 0.88);
+  color: var(--text-heading);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px);
+  cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.map-reset-view-button:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  background: rgba(18, 29, 52, 0.96);
+}
+
+.map-reset-view-button svg {
+  width: 20px;
+  height: 20px;
+}
+
+[data-theme="light"] .map-reset-view-button {
+  background: rgba(255, 255, 255, 0.95);
+  border-color: rgba(15, 23, 42, 0.15);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+}
+
+[data-theme="light"] .map-reset-view-button:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
 .map-search-bar {
   display: flex;
   align-items: center;
@@ -1694,5 +1735,12 @@
   .region-pill {
     padding: 5px 10px;
     font-size: 0.72rem;
+  }
+
+  .map-reset-view-button {
+    width: 40px;
+    height: 40px;
+    right: 12px;
+    top: 12px;
   }
 }

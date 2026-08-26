@@ -156,6 +156,12 @@
         "hits20": [
           "CAUCAIA",
           "BOA VIAGEM",
+          "CRATO",
+          "JOSE DE ALENCAR",
+          "JUAZEIRO DO NORTE",
+          "MARACANAU",
+          "ITAPAJE",
+          "PENTECOSTE",
           "AMONTADA",
           "TIANGUA",
           "ITAPAJE",
@@ -215,6 +221,10 @@
         ],
         "hits10": [
           "BOA VIAGEM",
+          "CRATO",
+          "JUAZEIRO DO NORTE",
+          "ITAPAJE",
+          "PENTECOSTE",
           "AMONTADA",
           "TIANGUA",
           "ITAPAJE",
@@ -240,6 +250,10 @@
         ],
         "hits5": [
           "BOA VIAGEM",
+          "CRATO",
+          "JUAZEIRO DO NORTE",
+          "ITAPAJE",
+          "PENTECOSTE",
           "AMONTADA",
           "TIANGUA",
           "ITAPAJE",
@@ -716,6 +730,118 @@
           "status_label": "MODERADO"
         }
       ],
+      "nan": [
+        {
+          "cidade": "G00001",
+          "name": "G00001",
+          "node_id": 40,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00002",
+          "name": "G00002",
+          "node_id": 41,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00003",
+          "name": "G00003",
+          "node_id": 42,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00004",
+          "name": "G00004",
+          "node_id": 43,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00005",
+          "name": "G00005",
+          "node_id": 44,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00006",
+          "name": "G00006",
+          "node_id": 45,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00007",
+          "name": "G00007",
+          "node_id": 46,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00008",
+          "name": "G00008",
+          "node_id": 47,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00009",
+          "name": "G00009",
+          "node_id": 48,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        },
+        {
+          "cidade": "G00010",
+          "name": "G00010",
+          "node_id": 49,
+          "peak_hours": "",
+          "peak_time_label": "",
+          "peak_weekday": "",
+          "region_type": "nan",
+          "risk_score": 20.0,
+          "status_label": "BAIXO"
+        }
+      ],
       "rmf": [
         {
           "cidade": "CAUCAIA",
@@ -1035,7 +1161,7 @@
       "momentum_14d": -2.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "Entre 17hs e 22hs",
+      "peak_hours": "Entre 11hs e 16hs",
       "faction": "CV",
       "tension_index": 70.4,
       "status": "ALTO",
@@ -2024,7 +2150,7 @@
       "recent_exogenous": 0,
       "peak_hours": "Entre 17hs e 22hs",
       "faction": "CV",
-      "tension_index": 14.3,
+      "tension_index": 26.9,
       "status": "BAIXO",
       "trend": "stable",
       "summary": "Território em nível baixo. Tensão territorial atual em 14.30."
@@ -2400,12 +2526,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "Entre 18hs e 23hs",
-      "faction": "CV",
-      "tension_index": 1.6,
+      "peak_hours": "",
+      "faction": "NEUTRO",
+      "tension_index": 20.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "rmf:SAO LUIS DO CURU",
@@ -2426,7 +2552,7 @@
       "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
+      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
     },
     {
       "id": "fortaleza:CIDADE DOS FUNCIONARIOS",

@@ -11,12 +11,12 @@
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "RUA ANTÔNIO ROCHA BEZERRA",
+        "loc": "RUA MARIA DE ASSIS UCHOA",
         "score": 4
       },
       {
         "cvli": 1,
-        "loc": "RUA MARIA DE ASSIS UCHOA",
+        "loc": "RUA ANTÔNIO ROCHA BEZERRA",
         "score": 4
       },
       {
@@ -55,10 +55,10 @@
     "risk_score": 100.0,
     "status": "CRÍTICO"
   },
-  "interior:AMONTADA": {
-    "name": "AMONTADA",
-    "municipality": "AMONTADA",
-    "region": "interior",
+  "rmf:CAUCAIA": {
+    "name": "CAUCAIA",
+    "municipality": "CAUCAIA",
+    "region": "rmf",
     "faction": "CV",
     "recent_cvli": 1,
     "recent_exogenous": 0,
@@ -183,7 +183,7 @@
     "municipality": "MARACANAU",
     "region": "rmf",
     "faction": "CV",
-    "recent_cvli": 0,
+    "recent_cvli": 1,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
@@ -396,7 +396,7 @@
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
-    "recent_cvli": 0,
+    "recent_cvli": 1,
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": 1.0,
@@ -411,7 +411,7 @@
     "municipality": "SOBRAL",
     "region": "interior",
     "faction": "CV",
-    "recent_cvli": 0,
+    "recent_cvli": 1,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -2.0,

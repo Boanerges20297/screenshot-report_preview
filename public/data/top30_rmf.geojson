@@ -5,6 +5,2860 @@
         "coordinates": [
           [
             [
+              -38.680074,
+              -3.895551
+            ],
+            [
+              -38.68022,
+              -3.895393
+            ],
+            [
+              -38.680364,
+              -3.895528
+            ],
+            [
+              -38.681496,
+              -3.895112
+            ],
+            [
+              -38.682282,
+              -3.895086
+            ],
+            [
+              -38.682377,
+              -3.895895
+            ],
+            [
+              -38.682218,
+              -3.897986
+            ],
+            [
+              -38.680844,
+              -3.898139
+            ],
+            [
+              -38.680735,
+              -3.897571
+            ],
+            [
+              -38.68066,
+              -3.896842
+            ],
+            [
+              -38.680464,
+              -3.896693
+            ],
+            [
+              -38.680188,
+              -3.896266
+            ],
+            [
+              -38.680476,
+              -3.896052
+            ],
+            [
+              -38.680074,
+              -3.895551
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.882,
+        "municipality": "Maranguape",
+        "name": "Rodoviária - Maranguape",
+        "nearby_streets": [
+          "RODOVIÁRIA - MARANGUAPE",
+          "RUA CHICÓ ANÍSIO",
+          "TANGUEIRA"
+        ],
+        "nearby_streets_count": 28,
+        "node_id": 1,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 1,
+        "region": "rmf",
+        "risk_score": 74.149,
+        "score": 74.149,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.687864,
+              -3.892481
+            ],
+            [
+              -38.691175,
+              -3.8963
+            ],
+            [
+              -38.691041,
+              -3.896483
+            ],
+            [
+              -38.690317,
+              -3.896725
+            ],
+            [
+              -38.690317,
+              -3.897223
+            ],
+            [
+              -38.690045,
+              -3.897276
+            ],
+            [
+              -38.690006,
+              -3.897197
+            ],
+            [
+              -38.689577,
+              -3.89726
+            ],
+            [
+              -38.689398,
+              -3.897184
+            ],
+            [
+              -38.688655,
+              -3.897664
+            ],
+            [
+              -38.688627,
+              -3.897544
+            ],
+            [
+              -38.688118,
+              -3.897436
+            ],
+            [
+              -38.687885,
+              -3.897016
+            ],
+            [
+              -38.687664,
+              -3.897002
+            ],
+            [
+              -38.687558,
+              -3.896529
+            ],
+            [
+              -38.687032,
+              -3.896472
+            ],
+            [
+              -38.687135,
+              -3.89361
+            ],
+            [
+              -38.687252,
+              -3.892395
+            ],
+            [
+              -38.687864,
+              -3.892481
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.46,
+        "municipality": "MARACANAU",
+        "name": "Guabiraba",
+        "nearby_streets": [
+          "GUABIRABA",
+          "RUA ENÓI DE ABREU BRAGA",
+          "BECO DO BURACO - VILA SÃO JOSÉ - ALTO DO CAJUEIRO"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 2,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 2,
+        "region": "rmf",
+        "risk_score": 73.496,
+        "score": 73.496,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.676065,
+              -3.886265
+            ],
+            [
+              -38.676253,
+              -3.887223
+            ],
+            [
+              -38.67533,
+              -3.887389
+            ],
+            [
+              -38.675293,
+              -3.887166
+            ],
+            [
+              -38.674153,
+              -3.887407
+            ],
+            [
+              -38.673941,
+              -3.886725
+            ],
+            [
+              -38.674408,
+              -3.886604
+            ],
+            [
+              -38.674268,
+              -3.886067
+            ],
+            [
+              -38.675094,
+              -3.885922
+            ],
+            [
+              -38.675084,
+              -3.88582
+            ],
+            [
+              -38.675566,
+              -3.886147
+            ],
+            [
+              -38.675733,
+              -3.886227
+            ],
+            [
+              -38.675759,
+              -3.886334
+            ],
+            [
+              -38.676065,
+              -3.886265
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.553,
+        "municipality": "MARACANAU",
+        "name": "Mororó",
+        "nearby_streets": [
+          "MORORÓ",
+          "RUA RAIMUNDO JUSTINI DE MORAIS",
+          "RUA MARIA ESTRELA"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 3,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 3,
+        "region": "rmf",
+        "risk_score": 73.407,
+        "score": 73.407,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.686456,
+              -3.885156
+            ],
+            [
+              -38.686527,
+              -3.885567
+            ],
+            [
+              -38.686874,
+              -3.886435
+            ],
+            [
+              -38.687258,
+              -3.887733
+            ],
+            [
+              -38.687177,
+              -3.888204
+            ],
+            [
+              -38.68707,
+              -3.888228
+            ],
+            [
+              -38.687038,
+              -3.888063
+            ],
+            [
+              -38.686499,
+              -3.888148
+            ],
+            [
+              -38.686467,
+              -3.887947
+            ],
+            [
+              -38.686182,
+              -3.887998
+            ],
+            [
+              -38.685924,
+              -3.887769
+            ],
+            [
+              -38.684592,
+              -3.887674
+            ],
+            [
+              -38.68461,
+              -3.887907
+            ],
+            [
+              -38.684348,
+              -3.888049
+            ],
+            [
+              -38.684322,
+              -3.88815
+            ],
+            [
+              -38.68394,
+              -3.888148
+            ],
+            [
+              -38.683888,
+              -3.887737
+            ],
+            [
+              -38.683988,
+              -3.887638
+            ],
+            [
+              -38.683852,
+              -3.887508
+            ],
+            [
+              -38.684039,
+              -3.887037
+            ],
+            [
+              -38.684297,
+              -3.887144
+            ],
+            [
+              -38.684468,
+              -3.887412
+            ],
+            [
+              -38.684509,
+              -3.887286
+            ],
+            [
+              -38.684927,
+              -3.887291
+            ],
+            [
+              -38.684938,
+              -3.887194
+            ],
+            [
+              -38.685014,
+              -3.887194
+            ],
+            [
+              -38.685026,
+              -3.887026
+            ],
+            [
+              -38.685184,
+              -3.88701
+            ],
+            [
+              -38.685183,
+              -3.887257
+            ],
+            [
+              -38.685327,
+              -3.887166
+            ],
+            [
+              -38.685398,
+              -3.887108
+            ],
+            [
+              -38.685624,
+              -3.887077
+            ],
+            [
+              -38.685683,
+              -3.886914
+            ],
+            [
+              -38.685818,
+              -3.886612
+            ],
+            [
+              -38.68563,
+              -3.885793
+            ],
+            [
+              -38.686131,
+              -3.885474
+            ],
+            [
+              -38.686456,
+              -3.885156
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.466,
+        "municipality": "MARACANAU",
+        "name": "Alto Cemitério",
+        "nearby_streets": [
+          "ALTO CEMITÉRIO",
+          "RUA CHICÓ AMADOR",
+          "RUA RAIMUNDO HERBSTER"
+        ],
+        "nearby_streets_count": 27,
+        "node_id": 4,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 4,
+        "region": "rmf",
+        "risk_score": 73.284,
+        "score": 73.284,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.682406,
+              -3.882821
+            ],
+            [
+              -38.682091,
+              -3.883111
+            ],
+            [
+              -38.681793,
+              -3.883413
+            ],
+            [
+              -38.681711,
+              -3.883368
+            ],
+            [
+              -38.681611,
+              -3.883464
+            ],
+            [
+              -38.681356,
+              -3.883415
+            ],
+            [
+              -38.681095,
+              -3.883707
+            ],
+            [
+              -38.681175,
+              -3.88383
+            ],
+            [
+              -38.680987,
+              -3.884207
+            ],
+            [
+              -38.680862,
+              -3.884134
+            ],
+            [
+              -38.680664,
+              -3.884397
+            ],
+            [
+              -38.680284,
+              -3.884453
+            ],
+            [
+              -38.680216,
+              -3.884326
+            ],
+            [
+              -38.680067,
+              -3.884386
+            ],
+            [
+              -38.680028,
+              -3.88454
+            ],
+            [
+              -38.679931,
+              -3.884612
+            ],
+            [
+              -38.679974,
+              -3.88468
+            ],
+            [
+              -38.679754,
+              -3.884894
+            ],
+            [
+              -38.679473,
+              -3.884615
+            ],
+            [
+              -38.67913,
+              -3.884884
+            ],
+            [
+              -38.678961,
+              -3.884728
+            ],
+            [
+              -38.6787,
+              -3.884933
+            ],
+            [
+              -38.678586,
+              -3.88479
+            ],
+            [
+              -38.678378,
+              -3.884946
+            ],
+            [
+              -38.678174,
+              -3.884641
+            ],
+            [
+              -38.678272,
+              -3.884562
+            ],
+            [
+              -38.677842,
+              -3.884038
+            ],
+            [
+              -38.678396,
+              -3.883486
+            ],
+            [
+              -38.678126,
+              -3.883176
+            ],
+            [
+              -38.678367,
+              -3.882937
+            ],
+            [
+              -38.67839,
+              -3.882816
+            ],
+            [
+              -38.678124,
+              -3.882398
+            ],
+            [
+              -38.677892,
+              -3.882186
+            ],
+            [
+              -38.677601,
+              -3.882111
+            ],
+            [
+              -38.677366,
+              -3.882411
+            ],
+            [
+              -38.675455,
+              -3.88027
+            ],
+            [
+              -38.676167,
+              -3.879581
+            ],
+            [
+              -38.676942,
+              -3.880339
+            ],
+            [
+              -38.677013,
+              -3.88028
+            ],
+            [
+              -38.677159,
+              -3.880417
+            ],
+            [
+              -38.677247,
+              -3.880348
+            ],
+            [
+              -38.677758,
+              -3.880838
+            ],
+            [
+              -38.678751,
+              -3.879876
+            ],
+            [
+              -38.678546,
+              -3.879645
+            ],
+            [
+              -38.678852,
+              -3.879353
+            ],
+            [
+              -38.678931,
+              -3.879435
+            ],
+            [
+              -38.679145,
+              -3.879264
+            ],
+            [
+              -38.679375,
+              -3.879611
+            ],
+            [
+              -38.679468,
+              -3.879542
+            ],
+            [
+              -38.679548,
+              -3.879443
+            ],
+            [
+              -38.679562,
+              -3.879332
+            ],
+            [
+              -38.679534,
+              -3.87923
+            ],
+            [
+              -38.679463,
+              -3.879138
+            ],
+            [
+              -38.679538,
+              -3.879033
+            ],
+            [
+              -38.67972,
+              -3.879148
+            ],
+            [
+              -38.680003,
+              -3.879003
+            ],
+            [
+              -38.679911,
+              -3.878896
+            ],
+            [
+              -38.680044,
+              -3.878777
+            ],
+            [
+              -38.680139,
+              -3.878872
+            ],
+            [
+              -38.680219,
+              -3.878894
+            ],
+            [
+              -38.68024,
+              -3.878759
+            ],
+            [
+              -38.680596,
+              -3.878853
+            ],
+            [
+              -38.68065,
+              -3.878877
+            ],
+            [
+              -38.680793,
+              -3.87892
+            ],
+            [
+              -38.680888,
+              -3.879101
+            ],
+            [
+              -38.680793,
+              -3.87916
+            ],
+            [
+              -38.680859,
+              -3.879261
+            ],
+            [
+              -38.680473,
+              -3.87968
+            ],
+            [
+              -38.68039,
+              -3.879585
+            ],
+            [
+              -38.679909,
+              -3.879792
+            ],
+            [
+              -38.679961,
+              -3.879971
+            ],
+            [
+              -38.679303,
+              -3.880125
+            ],
+            [
+              -38.679318,
+              -3.880591
+            ],
+            [
+              -38.679168,
+              -3.880567
+            ],
+            [
+              -38.679167,
+              -3.880702
+            ],
+            [
+              -38.678863,
+              -3.880679
+            ],
+            [
+              -38.678712,
+              -3.880597
+            ],
+            [
+              -38.678373,
+              -3.881025
+            ],
+            [
+              -38.679575,
+              -3.88254
+            ],
+            [
+              -38.679623,
+              -3.882634
+            ],
+            [
+              -38.679688,
+              -3.882618
+            ],
+            [
+              -38.679741,
+              -3.882561
+            ],
+            [
+              -38.679873,
+              -3.882434
+            ],
+            [
+              -38.679961,
+              -3.882261
+            ],
+            [
+              -38.680022,
+              -3.882131
+            ],
+            [
+              -38.679817,
+              -3.881892
+            ],
+            [
+              -38.680176,
+              -3.881512
+            ],
+            [
+              -38.680615,
+              -3.881206
+            ],
+            [
+              -38.680561,
+              -3.881121
+            ],
+            [
+              -38.681013,
+              -3.880784
+            ],
+            [
+              -38.681225,
+              -3.88117
+            ],
+            [
+              -38.681386,
+              -3.881091
+            ],
+            [
+              -38.681816,
+              -3.881816
+            ],
+            [
+              -38.681725,
+              -3.88193
+            ],
+            [
+              -38.681719,
+              -3.882077
+            ],
+            [
+              -38.68178,
+              -3.88219
+            ],
+            [
+              -38.681885,
+              -3.882228
+            ],
+            [
+              -38.682126,
+              -3.882129
+            ],
+            [
+              -38.682321,
+              -3.882163
+            ],
+            [
+              -38.682406,
+              -3.882359
+            ],
+            [
+              -38.682343,
+              -3.882579
+            ],
+            [
+              -38.682406,
+              -3.882821
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.747,
+        "municipality": "MARACANAU",
+        "name": "Outra Banda",
+        "nearby_streets": [
+          "OUTRA BANDA",
+          "RUA GONTRAN NASCIMENTO",
+          "RUA DOUTOR ARGEU BRAGA HERBSTER"
+        ],
+        "nearby_streets_count": 24,
+        "node_id": 5,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 5,
+        "region": "rmf",
+        "risk_score": 72.186,
+        "score": 72.186,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.619667,
+              -3.885556
+            ],
+            [
+              -38.615955,
+              -3.884153
+            ],
+            [
+              -38.615354,
+              -3.882826
+            ],
+            [
+              -38.615097,
+              -3.88258
+            ],
+            [
+              -38.613723,
+              -3.881991
+            ],
+            [
+              -38.613326,
+              -3.881242
+            ],
+            [
+              -38.613713,
+              -3.880075
+            ],
+            [
+              -38.613809,
+              -3.87984
+            ],
+            [
+              -38.613916,
+              -3.879679
+            ],
+            [
+              -38.614195,
+              -3.879529
+            ],
+            [
+              -38.615236,
+              -3.879015
+            ],
+            [
+              -38.615536,
+              -3.877988
+            ],
+            [
+              -38.616824,
+              -3.87742
+            ],
+            [
+              -38.616935,
+              -3.87738
+            ],
+            [
+              -38.620622,
+              -3.878876
+            ],
+            [
+              -38.621577,
+              -3.880985
+            ],
+            [
+              -38.622371,
+              -3.880621
+            ],
+            [
+              -38.622746,
+              -3.881413
+            ],
+            [
+              -38.62192,
+              -3.881777
+            ],
+            [
+              -38.622446,
+              -3.882933
+            ],
+            [
+              -38.623294,
+              -3.882569
+            ],
+            [
+              -38.623336,
+              -3.882655
+            ],
+            [
+              -38.623422,
+              -3.883147
+            ],
+            [
+              -38.623476,
+              -3.883822
+            ],
+            [
+              -38.619667,
+              -3.885556
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.12,
+        "municipality": "Maracanaú",
+        "name": "Jereissati Setor D - Maracanaú",
+        "nearby_streets": [
+          "JEREISSATI SETOR D - MARACANAÚ",
+          "JEREISSATI SETOR E - MARACANAÚ",
+          "JEREISSATI SETOR A - MARACANAÚ"
+        ],
+        "nearby_streets_count": 26,
+        "node_id": 6,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 6,
+        "region": "rmf",
+        "risk_score": 71.848,
+        "score": 71.848,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.626278,
+              -3.880472
+            ],
+            [
+              -38.62638,
+              -3.880445
+            ],
+            [
+              -38.62661,
+              -3.880852
+            ],
+            [
+              -38.626863,
+              -3.881296
+            ],
+            [
+              -38.62712,
+              -3.881681
+            ],
+            [
+              -38.627431,
+              -3.881992
+            ],
+            [
+              -38.627914,
+              -3.882441
+            ],
+            [
+              -38.627351,
+              -3.882628
+            ],
+            [
+              -38.627007,
+              -3.882826
+            ],
+            [
+              -38.626938,
+              -3.882762
+            ],
+            [
+              -38.626584,
+              -3.881467
+            ],
+            [
+              -38.626514,
+              -3.881462
+            ],
+            [
+              -38.626278,
+              -3.880472
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.681,
+        "municipality": "MARACANAU",
+        "name": "Rua do trilho",
+        "nearby_streets": [
+          "RUA DO TRILHO",
+          "PASSARELA",
+          "FAVELA DA LAGOA"
+        ],
+        "nearby_streets_count": 25,
+        "node_id": 7,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 7,
+        "region": "rmf",
+        "risk_score": 71.603,
+        "score": 71.603,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.679223,
+              -3.901225
+            ],
+            [
+              -38.678992,
+              -3.900892
+            ],
+            [
+              -38.678769,
+              -3.900995
+            ],
+            [
+              -38.678646,
+              -3.900721
+            ],
+            [
+              -38.677813,
+              -3.901164
+            ],
+            [
+              -38.676708,
+              -3.900896
+            ],
+            [
+              -38.676381,
+              -3.900153
+            ],
+            [
+              -38.67554,
+              -3.899503
+            ],
+            [
+              -38.676354,
+              -3.898491
+            ],
+            [
+              -38.677049,
+              -3.899077
+            ],
+            [
+              -38.677459,
+              -3.898596
+            ],
+            [
+              -38.677626,
+              -3.898366
+            ],
+            [
+              -38.678629,
+              -3.899565
+            ],
+            [
+              -38.679278,
+              -3.900185
+            ],
+            [
+              -38.679887,
+              -3.900985
+            ],
+            [
+              -38.67959,
+              -3.90123
+            ],
+            [
+              -38.679472,
+              -3.901072
+            ],
+            [
+              -38.679223,
+              -3.901225
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.502,
+        "municipality": "MARACANAU",
+        "name": "Parque São João",
+        "nearby_streets": [
+          "PARQUE SÃO JOÃO",
+          "RUA CÔNEGO HEITOR VIÊIRA CAVALCANTE",
+          "TANGUEIRA"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 8,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 8,
+        "region": "rmf",
+        "risk_score": 71.39,
+        "score": 71.39,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.685962,
+              -3.896566
+            ],
+            [
+              -38.686217,
+              -3.897055
+            ],
+            [
+              -38.686603,
+              -3.89774
+            ],
+            [
+              -38.687107,
+              -3.898426
+            ],
+            [
+              -38.687571,
+              -3.898294
+            ],
+            [
+              -38.687639,
+              -3.898472
+            ],
+            [
+              -38.688049,
+              -3.898269
+            ],
+            [
+              -38.688255,
+              -3.898671
+            ],
+            [
+              -38.688642,
+              -3.898842
+            ],
+            [
+              -38.689167,
+              -3.89911
+            ],
+            [
+              -38.689103,
+              -3.899377
+            ],
+            [
+              -38.689253,
+              -3.899452
+            ],
+            [
+              -38.688577,
+              -3.900651
+            ],
+            [
+              -38.688234,
+              -3.900405
+            ],
+            [
+              -38.688041,
+              -3.900073
+            ],
+            [
+              -38.68671,
+              -3.900298
+            ],
+            [
+              -38.686614,
+              -3.900587
+            ],
+            [
+              -38.686796,
+              -3.9017
+            ],
+            [
+              -38.687054,
+              -3.901636
+            ],
+            [
+              -38.687258,
+              -3.902835
+            ],
+            [
+              -38.686904,
+              -3.902824
+            ],
+            [
+              -38.686968,
+              -3.903327
+            ],
+            [
+              -38.685552,
+              -3.903573
+            ],
+            [
+              -38.685852,
+              -3.902546
+            ],
+            [
+              -38.685037,
+              -3.902556
+            ],
+            [
+              -38.684886,
+              -3.90154
+            ],
+            [
+              -38.684554,
+              -3.901293
+            ],
+            [
+              -38.684447,
+              -3.900919
+            ],
+            [
+              -38.684811,
+              -3.900876
+            ],
+            [
+              -38.684683,
+              -3.900202
+            ],
+            [
+              -38.68464,
+              -3.899624
+            ],
+            [
+              -38.684404,
+              -3.899174
+            ],
+            [
+              -38.684296,
+              -3.899152
+            ],
+            [
+              -38.683685,
+              -3.899046
+            ],
+            [
+              -38.683138,
+              -3.899185
+            ],
+            [
+              -38.683052,
+              -3.89865
+            ],
+            [
+              -38.683256,
+              -3.898585
+            ],
+            [
+              -38.683256,
+              -3.898371
+            ],
+            [
+              -38.683127,
+              -3.898093
+            ],
+            [
+              -38.683073,
+              -3.89775
+            ],
+            [
+              -38.683545,
+              -3.897708
+            ],
+            [
+              -38.68362,
+              -3.898596
+            ],
+            [
+              -38.684393,
+              -3.898489
+            ],
+            [
+              -38.684277,
+              -3.897026
+            ],
+            [
+              -38.684824,
+              -3.896983
+            ],
+            [
+              -38.684824,
+              -3.89678
+            ],
+            [
+              -38.685007,
+              -3.89679
+            ],
+            [
+              -38.684996,
+              -3.89663
+            ],
+            [
+              -38.685146,
+              -3.896437
+            ],
+            [
+              -38.685296,
+              -3.896694
+            ],
+            [
+              -38.685962,
+              -3.896566
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.324,
+        "municipality": "MARACANAU",
+        "name": "Parque Santa Fé",
+        "nearby_streets": [
+          "PARQUE SANTA FÉ",
+          "TRAVESSA VALTER PIMENTA LÍRA",
+          "RUA AGOSTINHO FERNANDES"
+        ],
+        "nearby_streets_count": 21,
+        "node_id": 9,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 9,
+        "region": "rmf",
+        "risk_score": 71.378,
+        "score": 71.378,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.61544,
+              -3.893708
+            ],
+            [
+              -38.613938,
+              -3.893034
+            ],
+            [
+              -38.612998,
+              -3.891037
+            ],
+            [
+              -38.612823,
+              -3.89024
+            ],
+            [
+              -38.612823,
+              -3.88994
+            ],
+            [
+              -38.61087,
+              -3.889191
+            ],
+            [
+              -38.610183,
+              -3.888913
+            ],
+            [
+              -38.609733,
+              -3.888634
+            ],
+            [
+              -38.609046,
+              -3.887436
+            ],
+            [
+              -38.609226,
+              -3.887258
+            ],
+            [
+              -38.609112,
+              -3.886718
+            ],
+            [
+              -38.609815,
+              -3.884902
+            ],
+            [
+              -38.610848,
+              -3.884503
+            ],
+            [
+              -38.612737,
+              -3.885316
+            ],
+            [
+              -38.612586,
+              -3.885723
+            ],
+            [
+              -38.614389,
+              -3.886386
+            ],
+            [
+              -38.614904,
+              -3.886536
+            ],
+            [
+              -38.61544,
+              -3.887286
+            ],
+            [
+              -38.618766,
+              -3.888613
+            ],
+            [
+              -38.619088,
+              -3.88887
+            ],
+            [
+              -38.620118,
+              -3.890004
+            ],
+            [
+              -38.62059,
+              -3.890219
+            ],
+            [
+              -38.621942,
+              -3.890775
+            ],
+            [
+              -38.621663,
+              -3.891054
+            ],
+            [
+              -38.62029,
+              -3.891996
+            ],
+            [
+              -38.619467,
+              -3.892475
+            ],
+            [
+              -38.61544,
+              -3.893708
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.626,
+        "municipality": "Pacatuba",
+        "name": "Jereissati Setor H - Pacatuba",
+        "nearby_streets": [
+          "JEREISSATI SETOR H - PACATUBA",
+          "AVENIDA XVII",
+          "JEREISSATI SETOR E - MARACANAÚ"
+        ],
+        "nearby_streets_count": 21,
+        "node_id": 10,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 10,
+        "region": "rmf",
+        "risk_score": 71.005,
+        "score": 71.005,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.677132,
+              -3.906475
+            ],
+            [
+              -38.677246,
+              -3.906578
+            ],
+            [
+              -38.677203,
+              -3.906952
+            ],
+            [
+              -38.676784,
+              -3.906963
+            ],
+            [
+              -38.676849,
+              -3.907263
+            ],
+            [
+              -38.676913,
+              -3.90753
+            ],
+            [
+              -38.676677,
+              -3.907958
+            ],
+            [
+              -38.676344,
+              -3.908087
+            ],
+            [
+              -38.676344,
+              -3.908483
+            ],
+            [
+              -38.67628,
+              -3.908772
+            ],
+            [
+              -38.67599,
+              -3.908697
+            ],
+            [
+              -38.675948,
+              -3.908943
+            ],
+            [
+              -38.675583,
+              -3.908836
+            ],
+            [
+              -38.675551,
+              -3.908943
+            ],
+            [
+              -38.674708,
+              -3.908702
+            ],
+            [
+              -38.674665,
+              -3.908173
+            ],
+            [
+              -38.674789,
+              -3.908135
+            ],
+            [
+              -38.674778,
+              -3.907814
+            ],
+            [
+              -38.674907,
+              -3.907852
+            ],
+            [
+              -38.674934,
+              -3.907589
+            ],
+            [
+              -38.674912,
+              -3.907391
+            ],
+            [
+              -38.674622,
+              -3.907359
+            ],
+            [
+              -38.674655,
+              -3.907065
+            ],
+            [
+              -38.67488,
+              -3.907065
+            ],
+            [
+              -38.67504,
+              -3.906732
+            ],
+            [
+              -38.675319,
+              -3.906111
+            ],
+            [
+              -38.675845,
+              -3.906095
+            ],
+            [
+              -38.675968,
+              -3.906143
+            ],
+            [
+              -38.675947,
+              -3.906245
+            ],
+            [
+              -38.676199,
+              -3.906405
+            ],
+            [
+              -38.676381,
+              -3.906025
+            ],
+            [
+              -38.677132,
+              -3.906475
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.316,
+        "municipality": "MARACANAU",
+        "name": "Coité",
+        "nearby_streets": [
+          "COITÉ",
+          "RUA MANOEL QUEIRÓS DE OLIVEIRA",
+          "RUA OLÍMPIO MIGUEL DOS SANTOS"
+        ],
+        "nearby_streets_count": 18,
+        "node_id": 11,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 11,
+        "region": "rmf",
+        "risk_score": 70.972,
+        "score": 70.972,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.68015,
+              -3.894359
+            ],
+            [
+              -38.680542,
+              -3.895166
+            ],
+            [
+              -38.67965,
+              -3.895614
+            ],
+            [
+              -38.679037,
+              -3.896057
+            ],
+            [
+              -38.678394,
+              -3.896635
+            ],
+            [
+              -38.677278,
+              -3.897106
+            ],
+            [
+              -38.677492,
+              -3.897662
+            ],
+            [
+              -38.67716,
+              -3.898026
+            ],
+            [
+              -38.676934,
+              -3.897812
+            ],
+            [
+              -38.676354,
+              -3.898491
+            ],
+            [
+              -38.67554,
+              -3.899503
+            ],
+            [
+              -38.675046,
+              -3.89915
+            ],
+            [
+              -38.674907,
+              -3.898658
+            ],
+            [
+              -38.674134,
+              -3.898765
+            ],
+            [
+              -38.673973,
+              -3.897919
+            ],
+            [
+              -38.673372,
+              -3.898058
+            ],
+            [
+              -38.673244,
+              -3.897566
+            ],
+            [
+              -38.674059,
+              -3.897363
+            ],
+            [
+              -38.674896,
+              -3.897363
+            ],
+            [
+              -38.676666,
+              -3.897074
+            ],
+            [
+              -38.677814,
+              -3.896592
+            ],
+            [
+              -38.678028,
+              -3.896423
+            ],
+            [
+              -38.677913,
+              -3.896136
+            ],
+            [
+              -38.678182,
+              -3.895999
+            ],
+            [
+              -38.678088,
+              -3.89568
+            ],
+            [
+              -38.678596,
+              -3.895439
+            ],
+            [
+              -38.678591,
+              -3.895302
+            ],
+            [
+              -38.678917,
+              -3.895058
+            ],
+            [
+              -38.679091,
+              -3.895275
+            ],
+            [
+              -38.68015,
+              -3.894359
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.215,
+        "municipality": "MARACANAU",
+        "name": "Tangueira",
+        "nearby_streets": [
+          "TANGUEIRA",
+          "PARQUE SÃO JOÃO",
+          "RUA RAIMUNDO BONIFÁCIO DA SILVA"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 12,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 12,
+        "region": "rmf",
+        "risk_score": 70.845,
+        "score": 70.845,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.622398,
+              -3.880358
+            ],
+            [
+              -38.622403,
+              -3.879431
+            ],
+            [
+              -38.623507,
+              -3.879278
+            ],
+            [
+              -38.62355,
+              -3.879706
+            ],
+            [
+              -38.623856,
+              -3.879686
+            ],
+            [
+              -38.624354,
+              -3.879552
+            ],
+            [
+              -38.624303,
+              -3.87931
+            ],
+            [
+              -38.624694,
+              -3.879224
+            ],
+            [
+              -38.624528,
+              -3.878403
+            ],
+            [
+              -38.625491,
+              -3.878162
+            ],
+            [
+              -38.625634,
+              -3.878709
+            ],
+            [
+              -38.625671,
+              -3.879719
+            ],
+            [
+              -38.625764,
+              -3.880644
+            ],
+            [
+              -38.626054,
+              -3.880613
+            ],
+            [
+              -38.626961,
+              -3.885019
+            ],
+            [
+              -38.624242,
+              -3.885524
+            ],
+            [
+              -38.62418,
+              -3.884135
+            ],
+            [
+              -38.623451,
+              -3.884158
+            ],
+            [
+              -38.623476,
+              -3.883822
+            ],
+            [
+              -38.62358,
+              -3.883807
+            ],
+            [
+              -38.623459,
+              -3.882814
+            ],
+            [
+              -38.623334,
+              -3.882468
+            ],
+            [
+              -38.623524,
+              -3.882336
+            ],
+            [
+              -38.623294,
+              -3.881551
+            ],
+            [
+              -38.623081,
+              -3.881607
+            ],
+            [
+              -38.622986,
+              -3.881592
+            ],
+            [
+              -38.622891,
+              -3.881548
+            ],
+            [
+              -38.622834,
+              -3.88151
+            ],
+            [
+              -38.622788,
+              -3.881433
+            ],
+            [
+              -38.622482,
+              -3.880682
+            ],
+            [
+              -38.622398,
+              -3.880358
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.868,
+        "municipality": "MARACANAU",
+        "name": "Passarela",
+        "nearby_streets": [
+          "PASSARELA",
+          "RUA DO TRILHO",
+          "FAVELA DA LAGOA"
+        ],
+        "nearby_streets_count": 23,
+        "node_id": 13,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 13,
+        "region": "rmf",
+        "risk_score": 70.469,
+        "score": 70.469,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.614067,
+              -3.878646
+            ],
+            [
+              -38.612383,
+              -3.88296
+            ],
+            [
+              -38.612275,
+              -3.883077
+            ],
+            [
+              -38.611503,
+              -3.883388
+            ],
+            [
+              -38.611331,
+              -3.883377
+            ],
+            [
+              -38.607383,
+              -3.881857
+            ],
+            [
+              -38.607989,
+              -3.880273
+            ],
+            [
+              -38.608263,
+              -3.879802
+            ],
+            [
+              -38.608574,
+              -3.879906
+            ],
+            [
+              -38.609046,
+              -3.878683
+            ],
+            [
+              -38.609888,
+              -3.877648
+            ],
+            [
+              -38.610108,
+              -3.877126
+            ],
+            [
+              -38.614067,
+              -3.878646
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.716,
+        "municipality": "Maracanaú",
+        "name": "Jereissati Setor C - Maracanaú",
+        "nearby_streets": [
+          "JEREISSATI SETOR C - MARACANAÚ",
+          "RUA 31",
+          "JEREISSATI SETOR B - MARACANAÚ"
+        ],
+        "nearby_streets_count": 24,
+        "node_id": 14,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 14,
+        "region": "rmf",
+        "risk_score": 70.331,
+        "score": 70.331,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.616035,
+              -3.884363
+            ],
+            [
+              -38.620541,
+              -3.886054
+            ],
+            [
+              -38.621088,
+              -3.887435
+            ],
+            [
+              -38.62141,
+              -3.888077
+            ],
+            [
+              -38.621507,
+              -3.888398
+            ],
+            [
+              -38.621517,
+              -3.888559
+            ],
+            [
+              -38.621496,
+              -3.888666
+            ],
+            [
+              -38.621233,
+              -3.889404
+            ],
+            [
+              -38.621185,
+              -3.889479
+            ],
+            [
+              -38.619742,
+              -3.888912
+            ],
+            [
+              -38.619645,
+              -3.888826
+            ],
+            [
+              -38.619152,
+              -3.888238
+            ],
+            [
+              -38.616641,
+              -3.887253
+            ],
+            [
+              -38.615654,
+              -3.886429
+            ],
+            [
+              -38.61618,
+              -3.885005
+            ],
+            [
+              -38.616223,
+              -3.884834
+            ],
+            [
+              -38.616035,
+              -3.884363
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.828,
+        "municipality": "Maracanaú",
+        "name": "Jereissati Setor E - Maracanaú",
+        "nearby_streets": [
+          "JEREISSATI SETOR E - MARACANAÚ",
+          "BOA VISTA - MARACANAÚ",
+          "JEREISSATI SETOR H - PACATUBA"
+        ],
+        "nearby_streets_count": 23,
+        "node_id": 15,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 15,
+        "region": "rmf",
+        "risk_score": 70.257,
+        "score": 70.257,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.628058,
+              -3.864243
+            ],
+            [
+              -38.62887,
+              -3.864619
+            ],
+            [
+              -38.628098,
+              -3.866588
+            ],
+            [
+              -38.62857,
+              -3.86677
+            ],
+            [
+              -38.628344,
+              -3.867413
+            ],
+            [
+              -38.631093,
+              -3.868286
+            ],
+            [
+              -38.628312,
+              -3.87569
+            ],
+            [
+              -38.625305,
+              -3.874468
+            ],
+            [
+              -38.624777,
+              -3.874082
+            ],
+            [
+              -38.624682,
+              -3.873786
+            ],
+            [
+              -38.62455,
+              -3.87334
+            ],
+            [
+              -38.628058,
+              -3.864243
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.467,
+        "municipality": "MARACANAU",
+        "name": "Piratininga",
+        "nearby_streets": [
+          "PIRATININGA",
+          "COQUEIRAL - MARACANAÚ",
+          "RUA 15"
+        ],
+        "nearby_streets_count": 20,
+        "node_id": 16,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 16,
+        "region": "rmf",
+        "risk_score": 70.133,
+        "score": 70.133,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.67089,
+              -3.882873
+            ],
+            [
+              -38.671041,
+              -3.883008
+            ],
+            [
+              -38.671294,
+              -3.88324
+            ],
+            [
+              -38.67142,
+              -3.883138
+            ],
+            [
+              -38.671561,
+              -3.883301
+            ],
+            [
+              -38.671946,
+              -3.882866
+            ],
+            [
+              -38.67207,
+              -3.882939
+            ],
+            [
+              -38.674298,
+              -3.885204
+            ],
+            [
+              -38.674174,
+              -3.885355
+            ],
+            [
+              -38.673872,
+              -3.88547
+            ],
+            [
+              -38.673144,
+              -3.886036
+            ],
+            [
+              -38.672917,
+              -3.885982
+            ],
+            [
+              -38.672636,
+              -3.88606
+            ],
+            [
+              -38.672452,
+              -3.886155
+            ],
+            [
+              -38.672208,
+              -3.88621
+            ],
+            [
+              -38.67214,
+              -3.886109
+            ],
+            [
+              -38.67201,
+              -3.886173
+            ],
+            [
+              -38.671578,
+              -3.886299
+            ],
+            [
+              -38.671477,
+              -3.886233
+            ],
+            [
+              -38.671215,
+              -3.886332
+            ],
+            [
+              -38.671104,
+              -3.886264
+            ],
+            [
+              -38.670941,
+              -3.886373
+            ],
+            [
+              -38.670718,
+              -3.886248
+            ],
+            [
+              -38.670573,
+              -3.886082
+            ],
+            [
+              -38.670271,
+              -3.885777
+            ],
+            [
+              -38.670629,
+              -3.885351
+            ],
+            [
+              -38.670022,
+              -3.884826
+            ],
+            [
+              -38.670924,
+              -3.883951
+            ],
+            [
+              -38.67035,
+              -3.883366
+            ],
+            [
+              -38.67089,
+              -3.882873
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.742,
+        "municipality": "MARACANAU",
+        "name": "Comunidade do Prourb",
+        "nearby_streets": [
+          "COMUNIDADE DO PROURB",
+          "CONDOMÍNIO DA PALMEIRINHA",
+          "MORORÓ"
+        ],
+        "nearby_streets_count": 21,
+        "node_id": 17,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 17,
+        "region": "rmf",
+        "risk_score": 69.922,
+        "score": 69.922,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.609086,
+              -3.883559
+            ],
+            [
+              -38.608356,
+              -3.885486
+            ],
+            [
+              -38.608163,
+              -3.885957
+            ],
+            [
+              -38.608449,
+              -3.886086
+            ],
+            [
+              -38.608442,
+              -3.886381
+            ],
+            [
+              -38.609046,
+              -3.887436
+            ],
+            [
+              -38.610223,
+              -3.889478
+            ],
+            [
+              -38.607541,
+              -3.890988
+            ],
+            [
+              -38.604462,
+              -3.885036
+            ],
+            [
+              -38.604483,
+              -3.884897
+            ],
+            [
+              -38.604773,
+              -3.884201
+            ],
+            [
+              -38.605009,
+              -3.883859
+            ],
+            [
+              -38.60561,
+              -3.883152
+            ],
+            [
+              -38.605803,
+              -3.883024
+            ],
+            [
+              -38.606919,
+              -3.882777
+            ],
+            [
+              -38.607208,
+              -3.88282
+            ],
+            [
+              -38.609086,
+              -3.883559
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.406,
+        "municipality": "Pacatuba",
+        "name": "Jereissati Setor G - Pacatuba",
+        "nearby_streets": [
+          "JEREISSATI SETOR G - PACATUBA",
+          "RESIDENCIAL PACATUBA 2",
+          "CAMPOS DO JORDÃO"
+        ],
+        "nearby_streets_count": 23,
+        "node_id": 18,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 18,
+        "region": "rmf",
+        "risk_score": 69.712,
+        "score": 69.712,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.952839,
               -3.744318
             ],
@@ -152,7 +3006,7 @@
           "ESTRADA PARÁ AGRIVILA"
         ],
         "nearby_streets_count": 4,
-        "node_id": 1,
+        "node_id": 19,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
@@ -463,7 +3317,7 @@
           "RUA MARIA DO PATROCÍNIO"
         ],
         "nearby_streets_count": 5,
-        "node_id": 2,
+        "node_id": 20,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
@@ -564,6 +3418,669 @@
         "coordinates": [
           [
             [
+              -38.628237,
+              -3.87571
+            ],
+            [
+              -38.628078,
+              -3.876126
+            ],
+            [
+              -38.627227,
+              -3.875813
+            ],
+            [
+              -38.626699,
+              -3.877262
+            ],
+            [
+              -38.626824,
+              -3.877996
+            ],
+            [
+              -38.626537,
+              -3.878053
+            ],
+            [
+              -38.626608,
+              -3.878504
+            ],
+            [
+              -38.62635,
+              -3.87855
+            ],
+            [
+              -38.626188,
+              -3.877818
+            ],
+            [
+              -38.626378,
+              -3.877277
+            ],
+            [
+              -38.626206,
+              -3.877255
+            ],
+            [
+              -38.625646,
+              -3.877299
+            ],
+            [
+              -38.625246,
+              -3.875775
+            ],
+            [
+              -38.626367,
+              -3.875622
+            ],
+            [
+              -38.626534,
+              -3.875287
+            ],
+            [
+              -38.627092,
+              -3.875496
+            ],
+            [
+              -38.627185,
+              -3.87531
+            ],
+            [
+              -38.628237,
+              -3.87571
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.553,
+        "municipality": "MARACANAU",
+        "name": "Favela Da Lagoa",
+        "nearby_streets": [
+          "FAVELA DA LAGOA",
+          "RUA 15",
+          "RUA DO TRILHO"
+        ],
+        "nearby_streets_count": 20,
+        "node_id": 23,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 23,
+        "region": "rmf",
+        "risk_score": 69.389,
+        "score": 69.389,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.692773,
+              -3.919287
+            ],
+            [
+              -38.693396,
+              -3.919193
+            ],
+            [
+              -38.693604,
+              -3.919858
+            ],
+            [
+              -38.69359,
+              -3.920303
+            ],
+            [
+              -38.693184,
+              -3.920725
+            ],
+            [
+              -38.692945,
+              -3.921855
+            ],
+            [
+              -38.692661,
+              -3.921855
+            ],
+            [
+              -38.692618,
+              -3.922517
+            ],
+            [
+              -38.6913,
+              -3.922259
+            ],
+            [
+              -38.691569,
+              -3.923259
+            ],
+            [
+              -38.691552,
+              -3.923541
+            ],
+            [
+              -38.68911,
+              -3.923082
+            ],
+            [
+              -38.688316,
+              -3.920088
+            ],
+            [
+              -38.688288,
+              -3.918348
+            ],
+            [
+              -38.692059,
+              -3.919073
+            ],
+            [
+              -38.692773,
+              -3.919287
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.333,
+        "municipality": "MARACANAU",
+        "name": "Alta Delta",
+        "nearby_streets": [
+          "ALTA DELTA",
+          "RUA MANOEL NUNES DO NASCIMENTO",
+          "RUA MUNDINHO CARLOS"
+        ],
+        "nearby_streets_count": 15,
+        "node_id": 24,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 24,
+        "region": "rmf",
+        "risk_score": 69.375,
+        "score": 69.375,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.621834,
+              -3.869997
+            ],
+            [
+              -38.622295,
+              -3.870591
+            ],
+            [
+              -38.623062,
+              -3.871644
+            ],
+            [
+              -38.623105,
+              -3.871791
+            ],
+            [
+              -38.623078,
+              -3.871839
+            ],
+            [
+              -38.62327,
+              -3.87208
+            ],
+            [
+              -38.623246,
+              -3.872124
+            ],
+            [
+              -38.623328,
+              -3.872184
+            ],
+            [
+              -38.623108,
+              -3.872567
+            ],
+            [
+              -38.62293,
+              -3.872892
+            ],
+            [
+              -38.622868,
+              -3.873017
+            ],
+            [
+              -38.622215,
+              -3.872654
+            ],
+            [
+              -38.621472,
+              -3.872339
+            ],
+            [
+              -38.62146,
+              -3.872355
+            ],
+            [
+              -38.621273,
+              -3.872279
+            ],
+            [
+              -38.620489,
+              -3.870889
+            ],
+            [
+              -38.620386,
+              -3.870768
+            ],
+            [
+              -38.620289,
+              -3.870714
+            ],
+            [
+              -38.620144,
+              -3.87068
+            ],
+            [
+              -38.620026,
+              -3.870654
+            ],
+            [
+              -38.62004,
+              -3.870565
+            ],
+            [
+              -38.620158,
+              -3.87058
+            ],
+            [
+              -38.621213,
+              -3.870249
+            ],
+            [
+              -38.621834,
+              -3.869997
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.527,
+        "municipality": "MARACANAU",
+        "name": "Ouro preto",
+        "nearby_streets": [
+          "OURO PRETO",
+          "RUA 15",
+          "JEREISSATI SETOR A - MARACANAÚ"
+        ],
+        "nearby_streets_count": 20,
+        "node_id": 25,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 25,
+        "region": "rmf",
+        "risk_score": 69.368,
+        "score": 69.368,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.606629,
+              -3.889457
+            ],
+            [
+              -38.606849,
+              -3.889883
+            ],
+            [
+              -38.606583,
+              -3.890124
+            ],
+            [
+              -38.606794,
+              -3.890487
+            ],
+            [
+              -38.605697,
+              -3.891461
+            ],
+            [
+              -38.605132,
+              -3.890825
+            ],
+            [
+              -38.606629,
+              -3.889457
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.544,
+        "municipality": "MARACANAU",
+        "name": "Residencial Pacatuba 2",
+        "nearby_streets": [
+          "RESIDENCIAL PACATUBA 2",
+          "RESIDENCIAL PACATUBA 1",
+          "JEREISSATI SETOR G - PACATUBA"
+        ],
+        "nearby_streets_count": 18,
+        "node_id": 26,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 26,
+        "region": "rmf",
+        "risk_score": 69.308,
+        "score": 69.308,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.68731,
+              -3.903733
+            ],
+            [
+              -38.687557,
+              -3.903861
+            ],
+            [
+              -38.687986,
+              -3.904214
+            ],
+            [
+              -38.688286,
+              -3.904728
+            ],
+            [
+              -38.688608,
+              -3.904685
+            ],
+            [
+              -38.688651,
+              -3.904932
+            ],
+            [
+              -38.689767,
+              -3.904675
+            ],
+            [
+              -38.69011,
+              -3.904675
+            ],
+            [
+              -38.690378,
+              -3.904814
+            ],
+            [
+              -38.691129,
+              -3.904364
+            ],
+            [
+              -38.691356,
+              -3.904803
+            ],
+            [
+              -38.690712,
+              -3.905242
+            ],
+            [
+              -38.690262,
+              -3.905349
+            ],
+            [
+              -38.690347,
+              -3.905788
+            ],
+            [
+              -38.689478,
+              -3.905788
+            ],
+            [
+              -38.689242,
+              -3.905895
+            ],
+            [
+              -38.689317,
+              -3.906098
+            ],
+            [
+              -38.689103,
+              -3.906312
+            ],
+            [
+              -38.689908,
+              -3.907737
+            ],
+            [
+              -38.689018,
+              -3.908165
+            ],
+            [
+              -38.687913,
+              -3.908508
+            ],
+            [
+              -38.687827,
+              -3.908272
+            ],
+            [
+              -38.685102,
+              -3.909278
+            ],
+            [
+              -38.684769,
+              -3.908336
+            ],
+            [
+              -38.684565,
+              -3.908433
+            ],
+            [
+              -38.68448,
+              -3.908058
+            ],
+            [
+              -38.686024,
+              -3.907566
+            ],
+            [
+              -38.68596,
+              -3.907084
+            ],
+            [
+              -38.685681,
+              -3.907138
+            ],
+            [
+              -38.685617,
+              -3.906527
+            ],
+            [
+              -38.685799,
+              -3.906495
+            ],
+            [
+              -38.685756,
+              -3.906249
+            ],
+            [
+              -38.684565,
+              -3.906699
+            ],
+            [
+              -38.684093,
+              -3.906806
+            ],
+            [
+              -38.683997,
+              -3.906506
+            ],
+            [
+              -38.684737,
+              -3.906292
+            ],
+            [
+              -38.684973,
+              -3.905104
+            ],
+            [
+              -38.684276,
+              -3.905403
+            ],
+            [
+              -38.684404,
+              -3.903723
+            ],
+            [
+              -38.685552,
+              -3.903573
+            ],
+            [
+              -38.686968,
+              -3.903327
+            ],
+            [
+              -38.68731,
+              -3.903733
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.217,
+        "municipality": "MARACANAU",
+        "name": "Santos Dumont",
+        "nearby_streets": [
+          "SANTOS DUMONT",
+          "RUA GUIOMAR CÂMARA",
+          "RUA VALDECY SOUSA DE OLIVEIRA"
+        ],
+        "nearby_streets_count": 19,
+        "node_id": 27,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 27,
+        "region": "rmf",
+        "risk_score": 69.248,
+        "score": 69.248,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.671995,
               -3.727163
             ],
@@ -624,7 +4141,14 @@
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
         "parent_status": "CRÍTICO",
-        "rank": 4,
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0568,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Segunda-feira, entre 18hs e 23hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.1654,
+        "rank": 33,
         "region": "rmf",
         "risk_score": 67.249,
         "score": 67.249,
@@ -920,7 +4444,7 @@
           "RUA FCO. JEOVÁ DA MOTA"
         ],
         "nearby_streets_count": 3,
-        "node_id": 5,
+        "node_id": 35,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
@@ -1386,7 +4910,7 @@
           "TAQUARA - CAUCAIA"
         ],
         "nearby_streets_count": 2,
-        "node_id": 6,
+        "node_id": 38,
         "parent_area": "URUCUTUBA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
@@ -1792,6 +5316,224 @@
         "coordinates": [
           [
             [
+              -38.670645,
+              -3.877235
+            ],
+            [
+              -38.671159,
+              -3.877726
+            ],
+            [
+              -38.671879,
+              -3.877041
+            ],
+            [
+              -38.672788,
+              -3.878022
+            ],
+            [
+              -38.675879,
+              -3.881212
+            ],
+            [
+              -38.673159,
+              -3.883905
+            ],
+            [
+              -38.671946,
+              -3.882866
+            ],
+            [
+              -38.671561,
+              -3.883301
+            ],
+            [
+              -38.67142,
+              -3.883138
+            ],
+            [
+              -38.671294,
+              -3.88324
+            ],
+            [
+              -38.67089,
+              -3.882873
+            ],
+            [
+              -38.671284,
+              -3.882436
+            ],
+            [
+              -38.669978,
+              -3.881124
+            ],
+            [
+              -38.669807,
+              -3.881224
+            ],
+            [
+              -38.669202,
+              -3.880501
+            ],
+            [
+              -38.67007,
+              -3.879634
+            ],
+            [
+              -38.669655,
+              -3.879228
+            ],
+            [
+              -38.669719,
+              -3.879026
+            ],
+            [
+              -38.669322,
+              -3.878522
+            ],
+            [
+              -38.670645,
+              -3.877235
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.544,
+        "municipality": "MARACANAU",
+        "name": "Campo do Palmeiras",
+        "nearby_streets": [
+          "CAMPO DO PALMEIRAS",
+          "CONDOMÍNIO DA PALMEIRINHA",
+          "ILHA"
+        ],
+        "nearby_streets_count": 15,
+        "node_id": 40,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 40,
+        "region": "rmf",
+        "risk_score": 67.949,
+        "score": 67.949,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.679663,
+              -3.87396
+            ],
+            [
+              -38.679642,
+              -3.874945
+            ],
+            [
+              -38.679801,
+              -3.874951
+            ],
+            [
+              -38.679797,
+              -3.875319
+            ],
+            [
+              -38.679221,
+              -3.875745
+            ],
+            [
+              -38.6791,
+              -3.875852
+            ],
+            [
+              -38.67852,
+              -3.875814
+            ],
+            [
+              -38.678581,
+              -3.874769
+            ],
+            [
+              -38.678641,
+              -3.874768
+            ],
+            [
+              -38.678657,
+              -3.873946
+            ],
+            [
+              -38.679663,
+              -3.87396
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.821,
+        "municipality": "MARACANAU",
+        "name": "Condomínio da Santa",
+        "nearby_streets": [
+          "CONDOMÍNIO DA SANTA",
+          "RUA GONÇALO CÂNDIDO",
+          "RUA LOTEAMENTO"
+        ],
+        "nearby_streets_count": 17,
+        "node_id": 41,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 41,
+        "region": "rmf",
+        "risk_score": 67.856,
+        "score": 67.856,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.667567,
               -3.742208
             ],
@@ -1861,6 +5603,168 @@
         "risk_score": 65.766,
         "score": 65.766,
         "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.610217,
+              -3.876918
+            ],
+            [
+              -38.613017,
+              -3.873064
+            ],
+            [
+              -38.61497,
+              -3.873814
+            ],
+            [
+              -38.615935,
+              -3.875998
+            ],
+            [
+              -38.615978,
+              -3.876126
+            ],
+            [
+              -38.615259,
+              -3.878031
+            ],
+            [
+              -38.614176,
+              -3.878492
+            ],
+            [
+              -38.610217,
+              -3.876918
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.559,
+        "municipality": "Maracanaú",
+        "name": "Jereissati Setor B - Maracanaú",
+        "nearby_streets": [
+          "JEREISSATI SETOR B - MARACANAÚ",
+          "JEREISSATI SETOR C - MARACANAÚ",
+          "JEREISSATI SETOR A - MARACANAÚ"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 43,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 43,
+        "region": "rmf",
+        "risk_score": 67.804,
+        "score": 67.804,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.598877,
+              -3.88007
+            ],
+            [
+              -38.598913,
+              -3.880079
+            ],
+            [
+              -38.599296,
+              -3.880753
+            ],
+            [
+              -38.599311,
+              -3.881421
+            ],
+            [
+              -38.598988,
+              -3.881513
+            ],
+            [
+              -38.598347,
+              -3.881517
+            ],
+            [
+              -38.598269,
+              -3.881544
+            ],
+            [
+              -38.597935,
+              -3.880321
+            ],
+            [
+              -38.598877,
+              -3.88007
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.713701",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.743,
+        "municipality": "MARACANAU",
+        "name": "Residencial Dummar 1",
+        "nearby_streets": [
+          "RESIDENCIAL DUMMAR 1",
+          "RESIDENCIAL DUMMAR 2",
+          "RESIDENCIAL DUMMAR 3"
+        ],
+        "nearby_streets_count": 15,
+        "node_id": 44,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 44,
+        "region": "rmf",
+        "risk_score": 67.685,
+        "score": 67.685,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
       },
       "type": "Feature"
     },
@@ -2631,7 +6535,14 @@
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
         "parent_status": "CRÍTICO",
-        "rank": 12,
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0568,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Segunda-feira, entre 18hs e 23hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.1654,
+        "rank": 58,
         "region": "rmf",
         "risk_score": 64.95,
         "score": 64.95,
@@ -5300,7 +9211,7 @@
           "DISTRITO DE BOLSO"
         ],
         "nearby_streets_count": 1,
-        "node_id": 25,
+        "node_id": 72,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 79.9,
@@ -6015,6 +9926,145 @@
         "coordinates": [
           [
             [
+              -38.649185,
+              -3.861919
+            ],
+            [
+              -38.64969,
+              -3.861423
+            ],
+            [
+              -38.650198,
+              -3.86093
+            ],
+            [
+              -38.650874,
+              -3.86163
+            ],
+            [
+              -38.65066,
+              -3.86192
+            ],
+            [
+              -38.65116,
+              -3.862421
+            ],
+            [
+              -38.651752,
+              -3.862984
+            ],
+            [
+              -38.651989,
+              -3.863397
+            ],
+            [
+              -38.652225,
+              -3.863713
+            ],
+            [
+              -38.651736,
+              -3.86478
+            ],
+            [
+              -38.651346,
+              -3.8655
+            ],
+            [
+              -38.650816,
+              -3.865233
+            ],
+            [
+              -38.650729,
+              -3.865348
+            ],
+            [
+              -38.65051,
+              -3.865233
+            ],
+            [
+              -38.650415,
+              -3.865321
+            ],
+            [
+              -38.650092,
+              -3.865132
+            ],
+            [
+              -38.65056,
+              -3.864199
+            ],
+            [
+              -38.650508,
+              -3.864114
+            ],
+            [
+              -38.650102,
+              -3.863876
+            ],
+            [
+              -38.649999,
+              -3.863883
+            ],
+            [
+              -38.649282,
+              -3.863162
+            ],
+            [
+              -38.649856,
+              -3.862609
+            ],
+            [
+              -38.649185,
+              -3.861919
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.716243",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 4.105,
+        "municipality": "MARACANAU",
+        "name": "Mutirão",
+        "nearby_streets": [
+          "MUTIRÃO",
+          "COMUNIDADE DO PAU SERRADO",
+          "LUZARDO VIANA"
+        ],
+        "nearby_streets_count": 9,
+        "node_id": 74,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 74,
+        "region": "rmf",
+        "risk_score": 64.521,
+        "score": 64.521,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.911258,
               -3.682817
             ],
@@ -6316,6 +10366,399 @@
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-07",
         "temporal_sample_size": 389
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.62147,
+              -3.903584
+            ],
+            [
+              -38.620633,
+              -3.903348
+            ],
+            [
+              -38.616867,
+              -3.902952
+            ],
+            [
+              -38.617371,
+              -3.901272
+            ],
+            [
+              -38.618154,
+              -3.899195
+            ],
+            [
+              -38.619141,
+              -3.899302
+            ],
+            [
+              -38.622736,
+              -3.899681
+            ],
+            [
+              -38.622682,
+              -3.899891
+            ],
+            [
+              -38.622542,
+              -3.900244
+            ],
+            [
+              -38.621984,
+              -3.902139
+            ],
+            [
+              -38.621706,
+              -3.902717
+            ],
+            [
+              -38.62147,
+              -3.903584
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.716243",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.891,
+        "municipality": "MARACANAU",
+        "name": "Planalto Verde",
+        "nearby_streets": [
+          "PLANALTO VERDE",
+          "HORTO",
+          "VILA DAS FLORES"
+        ],
+        "nearby_streets_count": 12,
+        "node_id": 77,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 77,
+        "region": "rmf",
+        "risk_score": 64.405,
+        "score": 64.405,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.655306,
+              -3.859933
+            ],
+            [
+              -38.656883,
+              -3.861585
+            ],
+            [
+              -38.656085,
+              -3.86236
+            ],
+            [
+              -38.655813,
+              -3.862176
+            ],
+            [
+              -38.654852,
+              -3.863303
+            ],
+            [
+              -38.654959,
+              -3.863401
+            ],
+            [
+              -38.654389,
+              -3.86399
+            ],
+            [
+              -38.654432,
+              -3.8641
+            ],
+            [
+              -38.654507,
+              -3.864334
+            ],
+            [
+              -38.65476,
+              -3.864641
+            ],
+            [
+              -38.654237,
+              -3.865141
+            ],
+            [
+              -38.653757,
+              -3.865644
+            ],
+            [
+              -38.653517,
+              -3.865483
+            ],
+            [
+              -38.653249,
+              -3.865225
+            ],
+            [
+              -38.652103,
+              -3.866176
+            ],
+            [
+              -38.651679,
+              -3.866829
+            ],
+            [
+              -38.651526,
+              -3.867041
+            ],
+            [
+              -38.651265,
+              -3.866896
+            ],
+            [
+              -38.650917,
+              -3.867329
+            ],
+            [
+              -38.650809,
+              -3.867305
+            ],
+            [
+              -38.650594,
+              -3.867094
+            ],
+            [
+              -38.651309,
+              -3.865579
+            ],
+            [
+              -38.651639,
+              -3.864973
+            ],
+            [
+              -38.651844,
+              -3.864545
+            ],
+            [
+              -38.652414,
+              -3.863305
+            ],
+            [
+              -38.655306,
+              -3.859933
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.716243",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.931,
+        "municipality": "MARACANAU",
+        "name": "Comunidade do Pau Serrado",
+        "nearby_streets": [
+          "COMUNIDADE DO PAU SERRADO",
+          "MUTIRÃO",
+          "RUA PEDRO ALVES DA CUNHA"
+        ],
+        "nearby_streets_count": 11,
+        "node_id": 78,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 78,
+        "region": "rmf",
+        "risk_score": 64.38,
+        "score": 64.38,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.647806,
+              -3.86453
+            ],
+            [
+              -38.648776,
+              -3.865398
+            ],
+            [
+              -38.648626,
+              -3.865721
+            ],
+            [
+              -38.648413,
+              -3.865981
+            ],
+            [
+              -38.64768,
+              -3.86729
+            ],
+            [
+              -38.6475,
+              -3.867211
+            ],
+            [
+              -38.647236,
+              -3.867556
+            ],
+            [
+              -38.647635,
+              -3.86791
+            ],
+            [
+              -38.647413,
+              -3.868198
+            ],
+            [
+              -38.647199,
+              -3.868459
+            ],
+            [
+              -38.647005,
+              -3.868534
+            ],
+            [
+              -38.64663,
+              -3.868325
+            ],
+            [
+              -38.646753,
+              -3.868073
+            ],
+            [
+              -38.646161,
+              -3.8675
+            ],
+            [
+              -38.646615,
+              -3.866852
+            ],
+            [
+              -38.646336,
+              -3.866404
+            ],
+            [
+              -38.646542,
+              -3.866101
+            ],
+            [
+              -38.646498,
+              -3.865969
+            ],
+            [
+              -38.646769,
+              -3.865688
+            ],
+            [
+              -38.64694,
+              -3.865741
+            ],
+            [
+              -38.647142,
+              -3.865489
+            ],
+            [
+              -38.647229,
+              -3.865544
+            ],
+            [
+              -38.647706,
+              -3.86486
+            ],
+            [
+              -38.647619,
+              -3.864742
+            ],
+            [
+              -38.647806,
+              -3.86453
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARACANAÚ",
+        "faction": "CV",
+        "generated_at": "2026-08-08T12:19:49.716243",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.816,
+        "municipality": "MARACANAU",
+        "name": "Quadras do Luzardo Viana",
+        "nearby_streets": [
+          "QUADRAS DO LUZARDO VIANA",
+          "MUTIRÃO",
+          "COMUNIDADE DO PAU SERRADO"
+        ],
+        "nearby_streets_count": 11,
+        "node_id": 79,
+        "parent_area": "MARACANAÚ",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 73.2,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 23,
+        "peak_hour_share": 0.0784,
+        "peak_hour_start": 18,
+        "peak_hours": "Entre 18hs e 23hs",
+        "peak_time_label": "Terca-feira, entre 18hs e 23hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.1804,
+        "rank": 79,
+        "region": "rmf",
+        "risk_score": 63.872,
+        "score": 63.872,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 255
       },
       "type": "Feature"
     },

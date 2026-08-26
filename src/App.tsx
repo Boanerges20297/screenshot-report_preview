@@ -527,9 +527,9 @@ function App() {
             showCvliPoints={showCvliPoints}
             onSelectTerritory={(id) => {
               setSelectedId(id)
-              setFocusTrigger((n) => n + 1)
               setDetailTab('indicadores')
             }}
+            onFocusTerritory={() => setFocusTrigger((n) => n + 1)}
           />
         </section>
 
