@@ -1,29 +1,29 @@
 {
   "global": {
-    "total_nodes": 170,
-    "active_locations": 8,
-    "top_region": "rmf",
-    "top_name": "CAUCAIA",
-    "avg_risk": 11.38
+    "total_nodes": 79,
+    "active_locations": 20,
+    "top_region": "interior",
+    "top_name": "BOA VIAGEM",
+    "avg_risk": 32.71
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 101,
-      "avg_risk": 7.58,
-      "max_risk": 78.4,
-      "top_name": "BARRA DO CEARA"
+      "total_nodes": 40,
+      "avg_risk": 32.29,
+      "max_risk": 93.2,
+      "top_name": "MESSEJANA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 13.67,
-      "max_risk": 97.7,
+      "avg_risk": 23.08,
+      "max_risk": 100.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
-      "total_nodes": 50,
-      "avg_risk": 18.17,
-      "max_risk": 94.4,
-      "top_name": "SOBRAL"
+      "total_nodes": 20,
+      "avg_risk": 42.71,
+      "max_risk": 100.0,
+      "top_name": "BOA VIAGEM"
     }
   }
 }
