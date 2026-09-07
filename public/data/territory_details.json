@@ -400,10 +400,10 @@
     "municipality": "SOBRAL",
     "region": "interior",
     "faction": "CV",
-    "recent_cvli": 0,
+    "recent_cvli": 1,
     "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": -2.0,
+    "momentum_7d": 1.0,
+    "momentum_14d": 1.0,
     "critical_streets": [
       {
         "cvli": 2,
@@ -599,12 +599,12 @@
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "RUA PEDRO MOITA",
+        "loc": "AVENIDA OTÁVIO FELICIANO DE SOUZA",
         "score": 4
       },
       {
         "cvli": 1,
-        "loc": "AVENIDA OTÁVIO FELICIANO DE SOUZA",
+        "loc": "RUA PEDRO MOITA",
         "score": 4
       },
       {
@@ -31889,12 +31889,12 @@
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "RUA PARGO",
+        "loc": "ROTA DO SOL NASCENTE",
         "score": 4
       },
       {
         "cvli": 1,
-        "loc": "ROTA DO SOL NASCENTE",
+        "loc": "RUA PARGO",
         "score": 4
       },
       {

@@ -3167,7 +3167,7 @@
         "type": "Polygon"
       },
       "properties": {
-        "bairro": "BARRA DO CEARÁ",
+        "bairro": "PREFEITO JOSÉ WALTER",
         "faction": "CV",
         "generated_at": "2026-09-07T17:16:13.073000",
         "geometry_type": "Polygon",
@@ -4202,60 +4202,103 @@
               -3.702936
             ],
             [
-              -38.568874,
-              -3.702546
+              -38.58281,
+              -3.706953
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BARRA DO CEARÁ",
+        "faction": "CV",
+        "generated_at": "2026-08-26T14:16:40.173353",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 22.689,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Gueto",
+        "nearby_streets": [
+          "COMUNIDADE DO GUETO",
+          "BECO DA 20",
+          "CONJUNTO 7 PRÉDIOS"
+        ],
+        "nearby_streets_count": 83,
+        "node_id": 33,
+        "parent_area": "BARRA DO CEARÁ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 38.5,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 17,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 12,
+        "peak_hours": "Entre 12hs e 17hs",
+        "peak_time_label": "Sexta-feira, entre 12hs e 17hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 33,
+        "region": "fortaleza",
+        "risk_score": 46.358,
+        "score": 46.358,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 44
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.573113,
+              -3.701367
             ],
             [
-              -38.569405,
-              -3.702433
+              -38.573171,
+              -3.701493
             ],
             [
-              -38.569606,
-              -3.70239
+              -38.573362,
+              -3.701418
             ],
             [
-              -38.570027,
-              -3.70224
+              -38.573388,
+              -3.70144
             ],
             [
-              -38.570258,
-              -3.702098
+              -38.573483,
+              -3.701628
             ],
             [
-              -38.5704,
-              -3.702074
+              -38.57351,
+              -3.70163
             ],
             [
-              -38.570682,
-              -3.701978
+              -38.573683,
+              -3.702136
             ],
             [
-              -38.570663,
-              -3.701908
+              -38.573565,
+              -3.702207
             ],
             [
-              -38.571062,
-              -3.701737
+              -38.573737,
+              -3.702661
             ],
             [
-              -38.57113,
-              -3.701937
+              -38.573714,
+              -3.702746
             ],
             [
-              -38.571241,
-              -3.701885
+              -38.572397,
+              -3.703263
             ],
             [
-              -38.57126,
-              -3.701948
-            ],
-            [
-              -38.571533,
-              -3.701848
-            ],
-            [
-              -38.571667,
-              -3.702303
+              -38.57209,
+              -3.702672
             ],
             [
               -38.571931,

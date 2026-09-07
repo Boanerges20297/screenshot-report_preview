@@ -351,9 +351,9 @@
       "confidence_pct": 61.9,
       "recommendation": "Manter operações regulares e monitorar tendências.",
       "source": "computed",
-      "state_temperature_color": "#A8DADC",
-      "state_temperature_label": "Baixo",
-      "state_temperature_pct": 20.4
+      "state_temperature_color": "#F4A261",
+      "state_temperature_label": "Moderado",
+      "state_temperature_pct": 32.7
     },
     "model_architecture": "ST-GAT v5 (DeepSTGAT_v5 Ativo) (Comparativo Fortaleza)",
     "model_window_cvli": 120,
@@ -389,7 +389,7 @@
       {
         "cidade": "BOA VIAGEM",
         "name": "BOA VIAGEM",
-        "node_id": 3686,
+        "node_id": 51,
         "peak_hours": "Entre 04hs e 09hs",
         "peak_time_label": "Segunda-feira, entre 04hs e 09hs",
         "peak_weekday": "Segunda-feira",
@@ -400,7 +400,7 @@
       {
         "cidade": "CAUCAIA",
         "name": "CAUCAIA",
-        "node_id": 3695,
+        "node_id": 60,
         "peak_hours": "Entre 18hs e 23hs",
         "peak_time_label": "Segunda-feira, entre 18hs e 23hs",
         "peak_weekday": "Segunda-feira",
@@ -455,7 +455,7 @@
       {
         "cidade": "ITAPAJE",
         "name": "ITAPAJE",
-        "node_id": 3685,
+        "node_id": 50,
         "peak_hours": "Entre 00hs e 05hs",
         "peak_time_label": "Sexta-feira, entre 00hs e 05hs",
         "peak_weekday": "Sexta-feira",
@@ -614,7 +614,7 @@
         {
           "cidade": "BOA VIAGEM",
           "name": "BOA VIAGEM",
-          "node_id": 3686,
+          "node_id": 51,
           "peak_hours": "Entre 04hs e 09hs",
           "peak_time_label": "Segunda-feira, entre 04hs e 09hs",
           "peak_weekday": "Segunda-feira",
@@ -647,7 +647,7 @@
         {
           "cidade": "ITAPAJE",
           "name": "ITAPAJE",
-          "node_id": 3685,
+          "node_id": 50,
           "peak_hours": "Entre 00hs e 05hs",
           "peak_time_label": "Sexta-feira, entre 00hs e 05hs",
           "peak_weekday": "Sexta-feira",
@@ -680,7 +680,7 @@
         {
           "cidade": "SOBRAL",
           "name": "SOBRAL",
-          "node_id": 3675,
+          "node_id": 40,
           "peak_hours": "Entre 16hs e 21hs",
           "peak_time_label": "Segunda-feira, entre 16hs e 21hs",
           "peak_weekday": "Segunda-feira",
@@ -838,7 +838,7 @@
         {
           "cidade": "CAUCAIA",
           "name": "CAUCAIA",
-          "node_id": 3695,
+          "node_id": 60,
           "peak_hours": "Entre 18hs e 23hs",
           "peak_time_label": "Segunda-feira, entre 18hs e 23hs",
           "peak_weekday": "Segunda-feira",
@@ -849,7 +849,7 @@
         {
           "cidade": "MARACANAU",
           "name": "MARACANAU",
-          "node_id": 3696,
+          "node_id": 61,
           "peak_hours": "Entre 18hs e 23hs",
           "peak_time_label": "Terca-feira, entre 18hs e 23hs",
           "peak_weekday": "Terca-feira",
@@ -860,7 +860,7 @@
         {
           "cidade": "CASCAVEL",
           "name": "CASCAVEL",
-          "node_id": 3699,
+          "node_id": 64,
           "peak_hours": "Entre 14hs e 19hs",
           "peak_time_label": "Terca-feira, entre 14hs e 19hs",
           "peak_weekday": "Terca-feira",
@@ -871,7 +871,7 @@
         {
           "cidade": "AQUIRAZ",
           "name": "AQUIRAZ",
-          "node_id": 3703,
+          "node_id": 68,
           "peak_hours": "Entre 04hs e 09hs",
           "peak_time_label": "Quarta-feira, entre 04hs e 09hs",
           "peak_weekday": "Quarta-feira",
@@ -2032,15 +2032,15 @@
       "rank_region": 3,
       "rank_global": 52,
       "momentum_7d": 0.0,
-      "momentum_14d": 0.0,
+      "momentum_14d": -1.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 21hs e 02hs",
+      "faction": "CV",
+      "tension_index": 20.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 20.30."
     },
     {
       "id": "nan:G00004",
@@ -2056,12 +2056,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 17hs e 22hs",
+      "faction": "CV",
+      "tension_index": 19.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 19.90."
     },
     {
       "id": "nan:G00005",
@@ -2077,12 +2077,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 11hs e 16hs",
+      "faction": "CV",
+      "tension_index": 18.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 18.20."
     },
     {
       "id": "nan:G00006",
@@ -2098,12 +2098,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 09hs e 14hs",
+      "faction": "CV",
+      "tension_index": 18.0,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 18.00."
     },
     {
       "id": "nan:G00007",
@@ -2119,12 +2119,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 21hs e 02hs",
+      "faction": "CV",
+      "tension_index": 16.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 16.40."
     },
     {
       "id": "nan:G00008",
@@ -2140,12 +2140,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 17hs e 22hs",
+      "faction": "CV",
+      "tension_index": 15.8,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.80."
     },
     {
       "id": "nan:G00009",
@@ -2161,12 +2161,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 00hs e 05hs",
+      "faction": "CV",
+      "tension_index": 15.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 15.50."
     },
     {
       "id": "nan:G00010",
@@ -2182,12 +2182,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 00hs e 05hs",
+      "faction": "CV",
+      "tension_index": 14.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 14.40."
     },
     {
       "id": "nan:G00011",
@@ -2203,12 +2203,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 17hs e 22hs",
+      "faction": "CV",
+      "tension_index": 26.9,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 14.30."
     },
     {
       "id": "nan:G00012",
@@ -2224,12 +2224,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 00hs e 05hs",
+      "faction": "CV",
+      "tension_index": 13.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.50."
     },
     {
       "id": "nan:G00017",
@@ -2245,12 +2245,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 15hs e 20hs",
+      "faction": "CV",
+      "tension_index": 13.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.50."
     },
     {
       "id": "nan:G00023",
@@ -2266,12 +2266,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 11hs e 16hs",
+      "faction": "PCC",
+      "tension_index": 13.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.50."
     },
     {
       "id": "nan:G00025",
@@ -2287,12 +2287,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 17hs e 22hs",
+      "faction": "CV",
+      "tension_index": 13.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 13.30."
     },
     {
       "id": "nan:G00026",
@@ -2308,12 +2308,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 00hs e 05hs",
+      "faction": "TCP/GDE",
+      "tension_index": 12.5,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 12.50."
     },
     {
       "id": "nan:G00028",
@@ -2329,33 +2329,33 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 12hs e 17hs",
+      "faction": "CV",
+      "tension_index": 11.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 11.40."
     },
     {
-      "id": "nan:G00029",
-      "node_id": 57,
-      "name": "G00029",
-      "clean_name": "G00029",
-      "region": "nan",
-      "municipality": "G00029",
-      "score": 20.0,
+      "id": "interior:IGUATU",
+      "node_id": 55,
+      "name": "IGUATU",
+      "clean_name": "IGUATU",
+      "region": "interior",
+      "municipality": "IGUATU",
+      "score": 11.4,
       "rank_region": 18,
       "rank_global": 67,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 19hs e 00hs",
+      "faction": "CV",
+      "tension_index": 11.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 11.40."
     },
     {
       "id": "nan:G00031",
@@ -2371,12 +2371,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 07hs e 12hs",
+      "faction": "CV",
+      "tension_index": 9.4,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 9.40."
     },
     {
       "id": "nan:G00032",
@@ -2392,12 +2392,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 02hs e 07hs",
+      "faction": "PCC",
+      "tension_index": 9.2,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 9.20."
     },
     {
       "id": "nan:G00033",
@@ -2413,12 +2413,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 22hs e 03hs",
+      "faction": "CV",
+      "tension_index": 8.3,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 8.30."
     },
     {
       "id": "nan:G00034",
@@ -2434,12 +2434,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 12hs e 17hs",
+      "faction": "CV",
+      "tension_index": 5.8,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 5.80."
     },
     {
       "id": "nan:G00041",
@@ -2455,12 +2455,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 05hs e 10hs",
+      "faction": "CV",
+      "tension_index": 1.7,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.70."
     },
     {
       "id": "nan:G00043",
@@ -2476,12 +2476,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 16hs e 21hs",
+      "faction": "CV",
+      "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
     },
     {
       "id": "nan:G00044",
@@ -2497,12 +2497,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 17hs e 22hs",
+      "faction": "CV",
+      "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
     },
     {
       "id": "nan:G00047",
@@ -2518,12 +2518,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 02hs e 07hs",
+      "faction": "CV",
+      "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
     },
     {
       "id": "nan:G00055",
@@ -2539,12 +2539,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 16hs e 21hs",
+      "faction": "CV",
+      "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
     },
     {
       "id": "nan:G00056",
@@ -2560,12 +2560,12 @@
       "momentum_14d": 0.0,
       "recent_cvli": 0,
       "recent_exogenous": 0,
-      "peak_hours": "",
-      "faction": "NEUTRO",
-      "tension_index": 20.0,
+      "peak_hours": "Entre 16hs e 21hs",
+      "faction": "CV",
+      "tension_index": 1.6,
       "status": "BAIXO",
       "trend": "stable",
-      "summary": "Território em nível baixo. Tensão territorial atual em 20.00."
+      "summary": "Território em nível baixo. Tensão territorial atual em 1.60."
     },
     {
       "id": "nan:G00057",
@@ -45157,7 +45157,7 @@
     },
     {
       "id": "rmf:TRAIRI",
-      "node_id": 3704,
+      "node_id": 69,
       "name": "TRAIRI",
       "clean_name": "TRAIRI",
       "region": "rmf",

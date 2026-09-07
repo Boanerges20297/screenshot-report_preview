@@ -611,8 +611,8 @@ export function OperationalMap({
       <MapContainer ref={setMap} center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
         <TileLayer
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
-        url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
-      />
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_27gr_1_6a076fcc009e0db2eb9af909"
+        />
       <FitToRegion polygons={regionPolygons} region={region} selectedId={selectedId} />
       <FocusSelectedTerritory
         selectedId={selectedId}

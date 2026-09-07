@@ -76,10 +76,10 @@
         "value": "100,0%"
       },
       {
-        "explanation": "📈 **Desvio sobre a média**: o território opera 79,6 ponto(s) percentual(is) acima da média operacional de 20,4%.",
+        "explanation": "📈 **Desvio sobre a média**: o território opera 67,3 ponto(s) percentual(is) acima da média operacional de 32,7%.",
         "importance": "high",
         "name": "Desvio sobre a média",
-        "value": "79,6 p.p."
+        "value": "67,3 p.p."
       },
       {
         "explanation": "🔥 **Tensão territorial**: índice estrutural em 0,50 numa escala de 0 a 1, indicando pressão de base no território.",
@@ -100,7 +100,7 @@
         "value": "6,0"
       },
       {
-        "explanation": "🛣️ **Logradouros críticos**: 5 referência(s) territorial(is) destacada(s). Destaques: {'loc': 'RUA MARIA DE ASSIS UCHOA', 'cvli': 1, 'score': 4}, {'loc': 'RUA ANTÔNIO ROCHA BEZERRA', 'cvli': 1, 'score': 4}, {'loc': 'BAIRRO NOSSA SENHORA DE FATIMA', 'cvli': 0, 'score': 8}, {'loc': 'RECREIO', 'cvli': 0, 'score': 8}.",
+        "explanation": "🛣️ **Logradouros críticos**: 5 referência(s) territorial(is) destacada(s). Destaques: {'loc': 'RUA ANTÔNIO ROCHA BEZERRA', 'cvli': 1, 'score': 4}, {'loc': 'RUA MARIA DE ASSIS UCHOA', 'cvli': 1, 'score': 4}, {'loc': 'BAIRRO NOSSA SENHORA DE FATIMA', 'cvli': 0, 'score': 8}, {'loc': 'RECREIO', 'cvli': 0, 'score': 8}.",
         "importance": "high",
         "name": "Logradouros críticos",
         "value": "5"
@@ -178,7 +178,7 @@
     "model_family": "ST-GAT v5 (DeepSTGAT_v5 Ativo)",
     "model_signal_score": 0.0,
     "name": "BOA VIAGEM",
-    "node_id": 3686,
+    "node_id": 51,
     "peak_hours": "Entre 04hs e 09hs",
     "peak_time_label": "Segunda-feira, entre 04hs e 09hs",
     "peak_weekday": "Segunda-feira",
@@ -262,10 +262,10 @@
         "value": "#2 de 3714"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,1% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 2,5% do ranking e segue na primeira faixa de atenção.",
         "importance": "high",
         "name": "Faixa percentual do ranking",
-        "value": "top 0,1%"
+        "value": "top 2,5%"
       },
       {
         "explanation": "🎯 **Score atual**: o risco consolidado está em 100,0%, equivalente a 10,00/10.",
@@ -274,10 +274,10 @@
         "value": "100,0%"
       },
       {
-        "explanation": "📈 **Desvio sobre a média**: o território opera 79,6 ponto(s) percentual(is) acima da média operacional de 20,4%.",
+        "explanation": "📈 **Desvio sobre a média**: o território opera 67,3 ponto(s) percentual(is) acima da média operacional de 32,7%.",
         "importance": "high",
         "name": "Desvio sobre a média",
-        "value": "79,6 p.p."
+        "value": "67,3 p.p."
       },
       {
         "explanation": "🔥 **Tensão territorial**: índice estrutural em 1,00 numa escala de 0 a 1, indicando pressão de base no território.",
@@ -376,7 +376,7 @@
     "model_family": "ST-GAT v5 (DeepSTGAT_v5 Ativo)",
     "model_signal_score": 0.0,
     "name": "CAUCAIA",
-    "node_id": 3695,
+    "node_id": 60,
     "peak_hours": "Entre 18hs e 23hs",
     "peak_time_label": "Segunda-feira, entre 18hs e 23hs",
     "peak_weekday": "Segunda-feira",
@@ -390,7 +390,7 @@
       "executive_summary": "CAUCAIA entra na posição #2, no top 0,1% do ranking, com score de 10,00/10 (100,0%). No ciclo atual, isso coloca o território em faixa de prioridade máxima e pede acompanhamento direto da operação.",
       "manager_guidance": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
       "methodology_note": "Esta explicação usa regras auditáveis sobre sinais reais do pipeline Poisson: score esperado no horizonte, séries de CVLI, suporte territorial, adjacência, eventos exógenos, inteligência e contexto operacional. A confiança indica consistência entre evidências para apoio à decisão, e não probabilidade causal calibrada.",
-      "technical_basis": "A decisão técnica combina distância do score em relação à média (79,6 p.p.), evolução temporal de CVLI (1 na janela atual contra 3 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
+      "technical_basis": "A decisão técnica combina distância do score em relação à média (67,3 p.p.), evolução temporal de CVLI (1 na janela atual contra 3 na anterior), pressão espacial de 0 vizinho(s) crítico(s), 0 evento(s) crítico(s) recente(s) e a estrutura territorial associada à facção CV."
     },
     "summary": "**CAUCAIA** está na posição **#2** do ranking, com score **10.00/10** e confiança **95.6%** — identificada como uma das 5 áreas mais críticas. Mesmo sem um gatilho agudo isolado, o modelo enxerga um padrão estrutural recorrente e consistente para este território.",
     "territorial_support_pct": 0.0
@@ -1852,7 +1852,7 @@
     ],
     "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Alta",
-    "confidence_pct": 92.9,
+    "confidence_pct": 91.3,
     "expected_cvli_30d": 0.0,
     "factors": [
       {
@@ -2098,7 +2098,7 @@
         "value": "3"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,4% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 13,9% do ranking e segue na primeira faixa de atenção.",
         "importance": "medium",
         "name": "Faixa percentual do ranking",
         "value": "top 0,4%"
@@ -3030,7 +3030,7 @@
         "direction": "positive",
         "name": "Corroboração espacial",
         "score_pct": 0.0,
-        "text": "0 vizinho(s) crítico(s) entre 0 adjacentes, com média vizinha de 0,0%."
+        "text": "0 vizinho(s) crítico(s) entre 0 adjacentes, com média vizinha de 21,0%."
       },
       {
         "direction": "positive",
@@ -3105,10 +3105,10 @@
         "value": "3"
       },
       {
-        "explanation": "🧭 **Faixa percentual**: o território permanece no top 0,6% do ranking e segue na primeira faixa de atenção.",
+        "explanation": "🧭 **Faixa percentual**: o território permanece no top 16,5% do ranking e segue na primeira faixa de atenção.",
         "importance": "medium",
         "name": "Faixa percentual do ranking",
-        "value": "top 0,6%"
+        "value": "top 16,5%"
       },
       {
         "explanation": "🏴 **Facção predominante**: a dinâmica territorial atual está associada a CV, com efeito direto na leitura operacional.",
@@ -3903,7 +3903,7 @@
         "value": "CV"
       },
       {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
+        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 2 no período anterior comparável.",
         "importance": "medium",
         "name": "CVLI nos últimos 14 dias",
         "value": "0"
@@ -3927,12 +3927,6 @@
         "value": "0,0"
       },
       {
-        "explanation": "✅ **Corroboração**: a decisão está apoiada em 2 bloco(s) independentes de evidência convergente.",
-        "importance": "medium",
-        "name": "Corroboração da confiança",
-        "value": "2"
-      },
-      {
         "explanation": "🛡️ **Intensidade de supressão**: ações mitigadoras somaram 0,00 e pedem leitura de mitigação de curto prazo.",
         "importance": "low",
         "name": "Intensidade de supressão",
@@ -3949,7 +3943,7 @@
       "message": "Sem ruptura relevante de tendência no curto prazo."
     },
     "historical_support_pct": 0.0,
-    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (2 bloco(s) de evidência).",
+    "interpretation": "Confiança **moderada para alta**. Há convergência suficiente entre sinais temporais, espaciais e estruturais (3 bloco(s) de evidência).",
     "live_support_pct": 0.0,
     "model_architecture": "Poisson Ranker Estadual",
     "model_drivers": [
@@ -4007,8 +4001,8 @@
       {
         "direction": "positive",
         "name": "Corroboração temporal",
-        "score_pct": 60.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
+        "score_pct": 85.0,
+        "text": "CVLI 7d=0 contra 1 na janela anterior; CVLI 14d=1 contra 0."
       },
       {
         "direction": "positive",
@@ -5417,7 +5411,6 @@
   "fortaleza:FLORESTA": {
     "confidence": 0.7341858073774905,
     "confidence_caveats": [
-      "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
       "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
     ],
     "confidence_components": [
@@ -5436,8 +5429,8 @@
       {
         "direction": "positive",
         "name": "Corroboração temporal",
-        "score_pct": 15.0,
-        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
+        "score_pct": 60.0,
+        "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 1."
       },
       {
         "direction": "positive",
@@ -5472,11 +5465,11 @@
       {
         "direction": "negative",
         "name": "Fatores de cautela",
-        "score_pct": 9.0,
+        "score_pct": 4.0,
         "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
       }
     ],
-    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 1 bloco(s) independentes sustentam a decisão.",
+    "confidence_explanation": "A confiança operacional resulta da convergência entre ranking, separação estatística, sinais temporais, contexto espacial, eventos observados, inteligência territorial e tensão faccional. Nesta leitura, 3 bloco(s) independentes sustentam a decisão.",
     "confidence_label": "Moderada",
     "confidence_pct": 73.4,
     "expected_cvli_30d": 0.0,
@@ -5530,7 +5523,7 @@
         "value": "CV"
       },
       {
-        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 0 no período anterior comparável.",
+        "explanation": "📆 **CVLI 14 dias**: 0 ocorrência(s) acumuladas na janela tática principal, ante 1 no período anterior comparável.",
         "importance": "medium",
         "name": "CVLI nos últimos 14 dias",
         "value": "0"
@@ -26597,7 +26590,7 @@
     "source": "snapshot_fallback"
   },
   "interior:QUIXADA": {
-    "node_id": 3681,
+    "node_id": 46,
     "name": "QUIXADA",
     "risk_score_pct": 13.3,
     "summary": "Território em nível baixo. Tensão territorial atual em 13.30.",
@@ -26647,7 +26640,7 @@
     "source": "snapshot_fallback"
   },
   "interior:ITAPIPOCA": {
-    "node_id": 3677,
+    "node_id": 42,
     "name": "ITAPIPOCA",
     "risk_score_pct": 9.2,
     "summary": "Território em nível baixo. Tensão territorial atual em 9.20.",
@@ -26777,7 +26770,7 @@
     "source": "snapshot_fallback"
   },
   "rmf:TRAIRI": {
-    "node_id": 3704,
+    "node_id": 69,
     "name": "TRAIRI",
     "risk_score_pct": 0.0,
     "summary": "Território em nível baixo.",
