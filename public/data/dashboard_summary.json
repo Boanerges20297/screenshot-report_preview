@@ -1,29 +1,29 @@
 {
   "global": {
     "total_nodes": 79,
-    "active_locations": 20,
+    "active_locations": 21,
     "top_region": "interior",
-    "top_name": "BOA VIAGEM",
-    "avg_risk": 32.71
+    "top_name": "JUAZEIRO DO NORTE",
+    "avg_risk": 32.84
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 32.29,
-      "max_risk": 93.2,
-      "top_name": "MESSEJANA"
+      "avg_risk": 32.14,
+      "max_risk": 96.0,
+      "top_name": "ANTONIO BEZERRA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 23.08,
+      "avg_risk": 13.76,
       "max_risk": 100.0,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 42.71,
+      "avg_risk": 52.36,
       "max_risk": 100.0,
-      "top_name": "BOA VIAGEM"
+      "top_name": "JUAZEIRO DO NORTE"
     }
   }
 }
