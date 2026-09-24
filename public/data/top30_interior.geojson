@@ -4266,6 +4266,161 @@
         "coordinates": [
           [
             [
+              -40.266853,
+              -3.806684
+            ],
+            [
+              -40.268185,
+              -3.807554
+            ],
+            [
+              -40.267878,
+              -3.808031
+            ],
+            [
+              -40.266818,
+              -3.807444
+            ],
+            [
+              -40.266454,
+              -3.807931
+            ],
+            [
+              -40.266554,
+              -3.808047
+            ],
+            [
+              -40.266484,
+              -3.808119
+            ],
+            [
+              -40.267399,
+              -3.808789
+            ],
+            [
+              -40.267287,
+              -3.80895
+            ],
+            [
+              -40.268617,
+              -3.809836
+            ],
+            [
+              -40.268672,
+              -3.809975
+            ],
+            [
+              -40.268891,
+              -3.810059
+            ],
+            [
+              -40.268701,
+              -3.810591
+            ],
+            [
+              -40.268443,
+              -3.810543
+            ],
+            [
+              -40.268422,
+              -3.810582
+            ],
+            [
+              -40.268199,
+              -3.810479
+            ],
+            [
+              -40.268344,
+              -3.810053
+            ],
+            [
+              -40.26784,
+              -3.809755
+            ],
+            [
+              -40.267679,
+              -3.80997
+            ],
+            [
+              -40.267614,
+              -3.810009
+            ],
+            [
+              -40.267544,
+              -3.809812
+            ],
+            [
+              -40.267392,
+              -3.809378
+            ],
+            [
+              -40.267478,
+              -3.809313
+            ],
+            [
+              -40.267304,
+              -3.809228
+            ],
+            [
+              -40.267354,
+              -3.809134
+            ],
+            [
+              -40.265852,
+              -3.80811
+            ],
+            [
+              -40.266853,
+              -3.806684
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "SOBRAL",
+        "faction": "CV",
+        "generated_at": "2026-09-07T17:16:13.704038",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.188,
+        "municipality": "SOBRAL",
+        "name": "Pico da Esperança",
+        "nearby_streets": [
+          "PICO DA ESPERANÇA",
+          "RUA MANOEL LIBERATO ARAGÃO",
+          "CIDADE DE DEUS- FORQUILHA"
+        ],
+        "nearby_streets_count": 12,
+        "node_id": 47,
+        "parent_area": "SOBRAL",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 61.3,
+        "parent_status": "ALTO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.0756,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Segunda-feira, entre 16hs e 21hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.1919,
+        "rank": 45,
+        "region": "interior",
+        "risk_score": 53.026,
+        "score": 53.026,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 172
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -40.270929,
               -3.80155
             ],
@@ -5215,6 +5370,137 @@
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 144
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -40.988004,
+              -3.722647
+            ],
+            [
+              -40.987988,
+              -3.7232
+            ],
+            [
+              -40.987878,
+              -3.724306
+            ],
+            [
+              -40.987791,
+              -3.724502
+            ],
+            [
+              -40.987607,
+              -3.725315
+            ],
+            [
+              -40.987537,
+              -3.726615
+            ],
+            [
+              -40.987325,
+              -3.726751
+            ],
+            [
+              -40.986941,
+              -3.728394
+            ],
+            [
+              -40.986244,
+              -3.72836
+            ],
+            [
+              -40.985509,
+              -3.728162
+            ],
+            [
+              -40.985444,
+              -3.728516
+            ],
+            [
+              -40.984965,
+              -3.728548
+            ],
+            [
+              -40.984715,
+              -3.728538
+            ],
+            [
+              -40.984854,
+              -3.727958
+            ],
+            [
+              -40.983902,
+              -3.7278
+            ],
+            [
+              -40.98433,
+              -3.725598
+            ],
+            [
+              -40.985807,
+              -3.725404
+            ],
+            [
+              -40.98578,
+              -3.724633
+            ],
+            [
+              -40.984532,
+              -3.724722
+            ],
+            [
+              -40.98477,
+              -3.723258
+            ],
+            [
+              -40.988004,
+              -3.722647
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "TIANGUA",
+        "faction": "CV",
+        "generated_at": "2026-09-07T17:16:13.704038",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.23,
+        "municipality": "TIANGUA",
+        "name": "Bairro do Ginasio",
+        "nearby_streets": [
+          "BAIRRO DO GINASIO",
+          "CAMPO DO LAURAO",
+          "RUA DOZE DE AGOSTO"
+        ],
+        "nearby_streets_count": 42,
+        "node_id": 49,
+        "parent_area": "TIANGUA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 47.3,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1017,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Terca-feira, entre 15hs e 20hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2034,
+        "rank": 47,
+        "region": "interior",
+        "risk_score": 52.835,
+        "score": 52.835,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 59
       },
       "type": "Feature"
     },
@@ -9640,6 +9926,356 @@
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 61
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -40.992898,
+              -3.713328
+            ],
+            [
+              -40.99326,
+              -3.713383
+            ],
+            [
+              -40.99328,
+              -3.713341
+            ],
+            [
+              -40.993897,
+              -3.713497
+            ],
+            [
+              -40.992928,
+              -3.717475
+            ],
+            [
+              -40.992895,
+              -3.717533
+            ],
+            [
+              -40.992396,
+              -3.717236
+            ],
+            [
+              -40.992384,
+              -3.717152
+            ],
+            [
+              -40.992494,
+              -3.716762
+            ],
+            [
+              -40.99276,
+              -3.715512
+            ],
+            [
+              -40.992305,
+              -3.715409
+            ],
+            [
+              -40.992315,
+              -3.715317
+            ],
+            [
+              -40.992755,
+              -3.713955
+            ],
+            [
+              -40.992734,
+              -3.713911
+            ],
+            [
+              -40.992778,
+              -3.713782
+            ],
+            [
+              -40.992916,
+              -3.713804
+            ],
+            [
+              -40.992982,
+              -3.713513
+            ],
+            [
+              -40.992917,
+              -3.713497
+            ],
+            [
+              -40.992892,
+              -3.713476
+            ],
+            [
+              -40.992845,
+              -3.713455
+            ],
+            [
+              -40.992898,
+              -3.713328
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "TIANGUA",
+        "faction": "CV",
+        "generated_at": "2026-09-07T17:16:13.704038",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.561,
+        "municipality": "TIANGUA",
+        "name": "Rua das Palmeiras",
+        "nearby_streets": [
+          "RUA DAS PALMEIRAS",
+          "COMUNIDADE DA PEROBA",
+          "VILA PASCOAL"
+        ],
+        "nearby_streets_count": 41,
+        "node_id": 82,
+        "parent_area": "TIANGUA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 47.3,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 20,
+        "peak_hour_share": 0.1017,
+        "peak_hour_start": 15,
+        "peak_hours": "Entre 15hs e 20hs",
+        "peak_time_label": "Terca-feira, entre 15hs e 20hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2034,
+        "rank": 80,
+        "region": "interior",
+        "risk_score": 49.767,
+        "score": 49.767,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 59
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -39.736548,
+              -5.134096
+            ],
+            [
+              -39.73665,
+              -5.134247
+            ],
+            [
+              -39.736752,
+              -5.134187
+            ],
+            [
+              -39.73687,
+              -5.134354
+            ],
+            [
+              -39.736822,
+              -5.134396
+            ],
+            [
+              -39.736867,
+              -5.13447
+            ],
+            [
+              -39.736802,
+              -5.13453
+            ],
+            [
+              -39.736902,
+              -5.13468
+            ],
+            [
+              -39.736968,
+              -5.134671
+            ],
+            [
+              -39.737095,
+              -5.134833
+            ],
+            [
+              -39.737159,
+              -5.134793
+            ],
+            [
+              -39.737238,
+              -5.134886
+            ],
+            [
+              -39.737063,
+              -5.135051
+            ],
+            [
+              -39.737472,
+              -5.135712
+            ],
+            [
+              -39.73738,
+              -5.135784
+            ],
+            [
+              -39.737723,
+              -5.136377
+            ],
+            [
+              -39.738261,
+              -5.137403
+            ],
+            [
+              -39.738711,
+              -5.138567
+            ],
+            [
+              -39.738338,
+              -5.138764
+            ],
+            [
+              -39.738219,
+              -5.138621
+            ],
+            [
+              -39.737689,
+              -5.138833
+            ],
+            [
+              -39.737789,
+              -5.139056
+            ],
+            [
+              -39.736857,
+              -5.139498
+            ],
+            [
+              -39.736389,
+              -5.13939
+            ],
+            [
+              -39.736652,
+              -5.137319
+            ],
+            [
+              -39.736536,
+              -5.137034
+            ],
+            [
+              -39.736752,
+              -5.136679
+            ],
+            [
+              -39.736696,
+              -5.135851
+            ],
+            [
+              -39.736444,
+              -5.135396
+            ],
+            [
+              -39.736147,
+              -5.135533
+            ],
+            [
+              -39.736065,
+              -5.135335
+            ],
+            [
+              -39.736107,
+              -5.135306
+            ],
+            [
+              -39.736007,
+              -5.135063
+            ],
+            [
+              -39.736229,
+              -5.134873
+            ],
+            [
+              -39.736063,
+              -5.134642
+            ],
+            [
+              -39.73594,
+              -5.134456
+            ],
+            [
+              -39.73603,
+              -5.134388
+            ],
+            [
+              -39.735996,
+              -5.134332
+            ],
+            [
+              -39.736076,
+              -5.13428
+            ],
+            [
+              -39.736029,
+              -5.134194
+            ],
+            [
+              -39.736369,
+              -5.13396
+            ],
+            [
+              -39.736493,
+              -5.134112
+            ],
+            [
+              -39.736548,
+              -5.134096
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "BOA VIAGEM",
+        "faction": "PCC",
+        "generated_at": "2026-09-07T17:16:13.704038",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.445,
+        "municipality": "BOA VIAGEM",
+        "name": "Vila Holanda",
+        "nearby_streets": [
+          "VILA HOLANDA",
+          "RUA ANTÔNIO ROCHA BEZERRA",
+          "RUA FELISBELO VIÊIRA FREITAS"
+        ],
+        "nearby_streets_count": 18,
+        "node_id": 83,
+        "parent_area": "BOA VIAGEM",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 54.3,
+        "parent_status": "ALTO",
+        "peak_hour_end": 19,
+        "peak_hour_share": 0.1364,
+        "peak_hour_start": 14,
+        "peak_hours": "Entre 14hs e 19hs",
+        "peak_time_label": "Quarta-feira, entre 14hs e 19hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2273,
+        "rank": 81,
+        "region": "interior",
+        "risk_score": 49.399,
+        "score": 49.399,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-07",
+        "temporal_sample_size": 44
       },
       "type": "Feature"
     },

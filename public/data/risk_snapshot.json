@@ -59,6 +59,12 @@
         "crítico": 6,
         "moderado": 2
       },
+      "nan": {
+        "alto": 0,
+        "baixo": 3034,
+        "crítico": 0,
+        "moderado": 0
+      },
       "rmf": {
         "alto": 0,
         "baixo": 17,
@@ -399,7 +405,7 @@
       {
         "cidade": "TIANGUA",
         "name": "TIANGUA",
-        "node_id": 49,
+        "node_id": 3684,
         "peak_hours": "Entre 15hs e 20hs",
         "peak_time_label": "Terca-feira, entre 15hs e 20hs",
         "peak_weekday": "Terca-feira",
@@ -613,7 +619,7 @@
         {
           "cidade": "TIANGUA",
           "name": "TIANGUA",
-          "node_id": 49,
+          "node_id": 3684,
           "peak_hours": "Entre 15hs e 20hs",
           "peak_time_label": "Terca-feira, entre 15hs e 20hs",
           "peak_weekday": "Terca-feira",
@@ -635,7 +641,7 @@
         {
           "cidade": "RUSSAS",
           "name": "RUSSAS",
-          "node_id": 52,
+          "node_id": 3687,
           "peak_hours": "Entre 17hs e 22hs",
           "peak_time_label": "Quarta-feira, entre 17hs e 22hs",
           "peak_weekday": "Quarta-feira",
@@ -747,7 +753,7 @@
         {
           "cidade": "BEBERIBE",
           "name": "BEBERIBE",
-          "node_id": 73,
+          "node_id": 3708,
           "peak_hours": "Entre 21hs e 02hs",
           "peak_time_label": "Segunda-feira, entre 21hs e 02hs",
           "peak_weekday": "Segunda-feira",
@@ -849,7 +855,7 @@
     },
     {
       "id": "rmf:CAUCAIA",
-      "node_id": 60,
+      "node_id": 3695,
       "name": "CAUCAIA",
       "clean_name": "CAUCAIA",
       "region": "rmf",
@@ -870,7 +876,7 @@
     },
     {
       "id": "interior:TIANGUA",
-      "node_id": 49,
+      "node_id": 3684,
       "name": "TIANGUA",
       "clean_name": "TIANGUA",
       "region": "interior",
@@ -1122,7 +1128,7 @@
     },
     {
       "id": "interior:ITAPIPOCA",
-      "node_id": 42,
+      "node_id": 3677,
       "name": "ITAPIPOCA",
       "clean_name": "ITAPIPOCA",
       "region": "interior",
@@ -1437,7 +1443,7 @@
     },
     {
       "id": "rmf:SAO GONCALO DO AMARANTE",
-      "node_id": 66,
+      "node_id": 3701,
       "name": "SAO GONCALO DO AMARANTE",
       "clean_name": "SAO GONCALO DO AMARANTE",
       "region": "rmf",
@@ -2151,7 +2157,7 @@
     },
     {
       "id": "rmf:PARAIPABA",
-      "node_id": 75,
+      "node_id": 3710,
       "name": "PARAIPABA",
       "clean_name": "PARAIPABA",
       "region": "rmf",
@@ -2319,7 +2325,7 @@
     },
     {
       "id": "rmf:PINDORETAMA",
-      "node_id": 76,
+      "node_id": 3711,
       "name": "PINDORETAMA",
       "clean_name": "PINDORETAMA",
       "region": "rmf",
@@ -2340,7 +2346,7 @@
     },
     {
       "id": "rmf:SAO LUIS DO CURU",
-      "node_id": 78,
+      "node_id": 3713,
       "name": "SAO LUIS DO CURU",
       "clean_name": "SAO LUIS DO CURU",
       "region": "rmf",
@@ -2430,8 +2436,8 @@
       "region": "fortaleza",
       "municipality": "Fortaleza",
       "score": 0.0,
-      "rank_region": 40,
-      "rank_global": 77,
+      "rank_region": 550,
+      "rank_global": 2104,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -2445,14 +2451,14 @@
     },
     {
       "id": "interior:CANINDE",
-      "node_id": 48,
+      "node_id": 3683,
       "name": "CANINDE",
       "clean_name": "CANINDE",
       "region": "interior",
       "municipality": "CANINDE",
       "score": 0.0,
       "rank_region": 20,
-      "rank_global": 78,
+      "rank_global": 2105,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,
@@ -2473,7 +2479,7 @@
       "municipality": "MARANGUAPE",
       "score": 0.0,
       "rank_region": 19,
-      "rank_global": 79,
+      "rank_global": 2106,
       "momentum_7d": 0.0,
       "momentum_14d": 0.0,
       "recent_cvli": 0,

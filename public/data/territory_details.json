@@ -65,10 +65,10 @@
     "risk_score": 100.0,
     "status": "CRÍTICO"
   },
-  "rmf:CAUCAIA": {
-    "name": "CAUCAIA",
-    "municipality": "CAUCAIA",
-    "region": "rmf",
+  "interior:AMONTADA": {
+    "name": "AMONTADA",
+    "municipality": "AMONTADA",
+    "region": "interior",
     "faction": "CV",
     "recent_cvli": 1,
     "recent_exogenous": 0,
@@ -269,9 +269,9 @@
     "momentum_14d": -1.0,
     "critical_streets": [
       {
-        "cvli": 3,
+        "cvli": 2,
         "loc": "ITAPAJE",
-        "score": 9
+        "score": 6
       },
       {
         "cvli": 1,

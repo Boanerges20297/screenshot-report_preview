@@ -203,8 +203,8 @@
     },
     "ranking_metrics": {
       "rank_global": 1,
-      "total_nodes": 79,
-      "top_slice_pct": 1.266,
+      "total_nodes": 2106,
+      "top_slice_pct": 0.047,
       "score_0_10": 10.0,
       "score_pct": 100.0
     },
@@ -289,8 +289,8 @@
         {
           "name": "Separação no ranking",
           "direction": "positive",
-          "score_pct": 98.7,
-          "text": "Posição #1 e permanência no top 1,3% mantêm o território na primeira faixa de atenção."
+          "score_pct": 100.0,
+          "text": "Posição #1 e permanência no top 0,0% mantêm o território na primeira faixa de atenção."
         },
         {
           "name": "Distância estatística da média",
@@ -337,7 +337,7 @@
       ],
       "caveats": [],
       "signal_scores": {
-        "rank_strength": 0.9873,
+        "rank_strength": 0.9995,
         "score_separation": 1.0,
         "temporal_signal": 0.85,
         "spatial_signal": 0.0,
@@ -715,8 +715,8 @@
     },
     "ranking_metrics": {
       "rank_global": 2,
-      "total_nodes": 79,
-      "top_slice_pct": 2.532,
+      "total_nodes": 2106,
+      "top_slice_pct": 0.095,
       "score_0_10": 10.0,
       "score_pct": 100.0
     },
@@ -801,8 +801,8 @@
         {
           "name": "Separação no ranking",
           "direction": "positive",
-          "score_pct": 97.5,
-          "text": "Posição #2 e permanência no top 2,5% mantêm o território na primeira faixa de atenção."
+          "score_pct": 99.9,
+          "text": "Posição #2 e permanência no top 0,1% mantêm o território na primeira faixa de atenção."
         },
         {
           "name": "Distância estatística da média",
@@ -849,7 +849,7 @@
       ],
       "caveats": [],
       "signal_scores": {
-        "rank_strength": 0.9747,
+        "rank_strength": 0.9991,
         "score_separation": 1.0,
         "temporal_signal": 0.85,
         "spatial_signal": 0.0,
@@ -1211,7 +1211,7 @@
       }
     },
     "academic_text": {
-      "abstract_ptbr": "CAUCAIA ocupa a posição #2 entre 79 territórios, com score de 10,00/10 e confiança analítica de 95,6%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
+      "abstract_ptbr": "CAUCAIA ocupa a posição #2 entre 2106 territórios, com score de 10,00/10 e confiança analítica de 95,6%. O caso combina pressão relativa elevada, estrutura territorial de CV e sinais temporais, espaciais e exógenos em graus distintos.",
       "operational_note_ptbr": "Para a operação, a leitura mais segura é tratar CAUCAIA como território de resposta imediata, com checagem de patrulhamento, inteligência e reação local.",
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
@@ -1313,8 +1313,8 @@
         {
           "name": "Separação no ranking",
           "direction": "positive",
-          "score_pct": 96.2,
-          "text": "Posição #3 e permanência no top 3,8% mantêm o território na primeira faixa de atenção."
+          "score_pct": 99.9,
+          "text": "Posição #3 e permanência no top 0,1% mantêm o território na primeira faixa de atenção."
         },
         {
           "name": "Distância estatística da média",
@@ -2247,7 +2247,7 @@
     }
   },
   "interior:SOBRAL": {
-    "node_id": 40,
+    "node_id": 3675,
     "name": "SOBRAL",
     "source": "academic_parallel",
     "identification": {
@@ -4959,8 +4959,8 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 9.0,
-          "text": "Sinal de inteligência recente em 0,0 e 1 referência(s) territoriais críticas."
+          "score_pct": 0.0,
+          "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
@@ -5491,7 +5491,10 @@
           "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
         }
       ],
-      "caveats": [],
+      "caveats": [
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
+        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
+      ],
       "signal_scores": {
         "rank_strength": 0.8608,
         "score_separation": 1.0,
@@ -5504,8 +5507,8 @@
       },
       "penalties": {
         "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
-        "ambiguity_penalty": 0.0,
+        "sparse_penalty": 0.05,
+        "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
     },
@@ -39054,7 +39057,7 @@
         "significant_rain_flag": 0.0,
         "momentum_delta_7d": 0.0,
         "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": -2.0,
+        "momentum_delta_30d": 0.0,
         "cold_streak_inverse": -30.0
       },
       "sum_7d": {
@@ -39093,7 +39096,7 @@
         "significant_rain_flag": 0.0,
         "momentum_delta_7d": 0.0,
         "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": -2.0,
+        "momentum_delta_30d": 0.0,
         "cold_streak_inverse": -30.0
       },
       "sum_14d": {
@@ -39132,7 +39135,7 @@
         "significant_rain_flag": 0.0,
         "momentum_delta_7d": 0.0,
         "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": -2.0,
+        "momentum_delta_30d": 0.0,
         "cold_streak_inverse": -30.0
       },
       "sum_30d": {
@@ -39171,7 +39174,7 @@
         "significant_rain_flag": 0.0,
         "momentum_delta_7d": 0.0,
         "momentum_delta_14d": 0.0,
-        "momentum_delta_30d": -2.0,
+        "momentum_delta_30d": 0.0,
         "cold_streak_inverse": -30.0
       }
     },
@@ -39188,7 +39191,7 @@
     "identification": {
       "region_type": "RMF",
       "faction": "CV",
-      "tier": "tail"
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 76,
@@ -39207,8 +39210,8 @@
       "cvli_recent_7d": 0,
       "cvli_previous_7d": 0,
       "cvli_recent_14d": 0,
-      "cvli_previous_14d": 0,
-      "cvli_recent_30d": 0,
+      "cvli_previous_14d": 2,
+      "cvli_recent_30d": 2,
       "rolling_cvli_7d_latest": 0.0
     },
     "spatial_metrics": {
@@ -39254,9 +39257,9 @@
       "score_zscore": -1.1518,
       "top_slice_pct": 96.203,
       "cvli_delta_7d": 0,
-      "cvli_delta_14d": 0,
+      "cvli_delta_14d": -2,
       "cvli_growth_ratio_7d": 0.0,
-      "cvli_growth_ratio_14d": 0.0,
+      "cvli_growth_ratio_14d": -1.0,
       "high_risk_neighbor_share": 0.0,
       "conflict_neighbor_share": 0.0,
       "critical_event_share": 0.0,
@@ -39290,8 +39293,8 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
-          "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
+          "score_pct": 60.0,
+          "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 2."
         },
         {
           "name": "Sustentação territorial do modelo",
@@ -39314,8 +39317,8 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 90.0,
-          "text": "Sinal de inteligência recente em 0,0 e 10 referência(s) territoriais críticas."
+          "score_pct": 18.0,
+          "text": "Sinal de inteligência recente em 0,0 e 2 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
@@ -39339,7 +39342,7 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.9,
+        "intelligence_signal": 0.18,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
