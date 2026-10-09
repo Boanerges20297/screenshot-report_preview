@@ -71,7 +71,7 @@ function locateAnchors(
 
   // Gradient between neighboring momentum measurements, not an inferred
   // trajectory of offenders or a forecast of individual occurrences.
-  const radiusMeters = region === 'fortaleza' ? 6500 : region === 'rmf' ? 17000 : 42000
+  const radiusMeters = region === 'fortaleza' ? 10500 : region === 'rmf' ? 27000 : 90000
 
   return nodes.map((node, index) => {
     const ownTrend = node.momentum7 + node.momentum14 * 0.45
@@ -84,11 +84,14 @@ function locateAnchors(
       if (distance < 1 || distance > radiusMeters * 2) continue
 
       const otherTrend = neighbor.momentum7 + neighbor.momentum14 * 0.45
-      const delta = otherTrend - ownTrend
-      if (delta <= 0) continue
+      // Spatial gradient of existing risk and momentum. Signed weights allow
+      // the field to evolve in both directions without inventing a route.
+      const delta = (otherTrend - ownTrend) +
+        ((neighbor.score - node.score) / 35) * 0.45
+      if (Math.abs(delta) < 0.001) continue
 
       const spatialWeight = Math.exp(-0.5 * (distance / radiusMeters) ** 2)
-      const weight = delta * spatialWeight * (neighbor.score / 100)
+      const weight = delta * spatialWeight * (0.4 + neighbor.score / 100)
       const east = (neighbor.position.lng - node.position.lng) *
         Math.cos((node.position.lat * Math.PI) / 180)
       const north = neighbor.position.lat - node.position.lat
@@ -171,43 +174,59 @@ export function MomentumCloudLayer({
       resizeCanvas()
       context!.clearRect(0, 0, size.x, size.y)
 
-      // This animation encodes the momentum already stored in the snapshot;
-      // the oscillation is illustrative, NOT a historical time series.
+      // The snapshot is static: two overlapping fronts continuously traverse
+      // the current spatial momentum gradient. This is illustrative movement,
+      // NOT a playback of actual crimes, observed paths or future forecasts.
       const elapsed = reducedMotion ? 0 : now
-      const wave = Math.sin((elapsed * 2 * Math.PI) / 17000)
-      const zoom = map.getZoom()
-      const baseRadius = clamp(26 + zoom * 3.6, 38, 90)
+      const cycle = elapsed / 12500
+      const baseRadius = clamp(26 + map.getZoom() * 3.6, 38, 90)
 
-      for (const anchor of anchors) {
-        const location = map.latLngToContainerPoint(anchor.position)
-        const trend = clamp(
-          (anchor.momentum7 + anchor.momentum14 * 0.45) / 3,
-          -1,
-          1,
-        )
-        const oscillation = reducedMotion ? 0 : Math.sin(elapsed / 2450 + anchor.phase)
-        const spread = clamp(1 + trend * (0.18 + oscillation * 0.10), 0.7, 1.35)
-        const radius = baseRadius * spread
-        const drift = reducedMotion ? 0 : (wave * 12 * anchor.strength)
-        const x = location.x + anchor.directionX * drift
-        const y = location.y + anchor.directionY * drift
-        if (x < -radius || y < -radius || x > size.x + radius || y > size.y + radius) {
-          continue
-        }
-
-        const power = clamp((anchor.score / 100) ** 1.35, 0.08, 1)
-        const trendEffect = clamp(1 + trend * 0.22, 0.7, 1.25)
-        const alpha = power * trendEffect
-
+      function paintCloud(x: number, y: number, radius: number, alpha: number): void {
+        if (alpha <= 0.001 || x < -radius || y < -radius ||
+            x > size.x + radius || y > size.y + radius) return
         const gradient = context!.createRadialGradient(x, y, 0, x, y, radius)
-        gradient.addColorStop(0, `rgba(153,27,27,${(0.43 * alpha).toFixed(3)})`)
-        gradient.addColorStop(0.26, `rgba(234,88,12,${(0.37 * alpha).toFixed(3)})`)
-        gradient.addColorStop(0.60, `rgba(250,204,21,${(0.25 * alpha).toFixed(3)})`)
+        gradient.addColorStop(0, `rgba(153,27,27,${clamp(0.58 * alpha, 0, 0.95)})`)
+        gradient.addColorStop(0.30, `rgba(234,88,12,${clamp(0.47 * alpha, 0, 0.92)})`)
+        gradient.addColorStop(0.64, `rgba(250,204,21,${clamp(0.31 * alpha, 0, 0.85)})`)
         gradient.addColorStop(1, 'rgba(250,204,21,0)')
         context!.fillStyle = gradient
         context!.beginPath()
         context!.arc(x, y, radius, 0, Math.PI * 2)
         context!.fill()
+      }
+
+      for (const anchor of anchors) {
+        const location = map.latLngToContainerPoint(anchor.position)
+        const trend = clamp(
+          (anchor.momentum7 + anchor.momentum14 * 0.45) / 3, -1, 1,
+        )
+        const power = clamp((anchor.score / 100) ** 1.35, 0.08, 1)
+        const baseIntensity = power * clamp(1 + 0.22 * trend, 0.68, 1.25)
+
+        if (reducedMotion) {
+          paintCloud(location.x, location.y, baseRadius, baseIntensity)
+          continue
+        }
+
+        // Stable low-opacity reference keeps hotspot geography recognizable.
+        paintCloud(location.x, location.y, baseRadius * 1.08, baseIntensity * 0.16)
+
+        // Two fronts, offset half a cycle: their edges fade to zero before
+        // wrapping, so the animation never jumps back to its starting point.
+        const travel = clamp(baseRadius * (0.95 + anchor.strength * 0.50), 48, 130)
+        for (let front = 0; front < 2; front += 1) {
+          const progress = (cycle + anchor.phase * 0.025 + front * 0.5) % 1
+          const visibility = Math.sin(Math.PI * progress) ** 1.35
+          const progressFromCenter = progress - 0.5
+          const offset = progressFromCenter * 2 * travel
+          const x = location.x + anchor.directionX * offset
+          const y = location.y + anchor.directionY * offset
+          const radius = baseRadius * clamp(
+            1 + progressFromCenter * 0.72 + trend * 0.22,
+            0.65, 1.45,
+          )
+          paintCloud(x, y, radius, baseIntensity * visibility * 1.04)
+        }
       }
     }
 
@@ -227,7 +246,7 @@ export function MomentumCloudLayer({
     }
 
     function animate(time: number): void {
-      if (!initialized || (isVisible && time - lastFrame >= 80)) {
+      if (!initialized || (isVisible && time - lastFrame >= 50)) {
         if (isVisible) draw(time)
         initialized = true
         lastFrame = time
