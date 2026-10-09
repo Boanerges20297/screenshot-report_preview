@@ -14,6 +14,7 @@ import {
   type TerritoryDetail,
 } from '../lib/snapshot'
 import { MapSearchBox } from './MapSearchBox'
+import { MomentumCloudLayer } from './MomentumCloudLayer'
 
 type OperationalMapProps = {
   region: RegionKey
@@ -30,6 +31,7 @@ type OperationalMapProps = {
   showTop30: boolean
   showEliteP10: boolean
   showCvliPoints: boolean
+  showMomentumCloud: boolean
   onSelectTerritory: (territoryId: string | null) => void
   onFocusTerritory?: (territoryId: string) => void
 }
@@ -304,6 +306,7 @@ export function OperationalMap({
   showTop30,
   showEliteP10,
   showCvliPoints,
+  showMomentumCloud,
   onSelectTerritory,
   onFocusTerritory,
 }: OperationalMapProps) {
@@ -608,6 +611,14 @@ export function OperationalMap({
         polygons={regionPolygons}
         onReset={() => onSelectTerritory(null)}
       />
+      {showMomentumCloud && (
+        <div className="momentum-cloud-legend" role="note">
+          <div className="momentum-cloud-legend-title"><span className="momentum-live-dot" />Nuvem Momentum · Snapshot</div>
+          <div className="momentum-cloud-legend-scale"><span /> <span /> <span /></div>
+          <div className="momentum-cloud-legend-labels"><span>Menor concentração</span><span>Maior concentração</span></div>
+          <p>Risco + momentum 7/14d. Movimento visual da tendência, não trajeto real.</p>
+        </div>
+      )}
       <MapContainer ref={setMap} center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
         <TileLayer
           attribution='&copy; OpenStreetMap contributors &copy; CARTO'
@@ -622,6 +633,11 @@ export function OperationalMap({
         layerRegistryRef={layerRegistryRef}
       />
       <MapEventsHandler onMapClick={() => onSelectTerritory(null)} />
+      {showMomentumCloud && (
+        <Pane name="momentum-cloud" style={{ zIndex: 455, pointerEvents: 'none' }}>
+          <MomentumCloudLayer region={region} polygons={polygons} riskItems={riskItems} />
+        </Pane>
+      )}
 
       {showTop30 && (
         <Pane name="top30-tatico" style={{ zIndex: 425 }}>

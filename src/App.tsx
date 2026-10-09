@@ -138,6 +138,7 @@ function App() {
   const [showTop30, setShowTop30] = useState(false)
   const [showEliteP10, setShowEliteP10] = useState(false)
   const [showCvliPoints, setShowCvliPoints] = useState(false)
+  const [showMomentumCloud, setShowMomentumCloud] = useState(false)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [theme, setTheme] = useState<'dark' | 'light'>('light')
@@ -440,6 +441,16 @@ function App() {
           >
             {showCvliPoints ? '✕ CVLI 90d' : '+ CVLI 90d'}
           </button>
+          <button
+            id="toggle-momentum"
+            type="button"
+            aria-pressed={showMomentumCloud}
+            title="Visualizar momentum do snapshot como nuvem animada"
+            className={showMomentumCloud ? 'toggle-button active' : 'toggle-button'}
+            onClick={() => setShowMomentumCloud((value) => !value)}
+          >
+            {showMomentumCloud ? '✕ Nuvem Momentum' : '☁ Nuvem Momentum'}
+          </button>
         </div>
 
         <div className="control-group">
@@ -525,6 +536,7 @@ function App() {
             showTop30={showTop30}
             showEliteP10={showEliteP10}
             showCvliPoints={showCvliPoints}
+            showMomentumCloud={showMomentumCloud}
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setDetailTab('indicadores')

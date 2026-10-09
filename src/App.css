@@ -1744,3 +1744,83 @@
     top: 12px;
   }
 }
+
+/* Independent static-snapshot momentum cloud layer */
+.momentum-cloud-canvas {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.momentum-cloud-legend {
+  position: absolute;
+  z-index: 950;
+  left: 16px;
+  bottom: 16px;
+  width: min(310px, calc(100% - 32px));
+  padding: 12px 14px;
+  border-radius: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(15, 23, 42, 0.90);
+  color: #f8fafc;
+  box-shadow: 0 9px 28px rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(12px);
+  pointer-events: none;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.momentum-cloud-legend-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.025em;
+}
+
+.momentum-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #f59e0b;
+  box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.14);
+}
+
+.momentum-cloud-legend-scale {
+  display: flex;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  border-radius: 9px;
+  margin: 11px 0 4px;
+}
+
+.momentum-cloud-legend-scale span:nth-child(1) {
+  flex: 1; background: #facc15;
+}
+.momentum-cloud-legend-scale span:nth-child(2) {
+  flex: 1; background: #ea580c;
+}
+.momentum-cloud-legend-scale span:nth-child(3) {
+  flex: 1; background: #991b1b;
+}
+.momentum-cloud-legend-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: #cbd5e1;
+}
+.momentum-cloud-legend p {
+  margin: 9px 0 0;
+  font-size: 10px;
+  line-height: 1.45;
+  color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+  .momentum-cloud-legend {
+    left: 10px;
+    bottom: 10px;
+    padding: 10px 12px;
+    width: min(270px, calc(100% - 20px));
+  }
+}
