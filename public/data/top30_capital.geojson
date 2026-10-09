@@ -59,11 +59,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 17.115,
+        "local_street_pressure": 17.418,
         "municipality": "Fortaleza",
         "name": "Levada",
         "nearby_streets": [
@@ -75,7 +75,7 @@
         "node_id": 1,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -86,8 +86,8 @@
         "peak_weekday_share": 0.234,
         "rank": 1,
         "region": "fortaleza",
-        "risk_score": 91.494,
-        "score": 91.494,
+        "risk_score": 85.734,
+        "score": 85.734,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -202,11 +202,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 15.448,
+        "local_street_pressure": 15.787,
         "municipality": "Fortaleza",
         "name": "Conjunto São Bernardo",
         "nearby_streets": [
@@ -218,7 +218,7 @@
         "node_id": 2,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -229,8 +229,8 @@
         "peak_weekday_share": 0.234,
         "rank": 2,
         "region": "fortaleza",
-        "risk_score": 89.688,
-        "score": 89.688,
+        "risk_score": 83.995,
+        "score": 83.995,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -269,11 +269,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 15.543,
+        "local_street_pressure": 15.922,
         "municipality": "Fortaleza",
         "name": "Comunidade da Portelinha- Messejana",
         "nearby_streets": [
@@ -285,7 +285,7 @@
         "node_id": 3,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -296,8 +296,8 @@
         "peak_weekday_share": 0.234,
         "rank": 3,
         "region": "fortaleza",
-        "risk_score": 87.848,
-        "score": 87.848,
+        "risk_score": 82.195,
+        "score": 82.195,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -360,11 +360,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.735,
+        "local_street_pressure": 15.015,
         "municipality": "Fortaleza",
         "name": "Comunidade da Conquista",
         "nearby_streets": [
@@ -376,7 +376,7 @@
         "node_id": 4,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -387,87 +387,8 @@
         "peak_weekday_share": 0.234,
         "rank": 4,
         "region": "fortaleza",
-        "risk_score": 87.499,
-        "score": 87.499,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 47
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.489511,
-              -3.829305
-            ],
-            [
-              -38.488698,
-              -3.829426
-            ],
-            [
-              -38.488652,
-              -3.829139
-            ],
-            [
-              -38.488604,
-              -3.828909
-            ],
-            [
-              -38.488599,
-              -3.828778
-            ],
-            [
-              -38.488615,
-              -3.828699
-            ],
-            [
-              -38.489482,
-              -3.828969
-            ],
-            [
-              -38.489511,
-              -3.829305
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 14.746,
-        "municipality": "Fortaleza",
-        "name": "Beco da Maravilha",
-        "nearby_streets": [
-          "BECO DA MARAVILHA",
-          "RUA DOUTOR JOAQUIM BENTO",
-          "RUA SANTO EXPEDITO"
-        ],
-        "nearby_streets_count": 58,
-        "node_id": 5,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
-        "parent_status": "CRÍTICO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1277,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.234,
-        "rank": 5,
-        "region": "fortaleza",
-        "risk_score": 87.056,
-        "score": 87.056,
+        "risk_score": 81.758,
+        "score": 81.758,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -554,11 +475,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "MASSA",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 13.836,
+        "local_street_pressure": 14.31,
         "municipality": "Fortaleza",
         "name": "Parque Iracema I",
         "nearby_streets": [
@@ -567,10 +488,89 @@
           "RUA NICOLAU COELHO"
         ],
         "nearby_streets_count": 54,
+        "node_id": 5,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 86.7,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1277,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.234,
+        "rank": 5,
+        "region": "fortaleza",
+        "risk_score": 81.518,
+        "score": 81.518,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 47
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.489511,
+              -3.829305
+            ],
+            [
+              -38.488698,
+              -3.829426
+            ],
+            [
+              -38.488652,
+              -3.829139
+            ],
+            [
+              -38.488604,
+              -3.828909
+            ],
+            [
+              -38.488599,
+              -3.828778
+            ],
+            [
+              -38.488615,
+              -3.828699
+            ],
+            [
+              -38.489482,
+              -3.828969
+            ],
+            [
+              -38.489511,
+              -3.829305
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.746,
+        "municipality": "Fortaleza",
+        "name": "Beco da Maravilha",
+        "nearby_streets": [
+          "BECO DA MARAVILHA",
+          "RUA DOUTOR JOAQUIM BENTO",
+          "RUA SANTO EXPEDITO"
+        ],
+        "nearby_streets_count": 58,
         "node_id": 6,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -581,8 +581,8 @@
         "peak_weekday_share": 0.234,
         "rank": 6,
         "region": "fortaleza",
-        "risk_score": 87.042,
-        "score": 87.042,
+        "risk_score": 81.026,
+        "score": 81.026,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -637,11 +637,11 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 12.249,
+        "local_street_pressure": 12.453,
         "municipality": "Fortaleza",
         "name": "LAGOA SECA",
         "nearby_streets": [
@@ -653,7 +653,7 @@
         "node_id": 7,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -664,8 +664,8 @@
         "peak_weekday_share": 0.234,
         "rank": 7,
         "region": "fortaleza",
-        "risk_score": 86.534,
-        "score": 86.534,
+        "risk_score": 80.761,
+        "score": 80.761,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -744,7 +744,7 @@
       "properties": {
         "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -760,7 +760,7 @@
         "node_id": 8,
         "parent_area": "MESSEJANA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 21,
         "peak_hour_share": 0.1277,
@@ -771,8 +771,8 @@
         "peak_weekday_share": 0.234,
         "rank": 8,
         "region": "fortaleza",
-        "risk_score": 83.201,
-        "score": 83.201,
+        "risk_score": 77.255,
+        "score": 77.255,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -987,11 +987,11 @@
       "properties": {
         "bairro": "COAÇU",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 3.062,
+        "local_street_pressure": 2.823,
         "municipality": "Messejana",
         "name": "Santa Rosa- Messejana",
         "nearby_streets": [
@@ -999,11 +999,11 @@
           "RUA ZUMBI",
           "COMUNIDADE PÔR DO SOL"
         ],
-        "nearby_streets_count": 9,
+        "nearby_streets_count": 8,
         "node_id": 9,
         "parent_area": "COAÇU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "peak_hour_end": 17,
         "peak_hour_share": 0.5,
@@ -1014,8 +1014,8 @@
         "peak_weekday_share": 0.75,
         "rank": 9,
         "region": "fortaleza",
-        "risk_score": 78.168,
-        "score": 78.168,
+        "risk_score": 72.105,
+        "score": 72.105,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -1082,7 +1082,7 @@
       "properties": {
         "bairro": "PARQUE SANTA MARIA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1098,12 +1098,12 @@
         "node_id": 10,
         "parent_area": "PARQUE SANTA MARIA",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 94.7,
+        "parent_risk_score": 86.7,
         "parent_status": "CRÍTICO",
         "rank": 10,
         "region": "fortaleza",
-        "risk_score": 75.498,
-        "score": 75.498,
+        "risk_score": 69.672,
+        "score": 69.672,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1113,371 +1113,77 @@
         "coordinates": [
           [
             [
-              -38.590028,
-              -3.742756
+              -38.464254,
+              -3.827215
             ],
             [
-              -38.589409,
-              -3.747202
+              -38.465257,
+              -3.827526
             ],
             [
-              -38.588567,
-              -3.747084
+              -38.466258,
+              -3.827855
             ],
             [
-              -38.587746,
-              -3.746795
+              -38.466269,
+              -3.828108
             ],
             [
-              -38.587953,
-              -3.746297
+              -38.465687,
+              -3.829438
             ],
             [
-              -38.587753,
-              -3.746185
+              -38.463313,
+              -3.829668
             ],
             [
-              -38.588111,
-              -3.745484
+              -38.463229,
+              -3.829636
             ],
             [
-              -38.586888,
-              -3.744927
-            ],
-            [
-              -38.587124,
-              -3.744456
-            ],
-            [
-              -38.587215,
-              -3.743921
-            ],
-            [
-              -38.587376,
-              -3.742331
-            ],
-            [
-              -38.587392,
-              -3.742202
-            ],
-            [
-              -38.587958,
-              -3.742245
-            ],
-            [
-              -38.587952,
-              -3.742325
-            ],
-            [
-              -38.588868,
-              -3.742442
-            ],
-            [
-              -38.588848,
-              -3.742581
-            ],
-            [
-              -38.590028,
-              -3.742756
+              -38.464254,
+              -3.827215
             ]
           ]
         ],
         "type": "Polygon"
       },
       "properties": {
-        "bairro": "ANTÔNIO BEZERRA",
+        "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 12.121,
+        "local_street_pressure": 16.36,
         "municipality": "Fortaleza",
-        "name": "Rua da Feira - Antonio Bezerra",
+        "name": "11 De Novembro",
         "nearby_streets": [
-          "RUA DA FEIRA - ANTONIO BEZERRA",
-          "RUA RUI MONTE",
-          "RUA PROFESSOR JOAQUIM NOGUEIRA"
-        ],
-        "nearby_streets_count": 50,
-        "node_id": 13,
-        "parent_area": "ANTÔNIO BEZERRA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 2,
-        "peak_hour_share": 0.125,
-        "peak_hour_start": 21,
-        "peak_hours": "Entre 21hs e 02hs",
-        "peak_time_label": "Segunda-feira, entre 21hs e 02hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.1875,
-        "rank": 11,
-        "region": "fortaleza",
-        "risk_score": 47.327,
-        "score": 47.327,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 16
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.594919,
-              -3.736325
-            ],
-            [
-              -38.593018,
-              -3.736998
-            ],
-            [
-              -38.592436,
-              -3.737118
-            ],
-            [
-              -38.59096,
-              -3.73757
-            ],
-            [
-              -38.590433,
-              -3.737726
-            ],
-            [
-              -38.59007,
-              -3.735532
-            ],
-            [
-              -38.590669,
-              -3.735423
-            ],
-            [
-              -38.591111,
-              -3.734727
-            ],
-            [
-              -38.594919,
-              -3.736325
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "ANTÔNIO BEZERRA",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.313,
-        "municipality": "Fortaleza",
-        "name": "Anario Braga",
-        "nearby_streets": [
-          "RUA PANAMÁ",
-          "ANARIO BRAGA",
-          "RUA JOSÉ ACIOLY"
-        ],
-        "nearby_streets_count": 49,
-        "node_id": 14,
-        "parent_area": "ANTÔNIO BEZERRA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 2,
-        "peak_hour_share": 0.125,
-        "peak_hour_start": 21,
-        "peak_hours": "Entre 21hs e 02hs",
-        "peak_time_label": "Segunda-feira, entre 21hs e 02hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.1875,
-        "rank": 12,
-        "region": "fortaleza",
-        "risk_score": 47.115,
-        "score": 47.115,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 16
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.597477,
-              -3.746044
-            ],
-            [
-              -38.597365,
-              -3.747585
-            ],
-            [
-              -38.596619,
-              -3.747563
-            ],
-            [
-              -38.596501,
-              -3.747579
-            ],
-            [
-              -38.596426,
-              -3.747638
-            ],
-            [
-              -38.596099,
-              -3.747842
-            ],
-            [
-              -38.596029,
-              -3.747922
-            ],
-            [
-              -38.595922,
-              -3.747976
-            ],
-            [
-              -38.595782,
-              -3.747986
-            ],
-            [
-              -38.595535,
-              -3.74797
-            ],
-            [
-              -38.595557,
-              -3.747836
-            ],
-            [
-              -38.595443,
-              -3.747816
-            ],
-            [
-              -38.595458,
-              -3.74758
-            ],
-            [
-              -38.595571,
-              -3.747591
-            ],
-            [
-              -38.595619,
-              -3.746896
-            ],
-            [
-              -38.595408,
-              -3.746934
-            ],
-            [
-              -38.59542,
-              -3.747206
-            ],
-            [
-              -38.595217,
-              -3.747197
-            ],
-            [
-              -38.595157,
-              -3.746892
-            ],
-            [
-              -38.595096,
-              -3.746664
-            ],
-            [
-              -38.593688,
-              -3.746965
-            ],
-            [
-              -38.594042,
-              -3.744541
-            ],
-            [
-              -38.594711,
-              -3.744612
-            ],
-            [
-              -38.594884,
-              -3.743545
-            ],
-            [
-              -38.59679,
-              -3.743816
-            ],
-            [
-              -38.596751,
-              -3.744103
-            ],
-            [
-              -38.596641,
-              -3.744091
-            ],
-            [
-              -38.596421,
-              -3.745476
-            ],
-            [
-              -38.596651,
-              -3.745502
-            ],
-            [
-              -38.596836,
-              -3.745526
-            ],
-            [
-              -38.596792,
-              -3.745999
-            ],
-            [
-              -38.597477,
-              -3.746044
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "ANTÔNIO BEZERRA",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 11.409,
-        "municipality": "Fortaleza",
-        "name": "Comunidade do Aterro/Ocupação",
-        "nearby_streets": [
-          "COMUNIDADE DO ATERRO/OCUPAÇÃO",
-          "AREA SEM NOME",
-          "PORTELINHA (ALTO DO BODE)"
+          "11 DE NOVEMBRO",
+          "RUA MORONI BING TORGAN",
+          "RUA DEMONTIER QUENTAL"
         ],
         "nearby_streets_count": 52,
-        "node_id": 15,
-        "parent_area": "ANTÔNIO BEZERRA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 2,
-        "peak_hour_share": 0.125,
-        "peak_hour_start": 21,
-        "peak_hours": "Entre 21hs e 02hs",
-        "peak_time_label": "Segunda-feira, entre 21hs e 02hs",
+        "node_id": 13,
+        "parent_area": "LAGOA REDONDA",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
+        "peak_hour_end": 5,
+        "peak_hour_share": 0.1111,
+        "peak_hour_start": 0,
+        "peak_hours": "Entre 00hs e 05hs",
+        "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.1875,
-        "rank": 13,
+        "peak_weekday_share": 0.2593,
+        "rank": 11,
         "region": "fortaleza",
-        "risk_score": 46.556,
-        "score": 46.556,
+        "risk_score": 57.746,
+        "score": 57.746,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 16
+        "temporal_sample_size": 27
       },
       "type": "Feature"
     },
@@ -1556,11 +1262,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 15.696,
+        "local_street_pressure": 16.381,
         "municipality": "Fortaleza",
         "name": "Favela Do Abc",
         "nearby_streets": [
@@ -1568,12 +1274,12 @@
           "RUA SANTA ISABEL",
           "RUA PAULO DE TASSO RAMOS"
         ],
-        "nearby_streets_count": 62,
-        "node_id": 16,
+        "nearby_streets_count": 63,
+        "node_id": 14,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -1581,89 +1287,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 14,
+        "rank": 12,
         "region": "fortaleza",
-        "risk_score": 45.785,
-        "score": 45.785,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.464254,
-              -3.827215
-            ],
-            [
-              -38.465257,
-              -3.827526
-            ],
-            [
-              -38.466258,
-              -3.827855
-            ],
-            [
-              -38.466269,
-              -3.828108
-            ],
-            [
-              -38.465687,
-              -3.829438
-            ],
-            [
-              -38.463313,
-              -3.829668
-            ],
-            [
-              -38.463229,
-              -3.829636
-            ],
-            [
-              -38.464254,
-              -3.827215
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "LAGOA REDONDA",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 15.234,
-        "municipality": "Fortaleza",
-        "name": "11 De Novembro",
-        "nearby_streets": [
-          "11 DE NOVEMBRO",
-          "RUA MORONI BING TORGAN",
-          "AREA SEM NOME"
-        ],
-        "nearby_streets_count": 51,
-        "node_id": 17,
-        "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 5,
-        "peak_hour_share": 0.1111,
-        "peak_hour_start": 0,
-        "peak_hours": "Entre 00hs e 05hs",
-        "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.2593,
-        "rank": 15,
-        "region": "fortaleza",
-        "risk_score": 45.413,
-        "score": 45.413,
+        "risk_score": 57.654,
+        "score": 57.654,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -1730,24 +1357,24 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 13.923,
+        "local_street_pressure": 15.07,
         "municipality": "Fortaleza",
         "name": "Caixa D’água",
         "nearby_streets": [
           "CAIXA D’ÁGUA",
-          "RUA ISABEL FERREIRA",
-          "11 DE NOVEMBRO"
+          "RUA DEMONTIER QUENTAL",
+          "RUA ISABEL FERREIRA"
         ],
-        "nearby_streets_count": 50,
-        "node_id": 18,
+        "nearby_streets_count": 51,
+        "node_id": 15,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -1755,10 +1382,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 16,
+        "rank": 13,
         "region": "fortaleza",
-        "risk_score": 44.425,
-        "score": 44.425,
+        "risk_score": 56.804,
+        "score": 56.804,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -1845,24 +1472,24 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.28,
+        "local_street_pressure": 15.215,
         "municipality": "Fortaleza",
         "name": "Arco Verde",
         "nearby_streets": [
           "ARCO VERDE",
           "RUA ISABEL FERREIRA",
-          "CAIXA D’ÁGUA"
+          "RUA DEMONTIER QUENTAL"
         ],
-        "nearby_streets_count": 55,
-        "node_id": 19,
+        "nearby_streets_count": 56,
+        "node_id": 16,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -1870,10 +1497,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 17,
+        "rank": 14,
         "region": "fortaleza",
-        "risk_score": 44.325,
-        "score": 44.325,
+        "risk_score": 56.477,
+        "score": 56.477,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -1920,11 +1547,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.5,
+        "local_street_pressure": 15.228,
         "municipality": "Fortaleza",
         "name": "AP",
         "nearby_streets": [
@@ -1932,12 +1559,12 @@
           "FINAL FELIZ",
           "RUA SETE"
         ],
-        "nearby_streets_count": 50,
-        "node_id": 20,
+        "nearby_streets_count": 51,
+        "node_id": 17,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -1945,10 +1572,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 18,
+        "rank": 15,
         "region": "fortaleza",
-        "risk_score": 44.234,
-        "score": 44.234,
+        "risk_score": 56.17,
+        "score": 56.17,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -2019,11 +1646,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 13.985,
+        "local_street_pressure": 14.768,
         "municipality": "Fortaleza",
         "name": "Favela Do Pó",
         "nearby_streets": [
@@ -2031,12 +1658,12 @@
           "RUA SETE",
           "RUA MORONI BING TORGAN"
         ],
-        "nearby_streets_count": 44,
-        "node_id": 21,
+        "nearby_streets_count": 45,
+        "node_id": 18,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -2044,10 +1671,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 19,
+        "rank": 16,
         "region": "fortaleza",
-        "risk_score": 43.952,
-        "score": 43.952,
+        "risk_score": 55.954,
+        "score": 55.954,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -2142,11 +1769,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 12.967,
+        "local_street_pressure": 13.584,
         "municipality": "Fortaleza",
         "name": "Final Feliz",
         "nearby_streets": [
@@ -2154,12 +1781,12 @@
           "AP",
           "RUA SETE"
         ],
-        "nearby_streets_count": 47,
-        "node_id": 22,
+        "nearby_streets_count": 48,
+        "node_id": 19,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -2167,477 +1794,14 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 20,
+        "rank": 17,
         "region": "fortaleza",
-        "risk_score": 43.142,
-        "score": 43.142,
+        "risk_score": 54.99,
+        "score": 54.99,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.522032,
-              -3.846303
-            ],
-            [
-              -38.523298,
-              -3.846075
-            ],
-            [
-              -38.523843,
-              -3.84583
-            ],
-            [
-              -38.52435,
-              -3.845536
-            ],
-            [
-              -38.526903,
-              -3.848733
-            ],
-            [
-              -38.52524,
-              -3.850157
-            ],
-            [
-              -38.523534,
-              -3.851586
-            ],
-            [
-              -38.523389,
-              -3.851356
-            ],
-            [
-              -38.522032,
-              -3.846303
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.845,
-        "municipality": "Fortaleza",
-        "name": "ÁREA DE GUERRA",
-        "nearby_streets": [
-          "ÁREA DE GUERRA",
-          "RUA CODÓ",
-          "RUA DA FEIRA"
-        ],
-        "nearby_streets_count": 46,
-        "node_id": 23,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 21,
-        "region": "fortaleza",
-        "risk_score": 42.36,
-        "score": 42.36,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.528362,
-              -3.841992
-            ],
-            [
-              -38.523914,
-              -3.84564
-            ],
-            [
-              -38.523506,
-              -3.845844
-            ],
-            [
-              -38.522487,
-              -3.844559
-            ],
-            [
-              -38.524933,
-              -3.84244
-            ],
-            [
-              -38.527137,
-              -3.840642
-            ],
-            [
-              -38.528362,
-              -3.841992
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.968,
-        "municipality": "Fortaleza",
-        "name": "Palmeiras1",
-        "nearby_streets": [
-          "PALMEIRAS1",
-          "CJ PALMEIRAS L",
-          "RUA DA FEIRA"
-        ],
-        "nearby_streets_count": 49,
-        "node_id": 24,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 22,
-        "region": "fortaleza",
-        "risk_score": 41.828,
-        "score": 41.828,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.526795,
-              -3.837222
-            ],
-            [
-              -38.52965,
-              -3.834678
-            ],
-            [
-              -38.529935,
-              -3.834943
-            ],
-            [
-              -38.529668,
-              -3.835316
-            ],
-            [
-              -38.530682,
-              -3.836191
-            ],
-            [
-              -38.530837,
-              -3.835982
-            ],
-            [
-              -38.530989,
-              -3.836074
-            ],
-            [
-              -38.53092,
-              -3.836255
-            ],
-            [
-              -38.531466,
-              -3.8368
-            ],
-            [
-              -38.531726,
-              -3.83661
-            ],
-            [
-              -38.531895,
-              -3.836835
-            ],
-            [
-              -38.531747,
-              -3.836914
-            ],
-            [
-              -38.531951,
-              -3.83727
-            ],
-            [
-              -38.532818,
-              -3.838252
-            ],
-            [
-              -38.528362,
-              -3.841992
-            ],
-            [
-              -38.527569,
-              -3.841111
-            ],
-            [
-              -38.526348,
-              -3.839733
-            ],
-            [
-              -38.525402,
-              -3.838668
-            ],
-            [
-              -38.526795,
-              -3.837222
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 10.847,
-        "municipality": "Fortaleza",
-        "name": "Palmeiras 2",
-        "nearby_streets": [
-          "PALMEIRAS 2",
-          "RUA JOSÉ DO CRATO",
-          "AVENIDA VALPARAÍSO"
-        ],
-        "nearby_streets_count": 45,
-        "node_id": 25,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 23,
-        "region": "fortaleza",
-        "risk_score": 41.819,
-        "score": 41.819,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.528362,
-              -3.842153
-            ],
-            [
-              -38.530467,
-              -3.844644
-            ],
-            [
-              -38.529173,
-              -3.845624
-            ],
-            [
-              -38.530037,
-              -3.846811
-            ],
-            [
-              -38.528646,
-              -3.847934
-            ],
-            [
-              -38.528241,
-              -3.847499
-            ],
-            [
-              -38.528063,
-              -3.847153
-            ],
-            [
-              -38.527899,
-              -3.84693
-            ],
-            [
-              -38.527787,
-              -3.846786
-            ],
-            [
-              -38.527006,
-              -3.845855
-            ],
-            [
-              -38.526511,
-              -3.845261
-            ],
-            [
-              -38.525858,
-              -3.84457
-            ],
-            [
-              -38.525733,
-              -3.844377
-            ],
-            [
-              -38.528362,
-              -3.842153
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.453,
-        "municipality": "Fortaleza",
-        "name": "Cj Palmeiras l",
-        "nearby_streets": [
-          "CJ PALMEIRAS L",
-          "RUA DA FEIRA",
-          "CANAL - CONJ. PALMEIRAS I"
-        ],
-        "nearby_streets_count": 42,
-        "node_id": 26,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 24,
-        "region": "fortaleza",
-        "risk_score": 41.647,
-        "score": 41.647,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.526932,
-              -3.848806
-            ],
-            [
-              -38.525668,
-              -3.847206
-            ],
-            [
-              -38.524393,
-              -3.84551
-            ],
-            [
-              -38.525733,
-              -3.844377
-            ],
-            [
-              -38.527006,
-              -3.845855
-            ],
-            [
-              -38.528022,
-              -3.847127
-            ],
-            [
-              -38.52835,
-              -3.847624
-            ],
-            [
-              -38.526932,
-              -3.848806
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.72,
-        "municipality": "Fortaleza",
-        "name": "Rua da Feira",
-        "nearby_streets": [
-          "RUA DA FEIRA",
-          "CJ PALMEIRAS L",
-          "ÁREA DE GUERRA"
-        ],
-        "nearby_streets_count": 43,
-        "node_id": 27,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 25,
-        "region": "fortaleza",
-        "risk_score": 41.098,
-        "score": 41.098,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
       },
       "type": "Feature"
     },
@@ -2724,11 +1888,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 10.49,
+        "local_street_pressure": 11.144,
         "municipality": "Fortaleza",
         "name": "Comunidade Do Brooklyn",
         "nearby_streets": [
@@ -2736,12 +1900,12 @@
           "FAVELA DO PÓ",
           "RUA MORONI BING TORGAN"
         ],
-        "nearby_streets_count": 37,
-        "node_id": 28,
+        "nearby_streets_count": 38,
+        "node_id": 20,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -2749,260 +1913,14 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 26,
+        "rank": 18,
         "region": "fortaleza",
-        "risk_score": 40.891,
-        "score": 40.891,
+        "risk_score": 52.823,
+        "score": 52.823,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.598446,
-              -3.735409
-            ],
-            [
-              -38.598433,
-              -3.735696
-            ],
-            [
-              -38.598302,
-              -3.73659
-            ],
-            [
-              -38.598225,
-              -3.736928
-            ],
-            [
-              -38.597899,
-              -3.73735
-            ],
-            [
-              -38.597817,
-              -3.737356
-            ],
-            [
-              -38.597405,
-              -3.737183
-            ],
-            [
-              -38.597337,
-              -3.737176
-            ],
-            [
-              -38.597233,
-              -3.73716
-            ],
-            [
-              -38.596917,
-              -3.737034
-            ],
-            [
-              -38.596928,
-              -3.737002
-            ],
-            [
-              -38.596892,
-              -3.736989
-            ],
-            [
-              -38.596874,
-              -3.736973
-            ],
-            [
-              -38.595244,
-              -3.736304
-            ],
-            [
-              -38.595265,
-              -3.736142
-            ],
-            [
-              -38.596099,
-              -3.735965
-            ],
-            [
-              -38.59613,
-              -3.735838
-            ],
-            [
-              -38.596548,
-              -3.734801
-            ],
-            [
-              -38.597203,
-              -3.735089
-            ],
-            [
-              -38.597557,
-              -3.735239
-            ],
-            [
-              -38.597837,
-              -3.735332
-            ],
-            [
-              -38.597977,
-              -3.735563
-            ],
-            [
-              -38.598117,
-              -3.735569
-            ],
-            [
-              -38.598446,
-              -3.735409
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "ANTÔNIO BEZERRA",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 6.572,
-        "municipality": "Quintino Cunha",
-        "name": "Comunidade do Sossego - Quintino Cunha",
-        "nearby_streets": [
-          "COMUNIDADE DO SOSSEGO - QUINTINO CUNHA",
-          "RUA ANÁRIO BRAGA",
-          "COMUNIDADE DOS PLÁSTICOS - QUINTINO CUNHA"
-        ],
-        "nearby_streets_count": 15,
-        "node_id": 29,
-        "parent_area": "ANTÔNIO BEZERRA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 41.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 2,
-        "peak_hour_share": 0.125,
-        "peak_hour_start": 21,
-        "peak_hours": "Entre 21hs e 02hs",
-        "peak_time_label": "Segunda-feira, entre 21hs e 02hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.1875,
-        "rank": 27,
-        "region": "fortaleza",
-        "risk_score": 40.647,
-        "score": 40.647,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 16
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.521868,
-              -3.846307
-            ],
-            [
-              -38.52357,
-              -3.8526
-            ],
-            [
-              -38.523854,
-              -3.85333
-            ],
-            [
-              -38.523847,
-              -3.853693
-            ],
-            [
-              -38.523794,
-              -3.854003
-            ],
-            [
-              -38.523775,
-              -3.854377
-            ],
-            [
-              -38.523656,
-              -3.854983
-            ],
-            [
-              -38.522793,
-              -3.855367
-            ],
-            [
-              -38.521591,
-              -3.851369
-            ],
-            [
-              -38.52042,
-              -3.846857
-            ],
-            [
-              -38.520362,
-              -3.84653
-            ],
-            [
-              -38.521313,
-              -3.846387
-            ],
-            [
-              -38.521385,
-              -3.846409
-            ],
-            [
-              -38.521868,
-              -3.846307
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 11.421,
-        "municipality": "Fortaleza",
-        "name": "Rua Codó",
-        "nearby_streets": [
-          "RUA CODÓ",
-          "JAGATÁ",
-          "FAVELINHA"
-        ],
-        "nearby_streets_count": 42,
-        "node_id": 30,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 28,
-        "region": "fortaleza",
-        "risk_score": 40.566,
-        "score": 40.566,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
       },
       "type": "Feature"
     },
@@ -3157,11 +2075,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 10.396,
+        "local_street_pressure": 11.045,
         "municipality": "Fortaleza",
         "name": "Comunidade Carandiru",
         "nearby_streets": [
@@ -3169,12 +2087,12 @@
           "CAIXA D’ÁGUA",
           "SERROTE - CURIÓ"
         ],
-        "nearby_streets_count": 41,
-        "node_id": 31,
+        "nearby_streets_count": 42,
+        "node_id": 21,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -3182,406 +2100,14 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 29,
+        "rank": 19,
         "region": "fortaleza",
-        "risk_score": 40.543,
-        "score": 40.543,
+        "risk_score": 52.471,
+        "score": 52.471,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.526932,
-              -3.848806
-            ],
-            [
-              -38.527238,
-              -3.849175
-            ],
-            [
-              -38.525969,
-              -3.850243
-            ],
-            [
-              -38.525635,
-              -3.849869
-            ],
-            [
-              -38.526932,
-              -3.848806
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 12.147,
-        "municipality": "Fortaleza",
-        "name": "Favelinha do Palmeiras",
-        "nearby_streets": [
-          "FAVELINHA DO PALMEIRAS",
-          "RUA DA FEIRA",
-          "FAVELINHA"
-        ],
-        "nearby_streets_count": 40,
-        "node_id": 32,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 30,
-        "region": "fortaleza",
-        "risk_score": 39.518,
-        "score": 39.518,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.51933,
-              -3.850515
-            ],
-            [
-              -38.521032,
-              -3.849802
-            ],
-            [
-              -38.521293,
-              -3.850603
-            ],
-            [
-              -38.521455,
-              -3.851242
-            ],
-            [
-              -38.521759,
-              -3.852333
-            ],
-            [
-              -38.522047,
-              -3.853481
-            ],
-            [
-              -38.52211,
-              -3.853694
-            ],
-            [
-              -38.522317,
-              -3.854295
-            ],
-            [
-              -38.522537,
-              -3.854938
-            ],
-            [
-              -38.522663,
-              -3.855401
-            ],
-            [
-              -38.521808,
-              -3.855843
-            ],
-            [
-              -38.521481,
-              -3.854811
-            ],
-            [
-              -38.521075,
-              -3.854922
-            ],
-            [
-              -38.51933,
-              -3.850515
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 11.069,
-        "municipality": "Fortaleza",
-        "name": "Jagatá",
-        "nearby_streets": [
-          "JAGATÁ",
-          "FAVELINHA",
-          "RUA CODÓ"
-        ],
-        "nearby_streets_count": 43,
-        "node_id": 33,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 31,
-        "region": "fortaleza",
-        "risk_score": 39.498,
-        "score": 39.498,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.526154,
-              -3.851385
-            ],
-            [
-              -38.525952,
-              -3.851578
-            ],
-            [
-              -38.525577,
-              -3.851893
-            ],
-            [
-              -38.525469,
-              -3.851956
-            ],
-            [
-              -38.525244,
-              -3.852167
-            ],
-            [
-              -38.525125,
-              -3.852195
-            ],
-            [
-              -38.524542,
-              -3.852674
-            ],
-            [
-              -38.524212,
-              -3.853
-            ],
-            [
-              -38.523941,
-              -3.853205
-            ],
-            [
-              -38.523886,
-              -3.853124
-            ],
-            [
-              -38.524132,
-              -3.852897
-            ],
-            [
-              -38.525101,
-              -3.852069
-            ],
-            [
-              -38.524867,
-              -3.851747
-            ],
-            [
-              -38.524957,
-              -3.851654
-            ],
-            [
-              -38.52496,
-              -3.8516
-            ],
-            [
-              -38.525732,
-              -3.85091
-            ],
-            [
-              -38.525901,
-              -3.851114
-            ],
-            [
-              -38.525979,
-              -3.851186
-            ],
-            [
-              -38.526154,
-              -3.851385
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 11.564,
-        "municipality": "Fortaleza",
-        "name": "Favelinha",
-        "nearby_streets": [
-          "FAVELINHA",
-          "LOTEAMENTO",
-          "FAVELINHA DO PALMEIRAS"
-        ],
-        "nearby_streets_count": 40,
-        "node_id": 34,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 32,
-        "region": "fortaleza",
-        "risk_score": 38.923,
-        "score": 38.923,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.526941,
-              -3.854837
-            ],
-            [
-              -38.523779,
-              -3.854594
-            ],
-            [
-              -38.523901,
-              -3.853434
-            ],
-            [
-              -38.524551,
-              -3.853422
-            ],
-            [
-              -38.524587,
-              -3.852909
-            ],
-            [
-              -38.525192,
-              -3.852355
-            ],
-            [
-              -38.526164,
-              -3.852444
-            ],
-            [
-              -38.526152,
-              -3.852943
-            ],
-            [
-              -38.52757,
-              -3.853051
-            ],
-            [
-              -38.527528,
-              -3.853626
-            ],
-            [
-              -38.528211,
-              -3.853659
-            ],
-            [
-              -38.52785,
-              -3.854868
-            ],
-            [
-              -38.526941,
-              -3.854837
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 10.317,
-        "municipality": "Fortaleza",
-        "name": "Loteamento",
-        "nearby_streets": [
-          "LOTEAMENTO",
-          "FAVELINHA",
-          "RUA PATATIVA DO ASSARÉ"
-        ],
-        "nearby_streets_count": 38,
-        "node_id": 35,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 33,
-        "region": "fortaleza",
-        "risk_score": 38.544,
-        "score": 38.544,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
       },
       "type": "Feature"
     },
@@ -3688,11 +2214,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 7.688,
+        "local_street_pressure": 8.116,
         "municipality": "Fortaleza",
         "name": "Palmeirinha",
         "nearby_streets": [
@@ -3700,12 +2226,12 @@
           "AVENIDA PROFESSOR JOSÉ ARTHUR DE CARVALHO",
           "COMUNIDADE ISABELZINHA"
         ],
-        "nearby_streets_count": 24,
-        "node_id": 36,
+        "nearby_streets_count": 25,
+        "node_id": 22,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -3713,10 +2239,10 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 34,
+        "rank": 20,
         "region": "fortaleza",
-        "risk_score": 37.68,
-        "score": 37.68,
+        "risk_score": 49.43,
+        "score": 49.43,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
@@ -3865,11 +2391,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "MultiPolygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 7.732,
+        "local_street_pressure": 8.135,
         "municipality": "Fortaleza",
         "name": "Comunidade Isabelzinha",
         "nearby_streets": [
@@ -3877,12 +2403,12 @@
           "AVENIDA PROFESSOR JOSÉ ARTHUR DE CARVALHO",
           "PALMEIRINHA"
         ],
-        "nearby_streets_count": 31,
-        "node_id": 37,
+        "nearby_streets_count": 32,
+        "node_id": 23,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -3890,295 +2416,14 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 35,
+        "rank": 21,
         "region": "fortaleza",
-        "risk_score": 37.657,
-        "score": 37.657,
+        "risk_score": 49.38,
+        "score": 49.38,
         "source_geometry_type": "MultiPolygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.528451,
-              -3.842125
-            ],
-            [
-              -38.531059,
-              -3.839971
-            ],
-            [
-              -38.532438,
-              -3.842223
-            ],
-            [
-              -38.532376,
-              -3.842294
-            ],
-            [
-              -38.532711,
-              -3.84267
-            ],
-            [
-              -38.532893,
-              -3.843216
-            ],
-            [
-              -38.530772,
-              -3.844894
-            ],
-            [
-              -38.528451,
-              -3.842125
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 8.65,
-        "municipality": "Conj. Palmeiras I",
-        "name": "Beira Rio - Conj. Palmeiras I",
-        "nearby_streets": [
-          "BEIRA RIO - CONJ. PALMEIRAS I",
-          "RUA VALPARAÍSO",
-          "AVENIDA VALPARAÍSO"
-        ],
-        "nearby_streets_count": 21,
-        "node_id": 38,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 36,
-        "region": "fortaleza",
-        "risk_score": 37.319,
-        "score": 37.319,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.529176,
-              -3.845701
-            ],
-            [
-              -38.530467,
-              -3.844644
-            ],
-            [
-              -38.531593,
-              -3.846001
-            ],
-            [
-              -38.531526,
-              -3.846069
-            ],
-            [
-              -38.531719,
-              -3.846313
-            ],
-            [
-              -38.530355,
-              -3.847388
-            ],
-            [
-              -38.53017,
-              -3.84721
-            ],
-            [
-              -38.530313,
-              -3.847096
-            ],
-            [
-              -38.529176,
-              -3.845701
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 9.295,
-        "municipality": "Conj. Palmeiras I",
-        "name": "Canal - Conj. Palmeiras I",
-        "nearby_streets": [
-          "CANAL - CONJ. PALMEIRAS I",
-          "BECO - CONJ. PALMEIRAS",
-          "PISSAREIRA - CONJ. PALMEIRAS I"
-        ],
-        "nearby_streets_count": 22,
-        "node_id": 39,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 37,
-        "region": "fortaleza",
-        "risk_score": 36.896,
-        "score": 36.896,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.530037,
-              -3.846811
-            ],
-            [
-              -38.530279,
-              -3.847098
-            ],
-            [
-              -38.53017,
-              -3.84721
-            ],
-            [
-              -38.530355,
-              -3.847388
-            ],
-            [
-              -38.530471,
-              -3.847664
-            ],
-            [
-              -38.530768,
-              -3.847587
-            ],
-            [
-              -38.530832,
-              -3.847776
-            ],
-            [
-              -38.530292,
-              -3.847915
-            ],
-            [
-              -38.53028,
-              -3.848043
-            ],
-            [
-              -38.530413,
-              -3.848211
-            ],
-            [
-              -38.530576,
-              -3.84832
-            ],
-            [
-              -38.530127,
-              -3.848651
-            ],
-            [
-              -38.53004,
-              -3.848479
-            ],
-            [
-              -38.529821,
-              -3.848516
-            ],
-            [
-              -38.529767,
-              -3.848399
-            ],
-            [
-              -38.527891,
-              -3.849912
-            ],
-            [
-              -38.527278,
-              -3.849122
-            ],
-            [
-              -38.530037,
-              -3.846811
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 9.082,
-        "municipality": "Conj. Palmeiras I",
-        "name": "Pissareira - Conj. Palmeiras I",
-        "nearby_streets": [
-          "PISSAREIRA - CONJ. PALMEIRAS I",
-          "AREA SEM NOME",
-          "CANAL - CONJ. PALMEIRAS I"
-        ],
-        "nearby_streets_count": 22,
-        "node_id": 40,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 38,
-        "region": "fortaleza",
-        "risk_score": 36.735,
-        "score": 36.735,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
       },
       "type": "Feature"
     },
@@ -4345,11 +2590,11 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 5.959,
+        "local_street_pressure": 6.244,
         "municipality": "Curió",
         "name": "Serrote - Curió",
         "nearby_streets": [
@@ -4357,12 +2602,12 @@
           "COMUNIDADE CARANDIRU",
           "COMUNIDADE DO BROOKLYN"
         ],
-        "nearby_streets_count": 21,
-        "node_id": 41,
+        "nearby_streets_count": 22,
+        "node_id": 24,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -4370,252 +2615,14 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 39,
+        "rank": 22,
         "region": "fortaleza",
-        "risk_score": 35.996,
-        "score": 35.996,
+        "risk_score": 47.629,
+        "score": 47.629,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.530816,
-              -3.844955
-            ],
-            [
-              -38.532893,
-              -3.843216
-            ],
-            [
-              -38.533132,
-              -3.843549
-            ],
-            [
-              -38.533012,
-              -3.843655
-            ],
-            [
-              -38.533079,
-              -3.843741
-            ],
-            [
-              -38.533023,
-              -3.843777
-            ],
-            [
-              -38.533232,
-              -3.844036
-            ],
-            [
-              -38.533189,
-              -3.84406
-            ],
-            [
-              -38.533496,
-              -3.844421
-            ],
-            [
-              -38.532814,
-              -3.84503
-            ],
-            [
-              -38.533097,
-              -3.845338
-            ],
-            [
-              -38.532082,
-              -3.846203
-            ],
-            [
-              -38.531776,
-              -3.845853
-            ],
-            [
-              -38.531642,
-              -3.845961
-            ],
-            [
-              -38.530816,
-              -3.844955
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 8.077,
-        "municipality": "Conj. Palmeiras",
-        "name": "Beco - Conj. Palmeiras",
-        "nearby_streets": [
-          "BECO - CONJ. PALMEIRAS",
-          "CANAL - CONJ. PALMEIRAS I",
-          "BEIRA RIO - CONJ. PALMEIRAS I"
-        ],
-        "nearby_streets_count": 21,
-        "node_id": 42,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 40,
-        "region": "fortaleza",
-        "risk_score": 35.676,
-        "score": 35.676,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.52746,
-              -3.833362
-            ],
-            [
-              -38.52751,
-              -3.833265
-            ],
-            [
-              -38.527701,
-              -3.833045
-            ],
-            [
-              -38.527776,
-              -3.833086
-            ],
-            [
-              -38.527893,
-              -3.833204
-            ],
-            [
-              -38.527959,
-              -3.833223
-            ],
-            [
-              -38.528305,
-              -3.833211
-            ],
-            [
-              -38.52848,
-              -3.833403
-            ],
-            [
-              -38.528245,
-              -3.83367
-            ],
-            [
-              -38.528633,
-              -3.834039
-            ],
-            [
-              -38.52871,
-              -3.833962
-            ],
-            [
-              -38.529063,
-              -3.834346
-            ],
-            [
-              -38.528911,
-              -3.834536
-            ],
-            [
-              -38.529102,
-              -3.834754
-            ],
-            [
-              -38.529077,
-              -3.83485
-            ],
-            [
-              -38.528978,
-              -3.83504
-            ],
-            [
-              -38.528783,
-              -3.835224
-            ],
-            [
-              -38.528535,
-              -3.835043
-            ],
-            [
-              -38.526727,
-              -3.836732
-            ],
-            [
-              -38.525387,
-              -3.835304
-            ],
-            [
-              -38.52746,
-              -3.833362
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "CONJUNTO PALMEIRAS",
-        "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 7.128,
-        "municipality": "São Cristóvão",
-        "name": "Sorriso - São Cristóvão",
-        "nearby_streets": [
-          "SORRISO - SÃO CRISTÓVÃO",
-          "RUA JOSÉ DO CRATO",
-          "RUA ABENÇOADA"
-        ],
-        "nearby_streets_count": 22,
-        "node_id": 43,
-        "parent_area": "CONJUNTO PALMEIRAS",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 32.4,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 16,
-        "peak_hour_share": 0.1765,
-        "peak_hour_start": 11,
-        "peak_hours": "Entre 11hs e 16hs",
-        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
-        "peak_weekday": "Terca-feira",
-        "peak_weekday_share": 0.2353,
-        "rank": 41,
-        "region": "fortaleza",
-        "risk_score": 35.07,
-        "score": 35.07,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 17
       },
       "type": "Feature"
     },
@@ -4722,7 +2729,7 @@
       "properties": {
         "bairro": "LAGOA REDONDA",
         "faction": "CV",
-        "generated_at": "2026-09-24T14:42:49.820787",
+        "generated_at": "2026-10-09T09:36:15.486472",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4735,11 +2742,11 @@
           "BARRO DURO"
         ],
         "nearby_streets_count": 11,
-        "node_id": 44,
+        "node_id": 25,
         "parent_area": "LAGOA REDONDA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.3,
-        "parent_status": "MODERADO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 51.2,
+        "parent_status": "ALTO",
         "peak_hour_end": 5,
         "peak_hour_share": 0.1111,
         "peak_hour_start": 0,
@@ -4747,24 +2754,1501 @@
         "peak_time_label": "Segunda-feira, entre 00hs e 05hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.2593,
-        "rank": 42,
+        "rank": 23,
         "region": "fortaleza",
-        "risk_score": 32.031,
-        "score": 32.031,
+        "risk_score": 43.432,
+        "score": 43.432,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-09",
         "temporal_sample_size": 27
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.522032,
+              -3.846303
+            ],
+            [
+              -38.523298,
+              -3.846075
+            ],
+            [
+              -38.523843,
+              -3.84583
+            ],
+            [
+              -38.52435,
+              -3.845536
+            ],
+            [
+              -38.526903,
+              -3.848733
+            ],
+            [
+              -38.52524,
+              -3.850157
+            ],
+            [
+              -38.523534,
+              -3.851586
+            ],
+            [
+              -38.523389,
+              -3.851356
+            ],
+            [
+              -38.522032,
+              -3.846303
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.845,
+        "municipality": "Fortaleza",
+        "name": "ÁREA DE GUERRA",
+        "nearby_streets": [
+          "ÁREA DE GUERRA",
+          "RUA CODÓ",
+          "RUA DA FEIRA"
+        ],
+        "nearby_streets_count": 46,
+        "node_id": 26,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 24,
+        "region": "fortaleza",
+        "risk_score": 41.836,
+        "score": 41.836,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.526795,
+              -3.837222
+            ],
+            [
+              -38.52965,
+              -3.834678
+            ],
+            [
+              -38.529935,
+              -3.834943
+            ],
+            [
+              -38.529668,
+              -3.835316
+            ],
+            [
+              -38.530682,
+              -3.836191
+            ],
+            [
+              -38.530837,
+              -3.835982
+            ],
+            [
+              -38.530989,
+              -3.836074
+            ],
+            [
+              -38.53092,
+              -3.836255
+            ],
+            [
+              -38.531466,
+              -3.8368
+            ],
+            [
+              -38.531726,
+              -3.83661
+            ],
+            [
+              -38.531895,
+              -3.836835
+            ],
+            [
+              -38.531747,
+              -3.836914
+            ],
+            [
+              -38.531951,
+              -3.83727
+            ],
+            [
+              -38.532818,
+              -3.838252
+            ],
+            [
+              -38.528362,
+              -3.841992
+            ],
+            [
+              -38.527569,
+              -3.841111
+            ],
+            [
+              -38.526348,
+              -3.839733
+            ],
+            [
+              -38.525402,
+              -3.838668
+            ],
+            [
+              -38.526795,
+              -3.837222
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.847,
+        "municipality": "Fortaleza",
+        "name": "Palmeiras 2",
+        "nearby_streets": [
+          "PALMEIRAS 2",
+          "RUA JOSÉ DO CRATO",
+          "AVENIDA VALPARAÍSO"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 27,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 25,
+        "region": "fortaleza",
+        "risk_score": 41.333,
+        "score": 41.333,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.528362,
+              -3.841992
+            ],
+            [
+              -38.523914,
+              -3.84564
+            ],
+            [
+              -38.523506,
+              -3.845844
+            ],
+            [
+              -38.522487,
+              -3.844559
+            ],
+            [
+              -38.524933,
+              -3.84244
+            ],
+            [
+              -38.527137,
+              -3.840642
+            ],
+            [
+              -38.528362,
+              -3.841992
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.968,
+        "municipality": "Fortaleza",
+        "name": "Palmeiras1",
+        "nearby_streets": [
+          "PALMEIRAS1",
+          "CJ PALMEIRAS L",
+          "RUA DA FEIRA"
+        ],
+        "nearby_streets_count": 49,
+        "node_id": 28,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 26,
+        "region": "fortaleza",
+        "risk_score": 41.303,
+        "score": 41.303,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.528362,
+              -3.842153
+            ],
+            [
+              -38.530467,
+              -3.844644
+            ],
+            [
+              -38.529173,
+              -3.845624
+            ],
+            [
+              -38.530037,
+              -3.846811
+            ],
+            [
+              -38.528646,
+              -3.847934
+            ],
+            [
+              -38.528241,
+              -3.847499
+            ],
+            [
+              -38.528063,
+              -3.847153
+            ],
+            [
+              -38.527899,
+              -3.84693
+            ],
+            [
+              -38.527787,
+              -3.846786
+            ],
+            [
+              -38.527006,
+              -3.845855
+            ],
+            [
+              -38.526511,
+              -3.845261
+            ],
+            [
+              -38.525858,
+              -3.84457
+            ],
+            [
+              -38.525733,
+              -3.844377
+            ],
+            [
+              -38.528362,
+              -3.842153
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.453,
+        "municipality": "Fortaleza",
+        "name": "Cj Palmeiras l",
+        "nearby_streets": [
+          "CJ PALMEIRAS L",
+          "RUA DA FEIRA",
+          "CANAL - CONJ. PALMEIRAS I"
+        ],
+        "nearby_streets_count": 42,
+        "node_id": 29,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 27,
+        "region": "fortaleza",
+        "risk_score": 41.131,
+        "score": 41.131,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.526932,
+              -3.848806
+            ],
+            [
+              -38.525668,
+              -3.847206
+            ],
+            [
+              -38.524393,
+              -3.84551
+            ],
+            [
+              -38.525733,
+              -3.844377
+            ],
+            [
+              -38.527006,
+              -3.845855
+            ],
+            [
+              -38.528022,
+              -3.847127
+            ],
+            [
+              -38.52835,
+              -3.847624
+            ],
+            [
+              -38.526932,
+              -3.848806
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.72,
+        "municipality": "Fortaleza",
+        "name": "Rua da Feira",
+        "nearby_streets": [
+          "RUA DA FEIRA",
+          "CJ PALMEIRAS L",
+          "ÁREA DE GUERRA"
+        ],
+        "nearby_streets_count": 43,
+        "node_id": 30,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 28,
+        "region": "fortaleza",
+        "risk_score": 40.577,
+        "score": 40.577,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.521868,
+              -3.846307
+            ],
+            [
+              -38.52357,
+              -3.8526
+            ],
+            [
+              -38.523854,
+              -3.85333
+            ],
+            [
+              -38.523847,
+              -3.853693
+            ],
+            [
+              -38.523794,
+              -3.854003
+            ],
+            [
+              -38.523775,
+              -3.854377
+            ],
+            [
+              -38.523656,
+              -3.854983
+            ],
+            [
+              -38.522793,
+              -3.855367
+            ],
+            [
+              -38.521591,
+              -3.851369
+            ],
+            [
+              -38.52042,
+              -3.846857
+            ],
+            [
+              -38.520362,
+              -3.84653
+            ],
+            [
+              -38.521313,
+              -3.846387
+            ],
+            [
+              -38.521385,
+              -3.846409
+            ],
+            [
+              -38.521868,
+              -3.846307
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.421,
+        "municipality": "Fortaleza",
+        "name": "Rua Codó",
+        "nearby_streets": [
+          "RUA CODÓ",
+          "JAGATÁ",
+          "FAVELINHA"
+        ],
+        "nearby_streets_count": 42,
+        "node_id": 31,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 29,
+        "region": "fortaleza",
+        "risk_score": 40.069,
+        "score": 40.069,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.51933,
+              -3.850515
+            ],
+            [
+              -38.521032,
+              -3.849802
+            ],
+            [
+              -38.521293,
+              -3.850603
+            ],
+            [
+              -38.521455,
+              -3.851242
+            ],
+            [
+              -38.521759,
+              -3.852333
+            ],
+            [
+              -38.522047,
+              -3.853481
+            ],
+            [
+              -38.52211,
+              -3.853694
+            ],
+            [
+              -38.522317,
+              -3.854295
+            ],
+            [
+              -38.522537,
+              -3.854938
+            ],
+            [
+              -38.522663,
+              -3.855401
+            ],
+            [
+              -38.521808,
+              -3.855843
+            ],
+            [
+              -38.521481,
+              -3.854811
+            ],
+            [
+              -38.521075,
+              -3.854922
+            ],
+            [
+              -38.51933,
+              -3.850515
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.069,
+        "municipality": "Fortaleza",
+        "name": "Jagatá",
+        "nearby_streets": [
+          "JAGATÁ",
+          "FAVELINHA",
+          "RUA CODÓ"
+        ],
+        "nearby_streets_count": 43,
+        "node_id": 32,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 30,
+        "region": "fortaleza",
+        "risk_score": 39.008,
+        "score": 39.008,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.526932,
+              -3.848806
+            ],
+            [
+              -38.527238,
+              -3.849175
+            ],
+            [
+              -38.525969,
+              -3.850243
+            ],
+            [
+              -38.525635,
+              -3.849869
+            ],
+            [
+              -38.526932,
+              -3.848806
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.147,
+        "municipality": "Fortaleza",
+        "name": "Favelinha do Palmeiras",
+        "nearby_streets": [
+          "FAVELINHA DO PALMEIRAS",
+          "RUA DA FEIRA",
+          "FAVELINHA"
+        ],
+        "nearby_streets_count": 40,
+        "node_id": 33,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 31,
+        "region": "fortaleza",
+        "risk_score": 39.008,
+        "score": 39.008,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.526154,
+              -3.851385
+            ],
+            [
+              -38.525952,
+              -3.851578
+            ],
+            [
+              -38.525577,
+              -3.851893
+            ],
+            [
+              -38.525469,
+              -3.851956
+            ],
+            [
+              -38.525244,
+              -3.852167
+            ],
+            [
+              -38.525125,
+              -3.852195
+            ],
+            [
+              -38.524542,
+              -3.852674
+            ],
+            [
+              -38.524212,
+              -3.853
+            ],
+            [
+              -38.523941,
+              -3.853205
+            ],
+            [
+              -38.523886,
+              -3.853124
+            ],
+            [
+              -38.524132,
+              -3.852897
+            ],
+            [
+              -38.525101,
+              -3.852069
+            ],
+            [
+              -38.524867,
+              -3.851747
+            ],
+            [
+              -38.524957,
+              -3.851654
+            ],
+            [
+              -38.52496,
+              -3.8516
+            ],
+            [
+              -38.525732,
+              -3.85091
+            ],
+            [
+              -38.525901,
+              -3.851114
+            ],
+            [
+              -38.525979,
+              -3.851186
+            ],
+            [
+              -38.526154,
+              -3.851385
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.564,
+        "municipality": "Fortaleza",
+        "name": "Favelinha",
+        "nearby_streets": [
+          "FAVELINHA",
+          "LOTEAMENTO",
+          "FAVELINHA DO PALMEIRAS"
+        ],
+        "nearby_streets_count": 40,
+        "node_id": 34,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 32,
+        "region": "fortaleza",
+        "risk_score": 38.423,
+        "score": 38.423,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.526941,
+              -3.854837
+            ],
+            [
+              -38.523779,
+              -3.854594
+            ],
+            [
+              -38.523901,
+              -3.853434
+            ],
+            [
+              -38.524551,
+              -3.853422
+            ],
+            [
+              -38.524587,
+              -3.852909
+            ],
+            [
+              -38.525192,
+              -3.852355
+            ],
+            [
+              -38.526164,
+              -3.852444
+            ],
+            [
+              -38.526152,
+              -3.852943
+            ],
+            [
+              -38.52757,
+              -3.853051
+            ],
+            [
+              -38.527528,
+              -3.853626
+            ],
+            [
+              -38.528211,
+              -3.853659
+            ],
+            [
+              -38.52785,
+              -3.854868
+            ],
+            [
+              -38.526941,
+              -3.854837
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.317,
+        "municipality": "Fortaleza",
+        "name": "Loteamento",
+        "nearby_streets": [
+          "LOTEAMENTO",
+          "FAVELINHA",
+          "RUA PATATIVA DO ASSARÉ"
+        ],
+        "nearby_streets_count": 38,
+        "node_id": 35,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 33,
+        "region": "fortaleza",
+        "risk_score": 38.067,
+        "score": 38.067,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.528451,
+              -3.842125
+            ],
+            [
+              -38.531059,
+              -3.839971
+            ],
+            [
+              -38.532438,
+              -3.842223
+            ],
+            [
+              -38.532376,
+              -3.842294
+            ],
+            [
+              -38.532711,
+              -3.84267
+            ],
+            [
+              -38.532893,
+              -3.843216
+            ],
+            [
+              -38.530772,
+              -3.844894
+            ],
+            [
+              -38.528451,
+              -3.842125
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.65,
+        "municipality": "Conj. Palmeiras I",
+        "name": "Beira Rio - Conj. Palmeiras I",
+        "nearby_streets": [
+          "BEIRA RIO - CONJ. PALMEIRAS I",
+          "RUA VALPARAÍSO",
+          "AVENIDA VALPARAÍSO"
+        ],
+        "nearby_streets_count": 21,
+        "node_id": 36,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 34,
+        "region": "fortaleza",
+        "risk_score": 36.873,
+        "score": 36.873,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.529176,
+              -3.845701
+            ],
+            [
+              -38.530467,
+              -3.844644
+            ],
+            [
+              -38.531593,
+              -3.846001
+            ],
+            [
+              -38.531526,
+              -3.846069
+            ],
+            [
+              -38.531719,
+              -3.846313
+            ],
+            [
+              -38.530355,
+              -3.847388
+            ],
+            [
+              -38.53017,
+              -3.84721
+            ],
+            [
+              -38.530313,
+              -3.847096
+            ],
+            [
+              -38.529176,
+              -3.845701
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.295,
+        "municipality": "Conj. Palmeiras I",
+        "name": "Canal - Conj. Palmeiras I",
+        "nearby_streets": [
+          "CANAL - CONJ. PALMEIRAS I",
+          "BECO - CONJ. PALMEIRAS",
+          "PISSAREIRA - CONJ. PALMEIRAS I"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 37,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 35,
+        "region": "fortaleza",
+        "risk_score": 36.438,
+        "score": 36.438,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.530037,
+              -3.846811
+            ],
+            [
+              -38.530279,
+              -3.847098
+            ],
+            [
+              -38.53017,
+              -3.84721
+            ],
+            [
+              -38.530355,
+              -3.847388
+            ],
+            [
+              -38.530471,
+              -3.847664
+            ],
+            [
+              -38.530768,
+              -3.847587
+            ],
+            [
+              -38.530832,
+              -3.847776
+            ],
+            [
+              -38.530292,
+              -3.847915
+            ],
+            [
+              -38.53028,
+              -3.848043
+            ],
+            [
+              -38.530413,
+              -3.848211
+            ],
+            [
+              -38.530576,
+              -3.84832
+            ],
+            [
+              -38.530127,
+              -3.848651
+            ],
+            [
+              -38.53004,
+              -3.848479
+            ],
+            [
+              -38.529821,
+              -3.848516
+            ],
+            [
+              -38.529767,
+              -3.848399
+            ],
+            [
+              -38.527891,
+              -3.849912
+            ],
+            [
+              -38.527278,
+              -3.849122
+            ],
+            [
+              -38.530037,
+              -3.846811
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.082,
+        "municipality": "Conj. Palmeiras I",
+        "name": "Pissareira - Conj. Palmeiras I",
+        "nearby_streets": [
+          "PISSAREIRA - CONJ. PALMEIRAS I",
+          "AREA SEM NOME",
+          "CANAL - CONJ. PALMEIRAS I"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 38,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 36,
+        "region": "fortaleza",
+        "risk_score": 36.28,
+        "score": 36.28,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.530816,
+              -3.844955
+            ],
+            [
+              -38.532893,
+              -3.843216
+            ],
+            [
+              -38.533132,
+              -3.843549
+            ],
+            [
+              -38.533012,
+              -3.843655
+            ],
+            [
+              -38.533079,
+              -3.843741
+            ],
+            [
+              -38.533023,
+              -3.843777
+            ],
+            [
+              -38.533232,
+              -3.844036
+            ],
+            [
+              -38.533189,
+              -3.84406
+            ],
+            [
+              -38.533496,
+              -3.844421
+            ],
+            [
+              -38.532814,
+              -3.84503
+            ],
+            [
+              -38.533097,
+              -3.845338
+            ],
+            [
+              -38.532082,
+              -3.846203
+            ],
+            [
+              -38.531776,
+              -3.845853
+            ],
+            [
+              -38.531642,
+              -3.845961
+            ],
+            [
+              -38.530816,
+              -3.844955
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.077,
+        "municipality": "Conj. Palmeiras",
+        "name": "Beco - Conj. Palmeiras",
+        "nearby_streets": [
+          "BECO - CONJ. PALMEIRAS",
+          "CANAL - CONJ. PALMEIRAS I",
+          "BEIRA RIO - CONJ. PALMEIRAS I"
+        ],
+        "nearby_streets_count": 21,
+        "node_id": 39,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 37,
+        "region": "fortaleza",
+        "risk_score": 35.24,
+        "score": 35.24,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.52746,
+              -3.833362
+            ],
+            [
+              -38.52751,
+              -3.833265
+            ],
+            [
+              -38.527701,
+              -3.833045
+            ],
+            [
+              -38.527776,
+              -3.833086
+            ],
+            [
+              -38.527893,
+              -3.833204
+            ],
+            [
+              -38.527959,
+              -3.833223
+            ],
+            [
+              -38.528305,
+              -3.833211
+            ],
+            [
+              -38.52848,
+              -3.833403
+            ],
+            [
+              -38.528245,
+              -3.83367
+            ],
+            [
+              -38.528633,
+              -3.834039
+            ],
+            [
+              -38.52871,
+              -3.833962
+            ],
+            [
+              -38.529063,
+              -3.834346
+            ],
+            [
+              -38.528911,
+              -3.834536
+            ],
+            [
+              -38.529102,
+              -3.834754
+            ],
+            [
+              -38.529077,
+              -3.83485
+            ],
+            [
+              -38.528978,
+              -3.83504
+            ],
+            [
+              -38.528783,
+              -3.835224
+            ],
+            [
+              -38.528535,
+              -3.835043
+            ],
+            [
+              -38.526727,
+              -3.836732
+            ],
+            [
+              -38.525387,
+              -3.835304
+            ],
+            [
+              -38.52746,
+              -3.833362
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO PALMEIRAS",
+        "faction": "CV",
+        "generated_at": "2026-10-09T09:36:15.486472",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.128,
+        "municipality": "São Cristóvão",
+        "name": "Sorriso - São Cristóvão",
+        "nearby_streets": [
+          "SORRISO - SÃO CRISTÓVÃO",
+          "RUA JOSÉ DO CRATO",
+          "RUA ABENÇOADA"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 40,
+        "parent_area": "CONJUNTO PALMEIRAS",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 32.0,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 16,
+        "peak_hour_share": 0.1765,
+        "peak_hour_start": 11,
+        "peak_hours": "Entre 11hs e 16hs",
+        "peak_time_label": "Terca-feira, entre 11hs e 16hs",
+        "peak_weekday": "Terca-feira",
+        "peak_weekday_share": 0.2353,
+        "rank": 38,
+        "region": "fortaleza",
+        "risk_score": 34.651,
+        "score": 34.651,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 17
+      },
+      "type": "Feature"
     }
   ],
   "metadata": {
-    "generated_at": "2026-09-24T14:42:49.820787",
+    "generated_at": "2026-10-09T09:36:15.486472",
     "region": "capital",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
-    "total": 44
+    "total": 40
   },
   "type": "FeatureCollection"
 }

@@ -1,29 +1,29 @@
 {
   "global": {
-    "total_nodes": 79,
-    "active_locations": 21,
+    "total_nodes": 2106,
+    "active_locations": 16,
     "top_region": "interior",
-    "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 32.84
+    "top_name": "TIANGUA",
+    "avg_risk": 20.66
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 40,
-      "avg_risk": 32.14,
-      "max_risk": 96.0,
+      "total_nodes": 550,
+      "avg_risk": 21.95,
+      "max_risk": 97.8,
       "top_name": "ANTONIO BEZERRA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 13.76,
+      "avg_risk": 16.41,
       "max_risk": 100.0,
-      "top_name": "CAUCAIA"
+      "top_name": "MARACANAU"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 52.36,
+      "avg_risk": 39.06,
       "max_risk": 100.0,
-      "top_name": "JUAZEIRO DO NORTE"
+      "top_name": "TIANGUA"
     }
   }
 }
