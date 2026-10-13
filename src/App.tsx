@@ -616,6 +616,17 @@ function App() {
                     </div>
 
                     <div className="detail-copy">
+                      <h3>Validação da tendência observada</h3>
+                      <p>
+                        <strong>{(selectedTerritory?.trend_validation ?? selectedRisk.trend_validation)?.status ?? 'indeterminado'}</strong>
+                        {' · '}
+                        {(selectedTerritory?.trend_validation ?? selectedRisk.trend_validation)?.active_days_14 ?? 0} dias ativos em 14
+                        {' · '}
+                        {(selectedTerritory?.trend_validation ?? selectedRisk.trend_validation)?.evidence ?? 'Série temporal não disponível no snapshot.'}
+                      </p>
+                    </div>
+
+                    <div className="detail-copy">
                       <h3>Janela crítica</h3>
                       <p>{formatPeakHours(selectedTerritory?.peak_hours ?? selectedRisk.peak_hours)}</p>
                     </div>

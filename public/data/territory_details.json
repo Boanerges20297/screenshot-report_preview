@@ -8,6 +8,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 5.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "conflitante",
+      "active_days_14": 6,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 5,
+      "long_delta_30d": 3,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -69,6 +80,17 @@
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": -2.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": -2,
+      "long_delta_30d": 1,
+      "window_agreement": 2,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA CORONEL CORREIA, S/N",
     "peak_hours": "Entre 19hs e 00hs",
     "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 82.20.",
@@ -84,6 +106,17 @@
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
     "peak_hours": "",
     "summary": "Território em nível crítico. Tensão territorial atual em 81.40.",
@@ -99,6 +132,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 2.0,
     "momentum_14d": 2.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 2,
+      "sample_days": 14,
+      "short_delta_7d": 2,
+      "medium_delta_14d": 2,
+      "long_delta_30d": -3,
+      "window_agreement": 2,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 2,
@@ -135,6 +179,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -2.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -2,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 3,
@@ -186,6 +241,17 @@
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 3,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA CAIO FACO, 791, CURIO",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível moderado. Tensão territorial atual em 40.90.",
@@ -201,6 +267,17 @@
     "recent_exogenous": 0,
     "momentum_7d": -2.0,
     "momentum_14d": 2.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 2,
+      "sample_days": 14,
+      "short_delta_7d": -2,
+      "medium_delta_14d": 2,
+      "long_delta_30d": 1,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -237,6 +314,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 1.0,
     "momentum_14d": -2.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": 1,
+      "medium_delta_14d": -2,
+      "long_delta_30d": 0,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -268,6 +356,17 @@
     "recent_exogenous": 0,
     "momentum_7d": -1.0,
     "momentum_14d": 1.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 1,
+      "long_delta_30d": 0,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -334,6 +433,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -3.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -3,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
     "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 20.10.",
@@ -349,6 +459,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -380,6 +501,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. VAL PARAISO, 598",
     "peak_hours": "Entre 11hs e 16hs",
     "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 12.00.",
@@ -395,6 +527,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -434,8 +577,19 @@
     "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -457,6 +611,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -523,6 +688,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 6.70.",
@@ -538,6 +714,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
     "peak_hours": "Entre 19hs e 00hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 6.20.",
@@ -553,6 +740,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 06hs e 11hs",
     "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 6.10.",
@@ -568,6 +766,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA ACRE, 220, RUA DAS PALMAS, 433, CIDADE NOVA",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 5.80.",
@@ -583,6 +792,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
     "peak_hours": "Entre 11hs e 16hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 5.50.",
@@ -598,6 +818,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -659,6 +890,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -725,6 +967,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -791,6 +1044,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 07hs e 12hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 4.60.",
@@ -806,6 +1070,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -827,6 +1102,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA 8 H",
     "peak_hours": "Entre 14hs e 19hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 4.10.",
@@ -842,6 +1128,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA JOSE MAURICIO, 858",
     "peak_hours": "Entre 11hs e 16hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.80.",
@@ -857,6 +1154,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA EST. DO ITAPERI",
     "peak_hours": "Entre 00hs e 05hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.40.",
@@ -872,6 +1180,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
     "peak_hours": "Entre 18hs e 23hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.40.",
@@ -887,6 +1206,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA DONA LUCIA PINHEIRO, 2410",
     "peak_hours": "Entre 19hs e 00hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.30.",
@@ -902,6 +1232,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -933,6 +1274,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 00hs e 05hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.10.",
@@ -948,6 +1300,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1014,6 +1377,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA DA LUA (SEM NUMERO)",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.00.",
@@ -1029,6 +1403,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 3.00.",
@@ -1044,6 +1429,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1110,6 +1506,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.70.",
@@ -1125,6 +1532,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1166,6 +1584,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA MARCILIO DIAS, 1615",
     "peak_hours": "",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
@@ -1181,6 +1610,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
@@ -1196,6 +1636,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 14hs e 19hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
@@ -1211,6 +1662,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA BRASILIA, 927",
     "peak_hours": "Entre 13hs e 18hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
@@ -1226,6 +1688,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 19hs e 00hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
@@ -1241,6 +1714,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1277,6 +1761,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
@@ -1292,6 +1787,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
@@ -1307,6 +1813,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 21hs e 02hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
@@ -1322,6 +1839,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. MOZAR LUCENA, 1400",
     "peak_hours": "Entre 12hs e 17hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
@@ -1337,6 +1865,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA LUCAS FRANCISCO ANTONIO, RUA MARTINS DE CASTRO, 482",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
@@ -1352,6 +1891,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 08hs e 13hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
@@ -1367,6 +1917,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
@@ -1382,6 +1943,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
@@ -1397,6 +1969,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA NOSSA SENHORA DAS GRACAS, 824",
     "peak_hours": "Entre 08hs e 13hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.20.",
@@ -1412,6 +1995,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV ALVES DE FIGUEIREDO, 338, AV CARLOS JEREISSATI, (POSTO TETRA, FRENTE AO SHOPPING MARACANAU), RUA DA LIBERDADE, 153, RUA DEOLINO BARRETO, S/N, RUA FRANCISCO MOURAO LIMA, 208",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.20.",
@@ -1427,6 +2021,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 22hs e 03hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.20.",
@@ -1442,6 +2047,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1503,6 +2119,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1529,6 +2156,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1550,6 +2188,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. DIONISIO LEONEL AGUIAR",
     "peak_hours": "Entre 12hs e 17hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.00.",
@@ -1565,6 +2214,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.00.",
@@ -1580,6 +2240,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -1621,6 +2292,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "DISTRITO DE SEVERINO",
     "peak_hours": "",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.90.",
@@ -1636,6 +2318,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.60.",
@@ -1651,6 +2344,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1712,6 +2416,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.40.",
@@ -1727,6 +2442,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1768,6 +2494,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1776,21 +2513,6 @@
       }
     ],
     "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.40.",
-    "risk_score": 1.4,
-    "status": "BAIXO"
-  },
-  "fortaleza:PADRE ANDRADE": {
-    "name": "PADRE ANDRADE",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 00hs e 05hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.30.",
     "risk_score": 1.3,
     "status": "BAIXO"
@@ -1804,6 +2526,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "RUA SANTA LIDUINA, 58, VILA ROSANGELA",
     "peak_hours": "Entre 21hs e 02hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.00.",
@@ -1819,6 +2552,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.70.",
@@ -1834,6 +2578,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.70.",
@@ -1849,6 +2604,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1895,6 +2661,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 15hs e 20hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.40.",
@@ -1910,6 +2687,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -1946,6 +2734,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
     "peak_hours": "",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.20.",
@@ -1961,6 +2760,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 0,
@@ -2002,6 +2812,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 3,
@@ -2053,6 +2874,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,
@@ -2079,6 +2911,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 00hs e 05hs",
     "summary": "Território em nível baixo.",
@@ -2094,6 +2937,17 @@
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
     "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
     "critical_streets": [
       {
         "cvli": 1,

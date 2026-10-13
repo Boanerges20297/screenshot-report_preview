@@ -13,6 +13,7 @@ type MomentumCloudLayerProps = {
   region: RegionKey
   polygons: GeoFeatureCollection
   riskItems: RiskItem[]
+  cvliPoints: GeoFeatureCollection
   speed: number
 }
 
@@ -25,6 +26,7 @@ type CloudAnchor = {
   directionY: number
   strength: number
   phase: number
+  validationStatus: string
 }
 
 function clamp(value: number, min: number, max: number): number {
@@ -36,10 +38,34 @@ function finiteNumber(value: unknown): number {
   return Number.isFinite(parsed) ? parsed : 0
 }
 
+function observedDrift(points: GeoFeatureCollection): { x: number; y: number; valid: boolean } {
+  const dated = points.features.map((feature) => {
+    const time = Date.parse(String(feature.properties?.data ?? '').slice(0, 10))
+    const coordinates = feature.geometry?.coordinates
+    if (!Number.isFinite(time) || !Array.isArray(coordinates)) return null
+    const lng = Number(coordinates[0]); const lat = Number(coordinates[1])
+    return Number.isFinite(lng) && Number.isFinite(lat) ? { time, lng, lat } : null
+  }).filter((item): item is { time: number; lng: number; lat: number } => item !== null)
+  if (dated.length < 6) return { x: 0, y: 0, valid: false }
+  const latest = Math.max(...dated.map((item) => item.time)); const day = 86_400_000
+  const recent = dated.filter((item) => latest - item.time <= 30 * day)
+  const previous = dated.filter((item) => latest - item.time > 30 * day && latest - item.time <= 60 * day)
+  if (recent.length < 3 || previous.length < 3) return { x: 0, y: 0, valid: false }
+  const center = (items: typeof dated) => ({
+    lng: items.reduce((sum, item) => sum + item.lng, 0) / items.length,
+    lat: items.reduce((sum, item) => sum + item.lat, 0) / items.length,
+  })
+  const current = center(recent); const prior = center(previous)
+  const east = (current.lng - prior.lng) * Math.cos((current.lat * Math.PI) / 180)
+  const north = current.lat - prior.lat; const magnitude = Math.hypot(east, north)
+  return magnitude < 1e-5 ? { x: 0, y: 0, valid: false } : { x: east / magnitude, y: -north / magnitude, valid: true }
+}
+
 function locateAnchors(
   region: RegionKey,
   polygons: GeoFeatureCollection,
   riskItems: RiskItem[],
+  drift: { x: number; y: number; valid: boolean },
 ): CloudAnchor[] {
   const riskById = new Map(riskItems.map((item) => [item.id, item]))
   const positions = new Map<string, L.LatLng>()
@@ -68,48 +94,20 @@ function locateAnchors(
       score: clamp(finiteNumber(item.score), 0, 100),
       momentum7: finiteNumber(item.momentum_7d),
       momentum14: finiteNumber(item.momentum_14d),
+      validationStatus: item.trend_validation?.status ?? 'indeterminado',
     }))
-
-  // Gradient between neighboring momentum measurements, not an inferred
-  // trajectory of offenders or a forecast of individual occurrences.
-  const radiusMeters = region === 'fortaleza' ? 10500 : region === 'rmf' ? 27000 : 90000
 
   return nodes.map((node, index) => {
     const ownTrend = node.momentum7 + node.momentum14 * 0.45
-    let dx = 0
-    let dy = 0
-
-    for (const neighbor of nodes) {
-      if (neighbor === node) continue
-      const distance = node.position.distanceTo(neighbor.position)
-      if (distance < 1 || distance > radiusMeters * 2) continue
-
-      const otherTrend = neighbor.momentum7 + neighbor.momentum14 * 0.45
-      // Spatial gradient of existing risk and momentum. Signed weights allow
-      // the field to evolve in both directions without inventing a route.
-      const delta = (otherTrend - ownTrend) +
-        ((neighbor.score - node.score) / 35) * 0.45
-      if (Math.abs(delta) < 0.001) continue
-
-      const spatialWeight = Math.exp(-0.5 * (distance / radiusMeters) ** 2)
-      const weight = delta * spatialWeight * (0.4 + neighbor.score / 100)
-      const east = (neighbor.position.lng - node.position.lng) *
-        Math.cos((node.position.lat * Math.PI) / 180)
-      const north = neighbor.position.lat - node.position.lat
-      const magnitude = Math.hypot(east, north) || 1
-
-      dx += (east / magnitude) * weight
-      dy -= (north / magnitude) * weight
-    }
-
-    const vectorLength = Math.hypot(dx, dy)
-    const trendStrength = clamp(Math.abs(ownTrend) / 3, 0, 1)
+    const validationFactor = node.validationStatus.startsWith('confirmada') ? 1 :
+      node.validationStatus === 'estavel' ? 0.65 : 0.35
+    const trendStrength = clamp((Math.abs(ownTrend) / 3) * validationFactor, 0, 1)
 
     return {
       ...node,
-      directionX: vectorLength > 0.001 ? dx / vectorLength : 0,
-      directionY: vectorLength > 0.001 ? dy / vectorLength : 0,
-      strength: trendStrength,
+      directionX: drift.valid ? drift.x : 0,
+      directionY: drift.valid ? drift.y : 0,
+      strength: drift.valid ? trendStrength : 0,
       phase: index * 1.618,
     }
   })
@@ -120,12 +118,14 @@ export function MomentumCloudLayer({
   region,
   polygons,
   riskItems,
+  cvliPoints,
   speed,
 }: MomentumCloudLayerProps) {
   const map = useMap()
+  const drift = useMemo(() => observedDrift(cvliPoints), [cvliPoints])
   const anchors = useMemo(
-    () => locateAnchors(region, polygons, riskItems),
-    [region, polygons, riskItems],
+    () => locateAnchors(region, polygons, riskItems, drift),
+    [region, polygons, riskItems, drift],
   )
 
   useEffect(() => {

@@ -53,7 +53,20 @@ export type RiskItem = {
   tension_index: number
   status: string
   trend: string
+  trend_validation?: TrendValidation
   summary: string
+}
+
+export type TrendValidation = {
+  status: string
+  direction: string
+  active_days_14: number
+  sample_days: number
+  short_delta_7d: number
+  medium_delta_14d: number
+  long_delta_30d: number
+  window_agreement: number
+  evidence: string
 }
 
 export type TerritoryDetail = {
@@ -70,6 +83,7 @@ export type TerritoryDetail = {
   summary: string
   risk_score: number
   status: string
+  trend_validation?: TrendValidation
 }
 
 export type RiskSnapshot = {

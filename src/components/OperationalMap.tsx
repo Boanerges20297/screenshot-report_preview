@@ -620,7 +620,7 @@ export function OperationalMap({
           <div className="momentum-cloud-legend-title"><span className="momentum-live-dot" />Nuvem Momentum · Snapshot</div>
           <div className="momentum-cloud-legend-scale"><span /> <span /> <span /></div>
           <div className="momentum-cloud-legend-labels"><span>Menor concentração</span><span>Maior concentração</span></div>
-          <p>Risco + momentum 7/14d. Movimento visual da tendência, não trajeto real.</p>
+          <p>Direção = deslocamento do centróide CVLI (30d contra 30d anteriores). Sem 3+ pontos por janela, a nuvem não migra.</p>
           <label
             className="momentum-speed-control"
             htmlFor="momentum-speed"
@@ -658,7 +658,7 @@ export function OperationalMap({
       <MapEventsHandler onMapClick={() => onSelectTerritory(null)} />
       {showMomentumCloud && (
         <Pane name="momentum-cloud" style={{ zIndex: 455, pointerEvents: 'none' }}>
-          <MomentumCloudLayer region={region} polygons={polygons} riskItems={riskItems} speed={momentumSpeed} />
+          <MomentumCloudLayer region={region} polygons={polygons} riskItems={riskItems} cvliPoints={cvliPoints} speed={momentumSpeed} />
         </Pane>
       )}
 
