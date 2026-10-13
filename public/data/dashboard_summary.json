@@ -1,29 +1,29 @@
 {
   "global": {
     "total_nodes": 79,
-    "active_locations": 21,
+    "active_locations": 3,
     "top_region": "interior",
-    "top_name": "JUAZEIRO DO NORTE",
-    "avg_risk": 32.84
+    "top_name": "SOBRAL",
+    "avg_risk": 9.29
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 32.14,
-      "max_risk": 96.0,
-      "top_name": "ANTONIO BEZERRA"
+      "avg_risk": 6.39,
+      "max_risk": 81.4,
+      "top_name": "JANGURUSSU"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 13.76,
-      "max_risk": 100.0,
+      "avg_risk": 5.81,
+      "max_risk": 82.2,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 52.36,
-      "max_risk": 100.0,
-      "top_name": "JUAZEIRO DO NORTE"
+      "avg_risk": 18.4,
+      "max_risk": 98.5,
+      "top_name": "SOBRAL"
     }
   }
 }

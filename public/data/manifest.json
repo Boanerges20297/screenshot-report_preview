@@ -1,10 +1,18 @@
 {
-  "snapshot_id": "2026-09-24T14-44-24",
-  "generated_at": "2026-09-24T14:44:24-03:00",
+  "snapshot_id": "2026-10-13T16-08-53",
+  "generated_at": "2026-10-13T16:08:53-03:00",
   "source_repo": "Report Preview",
-  "source_commit": "7085039e",
-  "model_label": "ELITE P10",
-  "model_architecture": "Poisson Ranker Estadual",
+  "source_commit": "6c241e37",
+  "model_label": "Híbrido Poisson 80% + ST-GAT v5 20%",
+  "model_architecture": "Híbrido Poisson 80% + ST-GAT v5 20%",
+  "model_mode": "hybrid",
+  "data_limit": "2026-10-09",
+  "risk_meta_counts": {
+    "alto": 0,
+    "baixo": 70,
+    "crítico": 3,
+    "moderado": 6
+  },
   "momentum_window_days": 14,
   "regions": [
     "fortaleza",
