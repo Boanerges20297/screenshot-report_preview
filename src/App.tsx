@@ -365,22 +365,6 @@ function App() {
             </span>
             <span className="theme-toggle-label">{theme === 'dark' ? '🌙 Escuro' : '☀ Claro'}</span>
           </button>
-          {showMomentumCloud && (
-            <label className="momentum-speed-control" htmlFor="momentum-speed">
-              <span>Velocidade</span>
-              <input
-                id="momentum-speed"
-                type="range"
-                min="0.5"
-                max="2.5"
-                step="0.25"
-                value={momentumSpeed}
-                onChange={(event) => setMomentumSpeed(Number(event.target.value))}
-                aria-label="Velocidade da nuvem momentum"
-              />
-              <output>{momentumSpeed.toFixed(2)}×</output>
-            </label>
-          )}
         </div>
       </header>
 
@@ -558,6 +542,7 @@ function App() {
             showCvliPoints={showCvliPoints}
             showMomentumCloud={showMomentumCloud}
             momentumSpeed={momentumSpeed}
+            onMomentumSpeedChange={setMomentumSpeed}
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setDetailTab('indicadores')

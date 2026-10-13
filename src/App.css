@@ -1791,12 +1791,25 @@
   gap: 0.45rem;
   min-height: 2rem;
   padding: 0.25rem 0.55rem;
-  border: 1px solid var(--line, #cbd5e1);
+  border: 1px solid rgba(148, 163, 184, 0.5);
   border-radius: 0.45rem;
   background: var(--surface, #ffffff);
   color: var(--muted, #475569);
   font-size: 0.72rem;
   white-space: nowrap;
+}
+
+.momentum-cloud-legend .momentum-speed-control {
+  width: 100%;
+  margin-top: 0.55rem;
+  justify-content: space-between;
+  border-color: rgba(148, 163, 184, 0.36);
+  background: rgba(15, 23, 42, 0.72);
+  color: #e2e8f0;
+}
+
+.momentum-cloud-legend .momentum-speed-control output {
+  color: #f8fafc;
 }
 
 .momentum-speed-control input {

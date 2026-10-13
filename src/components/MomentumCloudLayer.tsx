@@ -187,9 +187,9 @@ export function MomentumCloudLayer({
         if (alpha <= 0.001 || x < -radius || y < -radius ||
             x > size.x + radius || y > size.y + radius) return
         const gradient = context!.createRadialGradient(x, y, 0, x, y, radius)
-        gradient.addColorStop(0, `rgba(153,27,27,${clamp(0.58 * alpha, 0, 0.95)})`)
-        gradient.addColorStop(0.30, `rgba(234,88,12,${clamp(0.47 * alpha, 0, 0.92)})`)
-        gradient.addColorStop(0.64, `rgba(250,204,21,${clamp(0.31 * alpha, 0, 0.85)})`)
+        gradient.addColorStop(0, `rgba(127,14,14,${clamp(0.82 * alpha, 0, 0.98)})`)
+        gradient.addColorStop(0.30, `rgba(220,55,10,${clamp(0.68 * alpha, 0, 0.95)})`)
+        gradient.addColorStop(0.64, `rgba(245,158,11,${clamp(0.48 * alpha, 0, 0.9)})`)
         gradient.addColorStop(1, 'rgba(250,204,21,0)')
         context!.fillStyle = gradient
         context!.beginPath()
@@ -211,7 +211,7 @@ export function MomentumCloudLayer({
         }
 
         // Stable low-opacity reference keeps hotspot geography recognizable.
-        paintCloud(location.x, location.y, baseRadius * 1.08, baseIntensity * 0.16)
+        paintCloud(location.x, location.y, baseRadius * 1.08, baseIntensity * 0.26)
 
         // Two fronts, offset half a cycle: their edges fade to zero before
         // wrapping, so the animation never jumps back to its starting point.
@@ -227,7 +227,7 @@ export function MomentumCloudLayer({
             1 + progressFromCenter * 0.72 + trend * 0.22,
             0.65, 1.45,
           )
-          paintCloud(x, y, radius, baseIntensity * visibility * 1.04)
+          paintCloud(x, y, radius, baseIntensity * visibility * 1.22)
         }
       }
     }

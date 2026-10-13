@@ -33,6 +33,7 @@ type OperationalMapProps = {
   showCvliPoints: boolean
   showMomentumCloud: boolean
   momentumSpeed: number
+  onMomentumSpeedChange: (speed: number) => void
   onSelectTerritory: (territoryId: string | null) => void
   onFocusTerritory?: (territoryId: string) => void
 }
@@ -309,6 +310,7 @@ export function OperationalMap({
   showCvliPoints,
   showMomentumCloud,
   momentumSpeed,
+  onMomentumSpeedChange,
   onSelectTerritory,
   onFocusTerritory,
 }: OperationalMapProps) {
@@ -619,6 +621,20 @@ export function OperationalMap({
           <div className="momentum-cloud-legend-scale"><span /> <span /> <span /></div>
           <div className="momentum-cloud-legend-labels"><span>Menor concentração</span><span>Maior concentração</span></div>
           <p>Risco + momentum 7/14d. Movimento visual da tendência, não trajeto real.</p>
+          <label className="momentum-speed-control" htmlFor="momentum-speed">
+            <span>Velocidade</span>
+            <input
+              id="momentum-speed"
+              type="range"
+              min="0.5"
+              max="2.5"
+              step="0.25"
+              value={momentumSpeed}
+              onChange={(event) => onMomentumSpeedChange(Number(event.target.value))}
+              aria-label="Velocidade da nuvem momentum"
+            />
+            <output>{momentumSpeed.toFixed(2)}×</output>
+          </label>
         </div>
       )}
       <MapContainer ref={setMap} center={REGION_VIEW[region].center} zoom={REGION_VIEW[region].zoom} className="map-shell" zoomControl={false}>
