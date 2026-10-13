@@ -1764,7 +1764,7 @@
   color: #f8fafc;
   box-shadow: 0 9px 28px rgba(0, 0, 0, 0.20);
   backdrop-filter: blur(12px);
-  pointer-events: none;
+  pointer-events: auto;
   font-family: 'Inter', system-ui, sans-serif;
 }
 

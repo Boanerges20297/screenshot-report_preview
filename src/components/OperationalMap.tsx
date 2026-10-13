@@ -621,7 +621,12 @@ export function OperationalMap({
           <div className="momentum-cloud-legend-scale"><span /> <span /> <span /></div>
           <div className="momentum-cloud-legend-labels"><span>Menor concentração</span><span>Maior concentração</span></div>
           <p>Risco + momentum 7/14d. Movimento visual da tendência, não trajeto real.</p>
-          <label className="momentum-speed-control" htmlFor="momentum-speed">
+          <label
+            className="momentum-speed-control"
+            htmlFor="momentum-speed"
+            onPointerDown={(event) => event.stopPropagation()}
+            onClick={(event) => event.stopPropagation()}
+          >
             <span>Velocidade</span>
             <input
               id="momentum-speed"
