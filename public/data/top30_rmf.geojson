@@ -5,6 +5,544 @@
         "coordinates": [
           [
             [
+              -38.631165,
+              -3.780241
+            ],
+            [
+              -38.631052,
+              -3.779816
+            ],
+            [
+              -38.630937,
+              -3.779543
+            ],
+            [
+              -38.630768,
+              -3.779206
+            ],
+            [
+              -38.630535,
+              -3.778684
+            ],
+            [
+              -38.630497,
+              -3.778574
+            ],
+            [
+              -38.63109,
+              -3.778312
+            ],
+            [
+              -38.631814,
+              -3.779899
+            ],
+            [
+              -38.631165,
+              -3.780241
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MARECHAL RONDON",
+        "faction": "CV",
+        "generated_at": "2026-10-13T11:34:40.433913",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.67,
+        "municipality": "Caucaia",
+        "name": "Comunidade dos Cariocas - Caucaia",
+        "nearby_streets": [
+          "COMUNIDADE DOS CARIOCAS - CAUCAIA",
+          "CONDOMÍNIOS",
+          "CAJUEIROS"
+        ],
+        "nearby_streets_count": 9,
+        "node_id": 1,
+        "parent_area": "MARECHAL RONDON",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 78.4,
+        "parent_status": "CRÍTICO",
+        "rank": 1,
+        "region": "rmf",
+        "risk_score": 68.057,
+        "score": 68.057,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.667567,
+              -3.742208
+            ],
+            [
+              -38.667691,
+              -3.742198
+            ],
+            [
+              -38.667441,
+              -3.74644
+            ],
+            [
+              -38.666075,
+              -3.74648
+            ],
+            [
+              -38.666053,
+              -3.74662
+            ],
+            [
+              -38.665141,
+              -3.746577
+            ],
+            [
+              -38.665248,
+              -3.744844
+            ],
+            [
+              -38.665646,
+              -3.744876
+            ],
+            [
+              -38.665817,
+              -3.742114
+            ],
+            [
+              -38.667567,
+              -3.742208
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "PARQUE SOLEDADE",
+        "faction": "CV",
+        "generated_at": "2026-10-13T11:34:40.433913",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.41,
+        "municipality": "CAUCAIA",
+        "name": "Planalto Caucaia",
+        "nearby_streets": [
+          "PLANALTO CAUCAIA",
+          "RUA 107",
+          "RUA 114"
+        ],
+        "nearby_streets_count": 9,
+        "node_id": 2,
+        "parent_area": "PARQUE SOLEDADE",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 78.4,
+        "parent_status": "CRÍTICO",
+        "rank": 2,
+        "region": "rmf",
+        "risk_score": 67.816,
+        "score": 67.816,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.911258,
+              -3.682817
+            ],
+            [
+              -38.911904,
+              -3.682892
+            ],
+            [
+              -38.911942,
+              -3.683016
+            ],
+            [
+              -38.911994,
+              -3.683436
+            ],
+            [
+              -38.913298,
+              -3.683359
+            ],
+            [
+              -38.913346,
+              -3.68316
+            ],
+            [
+              -38.914242,
+              -3.683219
+            ],
+            [
+              -38.914358,
+              -3.683368
+            ],
+            [
+              -38.914489,
+              -3.683346
+            ],
+            [
+              -38.914876,
+              -3.684621
+            ],
+            [
+              -38.915804,
+              -3.68433
+            ],
+            [
+              -38.915773,
+              -3.683571
+            ],
+            [
+              -38.916778,
+              -3.683333
+            ],
+            [
+              -38.917074,
+              -3.682971
+            ],
+            [
+              -38.918347,
+              -3.682894
+            ],
+            [
+              -38.918706,
+              -3.683022
+            ],
+            [
+              -38.918791,
+              -3.683489
+            ],
+            [
+              -38.918235,
+              -3.683693
+            ],
+            [
+              -38.918313,
+              -3.684032
+            ],
+            [
+              -38.918696,
+              -3.68438
+            ],
+            [
+              -38.919429,
+              -3.685293
+            ],
+            [
+              -38.916804,
+              -3.686184
+            ],
+            [
+              -38.915985,
+              -3.686687
+            ],
+            [
+              -38.91661,
+              -3.687921
+            ],
+            [
+              -38.916442,
+              -3.688335
+            ],
+            [
+              -38.916883,
+              -3.689505
+            ],
+            [
+              -38.916422,
+              -3.689767
+            ],
+            [
+              -38.915745,
+              -3.69016
+            ],
+            [
+              -38.915983,
+              -3.690792
+            ],
+            [
+              -38.915709,
+              -3.690922
+            ],
+            [
+              -38.915438,
+              -3.690968
+            ],
+            [
+              -38.915373,
+              -3.691061
+            ],
+            [
+              -38.915072,
+              -3.691098
+            ],
+            [
+              -38.915023,
+              -3.691149
+            ],
+            [
+              -38.914578,
+              -3.691171
+            ],
+            [
+              -38.914497,
+              -3.691128
+            ],
+            [
+              -38.914422,
+              -3.690809
+            ],
+            [
+              -38.913804,
+              -3.690799
+            ],
+            [
+              -38.913727,
+              -3.690654
+            ],
+            [
+              -38.913091,
+              -3.69069
+            ],
+            [
+              -38.913061,
+              -3.690772
+            ],
+            [
+              -38.912669,
+              -3.690937
+            ],
+            [
+              -38.912476,
+              -3.690823
+            ],
+            [
+              -38.912255,
+              -3.690869
+            ],
+            [
+              -38.911488,
+              -3.688846
+            ],
+            [
+              -38.911276,
+              -3.688822
+            ],
+            [
+              -38.910949,
+              -3.688552
+            ],
+            [
+              -38.9109,
+              -3.688355
+            ],
+            [
+              -38.911441,
+              -3.688194
+            ],
+            [
+              -38.91141,
+              -3.687394
+            ],
+            [
+              -38.910694,
+              -3.687331
+            ],
+            [
+              -38.91069,
+              -3.686955
+            ],
+            [
+              -38.910411,
+              -3.687007
+            ],
+            [
+              -38.910166,
+              -3.686221
+            ],
+            [
+              -38.908706,
+              -3.686603
+            ],
+            [
+              -38.908551,
+              -3.685757
+            ],
+            [
+              -38.908327,
+              -3.685796
+            ],
+            [
+              -38.908057,
+              -3.684463
+            ],
+            [
+              -38.908273,
+              -3.684413
+            ],
+            [
+              -38.908367,
+              -3.684317
+            ],
+            [
+              -38.908664,
+              -3.684286
+            ],
+            [
+              -38.908571,
+              -3.683424
+            ],
+            [
+              -38.907753,
+              -3.683464
+            ],
+            [
+              -38.907707,
+              -3.683236
+            ],
+            [
+              -38.907827,
+              -3.683162
+            ],
+            [
+              -38.911258,
+              -3.682817
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CAUCAIA",
+        "faction": "CV",
+        "generated_at": "2026-10-13T11:34:40.433913",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.092,
+        "municipality": "CAUCAIA",
+        "name": "Coité Pedreira",
+        "nearby_streets": [
+          "COITÉ PEDREIRA",
+          "TRAVESSA DO PROFESSOR",
+          "RUA MARIA DO PATROCÍNIO"
+        ],
+        "nearby_streets_count": 5,
+        "node_id": 3,
+        "parent_area": "CAUCAIA",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 78.4,
+        "parent_status": "CRÍTICO",
+        "peak_hour_end": 0,
+        "peak_hour_share": 0.0587,
+        "peak_hour_start": 19,
+        "peak_hours": "Entre 19hs e 00hs",
+        "peak_time_label": "Segunda-feira, entre 19hs e 00hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.1614,
+        "rank": 3,
+        "region": "rmf",
+        "risk_score": 67.554,
+        "score": 67.554,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-09",
+        "temporal_sample_size": 409
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.667567,
+              -3.742208
+            ],
+            [
+              -38.667691,
+              -3.742198
+            ],
+            [
+              -38.667441,
+              -3.74644
+            ],
+            [
+              -38.666075,
+              -3.74648
+            ],
+            [
+              -38.666053,
+              -3.74662
+            ],
+            [
+              -38.665141,
+              -3.746577
+            ],
+            [
+              -38.665248,
+              -3.744844
+            ],
+            [
+              -38.665646,
+              -3.744876
+            ],
+            [
+              -38.665817,
+              -3.742114
+            ],
+            [
+              -38.667567,
+              -3.742208
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "PARQUE SOLEDADE",
+        "faction": "CV",
+        "generated_at": "2026-10-13T11:34:40.433913",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.343,
+        "municipality": "CAUCAIA",
+        "name": "Planalto Caucaia",
+        "nearby_streets": [
+          "RUA 114",
+          "AVENIDA CONTÔRNO NORTE",
+          "CONDOMÍNIO PABUSSU"
+        ],
+        "nearby_streets_count": 8,
+        "node_id": 4,
+        "parent_area": "PARQUE SOLEDADE",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 78.4,
+        "parent_status": "CRÍTICO",
+        "rank": 4,
+        "region": "rmf",
+        "risk_score": 67.539,
+        "score": 67.539,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
               -38.952839,
               -3.744318
             ],
@@ -152,7 +690,7 @@
           "ESTRADA PARÁ AGRIVILA"
         ],
         "nearby_streets_count": 4,
-        "node_id": 1,
+        "node_id": 5,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 82.2,
@@ -2746,12 +3284,12 @@
           "COMUNIDADE DA VACARIA - ARATURI"
         ],
         "nearby_streets_count": 2,
-        "node_id": 13,
+        "node_id": 17,
         "parent_area": "URUCUTUBA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 82.2,
         "parent_status": "CRÍTICO",
-        "rank": 13,
+        "rank": 17,
         "region": "rmf",
         "risk_score": 66.181,
         "score": 66.181,
@@ -3045,7 +3583,7 @@
           "MANGABEIRA- CAUCAIA"
         ],
         "nearby_streets_count": 1,
-        "node_id": 14,
+        "node_id": 18,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 82.2,
@@ -4069,7 +4607,7 @@
           "ALTO DA RAPOSA"
         ],
         "nearby_streets_count": 2,
-        "node_id": 18,
+        "node_id": 19,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 82.2,
@@ -6296,7 +6834,7 @@
           "LÍNGUA DA COBRA"
         ],
         "nearby_streets_count": 1,
-        "node_id": 29,
+        "node_id": 28,
         "parent_area": "CAUCAIA",
         "parent_risk_level": "crítico",
         "parent_risk_score": 82.2,

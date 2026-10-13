@@ -341,7 +341,7 @@
       "signal_scores": {
         "rank_strength": 0.9873,
         "score_separation": 1.0,
-        "temporal_signal": 0.85,
+        "temporal_signal": 1.0,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
         "intelligence_signal": 1.0,
@@ -706,13 +706,13 @@
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
-  "rmf:CAUCAIA": {
-    "node_id": 60,
-    "name": "CAUCAIA",
+  "fortaleza:MESSEJANA": {
+    "node_id": 3,
+    "name": "MESSEJANA",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "RMF",
-      "faction": "CV",
+      "region_type": "FORTALEZA",
+      "faction": "MASSA",
       "tier": "top_5"
     },
     "ranking_metrics": {
@@ -737,12 +737,18 @@
       "rolling_cvli_7d_latest": 0.0
     },
     "spatial_metrics": {
-      "geo_neighbor_count": 0,
-      "conflict_neighbor_count": 0,
+      "geo_neighbor_count": 8,
+      "conflict_neighbor_count": 17,
       "high_risk_neighbor_count": 0,
-      "neighbor_mean_score_pct": 0.0,
-      "neighbor_max_score_pct": 0.0,
-      "nearby_impact_names": []
+      "neighbor_mean_score_pct": 9.5,
+      "neighbor_max_score_pct": 49.8,
+      "nearby_impact_names": [
+        "JANGURUSSU",
+        "CURIO",
+        "BARROSO",
+        "JOSE DE ALENCAR",
+        "PARQUE IRACEMA"
+      ]
     },
     "event_metrics": {
       "events_count_total": 0,
@@ -769,9 +775,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 1.0,
-      "region_type": "RMF",
-      "faction": "CV"
+      "tension_index": 0.5,
+      "region_type": "FORTALEZA",
+      "faction": "MASSA"
     },
     "derived_indices": {
       "rank_inverse_pct": 98.73,
@@ -783,7 +789,7 @@
       "cvli_growth_ratio_7d": -1.0,
       "cvli_growth_ratio_14d": -0.6667,
       "high_risk_neighbor_share": 0.0,
-      "conflict_neighbor_share": 0.0,
+      "conflict_neighbor_share": 2.125,
       "critical_event_share": 0.0,
       "suppression_event_share": 0.0,
       "conflict_to_suppression_intensity_ratio": 0.0,
@@ -1784,7 +1790,7 @@
       "suppression_intensity": 0.0
     },
     "intelligence_and_market_metrics": {
-      "intel_recent_14d": 4.0,
+      "intel_recent_14d": 2.0,
       "vehicles_recent_14d": 0.0,
       "critical_streets_count": 4,
       "critical_streets_reference": "{'loc': 'ITAPAJE', 'cvli': 2, 'score': 6}, {'loc': 'BELA VISTA', 'cvli': 0, 'score': 16}, {'loc': 'COMUNIDADE SAO FRANCISCO', 'cvli': 0, 'score': 16}, {'loc': 'CARNAUBA', 'cvli': 0, 'score': 16}",
@@ -1816,7 +1822,7 @@
       "critical_event_share": 0.0,
       "suppression_event_share": 0.0,
       "conflict_to_suppression_intensity_ratio": 0.0,
-      "intel_to_vehicle_ratio": 4000000.0,
+      "intel_to_vehicle_ratio": 2000000.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
       "weekend_share_14d": 0.2857
@@ -1868,8 +1874,8 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 91.0,
-          "text": "Sinal de inteligência recente em 4,0 e 4 referência(s) territoriais críticas."
+          "score_pct": 90.5,
+          "text": "Sinal de inteligência recente em 2,0 e 7 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
@@ -1885,7 +1891,7 @@
         "temporal_signal": 1.0,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.91,
+        "intelligence_signal": 0.905,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
@@ -2767,13 +2773,13 @@
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
-  "fortaleza:MESSEJANA": {
-    "node_id": 3,
-    "name": "MESSEJANA",
+  "interior:TIANGUA": {
+    "node_id": 3765,
+    "name": "TIANGUA",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "MASSA",
+      "region_type": "INTERIOR",
+      "faction": "PCC",
       "tier": "long_tail_20"
     },
     "ranking_metrics": {
@@ -2835,7 +2841,7 @@
     "territorial_structure_metrics": {
       "tension_index": 0.5,
       "region_type": "FORTALEZA",
-      "faction": "MASSA"
+      "faction": "CV"
     },
     "derived_indices": {
       "rank_inverse_pct": 93.67,
@@ -2910,7 +2916,7 @@
           "name": "Estrutura territorial",
           "direction": "positive",
           "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante MASSA sustentam a pressão estrutural do território."
+          "text": "Tensão territorial 0,50 e facção predominante PCC sustentam a pressão estrutural do território."
         }
       ],
       "caveats": [],
@@ -4456,7 +4462,7 @@
         "temporal_signal": 0.85,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 1.0,
+        "intelligence_signal": 0.635,
         "structural_signal": 0.625,
         "market_signal": 0.0
       },
@@ -4680,7 +4686,7 @@
         "month_december": 0.0,
         "weekend_flag": 0.0,
         "channel_23_reserved": 0.0,
-        "rolling_cvli_7d": 0.0,
+        "rolling_cvli_7d": 1.0,
         "channel_25_reserved": 0.0,
         "channel_26_reserved": 0.0,
         "intelligence_signal": 0.0,
@@ -4689,13 +4695,13 @@
         "cvp_hot_day_flag": 1.0,
         "precipitation_mm": 0.0,
         "significant_rain_flag": 0.0,
-        "momentum_delta_7d": -1.0,
+        "momentum_delta_7d": 1.0,
         "momentum_delta_14d": 1.0,
         "momentum_delta_30d": 0.0,
         "cold_streak_inverse": -8.0
       },
       "sum_7d": {
-        "cvli_count": 0.0,
+        "cvli_count": 1.0,
         "vehicle_crime_pressure": 0.0,
         "territorial_tension": 3.5,
         "weekday_monday": 1.0,
@@ -6529,7 +6535,7 @@
         "rank_strength": 0.8354,
         "score_separation": 0.52,
         "temporal_signal": 0.6,
-        "spatial_signal": 0.0,
+        "spatial_signal": 0.0037,
         "event_signal": 0.0,
         "intelligence_signal": 0.45,
         "structural_signal": 0.625,
@@ -6977,7 +6983,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 69.8,
@@ -7464,8 +7470,8 @@
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
       "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 10,
-      "critical_streets_reference": "{'loc': 'RUA FRANCISCO BEZERRA', 'cvli': 1, 'score': 4}, {'loc': 'AVENIDA THOMAZ OSTERNE DE ALENCAR', 'cvli': 1, 'score': 4}, {'loc': 'RUA DOUTOR MANUEL MACEDO', 'cvli': 1, 'score': 4}, {'loc': 'GESSO', 'cvli': 0, 'score': 16}",
+      "critical_streets_count": 0,
+      "critical_streets_reference": "Sem logradouros críticos recentes",
       "global_cvli_latest": 0.0
     },
     "environmental_and_calendar_metrics": {
@@ -7476,9 +7482,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "INTERIOR",
-      "faction": "PCC"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 82.28,
@@ -7497,7 +7503,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 68.8,
@@ -7546,23 +7552,24 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 90.0,
-          "text": "Sinal de inteligência recente em 0,0 e 10 referência(s) territoriais críticas."
+          "score_pct": 0.0,
+          "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante PCC sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 4.0,
+          "score_pct": 9.0,
           "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
         "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
@@ -7571,13 +7578,13 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.9,
-        "structural_signal": 0.625,
+        "intelligence_signal": 0.0,
+        "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
         "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
+        "sparse_penalty": 0.05,
         "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
@@ -7938,9 +7945,9 @@
     "name": "MONDUBIM",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "long_tail_50"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 16,
@@ -8000,9 +8007,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 81.01,
@@ -8021,7 +8028,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 63.8,
@@ -8076,17 +8083,18 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 4.0,
+          "score_pct": 9.0,
           "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
         "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
@@ -8101,7 +8109,7 @@
       },
       "penalties": {
         "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
+        "sparse_penalty": 0.05,
         "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
@@ -8457,9 +8465,9 @@
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
-  "fortaleza:BARRA DO CEARA": {
-    "node_id": 0,
-    "name": "BARRA DO CEARA",
+  "nan:G00060": {
+    "node_id": 152,
+    "name": "G00060",
     "source": "academic_parallel",
     "identification": {
       "region_type": "FORTALEZA",
@@ -8488,7 +8496,7 @@
       "rolling_cvli_7d_latest": 0.0
     },
     "spatial_metrics": {
-      "geo_neighbor_count": 1,
+      "geo_neighbor_count": 0,
       "conflict_neighbor_count": 0,
       "high_risk_neighbor_count": 0,
       "neighbor_mean_score_pct": 2.45,
@@ -9047,9 +9055,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 78.48,
@@ -9068,7 +9076,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 67.9,
@@ -9123,8 +9131,8 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -14359,7 +14367,8 @@
         }
       ],
       "caveats": [
-        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva."
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
+        "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
         "rank_strength": 0.6456,
@@ -14374,7 +14383,7 @@
       "penalties": {
         "suppression_penalty": 0.0,
         "sparse_penalty": 0.05,
-        "ambiguity_penalty": 0.0,
+        "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
     },
@@ -16385,7 +16394,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 55.3,
@@ -16410,7 +16419,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -25343,8 +25352,8 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -25363,8 +25372,8 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.27,
-        "structural_signal": 0.625,
+        "intelligence_signal": 0.0,
+        "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
@@ -25730,9 +25739,9 @@
     "name": "PARQUE DOIS IRMAOS",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "tail"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 50,
@@ -25792,9 +25801,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 37.97,
@@ -25813,7 +25822,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 57.9,
@@ -25838,7 +25847,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -26390,8 +26399,8 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -26777,9 +26786,9 @@
     "name": "BONSUCESSO",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "tail"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 52,
@@ -26841,9 +26850,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "FORTALEZA",
-      "faction": "CV"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 35.44,
@@ -26862,7 +26871,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 57.5,
@@ -26887,7 +26896,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -27435,14 +27444,14 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 18.0,
-          "text": "Sinal de inteligência recente em 0,0 e 2 referência(s) territoriais críticas."
+          "score_pct": 0.0,
+          "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -27461,8 +27470,8 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0099,
         "event_signal": 0.0,
-        "intelligence_signal": 0.18,
-        "structural_signal": 0.625,
+        "intelligence_signal": 0.0,
+        "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
@@ -27828,9 +27837,9 @@
     "name": "CENTRO",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "FORTALEZA",
-      "faction": "CV",
-      "tier": "tail"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 54,
@@ -30068,8 +30077,8 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.09,
-        "structural_signal": 0.625,
+        "intelligence_signal": 0.0,
+        "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
@@ -31029,7 +31038,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 51.3,
@@ -31471,9 +31480,9 @@
     "name": "EUSEBIO",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "RMF",
-      "faction": "CV",
-      "tier": "tail"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 61,
@@ -32101,7 +32110,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -32131,8 +32140,8 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -38346,7 +38355,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 46.9,
@@ -38371,7 +38380,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -38783,14 +38792,14 @@
       "methodological_note_ptbr": "Arquivo acadêmico paralelo, não destinado ao frontend. Os campos abaixo preservam variáveis brutas, derivadas, componentes de confiança e canais de features para uso em pesquisa complementar e modelos auxiliares de distribuição de equipes."
     }
   },
-  "interior:CANINDE": {
-    "node_id": 48,
-    "name": "CANINDE",
+  "nan:G00123": {
+    "node_id": 180,
+    "name": "G00123",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "INTERIOR",
+      "region_type": "NAN",
       "faction": "NEUTRO",
-      "tier": "tail"
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 75,
@@ -38834,8 +38843,8 @@
     "intelligence_and_market_metrics": {
       "intel_recent_14d": 0.0,
       "vehicles_recent_14d": 0.0,
-      "critical_streets_count": 5,
-      "critical_streets_reference": "{'loc': 'MONTE', 'cvli': 0, 'score': 16}, {'loc': 'ALTO DA GUARAMIRANGA', 'cvli': 0, 'score': 16}, {'loc': 'CAMPINAS', 'cvli': 0, 'score': 16}, {'loc': 'PALESTINA', 'cvli': 0, 'score': 16}",
+      "critical_streets_count": 0,
+      "critical_streets_reference": "Sem logradouros críticos recentes",
       "global_cvli_latest": 0.0
     },
     "environmental_and_calendar_metrics": {
@@ -38846,8 +38855,8 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.0,
-      "region_type": "INTERIOR",
+      "tension_index": NaN,
+      "region_type": "NAN",
       "faction": "NEUTRO"
     },
     "derived_indices": {
@@ -38867,7 +38876,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 47.6,
@@ -38892,7 +38901,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -38916,14 +38925,14 @@
         {
           "name": "Inteligência e ruas críticas",
           "direction": "positive",
-          "score_pct": 45.0,
-          "text": "Sinal de inteligência recente em 0,0 e 5 referência(s) territoriais críticas."
+          "score_pct": 0.0,
+          "text": "Sinal de inteligência recente em 0,0 e 0 referência(s) territoriais críticas."
         },
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 0.0,
-          "text": "Tensão territorial 0,00 e facção predominante NEUTRO sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
@@ -38942,8 +38951,8 @@
         "temporal_signal": 0.05,
         "spatial_signal": 0.0,
         "event_signal": 0.0,
-        "intelligence_signal": 0.45,
-        "structural_signal": 0.0,
+        "intelligence_signal": 0.0,
+        "structural_signal": 1.0,
         "market_signal": 0.0
       },
       "penalties": {
@@ -39309,9 +39318,9 @@
     "name": "ITAITINGA",
     "source": "academic_parallel",
     "identification": {
-      "region_type": "RMF",
-      "faction": "CV",
-      "tier": "tail"
+      "region_type": "NAN",
+      "faction": "NEUTRO",
+      "tier": "long_tail_20"
     },
     "ranking_metrics": {
       "rank_global": 76,
@@ -39367,9 +39376,9 @@
       "weekend_days_14d": 4
     },
     "territorial_structure_metrics": {
-      "tension_index": 0.5,
-      "region_type": "RMF",
-      "faction": "CV"
+      "tension_index": NaN,
+      "region_type": "NAN",
+      "faction": "NEUTRO"
     },
     "derived_indices": {
       "rank_inverse_pct": 5.06,
@@ -39388,7 +39397,7 @@
       "intel_to_vehicle_ratio": 0.0,
       "rainy_day_share_14d": 0.0,
       "holiday_share_14d": 0.0,
-      "weekend_share_14d": 0.2857
+      "weekend_share_14d": 0.0
     },
     "confidence_analysis": {
       "confidence_pct": 59.4,
@@ -39413,7 +39422,7 @@
         {
           "name": "Corroboração temporal",
           "direction": "positive",
-          "score_pct": 5.0,
+          "score_pct": 15.0,
           "text": "CVLI 7d=0 contra 0 na janela anterior; CVLI 14d=0 contra 0."
         },
         {
@@ -39443,17 +39452,18 @@
         {
           "name": "Estrutura territorial",
           "direction": "positive",
-          "score_pct": 62.5,
-          "text": "Tensão territorial 0,50 e facção predominante CV sustentam a pressão estrutural do território."
+          "score_pct": 100.0,
+          "text": "Tensão territorial nan e facção predominante NEUTRO sustentam a pressão estrutural do território."
         },
         {
           "name": "Fatores de cautela",
           "direction": "negative",
-          "score_pct": 4.0,
+          "score_pct": 9.0,
           "text": "Supressão recente=0 e baixa convergência entre evidências recomendam cautela na decisão operacional."
         }
       ],
       "caveats": [
+        "A previsão está apoiada em poucos blocos independentes de evidência, exigindo leitura preventiva.",
         "Não há gatilho agudo explícito nesta janela; a justificativa depende mais de padrão estrutural do que de evento recente."
       ],
       "signal_scores": {
@@ -39468,7 +39478,7 @@
       },
       "penalties": {
         "suppression_penalty": 0.0,
-        "sparse_penalty": 0.0,
+        "sparse_penalty": 0.05,
         "ambiguity_penalty": 0.04,
         "conflict_ambiguity_penalty": 0.0
       }
