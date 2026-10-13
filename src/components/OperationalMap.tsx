@@ -32,6 +32,7 @@ type OperationalMapProps = {
   showEliteP10: boolean
   showCvliPoints: boolean
   showMomentumCloud: boolean
+  momentumSpeed: number
   onSelectTerritory: (territoryId: string | null) => void
   onFocusTerritory?: (territoryId: string) => void
 }
@@ -307,6 +308,7 @@ export function OperationalMap({
   showEliteP10,
   showCvliPoints,
   showMomentumCloud,
+  momentumSpeed,
   onSelectTerritory,
   onFocusTerritory,
 }: OperationalMapProps) {
@@ -635,7 +637,7 @@ export function OperationalMap({
       <MapEventsHandler onMapClick={() => onSelectTerritory(null)} />
       {showMomentumCloud && (
         <Pane name="momentum-cloud" style={{ zIndex: 455, pointerEvents: 'none' }}>
-          <MomentumCloudLayer region={region} polygons={polygons} riskItems={riskItems} />
+          <MomentumCloudLayer region={region} polygons={polygons} riskItems={riskItems} speed={momentumSpeed} />
         </Pane>
       )}
 

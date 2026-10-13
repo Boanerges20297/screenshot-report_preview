@@ -1785,6 +1785,31 @@
   box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.14);
 }
 
+.momentum-speed-control {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2rem;
+  padding: 0.25rem 0.55rem;
+  border: 1px solid var(--line, #cbd5e1);
+  border-radius: 0.45rem;
+  background: var(--surface, #ffffff);
+  color: var(--muted, #475569);
+  font-size: 0.72rem;
+  white-space: nowrap;
+}
+
+.momentum-speed-control input {
+  width: 6.5rem;
+  accent-color: #0ea5e9;
+}
+
+.momentum-speed-control output {
+  min-width: 2.5rem;
+  color: var(--text, #0f172a);
+  font-variant-numeric: tabular-nums;
+}
+
 .momentum-cloud-legend-scale {
   display: flex;
   width: 100%;

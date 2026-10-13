@@ -26,6 +26,9 @@ export type SnapshotManifest = {
   source_commit: string
   model_label: string
   model_architecture: string
+  model_mode?: string
+  data_limit?: string | null
+  risk_meta_counts?: Record<string, number>
   momentum_window_days: number
   regions: RegionKey[]
   notes: string
@@ -421,12 +424,13 @@ export async function loadSnapshot(): Promise<SnapshotData> {
 }
 
 export function normalizeLookupName(value: string): string {
-  return value
+  const normalized = value
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
     .toUpperCase()
+  return ({ JANGURURSSU: 'JANGURUSSU' } as Record<string, string>)[normalized] ?? normalized
 }
 
 export function buildTerritoryId(region: RegionKey, name: string): string {

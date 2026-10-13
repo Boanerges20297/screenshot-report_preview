@@ -139,6 +139,7 @@ function App() {
   const [showEliteP10, setShowEliteP10] = useState(false)
   const [showCvliPoints, setShowCvliPoints] = useState(false)
   const [showMomentumCloud, setShowMomentumCloud] = useState(false)
+  const [momentumSpeed, setMomentumSpeed] = useState(1)
   const [showEventForm, setShowEventForm] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const [theme, setTheme] = useState<'dark' | 'light'>('light')
@@ -364,6 +365,22 @@ function App() {
             </span>
             <span className="theme-toggle-label">{theme === 'dark' ? '🌙 Escuro' : '☀ Claro'}</span>
           </button>
+          {showMomentumCloud && (
+            <label className="momentum-speed-control" htmlFor="momentum-speed">
+              <span>Velocidade</span>
+              <input
+                id="momentum-speed"
+                type="range"
+                min="0.5"
+                max="2.5"
+                step="0.25"
+                value={momentumSpeed}
+                onChange={(event) => setMomentumSpeed(Number(event.target.value))}
+                aria-label="Velocidade da nuvem momentum"
+              />
+              <output>{momentumSpeed.toFixed(2)}×</output>
+            </label>
+          )}
         </div>
       </header>
 
@@ -460,6 +477,9 @@ function App() {
             Commit {snapshot.manifest.source_commit} · {snapshot.summary.global.total_nodes} localidades
           </span>
           <div className="divider-v" aria-hidden="true" />
+          <span className="snapshot-provenance" title="Proveniência do artefato publicado">
+            {snapshot.manifest.model_label} · dados até {snapshot.manifest.data_limit ?? 'indisponível'}
+          </span>
           <button
             id="open-event-form"
             type="button"
@@ -537,6 +557,7 @@ function App() {
             showEliteP10={showEliteP10}
             showCvliPoints={showCvliPoints}
             showMomentumCloud={showMomentumCloud}
+            momentumSpeed={momentumSpeed}
             onSelectTerritory={(id) => {
               setSelectedId(id)
               setDetailTab('indicadores')

@@ -13,6 +13,7 @@ type MomentumCloudLayerProps = {
   region: RegionKey
   polygons: GeoFeatureCollection
   riskItems: RiskItem[]
+  speed: number
 }
 
 type CloudAnchor = {
@@ -119,6 +120,7 @@ export function MomentumCloudLayer({
   region,
   polygons,
   riskItems,
+  speed,
 }: MomentumCloudLayerProps) {
   const map = useMap()
   const anchors = useMemo(
@@ -178,7 +180,7 @@ export function MomentumCloudLayer({
       // the current spatial momentum gradient. This is illustrative movement,
       // NOT a playback of actual crimes, observed paths or future forecasts.
       const elapsed = reducedMotion ? 0 : now
-      const cycle = elapsed / 12500
+      const cycle = (elapsed * clamp(speed, 0.5, 2.5)) / 12500
       const baseRadius = clamp(26 + map.getZoom() * 3.6, 38, 90)
 
       function paintCloud(x: number, y: number, radius: number, alpha: number): void {
@@ -267,7 +269,7 @@ export function MomentumCloudLayer({
       media.removeEventListener('change', onMotionPreference)
       canvas.remove()
     }
-  }, [map, anchors])
+  }, [map, anchors, speed])
 
   return null
 }
