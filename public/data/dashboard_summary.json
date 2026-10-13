@@ -1,29 +1,29 @@
 {
   "global": {
-    "total_nodes": 2106,
-    "active_locations": 16,
+    "total_nodes": 2172,
+    "active_locations": 4,
     "top_region": "interior",
-    "top_name": "TIANGUA",
-    "avg_risk": 20.66
+    "top_name": "SOBRAL",
+    "avg_risk": 18.98
   },
   "regions": {
     "fortaleza": {
-      "total_nodes": 550,
-      "avg_risk": 21.95,
-      "max_risk": 97.8,
-      "top_name": "ANTONIO BEZERRA"
+      "total_nodes": 616,
+      "avg_risk": 16.8,
+      "max_risk": 79.9,
+      "top_name": "MESSEJANA"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 16.41,
-      "max_risk": 100.0,
-      "top_name": "MARACANAU"
+      "avg_risk": 7.21,
+      "max_risk": 78.4,
+      "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 39.06,
-      "max_risk": 100.0,
-      "top_name": "TIANGUA"
+      "avg_risk": 20.28,
+      "max_risk": 98.5,
+      "top_name": "SOBRAL"
     }
   }
 }

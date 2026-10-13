@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "2026-10-09T09-37-26",
-  "generated_at": "2026-10-09T09:37:26-03:00",
+  "snapshot_id": "2026-10-13T11-36-04",
+  "generated_at": "2026-10-13T11:36:04-03:00",
   "source_repo": "Report Preview",
   "source_commit": "84fb96cf7",
   "model_label": "ELITE P10",
-  "model_architecture": "Poisson Ranker Estadual",
+  "model_architecture": "Híbrido Poisson 80% + ST-GAT v5 20%",
   "momentum_window_days": 14,
   "regions": [
     "fortaleza",
