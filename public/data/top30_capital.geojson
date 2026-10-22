@@ -151,11 +151,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 24.84,
+        "local_street_pressure": 25.018,
         "municipality": "Fortaleza",
         "name": "Conjunto São Cristovão",
         "nearby_streets": [
@@ -163,16 +163,16 @@
           "AVENIDA GOVERNADOR LEONEL BRIZOLA",
           "RUA 301"
         ],
-        "nearby_streets_count": 132,
+        "nearby_streets_count": 133,
         "node_id": 1,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 1,
         "region": "fortaleza",
-        "risk_score": 80.362,
-        "score": 80.362,
+        "risk_score": 82.491,
+        "score": 82.491,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -212,11 +212,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 30.047,
+        "local_street_pressure": 30.169,
         "municipality": "Fortaleza",
         "name": "Conjunto José Euclides",
         "nearby_streets": [
@@ -224,73 +224,16 @@
           "RUA D",
           "CONJUNTO PATATIVA DO ASSARÉ"
         ],
-        "nearby_streets_count": 110,
+        "nearby_streets_count": 111,
         "node_id": 2,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 2,
         "region": "fortaleza",
-        "risk_score": 79.827,
-        "score": 79.827,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.51926,
-              -3.850539
-            ],
-            [
-              -38.520504,
-              -3.853654
-            ],
-            [
-              -38.518541,
-              -3.854436
-            ],
-            [
-              -38.517305,
-              -3.851316
-            ],
-            [
-              -38.51926,
-              -3.850539
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 29.032,
-        "municipality": "Fortaleza",
-        "name": "JOSÉ EUCLIDES",
-        "nearby_streets": [
-          "JOSÉ EUCLIDES",
-          "RUA E",
-          "CONJUNTO JOSÉ EUCLIDES"
-        ],
-        "nearby_streets_count": 110,
-        "node_id": 3,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
-        "parent_status": "CRÍTICO",
-        "rank": 3,
-        "region": "fortaleza",
-        "risk_score": 79.232,
-        "score": 79.232,
+        "risk_score": 81.999,
+        "score": 81.999,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -362,11 +305,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 28.598,
+        "local_street_pressure": 28.789,
         "municipality": "Fortaleza",
         "name": "Favela do Circo",
         "nearby_streets": [
@@ -374,16 +317,73 @@
           "RUA VERDE 34",
           "RUA NOSSA SENHORA DA CONCEIÇÃO"
         ],
-        "nearby_streets_count": 127,
+        "nearby_streets_count": 128,
+        "node_id": 3,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 83.7,
+        "parent_status": "CRÍTICO",
+        "rank": 3,
+        "region": "fortaleza",
+        "risk_score": 81.395,
+        "score": 81.395,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.51926,
+              -3.850539
+            ],
+            [
+              -38.520504,
+              -3.853654
+            ],
+            [
+              -38.518541,
+              -3.854436
+            ],
+            [
+              -38.517305,
+              -3.851316
+            ],
+            [
+              -38.51926,
+              -3.850539
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-10-22T15:05:19.969075",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 29.156,
+        "municipality": "Fortaleza",
+        "name": "JOSÉ EUCLIDES",
+        "nearby_streets": [
+          "JOSÉ EUCLIDES",
+          "RUA E",
+          "CONJUNTO JOSÉ EUCLIDES"
+        ],
+        "nearby_streets_count": 111,
         "node_id": 4,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 4,
         "region": "fortaleza",
-        "risk_score": 79.204,
-        "score": 79.204,
+        "risk_score": 81.391,
+        "score": 81.391,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -471,11 +471,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 27.776,
+        "local_street_pressure": 27.949,
         "municipality": "Fortaleza",
         "name": "Sitio São João",
         "nearby_streets": [
@@ -483,16 +483,16 @@
           "AREA SEM NOME",
           "RUA 4"
         ],
-        "nearby_streets_count": 119,
+        "nearby_streets_count": 120,
         "node_id": 5,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 5,
         "region": "fortaleza",
-        "risk_score": 79.178,
-        "score": 79.178,
+        "risk_score": 81.347,
+        "score": 81.347,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -592,11 +592,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.5,
+        "local_street_pressure": 26.936,
         "municipality": "Fortaleza",
         "name": "Tamandaré",
         "nearby_streets": [
@@ -604,16 +604,16 @@
           "COMUNIDADE NO BAIRRO TAMANDARÉ",
           "VILA BINCEL"
         ],
-        "nearby_streets_count": 135,
+        "nearby_streets_count": 136,
         "node_id": 6,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 6,
         "region": "fortaleza",
-        "risk_score": 78.769,
-        "score": 78.769,
+        "risk_score": 81.076,
+        "score": 81.076,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -681,11 +681,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.354,
+        "local_street_pressure": 26.513,
         "municipality": "Fortaleza",
         "name": "Palmeiras 1",
         "nearby_streets": [
@@ -693,16 +693,16 @@
           "RUA SALMÃO",
           "FAVELA DO CIRCO"
         ],
-        "nearby_streets_count": 119,
+        "nearby_streets_count": 120,
         "node_id": 7,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 7,
         "region": "fortaleza",
-        "risk_score": 78.54,
-        "score": 78.54,
+        "risk_score": 80.679,
+        "score": 80.679,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -750,11 +750,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 28.212,
+        "local_street_pressure": 28.325,
         "municipality": "Fortaleza",
         "name": "Conjunto Patativa do Assaré",
         "nearby_streets": [
@@ -762,16 +762,16 @@
           "CASINHAS DO MARIA TOMASIA",
           "CONJUNTO JOSÉ EUCLIDES"
         ],
-        "nearby_streets_count": 106,
+        "nearby_streets_count": 107,
         "node_id": 8,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 8,
         "region": "fortaleza",
-        "risk_score": 78.486,
-        "score": 78.486,
+        "risk_score": 80.626,
+        "score": 80.626,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -811,7 +811,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -827,12 +827,12 @@
         "node_id": 9,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 9,
         "region": "fortaleza",
-        "risk_score": 77.911,
-        "score": 77.911,
+        "risk_score": 79.97,
+        "score": 79.97,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -920,11 +920,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 25.666,
+        "local_street_pressure": 25.779,
         "municipality": "Fortaleza",
         "name": "ADEMIR MARTINS",
         "nearby_streets": [
@@ -932,16 +932,16 @@
           "RUA AUDIFAX RIOS",
           "RESIDENCIAL ALDEMIR"
         ],
-        "nearby_streets_count": 107,
+        "nearby_streets_count": 108,
         "node_id": 10,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 10,
         "region": "fortaleza",
-        "risk_score": 77.503,
-        "score": 77.503,
+        "risk_score": 79.605,
+        "score": 79.605,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1101,11 +1101,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.29,
+        "local_street_pressure": 26.52,
         "municipality": "Fortaleza",
         "name": "Favela do Seu Geraldo",
         "nearby_streets": [
@@ -1113,16 +1113,16 @@
           "FAVELA DO PREÁ",
           "FAVELA DO CAJUEIRO"
         ],
-        "nearby_streets_count": 128,
+        "nearby_streets_count": 129,
         "node_id": 11,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 11,
         "region": "fortaleza",
-        "risk_score": 77.406,
-        "score": 77.406,
+        "risk_score": 79.587,
+        "score": 79.587,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1218,7 +1218,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1234,12 +1234,12 @@
         "node_id": 12,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 12,
         "region": "fortaleza",
-        "risk_score": 76.823,
-        "score": 76.823,
+        "risk_score": 78.842,
+        "score": 78.842,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1391,11 +1391,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 24.469,
+        "local_street_pressure": 24.639,
         "municipality": "Fortaleza",
         "name": "Favela do Cajueiro",
         "nearby_streets": [
@@ -1403,16 +1403,16 @@
           "RUA NUNES FEIJÓ",
           "FAVELA DO PREÁ"
         ],
-        "nearby_streets_count": 116,
+        "nearby_streets_count": 117,
         "node_id": 13,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 13,
         "region": "fortaleza",
-        "risk_score": 76.484,
-        "score": 76.484,
+        "risk_score": 78.602,
+        "score": 78.602,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1648,11 +1648,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.767,
+        "local_street_pressure": 23.992,
         "municipality": "Fortaleza",
         "name": "Favela do Preá",
         "nearby_streets": [
@@ -1660,16 +1660,16 @@
           "FAVELA DO SEU GERALDO",
           "RUA SÃO JOÃO DO JANGURUSSU"
         ],
-        "nearby_streets_count": 115,
+        "nearby_streets_count": 116,
         "node_id": 14,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 14,
         "region": "fortaleza",
-        "risk_score": 76.182,
-        "score": 76.182,
+        "risk_score": 78.322,
+        "score": 78.322,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1777,11 +1777,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.831,
+        "local_street_pressure": 24.279,
         "municipality": "Fortaleza",
         "name": "Comunidade no bairro Tamandaré",
         "nearby_streets": [
@@ -1789,16 +1789,16 @@
           "VILA BINCEL",
           "SANTA FILOMENA"
         ],
-        "nearby_streets_count": 120,
+        "nearby_streets_count": 121,
         "node_id": 15,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 15,
         "region": "fortaleza",
-        "risk_score": 75.858,
-        "score": 75.858,
+        "risk_score": 78.133,
+        "score": 78.133,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1914,11 +1914,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.271,
+        "local_street_pressure": 23.583,
         "municipality": "Fortaleza",
         "name": "Beco do Tatu",
         "nearby_streets": [
@@ -1926,16 +1926,16 @@
           "VILA BINCEL",
           "TAMANDARÉ"
         ],
-        "nearby_streets_count": 124,
+        "nearby_streets_count": 125,
         "node_id": 16,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 16,
         "region": "fortaleza",
-        "risk_score": 75.51,
-        "score": 75.51,
+        "risk_score": 77.695,
+        "score": 77.695,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1987,11 +1987,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.022,
+        "local_street_pressure": 23.467,
         "municipality": "Fortaleza",
         "name": "Vila Bincel",
         "nearby_streets": [
@@ -1999,16 +1999,16 @@
           "COMUNIDADE NO BAIRRO TAMANDARÉ",
           "BECO DO TATU"
         ],
-        "nearby_streets_count": 124,
+        "nearby_streets_count": 125,
         "node_id": 17,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 17,
         "region": "fortaleza",
-        "risk_score": 75.344,
-        "score": 75.344,
+        "risk_score": 77.605,
+        "score": 77.605,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2072,11 +2072,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 19.726,
+        "local_street_pressure": 19.925,
         "municipality": "Fortaleza",
         "name": "Parque Betânia",
         "nearby_streets": [
@@ -2084,16 +2084,16 @@
           "TRAVESSA LADISLAU LOURENÇO",
           "RUA NILTON REBOUÇAS"
         ],
-        "nearby_streets_count": 91,
+        "nearby_streets_count": 92,
         "node_id": 18,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 18,
         "region": "fortaleza",
-        "risk_score": 73.717,
-        "score": 73.717,
+        "risk_score": 75.782,
+        "score": 75.782,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2137,11 +2137,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
+        "generated_at": "2026-10-22T15:05:19.969075",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 19.188,
+        "local_street_pressure": 19.365,
         "municipality": "Fortaleza",
         "name": "Comunidade da Cidade Nobre",
         "nearby_streets": [
@@ -2149,1135 +2149,27 @@
           "RUA PADRE ARTUR JUNCOSA",
           "PARQUE BETÂNIA"
         ],
-        "nearby_streets_count": 93,
+        "nearby_streets_count": 94,
         "node_id": 19,
         "parent_area": "JANGURUSSU",
         "parent_risk_level": "crítico",
-        "parent_risk_score": 81.4,
+        "parent_risk_score": 83.7,
         "parent_status": "CRÍTICO",
         "rank": 19,
         "region": "fortaleza",
-        "risk_score": 73.141,
-        "score": 73.141,
+        "risk_score": 75.185,
+        "score": 75.185,
         "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.490084,
-              -3.823661
-            ],
-            [
-              -38.49015,
-              -3.823667
-            ],
-            [
-              -38.490529,
-              -3.82669
-            ],
-            [
-              -38.490451,
-              -3.826757
-            ],
-            [
-              -38.486044,
-              -3.827311
-            ],
-            [
-              -38.486021,
-              -3.827225
-            ],
-            [
-              -38.485831,
-              -3.825632
-            ],
-            [
-              -38.485621,
-              -3.824281
-            ],
-            [
-              -38.485648,
-              -3.824221
-            ],
-            [
-              -38.485713,
-              -3.82419
-            ],
-            [
-              -38.487818,
-              -3.823928
-            ],
-            [
-              -38.490084,
-              -3.823661
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 30.934,
-        "municipality": "Fortaleza",
-        "name": "Levada",
-        "nearby_streets": [
-          "LEVADA",
-          "RUA MUNIZ FREIRE",
-          "RUA CORONEL ERNESTO MATOS"
-        ],
-        "nearby_streets_count": 123,
-        "node_id": 20,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 20,
-        "region": "fortaleza",
-        "risk_score": 51.614,
-        "score": 51.614,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.492026,
-              -3.817426
-            ],
-            [
-              -38.492037,
-              -3.818218
-            ],
-            [
-              -38.492154,
-              -3.819856
-            ],
-            [
-              -38.492422,
-              -3.821184
-            ],
-            [
-              -38.489635,
-              -3.821461
-            ],
-            [
-              -38.489657,
-              -3.821546
-            ],
-            [
-              -38.488632,
-              -3.821654
-            ],
-            [
-              -38.488696,
-              -3.819967
-            ],
-            [
-              -38.488571,
-              -3.819156
-            ],
-            [
-              -38.488509,
-              -3.818607
-            ],
-            [
-              -38.488419,
-              -3.817639
-            ],
-            [
-              -38.488516,
-              -3.817559
-            ],
-            [
-              -38.488969,
-              -3.817585
-            ],
-            [
-              -38.488977,
-              -3.817238
-            ],
-            [
-              -38.489165,
-              -3.817235
-            ],
-            [
-              -38.489157,
-              -3.817074
-            ],
-            [
-              -38.489465,
-              -3.817243
-            ],
-            [
-              -38.490163,
-              -3.817302
-            ],
-            [
-              -38.490187,
-              -3.817912
-            ],
-            [
-              -38.490607,
-              -3.817858
-            ],
-            [
-              -38.491018,
-              -3.817772
-            ],
-            [
-              -38.491504,
-              -3.817648
-            ],
-            [
-              -38.491498,
-              -3.817545
-            ],
-            [
-              -38.492026,
-              -3.817426
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "MASSA",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 29.492,
-        "municipality": "Fortaleza",
-        "name": "Conjunto São Bernardo",
-        "nearby_streets": [
-          "TRAVESSA MARGARIDA",
-          "RUA DOM BOSCO",
-          "CONJUNTO SÃO BERNARDO"
-        ],
-        "nearby_streets_count": 113,
-        "node_id": 21,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 21,
-        "region": "fortaleza",
-        "risk_score": 50.753,
-        "score": 50.753,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.492218,
-              -3.818126
-            ],
-            [
-              -38.493187,
-              -3.818556
-            ],
-            [
-              -38.493142,
-              -3.818656
-            ],
-            [
-              -38.492166,
-              -3.818226
-            ],
-            [
-              -38.492218,
-              -3.818126
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "MASSA",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 29.352,
-        "municipality": "Fortaleza",
-        "name": "Comunidade da Portelinha- Messejana",
-        "nearby_streets": [
-          "COMUNIDADE DA PORTELINHA- MESSEJANA",
-          "RUA NICOLAU COELHO",
-          "RUA SÃO FRANCISCO"
-        ],
-        "nearby_streets_count": 105,
-        "node_id": 22,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 22,
-        "region": "fortaleza",
-        "risk_score": 49.835,
-        "score": 49.835,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.494503,
-              -3.822045
-            ],
-            [
-              -38.493784,
-              -3.821926
-            ],
-            [
-              -38.493711,
-              -3.82191
-            ],
-            [
-              -38.49259,
-              -3.821783
-            ],
-            [
-              -38.492278,
-              -3.820207
-            ],
-            [
-              -38.49494,
-              -3.81985
-            ],
-            [
-              -38.494811,
-              -3.820568
-            ],
-            [
-              -38.493966,
-              -3.820487
-            ],
-            [
-              -38.493848,
-              -3.821231
-            ],
-            [
-              -38.494672,
-              -3.821374
-            ],
-            [
-              -38.494503,
-              -3.822045
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "MASSA",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 28.173,
-        "municipality": "Fortaleza",
-        "name": "Comunidade da Conquista",
-        "nearby_streets": [
-          "RUA LETÍCIA",
-          "COMUNIDADE DA CONQUISTA",
-          "RUA VILAMAR DAMASCENO"
-        ],
-        "nearby_streets_count": 106,
-        "node_id": 23,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 23,
-        "region": "fortaleza",
-        "risk_score": 49.365,
-        "score": 49.365,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.495497,
-              -3.816115
-            ],
-            [
-              -38.495138,
-              -3.816854
-            ],
-            [
-              -38.494752,
-              -3.816575
-            ],
-            [
-              -38.494516,
-              -3.81687
-            ],
-            [
-              -38.494467,
-              -3.817635
-            ],
-            [
-              -38.493775,
-              -3.817314
-            ],
-            [
-              -38.493463,
-              -3.817929
-            ],
-            [
-              -38.492422,
-              -3.817478
-            ],
-            [
-              -38.492148,
-              -3.818092
-            ],
-            [
-              -38.492061,
-              -3.818054
-            ],
-            [
-              -38.492047,
-              -3.817396
-            ],
-            [
-              -38.491984,
-              -3.817253
-            ],
-            [
-              -38.492027,
-              -3.816565
-            ],
-            [
-              -38.491925,
-              -3.815633
-            ],
-            [
-              -38.491968,
-              -3.814986
-            ],
-            [
-              -38.492091,
-              -3.814585
-            ],
-            [
-              -38.495497,
-              -3.816115
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "MASSA",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 26.687,
-        "municipality": "Fortaleza",
-        "name": "Parque Iracema I",
-        "nearby_streets": [
-          "PARQUE IRACEMA I",
-          "COMUNIDADE DA PORTELINHA- MESSEJANA",
-          "AVENIDA DOMINGOS SÁVIO"
-        ],
-        "nearby_streets_count": 100,
-        "node_id": 24,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 24,
-        "region": "fortaleza",
-        "risk_score": 48.711,
-        "score": 48.711,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.489511,
-              -3.829305
-            ],
-            [
-              -38.488698,
-              -3.829426
-            ],
-            [
-              -38.488652,
-              -3.829139
-            ],
-            [
-              -38.488604,
-              -3.828909
-            ],
-            [
-              -38.488599,
-              -3.828778
-            ],
-            [
-              -38.488615,
-              -3.828699
-            ],
-            [
-              -38.489482,
-              -3.828969
-            ],
-            [
-              -38.489511,
-              -3.829305
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 27.381,
-        "municipality": "Fortaleza",
-        "name": "Beco da Maravilha",
-        "nearby_streets": [
-          "BECO DA MARAVILHA",
-          "RUA CESÁRIO LANGE",
-          "RUA DOUTOR JOAQUIM BENTO"
-        ],
-        "nearby_streets_count": 108,
-        "node_id": 25,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 25,
-        "region": "fortaleza",
-        "risk_score": 48.709,
-        "score": 48.709,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.5034373,
-              -3.8232045
-            ],
-            [
-              -38.5036519,
-              -3.8242322
-            ],
-            [
-              -38.4999827,
-              -3.8252813
-            ],
-            [
-              -38.4993818,
-              -3.8252813
-            ],
-            [
-              -38.4990385,
-              -3.8251528
-            ],
-            [
-              -38.4981373,
-              -3.8220698
-            ],
-            [
-              -38.4951118,
-              -3.8224123
-            ],
-            [
-              -38.4958413,
-              -3.8207852
-            ],
-            [
-              -38.5034373,
-              -3.8232045
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 24.204,
-        "municipality": "Fortaleza",
-        "name": "LAGOA SECA",
-        "nearby_streets": [
-          "LAGOA SECA",
-          "RUA ALVES RIBEIRO",
-          "RUA JURITI"
-        ],
-        "nearby_streets_count": 108,
-        "node_id": 26,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 26,
-        "region": "fortaleza",
-        "risk_score": 47.767,
-        "score": 47.767,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.493423,
-              -3.837638
-            ],
-            [
-              -38.493472,
-              -3.83785
-            ],
-            [
-              -38.49351,
-              -3.8381
-            ],
-            [
-              -38.493514,
-              -3.838212
-            ],
-            [
-              -38.493486,
-              -3.838505
-            ],
-            [
-              -38.492942,
-              -3.838179
-            ],
-            [
-              -38.491706,
-              -3.837278
-            ],
-            [
-              -38.490604,
-              -3.836575
-            ],
-            [
-              -38.490925,
-              -3.835726
-            ],
-            [
-              -38.490376,
-              -3.835197
-            ],
-            [
-              -38.491931,
-              -3.833699
-            ],
-            [
-              -38.492167,
-              -3.833913
-            ],
-            [
-              -38.492414,
-              -3.834512
-            ],
-            [
-              -38.492929,
-              -3.836321
-            ],
-            [
-              -38.493423,
-              -3.837638
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MESSEJANA",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 19.21,
-        "municipality": "Fortaleza",
-        "name": "Cemitério",
-        "nearby_streets": [
-          "RUA COPÉRNICO",
-          "CEMITÉRIO",
-          "TRAVESSA MARIO BARCELOS"
-        ],
-        "nearby_streets_count": 81,
-        "node_id": 27,
-        "parent_area": "MESSEJANA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 21,
-        "peak_hour_share": 0.1333,
-        "peak_hour_start": 16,
-        "peak_hours": "Entre 16hs e 21hs",
-        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
-        "peak_weekday": "Quarta-feira",
-        "peak_weekday_share": 0.2111,
-        "rank": 27,
-        "region": "fortaleza",
-        "risk_score": 44.363,
-        "score": 44.363,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 90
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.493274,
-              -3.842321
-            ],
-            [
-              -38.490823,
-              -3.842412
-            ],
-            [
-              -38.490943,
-              -3.842106
-            ],
-            [
-              -38.490222,
-              -3.84162
-            ],
-            [
-              -38.490654,
-              -3.841015
-            ],
-            [
-              -38.492172,
-              -3.842034
-            ],
-            [
-              -38.492313,
-              -3.841828
-            ],
-            [
-              -38.492689,
-              -3.842073
-            ],
-            [
-              -38.49259,
-              -3.842235
-            ],
-            [
-              -38.492708,
-              -3.842256
-            ],
-            [
-              -38.493272,
-              -3.842248
-            ],
-            [
-              -38.493274,
-              -3.842321
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "PARQUE SANTA MARIA",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 9.078,
-        "municipality": "Messejana",
-        "name": "Comunidade do Serrote - Messejana",
-        "nearby_streets": [
-          "COMUNIDADE DO SERROTE - MESSEJANA",
-          "RUA LUCÍOLA",
-          "ESTRADA DO ANCURI"
-        ],
-        "nearby_streets_count": 32,
-        "node_id": 28,
-        "parent_area": "PARQUE SANTA MARIA",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "rank": 28,
-        "region": "fortaleza",
-        "risk_score": 38.132,
-        "score": 38.132,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.477486,
-              -3.846943
-            ],
-            [
-              -38.477369,
-              -3.8471
-            ],
-            [
-              -38.477174,
-              -3.847271
-            ],
-            [
-              -38.477053,
-              -3.847154
-            ],
-            [
-              -38.476739,
-              -3.847301
-            ],
-            [
-              -38.476567,
-              -3.84741
-            ],
-            [
-              -38.476144,
-              -3.84778
-            ],
-            [
-              -38.475906,
-              -3.848007
-            ],
-            [
-              -38.475664,
-              -3.848355
-            ],
-            [
-              -38.475407,
-              -3.84775
-            ],
-            [
-              -38.475192,
-              -3.847884
-            ],
-            [
-              -38.475047,
-              -3.847793
-            ],
-            [
-              -38.474903,
-              -3.847879
-            ],
-            [
-              -38.474967,
-              -3.84813
-            ],
-            [
-              -38.475149,
-              -3.848114
-            ],
-            [
-              -38.475149,
-              -3.848302
-            ],
-            [
-              -38.475047,
-              -3.848318
-            ],
-            [
-              -38.474833,
-              -3.848216
-            ],
-            [
-              -38.474661,
-              -3.84827
-            ],
-            [
-              -38.47457,
-              -3.848104
-            ],
-            [
-              -38.474283,
-              -3.848243
-            ],
-            [
-              -38.474128,
-              -3.847997
-            ],
-            [
-              -38.475469,
-              -3.847312
-            ],
-            [
-              -38.4746,
-              -3.846332
-            ],
-            [
-              -38.474112,
-              -3.846541
-            ],
-            [
-              -38.47438,
-              -3.847092
-            ],
-            [
-              -38.473591,
-              -3.847408
-            ],
-            [
-              -38.473827,
-              -3.848023
-            ],
-            [
-              -38.470564,
-              -3.849437
-            ],
-            [
-              -38.47021,
-              -3.848431
-            ],
-            [
-              -38.472463,
-              -3.847339
-            ],
-            [
-              -38.472012,
-              -3.846322
-            ],
-            [
-              -38.469802,
-              -3.847392
-            ],
-            [
-              -38.469451,
-              -3.846326
-            ],
-            [
-              -38.471597,
-              -3.845336
-            ],
-            [
-              -38.471543,
-              -3.84524
-            ],
-            [
-              -38.472745,
-              -3.844646
-            ],
-            [
-              -38.471568,
-              -3.843356
-            ],
-            [
-              -38.47251,
-              -3.84288
-            ],
-            [
-              -38.473323,
-              -3.842469
-            ],
-            [
-              -38.473978,
-              -3.843935
-            ],
-            [
-              -38.475812,
-              -3.843089
-            ],
-            [
-              -38.476338,
-              -3.844278
-            ],
-            [
-              -38.47504,
-              -3.844888
-            ],
-            [
-              -38.475351,
-              -3.845455
-            ],
-            [
-              -38.475973,
-              -3.84523
-            ],
-            [
-              -38.476252,
-              -3.845894
-            ],
-            [
-              -38.476885,
-              -3.845637
-            ],
-            [
-              -38.477486,
-              -3.846943
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "COAÇU",
-        "faction": "CV",
-        "generated_at": "2026-10-13T16:08:19.287533",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 4.695,
-        "municipality": "Messejana",
-        "name": "Santa Rosa- Messejana",
-        "nearby_streets": [
-          "RUA B",
-          "SANTA ROSA- MESSEJANA",
-          "RUA ZUMBI"
-        ],
-        "nearby_streets_count": 12,
-        "node_id": 29,
-        "parent_area": "COAÇU",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 40.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 17,
-        "peak_hour_share": 0.6,
-        "peak_hour_start": 12,
-        "peak_hours": "Entre 12hs e 17hs",
-        "peak_time_label": "Sexta-feira, entre 12hs e 17hs",
-        "peak_weekday": "Sexta-feira",
-        "peak_weekday_share": 0.8,
-        "rank": 29,
-        "region": "fortaleza",
-        "risk_score": 36.973,
-        "score": 36.973,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-09",
-        "temporal_sample_size": 5
       },
       "type": "Feature"
     }
   ],
   "metadata": {
-    "generated_at": "2026-10-13T16:08:19.287533",
+    "generated_at": "2026-10-22T15:05:19.969075",
     "region": "capital",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
-    "total": 29
+    "total": 21
   },
   "type": "FeatureCollection"
 }
