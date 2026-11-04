@@ -151,7 +151,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -164,15 +164,15 @@
           "RUA 404"
         ],
         "nearby_streets_count": 67,
-        "node_id": 3,
+        "node_id": 1,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 1,
         "region": "fortaleza",
-        "risk_score": 62.344,
-        "score": 62.344,
+        "risk_score": 71.434,
+        "score": 71.434,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -272,7 +272,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -285,15 +285,15 @@
           "VILA BINCEL"
         ],
         "nearby_streets_count": 65,
-        "node_id": 4,
+        "node_id": 2,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 2,
         "region": "fortaleza",
-        "risk_score": 60.176,
-        "score": 60.176,
+        "risk_score": 69.19,
+        "score": 69.19,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -381,7 +381,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -394,76 +394,15 @@
           "RUA 4"
         ],
         "nearby_streets_count": 61,
-        "node_id": 5,
+        "node_id": 3,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 3,
         "region": "fortaleza",
-        "risk_score": 59.663,
-        "score": 59.663,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.517305,
-              -3.851316
-            ],
-            [
-              -38.518474,
-              -3.854404
-            ],
-            [
-              -38.516423,
-              -3.855208
-            ],
-            [
-              -38.516085,
-              -3.854209
-            ],
-            [
-              -38.515296,
-              -3.85215
-            ],
-            [
-              -38.517305,
-              -3.851316
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 13.489,
-        "municipality": "Fortaleza",
-        "name": "Conjunto José Euclides",
-        "nearby_streets": [
-          "CONJUNTO JOSÉ EUCLIDES",
-          "RUA D",
-          "CONJUNTO PATATIVA DO ASSARÉ"
-        ],
-        "nearby_streets_count": 52,
-        "node_id": 6,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
-        "rank": 4,
-        "region": "fortaleza",
-        "risk_score": 59.377,
-        "score": 59.377,
+        "risk_score": 68.712,
+        "score": 68.712,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -531,7 +470,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -544,15 +483,76 @@
           "PALMEIRAS1"
         ],
         "nearby_streets_count": 60,
-        "node_id": 7,
+        "node_id": 4,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
+        "rank": 4,
+        "region": "fortaleza",
+        "risk_score": 68.488,
+        "score": 68.488,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.517305,
+              -3.851316
+            ],
+            [
+              -38.518474,
+              -3.854404
+            ],
+            [
+              -38.516423,
+              -3.855208
+            ],
+            [
+              -38.516085,
+              -3.854209
+            ],
+            [
+              -38.515296,
+              -3.85215
+            ],
+            [
+              -38.517305,
+              -3.851316
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.489,
+        "municipality": "Fortaleza",
+        "name": "Conjunto José Euclides",
+        "nearby_streets": [
+          "CONJUNTO JOSÉ EUCLIDES",
+          "RUA D",
+          "CONJUNTO PATATIVA DO ASSARÉ"
+        ],
+        "nearby_streets_count": 52,
+        "node_id": 5,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 5,
         "region": "fortaleza",
-        "risk_score": 59.339,
-        "score": 59.339,
+        "risk_score": 68.35,
+        "score": 68.35,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -624,7 +624,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -637,15 +637,15 @@
           "RUA SANTA PRUDENCÍANA"
         ],
         "nearby_streets_count": 61,
-        "node_id": 8,
+        "node_id": 6,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 6,
         "region": "fortaleza",
-        "risk_score": 59.089,
-        "score": 59.089,
+        "risk_score": 68.161,
+        "score": 68.161,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -681,7 +681,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -694,15 +694,15 @@
           "CONJUNTO PATATIVA DO ASSARÉ"
         ],
         "nearby_streets_count": 53,
-        "node_id": 9,
+        "node_id": 7,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 7,
         "region": "fortaleza",
-        "risk_score": 58.388,
-        "score": 58.388,
+        "risk_score": 67.554,
+        "score": 67.554,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -750,7 +750,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -763,15 +763,15 @@
           "CONJUNTO JOSÉ EUCLIDES"
         ],
         "nearby_streets_count": 52,
-        "node_id": 10,
+        "node_id": 8,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 8,
         "region": "fortaleza",
-        "risk_score": 58.225,
-        "score": 58.225,
+        "risk_score": 67.37,
+        "score": 67.37,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -887,7 +887,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -900,15 +900,15 @@
           "TAMANDARÉ"
         ],
         "nearby_streets_count": 59,
-        "node_id": 11,
+        "node_id": 9,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 9,
         "region": "fortaleza",
-        "risk_score": 58.161,
-        "score": 58.161,
+        "risk_score": 67.299,
+        "score": 67.299,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1068,7 +1068,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1081,15 +1081,15 @@
           "FAVELA DO CAJUEIRO"
         ],
         "nearby_streets_count": 59,
-        "node_id": 12,
+        "node_id": 10,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 10,
         "region": "fortaleza",
-        "risk_score": 57.892,
-        "score": 57.892,
+        "risk_score": 67.11,
+        "score": 67.11,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1177,7 +1177,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1190,15 +1190,15 @@
           "CASINHAS DO MARIA TOMASIA"
         ],
         "nearby_streets_count": 54,
-        "node_id": 13,
+        "node_id": 11,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 11,
         "region": "fortaleza",
-        "risk_score": 57.754,
-        "score": 57.754,
+        "risk_score": 67.088,
+        "score": 67.088,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1238,7 +1238,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1251,15 +1251,15 @@
           "MARIA TOMÁSIA - JANGURUSSU"
         ],
         "nearby_streets_count": 50,
-        "node_id": 14,
+        "node_id": 12,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 12,
         "region": "fortaleza",
-        "risk_score": 57.574,
-        "score": 57.574,
+        "risk_score": 66.832,
+        "score": 66.832,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1311,7 +1311,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1324,15 +1324,15 @@
           "BECO DO TATU"
         ],
         "nearby_streets_count": 58,
-        "node_id": 15,
+        "node_id": 13,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 13,
         "region": "fortaleza",
-        "risk_score": 57.453,
-        "score": 57.453,
+        "risk_score": 66.725,
+        "score": 66.725,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1568,7 +1568,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1581,15 +1581,15 @@
           "FAVELA DO CAJUEIRO"
         ],
         "nearby_streets_count": 57,
-        "node_id": 16,
+        "node_id": 14,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 14,
         "region": "fortaleza",
-        "risk_score": 57.314,
-        "score": 57.314,
+        "risk_score": 66.692,
+        "score": 66.692,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1697,7 +1697,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1710,15 +1710,15 @@
           "TAMANDARÉ"
         ],
         "nearby_streets_count": 55,
-        "node_id": 17,
+        "node_id": 15,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 15,
         "region": "fortaleza",
-        "risk_score": 57.305,
-        "score": 57.305,
+        "risk_score": 66.615,
+        "score": 66.615,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1870,7 +1870,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -1883,15 +1883,15 @@
           "FAVELA DO PREÁ"
         ],
         "nearby_streets_count": 51,
-        "node_id": 18,
+        "node_id": 16,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 16,
         "region": "fortaleza",
-        "risk_score": 57.196,
-        "score": 57.196,
+        "risk_score": 66.577,
+        "score": 66.577,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1987,7 +1987,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2000,15 +2000,15 @@
           "CONJUNTO PATATIVA DO ASSARÉ"
         ],
         "nearby_streets_count": 45,
-        "node_id": 19,
+        "node_id": 17,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 17,
         "region": "fortaleza",
-        "risk_score": 56.465,
-        "score": 56.465,
+        "risk_score": 66.032,
+        "score": 66.032,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2072,7 +2072,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2085,15 +2085,15 @@
           "FAVELA DO PREÁ"
         ],
         "nearby_streets_count": 51,
-        "node_id": 20,
+        "node_id": 18,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 18,
         "region": "fortaleza",
-        "risk_score": 55.23,
-        "score": 55.23,
+        "risk_score": 64.993,
+        "score": 64.993,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2137,7 +2137,7 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2150,16 +2150,254 @@
           "VILA BINCEL"
         ],
         "nearby_streets_count": 51,
-        "node_id": 21,
+        "node_id": 19,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "alto",
-        "parent_risk_score": 55.6,
-        "parent_status": "ALTO",
+        "parent_risk_level": "crítico",
+        "parent_risk_score": 72.3,
+        "parent_status": "CRÍTICO",
         "rank": 19,
         "region": "fortaleza",
-        "risk_score": 54.691,
-        "score": 54.691,
+        "risk_score": 64.508,
+        "score": 64.508,
         "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.490084,
+              -3.823661
+            ],
+            [
+              -38.49015,
+              -3.823667
+            ],
+            [
+              -38.490529,
+              -3.82669
+            ],
+            [
+              -38.490451,
+              -3.826757
+            ],
+            [
+              -38.486044,
+              -3.827311
+            ],
+            [
+              -38.486021,
+              -3.827225
+            ],
+            [
+              -38.485831,
+              -3.825632
+            ],
+            [
+              -38.485621,
+              -3.824281
+            ],
+            [
+              -38.485648,
+              -3.824221
+            ],
+            [
+              -38.485713,
+              -3.82419
+            ],
+            [
+              -38.487818,
+              -3.823928
+            ],
+            [
+              -38.490084,
+              -3.823661
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 19.332,
+        "municipality": "Fortaleza",
+        "name": "Levada",
+        "nearby_streets": [
+          "LEVADA",
+          "RUA MUNIZ FREIRE",
+          "RUA TOMÉ DE SOUZA"
+        ],
+        "nearby_streets_count": 74,
+        "node_id": 22,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 20,
+        "region": "fortaleza",
+        "risk_score": 46.214,
+        "score": 46.214,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.492026,
+              -3.817426
+            ],
+            [
+              -38.492037,
+              -3.818218
+            ],
+            [
+              -38.492154,
+              -3.819856
+            ],
+            [
+              -38.492422,
+              -3.821184
+            ],
+            [
+              -38.489635,
+              -3.821461
+            ],
+            [
+              -38.489657,
+              -3.821546
+            ],
+            [
+              -38.488632,
+              -3.821654
+            ],
+            [
+              -38.488696,
+              -3.819967
+            ],
+            [
+              -38.488571,
+              -3.819156
+            ],
+            [
+              -38.488509,
+              -3.818607
+            ],
+            [
+              -38.488419,
+              -3.817639
+            ],
+            [
+              -38.488516,
+              -3.817559
+            ],
+            [
+              -38.488969,
+              -3.817585
+            ],
+            [
+              -38.488977,
+              -3.817238
+            ],
+            [
+              -38.489165,
+              -3.817235
+            ],
+            [
+              -38.489157,
+              -3.817074
+            ],
+            [
+              -38.489465,
+              -3.817243
+            ],
+            [
+              -38.490163,
+              -3.817302
+            ],
+            [
+              -38.490187,
+              -3.817912
+            ],
+            [
+              -38.490607,
+              -3.817858
+            ],
+            [
+              -38.491018,
+              -3.817772
+            ],
+            [
+              -38.491504,
+              -3.817648
+            ],
+            [
+              -38.491498,
+              -3.817545
+            ],
+            [
+              -38.492026,
+              -3.817426
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "MASSA",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 18.435,
+        "municipality": "Fortaleza",
+        "name": "Conjunto São Bernardo",
+        "nearby_streets": [
+          "TRAVESSA MARGARIDA",
+          "CONJUNTO SÃO BERNARDO",
+          "RUA CECÍLIA MEIRELES"
+        ],
+        "nearby_streets_count": 71,
+        "node_id": 23,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 21,
+        "region": "fortaleza",
+        "risk_score": 45.356,
+        "score": 45.356,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -2258,7 +2496,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2271,15 +2509,15 @@
           "APARTAMENTOS DO NOVO MONDUBIM"
         ],
         "nearby_streets_count": 68,
-        "node_id": 22,
+        "node_id": 24,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 20,
+        "rank": 22,
         "region": "fortaleza",
-        "risk_score": 48.135,
-        "score": 48.135,
+        "risk_score": 44.69,
+        "score": 44.69,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2367,7 +2605,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2380,15 +2618,15 @@
           "CAMBERRINHA"
         ],
         "nearby_streets_count": 60,
-        "node_id": 23,
+        "node_id": 25,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 21,
+        "rank": 23,
         "region": "fortaleza",
-        "risk_score": 47.455,
-        "score": 47.455,
+        "risk_score": 44.109,
+        "score": 44.109,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2432,7 +2670,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2445,16 +2683,83 @@
           "APARTAMENTOS DO NOVO MONDUBIM"
         ],
         "nearby_streets_count": 60,
-        "node_id": 24,
+        "node_id": 26,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 22,
+        "rank": 24,
         "region": "fortaleza",
-        "risk_score": 47.288,
-        "score": 47.288,
+        "risk_score": 43.771,
+        "score": 43.771,
         "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.492218,
+              -3.818126
+            ],
+            [
+              -38.493187,
+              -3.818556
+            ],
+            [
+              -38.493142,
+              -3.818656
+            ],
+            [
+              -38.492166,
+              -3.818226
+            ],
+            [
+              -38.492218,
+              -3.818126
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "MASSA",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 17.624,
+        "municipality": "Fortaleza",
+        "name": "Comunidade da Portelinha- Messejana",
+        "nearby_streets": [
+          "COMUNIDADE DA PORTELINHA- MESSEJANA",
+          "RUA NICOLAU COELHO",
+          "RUA VILAMAR DAMASCENO"
+        ],
+        "nearby_streets_count": 64,
+        "node_id": 27,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 25,
+        "region": "fortaleza",
+        "risk_score": 43.765,
+        "score": 43.765,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -2533,7 +2838,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2546,15 +2851,15 @@
           "NOVO MONDUBIM"
         ],
         "nearby_streets_count": 65,
-        "node_id": 25,
+        "node_id": 28,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 23,
+        "rank": 26,
         "region": "fortaleza",
-        "risk_score": 47.238,
-        "score": 47.238,
+        "risk_score": 43.737,
+        "score": 43.737,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2590,7 +2895,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2603,15 +2908,15 @@
           "CONJ. NOVO MODUMBI"
         ],
         "nearby_streets_count": 60,
-        "node_id": 26,
+        "node_id": 29,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 24,
+        "rank": 27,
         "region": "fortaleza",
-        "risk_score": 47.228,
-        "score": 47.228,
+        "risk_score": 43.71,
+        "score": 43.71,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2663,7 +2968,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2676,15 +2981,15 @@
           "COMUNIDADE VERTICAL"
         ],
         "nearby_streets_count": 67,
-        "node_id": 27,
+        "node_id": 30,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 25,
+        "rank": 28,
         "region": "fortaleza",
-        "risk_score": 47.073,
-        "score": 47.073,
+        "risk_score": 43.582,
+        "score": 43.582,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2720,7 +3025,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2733,72 +3038,15 @@
           "CONJ. NOVO MODUMBI"
         ],
         "nearby_streets_count": 60,
-        "node_id": 28,
+        "node_id": 31,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 26,
+        "rank": 29,
         "region": "fortaleza",
-        "risk_score": 46.788,
-        "score": 46.788,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.58506,
-              -3.812637
-            ],
-            [
-              -38.585579,
-              -3.813421
-            ],
-            [
-              -38.584749,
-              -3.813968
-            ],
-            [
-              -38.584245,
-              -3.813172
-            ],
-            [
-              -38.58506,
-              -3.812637
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "NOVO MONDUBIM",
-        "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 14.966,
-        "municipality": "Fortaleza",
-        "name": "Favela da GN",
-        "nearby_streets": [
-          "FAVELA DA GN",
-          "BECO DO HR",
-          "CAJAMAR"
-        ],
-        "nearby_streets_count": 62,
-        "node_id": 29,
-        "parent_area": "NOVO MONDUBIM",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.9,
-        "parent_status": "MODERADO",
-        "rank": 27,
-        "region": "fortaleza",
-        "risk_score": 46.524,
-        "score": 46.524,
+        "risk_score": 43.35,
+        "score": 43.35,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2974,7 +3222,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -2987,15 +3235,15 @@
           "CONJUNTO NOVA UNIÃO - MONDUBIM"
         ],
         "nearby_streets_count": 53,
-        "node_id": 30,
+        "node_id": 32,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 28,
+        "rank": 30,
         "region": "fortaleza",
-        "risk_score": 46.243,
-        "score": 46.243,
+        "risk_score": 43.198,
+        "score": 43.198,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -3005,28 +3253,24 @@
         "coordinates": [
           [
             [
-              -38.582136,
-              -3.812246
+              -38.58506,
+              -3.812637
             ],
             [
-              -38.582289,
-              -3.812092
+              -38.585579,
+              -3.813421
             ],
             [
-              -38.583304,
-              -3.810956
+              -38.584749,
+              -3.813968
             ],
             [
-              -38.583676,
-              -3.811182
+              -38.584245,
+              -3.813172
             ],
             [
-              -38.58243,
-              -3.812535
-            ],
-            [
-              -38.582136,
-              -3.812246
+              -38.58506,
+              -3.812637
             ]
           ]
         ],
@@ -3035,29 +3279,235 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 14.482,
+        "local_street_pressure": 14.966,
         "municipality": "Fortaleza",
-        "name": "Beco do HR",
+        "name": "Favela da GN",
         "nearby_streets": [
+          "FAVELA DA GN",
           "BECO DO HR",
-          "CONJUNTO NOVA UNIÃO - MONDUBIM",
-          "FAVELA DA GN"
+          "CAJAMAR"
         ],
-        "nearby_streets_count": 59,
-        "node_id": 31,
+        "nearby_streets_count": 62,
+        "node_id": 33,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 29,
+        "rank": 31,
         "region": "fortaleza",
-        "risk_score": 45.953,
-        "score": 45.953,
+        "risk_score": 43.139,
+        "score": 43.139,
         "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.494503,
+              -3.822045
+            ],
+            [
+              -38.493784,
+              -3.821926
+            ],
+            [
+              -38.493711,
+              -3.82191
+            ],
+            [
+              -38.49259,
+              -3.821783
+            ],
+            [
+              -38.492278,
+              -3.820207
+            ],
+            [
+              -38.49494,
+              -3.81985
+            ],
+            [
+              -38.494811,
+              -3.820568
+            ],
+            [
+              -38.493966,
+              -3.820487
+            ],
+            [
+              -38.493848,
+              -3.821231
+            ],
+            [
+              -38.494672,
+              -3.821374
+            ],
+            [
+              -38.494503,
+              -3.822045
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "MASSA",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.638,
+        "municipality": "Fortaleza",
+        "name": "Comunidade da Conquista",
+        "nearby_streets": [
+          "RUA LETÍCIA",
+          "COMUNIDADE DA CONQUISTA",
+          "RUA VILAMAR DAMASCENO"
+        ],
+        "nearby_streets_count": 62,
+        "node_id": 34,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 32,
+        "region": "fortaleza",
+        "risk_score": 43.062,
+        "score": 43.062,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.495497,
+              -3.816115
+            ],
+            [
+              -38.495138,
+              -3.816854
+            ],
+            [
+              -38.494752,
+              -3.816575
+            ],
+            [
+              -38.494516,
+              -3.81687
+            ],
+            [
+              -38.494467,
+              -3.817635
+            ],
+            [
+              -38.493775,
+              -3.817314
+            ],
+            [
+              -38.493463,
+              -3.817929
+            ],
+            [
+              -38.492422,
+              -3.817478
+            ],
+            [
+              -38.492148,
+              -3.818092
+            ],
+            [
+              -38.492061,
+              -3.818054
+            ],
+            [
+              -38.492047,
+              -3.817396
+            ],
+            [
+              -38.491984,
+              -3.817253
+            ],
+            [
+              -38.492027,
+              -3.816565
+            ],
+            [
+              -38.491925,
+              -3.815633
+            ],
+            [
+              -38.491968,
+              -3.814986
+            ],
+            [
+              -38.492091,
+              -3.814585
+            ],
+            [
+              -38.495497,
+              -3.816115
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "MASSA",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.082,
+        "municipality": "Fortaleza",
+        "name": "Parque Iracema I",
+        "nearby_streets": [
+          "PARQUE IRACEMA I",
+          "COMUNIDADE DA PORTELINHA- MESSEJANA",
+          "RUA NICOLAU COELHO"
+        ],
+        "nearby_streets_count": 62,
+        "node_id": 35,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 33,
+        "region": "fortaleza",
+        "risk_score": 42.756,
+        "score": 42.756,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -3116,7 +3566,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3129,16 +3579,156 @@
           "PARQUE SANTANA"
         ],
         "nearby_streets_count": 56,
-        "node_id": 32,
+        "node_id": 36,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 30,
+        "rank": 34,
         "region": "fortaleza",
-        "risk_score": 45.942,
-        "score": 45.942,
+        "risk_score": 42.751,
+        "score": 42.751,
         "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.582136,
+              -3.812246
+            ],
+            [
+              -38.582289,
+              -3.812092
+            ],
+            [
+              -38.583304,
+              -3.810956
+            ],
+            [
+              -38.583676,
+              -3.811182
+            ],
+            [
+              -38.58243,
+              -3.812535
+            ],
+            [
+              -38.582136,
+              -3.812246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.482,
+        "municipality": "Fortaleza",
+        "name": "Beco do HR",
+        "nearby_streets": [
+          "BECO DO HR",
+          "CONJUNTO NOVA UNIÃO - MONDUBIM",
+          "FAVELA DA GN"
+        ],
+        "nearby_streets_count": 59,
+        "node_id": 37,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 35,
+        "region": "fortaleza",
+        "risk_score": 42.678,
+        "score": 42.678,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.489511,
+              -3.829305
+            ],
+            [
+              -38.488698,
+              -3.829426
+            ],
+            [
+              -38.488652,
+              -3.829139
+            ],
+            [
+              -38.488604,
+              -3.828909
+            ],
+            [
+              -38.488599,
+              -3.828778
+            ],
+            [
+              -38.488615,
+              -3.828699
+            ],
+            [
+              -38.489482,
+              -3.828969
+            ],
+            [
+              -38.489511,
+              -3.829305
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 16.169,
+        "municipality": "Fortaleza",
+        "name": "Beco da Maravilha",
+        "nearby_streets": [
+          "BECO DA MARAVILHA",
+          "RUA DOUTOR JOAQUIM BENTO",
+          "RUA SANTO EXPEDITO"
+        ],
+        "nearby_streets_count": 65,
+        "node_id": 38,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 36,
+        "region": "fortaleza",
+        "risk_score": 42.431,
+        "score": 42.431,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -3293,7 +3883,7 @@
       "properties": {
         "bairro": "CONJUNTO ESPERANÇA",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3306,7 +3896,7 @@
           "LOTEAMENTO SÃO MATEUS"
         ],
         "nearby_streets_count": 55,
-        "node_id": 33,
+        "node_id": 39,
         "parent_area": "CONJUNTO ESPERANÇA",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -3318,14 +3908,87 @@
         "peak_time_label": "Sabado, entre 02hs e 07hs",
         "peak_weekday": "Sabado",
         "peak_weekday_share": 0.375,
-        "rank": 31,
+        "rank": 37,
         "region": "fortaleza",
-        "risk_score": 45.444,
-        "score": 45.444,
+        "risk_score": 42.318,
+        "score": 42.318,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
         "temporal_sample_size": 8
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.580755,
+              -3.806491
+            ],
+            [
+              -38.583362,
+              -3.804817
+            ],
+            [
+              -38.583773,
+              -3.805464
+            ],
+            [
+              -38.584534,
+              -3.80496
+            ],
+            [
+              -38.585294,
+              -3.806106
+            ],
+            [
+              -38.581063,
+              -3.808796
+            ],
+            [
+              -38.580364,
+              -3.807682
+            ],
+            [
+              -38.58116,
+              -3.807149
+            ],
+            [
+              -38.580755,
+              -3.806491
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.449,
+        "municipality": "Fortaleza",
+        "name": "Favela do Cuca",
+        "nearby_streets": [
+          "FAVELA DO CUCA",
+          "MODUMBI",
+          "COMUNIDADE DA GDD"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 40,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 38,
+        "region": "fortaleza",
+        "risk_score": 42.226,
+        "score": 42.226,
+        "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     },
@@ -3398,7 +4061,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "MultiPolygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3411,89 +4074,16 @@
           "RUA PROFESSOR GLAUCO LOBO"
         ],
         "nearby_streets_count": 60,
-        "node_id": 34,
+        "node_id": 41,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 32,
+        "rank": 39,
         "region": "fortaleza",
-        "risk_score": 45.306,
-        "score": 45.306,
+        "risk_score": 42.156,
+        "score": 42.156,
         "source_geometry_type": "MultiPolygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.580755,
-              -3.806491
-            ],
-            [
-              -38.583362,
-              -3.804817
-            ],
-            [
-              -38.583773,
-              -3.805464
-            ],
-            [
-              -38.584534,
-              -3.80496
-            ],
-            [
-              -38.585294,
-              -3.806106
-            ],
-            [
-              -38.581063,
-              -3.808796
-            ],
-            [
-              -38.580364,
-              -3.807682
-            ],
-            [
-              -38.58116,
-              -3.807149
-            ],
-            [
-              -38.580755,
-              -3.806491
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "NOVO MONDUBIM",
-        "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 13.449,
-        "municipality": "Fortaleza",
-        "name": "Favela do Cuca",
-        "nearby_streets": [
-          "FAVELA DO CUCA",
-          "MODUMBI",
-          "COMUNIDADE DA GDD"
-        ],
-        "nearby_streets_count": 60,
-        "node_id": 35,
-        "parent_area": "NOVO MONDUBIM",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.9,
-        "parent_status": "MODERADO",
-        "rank": 33,
-        "region": "fortaleza",
-        "risk_score": 45.267,
-        "score": 45.267,
-        "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     },
@@ -3556,7 +4146,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3569,7 +4159,7 @@
           "BECO AMERICA - MONDUBIM"
         ],
         "nearby_streets_count": 50,
-        "node_id": 36,
+        "node_id": 42,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -3581,14 +4171,97 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 34,
+        "rank": 40,
         "region": "fortaleza",
-        "risk_score": 43.826,
-        "score": 43.826,
+        "risk_score": 40.97,
+        "score": 40.97,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
         "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.5034373,
+              -3.8232045
+            ],
+            [
+              -38.5036519,
+              -3.8242322
+            ],
+            [
+              -38.4999827,
+              -3.8252813
+            ],
+            [
+              -38.4993818,
+              -3.8252813
+            ],
+            [
+              -38.4990385,
+              -3.8251528
+            ],
+            [
+              -38.4981373,
+              -3.8220698
+            ],
+            [
+              -38.4951118,
+              -3.8224123
+            ],
+            [
+              -38.4958413,
+              -3.8207852
+            ],
+            [
+              -38.5034373,
+              -3.8232045
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MESSEJANA",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.428,
+        "municipality": "Fortaleza",
+        "name": "LAGOA SECA",
+        "nearby_streets": [
+          "LAGOA SECA",
+          "RUA JURITI",
+          "TRAVESSA CHICÓ MENDES DA CONQUISTA"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 43,
+        "parent_area": "MESSEJANA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 41,
+        "region": "fortaleza",
+        "risk_score": 40.786,
+        "score": 40.786,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -3651,7 +4324,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3664,7 +4337,7 @@
           "FAVELA DOS PIRINEUS"
         ],
         "nearby_streets_count": 52,
-        "node_id": 37,
+        "node_id": 44,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -3676,10 +4349,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 35,
+        "rank": 42,
         "region": "fortaleza",
-        "risk_score": 43.167,
-        "score": 43.167,
+        "risk_score": 40.436,
+        "score": 40.436,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -3782,7 +4455,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -3795,7 +4468,7 @@
           "BECO AMERICA - MONDUBIM"
         ],
         "nearby_streets_count": 45,
-        "node_id": 38,
+        "node_id": 45,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -3807,85 +4480,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 36,
+        "rank": 43,
         "region": "fortaleza",
-        "risk_score": 42.734,
-        "score": 42.734,
-        "source_geometry_type": "Polygon",
-        "temporal_horizon_days": 30,
-        "temporal_reference_date": "2026-12-10",
-        "temporal_sample_size": 33
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.574921,
-              -3.808929
-            ],
-            [
-              -38.575039,
-              -3.808889
-            ],
-            [
-              -38.575318,
-              -3.809791
-            ],
-            [
-              -38.574315,
-              -3.810118
-            ],
-            [
-              -38.574282,
-              -3.809989
-            ],
-            [
-              -38.575168,
-              -3.809697
-            ],
-            [
-              -38.574921,
-              -3.808929
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "MONDUBIM",
-        "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 11.636,
-        "municipality": "Fortaleza",
-        "name": "Beco Do Coroa",
-        "nearby_streets": [
-          "BECO DO COROA",
-          "RUA 1",
-          "COMUNIDADE DA LAGOA - MONDUBIM"
-        ],
-        "nearby_streets_count": 53,
-        "node_id": 39,
-        "parent_area": "MONDUBIM",
-        "parent_risk_level": "moderado",
-        "parent_risk_score": 35.9,
-        "parent_status": "MODERADO",
-        "peak_hour_end": 12,
-        "peak_hour_share": 0.1212,
-        "peak_hour_start": 7,
-        "peak_hours": "Entre 07hs e 12hs",
-        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.303,
-        "rank": 37,
-        "region": "fortaleza",
-        "risk_score": 42.628,
-        "score": 42.628,
+        "risk_score": 40.09,
+        "score": 40.09,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -3988,7 +4586,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4001,7 +4599,7 @@
           "LAGOA DA LIBANIA - PARQUE SANTANA"
         ],
         "nearby_streets_count": 45,
-        "node_id": 40,
+        "node_id": 46,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4013,10 +4611,85 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 38,
+        "rank": 44,
         "region": "fortaleza",
-        "risk_score": 42.502,
-        "score": 42.502,
+        "risk_score": 40.06,
+        "score": 40.06,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.574921,
+              -3.808929
+            ],
+            [
+              -38.575039,
+              -3.808889
+            ],
+            [
+              -38.575318,
+              -3.809791
+            ],
+            [
+              -38.574315,
+              -3.810118
+            ],
+            [
+              -38.574282,
+              -3.809989
+            ],
+            [
+              -38.575168,
+              -3.809697
+            ],
+            [
+              -38.574921,
+              -3.808929
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.636,
+        "municipality": "Fortaleza",
+        "name": "Beco Do Coroa",
+        "nearby_streets": [
+          "BECO DO COROA",
+          "RUA 1",
+          "COMUNIDADE DA LAGOA - MONDUBIM"
+        ],
+        "nearby_streets_count": 53,
+        "node_id": 47,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 45,
+        "region": "fortaleza",
+        "risk_score": 39.996,
+        "score": 39.996,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4067,7 +4740,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4080,7 +4753,7 @@
           "SÍTIO CORREGO"
         ],
         "nearby_streets_count": 45,
-        "node_id": 41,
+        "node_id": 48,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4092,10 +4765,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 39,
+        "rank": 46,
         "region": "fortaleza",
-        "risk_score": 41.286,
-        "score": 41.286,
+        "risk_score": 38.952,
+        "score": 38.952,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4190,7 +4863,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4203,7 +4876,7 @@
           "RUA 6"
         ],
         "nearby_streets_count": 42,
-        "node_id": 42,
+        "node_id": 49,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4215,10 +4888,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 40,
+        "rank": 47,
         "region": "fortaleza",
-        "risk_score": 40.779,
-        "score": 40.779,
+        "risk_score": 38.575,
+        "score": 38.575,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4329,7 +5002,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4342,7 +5015,7 @@
           "RUA 6"
         ],
         "nearby_streets_count": 40,
-        "node_id": 43,
+        "node_id": 50,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4354,10 +5027,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 41,
+        "rank": 48,
         "region": "fortaleza",
-        "risk_score": 40.559,
-        "score": 40.559,
+        "risk_score": 38.528,
+        "score": 38.528,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4464,7 +5137,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4477,7 +5150,7 @@
           "BECO DO COROA"
         ],
         "nearby_streets_count": 43,
-        "node_id": 44,
+        "node_id": 51,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4489,10 +5162,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 42,
+        "rank": 49,
         "region": "fortaleza",
-        "risk_score": 40.556,
-        "score": 40.556,
+        "risk_score": 38.377,
+        "score": 38.377,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4571,7 +5244,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4584,7 +5257,7 @@
           "FAVELA DOS PIRINEUS"
         ],
         "nearby_streets_count": 26,
-        "node_id": 45,
+        "node_id": 52,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4596,10 +5269,81 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 43,
+        "rank": 50,
         "region": "fortaleza",
-        "risk_score": 40.154,
-        "score": 40.154,
+        "risk_score": 38.032,
+        "score": 38.032,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.563686,
+              -3.820718
+            ],
+            [
+              -38.56522,
+              -3.822173
+            ],
+            [
+              -38.565477,
+              -3.823436
+            ],
+            [
+              -38.562484,
+              -3.825374
+            ],
+            [
+              -38.560531,
+              -3.822869
+            ],
+            [
+              -38.563686,
+              -3.820718
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.37,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Marcos Freire",
+        "nearby_streets": [
+          "CONJUNTO MARCOS FREIRE",
+          "COMUNIDADE DO RENASCER",
+          "RUA 6"
+        ],
+        "nearby_streets_count": 37,
+        "node_id": 53,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 51,
+        "region": "fortaleza",
+        "risk_score": 37.712,
+        "score": 37.712,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4674,7 +5418,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4687,15 +5431,15 @@
           "PARQUE SANTANA"
         ],
         "nearby_streets_count": 27,
-        "node_id": 46,
+        "node_id": 54,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 44,
+        "rank": 52,
         "region": "fortaleza",
-        "risk_score": 39.74,
-        "score": 39.74,
+        "risk_score": 37.681,
+        "score": 37.681,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -4705,69 +5449,105 @@
         "coordinates": [
           [
             [
-              -38.563686,
-              -3.820718
+              -38.493423,
+              -3.837638
             ],
             [
-              -38.56522,
-              -3.822173
+              -38.493472,
+              -3.83785
             ],
             [
-              -38.565477,
-              -3.823436
+              -38.49351,
+              -3.8381
             ],
             [
-              -38.562484,
-              -3.825374
+              -38.493514,
+              -3.838212
             ],
             [
-              -38.560531,
-              -3.822869
+              -38.493486,
+              -3.838505
             ],
             [
-              -38.563686,
-              -3.820718
+              -38.492942,
+              -3.838179
+            ],
+            [
+              -38.491706,
+              -3.837278
+            ],
+            [
+              -38.490604,
+              -3.836575
+            ],
+            [
+              -38.490925,
+              -3.835726
+            ],
+            [
+              -38.490376,
+              -3.835197
+            ],
+            [
+              -38.491931,
+              -3.833699
+            ],
+            [
+              -38.492167,
+              -3.833913
+            ],
+            [
+              -38.492414,
+              -3.834512
+            ],
+            [
+              -38.492929,
+              -3.836321
+            ],
+            [
+              -38.493423,
+              -3.837638
             ]
           ]
         ],
         "type": "Polygon"
       },
       "properties": {
-        "bairro": "MONDUBIM",
+        "bairro": "MESSEJANA",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 8.37,
+        "local_street_pressure": 10.387,
         "municipality": "Fortaleza",
-        "name": "Conjunto Marcos Freire",
+        "name": "Cemitério",
         "nearby_streets": [
-          "CONJUNTO MARCOS FREIRE",
-          "COMUNIDADE DO RENASCER",
-          "RUA 6"
+          "RUA COPÉRNICO",
+          "CEMITÉRIO",
+          "TRAVESSA MARIO BARCELOS"
         ],
-        "nearby_streets_count": 37,
-        "node_id": 47,
-        "parent_area": "MONDUBIM",
+        "nearby_streets_count": 43,
+        "node_id": 55,
+        "parent_area": "MESSEJANA",
         "parent_risk_level": "moderado",
-        "parent_risk_score": 35.9,
+        "parent_risk_score": 33.4,
         "parent_status": "MODERADO",
-        "peak_hour_end": 12,
-        "peak_hour_share": 0.1212,
-        "peak_hour_start": 7,
-        "peak_hours": "Entre 07hs e 12hs",
-        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
-        "peak_weekday": "Segunda-feira",
-        "peak_weekday_share": 0.303,
-        "rank": 45,
+        "peak_hour_end": 21,
+        "peak_hour_share": 0.1346,
+        "peak_hour_start": 16,
+        "peak_hours": "Entre 16hs e 21hs",
+        "peak_time_label": "Quarta-feira, entre 16hs e 21hs",
+        "peak_weekday": "Quarta-feira",
+        "peak_weekday_share": 0.2308,
+        "rank": 53,
         "region": "fortaleza",
-        "risk_score": 39.605,
-        "score": 39.605,
+        "risk_score": 37.456,
+        "score": 37.456,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
-        "temporal_sample_size": 33
+        "temporal_sample_size": 52
       },
       "type": "Feature"
     },
@@ -4878,7 +5658,7 @@
       "properties": {
         "bairro": "MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4891,7 +5671,7 @@
           "RUA 1"
         ],
         "nearby_streets_count": 24,
-        "node_id": 48,
+        "node_id": 56,
         "parent_area": "MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
@@ -4903,10 +5683,10 @@
         "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
         "peak_weekday": "Segunda-feira",
         "peak_weekday_share": 0.303,
-        "rank": 46,
+        "rank": 54,
         "region": "fortaleza",
-        "risk_score": 39.418,
-        "score": 39.418,
+        "risk_score": 37.438,
+        "score": 37.438,
         "source_geometry_type": "Polygon",
         "temporal_horizon_days": 30,
         "temporal_reference_date": "2026-12-10",
@@ -4985,7 +5765,7 @@
       "properties": {
         "bairro": "ARACAPÉ",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -4998,15 +5778,15 @@
           "RUA SÃO LUCAS"
         ],
         "nearby_streets_count": 23,
-        "node_id": 49,
+        "node_id": 57,
         "parent_area": "ARACAPÉ",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 47,
+        "rank": 55,
         "region": "fortaleza",
-        "risk_score": 37.82,
-        "score": 37.82,
+        "risk_score": 36.213,
+        "score": 36.213,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5090,7 +5870,7 @@
       "properties": {
         "bairro": "NOVO MONDUBIM",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5103,15 +5883,15 @@
           "FAVELA DO CUCA"
         ],
         "nearby_streets_count": 22,
-        "node_id": 50,
+        "node_id": 58,
         "parent_area": "NOVO MONDUBIM",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 48,
+        "rank": 56,
         "region": "fortaleza",
-        "risk_score": 37.121,
-        "score": 37.121,
+        "risk_score": 35.586,
+        "score": 35.586,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -5175,7 +5955,7 @@
       "properties": {
         "bairro": "INDUSTRIAL",
         "faction": "CV",
-        "generated_at": "2026-11-04T15:18:04.238673",
+        "generated_at": "2026-11-04T15:46:44.103489",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
@@ -5188,26 +5968,354 @@
           "RUA DA MONTENEGRO - ARACAPE"
         ],
         "nearby_streets_count": 28,
-        "node_id": 51,
+        "node_id": 59,
         "parent_area": "INDUSTRIAL",
         "parent_risk_level": "moderado",
         "parent_risk_score": 35.9,
         "parent_status": "MODERADO",
-        "rank": 49,
+        "rank": 57,
         "region": "fortaleza",
-        "risk_score": 36.774,
-        "score": 36.774,
+        "risk_score": 35.545,
+        "score": 35.545,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.477486,
+              -3.846943
+            ],
+            [
+              -38.477369,
+              -3.8471
+            ],
+            [
+              -38.477174,
+              -3.847271
+            ],
+            [
+              -38.477053,
+              -3.847154
+            ],
+            [
+              -38.476739,
+              -3.847301
+            ],
+            [
+              -38.476567,
+              -3.84741
+            ],
+            [
+              -38.476144,
+              -3.84778
+            ],
+            [
+              -38.475906,
+              -3.848007
+            ],
+            [
+              -38.475664,
+              -3.848355
+            ],
+            [
+              -38.475407,
+              -3.84775
+            ],
+            [
+              -38.475192,
+              -3.847884
+            ],
+            [
+              -38.475047,
+              -3.847793
+            ],
+            [
+              -38.474903,
+              -3.847879
+            ],
+            [
+              -38.474967,
+              -3.84813
+            ],
+            [
+              -38.475149,
+              -3.848114
+            ],
+            [
+              -38.475149,
+              -3.848302
+            ],
+            [
+              -38.475047,
+              -3.848318
+            ],
+            [
+              -38.474833,
+              -3.848216
+            ],
+            [
+              -38.474661,
+              -3.84827
+            ],
+            [
+              -38.47457,
+              -3.848104
+            ],
+            [
+              -38.474283,
+              -3.848243
+            ],
+            [
+              -38.474128,
+              -3.847997
+            ],
+            [
+              -38.475469,
+              -3.847312
+            ],
+            [
+              -38.4746,
+              -3.846332
+            ],
+            [
+              -38.474112,
+              -3.846541
+            ],
+            [
+              -38.47438,
+              -3.847092
+            ],
+            [
+              -38.473591,
+              -3.847408
+            ],
+            [
+              -38.473827,
+              -3.848023
+            ],
+            [
+              -38.470564,
+              -3.849437
+            ],
+            [
+              -38.47021,
+              -3.848431
+            ],
+            [
+              -38.472463,
+              -3.847339
+            ],
+            [
+              -38.472012,
+              -3.846322
+            ],
+            [
+              -38.469802,
+              -3.847392
+            ],
+            [
+              -38.469451,
+              -3.846326
+            ],
+            [
+              -38.471597,
+              -3.845336
+            ],
+            [
+              -38.471543,
+              -3.84524
+            ],
+            [
+              -38.472745,
+              -3.844646
+            ],
+            [
+              -38.471568,
+              -3.843356
+            ],
+            [
+              -38.47251,
+              -3.84288
+            ],
+            [
+              -38.473323,
+              -3.842469
+            ],
+            [
+              -38.473978,
+              -3.843935
+            ],
+            [
+              -38.475812,
+              -3.843089
+            ],
+            [
+              -38.476338,
+              -3.844278
+            ],
+            [
+              -38.47504,
+              -3.844888
+            ],
+            [
+              -38.475351,
+              -3.845455
+            ],
+            [
+              -38.475973,
+              -3.84523
+            ],
+            [
+              -38.476252,
+              -3.845894
+            ],
+            [
+              -38.476885,
+              -3.845637
+            ],
+            [
+              -38.477486,
+              -3.846943
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "COAÇU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.175,
+        "municipality": "Messejana",
+        "name": "Santa Rosa- Messejana",
+        "nearby_streets": [
+          "SANTA ROSA- MESSEJANA",
+          "RUA ZUMBI",
+          "COMUNIDADE PÔR DO SOL"
+        ],
+        "nearby_streets_count": 9,
+        "node_id": 60,
+        "parent_area": "COAÇU",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 17,
+        "peak_hour_share": 0.5,
+        "peak_hour_start": 12,
+        "peak_hours": "Entre 12hs e 17hs",
+        "peak_time_label": "Sexta-feira, entre 12hs e 17hs",
+        "peak_weekday": "Sexta-feira",
+        "peak_weekday_share": 0.75,
+        "rank": 58,
+        "region": "fortaleza",
+        "risk_score": 31.798,
+        "score": 31.798,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 4
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.493274,
+              -3.842321
+            ],
+            [
+              -38.490823,
+              -3.842412
+            ],
+            [
+              -38.490943,
+              -3.842106
+            ],
+            [
+              -38.490222,
+              -3.84162
+            ],
+            [
+              -38.490654,
+              -3.841015
+            ],
+            [
+              -38.492172,
+              -3.842034
+            ],
+            [
+              -38.492313,
+              -3.841828
+            ],
+            [
+              -38.492689,
+              -3.842073
+            ],
+            [
+              -38.49259,
+              -3.842235
+            ],
+            [
+              -38.492708,
+              -3.842256
+            ],
+            [
+              -38.493272,
+              -3.842248
+            ],
+            [
+              -38.493274,
+              -3.842321
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "PARQUE SANTA MARIA",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:46:44.103489",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 3.758,
+        "municipality": "Messejana",
+        "name": "Comunidade do Serrote - Messejana",
+        "nearby_streets": [
+          "COMUNIDADE DO SERROTE - MESSEJANA",
+          "RUA COPÉRNICO",
+          "CEMITÉRIO"
+        ],
+        "nearby_streets_count": 14,
+        "node_id": 61,
+        "parent_area": "PARQUE SANTA MARIA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 33.4,
+        "parent_status": "MODERADO",
+        "rank": 59,
+        "region": "fortaleza",
+        "risk_score": 30.948,
+        "score": 30.948,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     }
   ],
   "metadata": {
-    "generated_at": "2026-11-04T15:18:04.238673",
+    "generated_at": "2026-11-04T15:46:44.103489",
     "region": "capital",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
-    "total": 51
+    "total": 61
   },
   "type": "FeatureCollection"
 }
