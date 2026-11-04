@@ -151,348 +151,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 25.018,
+        "local_street_pressure": 12.972,
         "municipality": "Fortaleza",
         "name": "Conjunto São Cristovão",
         "nearby_streets": [
           "CONJUNTO SÃO CRISTOVÃO",
           "AVENIDA GOVERNADOR LEONEL BRIZOLA",
-          "RUA 301"
+          "RUA 404"
         ],
-        "nearby_streets_count": 133,
-        "node_id": 1,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 1,
-        "region": "fortaleza",
-        "risk_score": 82.491,
-        "score": 82.491,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.517305,
-              -3.851316
-            ],
-            [
-              -38.518474,
-              -3.854404
-            ],
-            [
-              -38.516423,
-              -3.855208
-            ],
-            [
-              -38.516085,
-              -3.854209
-            ],
-            [
-              -38.515296,
-              -3.85215
-            ],
-            [
-              -38.517305,
-              -3.851316
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 30.169,
-        "municipality": "Fortaleza",
-        "name": "Conjunto José Euclides",
-        "nearby_streets": [
-          "CONJUNTO JOSÉ EUCLIDES",
-          "RUA D",
-          "CONJUNTO PATATIVA DO ASSARÉ"
-        ],
-        "nearby_streets_count": 111,
-        "node_id": 2,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 2,
-        "region": "fortaleza",
-        "risk_score": 81.999,
-        "score": 81.999,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.521609,
-              -3.841886
-            ],
-            [
-              -38.5215,
-              -3.845011
-            ],
-            [
-              -38.521799,
-              -3.846166
-            ],
-            [
-              -38.520917,
-              -3.846319
-            ],
-            [
-              -38.5203,
-              -3.846403
-            ],
-            [
-              -38.517712,
-              -3.846409
-            ],
-            [
-              -38.517456,
-              -3.845835
-            ],
-            [
-              -38.518555,
-              -3.84482
-            ],
-            [
-              -38.518399,
-              -3.844643
-            ],
-            [
-              -38.518543,
-              -3.844524
-            ],
-            [
-              -38.518614,
-              -3.844575
-            ],
-            [
-              -38.519307,
-              -3.843869
-            ],
-            [
-              -38.519289,
-              -3.843791
-            ],
-            [
-              -38.521609,
-              -3.841886
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 28.789,
-        "municipality": "Fortaleza",
-        "name": "Favela do Circo",
-        "nearby_streets": [
-          "FAVELA DO CIRCO",
-          "RUA VERDE 34",
-          "RUA NOSSA SENHORA DA CONCEIÇÃO"
-        ],
-        "nearby_streets_count": 128,
+        "nearby_streets_count": 67,
         "node_id": 3,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 3,
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 1,
         "region": "fortaleza",
-        "risk_score": 81.395,
-        "score": 81.395,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.51926,
-              -3.850539
-            ],
-            [
-              -38.520504,
-              -3.853654
-            ],
-            [
-              -38.518541,
-              -3.854436
-            ],
-            [
-              -38.517305,
-              -3.851316
-            ],
-            [
-              -38.51926,
-              -3.850539
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 29.156,
-        "municipality": "Fortaleza",
-        "name": "JOSÉ EUCLIDES",
-        "nearby_streets": [
-          "JOSÉ EUCLIDES",
-          "RUA E",
-          "CONJUNTO JOSÉ EUCLIDES"
-        ],
-        "nearby_streets_count": 111,
-        "node_id": 4,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 4,
-        "region": "fortaleza",
-        "risk_score": 81.391,
-        "score": 81.391,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.518471,
-              -3.848609
-            ],
-            [
-              -38.517468,
-              -3.848979
-            ],
-            [
-              -38.517382,
-              -3.84884
-            ],
-            [
-              -38.51647,
-              -3.849193
-            ],
-            [
-              -38.516534,
-              -3.849418
-            ],
-            [
-              -38.511771,
-              -3.851248
-            ],
-            [
-              -38.511207,
-              -3.849846
-            ],
-            [
-              -38.512876,
-              -3.849161
-            ],
-            [
-              -38.512651,
-              -3.848615
-            ],
-            [
-              -38.516924,
-              -3.846711
-            ],
-            [
-              -38.51739,
-              -3.846603
-            ],
-            [
-              -38.517571,
-              -3.846576
-            ],
-            [
-              -38.517788,
-              -3.846496
-            ],
-            [
-              -38.517922,
-              -3.846542
-            ],
-            [
-              -38.518002,
-              -3.846519
-            ],
-            [
-              -38.519545,
-              -3.846474
-            ],
-            [
-              -38.520105,
-              -3.848038
-            ],
-            [
-              -38.518471,
-              -3.848609
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 27.949,
-        "municipality": "Fortaleza",
-        "name": "Sitio São João",
-        "nearby_streets": [
-          "SITIO SÃO JOÃO",
-          "AREA SEM NOME",
-          "RUA 4"
-        ],
-        "nearby_streets_count": 120,
-        "node_id": 5,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 5,
-        "region": "fortaleza",
-        "risk_score": 81.347,
-        "score": 81.347,
+        "risk_score": 62.344,
+        "score": 62.344,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -592,11 +272,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.936,
+        "local_street_pressure": 13.31,
         "municipality": "Fortaleza",
         "name": "Tamandaré",
         "nearby_streets": [
@@ -604,16 +284,186 @@
           "COMUNIDADE NO BAIRRO TAMANDARÉ",
           "VILA BINCEL"
         ],
-        "nearby_streets_count": 136,
+        "nearby_streets_count": 65,
+        "node_id": 4,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 2,
+        "region": "fortaleza",
+        "risk_score": 60.176,
+        "score": 60.176,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.518471,
+              -3.848609
+            ],
+            [
+              -38.517468,
+              -3.848979
+            ],
+            [
+              -38.517382,
+              -3.84884
+            ],
+            [
+              -38.51647,
+              -3.849193
+            ],
+            [
+              -38.516534,
+              -3.849418
+            ],
+            [
+              -38.511771,
+              -3.851248
+            ],
+            [
+              -38.511207,
+              -3.849846
+            ],
+            [
+              -38.512876,
+              -3.849161
+            ],
+            [
+              -38.512651,
+              -3.848615
+            ],
+            [
+              -38.516924,
+              -3.846711
+            ],
+            [
+              -38.51739,
+              -3.846603
+            ],
+            [
+              -38.517571,
+              -3.846576
+            ],
+            [
+              -38.517788,
+              -3.846496
+            ],
+            [
+              -38.517922,
+              -3.846542
+            ],
+            [
+              -38.518002,
+              -3.846519
+            ],
+            [
+              -38.519545,
+              -3.846474
+            ],
+            [
+              -38.520105,
+              -3.848038
+            ],
+            [
+              -38.518471,
+              -3.848609
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.154,
+        "municipality": "Fortaleza",
+        "name": "Sitio São João",
+        "nearby_streets": [
+          "SITIO SÃO JOÃO",
+          "AREA SEM NOME",
+          "RUA 4"
+        ],
+        "nearby_streets_count": 61,
+        "node_id": 5,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 3,
+        "region": "fortaleza",
+        "risk_score": 59.663,
+        "score": 59.663,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.517305,
+              -3.851316
+            ],
+            [
+              -38.518474,
+              -3.854404
+            ],
+            [
+              -38.516423,
+              -3.855208
+            ],
+            [
+              -38.516085,
+              -3.854209
+            ],
+            [
+              -38.515296,
+              -3.85215
+            ],
+            [
+              -38.517305,
+              -3.851316
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.489,
+        "municipality": "Fortaleza",
+        "name": "Conjunto José Euclides",
+        "nearby_streets": [
+          "CONJUNTO JOSÉ EUCLIDES",
+          "RUA D",
+          "CONJUNTO PATATIVA DO ASSARÉ"
+        ],
+        "nearby_streets_count": 52,
         "node_id": 6,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 6,
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 4,
         "region": "fortaleza",
-        "risk_score": 81.076,
-        "score": 81.076,
+        "risk_score": 59.377,
+        "score": 59.377,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -681,28 +531,178 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.513,
+        "local_street_pressure": 12.711,
         "municipality": "Fortaleza",
         "name": "Palmeiras 1",
         "nearby_streets": [
           "PALMEIRAS 1",
-          "RUA SALMÃO",
-          "FAVELA DO CIRCO"
+          "FAVELA DO CIRCO",
+          "PALMEIRAS1"
         ],
-        "nearby_streets_count": 120,
+        "nearby_streets_count": 60,
         "node_id": 7,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 5,
+        "region": "fortaleza",
+        "risk_score": 59.339,
+        "score": 59.339,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.521609,
+              -3.841886
+            ],
+            [
+              -38.5215,
+              -3.845011
+            ],
+            [
+              -38.521799,
+              -3.846166
+            ],
+            [
+              -38.520917,
+              -3.846319
+            ],
+            [
+              -38.5203,
+              -3.846403
+            ],
+            [
+              -38.517712,
+              -3.846409
+            ],
+            [
+              -38.517456,
+              -3.845835
+            ],
+            [
+              -38.518555,
+              -3.84482
+            ],
+            [
+              -38.518399,
+              -3.844643
+            ],
+            [
+              -38.518543,
+              -3.844524
+            ],
+            [
+              -38.518614,
+              -3.844575
+            ],
+            [
+              -38.519307,
+              -3.843869
+            ],
+            [
+              -38.519289,
+              -3.843791
+            ],
+            [
+              -38.521609,
+              -3.841886
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.05,
+        "municipality": "Fortaleza",
+        "name": "Favela do Circo",
+        "nearby_streets": [
+          "FAVELA DO CIRCO",
+          "PALMEIRAS 1",
+          "RUA SANTA PRUDENCÍANA"
+        ],
+        "nearby_streets_count": 61,
+        "node_id": 8,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 6,
+        "region": "fortaleza",
+        "risk_score": 59.089,
+        "score": 59.089,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.51926,
+              -3.850539
+            ],
+            [
+              -38.520504,
+              -3.853654
+            ],
+            [
+              -38.518541,
+              -3.854436
+            ],
+            [
+              -38.517305,
+              -3.851316
+            ],
+            [
+              -38.51926,
+              -3.850539
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.637,
+        "municipality": "Fortaleza",
+        "name": "JOSÉ EUCLIDES",
+        "nearby_streets": [
+          "JOSÉ EUCLIDES",
+          "CONJUNTO JOSÉ EUCLIDES",
+          "CONJUNTO PATATIVA DO ASSARÉ"
+        ],
+        "nearby_streets_count": 53,
+        "node_id": 9,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 7,
         "region": "fortaleza",
-        "risk_score": 80.679,
-        "score": 80.679,
+        "risk_score": 58.388,
+        "score": 58.388,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -750,11 +750,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 28.325,
+        "local_street_pressure": 12.729,
         "municipality": "Fortaleza",
         "name": "Conjunto Patativa do Assaré",
         "nearby_streets": [
@@ -762,186 +762,153 @@
           "CASINHAS DO MARIA TOMASIA",
           "CONJUNTO JOSÉ EUCLIDES"
         ],
-        "nearby_streets_count": 107,
-        "node_id": 8,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 8,
-        "region": "fortaleza",
-        "risk_score": 80.626,
-        "score": 80.626,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.516276,
-              -3.855137
-            ],
-            [
-              -38.516676,
-              -3.856117
-            ],
-            [
-              -38.515377,
-              -3.856619
-            ],
-            [
-              -38.514983,
-              -3.85568
-            ],
-            [
-              -38.515051,
-              -3.855596
-            ],
-            [
-              -38.516276,
-              -3.855137
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 27.346,
-        "municipality": "Fortaleza",
-        "name": "Casinhas do Maria Tomasia",
-        "nearby_streets": [
-          "CASINHAS DO MARIA TOMASIA",
-          "CONJUNTO PATATIVA DO ASSARÉ",
-          "MARIA TOMÁSIA - JANGURUSSU"
-        ],
-        "nearby_streets_count": 105,
-        "node_id": 9,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 9,
-        "region": "fortaleza",
-        "risk_score": 79.97,
-        "score": 79.97,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.511944,
-              -3.853363
-            ],
-            [
-              -38.51376,
-              -3.852729
-            ],
-            [
-              -38.513822,
-              -3.852794
-            ],
-            [
-              -38.514738,
-              -3.855203
-            ],
-            [
-              -38.51475,
-              -3.855328
-            ],
-            [
-              -38.514344,
-              -3.855435
-            ],
-            [
-              -38.514135,
-              -3.854968
-            ],
-            [
-              -38.513424,
-              -3.85518
-            ],
-            [
-              -38.511517,
-              -3.85588
-            ],
-            [
-              -38.510684,
-              -3.856226
-            ],
-            [
-              -38.510308,
-              -3.856241
-            ],
-            [
-              -38.510067,
-              -3.855684
-            ],
-            [
-              -38.509688,
-              -3.855798
-            ],
-            [
-              -38.50961,
-              -3.855744
-            ],
-            [
-              -38.50951,
-              -3.855477
-            ],
-            [
-              -38.50917,
-              -3.854532
-            ],
-            [
-              -38.509187,
-              -3.854473
-            ],
-            [
-              -38.511944,
-              -3.853363
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 25.779,
-        "municipality": "Fortaleza",
-        "name": "ADEMIR MARTINS",
-        "nearby_streets": [
-          "ADEMIR MARTINS",
-          "RUA AUDIFAX RIOS",
-          "RESIDENCIAL ALDEMIR"
-        ],
-        "nearby_streets_count": 108,
+        "nearby_streets_count": 52,
         "node_id": 10,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 10,
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 8,
         "region": "fortaleza",
-        "risk_score": 79.605,
-        "score": 79.605,
+        "risk_score": 58.225,
+        "score": 58.225,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.514333,
+              -3.83608
+            ],
+            [
+              -38.514207,
+              -3.836003
+            ],
+            [
+              -38.514089,
+              -3.835711
+            ],
+            [
+              -38.514048,
+              -3.8355
+            ],
+            [
+              -38.51393,
+              -3.835355
+            ],
+            [
+              -38.514051,
+              -3.835184
+            ],
+            [
+              -38.513976,
+              -3.834996
+            ],
+            [
+              -38.514083,
+              -3.834967
+            ],
+            [
+              -38.514011,
+              -3.83479
+            ],
+            [
+              -38.514314,
+              -3.834721
+            ],
+            [
+              -38.514491,
+              -3.834718
+            ],
+            [
+              -38.51448,
+              -3.83451
+            ],
+            [
+              -38.514688,
+              -3.834506
+            ],
+            [
+              -38.514688,
+              -3.834715
+            ],
+            [
+              -38.514719,
+              -3.834715
+            ],
+            [
+              -38.514711,
+              -3.834868
+            ],
+            [
+              -38.514714,
+              -3.835002
+            ],
+            [
+              -38.514732,
+              -3.835149
+            ],
+            [
+              -38.514754,
+              -3.835224
+            ],
+            [
+              -38.514805,
+              -3.83531
+            ],
+            [
+              -38.514932,
+              -3.83543
+            ],
+            [
+              -38.515145,
+              -3.835561
+            ],
+            [
+              -38.514874,
+              -3.83592
+            ],
+            [
+              -38.514555,
+              -3.835738
+            ],
+            [
+              -38.514333,
+              -3.83608
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.761,
+        "municipality": "Fortaleza",
+        "name": "Beco do Tatu",
+        "nearby_streets": [
+          "BECO DO TATU",
+          "VILA BINCEL",
+          "TAMANDARÉ"
+        ],
+        "nearby_streets_count": 59,
+        "node_id": 11,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 9,
+        "region": "fortaleza",
+        "risk_score": 58.161,
+        "score": 58.161,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1101,11 +1068,11 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 26.52,
+        "local_street_pressure": 12.409,
         "municipality": "Fortaleza",
         "name": "Favela do Seu Geraldo",
         "nearby_streets": [
@@ -1113,16 +1080,16 @@
           "FAVELA DO PREÁ",
           "FAVELA DO CAJUEIRO"
         ],
-        "nearby_streets_count": 129,
-        "node_id": 11,
+        "nearby_streets_count": 59,
+        "node_id": 12,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 11,
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 10,
         "region": "fortaleza",
-        "risk_score": 79.587,
-        "score": 79.587,
+        "risk_score": 57.892,
+        "score": 57.892,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1132,84 +1099,137 @@
         "coordinates": [
           [
             [
-              -38.521481,
-              -3.854811
+              -38.511944,
+              -3.853363
             ],
             [
-              -38.521808,
-              -3.855843
+              -38.51376,
+              -3.852729
             ],
             [
-              -38.518188,
-              -3.857566
+              -38.513822,
+              -3.852794
             ],
             [
-              -38.518172,
-              -3.857544
+              -38.514738,
+              -3.855203
             ],
             [
-              -38.517098,
-              -3.857934
+              -38.51475,
+              -3.855328
             ],
             [
-              -38.517144,
-              -3.858067
+              -38.514344,
+              -3.855435
             ],
             [
-              -38.516465,
-              -3.858445
+              -38.514135,
+              -3.854968
             ],
             [
-              -38.51637,
-              -3.858194
+              -38.513424,
+              -3.85518
             ],
             [
-              -38.515981,
-              -3.856966
+              -38.511517,
+              -3.85588
             ],
             [
-              -38.515574,
-              -3.85711
+              -38.510684,
+              -3.856226
             ],
             [
-              -38.515377,
-              -3.856619
-            ],
-            [
-              -38.51555,
-              -3.856536
-            ],
-            [
-              -38.515866,
-              -3.856408
-            ],
-            [
-              -38.516033,
-              -3.856357
-            ],
-            [
-              -38.516351,
+              -38.510308,
               -3.856241
+            ],
+            [
+              -38.510067,
+              -3.855684
+            ],
+            [
+              -38.509688,
+              -3.855798
+            ],
+            [
+              -38.50961,
+              -3.855744
+            ],
+            [
+              -38.50951,
+              -3.855477
+            ],
+            [
+              -38.50917,
+              -3.854532
+            ],
+            [
+              -38.509187,
+              -3.854473
+            ],
+            [
+              -38.511944,
+              -3.853363
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.892,
+        "municipality": "Fortaleza",
+        "name": "ADEMIR MARTINS",
+        "nearby_streets": [
+          "ADEMIR MARTINS",
+          "CONJUNTO PATATIVA DO ASSARÉ",
+          "CASINHAS DO MARIA TOMASIA"
+        ],
+        "nearby_streets_count": 54,
+        "node_id": 13,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 11,
+        "region": "fortaleza",
+        "risk_score": 57.754,
+        "score": 57.754,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.516276,
+              -3.855137
             ],
             [
               -38.516676,
               -3.856117
             ],
             [
-              -38.516772,
-              -3.856369
+              -38.515377,
+              -3.856619
             ],
             [
-              -38.521027,
-              -3.854826
+              -38.514983,
+              -3.85568
             ],
             [
-              -38.521075,
-              -3.854922
+              -38.515051,
+              -3.855596
             ],
             [
-              -38.521481,
-              -3.854811
+              -38.516276,
+              -3.855137
             ]
           ]
         ],
@@ -1218,28 +1238,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 24.661,
+        "local_street_pressure": 12.228,
         "municipality": "Fortaleza",
-        "name": "Maria Tomásia - Jangurussu",
+        "name": "Casinhas do Maria Tomasia",
         "nearby_streets": [
-          "MARIA TOMÁSIA - JANGURUSSU",
           "CASINHAS DO MARIA TOMASIA",
-          "RUA MYRIAN FRAGA"
+          "CONJUNTO PATATIVA DO ASSARÉ",
+          "MARIA TOMÁSIA - JANGURUSSU"
         ],
-        "nearby_streets_count": 95,
-        "node_id": 12,
+        "nearby_streets_count": 50,
+        "node_id": 14,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 12,
         "region": "fortaleza",
-        "risk_score": 78.842,
-        "score": 78.842,
+        "risk_score": 57.574,
+        "score": 57.574,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1249,140 +1269,40 @@
         "coordinates": [
           [
             [
-              -38.507393,
-              -3.844741
+              -38.511919,
+              -3.837142
             ],
             [
-              -38.507441,
-              -3.844796
+              -38.511966,
+              -3.837301
             ],
             [
-              -38.507767,
-              -3.844685
+              -38.511902,
+              -3.837329
             ],
             [
-              -38.507781,
-              -3.844644
+              -38.511989,
+              -3.837562
             ],
             [
-              -38.508366,
-              -3.844513
+              -38.512172,
+              -3.838065
             ],
             [
-              -38.508597,
-              -3.845289
+              -38.511567,
+              -3.83833
             ],
             [
-              -38.508679,
-              -3.845281
+              -38.511364,
+              -3.837776
             ],
             [
-              -38.508745,
-              -3.845465
+              -38.511339,
+              -3.837277
             ],
             [
-              -38.508789,
-              -3.845576
-            ],
-            [
-              -38.507788,
-              -3.845991
-            ],
-            [
-              -38.50773,
-              -3.846026
-            ],
-            [
-              -38.506972,
-              -3.846297
-            ],
-            [
-              -38.506564,
-              -3.846486
-            ],
-            [
-              -38.506541,
-              -3.846546
-            ],
-            [
-              -38.506344,
-              -3.846619
-            ],
-            [
-              -38.506203,
-              -3.846876
-            ],
-            [
-              -38.505921,
-              -3.846989
-            ],
-            [
-              -38.505991,
-              -3.847189
-            ],
-            [
-              -38.506109,
-              -3.847154
-            ],
-            [
-              -38.506167,
-              -3.847288
-            ],
-            [
-              -38.506154,
-              -3.847327
-            ],
-            [
-              -38.505795,
-              -3.847469
-            ],
-            [
-              -38.505727,
-              -3.847292
-            ],
-            [
-              -38.505449,
-              -3.84739
-            ],
-            [
-              -38.505289,
-              -3.847077
-            ],
-            [
-              -38.505232,
-              -3.847059
-            ],
-            [
-              -38.505214,
-              -3.846979
-            ],
-            [
-              -38.504824,
-              -3.847114
-            ],
-            [
-              -38.50453,
-              -3.846338
-            ],
-            [
-              -38.504541,
-              -3.846302
-            ],
-            [
-              -38.505244,
-              -3.846009
-            ],
-            [
-              -38.505168,
-              -3.845657
-            ],
-            [
-              -38.505856,
-              -3.845344
-            ],
-            [
-              -38.507393,
-              -3.844741
+              -38.511919,
+              -3.837142
             ]
           ]
         ],
@@ -1391,28 +1311,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 24.639,
+        "local_street_pressure": 12.168,
         "municipality": "Fortaleza",
-        "name": "Favela do Cajueiro",
+        "name": "Vila Bincel",
         "nearby_streets": [
-          "FAVELA DO CAJUEIRO",
-          "RUA NUNES FEIJÓ",
-          "FAVELA DO PREÁ"
+          "VILA BINCEL",
+          "COMUNIDADE NO BAIRRO TAMANDARÉ",
+          "BECO DO TATU"
         ],
-        "nearby_streets_count": 117,
-        "node_id": 13,
+        "nearby_streets_count": 58,
+        "node_id": 15,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 13,
         "region": "fortaleza",
-        "risk_score": 78.602,
-        "score": 78.602,
+        "risk_score": 57.453,
+        "score": 57.453,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1648,28 +1568,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.992,
+        "local_street_pressure": 11.698,
         "municipality": "Fortaleza",
         "name": "Favela do Preá",
         "nearby_streets": [
           "FAVELA DO PREÁ",
           "FAVELA DO SEU GERALDO",
-          "RUA SÃO JOÃO DO JANGURUSSU"
+          "FAVELA DO CAJUEIRO"
         ],
-        "nearby_streets_count": 116,
-        "node_id": 14,
+        "nearby_streets_count": 57,
+        "node_id": 16,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 14,
         "region": "fortaleza",
-        "risk_score": 78.322,
-        "score": 78.322,
+        "risk_score": 57.314,
+        "score": 57.314,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1777,165 +1697,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 24.279,
+        "local_street_pressure": 12.002,
         "municipality": "Fortaleza",
         "name": "Comunidade no bairro Tamandaré",
         "nearby_streets": [
           "COMUNIDADE NO BAIRRO TAMANDARÉ",
           "VILA BINCEL",
-          "SANTA FILOMENA"
-        ],
-        "nearby_streets_count": 121,
-        "node_id": 15,
-        "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 15,
-        "region": "fortaleza",
-        "risk_score": 78.133,
-        "score": 78.133,
-        "source_geometry_type": "Polygon"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -38.514333,
-              -3.83608
-            ],
-            [
-              -38.514207,
-              -3.836003
-            ],
-            [
-              -38.514089,
-              -3.835711
-            ],
-            [
-              -38.514048,
-              -3.8355
-            ],
-            [
-              -38.51393,
-              -3.835355
-            ],
-            [
-              -38.514051,
-              -3.835184
-            ],
-            [
-              -38.513976,
-              -3.834996
-            ],
-            [
-              -38.514083,
-              -3.834967
-            ],
-            [
-              -38.514011,
-              -3.83479
-            ],
-            [
-              -38.514314,
-              -3.834721
-            ],
-            [
-              -38.514491,
-              -3.834718
-            ],
-            [
-              -38.51448,
-              -3.83451
-            ],
-            [
-              -38.514688,
-              -3.834506
-            ],
-            [
-              -38.514688,
-              -3.834715
-            ],
-            [
-              -38.514719,
-              -3.834715
-            ],
-            [
-              -38.514711,
-              -3.834868
-            ],
-            [
-              -38.514714,
-              -3.835002
-            ],
-            [
-              -38.514732,
-              -3.835149
-            ],
-            [
-              -38.514754,
-              -3.835224
-            ],
-            [
-              -38.514805,
-              -3.83531
-            ],
-            [
-              -38.514932,
-              -3.83543
-            ],
-            [
-              -38.515145,
-              -3.835561
-            ],
-            [
-              -38.514874,
-              -3.83592
-            ],
-            [
-              -38.514555,
-              -3.835738
-            ],
-            [
-              -38.514333,
-              -3.83608
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "bairro": "JANGURUSSU",
-        "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
-        "geometry_type": "Polygon",
-        "is_centroid": false,
-        "is_tactical": true,
-        "local_street_pressure": 23.583,
-        "municipality": "Fortaleza",
-        "name": "Beco do Tatu",
-        "nearby_streets": [
-          "BECO DO TATU",
-          "VILA BINCEL",
           "TAMANDARÉ"
         ],
-        "nearby_streets_count": 125,
-        "node_id": 16,
+        "nearby_streets_count": 55,
+        "node_id": 17,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
-        "rank": 16,
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 15,
         "region": "fortaleza",
-        "risk_score": 77.695,
-        "score": 77.695,
+        "risk_score": 57.305,
+        "score": 57.305,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -1945,40 +1728,140 @@
         "coordinates": [
           [
             [
-              -38.511919,
-              -3.837142
+              -38.507393,
+              -3.844741
             ],
             [
-              -38.511966,
-              -3.837301
+              -38.507441,
+              -3.844796
             ],
             [
-              -38.511902,
-              -3.837329
+              -38.507767,
+              -3.844685
             ],
             [
-              -38.511989,
-              -3.837562
+              -38.507781,
+              -3.844644
             ],
             [
-              -38.512172,
-              -3.838065
+              -38.508366,
+              -3.844513
             ],
             [
-              -38.511567,
-              -3.83833
+              -38.508597,
+              -3.845289
             ],
             [
-              -38.511364,
-              -3.837776
+              -38.508679,
+              -3.845281
             ],
             [
-              -38.511339,
-              -3.837277
+              -38.508745,
+              -3.845465
             ],
             [
-              -38.511919,
-              -3.837142
+              -38.508789,
+              -3.845576
+            ],
+            [
+              -38.507788,
+              -3.845991
+            ],
+            [
+              -38.50773,
+              -3.846026
+            ],
+            [
+              -38.506972,
+              -3.846297
+            ],
+            [
+              -38.506564,
+              -3.846486
+            ],
+            [
+              -38.506541,
+              -3.846546
+            ],
+            [
+              -38.506344,
+              -3.846619
+            ],
+            [
+              -38.506203,
+              -3.846876
+            ],
+            [
+              -38.505921,
+              -3.846989
+            ],
+            [
+              -38.505991,
+              -3.847189
+            ],
+            [
+              -38.506109,
+              -3.847154
+            ],
+            [
+              -38.506167,
+              -3.847288
+            ],
+            [
+              -38.506154,
+              -3.847327
+            ],
+            [
+              -38.505795,
+              -3.847469
+            ],
+            [
+              -38.505727,
+              -3.847292
+            ],
+            [
+              -38.505449,
+              -3.84739
+            ],
+            [
+              -38.505289,
+              -3.847077
+            ],
+            [
+              -38.505232,
+              -3.847059
+            ],
+            [
+              -38.505214,
+              -3.846979
+            ],
+            [
+              -38.504824,
+              -3.847114
+            ],
+            [
+              -38.50453,
+              -3.846338
+            ],
+            [
+              -38.504541,
+              -3.846302
+            ],
+            [
+              -38.505244,
+              -3.846009
+            ],
+            [
+              -38.505168,
+              -3.845657
+            ],
+            [
+              -38.505856,
+              -3.845344
+            ],
+            [
+              -38.507393,
+              -3.844741
             ]
           ]
         ],
@@ -1987,28 +1870,145 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 23.467,
+        "local_street_pressure": 11.688,
         "municipality": "Fortaleza",
-        "name": "Vila Bincel",
+        "name": "Favela do Cajueiro",
         "nearby_streets": [
-          "VILA BINCEL",
-          "COMUNIDADE NO BAIRRO TAMANDARÉ",
-          "BECO DO TATU"
+          "FAVELA DO CAJUEIRO",
+          "RUA NUNES FEIJÓ",
+          "FAVELA DO PREÁ"
         ],
-        "nearby_streets_count": 125,
-        "node_id": 17,
+        "nearby_streets_count": 51,
+        "node_id": 18,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
+        "rank": 16,
+        "region": "fortaleza",
+        "risk_score": 57.196,
+        "score": 57.196,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.521481,
+              -3.854811
+            ],
+            [
+              -38.521808,
+              -3.855843
+            ],
+            [
+              -38.518188,
+              -3.857566
+            ],
+            [
+              -38.518172,
+              -3.857544
+            ],
+            [
+              -38.517098,
+              -3.857934
+            ],
+            [
+              -38.517144,
+              -3.858067
+            ],
+            [
+              -38.516465,
+              -3.858445
+            ],
+            [
+              -38.51637,
+              -3.858194
+            ],
+            [
+              -38.515981,
+              -3.856966
+            ],
+            [
+              -38.515574,
+              -3.85711
+            ],
+            [
+              -38.515377,
+              -3.856619
+            ],
+            [
+              -38.51555,
+              -3.856536
+            ],
+            [
+              -38.515866,
+              -3.856408
+            ],
+            [
+              -38.516033,
+              -3.856357
+            ],
+            [
+              -38.516351,
+              -3.856241
+            ],
+            [
+              -38.516676,
+              -3.856117
+            ],
+            [
+              -38.516772,
+              -3.856369
+            ],
+            [
+              -38.521027,
+              -3.854826
+            ],
+            [
+              -38.521075,
+              -3.854922
+            ],
+            [
+              -38.521481,
+              -3.854811
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "JANGURUSSU",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.86,
+        "municipality": "Fortaleza",
+        "name": "Maria Tomásia - Jangurussu",
+        "nearby_streets": [
+          "MARIA TOMÁSIA - JANGURUSSU",
+          "CASINHAS DO MARIA TOMASIA",
+          "CONJUNTO PATATIVA DO ASSARÉ"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 19,
+        "parent_area": "JANGURUSSU",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 17,
         "region": "fortaleza",
-        "risk_score": 77.605,
-        "score": 77.605,
+        "risk_score": 56.465,
+        "score": 56.465,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2072,28 +2072,28 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 19.925,
+        "local_street_pressure": 9.996,
         "municipality": "Fortaleza",
         "name": "Parque Betânia",
         "nearby_streets": [
           "PARQUE BETÂNIA",
-          "TRAVESSA LADISLAU LOURENÇO",
-          "RUA NILTON REBOUÇAS"
+          "COMUNIDADE DA CIDADE NOBRE",
+          "FAVELA DO PREÁ"
         ],
-        "nearby_streets_count": 92,
-        "node_id": 18,
+        "nearby_streets_count": 51,
+        "node_id": 20,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 18,
         "region": "fortaleza",
-        "risk_score": 75.782,
-        "score": 75.782,
+        "risk_score": 55.23,
+        "score": 55.23,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
@@ -2137,39 +2137,3077 @@
       "properties": {
         "bairro": "JANGURUSSU",
         "faction": "CV",
-        "generated_at": "2026-10-22T15:05:19.969075",
+        "generated_at": "2026-11-04T15:18:04.238673",
         "geometry_type": "Polygon",
         "is_centroid": false,
         "is_tactical": true,
-        "local_street_pressure": 19.365,
+        "local_street_pressure": 9.757,
         "municipality": "Fortaleza",
         "name": "Comunidade da Cidade Nobre",
         "nearby_streets": [
           "COMUNIDADE DA CIDADE NOBRE",
-          "RUA PADRE ARTUR JUNCOSA",
-          "PARQUE BETÂNIA"
+          "PARQUE BETÂNIA",
+          "VILA BINCEL"
         ],
-        "nearby_streets_count": 94,
-        "node_id": 19,
+        "nearby_streets_count": 51,
+        "node_id": 21,
         "parent_area": "JANGURUSSU",
-        "parent_risk_level": "crítico",
-        "parent_risk_score": 83.7,
-        "parent_status": "CRÍTICO",
+        "parent_risk_level": "alto",
+        "parent_risk_score": 55.6,
+        "parent_status": "ALTO",
         "rank": 19,
         "region": "fortaleza",
-        "risk_score": 75.185,
-        "score": 75.185,
+        "risk_score": 54.691,
+        "score": 54.691,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.586046,
+              -3.80398
+            ],
+            [
+              -38.5892,
+              -3.80192
+            ],
+            [
+              -38.590847,
+              -3.803835
+            ],
+            [
+              -38.589425,
+              -3.804508
+            ],
+            [
+              -38.589564,
+              -3.805004
+            ],
+            [
+              -38.590771,
+              -3.804755
+            ],
+            [
+              -38.591313,
+              -3.804409
+            ],
+            [
+              -38.59362,
+              -3.806887
+            ],
+            [
+              -38.593073,
+              -3.807123
+            ],
+            [
+              -38.592944,
+              -3.807016
+            ],
+            [
+              -38.592386,
+              -3.807412
+            ],
+            [
+              -38.592236,
+              -3.807412
+            ],
+            [
+              -38.591796,
+              -3.807551
+            ],
+            [
+              -38.591517,
+              -3.807658
+            ],
+            [
+              -38.59097,
+              -3.807861
+            ],
+            [
+              -38.590562,
+              -3.808054
+            ],
+            [
+              -38.589994,
+              -3.808279
+            ],
+            [
+              -38.58964,
+              -3.808375
+            ],
+            [
+              -38.587564,
+              -3.805511
+            ],
+            [
+              -38.587188,
+              -3.805752
+            ],
+            [
+              -38.586046,
+              -3.80398
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.233,
+        "municipality": "Fortaleza",
+        "name": "Novo Mondubim",
+        "nearby_streets": [
+          "NOVO MONDUBIM",
+          "BECO DO CHOCOLATE",
+          "APARTAMENTOS DO NOVO MONDUBIM"
+        ],
+        "nearby_streets_count": 68,
+        "node_id": 22,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 20,
+        "region": "fortaleza",
+        "risk_score": 48.135,
+        "score": 48.135,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.587523,
+              -3.807144
+            ],
+            [
+              -38.586334,
+              -3.808029
+            ],
+            [
+              -38.587019,
+              -3.809192
+            ],
+            [
+              -38.585194,
+              -3.810288
+            ],
+            [
+              -38.585068,
+              -3.81017
+            ],
+            [
+              -38.584419,
+              -3.810488
+            ],
+            [
+              -38.584312,
+              -3.810393
+            ],
+            [
+              -38.583384,
+              -3.810872
+            ],
+            [
+              -38.581803,
+              -3.809996
+            ],
+            [
+              -38.58113,
+              -3.808894
+            ],
+            [
+              -38.585394,
+              -3.80614
+            ],
+            [
+              -38.584996,
+              -3.805551
+            ],
+            [
+              -38.586372,
+              -3.804656
+            ],
+            [
+              -38.587161,
+              -3.805859
+            ],
+            [
+              -38.587275,
+              -3.806087
+            ],
+            [
+              -38.587333,
+              -3.806331
+            ],
+            [
+              -38.587306,
+              -3.806825
+            ],
+            [
+              -38.587523,
+              -3.807144
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.795,
+        "municipality": "Fortaleza",
+        "name": "Modumbi",
+        "nearby_streets": [
+          "MODUMBI",
+          "CONJ. NOVO MODUMBI",
+          "CAMBERRINHA"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 23,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 21,
+        "region": "fortaleza",
+        "risk_score": 47.455,
+        "score": 47.455,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.586334,
+              -3.808029
+            ],
+            [
+              -38.586652,
+              -3.807808
+            ],
+            [
+              -38.587149,
+              -3.808539
+            ],
+            [
+              -38.588062,
+              -3.807933
+            ],
+            [
+              -38.588764,
+              -3.808984
+            ],
+            [
+              -38.587645,
+              -3.809973
+            ],
+            [
+              -38.586334,
+              -3.808029
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.55,
+        "municipality": "Fortaleza",
+        "name": "Conj. Novo Modumbi",
+        "nearby_streets": [
+          "CONJ. NOVO MODUMBI",
+          "RUA 104",
+          "APARTAMENTOS DO NOVO MONDUBIM"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 24,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 22,
+        "region": "fortaleza",
+        "risk_score": 47.288,
+        "score": 47.288,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.587539,
+              -3.805597
+            ],
+            [
+              -38.589554,
+              -3.808386
+            ],
+            [
+              -38.589414,
+              -3.808504
+            ],
+            [
+              -38.589232,
+              -3.808616
+            ],
+            [
+              -38.589071,
+              -3.808734
+            ],
+            [
+              -38.588964,
+              -3.808841
+            ],
+            [
+              -38.58882,
+              -3.808989
+            ],
+            [
+              -38.587381,
+              -3.806876
+            ],
+            [
+              -38.587386,
+              -3.80678
+            ],
+            [
+              -38.587386,
+              -3.806668
+            ],
+            [
+              -38.587386,
+              -3.806539
+            ],
+            [
+              -38.587403,
+              -3.806443
+            ],
+            [
+              -38.587379,
+              -3.806333
+            ],
+            [
+              -38.587355,
+              -3.806177
+            ],
+            [
+              -38.587161,
+              -3.805859
+            ],
+            [
+              -38.587539,
+              -3.805597
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.482,
+        "municipality": "Fortaleza",
+        "name": "Apartamentos do Novo Mondubim",
+        "nearby_streets": [
+          "APARTAMENTOS DO NOVO MONDUBIM",
+          "CONJ. NOVO MODUMBI",
+          "NOVO MONDUBIM"
+        ],
+        "nearby_streets_count": 65,
+        "node_id": 25,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 23,
+        "region": "fortaleza",
+        "risk_score": 47.238,
+        "score": 47.238,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.585969,
+              -3.809859
+            ],
+            [
+              -38.587019,
+              -3.809192
+            ],
+            [
+              -38.587591,
+              -3.810045
+            ],
+            [
+              -38.586773,
+              -3.810777
+            ],
+            [
+              -38.585969,
+              -3.809859
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.554,
+        "municipality": "Fortaleza",
+        "name": "Camberrinha",
+        "nearby_streets": [
+          "CAMBERRINHA",
+          "CAJAMAR",
+          "CONJ. NOVO MODUMBI"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 26,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 24,
+        "region": "fortaleza",
+        "risk_score": 47.228,
+        "score": 47.228,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.590863,
+              -3.803878
+            ],
+            [
+              -38.591313,
+              -3.804409
+            ],
+            [
+              -38.590771,
+              -3.804755
+            ],
+            [
+              -38.590385,
+              -3.804825
+            ],
+            [
+              -38.589833,
+              -3.804938
+            ],
+            [
+              -38.589602,
+              -3.804975
+            ],
+            [
+              -38.589425,
+              -3.804508
+            ],
+            [
+              -38.590707,
+              -3.803969
+            ],
+            [
+              -38.590863,
+              -3.803878
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.431,
+        "municipality": "Fortaleza",
+        "name": "Beco do Chocolate",
+        "nearby_streets": [
+          "BECO DO CHOCOLATE",
+          "NOVO MONDUBIM",
+          "COMUNIDADE VERTICAL"
+        ],
+        "nearby_streets_count": 67,
+        "node_id": 27,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 25,
+        "region": "fortaleza",
+        "risk_score": 47.073,
+        "score": 47.073,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.585228,
+              -3.810324
+            ],
+            [
+              -38.585896,
+              -3.80991
+            ],
+            [
+              -38.58668,
+              -3.810797
+            ],
+            [
+              -38.585894,
+              -3.811054
+            ],
+            [
+              -38.585228,
+              -3.810324
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 15.199,
+        "municipality": "Fortaleza",
+        "name": "Cajamar",
+        "nearby_streets": [
+          "CAJAMAR",
+          "CAMBERRINHA",
+          "CONJ. NOVO MODUMBI"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 28,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 26,
+        "region": "fortaleza",
+        "risk_score": 46.788,
+        "score": 46.788,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.58506,
+              -3.812637
+            ],
+            [
+              -38.585579,
+              -3.813421
+            ],
+            [
+              -38.584749,
+              -3.813968
+            ],
+            [
+              -38.584245,
+              -3.813172
+            ],
+            [
+              -38.58506,
+              -3.812637
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.966,
+        "municipality": "Fortaleza",
+        "name": "Favela da GN",
+        "nearby_streets": [
+          "FAVELA DA GN",
+          "BECO DO HR",
+          "CAJAMAR"
+        ],
+        "nearby_streets_count": 62,
+        "node_id": 29,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 27,
+        "region": "fortaleza",
+        "risk_score": 46.524,
+        "score": 46.524,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.577148,
+              -3.813882
+            ],
+            [
+              -38.576899,
+              -3.81309
+            ],
+            [
+              -38.576639,
+              -3.81237
+            ],
+            [
+              -38.57706,
+              -3.812223
+            ],
+            [
+              -38.576998,
+              -3.812046
+            ],
+            [
+              -38.577395,
+              -3.811907
+            ],
+            [
+              -38.577199,
+              -3.811283
+            ],
+            [
+              -38.578076,
+              -3.81062
+            ],
+            [
+              -38.578201,
+              -3.810757
+            ],
+            [
+              -38.578324,
+              -3.810691
+            ],
+            [
+              -38.578833,
+              -3.810537
+            ],
+            [
+              -38.578851,
+              -3.810559
+            ],
+            [
+              -38.578788,
+              -3.810627
+            ],
+            [
+              -38.579682,
+              -3.811642
+            ],
+            [
+              -38.579726,
+              -3.811611
+            ],
+            [
+              -38.579875,
+              -3.811826
+            ],
+            [
+              -38.579826,
+              -3.811872
+            ],
+            [
+              -38.579881,
+              -3.811953
+            ],
+            [
+              -38.580527,
+              -3.812672
+            ],
+            [
+              -38.581373,
+              -3.811837
+            ],
+            [
+              -38.582266,
+              -3.812838
+            ],
+            [
+              -38.582852,
+              -3.813632
+            ],
+            [
+              -38.582655,
+              -3.813804
+            ],
+            [
+              -38.58255,
+              -3.813678
+            ],
+            [
+              -38.58207,
+              -3.814246
+            ],
+            [
+              -38.58255,
+              -3.81484
+            ],
+            [
+              -38.581982,
+              -3.815242
+            ],
+            [
+              -38.580302,
+              -3.816451
+            ],
+            [
+              -38.578607,
+              -3.817634
+            ],
+            [
+              -38.578484,
+              -3.817784
+            ],
+            [
+              -38.578425,
+              -3.817787
+            ],
+            [
+              -38.57732,
+              -3.816922
+            ],
+            [
+              -38.578283,
+              -3.815675
+            ],
+            [
+              -38.577996,
+              -3.815386
+            ],
+            [
+              -38.577907,
+              -3.815358
+            ],
+            [
+              -38.577858,
+              -3.81531
+            ],
+            [
+              -38.577746,
+              -3.815209
+            ],
+            [
+              -38.577226,
+              -3.814564
+            ],
+            [
+              -38.577498,
+              -3.8144
+            ],
+            [
+              -38.577148,
+              -3.813882
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.463,
+        "municipality": "Fortaleza",
+        "name": "Parque Santana",
+        "nearby_streets": [
+          "RUA 1",
+          "PARQUE SANTANA",
+          "CONJUNTO NOVA UNIÃO - MONDUBIM"
+        ],
+        "nearby_streets_count": 53,
+        "node_id": 30,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 28,
+        "region": "fortaleza",
+        "risk_score": 46.243,
+        "score": 46.243,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.582136,
+              -3.812246
+            ],
+            [
+              -38.582289,
+              -3.812092
+            ],
+            [
+              -38.583304,
+              -3.810956
+            ],
+            [
+              -38.583676,
+              -3.811182
+            ],
+            [
+              -38.58243,
+              -3.812535
+            ],
+            [
+              -38.582136,
+              -3.812246
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.482,
+        "municipality": "Fortaleza",
+        "name": "Beco do HR",
+        "nearby_streets": [
+          "BECO DO HR",
+          "CONJUNTO NOVA UNIÃO - MONDUBIM",
+          "FAVELA DA GN"
+        ],
+        "nearby_streets_count": 59,
+        "node_id": 31,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 29,
+        "region": "fortaleza",
+        "risk_score": 45.953,
+        "score": 45.953,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.583198,
+              -3.814405
+            ],
+            [
+              -38.584512,
+              -3.81624
+            ],
+            [
+              -38.584494,
+              -3.816434
+            ],
+            [
+              -38.581118,
+              -3.81817
+            ],
+            [
+              -38.581071,
+              -3.818111
+            ],
+            [
+              -38.580942,
+              -3.817549
+            ],
+            [
+              -38.580306,
+              -3.816556
+            ],
+            [
+              -38.582742,
+              -3.814843
+            ],
+            [
+              -38.582802,
+              -3.81473
+            ],
+            [
+              -38.583137,
+              -3.814367
+            ],
+            [
+              -38.583198,
+              -3.814405
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 14.107,
+        "municipality": "Fortaleza",
+        "name": "Loteamento São Mateus",
+        "nearby_streets": [
+          "LOTEAMENTO SÃO MATEUS",
+          "RUA SÃO LUCAS",
+          "PARQUE SANTANA"
+        ],
+        "nearby_streets_count": 56,
+        "node_id": 32,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 30,
+        "region": "fortaleza",
+        "risk_score": 45.942,
+        "score": 45.942,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.584494,
+              -3.816434
+            ],
+            [
+              -38.584617,
+              -3.816603
+            ],
+            [
+              -38.584726,
+              -3.816577
+            ],
+            [
+              -38.584937,
+              -3.816909
+            ],
+            [
+              -38.585247,
+              -3.817425
+            ],
+            [
+              -38.585336,
+              -3.817392
+            ],
+            [
+              -38.585466,
+              -3.817566
+            ],
+            [
+              -38.5853,
+              -3.81766
+            ],
+            [
+              -38.585235,
+              -3.81756
+            ],
+            [
+              -38.5847,
+              -3.817807
+            ],
+            [
+              -38.584717,
+              -3.817912
+            ],
+            [
+              -38.583989,
+              -3.818193
+            ],
+            [
+              -38.583924,
+              -3.81806
+            ],
+            [
+              -38.58353,
+              -3.818212
+            ],
+            [
+              -38.583442,
+              -3.818132
+            ],
+            [
+              -38.582892,
+              -3.818401
+            ],
+            [
+              -38.582837,
+              -3.818339
+            ],
+            [
+              -38.582577,
+              -3.81846
+            ],
+            [
+              -38.58263,
+              -3.818582
+            ],
+            [
+              -38.582496,
+              -3.818652
+            ],
+            [
+              -38.582448,
+              -3.818548
+            ],
+            [
+              -38.582107,
+              -3.818788
+            ],
+            [
+              -38.582162,
+              -3.818888
+            ],
+            [
+              -38.581801,
+              -3.819178
+            ],
+            [
+              -38.581814,
+              -3.819282
+            ],
+            [
+              -38.581732,
+              -3.819304
+            ],
+            [
+              -38.581736,
+              -3.819376
+            ],
+            [
+              -38.581863,
+              -3.819443
+            ],
+            [
+              -38.581858,
+              -3.819488
+            ],
+            [
+              -38.581712,
+              -3.819536
+            ],
+            [
+              -38.581729,
+              -3.819643
+            ],
+            [
+              -38.581678,
+              -3.819796
+            ],
+            [
+              -38.581523,
+              -3.819851
+            ],
+            [
+              -38.581055,
+              -3.818268
+            ],
+            [
+              -38.584494,
+              -3.816434
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "CONJUNTO ESPERANÇA",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.82,
+        "municipality": "Fortaleza",
+        "name": "Planalto Mondubim",
+        "nearby_streets": [
+          "RUA SÃO LUCAS",
+          "PLANALTO MONDUBIM",
+          "LOTEAMENTO SÃO MATEUS"
+        ],
+        "nearby_streets_count": 55,
+        "node_id": 33,
+        "parent_area": "CONJUNTO ESPERANÇA",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 7,
+        "peak_hour_share": 0.25,
+        "peak_hour_start": 2,
+        "peak_hours": "Entre 02hs e 07hs",
+        "peak_time_label": "Sabado, entre 02hs e 07hs",
+        "peak_weekday": "Sabado",
+        "peak_weekday_share": 0.375,
+        "rank": 31,
+        "region": "fortaleza",
+        "risk_score": 45.444,
+        "score": 45.444,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 8
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              [
+                -38.584601,
+                -3.804925
+              ],
+              [
+                -38.584561,
+                -3.804855
+              ],
+              [
+                -38.584603,
+                -3.804924
+              ],
+              [
+                -38.584601,
+                -3.804925
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                -38.584603,
+                -3.804924
+              ],
+              [
+                -38.585195,
+                -3.804528
+              ],
+              [
+                -38.58547,
+                -3.804976
+              ],
+              [
+                -38.586152,
+                -3.804521
+              ],
+              [
+                -38.586078,
+                -3.804414
+              ],
+              [
+                -38.586182,
+                -3.804345
+              ],
+              [
+                -38.586347,
+                -3.804599
+              ],
+              [
+                -38.584945,
+                -3.805483
+              ],
+              [
+                -38.584603,
+                -3.804924
+              ]
+            ]
+          ]
+        ],
+        "type": "MultiPolygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "MultiPolygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.929,
+        "municipality": "Fortaleza",
+        "name": "Comunidade da GDD",
+        "nearby_streets": [
+          "COMUNIDADE DA GDD",
+          "MODUMBI",
+          "RUA PROFESSOR GLAUCO LOBO"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 34,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 32,
+        "region": "fortaleza",
+        "risk_score": 45.306,
+        "score": 45.306,
+        "source_geometry_type": "MultiPolygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.580755,
+              -3.806491
+            ],
+            [
+              -38.583362,
+              -3.804817
+            ],
+            [
+              -38.583773,
+              -3.805464
+            ],
+            [
+              -38.584534,
+              -3.80496
+            ],
+            [
+              -38.585294,
+              -3.806106
+            ],
+            [
+              -38.581063,
+              -3.808796
+            ],
+            [
+              -38.580364,
+              -3.807682
+            ],
+            [
+              -38.58116,
+              -3.807149
+            ],
+            [
+              -38.580755,
+              -3.806491
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 13.449,
+        "municipality": "Fortaleza",
+        "name": "Favela do Cuca",
+        "nearby_streets": [
+          "FAVELA DO CUCA",
+          "MODUMBI",
+          "COMUNIDADE DA GDD"
+        ],
+        "nearby_streets_count": 60,
+        "node_id": 35,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 33,
+        "region": "fortaleza",
+        "risk_score": 45.267,
+        "score": 45.267,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.577095,
+              -3.819838
+            ],
+            [
+              -38.577242,
+              -3.820039
+            ],
+            [
+              -38.577317,
+              -3.820159
+            ],
+            [
+              -38.576161,
+              -3.820933
+            ],
+            [
+              -38.576285,
+              -3.821104
+            ],
+            [
+              -38.575311,
+              -3.821446
+            ],
+            [
+              -38.575231,
+              -3.821342
+            ],
+            [
+              -38.575201,
+              -3.821364
+            ],
+            [
+              -38.575134,
+              -3.821248
+            ],
+            [
+              -38.574823,
+              -3.821441
+            ],
+            [
+              -38.574767,
+              -3.82135
+            ],
+            [
+              -38.577095,
+              -3.819838
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.625,
+        "municipality": "Fortaleza",
+        "name": "Favela dos Pirineus",
+        "nearby_streets": [
+          "FAVELA DOS PIRINEUS",
+          "TITANIC",
+          "BECO AMERICA - MONDUBIM"
+        ],
+        "nearby_streets_count": 50,
+        "node_id": 36,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 34,
+        "region": "fortaleza",
+        "risk_score": 43.826,
+        "score": 43.826,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.574911,
+              -3.822456
+            ],
+            [
+              -38.574238,
+              -3.822625
+            ],
+            [
+              -38.57423,
+              -3.822454
+            ],
+            [
+              -38.574978,
+              -3.822258
+            ],
+            [
+              -38.575896,
+              -3.825264
+            ],
+            [
+              -38.575834,
+              -3.825296
+            ],
+            [
+              -38.575688,
+              -3.824886
+            ],
+            [
+              -38.575309,
+              -3.824996
+            ],
+            [
+              -38.575102,
+              -3.824282
+            ],
+            [
+              -38.575458,
+              -3.824173
+            ],
+            [
+              -38.575367,
+              -3.823906
+            ],
+            [
+              -38.574911,
+              -3.822456
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 12.075,
+        "municipality": "Fortaleza",
+        "name": "Beco America - Mondubim",
+        "nearby_streets": [
+          "BECO AMERICA - MONDUBIM",
+          "AREA SEM NOME",
+          "FAVELA DOS PIRINEUS"
+        ],
+        "nearby_streets_count": 52,
+        "node_id": 37,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 35,
+        "region": "fortaleza",
+        "risk_score": 43.167,
+        "score": 43.167,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.574668,
+              -3.818819
+            ],
+            [
+              -38.574802,
+              -3.819154
+            ],
+            [
+              -38.575136,
+              -3.820165
+            ],
+            [
+              -38.575138,
+              -3.820219
+            ],
+            [
+              -38.574495,
+              -3.820443
+            ],
+            [
+              -38.574423,
+              -3.820244
+            ],
+            [
+              -38.57456,
+              -3.820196
+            ],
+            [
+              -38.574528,
+              -3.820099
+            ],
+            [
+              -38.574784,
+              -3.820011
+            ],
+            [
+              -38.574626,
+              -3.819474
+            ],
+            [
+              -38.57446,
+              -3.819533
+            ],
+            [
+              -38.574366,
+              -3.819326
+            ],
+            [
+              -38.57413,
+              -3.819405
+            ],
+            [
+              -38.574165,
+              -3.819503
+            ],
+            [
+              -38.574106,
+              -3.819534
+            ],
+            [
+              -38.574144,
+              -3.819645
+            ],
+            [
+              -38.573999,
+              -3.819707
+            ],
+            [
+              -38.573975,
+              -3.819606
+            ],
+            [
+              -38.573887,
+              -3.819626
+            ],
+            [
+              -38.573731,
+              -3.819115
+            ],
+            [
+              -38.574668,
+              -3.818819
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.692,
+        "municipality": "Fortaleza",
+        "name": "Titanic",
+        "nearby_streets": [
+          "TITANIC",
+          "FAVELA DOS PIRINEUS",
+          "BECO AMERICA - MONDUBIM"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 38,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 36,
+        "region": "fortaleza",
+        "risk_score": 42.734,
+        "score": 42.734,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.574921,
+              -3.808929
+            ],
+            [
+              -38.575039,
+              -3.808889
+            ],
+            [
+              -38.575318,
+              -3.809791
+            ],
+            [
+              -38.574315,
+              -3.810118
+            ],
+            [
+              -38.574282,
+              -3.809989
+            ],
+            [
+              -38.575168,
+              -3.809697
+            ],
+            [
+              -38.574921,
+              -3.808929
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 11.636,
+        "municipality": "Fortaleza",
+        "name": "Beco Do Coroa",
+        "nearby_streets": [
+          "BECO DO COROA",
+          "RUA 1",
+          "COMUNIDADE DA LAGOA - MONDUBIM"
+        ],
+        "nearby_streets_count": 53,
+        "node_id": 39,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 37,
+        "region": "fortaleza",
+        "risk_score": 42.628,
+        "score": 42.628,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.572361,
+              -3.813659
+            ],
+            [
+              -38.572571,
+              -3.814588
+            ],
+            [
+              -38.573284,
+              -3.814372
+            ],
+            [
+              -38.573904,
+              -3.816401
+            ],
+            [
+              -38.572918,
+              -3.816735
+            ],
+            [
+              -38.573792,
+              -3.819491
+            ],
+            [
+              -38.57257,
+              -3.819836
+            ],
+            [
+              -38.57242,
+              -3.819772
+            ],
+            [
+              -38.572142,
+              -3.818738
+            ],
+            [
+              -38.571361,
+              -3.818989
+            ],
+            [
+              -38.571147,
+              -3.818264
+            ],
+            [
+              -38.570755,
+              -3.818238
+            ],
+            [
+              -38.569787,
+              -3.818568
+            ],
+            [
+              -38.569191,
+              -3.816991
+            ],
+            [
+              -38.571126,
+              -3.816318
+            ],
+            [
+              -38.571808,
+              -3.816275
+            ],
+            [
+              -38.571293,
+              -3.814351
+            ],
+            [
+              -38.5714,
+              -3.814313
+            ],
+            [
+              -38.571324,
+              -3.814073
+            ],
+            [
+              -38.571357,
+              -3.814019
+            ],
+            [
+              -38.572361,
+              -3.813659
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.8,
+        "municipality": "Fortaleza",
+        "name": "Sítio Corrego",
+        "nearby_streets": [
+          "SÍTIO CORREGO",
+          "TITANIC",
+          "LAGOA DA LIBANIA - PARQUE SANTANA"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 40,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 38,
+        "region": "fortaleza",
+        "risk_score": 42.502,
+        "score": 42.502,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.569688,
+              -3.810589
+            ],
+            [
+              -38.570533,
+              -3.813046
+            ],
+            [
+              -38.570244,
+              -3.813314
+            ],
+            [
+              -38.569513,
+              -3.813536
+            ],
+            [
+              -38.569437,
+              -3.813508
+            ],
+            [
+              -38.569357,
+              -3.81327
+            ],
+            [
+              -38.56857,
+              -3.810929
+            ],
+            [
+              -38.569688,
+              -3.810589
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 10.318,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Vitória",
+        "nearby_streets": [
+          "CONJUNTO VITÓRIA",
+          "PARQUE VERAS",
+          "SÍTIO CORREGO"
+        ],
+        "nearby_streets_count": 45,
+        "node_id": 41,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 39,
+        "region": "fortaleza",
+        "risk_score": 41.286,
+        "score": 41.286,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.565315,
+              -3.817899
+            ],
+            [
+              -38.567042,
+              -3.817008
+            ],
+            [
+              -38.567421,
+              -3.818163
+            ],
+            [
+              -38.567237,
+              -3.818244
+            ],
+            [
+              -38.567649,
+              -3.819443
+            ],
+            [
+              -38.567466,
+              -3.81954
+            ],
+            [
+              -38.567495,
+              -3.81965
+            ],
+            [
+              -38.567204,
+              -3.819743
+            ],
+            [
+              -38.567327,
+              -3.820078
+            ],
+            [
+              -38.567411,
+              -3.820045
+            ],
+            [
+              -38.567432,
+              -3.820116
+            ],
+            [
+              -38.567503,
+              -3.8201
+            ],
+            [
+              -38.567587,
+              -3.82037
+            ],
+            [
+              -38.567074,
+              -3.820547
+            ],
+            [
+              -38.567279,
+              -3.821128
+            ],
+            [
+              -38.567077,
+              -3.821285
+            ],
+            [
+              -38.566962,
+              -3.821526
+            ],
+            [
+              -38.566711,
+              -3.821717
+            ],
+            [
+              -38.565315,
+              -3.817899
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.741,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Abelardo Rocha - Mondubim",
+        "nearby_streets": [
+          "CONJUNTO ABELARDO ROCHA - MONDUBIM",
+          "RUA A",
+          "RUA 6"
+        ],
+        "nearby_streets_count": 42,
+        "node_id": 42,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 40,
+        "region": "fortaleza",
+        "risk_score": 40.779,
+        "score": 40.779,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.565555,
+              -3.823477
+            ],
+            [
+              -38.565941,
+              -3.823292
+            ],
+            [
+              -38.565909,
+              -3.823188
+            ],
+            [
+              -38.566159,
+              -3.823051
+            ],
+            [
+              -38.566273,
+              -3.823114
+            ],
+            [
+              -38.56644,
+              -3.822899
+            ],
+            [
+              -38.566548,
+              -3.823091
+            ],
+            [
+              -38.566458,
+              -3.823224
+            ],
+            [
+              -38.566752,
+              -3.823466
+            ],
+            [
+              -38.567138,
+              -3.823948
+            ],
+            [
+              -38.567395,
+              -3.823809
+            ],
+            [
+              -38.568125,
+              -3.824793
+            ],
+            [
+              -38.565024,
+              -3.827009
+            ],
+            [
+              -38.564659,
+              -3.827234
+            ],
+            [
+              -38.563973,
+              -3.827277
+            ],
+            [
+              -38.562141,
+              -3.827976
+            ],
+            [
+              -38.560218,
+              -3.828636
+            ],
+            [
+              -38.559606,
+              -3.826774
+            ],
+            [
+              -38.560078,
+              -3.826635
+            ],
+            [
+              -38.560303,
+              -3.827427
+            ],
+            [
+              -38.563286,
+              -3.826421
+            ],
+            [
+              -38.562559,
+              -3.825396
+            ],
+            [
+              -38.565555,
+              -3.823477
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.98,
+        "municipality": "Fortaleza",
+        "name": "Comunidade do Renascer",
+        "nearby_streets": [
+          "COMUNIDADE DO RENASCER",
+          "CONJUNTO MARCOS FREIRE",
+          "RUA 6"
+        ],
+        "nearby_streets_count": 40,
+        "node_id": 43,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 41,
+        "region": "fortaleza",
+        "risk_score": 40.559,
+        "score": 40.559,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.568946,
+              -3.808569
+            ],
+            [
+              -38.571136,
+              -3.807902
+            ],
+            [
+              -38.571158,
+              -3.807959
+            ],
+            [
+              -38.571441,
+              -3.808938
+            ],
+            [
+              -38.571422,
+              -3.809022
+            ],
+            [
+              -38.56996,
+              -3.809549
+            ],
+            [
+              -38.57004,
+              -3.809899
+            ],
+            [
+              -38.569967,
+              -3.809943
+            ],
+            [
+              -38.569967,
+              -3.809995
+            ],
+            [
+              -38.570018,
+              -3.810111
+            ],
+            [
+              -38.570108,
+              -3.81044
+            ],
+            [
+              -38.570094,
+              -3.810457
+            ],
+            [
+              -38.569688,
+              -3.810589
+            ],
+            [
+              -38.569415,
+              -3.80971
+            ],
+            [
+              -38.569231,
+              -3.809118
+            ],
+            [
+              -38.567622,
+              -3.809614
+            ],
+            [
+              -38.567552,
+              -3.809593
+            ],
+            [
+              -38.567466,
+              -3.809331
+            ],
+            [
+              -38.567071,
+              -3.809444
+            ],
+            [
+              -38.566985,
+              -3.809163
+            ],
+            [
+              -38.567016,
+              -3.809152
+            ],
+            [
+              -38.568946,
+              -3.808569
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.633,
+        "municipality": "Fortaleza",
+        "name": "Parque Veras",
+        "nearby_streets": [
+          "PARQUE VERAS",
+          "CONJUNTO VITÓRIA",
+          "BECO DO COROA"
+        ],
+        "nearby_streets_count": 43,
+        "node_id": 44,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 42,
+        "region": "fortaleza",
+        "risk_score": 40.556,
+        "score": 40.556,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.578967,
+              -3.818489
+            ],
+            [
+              -38.57839,
+              -3.818808
+            ],
+            [
+              -38.578278,
+              -3.81888
+            ],
+            [
+              -38.577433,
+              -3.819477
+            ],
+            [
+              -38.577371,
+              -3.819397
+            ],
+            [
+              -38.577591,
+              -3.819082
+            ],
+            [
+              -38.577524,
+              -3.819034
+            ],
+            [
+              -38.576985,
+              -3.818564
+            ],
+            [
+              -38.577477,
+              -3.817953
+            ],
+            [
+              -38.576869,
+              -3.817482
+            ],
+            [
+              -38.577291,
+              -3.816972
+            ],
+            [
+              -38.578026,
+              -3.817512
+            ],
+            [
+              -38.578498,
+              -3.817887
+            ],
+            [
+              -38.578809,
+              -3.818275
+            ],
+            [
+              -38.578967,
+              -3.818489
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.382,
+        "municipality": "Parque Santana",
+        "name": "Campo Rio Negro - Parque Santana",
+        "nearby_streets": [
+          "CAMPO RIO NEGRO - PARQUE SANTANA",
+          "LAGOA DA LIBANIA - PARQUE SANTANA",
+          "FAVELA DOS PIRINEUS"
+        ],
+        "nearby_streets_count": 26,
+        "node_id": 45,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 43,
+        "region": "fortaleza",
+        "risk_score": 40.154,
+        "score": 40.154,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.5808,
+              -3.811225
+            ],
+            [
+              -38.580934,
+              -3.811364
+            ],
+            [
+              -38.580875,
+              -3.81142
+            ],
+            [
+              -38.581269,
+              -3.811851
+            ],
+            [
+              -38.580473,
+              -3.812616
+            ],
+            [
+              -38.580137,
+              -3.812239
+            ],
+            [
+              -38.579934,
+              -3.812025
+            ],
+            [
+              -38.579826,
+              -3.811872
+            ],
+            [
+              -38.579875,
+              -3.811826
+            ],
+            [
+              -38.579904,
+              -3.81184
+            ],
+            [
+              -38.579944,
+              -3.811803
+            ],
+            [
+              -38.57999,
+              -3.811832
+            ],
+            [
+              -38.58006,
+              -3.811913
+            ],
+            [
+              -38.5808,
+              -3.811225
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 9.105,
+        "municipality": "Mondubim",
+        "name": "Conjunto Nova União - Mondubim",
+        "nearby_streets": [
+          "CONJUNTO NOVA UNIÃO - MONDUBIM",
+          "RUA 1",
+          "PARQUE SANTANA"
+        ],
+        "nearby_streets_count": 27,
+        "node_id": 46,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 44,
+        "region": "fortaleza",
+        "risk_score": 39.74,
+        "score": 39.74,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.563686,
+              -3.820718
+            ],
+            [
+              -38.56522,
+              -3.822173
+            ],
+            [
+              -38.565477,
+              -3.823436
+            ],
+            [
+              -38.562484,
+              -3.825374
+            ],
+            [
+              -38.560531,
+              -3.822869
+            ],
+            [
+              -38.563686,
+              -3.820718
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.37,
+        "municipality": "Fortaleza",
+        "name": "Conjunto Marcos Freire",
+        "nearby_streets": [
+          "CONJUNTO MARCOS FREIRE",
+          "COMUNIDADE DO RENASCER",
+          "RUA 6"
+        ],
+        "nearby_streets_count": 37,
+        "node_id": 47,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 45,
+        "region": "fortaleza",
+        "risk_score": 39.605,
+        "score": 39.605,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.578242,
+              -3.815666
+            ],
+            [
+              -38.576498,
+              -3.817866
+            ],
+            [
+              -38.575999,
+              -3.817448
+            ],
+            [
+              -38.575608,
+              -3.817732
+            ],
+            [
+              -38.575688,
+              -3.817801
+            ],
+            [
+              -38.57549,
+              -3.818048
+            ],
+            [
+              -38.575361,
+              -3.817924
+            ],
+            [
+              -38.575125,
+              -3.817684
+            ],
+            [
+              -38.575055,
+              -3.817587
+            ],
+            [
+              -38.575023,
+              -3.817507
+            ],
+            [
+              -38.575238,
+              -3.817362
+            ],
+            [
+              -38.575307,
+              -3.817453
+            ],
+            [
+              -38.576187,
+              -3.816726
+            ],
+            [
+              -38.576557,
+              -3.816463
+            ],
+            [
+              -38.576713,
+              -3.816618
+            ],
+            [
+              -38.576992,
+              -3.816367
+            ],
+            [
+              -38.577185,
+              -3.81618
+            ],
+            [
+              -38.577501,
+              -3.815933
+            ],
+            [
+              -38.577544,
+              -3.815965
+            ],
+            [
+              -38.577861,
+              -3.815564
+            ],
+            [
+              -38.577786,
+              -3.815457
+            ],
+            [
+              -38.577872,
+              -3.815387
+            ],
+            [
+              -38.577996,
+              -3.815386
+            ],
+            [
+              -38.578242,
+              -3.815666
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 8.754,
+        "municipality": "Parque Santana",
+        "name": "Lagoa Da Libania - Parque Santana",
+        "nearby_streets": [
+          "LAGOA DA LIBANIA - PARQUE SANTANA",
+          "CAMPO RIO NEGRO - PARQUE SANTANA",
+          "RUA 1"
+        ],
+        "nearby_streets_count": 24,
+        "node_id": 48,
+        "parent_area": "MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "peak_hour_end": 12,
+        "peak_hour_share": 0.1212,
+        "peak_hour_start": 7,
+        "peak_hours": "Entre 07hs e 12hs",
+        "peak_time_label": "Segunda-feira, entre 07hs e 12hs",
+        "peak_weekday": "Segunda-feira",
+        "peak_weekday_share": 0.303,
+        "rank": 46,
+        "region": "fortaleza",
+        "risk_score": 39.418,
+        "score": 39.418,
+        "source_geometry_type": "Polygon",
+        "temporal_horizon_days": 30,
+        "temporal_reference_date": "2026-12-10",
+        "temporal_sample_size": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.582345,
+              -3.821691
+            ],
+            [
+              -38.582719,
+              -3.822269
+            ],
+            [
+              -38.582757,
+              -3.822212
+            ],
+            [
+              -38.584111,
+              -3.823309
+            ],
+            [
+              -38.583505,
+              -3.824064
+            ],
+            [
+              -38.582759,
+              -3.824909
+            ],
+            [
+              -38.582108,
+              -3.824018
+            ],
+            [
+              -38.581402,
+              -3.824061
+            ],
+            [
+              -38.58115,
+              -3.824125
+            ],
+            [
+              -38.580494,
+              -3.824313
+            ],
+            [
+              -38.580469,
+              -3.824358
+            ],
+            [
+              -38.580002,
+              -3.824497
+            ],
+            [
+              -38.579747,
+              -3.823697
+            ],
+            [
+              -38.579527,
+              -3.823408
+            ],
+            [
+              -38.582345,
+              -3.821691
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "ARACAPÉ",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 7.104,
+        "municipality": "Mondubim",
+        "name": "Boa Vista - Mondubim",
+        "nearby_streets": [
+          "BOA VISTA - MONDUBIM",
+          "FAVELA DO MORCEGO",
+          "RUA SÃO LUCAS"
+        ],
+        "nearby_streets_count": 23,
+        "node_id": 49,
+        "parent_area": "ARACAPÉ",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 47,
+        "region": "fortaleza",
+        "risk_score": 37.82,
+        "score": 37.82,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.577456,
+              -3.807006
+            ],
+            [
+              -38.578569,
+              -3.806428
+            ],
+            [
+              -38.578767,
+              -3.807054
+            ],
+            [
+              -38.579278,
+              -3.806635
+            ],
+            [
+              -38.579373,
+              -3.806594
+            ],
+            [
+              -38.579481,
+              -3.806599
+            ],
+            [
+              -38.579596,
+              -3.806655
+            ],
+            [
+              -38.579837,
+              -3.807019
+            ],
+            [
+              -38.579102,
+              -3.807549
+            ],
+            [
+              -38.579017,
+              -3.80764
+            ],
+            [
+              -38.578958,
+              -3.807715
+            ],
+            [
+              -38.578883,
+              -3.807774
+            ],
+            [
+              -38.578335,
+              -3.808159
+            ],
+            [
+              -38.578078,
+              -3.807752
+            ],
+            [
+              -38.577863,
+              -3.807415
+            ],
+            [
+              -38.577745,
+              -3.807297
+            ],
+            [
+              -38.577456,
+              -3.807006
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "NOVO MONDUBIM",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 6.787,
+        "municipality": "Mondubim",
+        "name": "Comunidade da Lagoa - Mondubim",
+        "nearby_streets": [
+          "COMUNIDADE DA LAGOA - MONDUBIM",
+          "BECO DO COROA",
+          "FAVELA DO CUCA"
+        ],
+        "nearby_streets_count": 22,
+        "node_id": 50,
+        "parent_area": "NOVO MONDUBIM",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 48,
+        "region": "fortaleza",
+        "risk_score": 37.121,
+        "score": 37.121,
+        "source_geometry_type": "Polygon"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -38.592411,
+              -3.831655
+            ],
+            [
+              -38.594093,
+              -3.834114
+            ],
+            [
+              -38.590091,
+              -3.836876
+            ],
+            [
+              -38.589919,
+              -3.837058
+            ],
+            [
+              -38.58964,
+              -3.837422
+            ],
+            [
+              -38.58817,
+              -3.838492
+            ],
+            [
+              -38.587398,
+              -3.837486
+            ],
+            [
+              -38.586808,
+              -3.836726
+            ],
+            [
+              -38.586379,
+              -3.836127
+            ],
+            [
+              -38.586765,
+              -3.835848
+            ],
+            [
+              -38.586894,
+              -3.835677
+            ],
+            [
+              -38.592411,
+              -3.831655
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "bairro": "INDUSTRIAL",
+        "faction": "CV",
+        "generated_at": "2026-11-04T15:18:04.238673",
+        "geometry_type": "Polygon",
+        "is_centroid": false,
+        "is_tactical": true,
+        "local_street_pressure": 5.437,
+        "municipality": "Fortaleza",
+        "name": "Esplanada do Mondubim",
+        "nearby_streets": [
+          "ESPLANADA DO MONDUBIM",
+          "TRAVESSA PAULO MENDONÇA",
+          "RUA DA MONTENEGRO - ARACAPE"
+        ],
+        "nearby_streets_count": 28,
+        "node_id": 51,
+        "parent_area": "INDUSTRIAL",
+        "parent_risk_level": "moderado",
+        "parent_risk_score": 35.9,
+        "parent_status": "MODERADO",
+        "rank": 49,
+        "region": "fortaleza",
+        "risk_score": 36.774,
+        "score": 36.774,
         "source_geometry_type": "Polygon"
       },
       "type": "Feature"
     }
   ],
   "metadata": {
-    "generated_at": "2026-10-22T15:05:19.969075",
+    "generated_at": "2026-11-04T15:18:04.238673",
     "region": "capital",
     "source": "Sentinela Micronodes Dynamic Overlay",
     "threshold_min_score": 31.0,
-    "total": 21
+    "total": 51
   },
   "type": "FeatureCollection"
 }

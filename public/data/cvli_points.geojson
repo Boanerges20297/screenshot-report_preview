@@ -3,1808 +3,6 @@
     {
       "geometry": {
         "coordinates": [
-          -39.9867630038,
-          -6.7739324393
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "ANTONINA DO NORTE",
-        "cidade": "Antonina do Norte",
-        "data": "2026-07-23",
-        "hora": "04:40:00",
-        "id": "4456825",
-        "idade": "",
-        "local": "RUA JOÃO BATISTA ARRAIS",
-        "region": "interior",
-        "related_ids": [
-          "4456825"
-        ],
-        "rua": "RUA JOÃO BATISTA ARRAIS",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5292099539,
-          -3.7207581302
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MOURA BRASIL",
-        "cidade": "FORTALEZA",
-        "data": "2026-07-23",
-        "hora": "10:45:00",
-        "id": "4495044",
-        "idade": "",
-        "local": "AVENIDA PRESIDENTE CASTELO BRANCO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4495044",
-          "4456806"
-        ],
-        "rua": "AVENIDA PRESIDENTE CASTELO BRANCO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.1441774327,
-          -7.2524680637
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Missão Velha",
-        "data": "2026-07-23",
-        "hora": "12:05:00",
-        "id": "4456860",
-        "idade": "",
-        "local": "RUA JACOB BARBOSA MAGALHÃES",
-        "region": "interior",
-        "related_ids": [
-          "4456860"
-        ],
-        "rua": "RUA JACOB BARBOSA MAGALHÃES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6216774342,
-          -3.8941881042
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MARACANAU",
-        "cidade": "Pacatuba",
-        "data": "2026-07-24",
-        "hora": "05:30:00",
-        "id": "4457699",
-        "idade": "",
-        "local": "RUA 15",
-        "region": "rmf",
-        "related_ids": [
-          "4457699"
-        ],
-        "rua": "RUA 15",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.5816881631,
-          -3.6849357564
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "ITAPAJE",
-        "cidade": "ITAPAGE",
-        "data": "2026-07-24",
-        "hora": "11:30:00",
-        "id": "4457741",
-        "idade": "",
-        "local": "RUA FRANCISCO JOSÉ DE OLIVEIRA",
-        "region": "interior",
-        "related_ids": [
-          "4457741"
-        ],
-        "rua": "RUA FRANCISCO JOSÉ DE OLIVEIRA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4805556054,
-          -3.8197221961
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "JOSE DE ALENCAR",
-        "cidade": "Fortaleza",
-        "data": "2026-07-24",
-        "hora": "11:40:00",
-        "id": "4457684",
-        "idade": "",
-        "local": "RUA ELIZEU ORIÁ",
-        "region": "fortaleza",
-        "related_ids": [
-          "4457684",
-          "4495040"
-        ],
-        "rua": "RUA ELIZEU ORIÁ",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.9191345189,
-          -5.0044230191
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Boa Viagem",
-        "data": "2026-07-24",
-        "hora": "19:00:00",
-        "id": "4457715",
-        "idade": "",
-        "local": "FAZENDA MORADA NOVA",
-        "region": "interior",
-        "related_ids": [
-          "4457715"
-        ],
-        "rua": "FAZENDA MORADA NOVA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6252563477,
-          -3.8115917604
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "SIQUEIRA",
-        "cidade": "MARACANAU",
-        "data": "2026-07-24",
-        "hora": "19:19:33",
-        "id": "4495038",
-        "idade": "",
-        "local": "RUA SÃO FRANCISCO",
-        "region": "rmf",
-        "related_ids": [
-          "4495038",
-          "4457680"
-        ],
-        "rua": "RUA SÃO FRANCISCO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.4063500054,
-          -7.2311574188
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Crato",
-        "data": "2026-07-24",
-        "hora": "19:45:00",
-        "id": "4495037",
-        "idade": "",
-        "local": "AVENIDA TEODORICO TELES",
-        "region": "interior",
-        "related_ids": [
-          "4495037"
-        ],
-        "rua": "AVENIDA TEODORICO TELES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.7302563477,
-          -5.1335362942
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Boa Viagem",
-        "data": "2026-07-24",
-        "hora": "23:00:00",
-        "id": "4457717",
-        "idade": "",
-        "local": "RUA ANA GONÇALVES",
-        "region": "interior",
-        "related_ids": [
-          "4457717"
-        ],
-        "rua": "RUA ANA GONÇALVES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.3947114765,
-          -7.2241666928
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Crato",
-        "data": "2026-07-25",
-        "hora": "00:52:00",
-        "id": "4457724",
-        "idade": "",
-        "local": "RUA FERREA",
-        "region": "interior",
-        "related_ids": [
-          "4457724"
-        ],
-        "rua": "RUA FERREA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4714834631,
-          -3.9577378863
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Aquiraz",
-        "data": "2026-07-25",
-        "hora": "06:55:55",
-        "id": "4457674",
-        "idade": "",
-        "local": "AVENIDA MANOEL FELICIANO DE LIMA",
-        "region": "rmf",
-        "related_ids": [
-          "4457674"
-        ],
-        "rua": "AVENIDA MANOEL FELICIANO DE LIMA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5647401919,
-          -3.9004995881
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "DIF III",
-        "cidade": "Pacatuba",
-        "data": "2026-07-25",
-        "hora": "12:49:00",
-        "id": "4495033",
-        "idade": "",
-        "local": "AVENIDA CAGECE",
-        "region": "rmf",
-        "related_ids": [
-          "4495033"
-        ],
-        "rua": "AVENIDA CAGECE",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.3377670765,
-          -7.2427032901
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Juazeiro do Norte",
-        "data": "2026-07-25",
-        "hora": "14:25:00",
-        "id": "4457743",
-        "idade": "",
-        "local": "RUA ÁRVORE DE NATAL",
-        "region": "interior",
-        "related_ids": [
-          "4457743"
-        ],
-        "rua": "RUA ÁRVORE DE NATAL",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6904184054,
-          -3.913631677
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Maranguape",
-        "data": "2026-07-25",
-        "hora": "19:20:00",
-        "id": "4457698",
-        "idade": "",
-        "local": "RUA LAURO CIRINO",
-        "region": "rmf",
-        "related_ids": [
-          "4457698"
-        ],
-        "rua": "RUA LAURO CIRINO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.7152505766,
-          -5.1017235179
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Boa Viagem",
-        "data": "2026-07-25",
-        "hora": "20:00:00",
-        "id": "4457716",
-        "idade": "",
-        "local": "RUA JOSÉ NATAL DE ARAÚJO",
-        "region": "interior",
-        "related_ids": [
-          "4457716"
-        ],
-        "rua": "RUA JOSÉ NATAL DE ARAÚJO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.8812496055,
-          -6.1350595304
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Catarina",
-        "data": "2026-07-25",
-        "hora": "21:00:00",
-        "id": "4457722",
-        "idade": "",
-        "local": "RUA ANTÔNIO DOMINGUES",
-        "region": "interior",
-        "related_ids": [
-          "4457722"
-        ],
-        "rua": "RUA ANTÔNIO DOMINGUES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.316889663,
-          -7.2298941186
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Juazeiro do Norte",
-        "data": "2026-07-25",
-        "hora": "23:40:00",
-        "id": "4457742",
-        "idade": "",
-        "local": "RUA OZANA PEREIRA",
-        "region": "interior",
-        "related_ids": [
-          "4457742"
-        ],
-        "rua": "RUA OZANA PEREIRA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.8431569072,
-          -4.169148401
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Guaraciaba do Norte",
-        "data": "2026-07-26",
-        "hora": "03:20:00",
-        "id": "4457728",
-        "idade": "",
-        "local": "UNNAMED ROAD",
-        "region": "interior",
-        "related_ids": [
-          "4457728"
-        ],
-        "rua": "UNNAMED ROAD",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4561931175,
-          -5.4402695902
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Jaguaribara",
-        "data": "2026-07-26",
-        "hora": "22:00:00",
-        "id": "4495026",
-        "idade": "",
-        "local": "CE-269",
-        "region": "interior",
-        "related_ids": [
-          "4495026"
-        ],
-        "rua": "CE-269",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.483392975,
-          -3.8322503816
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MESSEJANA",
-        "cidade": "FORTALEZA",
-        "data": "2026-07-26",
-        "hora": "23:27:00",
-        "id": "4495025",
-        "idade": "",
-        "local": "RUA DOUTOR PERGENTINO MAIA",
-        "region": "fortaleza",
-        "related_ids": [
-          "4495025",
-          "4461968"
-        ],
-        "rua": "RUA DOUTOR PERGENTINO MAIA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4969658615,
-          -4.3030448971
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "CHOROZINHO",
-        "cidade": "Chorozinho",
-        "data": "2026-07-27",
-        "hora": "01:57:00",
-        "id": "4461964",
-        "idade": "",
-        "local": "RUA MANOEL DANTAS",
-        "region": "rmf",
-        "related_ids": [
-          "4461964"
-        ],
-        "rua": "RUA MANOEL DANTAS",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.5855877904,
-          -3.6805020627
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "ITAPAGE",
-        "data": "2026-07-27",
-        "hora": "02:50:00",
-        "id": "4462036",
-        "idade": "",
-        "local": "RUA FRANCISCO ALVES SOBRINHO",
-        "region": "interior",
-        "related_ids": [
-          "4462036"
-        ],
-        "rua": "RUA FRANCISCO ALVES SOBRINHO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5839210904,
-          -3.8427992056
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "CANINDEZINHO",
-        "cidade": "Maracanaú",
-        "data": "2026-07-27",
-        "hora": "10:00:00",
-        "id": "4461989",
-        "idade": "",
-        "local": "RUA JOÃO CANDEIA",
-        "region": "rmf",
-        "related_ids": [
-          "4461989"
-        ],
-        "rua": "RUA JOÃO CANDEIA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5124961711,
-          -3.8274997278
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "BARROSO",
-        "cidade": "Fortaleza",
-        "data": "2026-07-27",
-        "hora": "12:00:00",
-        "id": "4461967",
-        "idade": "",
-        "local": "RUA 03",
-        "region": "fortaleza",
-        "related_ids": [
-          "4461967",
-          "4495021"
-        ],
-        "rua": "RUA 03",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.281655975,
-          -6.0135684148
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Tauá",
-        "data": "2026-07-27",
-        "hora": "14:00:00",
-        "id": "4462069",
-        "idade": "",
-        "local": "RUA PROJETADA SETENTA E UM",
-        "region": "interior",
-        "related_ids": [
-          "4462069"
-        ],
-        "rua": "RUA PROJETADA SETENTA E UM",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4965705039,
-          -3.8141710708
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MESSEJANA",
-        "cidade": "FORTALEZA",
-        "data": "2026-07-27",
-        "hora": "16:00:00",
-        "id": "4495019",
-        "idade": "",
-        "local": "RUA ALMEIDA REGO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4495019",
-          "4461975"
-        ],
-        "rua": "RUA ALMEIDA REGO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.6141242615,
-          -3.0855014703
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Amontada",
-        "data": "2026-07-27",
-        "hora": "22:00:00",
-        "id": "4461998",
-        "idade": "",
-        "local": "ESTRADA SATURNO CAMPO GRANDE",
-        "region": "interior",
-        "related_ids": [
-          "4461998"
-        ],
-        "rua": "ESTRADA SATURNO CAMPO GRANDE",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.5633333036,
-          -3.3111218076
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Uruoca",
-        "data": "2026-07-28",
-        "hora": "04:20:00",
-        "id": "4462072",
-        "idade": "",
-        "local": "RUA JOAQUIM ALBUQUERQUE SILVA",
-        "region": "interior",
-        "related_ids": [
-          "4462072"
-        ],
-        "rua": "RUA JOAQUIM ALBUQUERQUE SILVA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4794444036,
-          -3.8127773672
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "JOSE DE ALENCAR",
-        "cidade": "Fortaleza",
-        "data": "2026-07-28",
-        "hora": "06:00:00",
-        "id": "4461976",
-        "idade": "",
-        "local": "AVENIDA MINISTRO JOSÉ AMÉRICO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4461976",
-          "4495016"
-        ],
-        "rua": "AVENIDA MINISTRO JOSÉ AMÉRICO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5616037003,
-          -3.7054132934
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "CIRSTO REDENTOR",
-        "cidade": "Fortaleza",
-        "data": "2026-07-28",
-        "hora": "06:20:00",
-        "id": "4461966",
-        "idade": "",
-        "local": "TRAVESSA CURA D'ARS",
-        "region": "fortaleza",
-        "related_ids": [
-          "4461966",
-          "4495015"
-        ],
-        "rua": "TRAVESSA CURA D'ARS",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.9149892747,
-          -4.5538354206
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Itapiúna",
-        "data": "2026-07-28",
-        "hora": "06:30:00",
-        "id": "4462040",
-        "idade": "",
-        "local": "ESTRADA ALTO DA UMBURANA",
-        "region": "interior",
-        "related_ids": [
-          "4462040"
-        ],
-        "rua": "ESTRADA ALTO DA UMBURANA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.1667562901,
-          -3.0530434425
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Bela Cruz",
-        "data": "2026-07-29",
-        "hora": "01:00:00",
-        "id": "4462007",
-        "idade": "",
-        "local": "RUA HUMAITÁ",
-        "region": "interior",
-        "related_ids": [
-          "4462007"
-        ],
-        "rua": "RUA HUMAITÁ",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.8222806501,
-          -3.5899379627
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Caucaia",
-        "data": "2026-07-29",
-        "hora": "10:00:00",
-        "id": "4461962",
-        "idade": "",
-        "local": "RUA ANTONIO BRASILEIRO",
-        "region": "rmf",
-        "related_ids": [
-          "4461962"
-        ],
-        "rua": "RUA ANTONIO BRASILEIRO",
-        "sexo": "",
-        "tipo_evento": "LESAO CORPORAL SEGUIDA DE MORTE",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.3850321901,
-          -7.0927139125
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Campos Sales",
-        "data": "2026-07-29",
-        "hora": "19:00:00",
-        "id": "4462014",
-        "idade": "",
-        "local": "CE-187",
-        "region": "interior",
-        "related_ids": [
-          "4462014"
-        ],
-        "rua": "CE-187",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.2130456747,
-          -4.1269638928
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Cascavel",
-        "data": "2026-07-29",
-        "hora": "20:15:00",
-        "id": "4461963",
-        "idade": "",
-        "local": "ESTRADA DO ZÉ AFONSO",
-        "region": "rmf",
-        "related_ids": [
-          "4461963"
-        ],
-        "rua": "ESTRADA DO ZÉ AFONSO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.3726697324,
-          -7.2316918058
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Crato",
-        "data": "2026-07-29",
-        "hora": "22:00:00",
-        "id": "4462021",
-        "idade": "",
-        "local": "RUA VEREADOR SEBASTIÃO MACIEL LOPES",
-        "region": "interior",
-        "related_ids": [
-          "4462021"
-        ],
-        "rua": "RUA VEREADOR SEBASTIÃO MACIEL LOPES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.514095475,
-          -3.8300195718
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "JANGURURSSU",
-        "cidade": "Fortaleza",
-        "data": "2026-07-30",
-        "hora": "00:40:00",
-        "id": "4461977",
-        "idade": "",
-        "local": "RUA 507 CJ SAO CRISTOVAO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4461977",
-          "4495008"
-        ],
-        "rua": "RUA 507 CJ SAO CRISTOVAO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.7481976138,
-          -5.0993158904
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Boa Viagem",
-        "data": "2026-07-30",
-        "hora": "02:00:00",
-        "id": "4462009",
-        "idade": "",
-        "local": "ESTRADA MÓR",
-        "region": "interior",
-        "related_ids": [
-          "4462009"
-        ],
-        "rua": "ESTRADA MÓR",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.9755053327,
-          -3.7102094772
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Tianguá",
-        "data": "2026-07-30",
-        "hora": "22:25:00",
-        "id": "4462071",
-        "idade": "",
-        "local": "RUA TRINTA E UM DE MAIO",
-        "region": "interior",
-        "related_ids": [
-          "4462071"
-        ],
-        "rua": "RUA TRINTA E UM DE MAIO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.7122550054,
-          -4.3362072975
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Ipu",
-        "data": "2026-07-31",
-        "hora": "02:00:00",
-        "id": "4495005",
-        "idade": "",
-        "local": "RUA FRANÇA",
-        "region": "interior",
-        "related_ids": [
-          "4495005"
-        ],
-        "rua": "RUA FRANÇA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6371080054,
-          -3.7408880544
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "ANTONIO BEZERRA",
-        "cidade": "Caucaia",
-        "data": "2026-07-31",
-        "hora": "12:42:00",
-        "id": "4495004",
-        "idade": "",
-        "local": "RUA JOSÉ DE ALENCAR",
-        "region": "rmf",
-        "related_ids": [
-          "4495004"
-        ],
-        "rua": "RUA JOSÉ DE ALENCAR",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -40.6798111631,
-          -3.0280707554
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Granja",
-        "data": "2026-07-31",
-        "hora": "23:00:00",
-        "id": "4495003",
-        "idade": "",
-        "local": "UNNAMED ROAD",
-        "region": "interior",
-        "related_ids": [
-          "4495003"
-        ],
-        "rua": "UNNAMED ROAD",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.2969444054,
-          -6.7886217468
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "VARZEA ALEGRE",
-        "cidade": "Várzea Alegre",
-        "data": "2026-08-01",
-        "hora": "06:45:00",
-        "id": "4463283",
-        "idade": "",
-        "local": "TRAVESSA DONA LILI",
-        "region": "interior",
-        "related_ids": [
-          "4463283"
-        ],
-        "rua": "TRAVESSA DONA LILI",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4641793343,
-          -3.8282169765
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
-        "data": "2026-08-01",
-        "hora": "13:44:00",
-        "id": "4463267",
-        "idade": "",
-        "local": "RUA MORONI BING TORGAN",
-        "region": "fortaleza",
-        "related_ids": [
-          "4463267"
-        ],
-        "rua": "RUA MORONI BING TORGAN",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.2739259477,
-          -3.7908188694
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Pentecoste",
-        "data": "2026-08-01",
-        "hora": "19:45:00",
-        "id": "4463280",
-        "idade": "",
-        "local": "AVENIDA TABELIÃO FRANCISCO ALVES",
-        "region": "interior",
-        "related_ids": [
-          "4463280"
-        ],
-        "rua": "AVENIDA TABELIÃO FRANCISCO ALVES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.2661815631,
-          -5.9215556077
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "DEPUTADO IRAPUAN PINHEIRO",
-        "cidade": "Deputado Irapuan Pinheiro",
-        "data": "2026-08-01",
-        "hora": "21:00:00",
-        "id": "4506175",
-        "idade": "",
-        "local": "RUA ANTÔNIO CLÁUDIO PINHEIRO",
-        "region": "interior",
-        "related_ids": [
-          "4506175"
-        ],
-        "rua": "RUA ANTÔNIO CLÁUDIO PINHEIRO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.3024215462,
-          -4.3587096
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Canindé",
-        "data": "2026-08-02",
-        "hora": "02:30:00",
-        "id": "4463274",
-        "idade": "",
-        "local": "AVENIDA LUCIANO MAGALHÃES",
-        "region": "interior",
-        "related_ids": [
-          "4463274"
-        ],
-        "rua": "AVENIDA LUCIANO MAGALHÃES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.7552518289,
-          -4.3234387556
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Redenção",
-        "data": "2026-08-02",
-        "hora": "05:00:00",
-        "id": "4463281",
-        "idade": "",
-        "local": "CE-060",
-        "region": "rmf",
-        "related_ids": [
-          "4463281"
-        ],
-        "rua": "CE-060",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5169444039,
-          -4.1183118936
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Horizonte",
-        "data": "2026-08-02",
-        "hora": "10:35:00",
-        "id": "4463269",
-        "idade": "",
-        "local": "RUA JOSE MARCELO DE SOUSA",
-        "region": "rmf",
-        "related_ids": [
-          "4463269"
-        ],
-        "rua": "RUA JOSE MARCELO DE SOUSA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5696284039,
-          -3.7187481713
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "ALVARO WEYNE",
-        "cidade": "Fortaleza",
-        "data": "2026-08-02",
-        "hora": "12:00:00",
-        "id": "4506131",
-        "idade": "",
-        "local": "COELHO NETO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4506131"
-        ],
-        "rua": "COELHO NETO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.4187534038,
-          -7.241460236
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Crato",
-        "data": "2026-08-02",
-        "hora": "22:00:00",
-        "id": "4463275",
-        "idade": "",
-        "local": "RUA DELMIRO GOUVÊIA",
-        "region": "interior",
-        "related_ids": [
-          "4463275"
-        ],
-        "rua": "RUA DELMIRO GOUVÊIA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6505397327,
-          -3.8581417006
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MARACANAU",
-        "cidade": "Maracanaú",
-        "data": "2026-08-02",
-        "hora": "22:16:00",
-        "id": "4463270",
-        "idade": "",
-        "local": "RUA JOSEFINA LIBERATO RODRIGUES",
-        "region": "rmf",
-        "related_ids": [
-          "4463270"
-        ],
-        "rua": "RUA JOSEFINA LIBERATO RODRIGUES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.2554167038,
-          -7.6343995261
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "JARDIM",
-        "cidade": "Jardim",
-        "data": "2026-08-03",
-        "hora": "00:30:00",
-        "id": "4463278",
-        "idade": "",
-        "local": "ESTRADA SÍTIO LARGINHA",
-        "region": "interior",
-        "related_ids": [
-          "4463278"
-        ],
-        "rua": "ESTRADA SÍTIO LARGINHA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.221100375,
-          -4.0199678886
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Cascavel",
-        "data": "2026-08-03",
-        "hora": "06:19:00",
-        "id": "4463265",
-        "idade": "",
-        "local": "RUA CHAGAS BALBINO",
-        "region": "rmf",
-        "related_ids": [
-          "4463265"
-        ],
-        "rua": "RUA CHAGAS BALBINO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4825107327,
-          -4.0960468873
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "HORIZONTE",
-        "cidade": "Horizonte",
-        "data": "2026-08-03",
-        "hora": "18:32:00",
-        "id": "4463268",
-        "idade": "",
-        "local": "RUA GILBERTO GOMES",
-        "region": "rmf",
-        "related_ids": [
-          "4463268"
-        ],
-        "rua": "RUA GILBERTO GOMES",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.2771390327,
-          -7.1997757601
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "JUAZEIRO DO NORTE",
-        "cidade": "Juazeiro do Norte",
-        "data": "2026-08-03",
-        "hora": "22:30:00",
-        "id": "4463279",
-        "idade": "",
-        "local": "RUA ANA MARIA DE OLIVEIRA",
-        "region": "interior",
-        "related_ids": [
-          "4463279"
-        ],
-        "rua": "RUA ANA MARIA DE OLIVEIRA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.3966794003,
-          -7.1785932548
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Crato",
-        "data": "2026-08-03",
-        "hora": "23:00:00",
-        "id": "4463276",
-        "idade": "",
-        "local": "RUA PROJETADA 8",
-        "region": "interior",
-        "related_ids": [
-          "4463276"
-        ],
-        "rua": "RUA PROJETADA 8",
-        "sexo": "",
-        "tipo_evento": "FEMINICÍDIO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -39.9638996327,
-          -4.0713567906
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Sobral",
-        "data": "2026-08-04",
-        "hora": "02:00:00",
-        "id": "4463282",
-        "idade": "",
-        "local": "RUA POLICÁRPO",
-        "region": "interior",
-        "related_ids": [
-          "4463282"
-        ],
-        "rua": "RUA POLICÁRPO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6832901429,
-          -3.9332900223
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Maranguape",
-        "data": "2026-08-04",
-        "hora": "16:00:00",
-        "id": "4463271",
-        "idade": "",
-        "local": "ESTRADA SEM NOME",
-        "region": "rmf",
-        "related_ids": [
-          "4463271"
-        ],
-        "rua": "ESTRADA SEM NOME",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.6832901429,
-          -3.9332900223
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Maranguape",
-        "data": "2026-08-04",
-        "hora": "20:06:01",
-        "id": "4506157",
-        "idade": "",
-        "local": "ESTRADA SEM NOME",
-        "region": "rmf",
-        "related_ids": [
-          "4506157"
-        ],
-        "rua": "ESTRADA SEM NOME",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.3780507639,
-          -5.0952555975
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "",
-        "cidade": "Morada Nova",
-        "data": "2026-08-05",
-        "hora": "10:00:00",
-        "id": "4506187",
-        "idade": "",
-        "local": "VILA BEZERRA",
-        "region": "interior",
-        "related_ids": [
-          "4506187"
-        ],
-        "rua": "VILA BEZERRA",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.5608607054,
-          -3.8067333065
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MONDUBIM",
-        "cidade": "Fortaleza",
-        "data": "2026-08-05",
-        "hora": "13:50:24",
-        "id": "4506141",
-        "idade": "",
-        "local": "RUA BENJAMIM BRASIL",
-        "region": "fortaleza",
-        "related_ids": [
-          "4506141"
-        ],
-        "rua": "RUA BENJAMIM BRASIL",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 1
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          -38.4899092054,
-          -3.8199292661
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "arma": "",
-        "bairro": "MESSEJANA",
-        "cidade": "Fortaleza",
-        "data": "2026-08-05",
-        "hora": "21:00:00",
-        "id": "4506137",
-        "idade": "",
-        "local": "CONJUNTO SÃO BERNARDO",
-        "region": "fortaleza",
-        "related_ids": [
-          "4506137",
-          "4506133"
-        ],
-        "rua": "CONJUNTO SÃO BERNARDO",
-        "sexo": "",
-        "tipo_evento": "HOMICIDIO DOLOSO",
-        "vitimas": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           -38.6738313327,
           -3.7441961903
         ],
@@ -1813,7 +11,7 @@
       "properties": {
         "arma": "",
         "bairro": "PARQUE SOLEDADE",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-08-06",
         "hora": "00:38:58",
         "id": "4506126",
@@ -1841,7 +39,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Boa Viagem",
+        "cidade": "BOA VIAGEM",
         "data": "2026-08-06",
         "hora": "13:30:00",
         "id": "4506166",
@@ -1869,7 +67,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Beberibe",
+        "cidade": "BEBERIBE",
         "data": "2026-08-06",
         "hora": "23:00:00",
         "id": "4506164",
@@ -1897,7 +95,7 @@
       "properties": {
         "arma": "",
         "bairro": "JACARECANGA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-07",
         "hora": "08:56:00",
         "id": "4506134",
@@ -1926,7 +124,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Russas",
+        "cidade": "RUSSAS",
         "data": "2026-08-07",
         "hora": "21:48:00",
         "id": "4506194",
@@ -1954,7 +152,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Quiterianópolis",
+        "cidade": "QUITERIANOPOLIS",
         "data": "2026-08-08",
         "hora": "02:00:00",
         "id": "4506191",
@@ -1982,7 +180,7 @@
       "properties": {
         "arma": "",
         "bairro": "PORTEIRAS",
-        "cidade": "Porteiras",
+        "cidade": "PORTEIRAS",
         "data": "2026-08-08",
         "hora": "20:00:00",
         "id": "4506190",
@@ -2010,7 +208,7 @@
       "properties": {
         "arma": "",
         "bairro": "JOSE DE ALENCAR",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-09",
         "hora": "01:30:00",
         "id": "4506138",
@@ -2066,7 +264,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-08-09",
         "hora": "13:50:00",
         "id": "4506196",
@@ -2094,7 +292,7 @@
       "properties": {
         "arma": "",
         "bairro": "JUAZEIRO DO NORTE",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-08-10",
         "hora": "00:00:00",
         "id": "4506184",
@@ -2122,7 +320,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Camocim",
+        "cidade": "CAMOCIM",
         "data": "2026-08-10",
         "hora": "00:00:00",
         "id": "4506170",
@@ -2150,7 +348,7 @@
       "properties": {
         "arma": "",
         "bairro": "PACAJUS",
-        "cidade": "Pacajus",
+        "cidade": "PACAJUS",
         "data": "2026-08-10",
         "hora": "00:00:00",
         "id": "4505368",
@@ -2178,7 +376,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Tauá",
+        "cidade": "TAUA",
         "data": "2026-08-10",
         "hora": "16:00:00",
         "id": "4506198",
@@ -2234,7 +432,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Boa Viagem",
+        "cidade": "BOA VIAGEM",
         "data": "2026-08-11",
         "hora": "06:00:00",
         "id": "4506167",
@@ -2262,7 +460,7 @@
       "properties": {
         "arma": "",
         "bairro": "PRAIA DO FURUTO II",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-11",
         "hora": "20:41:00",
         "id": "4506145",
@@ -2290,7 +488,7 @@
       "properties": {
         "arma": "",
         "bairro": "SANTANA DO ACARAU",
-        "cidade": "Santana do Acaraú",
+        "cidade": "SANTANA DO ACARAU",
         "data": "2026-08-13",
         "hora": "07:30:00",
         "id": "4506195",
@@ -2318,7 +516,7 @@
       "properties": {
         "arma": "",
         "bairro": "PREFEITO JOSE WALTER",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-13",
         "hora": "13:24:00",
         "id": "4506140",
@@ -2346,7 +544,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Boa Viagem",
+        "cidade": "BOA VIAGEM",
         "data": "2026-08-13",
         "hora": "21:40:00",
         "id": "4506169",
@@ -2374,7 +572,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Amontada",
+        "cidade": "AMONTADA",
         "data": "2026-08-14",
         "hora": "00:08:00",
         "id": "4506160",
@@ -2402,7 +600,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Aquiraz",
+        "cidade": "AQUIRAZ",
         "data": "2026-08-14",
         "hora": "07:00:00",
         "id": "4506124",
@@ -2430,7 +628,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-08-14",
         "hora": "07:30:00",
         "id": "4506125",
@@ -2458,7 +656,7 @@
       "properties": {
         "arma": "",
         "bairro": "CONJUNTO PALMEIRAS",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-14",
         "hora": "08:09:00",
         "id": "4506136",
@@ -2515,7 +713,7 @@
       "properties": {
         "arma": "",
         "bairro": "CAJAZEIRAS",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-15",
         "hora": "05:11:00",
         "id": "4506143",
@@ -2543,7 +741,7 @@
       "properties": {
         "arma": "",
         "bairro": "CIRSTO REDENTOR",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-15",
         "hora": "13:17:00",
         "id": "4506132",
@@ -2571,7 +769,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Boa Viagem",
+        "cidade": "BOA VIAGEM",
         "data": "2026-08-16",
         "hora": "04:30:00",
         "id": "4506165",
@@ -2599,7 +797,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-08-16",
         "hora": "09:00:00",
         "id": "4506199",
@@ -2627,7 +825,7 @@
       "properties": {
         "arma": "",
         "bairro": "CAIS DO PORTO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-16",
         "hora": "22:33:00",
         "id": "4506146",
@@ -2655,7 +853,7 @@
       "properties": {
         "arma": "",
         "bairro": "LIMOEIRO DO NORTE",
-        "cidade": "Limoeiro do Norte",
+        "cidade": "LIMOEIRO DO NORTE",
         "data": "2026-08-17",
         "hora": "06:00:00",
         "id": "4506185",
@@ -2683,16 +881,16 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Guaraciaba do Norte",
+        "cidade": "GUARACIABA DO NORTE",
         "data": "2026-08-17",
         "hora": "07:00:00",
-        "id": "4506176",
+        "id": "4506177",
         "idade": "",
         "local": "RUA TANCREDO DE SOUZA CARVALHO",
         "region": "interior",
         "related_ids": [
-          "4506176",
-          "4506177"
+          "4506177",
+          "4506176"
         ],
         "rua": "RUA TANCREDO DE SOUZA CARVALHO",
         "sexo": "",
@@ -2712,7 +910,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Ubajara",
+        "cidade": "UBAJARA",
         "data": "2026-08-17",
         "hora": "10:30:00",
         "id": "4506201",
@@ -2740,7 +938,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-08-17",
         "hora": "14:30:00",
         "id": "4506200",
@@ -2768,7 +966,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Cascavel",
+        "cidade": "CASCAVEL",
         "data": "2026-08-17",
         "hora": "23:01:00",
         "id": "4506129",
@@ -2796,7 +994,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Barroquinha",
+        "cidade": "BARROQUINHA",
         "data": "2026-08-18",
         "hora": "02:45:00",
         "id": "4506163",
@@ -2824,7 +1022,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Crato",
+        "cidade": "CRATO",
         "data": "2026-08-19",
         "hora": "00:30:00",
         "id": "4513376",
@@ -2852,7 +1050,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Barbalha",
+        "cidade": "BARBALHA",
         "data": "2026-08-19",
         "hora": "05:00:00",
         "id": "4506162",
@@ -2880,7 +1078,7 @@
       "properties": {
         "arma": "",
         "bairro": "CONJUNTO PALMEIRAS",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-19",
         "hora": "10:00:00",
         "id": "4513345",
@@ -2908,7 +1106,7 @@
       "properties": {
         "arma": "",
         "bairro": "PARQUE IRACEMA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-19",
         "hora": "13:13:00",
         "id": "4513344",
@@ -2936,7 +1134,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Amontada",
+        "cidade": "AMONTADA",
         "data": "2026-08-20",
         "hora": "02:00:00",
         "id": "4506161",
@@ -2964,7 +1162,7 @@
       "properties": {
         "arma": "",
         "bairro": "FATIMA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-20",
         "hora": "07:58:45",
         "id": "4506135",
@@ -2992,7 +1190,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Limoeiro do Norte",
+        "cidade": "LIMOEIRO DO NORTE",
         "data": "2026-08-20",
         "hora": "15:00:00",
         "id": "4506186",
@@ -3020,7 +1218,7 @@
       "properties": {
         "arma": "",
         "bairro": "PREFEITO JOSE WALTER",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-20",
         "hora": "21:49:49",
         "id": "4513346",
@@ -3048,7 +1246,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Acaraú",
+        "cidade": "ACARAU",
         "data": "2026-08-21",
         "hora": "07:30:00",
         "id": "4506159",
@@ -3084,7 +1282,7 @@
       "properties": {
         "arma": "",
         "bairro": "JIJOCA DE JERICOACOARA",
-        "cidade": "Jijoca de Jericoacoara",
+        "cidade": "JIJOCA DE JERICOACOARA",
         "data": "2026-08-22",
         "hora": "03:30:00",
         "id": "4506181",
@@ -3112,7 +1310,7 @@
       "properties": {
         "arma": "",
         "bairro": "CARLITO PAMPLONA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-22",
         "hora": "11:09:32",
         "id": "4513324",
@@ -3140,7 +1338,7 @@
       "properties": {
         "arma": "",
         "bairro": "SAO BENEDITO",
-        "cidade": "Carnaubal",
+        "cidade": "CARNAUBAL",
         "data": "2026-08-22",
         "hora": "15:30:00",
         "id": "4506172",
@@ -3168,7 +1366,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-22",
         "hora": "19:20:57",
         "id": "4506144",
@@ -3196,7 +1394,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Mucambo",
+        "cidade": "MUCAMBO",
         "data": "2026-08-22",
         "hora": "22:38:00",
         "id": "4513394",
@@ -3224,7 +1422,7 @@
       "properties": {
         "arma": "",
         "bairro": "PASSARE",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-23",
         "hora": "07:19:00",
         "id": "4506142",
@@ -3252,7 +1450,7 @@
       "properties": {
         "arma": "",
         "bairro": "PLANALTO AYRTON SENNA",
-        "cidade": "Pacatuba",
+        "cidade": "PACATUBA",
         "data": "2026-08-23",
         "hora": "13:46:53",
         "id": "4513355",
@@ -3280,7 +1478,7 @@
       "properties": {
         "arma": "",
         "bairro": "IPUEIRAS",
-        "cidade": "Ipueiras",
+        "cidade": "IPUEIRAS",
         "data": "2026-08-23",
         "hora": "17:30:00",
         "id": "4513384",
@@ -3308,7 +1506,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "São Gonçalo do Amarante",
+        "cidade": "SAO GONCALO DO AMARANTE",
         "data": "2026-08-24",
         "hora": "15:00:00",
         "id": "4513356",
@@ -3336,7 +1534,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-08-24",
         "hora": "19:36:00",
         "id": "4513390",
@@ -3364,7 +1562,7 @@
       "properties": {
         "arma": "",
         "bairro": "PARAIPABA",
-        "cidade": "Paraipaba",
+        "cidade": "PARAIPABA",
         "data": "2026-08-24",
         "hora": "20:00:00",
         "id": "4513395",
@@ -3392,7 +1590,7 @@
       "properties": {
         "arma": "",
         "bairro": "JANGURURSSU",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-24",
         "hora": "23:26:01",
         "id": "4513336",
@@ -3420,7 +1618,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Ipu",
+        "cidade": "IPU",
         "data": "2026-08-25",
         "hora": "05:00:00",
         "id": "4513383",
@@ -3448,7 +1646,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Cariré",
+        "cidade": "CARIRE",
         "data": "2026-08-25",
         "hora": "12:00:00",
         "id": "4513373",
@@ -3476,7 +1674,7 @@
       "properties": {
         "arma": "",
         "bairro": "IPARANA",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-08-25",
         "hora": "14:44:19",
         "id": "4513315",
@@ -3504,7 +1702,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Cascavel",
+        "cidade": "CASCAVEL",
         "data": "2026-08-25",
         "hora": "21:40:00",
         "id": "4513319",
@@ -3532,7 +1730,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Bela Cruz",
+        "cidade": "BELA CRUZ",
         "data": "2026-08-27",
         "hora": "18:00:00",
         "id": "4513365",
@@ -3560,7 +1758,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "São Gonçalo do Amarante",
+        "cidade": "SAO GONCALO DO AMARANTE",
         "data": "2026-08-27",
         "hora": "19:21:00",
         "id": "4513357",
@@ -3588,7 +1786,7 @@
       "properties": {
         "arma": "",
         "bairro": "CURIO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-27",
         "hora": "20:00:00",
         "id": "4513338",
@@ -3616,7 +1814,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Guaraciaba do Norte",
+        "cidade": "GUARACIABA DO NORTE",
         "data": "2026-08-28",
         "hora": "03:15:00",
         "id": "4513380",
@@ -3644,7 +1842,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-08-28",
         "hora": "12:00:00",
         "id": "4513398",
@@ -3672,7 +1870,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-08-28",
         "hora": "21:30:00",
         "id": "4513409",
@@ -3700,7 +1898,7 @@
       "properties": {
         "arma": "",
         "bairro": "MANOEL SATIRO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-08-28",
         "hora": "22:00:00",
         "id": "4513326",
@@ -3729,7 +1927,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "São Benedito",
+        "cidade": "SAO BENEDITO",
         "data": "2026-08-29",
         "hora": "09:00:00",
         "id": "4513406",
@@ -3757,7 +1955,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Camocim",
+        "cidade": "CAMOCIM",
         "data": "2026-08-29",
         "hora": "16:30:00",
         "id": "4513371",
@@ -3785,7 +1983,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-08-29",
         "hora": "16:55:00",
         "id": "4513413",
@@ -3813,7 +2011,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Beberibe",
+        "cidade": "BEBERIBE",
         "data": "2026-08-29",
         "hora": "18:30:00",
         "id": "4513364",
@@ -3841,7 +2039,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Choró",
+        "cidade": "CHORO",
         "data": "2026-08-29",
         "hora": "21:10:00",
         "id": "4513375",
@@ -3869,7 +2067,7 @@
       "properties": {
         "arma": "",
         "bairro": "ITAITINGA",
-        "cidade": "Itaitinga",
+        "cidade": "ITAITINGA",
         "data": "2026-08-29",
         "hora": "23:21:00",
         "id": "4513350",
@@ -3897,7 +2095,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-08-30",
         "hora": "03:20:00",
         "id": "4513397",
@@ -3925,7 +2123,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Barroquinha",
+        "cidade": "BARROQUINHA",
         "data": "2026-08-30",
         "hora": "07:45:00",
         "id": "4513362",
@@ -3953,7 +2151,7 @@
       "properties": {
         "arma": "",
         "bairro": "VARZEA ALEGRE",
-        "cidade": "Várzea Alegre",
+        "cidade": "VARZEA ALEGRE",
         "data": "2026-08-30",
         "hora": "09:40:00",
         "id": "4513418",
@@ -3981,7 +2179,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-08-30",
         "hora": "10:30:00",
         "id": "4513414",
@@ -4009,7 +2207,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-08-31",
         "hora": "01:20:00",
         "id": "4513408",
@@ -4037,7 +2235,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Reriutaba",
+        "cidade": "RERIUTABA",
         "data": "2026-08-31",
         "hora": "07:30:00",
         "id": "4513403",
@@ -4065,7 +2263,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Frecheirinha",
+        "cidade": "FRECHEIRINHA",
         "data": "2026-08-31",
         "hora": "09:30:00",
         "id": "4513379",
@@ -4093,7 +2291,7 @@
       "properties": {
         "arma": "",
         "bairro": "PACAJUS",
-        "cidade": "Pacajus",
+        "cidade": "PACAJUS",
         "data": "2026-09-01",
         "hora": "01:40:00",
         "id": "4549349",
@@ -4121,7 +2319,7 @@
       "properties": {
         "arma": "",
         "bairro": "PASSARE",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-01",
         "hora": "10:02:29",
         "id": "4549350",
@@ -4149,7 +2347,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-01",
         "hora": "10:28:50",
         "id": "4549351",
@@ -4177,7 +2375,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-01",
         "hora": "12:43:00",
         "id": "4549352",
@@ -4205,7 +2403,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Russas",
+        "cidade": "RUSSAS",
         "data": "2026-09-01",
         "hora": "20:00:00",
         "id": "4549353",
@@ -4233,7 +2431,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-01",
         "hora": "22:34:26",
         "id": "4549354",
@@ -4261,7 +2459,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Quiterianópolis",
+        "cidade": "QUITERIANOPOLIS",
         "data": "2026-09-02",
         "hora": "01:00:00",
         "id": "4549355",
@@ -4289,7 +2487,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-02",
         "hora": "10:51:37",
         "id": "4549356",
@@ -4317,7 +2515,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Crato",
+        "cidade": "CRATO",
         "data": "2026-09-02",
         "hora": "17:05:00",
         "id": "4549357",
@@ -4345,7 +2543,7 @@
       "properties": {
         "arma": "",
         "bairro": "NOVA OLINDA",
-        "cidade": "Nova Olinda",
+        "cidade": "NOVA OLINDA",
         "data": "2026-09-02",
         "hora": "20:00:00",
         "id": "4549358",
@@ -4373,7 +2571,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-09-02",
         "hora": "22:55:00",
         "id": "4549359",
@@ -4401,7 +2599,7 @@
       "properties": {
         "arma": "",
         "bairro": "MONDUBIM",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-03",
         "hora": "09:51:00",
         "id": "4549360",
@@ -4429,7 +2627,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-03",
         "hora": "17:15:00",
         "id": "4549361",
@@ -4457,7 +2655,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-03",
         "hora": "21:38:00",
         "id": "4549362",
@@ -4485,7 +2683,7 @@
       "properties": {
         "arma": "",
         "bairro": "CURIO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-04",
         "hora": "10:53:53",
         "id": "4675408",
@@ -4569,7 +2767,7 @@
       "properties": {
         "arma": "",
         "bairro": "JUAZEIRO DO NORTE",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-09-05",
         "hora": "19:00:00",
         "id": "4675414",
@@ -4597,7 +2795,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Brejo Santo",
+        "cidade": "BREJO SANTO",
         "data": "2026-09-05",
         "hora": "19:58:00",
         "id": "4675409",
@@ -4625,7 +2823,7 @@
       "properties": {
         "arma": "",
         "bairro": "IGUATU",
-        "cidade": "Iguatu",
+        "cidade": "IGUATU",
         "data": "2026-09-06",
         "hora": "05:10:00",
         "id": "4675410",
@@ -4653,7 +2851,7 @@
       "properties": {
         "arma": "",
         "bairro": "IGUATU",
-        "cidade": "Iguatu",
+        "cidade": "IGUATU",
         "data": "2026-09-06",
         "hora": "16:00:00",
         "id": "4675411",
@@ -4681,7 +2879,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Russas",
+        "cidade": "RUSSAS",
         "data": "2026-09-06",
         "hora": "20:08:00",
         "id": "4675416",
@@ -4709,7 +2907,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-09-07",
         "hora": "03:00:00",
         "id": "4675415",
@@ -4737,7 +2935,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-09-08",
         "hora": "10:00:00",
         "id": "4675660",
@@ -4765,7 +2963,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-08",
         "hora": "15:00:00",
         "id": "4675664",
@@ -4793,7 +2991,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-08",
         "hora": "15:20:00",
         "id": "4675663",
@@ -4821,7 +3019,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-08",
         "hora": "19:08:28",
         "id": "4675657",
@@ -4849,7 +3047,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Quixadá",
+        "cidade": "QUIXADA",
         "data": "2026-09-08",
         "hora": "21:45:00",
         "id": "4675662",
@@ -4877,7 +3075,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Itapipoca",
+        "cidade": "ITAPIPOCA",
         "data": "2026-09-09",
         "hora": "02:00:00",
         "id": "4675659",
@@ -4905,7 +3103,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-09-09",
         "hora": "04:30:00",
         "id": "4675661",
@@ -4933,7 +3131,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Tauá",
+        "cidade": "TAUA",
         "data": "2026-09-09",
         "hora": "18:20:00",
         "id": "4675665",
@@ -4989,7 +3187,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-10",
         "hora": "07:40:00",
         "id": "4675905",
@@ -5017,7 +3215,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-10",
         "hora": "09:00:00",
         "id": "4675900",
@@ -5045,7 +3243,7 @@
       "properties": {
         "arma": "",
         "bairro": "PARQUE SOLEDADE",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-10",
         "hora": "19:59:52",
         "id": "4675901",
@@ -5073,7 +3271,7 @@
       "properties": {
         "arma": "",
         "bairro": "MESSEJANA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-10",
         "hora": "21:29:39",
         "id": "4675903",
@@ -5101,7 +3299,7 @@
       "properties": {
         "arma": "",
         "bairro": "JUAZEIRO DO NORTE",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-09-10",
         "hora": "23:10:00",
         "id": "4675904",
@@ -5129,7 +3327,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Russas",
+        "cidade": "RUSSAS",
         "data": "2026-09-11",
         "hora": "04:35:00",
         "id": "4676161",
@@ -5158,7 +3356,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Ipu",
+        "cidade": "IPU",
         "data": "2026-09-11",
         "hora": "09:00:00",
         "id": "4676158",
@@ -5186,7 +3384,7 @@
       "properties": {
         "arma": "",
         "bairro": "VARZEA ALEGRE",
-        "cidade": "Várzea Alegre",
+        "cidade": "VARZEA ALEGRE",
         "data": "2026-09-11",
         "hora": "15:30:00",
         "id": "4676165",
@@ -5214,7 +3412,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-09-11",
         "hora": "20:33:00",
         "id": "4676163",
@@ -5242,7 +3440,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Missão Velha",
+        "cidade": "MISSAO VELHA",
         "data": "2026-09-12",
         "hora": "06:00:00",
         "id": "4676160",
@@ -5270,7 +3468,7 @@
       "properties": {
         "arma": "",
         "bairro": "FATIMA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-12",
         "hora": "12:11:45",
         "id": "4676155",
@@ -5298,7 +3496,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Crateús",
+        "cidade": "CRATEUS",
         "data": "2026-09-12",
         "hora": "15:20:00",
         "id": "4676156",
@@ -5326,7 +3524,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-13",
         "hora": "02:31:00",
         "id": "4676154",
@@ -5354,7 +3552,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Icó",
+        "cidade": "ICO",
         "data": "2026-09-13",
         "hora": "03:31:00",
         "id": "4676157",
@@ -5382,7 +3580,7 @@
       "properties": {
         "arma": "",
         "bairro": "JUAZEIRO DO NORTE",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-09-13",
         "hora": "07:40:00",
         "id": "4676159",
@@ -5410,7 +3608,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-09-13",
         "hora": "20:30:00",
         "id": "4676164",
@@ -5438,7 +3636,7 @@
       "properties": {
         "arma": "",
         "bairro": "MESSEJANA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-14",
         "hora": "00:00:00",
         "id": "4676509",
@@ -5466,7 +3664,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-14",
         "hora": "00:00:00",
         "id": "4676508",
@@ -5494,7 +3692,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Pedra Branca",
+        "cidade": "PEDRA BRANCA",
         "data": "2026-09-14",
         "hora": "00:00:00",
         "id": "4676510",
@@ -5522,7 +3720,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Aquiraz",
+        "cidade": "AQUIRAZ",
         "data": "2026-09-15",
         "hora": "00:00:00",
         "id": "4679003",
@@ -5550,7 +3748,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Barbalha",
+        "cidade": "BARBALHA",
         "data": "2026-09-15",
         "hora": "00:00:00",
         "id": "4676830",
@@ -5578,7 +3776,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-09-15",
         "hora": "17:00:00",
         "id": "4676832",
@@ -5606,7 +3804,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Guaraciaba do Norte",
+        "cidade": "GUARACIABA DO NORTE",
         "data": "2026-09-15",
         "hora": "19:19:00",
         "id": "4676831",
@@ -5634,7 +3832,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Boa Viagem",
+        "cidade": "BOA VIAGEM",
         "data": "2026-09-16",
         "hora": "00:30:00",
         "id": "4677185",
@@ -5662,7 +3860,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Caucaia",
+        "cidade": "CAUCAIA",
         "data": "2026-09-16",
         "hora": "10:28:53",
         "id": "4677183",
@@ -5690,7 +3888,7 @@
       "properties": {
         "arma": "",
         "bairro": "CURIO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-16",
         "hora": "15:39:50",
         "id": "4677184",
@@ -5718,7 +3916,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Guaraciaba do Norte",
+        "cidade": "GUARACIABA DO NORTE",
         "data": "2026-09-16",
         "hora": "16:00:00",
         "id": "4677186",
@@ -5746,7 +3944,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Piquet Carneiro",
+        "cidade": "PIQUET CARNEIRO",
         "data": "2026-09-17",
         "hora": "20:00:00",
         "id": "4677551",
@@ -5774,7 +3972,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-17",
         "hora": "20:40:01",
         "id": "4677550",
@@ -5802,7 +4000,7 @@
       "properties": {
         "arma": "",
         "bairro": "MIRAIMA",
-        "cidade": "Miraíma",
+        "cidade": "MIRAIMA",
         "data": "2026-09-18",
         "hora": "03:30:00",
         "id": "4677971",
@@ -5831,7 +4029,7 @@
       "properties": {
         "arma": "",
         "bairro": "JANGURURSSU",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-18",
         "hora": "07:06:00",
         "id": "4677962",
@@ -5859,7 +4057,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Santana do Acaraú",
+        "cidade": "SANTANA DO ACARAU",
         "data": "2026-09-18",
         "hora": "08:00:00",
         "id": "4677974",
@@ -5887,7 +4085,7 @@
       "properties": {
         "arma": "",
         "bairro": "PLANALTO AYRTON SENNA",
-        "cidade": "Maracanaú",
+        "cidade": "MARACANAU",
         "data": "2026-09-18",
         "hora": "10:10:00",
         "id": "4677968",
@@ -5915,7 +4113,7 @@
       "properties": {
         "arma": "",
         "bairro": "TIANGUA",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-09-18",
         "hora": "19:30:00",
         "id": "4677976",
@@ -5943,7 +4141,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-19",
         "hora": "17:13:07",
         "id": "4677963",
@@ -5971,7 +4169,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Ipueiras",
+        "cidade": "IPUEIRAS",
         "data": "2026-09-19",
         "hora": "22:00:00",
         "id": "4677970",
@@ -5999,7 +4197,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Tianguá",
+        "cidade": "TIANGUA",
         "data": "2026-09-20",
         "hora": "05:30:00",
         "id": "4677975",
@@ -6027,7 +4225,7 @@
       "properties": {
         "arma": "",
         "bairro": "CONJUNTO PALMEIRAS",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-20",
         "hora": "13:57:00",
         "id": "4677964",
@@ -6055,7 +4253,7 @@
       "properties": {
         "arma": "",
         "bairro": "ANTONIO BEZERRA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-20",
         "hora": "16:34:00",
         "id": "4677967",
@@ -6083,7 +4281,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Monsenhor Tabosa",
+        "cidade": "MONSENHOR TABOSA",
         "data": "2026-09-20",
         "hora": "17:30:00",
         "id": "4677973",
@@ -6111,16 +4309,16 @@
       "properties": {
         "arma": "",
         "bairro": "PEDRAS",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-20",
         "hora": "21:18:00",
-        "id": "4677966",
+        "id": "4677965",
         "idade": "",
         "local": "RUA UBATUBA",
         "region": "fortaleza",
         "related_ids": [
-          "4677966",
-          "4677965"
+          "4677965",
+          "4677966"
         ],
         "rua": "RUA UBATUBA",
         "sexo": "",
@@ -6140,7 +4338,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Juazeiro do Norte",
+        "cidade": "JUAZEIRO DO NORTE",
         "data": "2026-09-21",
         "hora": "21:00:00",
         "id": "4678488",
@@ -6168,7 +4366,7 @@
       "properties": {
         "arma": "",
         "bairro": "IGUATU",
-        "cidade": "Iguatu",
+        "cidade": "IGUATU",
         "data": "2026-09-21",
         "hora": "21:47:00",
         "id": "4678487",
@@ -6196,7 +4394,7 @@
       "properties": {
         "arma": "",
         "bairro": "TRAIRI",
-        "cidade": "Trairi",
+        "cidade": "TRAIRI",
         "data": "2026-09-22",
         "hora": "00:50:00",
         "id": "4679008",
@@ -6224,7 +4422,7 @@
       "properties": {
         "arma": "",
         "bairro": "LAGOA REDONDA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-22",
         "hora": "13:00:00",
         "id": "4679004",
@@ -6252,7 +4450,7 @@
       "properties": {
         "arma": "",
         "bairro": "SAO BENTO",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-22",
         "hora": "22:11:38",
         "id": "4679006",
@@ -6280,7 +4478,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Araripe",
+        "cidade": "ARARIPE",
         "data": "2026-09-23",
         "hora": "10:00:00",
         "id": "4680064",
@@ -6308,7 +4506,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Itapiúna",
+        "cidade": "ITAPIUNA",
         "data": "2026-09-23",
         "hora": "10:00:00",
         "id": "4680065",
@@ -6336,7 +4534,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Tauá",
+        "cidade": "TAUA",
         "data": "2026-09-23",
         "hora": "14:10:00",
         "id": "4680068",
@@ -6364,7 +4562,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-24",
         "hora": "19:10:00",
         "id": "4680067",
@@ -6392,7 +4590,7 @@
       "properties": {
         "arma": "",
         "bairro": "CANINDEZINHO",
-        "cidade": "Maracanaú",
+        "cidade": "MARACANAU",
         "data": "2026-09-24",
         "hora": "19:21:40",
         "id": "4680063",
@@ -6420,7 +4618,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Russas",
+        "cidade": "RUSSAS",
         "data": "2026-09-24",
         "hora": "21:42:00",
         "id": "4680066",
@@ -6448,7 +4646,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Sobral",
+        "cidade": "SOBRAL",
         "data": "2026-09-26",
         "hora": "20:15:00",
         "id": "4680643",
@@ -6476,7 +4674,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Carnaubal",
+        "cidade": "CARNAUBAL",
         "data": "2026-09-26",
         "hora": "21:30:00",
         "id": "4680640",
@@ -6504,7 +4702,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "Jucás",
+        "cidade": "JUCAS",
         "data": "2026-09-26",
         "hora": "21:30:00",
         "id": "4680641",
@@ -6532,7 +4730,7 @@
       "properties": {
         "arma": "",
         "bairro": "VICOSA DO CEARA",
-        "cidade": "Viçosa do Ceará",
+        "cidade": "VICOSA DO CEARA",
         "data": "2026-09-27",
         "hora": "06:20:00",
         "id": "4680644",
@@ -6560,7 +4758,7 @@
       "properties": {
         "arma": "",
         "bairro": "MESSEJANA",
-        "cidade": "Fortaleza",
+        "cidade": "FORTALEZA",
         "data": "2026-09-27",
         "hora": "17:17:34",
         "id": "4680638",
@@ -6588,7 +4786,7 @@
       "properties": {
         "arma": "",
         "bairro": "",
-        "cidade": "São Benedito",
+        "cidade": "SAO BENEDITO",
         "data": "2026-09-27",
         "hora": "21:12:00",
         "id": "4680642",
@@ -8658,18 +6856,1447 @@
         "vitimas": 1
       },
       "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.3188654075,
+          -4.836586158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "TAMBORIL",
+        "data": "2026-10-22",
+        "hora": "00:40:00",
+        "id": "4687412",
+        "idade": "",
+        "local": "RUA VICENTE ALVES DO VALE",
+        "region": "interior",
+        "related_ids": [
+          "4687412"
+        ],
+        "rua": "RUA VICENTE ALVES DO VALE",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.5188996327,
+          -4.1811110958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "PACAJUS",
+        "cidade": "PACAJUS",
+        "data": "2026-10-22",
+        "hora": "03:00:00",
+        "id": "4687408",
+        "idade": "",
+        "local": "RUA DONA FIFINHA",
+        "region": "rmf",
+        "related_ids": [
+          "4687408"
+        ],
+        "rua": "RUA DONA FIFINHA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.6758531904,
+          -3.3164993097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ITAPIPOCA",
+        "data": "2026-10-22",
+        "hora": "04:50:00",
+        "id": "4687410",
+        "idade": "",
+        "local": "",
+        "region": "rmf",
+        "related_ids": [
+          "4687410"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.527050682,
+          -3.8116829475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "PASSARE",
+        "cidade": "FORTALEZA",
+        "data": "2026-10-22",
+        "hora": "10:52:42",
+        "id": "4687406",
+        "idade": "",
+        "local": "RUA PROFESSOR MOREIRA DE SOUZA",
+        "region": "fortaleza",
+        "related_ids": [
+          "4687406"
+        ],
+        "rua": "RUA PROFESSOR MOREIRA DE SOUZA",
+        "sexo": "",
+        "tipo_evento": "FEMINICÍDIO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.6200572462,
+          -3.7607609962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "ANTONIO BEZERRA",
+        "cidade": "CAUCAIA",
+        "data": "2026-10-22",
+        "hora": "16:59:03",
+        "id": "4687405",
+        "idade": "",
+        "local": "RUA GUARARAPES",
+        "region": "rmf",
+        "related_ids": [
+          "4687405"
+        ],
+        "rua": "RUA GUARARAPES",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.6045328039,
+          -3.8785909876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "CIDADE NOVA",
+        "cidade": "MARACANAU",
+        "data": "2026-10-22",
+        "hora": "18:30:00",
+        "id": "4687407",
+        "idade": "",
+        "local": "RUA 125",
+        "region": "rmf",
+        "related_ids": [
+          "4687407"
+        ],
+        "rua": "RUA 125",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.0033547615,
+          -4.9641346292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "QUIXADA",
+        "data": "2026-10-22",
+        "hora": "18:58:00",
+        "id": "4687411",
+        "idade": "",
+        "local": "RUA DOM LUCAS",
+        "region": "interior",
+        "related_ids": [
+          "4687411"
+        ],
+        "rua": "RUA DOM LUCAS",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -41.0075107327,
+          -3.7263781901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "TIANGUA",
+        "cidade": "TIANGUA",
+        "data": "2026-10-23",
+        "hora": "03:08:00",
+        "id": "4688037",
+        "idade": "",
+        "local": "RUA FCº FERNANDES DE LIMA",
+        "region": "interior",
+        "related_ids": [
+          "4688037"
+        ],
+        "rua": "RUA FCº FERNANDES DE LIMA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.2708440327,
+          -7.2010791602
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "JUAZEIRO DO NORTE",
+        "cidade": "JUAZEIRO DO NORTE",
+        "data": "2026-10-23",
+        "hora": "12:30:00",
+        "id": "4688027",
+        "idade": "",
+        "local": "RUA JOAQUIM LEANDRO DE SOUZA",
+        "region": "interior",
+        "related_ids": [
+          "4688027"
+        ],
+        "rua": "RUA JOAQUIM LEANDRO DE SOUZA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.7602468136,
+          -5.3710859322
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "PEDRA BRANCA",
+        "data": "2026-10-23",
+        "hora": "12:30:00",
+        "id": "4688032",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4688032"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.1358333038,
+          -7.2491347635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "MISSAO VELHA",
+        "data": "2026-10-23",
+        "hora": "20:30:00",
+        "id": "4688030",
+        "idade": "",
+        "local": "RUA ONZE DE JULHO",
+        "region": "interior",
+        "related_ids": [
+          "4688030"
+        ],
+        "rua": "RUA ONZE DE JULHO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.651350711,
+          -3.7442351264
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "CONJUNTO CEARA I",
+        "cidade": "CAUCAIA",
+        "data": "2026-10-23",
+        "hora": "21:00:00",
+        "id": "4688011",
+        "idade": "",
+        "local": "RUA E",
+        "region": "rmf",
+        "related_ids": [
+          "4688011"
+        ],
+        "rua": "RUA E",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.7208883394,
+          -5.1333331805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "BOA VIAGEM",
+        "data": "2026-10-23",
+        "hora": "23:50:00",
+        "id": "4688020",
+        "idade": "",
+        "local": "BAIRRO OSÉAS FACUNDO",
+        "region": "interior",
+        "related_ids": [
+          "4688020"
+        ],
+        "rua": "BAIRRO OSÉAS FACUNDO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.6695157285,
+          -3.6814736532
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "IPARANA",
+        "cidade": "CAUCAIA",
+        "data": "2026-10-24",
+        "hora": "16:27:43",
+        "id": "4688012",
+        "idade": "",
+        "local": "",
+        "region": "rmf",
+        "related_ids": [
+          "4688012"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.7302786369,
+          -5.1180530829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "BOA VIAGEM",
+        "data": "2026-10-24",
+        "hora": "21:30:00",
+        "id": "4688019",
+        "idade": "",
+        "local": "RUA CORONEL LUIZ AMARO BEZERRA",
+        "region": "interior",
+        "related_ids": [
+          "4688019"
+        ],
+        "rua": "RUA CORONEL LUIZ AMARO BEZERRA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.8825033273,
+          -3.9283496402
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "IBIAPINA",
+        "data": "2026-10-24",
+        "hora": "21:45:00",
+        "id": "4688024",
+        "idade": "",
+        "local": "RUA MIGUEL CANUTO DE OLIVEIRA",
+        "region": "interior",
+        "related_ids": [
+          "4688024"
+        ],
+        "rua": "RUA MIGUEL CANUTO DE OLIVEIRA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.1944229462,
+          -5.681089742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "MILHA",
+        "cidade": "MILHA",
+        "data": "2026-10-25",
+        "hora": "03:00:00",
+        "id": "4688029",
+        "idade": "",
+        "local": "TRAVESSA BENÍGNO BEZERRA",
+        "region": "interior",
+        "related_ids": [
+          "4688029"
+        ],
+        "rua": "TRAVESSA BENÍGNO BEZERRA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.3695285462,
+          -3.7046771706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SOBRAL",
+        "data": "2026-10-25",
+        "hora": "04:50:00",
+        "id": "4688034",
+        "idade": "",
+        "local": "ACESSO A ETA",
+        "region": "interior",
+        "related_ids": [
+          "4688034"
+        ],
+        "rua": "ACESSO A ETA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -37.9241881615,
+          -5.1713675245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "QUIXERE",
+        "data": "2026-10-25",
+        "hora": "08:00:00",
+        "id": "4688033",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4688033"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.3430595972,
+          -7.2693319223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "JUAZEIRO DO NORTE",
+        "data": "2026-10-25",
+        "hora": "09:00:00",
+        "id": "4688018",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4688018"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.4266667038,
+          -7.2213569616
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "CRATO",
+        "data": "2026-10-25",
+        "hora": "15:58:00",
+        "id": "4688022",
+        "idade": "",
+        "local": "RUA 60",
+        "region": "interior",
+        "related_ids": [
+          "4688022"
+        ],
+        "rua": "RUA 60",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.3020385615,
+          -7.213224261
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "JUAZEIRO DO NORTE",
+        "cidade": "JUAZEIRO DO NORTE",
+        "data": "2026-10-25",
+        "hora": "16:30:00",
+        "id": "4688028",
+        "idade": "",
+        "local": "RUA TEODOMIRO ROCHA",
+        "region": "interior",
+        "related_ids": [
+          "4688028"
+        ],
+        "rua": "RUA TEODOMIRO ROCHA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.0231985462,
+          -5.5926199611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ALTO SANTO",
+        "data": "2026-10-25",
+        "hora": "20:30:00",
+        "id": "4688036",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4688036"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.8240238707,
+          -5.3188054269
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "CRATEUS",
+        "data": "2026-10-25",
+        "hora": "22:10:00",
+        "id": "4688021",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4688021"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.7528954039,
+          -4.1623788947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "GUARACIABA DO NORTE",
+        "data": "2026-10-26",
+        "hora": "02:00:00",
+        "id": "4688023",
+        "idade": "",
+        "local": "RUA MONSENHOR FURTADO",
+        "region": "interior",
+        "related_ids": [
+          "4688023"
+        ],
+        "rua": "RUA MONSENHOR FURTADO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.9643291039,
+          -3.6153759889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SAO GONCALO DO AMARANTE",
+        "data": "2026-10-26",
+        "hora": "03:30:00",
+        "id": "4688015",
+        "idade": "",
+        "local": "RUA PAULO CÉSAR SOARES",
+        "region": "rmf",
+        "related_ids": [
+          "4688015"
+        ],
+        "rua": "RUA PAULO CÉSAR SOARES",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.9605608971,
+          -3.5936038914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SAO GONCALO DO AMARANTE",
+        "data": "2026-10-26",
+        "hora": "07:38:00",
+        "id": "4688017",
+        "idade": "",
+        "local": "RUA 4",
+        "region": "rmf",
+        "related_ids": [
+          "4688017",
+          "4688016"
+        ],
+        "rua": "RUA 4",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 2
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.7622329327,
+          -3.530245671
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ITAPIPOCA",
+        "data": "2026-10-26",
+        "hora": "09:00:00",
+        "id": "4688026",
+        "idade": "",
+        "local": "",
+        "region": "rmf",
+        "related_ids": [
+          "4688026"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.5780556039,
+          -3.8138888962
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "MONDUBIM",
+        "cidade": "FORTALEZA",
+        "data": "2026-10-26",
+        "hora": "11:46:00",
+        "id": "4688013",
+        "idade": "",
+        "local": "RUA 1",
+        "region": "fortaleza",
+        "related_ids": [
+          "4688013"
+        ],
+        "rua": "RUA 1",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.4395916231,
+          -3.770219598
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "PRAIA DO FURUTO II",
+        "cidade": "FORTALEZA",
+        "data": "2026-10-27",
+        "hora": "06:00:00",
+        "id": "4688014",
+        "idade": "",
+        "local": "RUA MONTE DA TRANSFIGURAÇÃO",
+        "region": "fortaleza",
+        "related_ids": [
+          "4688014"
+        ],
+        "rua": "RUA MONTE DA TRANSFIGURAÇÃO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.3230399462,
+          -3.6834699829
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SOBRAL",
+        "data": "2026-10-27",
+        "hora": "11:15:00",
+        "id": "4688035",
+        "idade": "",
+        "local": "RUA RAIMUNDO ARRUDA CARNEIRO",
+        "region": "interior",
+        "related_ids": [
+          "4688035"
+        ],
+        "rua": "RUA RAIMUNDO ARRUDA CARNEIRO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.535318675,
+          -3.4183443478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ITAPIPOCA",
+        "data": "2026-10-27",
+        "hora": "20:00:00",
+        "id": "4688025",
+        "idade": "",
+        "local": "",
+        "region": "rmf",
+        "related_ids": [
+          "4688025"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.5542593327,
+          -4.7097211248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "NOVA RUSSAS",
+        "cidade": "NOVA RUSSAS",
+        "data": "2026-10-27",
+        "hora": "23:59:00",
+        "id": "4688031",
+        "idade": "",
+        "local": "RUA MARIA MADUREIRA",
+        "region": "interior",
+        "related_ids": [
+          "4688031"
+        ],
+        "rua": "RUA MARIA MADUREIRA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.0505041615,
+          -5.0167862195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "RUSSAS",
+        "data": "2026-10-28",
+        "hora": "13:45:00",
+        "id": "4689424",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4689424"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.419433675,
+          -5.8097008467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "PIQUET CARNEIRO",
+        "data": "2026-10-28",
+        "hora": "19:44:00",
+        "id": "4689423",
+        "idade": "",
+        "local": "RUA JOAQUIM AIRES DA SILVA",
+        "region": "interior",
+        "related_ids": [
+          "4689423"
+        ],
+        "rua": "RUA JOAQUIM AIRES DA SILVA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.1167003555,
+          -4.1557652205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "BEBERIBE",
+        "data": "2026-10-28",
+        "hora": "23:26:00",
+        "id": "4689422",
+        "idade": "",
+        "local": "RUA RAIMUNDO PAULO",
+        "region": "rmf",
+        "related_ids": [
+          "4689422"
+        ],
+        "rua": "RUA RAIMUNDO PAULO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.8785547342,
+          -4.175874494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "GUARACIABA DO NORTE",
+        "data": "2026-11-01",
+        "hora": "05:00:00",
+        "id": "4690053",
+        "idade": "",
+        "local": "ESTRADA PARA MORRINHOS NOVOS",
+        "region": "interior",
+        "related_ids": [
+          "4690053"
+        ],
+        "rua": "ESTRADA PARA MORRINHOS NOVOS",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.5999027631,
+          -3.8784699876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "ARACAPE",
+        "cidade": "MARACANAU",
+        "data": "2026-11-01",
+        "hora": "05:11:00",
+        "id": "4690051",
+        "idade": "",
+        "local": "RUA 136",
+        "region": "rmf",
+        "related_ids": [
+          "4690051"
+        ],
+        "rua": "RUA 136",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.6686218342,
+          -5.7663675451
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "MOMBACA",
+        "data": "2026-11-01",
+        "hora": "05:40:00",
+        "id": "4690055",
+        "idade": "",
+        "local": "RODOVIA VICE-GOVERNADOR CASTELO DE CASTRO",
+        "region": "interior",
+        "related_ids": [
+          "4690055"
+        ],
+        "rua": "RODOVIA VICE-GOVERNADOR CASTELO DE CASTRO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.5413579631,
+          -3.7161143586
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "MOURA BRASIL",
+        "cidade": "FORTALEZA",
+        "data": "2026-11-01",
+        "hora": "11:35:00",
+        "id": "4690050",
+        "idade": "",
+        "local": "AVENIDA PRESIDENTE CASTELO BRANCO",
+        "region": "fortaleza",
+        "related_ids": [
+          "4690050"
+        ],
+        "rua": "AVENIDA PRESIDENTE CASTELO BRANCO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.5805448766,
+          -3.6763460693
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ITAPAGE",
+        "data": "2026-11-01",
+        "hora": "19:20:00",
+        "id": "4690054",
+        "idade": "",
+        "local": "RUA ALUISIO ROCHA",
+        "region": "interior",
+        "related_ids": [
+          "4690054"
+        ],
+        "rua": "RUA ALUISIO ROCHA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -41.0686003766,
+          -3.8296793766
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "TIANGUA",
+        "data": "2026-11-01",
+        "hora": "21:30:00",
+        "id": "4690059",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4690059"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.4777500049,
+          -3.9721992603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "AQUIRAZ",
+        "data": "2026-11-02",
+        "hora": "06:29:00",
+        "id": "4690049",
+        "idade": "",
+        "local": "RUA JOÃO PIRES XAVIER",
+        "region": "rmf",
+        "related_ids": [
+          "4690049"
+        ],
+        "rua": "RUA JOÃO PIRES XAVIER",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.3779235766,
+          -3.668548662
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SOBRAL",
+        "data": "2026-11-02",
+        "hora": "08:00:00",
+        "id": "4690058",
+        "idade": "",
+        "local": "AVENIDA DOS IPÊS",
+        "region": "interior",
+        "related_ids": [
+          "4690058"
+        ],
+        "rua": "AVENIDA DOS IPÊS",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.0372828568,
+          -4.7908260343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "PALHANO",
+        "data": "2026-11-02",
+        "hora": "09:40:00",
+        "id": "4690056",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4690056"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -40.3409920766,
+          -3.7051335706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "SOBRAL",
+        "data": "2026-11-02",
+        "hora": "14:50:00",
+        "id": "4690057",
+        "idade": "",
+        "local": "SANTO ANTÔNIO",
+        "region": "interior",
+        "related_ids": [
+          "4690057"
+        ],
+        "rua": "SANTO ANTÔNIO",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.4657172327,
+          -6.0987938939
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "ACOPIARA",
+        "cidade": "ACOPIARA",
+        "data": "2026-11-02",
+        "hora": "21:30:00",
+        "id": "4690052",
+        "idade": "",
+        "local": "RUA VILA ESPERANÇA",
+        "region": "interior",
+        "related_ids": [
+          "4690052"
+        ],
+        "rua": "RUA VILA ESPERANÇA",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.9311403038,
+          -5.8387486478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "TAUA",
+        "data": "2026-11-03",
+        "hora": "07:01:00",
+        "id": "4690200",
+        "idade": "",
+        "local": "ESTRADA VALDEMAR ARRUDA CAVALCANTE",
+        "region": "interior",
+        "related_ids": [
+          "4690200"
+        ],
+        "rua": "ESTRADA VALDEMAR ARRUDA CAVALCANTE",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -37.7243995456,
+          -4.5729373826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "ARACATI",
+        "data": "2026-11-03",
+        "hora": "13:40:00",
+        "id": "4690197",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4690197"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -39.7339547327,
+          -5.1223952509
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "BOA VIAGEM",
+        "data": "2026-11-03",
+        "hora": "14:54:00",
+        "id": "4690198",
+        "idade": "",
+        "local": "RUA FLORISBELA VIEIRA DE ANDRADE",
+        "region": "interior",
+        "related_ids": [
+          "4690198"
+        ],
+        "rua": "RUA FLORISBELA VIEIRA DE ANDRADE",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -38.8677018865,
+          -7.4046692338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "arma": "",
+        "bairro": "",
+        "cidade": "MILAGRES",
+        "data": "2026-11-03",
+        "hora": "20:20:00",
+        "id": "4690199",
+        "idade": "",
+        "local": "",
+        "region": "interior",
+        "related_ids": [
+          "4690199"
+        ],
+        "rua": "",
+        "sexo": "",
+        "tipo_evento": "HOMICIDIO DOLOSO",
+        "vitimas": 1
+      },
+      "type": "Feature"
     }
   ],
   "metadata": {
-    "cutoff_date": "2026-07-23",
+    "cutoff_date": "2026-08-06",
     "days": 90,
-    "latest_available_date": "2026-10-20",
-    "reference_date": "2026-10-20",
+    "latest_available_date": "2026-11-03",
+    "reference_date": "2026-11-03",
     "region": "all",
-    "total": 308,
+    "total": 295,
     "geo_sanitization": {
-      "input": 308,
-      "kept": 306,
+      "input": 295,
+      "kept": 293,
       "corrected_to_declared_city": 2,
       "discarded": 0,
       "city_mismatch": 0,

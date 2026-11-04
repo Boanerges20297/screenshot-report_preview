@@ -1,30 +1,4 @@
 {
-  "rmf:CAUCAIA": {
-    "name": "CAUCAIA",
-    "municipality": "CAUCAIA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": -2.0,
-    "momentum_14d": 3.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "conflitante",
-      "active_days_14": 4,
-      "sample_days": 14,
-      "short_delta_7d": -2,
-      "medium_delta_14d": 3,
-      "long_delta_30d": -4,
-      "window_agreement": 0,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA CORONEL CORREIA, S/N",
-    "peak_hours": "Entre 19hs e 00hs",
-    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 99.20.",
-    "risk_score": 99.2,
-    "status": "CRÍTICO"
-  },
   "interior:SOBRAL": {
     "name": "SOBRAL",
     "municipality": "SOBRAL",
@@ -32,17 +6,17 @@
     "faction": "CV",
     "recent_cvli": 2,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": -4.0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 1.0,
     "trend_validation": {
       "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 2,
+      "direction": "conflitante",
+      "active_days_14": 3,
       "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": -4,
-      "long_delta_30d": 4,
-      "window_agreement": 0,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
@@ -68,11 +42,6 @@
       },
       {
         "cvli": 0,
-        "loc": "RUA MANOEL DE AGUIAR PONTES",
-        "score": 9
-      },
-      {
-        "cvli": 0,
         "loc": "JOCELY DANTAS DE ANDRADE TORRES",
         "score": 7
       },
@@ -93,82 +62,45 @@
       },
       {
         "cvli": 0,
-        "loc": "RODOVIA RAIMUNDO DO CARMO ARRUDA",
+        "loc": "RUA VEREADOR JOÃO LEÔNCIO",
+        "score": 1
+      },
+      {
+        "cvli": 0,
+        "loc": "RODOVIA DEPUTADO ELÍSIO AGUIAR",
         "score": 1
       }
     ],
     "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível crítico. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 95.50.",
-    "risk_score": 95.5,
+    "summary": "Território em nível crítico. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 98.50.",
+    "risk_score": 98.5,
     "status": "CRÍTICO"
   },
-  "fortaleza:JANGURUSSU": {
-    "name": "JANGURUSSU",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
+  "rmf:CAUCAIA": {
+    "name": "CAUCAIA",
+    "municipality": "CAUCAIA",
+    "region": "rmf",
     "faction": "CV",
-    "recent_cvli": 1,
+    "recent_cvli": 0,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 0.0,
+    "momentum_7d": -3.0,
+    "momentum_14d": -1.0,
     "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
+      "status": "confirmada_baixa",
+      "direction": "baixa",
+      "active_days_14": 3,
       "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
-    "peak_hours": "",
-    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Tensão territorial atual em 83.70.",
-    "risk_score": 83.7,
-    "status": "CRÍTICO"
-  },
-  "interior:TIANGUA": {
-    "name": "TIANGUA",
-    "municipality": "TIANGUA",
-    "region": "interior",
-    "faction": "PCC",
-    "recent_cvli": 2,
-    "recent_exogenous": 0,
-    "momentum_7d": 2.0,
-    "momentum_14d": 1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 2,
-      "sample_days": 14,
-      "short_delta_7d": 2,
-      "medium_delta_14d": 1,
-      "long_delta_30d": -4,
+      "short_delta_7d": -3,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
       "window_agreement": 2,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "TIANGUA",
-        "score": 3
-      },
-      {
-        "cvli": 0,
-        "loc": "OLINDA UBAJARA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA DOZE DE AGOSTO",
-        "score": 5
-      }
-    ],
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível moderado. CVLI recente: 2 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 45.90.",
-    "risk_score": 45.9,
-    "status": "MODERADO"
+    "critical_streets": "RUA CORONEL CORREIA, S/N",
+    "peak_hours": "Entre 19hs e 00hs",
+    "summary": "Território em nível crítico. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 91.70.",
+    "risk_score": 91.7,
+    "status": "CRÍTICO"
   },
   "rmf:MARACANAU": {
     "name": "MARACANAU",
@@ -177,17 +109,17 @@
     "faction": "CV",
     "recent_cvli": 1,
     "recent_exogenous": 0,
-    "momentum_7d": -1.0,
-    "momentum_14d": 3.0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
     "trend_validation": {
       "status": "indeterminado",
-      "direction": "conflitante",
-      "active_days_14": 3,
+      "direction": "indeterminado",
+      "active_days_14": 2,
       "sample_days": 14,
-      "short_delta_7d": -1,
-      "medium_delta_14d": 3,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
       "long_delta_30d": 3,
-      "window_agreement": 0,
+      "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
@@ -243,85 +175,133 @@
       }
     ],
     "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 41.50.",
-    "risk_score": 41.5,
-    "status": "MODERADO"
+    "summary": "Território em nível crítico. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 77.40.",
+    "risk_score": 77.4,
+    "status": "CRÍTICO"
   },
-  "interior:CRATO": {
-    "name": "CRATO",
-    "municipality": "CRATO",
+  "interior:JUAZEIRO DO NORTE": {
+    "name": "JUAZEIRO DO NORTE",
+    "municipality": "JUAZEIRO DO NORTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -2.0,
+    "momentum_14d": 2.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 2,
+      "sample_days": 14,
+      "short_delta_7d": -2,
+      "medium_delta_14d": 2,
+      "long_delta_30d": -2,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 2,
+        "loc": "JUAZEIRO DO NORTE",
+        "score": 7
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA MANOEL PIRACA DE SOUZA",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "HORTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTO ANTONIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA SECA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RESIDENCIAL NOSSA SENHORA DAS DORES",
+        "score": 8
+      }
+    ],
+    "peak_hours": "Entre 17hs e 22hs",
+    "summary": "Território em nível alto. Momentum de 14 dias em aceleração. Tensão territorial atual em 61.30.",
+    "risk_score": 61.3,
+    "status": "ALTO"
+  },
+  "fortaleza:JANGURUSSU": {
+    "name": "JANGURUSSU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA ANTONIO ALVES RIBEIRO,415, RUA OSVALDO CRUZ, 181",
+    "peak_hours": "",
+    "summary": "Território em nível alto. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 55.60.",
+    "risk_score": 55.6,
+    "status": "ALTO"
+  },
+  "interior:TIANGUA": {
+    "name": "TIANGUA",
+    "municipality": "TIANGUA",
     "region": "interior",
     "faction": "PCC",
     "recent_cvli": 1,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
     "trend_validation": {
       "status": "indeterminado",
       "direction": "indeterminado",
-      "active_days_14": 1,
+      "active_days_14": 2,
       "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 0,
-      "window_agreement": 2,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "AVENIDA THOMAZ OSTERNE DE ALENCAR",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA DOUTOR MANUEL MACEDO",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA FRANCISCO BEZERRA",
-        "score": 4
+        "loc": "TIANGUA",
+        "score": 3
       },
       {
         "cvli": 0,
-        "loc": "GESSO",
+        "loc": "OLINDA UBAJARA",
         "score": 16
       },
       {
         "cvli": 0,
-        "loc": "CONJUNTO SAO BENTO 1",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BELA VISTA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SAO BENTO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "LAGOA ENCANTADA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA LOBOS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO DO SEMINARIO",
-        "score": 8
+        "loc": "RUA DOZE DE AGOSTO",
+        "score": 5
       }
     ],
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 33.00.",
-    "risk_score": 33.0,
+    "peak_hours": "Entre 15hs e 20hs",
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Tensão territorial atual em 45.90.",
+    "risk_score": 45.9,
     "status": "MODERADO"
   },
   "interior:ITAPIPOCA": {
@@ -331,17 +311,17 @@
     "faction": "PCC",
     "recent_cvli": 0,
     "recent_exogenous": 0,
-    "momentum_7d": -1.0,
-    "momentum_14d": 0.0,
+    "momentum_7d": -3.0,
+    "momentum_14d": 2.0,
     "trend_validation": {
       "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
+      "direction": "conflitante",
+      "active_days_14": 3,
       "sample_days": 14,
-      "short_delta_7d": -1,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 1,
-      "window_agreement": 1,
+      "short_delta_7d": -3,
+      "medium_delta_14d": 2,
+      "long_delta_30d": 2,
+      "window_agreement": 0,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
@@ -397,8 +377,309 @@
       }
     ],
     "peak_hours": "Entre 01hs e 06hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 29.90.",
-    "risk_score": 29.9,
+    "summary": "Território em nível moderado. Momentum de 14 dias em aceleração. Tensão territorial atual em 43.00.",
+    "risk_score": 43.0,
+    "status": "MODERADO"
+  },
+  "interior:BOA VIAGEM": {
+    "name": "BOA VIAGEM",
+    "municipality": "BOA VIAGEM",
+    "region": "interior",
+    "faction": "PCC",
+    "recent_cvli": 1,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 3.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "conflitante",
+      "active_days_14": 3,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 3,
+      "long_delta_30d": 2,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA ANTÔNIO ROCHA BEZERRA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA MARIA DE ASSIS UCHOA",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO NOSSA SENHORA DE FATIMA",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "RECREIO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA AZUL",
+        "score": 8
+      }
+    ],
+    "peak_hours": "Entre 14hs e 19hs",
+    "summary": "Território em nível moderado. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 42.10.",
+    "risk_score": 42.1,
+    "status": "MODERADO"
+  },
+  "fortaleza:MONDUBIM": {
+    "name": "MONDUBIM",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 1,
+      "long_delta_30d": 1,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 07hs e 12hs",
+    "summary": "Território em nível moderado. Momentum de 14 dias em aceleração. Tensão territorial atual em 35.90.",
+    "risk_score": 35.9,
+    "status": "MODERADO"
+  },
+  "interior:CRATO": {
+    "name": "CRATO",
+    "municipality": "CRATO",
+    "region": "interior",
+    "faction": "PCC",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA FRANCISCO BEZERRA",
+        "score": 4
+      },
+      {
+        "cvli": 1,
+        "loc": "AVENIDA THOMAZ OSTERNE DE ALENCAR",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "GESSO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CONJUNTO SAO BENTO 1",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENTO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA ENCANTADA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA LOBOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO DO SEMINARIO",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "BATATEIRAS",
+        "score": 8
+      }
+    ],
+    "peak_hours": "Entre 19hs e 00hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 30.20.",
+    "risk_score": 30.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:PASSARE": {
+    "name": "PASSARE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 1,
+      "long_delta_30d": 1,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 28.80.",
+    "risk_score": 28.8,
+    "status": "BAIXO"
+  },
+  "rmf:SAO GONCALO DO AMARANTE": {
+    "name": "SAO GONCALO DO AMARANTE",
+    "municipality": "SAO GONCALO DO AMARANTE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -3.0,
+    "momentum_14d": 3.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -3,
+      "medium_delta_14d": 3,
+      "long_delta_30d": 3,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 28.80.",
+    "risk_score": 28.8,
+    "status": "BAIXO"
+  },
+  "interior:RUSSAS": {
+    "name": "RUSSAS",
+    "municipality": "RUSSAS",
+    "region": "interior",
+    "faction": "PCC",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "TRAVESSA MARIA GOMES",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "BOQUEIRAO DE CESARIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PEIXE",
+        "score": 8
+      },
+      {
+        "cvli": 0,
+        "loc": "SITIO CANTO",
+        "score": 8
+      }
+    ],
+    "peak_hours": "Entre 17hs e 22hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 28.60.",
+    "risk_score": 28.6,
+    "status": "BAIXO"
+  },
+  "interior:ITAPAJE": {
+    "name": "ITAPAJE",
+    "municipality": "ITAPAJE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 1,
+    "recent_exogenous": 0,
+    "momentum_7d": 1.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": 1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 2,
+        "loc": "ITAPAJE",
+        "score": 6
+      },
+      {
+        "cvli": 0,
+        "loc": "BELA VISTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COMUNIDADE SAO FRANCISCO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARNAUBA",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Tensão territorial atual em 27.90.",
+    "risk_score": 27.9,
     "status": "BAIXO"
   },
   "interior:QUIXADA": {
@@ -406,19 +687,19 @@
     "municipality": "QUIXADA",
     "region": "interior",
     "faction": "CV",
-    "recent_cvli": 1,
+    "recent_cvli": 0,
     "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 0.0,
     "trend_validation": {
       "status": "indeterminado",
       "direction": "indeterminado",
       "active_days_14": 1,
       "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 0,
-      "window_agreement": 2,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
@@ -474,155 +755,14 @@
       }
     ],
     "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 28.90.",
-    "risk_score": 28.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 27.40.",
+    "risk_score": 27.4,
     "status": "BAIXO"
   },
-  "interior:RUSSAS": {
-    "name": "RUSSAS",
-    "municipality": "RUSSAS",
+  "interior:ARACATI": {
+    "name": "ARACATI",
+    "municipality": "ARACATI",
     "region": "interior",
-    "faction": "PCC",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": -1.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": -1,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -2,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "TRAVESSA MARIA GOMES",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "BOQUEIRAO DE CESARIO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PEIXE",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "SITIO CANTO",
-        "score": 8
-      }
-    ],
-    "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 28.40.",
-    "risk_score": 28.4,
-    "status": "BAIXO"
-  },
-  "interior:ITAPAJE": {
-    "name": "ITAPAJE",
-    "municipality": "ITAPAJE",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": -1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": -1,
-      "long_delta_30d": 0,
-      "window_agreement": 0,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 2,
-        "loc": "ITAPAJE",
-        "score": 6
-      },
-      {
-        "cvli": 0,
-        "loc": "BELA VISTA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "COMUNIDADE SAO FRANCISCO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CARNAUBA",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 28.30.",
-    "risk_score": 28.3,
-    "status": "BAIXO"
-  },
-  "interior:SAO BENEDITO": {
-    "name": "SAO BENEDITO",
-    "municipality": "SAO BENEDITO",
-    "region": "interior",
-    "faction": "PCC",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": -1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": -1,
-      "long_delta_30d": 2,
-      "window_agreement": 0,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA CORONEL ARISTIDES BARRETO",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "PIMENTEIRA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "INHUCU",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "FAVEIRA CARNAUBAL",
-        "score": 8
-      }
-    ],
-    "peak_hours": "Entre 00hs e 05hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 26.70.",
-    "risk_score": 26.7,
-    "status": "BAIXO"
-  },
-  "fortaleza:CAJAZEIRAS": {
-    "name": "CAJAZEIRAS",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 1,
     "recent_exogenous": 0,
@@ -639,15 +779,66 @@
       "window_agreement": 2,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 19hs e 00hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 23.30.",
-    "risk_score": 23.3,
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "RUA PARGO",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "MORRINHOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "OLHO D AGUA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CACIMBA FUNDA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VELAME",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA DOS PASSOS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "OUTEIRO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JARDIM",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SANTA TEREZINHA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAGOA DO MATO",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 25.90.",
+    "risk_score": 25.9,
     "status": "BAIXO"
   },
-  "rmf:BEBERIBE": {
-    "name": "BEBERIBE",
-    "municipality": "BEBERIBE",
+  "rmf:AQUIRAZ": {
+    "name": "AQUIRAZ",
+    "municipality": "AQUIRAZ",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 1,
@@ -663,6 +854,109 @@
       "medium_delta_14d": 1,
       "long_delta_30d": 0,
       "window_agreement": 2,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "ALTO ALEGRE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JENIPAPEIRO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRAIA DO JAPAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SOL NASCENTE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA DA PRATA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SEM TERRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "GRUTA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA PAGA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PINGO DE OURO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA GRUPO ESCOLAR",
+        "score": 5
+      }
+    ],
+    "peak_hours": "Entre 05hs e 10hs",
+    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 20.20.",
+    "risk_score": 20.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:MESSEJANA": {
+    "name": "MESSEJANA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "MASSA",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -3,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA CAIO FACO, 791, CURIO",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 19.90.",
+    "risk_score": 19.9,
+    "status": "BAIXO"
+  },
+  "rmf:BEBERIBE": {
+    "name": "BEBERIBE",
+    "municipality": "BEBERIBE",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 2,
+      "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
@@ -698,12 +992,101 @@
       }
     ],
     "peak_hours": "Entre 21hs e 02hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 19.40.",
-    "risk_score": 19.4,
+    "summary": "Território em nível baixo. Tensão territorial atual em 19.60.",
+    "risk_score": 19.6,
     "status": "BAIXO"
   },
   "fortaleza:PREFEITO JOSE WALTER": {
     "name": "PREFEITO JOSE WALTER",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA 8 H",
+    "peak_hours": "Entre 14hs e 19hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 19.00.",
+    "risk_score": 19.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:BARRA DO CEARA": {
+    "name": "BARRA DO CEARA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
+    "peak_hours": "Entre 12hs e 17hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 16.20.",
+    "risk_score": 16.2,
+    "status": "BAIXO"
+  },
+  "rmf:PACAJUS": {
+    "name": "PACAJUS",
+    "municipality": "PACAJUS",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": -1.0,
+    "momentum_14d": 1.0,
+    "trend_validation": {
+      "status": "indeterminado",
+      "direction": "indeterminado",
+      "active_days_14": 1,
+      "sample_days": 14,
+      "short_delta_7d": -1,
+      "medium_delta_14d": 1,
+      "long_delta_30d": 1,
+      "window_agreement": 0,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "PACAJUS",
+        "score": 13
+      },
+      {
+        "cvli": 1,
+        "loc": "RUA DORALICE MARQUÊS DA SILVA",
+        "score": 4
+      }
+    ],
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 13.00.",
+    "risk_score": 13.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRAIA DO FUTURO II": {
+    "name": "PRAIA DO FUTURO II",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -722,17 +1105,69 @@
       "window_agreement": 0,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "RUA 8 H",
-    "peak_hours": "Entre 14hs e 19hs",
-    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 19.30.",
-    "risk_score": 19.3,
+    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
+    "peak_hours": "",
+    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 11.10.",
+    "risk_score": 11.1,
     "status": "BAIXO"
   },
-  "fortaleza:MESSEJANA": {
-    "name": "MESSEJANA",
+  "fortaleza:CAJAZEIRAS": {
+    "name": "CAJAZEIRAS",
     "municipality": "Fortaleza",
     "region": "fortaleza",
-    "faction": "MASSA",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 05hs e 10hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 9.70.",
+    "risk_score": 9.7,
+    "status": "BAIXO"
+  },
+  "fortaleza:GRANJA LISBOA": {
+    "name": "GRANJA LISBOA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
+    "peak_hours": "Entre 11hs e 16hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 7.80.",
+    "risk_score": 7.8,
+    "status": "BAIXO"
+  },
+  "interior:SAO BENEDITO": {
+    "name": "SAO BENEDITO",
+    "municipality": "SAO BENEDITO",
+    "region": "interior",
+    "faction": "PCC",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -748,124 +1183,31 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "RUA CAIO FACO, 791, CURIO",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 19.10.",
-    "risk_score": 19.1,
-    "status": "BAIXO"
-  },
-  "interior:JUAZEIRO DO NORTE": {
-    "name": "JUAZEIRO DO NORTE",
-    "municipality": "JUAZEIRO DO NORTE",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -6,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
     "critical_streets": [
       {
-        "cvli": 3,
-        "loc": "JUAZEIRO DO NORTE",
-        "score": 10
-      },
-      {
         "cvli": 1,
-        "loc": "RUA MANOEL PIRACA DE SOUZA",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA PEDRO FERREIRA NUNES",
+        "loc": "RUA CORONEL ARISTIDES BARRETO",
         "score": 4
       },
       {
         "cvli": 0,
-        "loc": "HORTO",
+        "loc": "PIMENTEIRA",
         "score": 16
       },
       {
         "cvli": 0,
-        "loc": "SANTO ANTONIO",
-        "score": 16
+        "loc": "INHUCU",
+        "score": 8
       },
       {
         "cvli": 0,
-        "loc": "LAGOA SECA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RESIDENCIAL NOSSA SENHORA DAS DORES",
+        "loc": "FAVEIRA CARNAUBAL",
         "score": 8
       }
     ],
-    "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 18.90.",
-    "risk_score": 18.9,
-    "status": "BAIXO"
-  },
-  "rmf:EUSEBIO": {
-    "name": "EUSEBIO",
-    "municipality": "EUSEBIO",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 1,
-      "window_agreement": 2,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "SANTA CLARA",
-        "score": 3
-      },
-      {
-        "cvli": 0,
-        "loc": "JABUTI",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "COACU",
-        "score": 13
-      },
-      {
-        "cvli": 0,
-        "loc": "ANCURI",
-        "score": 9
-      },
-      {
-        "cvli": 0,
-        "loc": "AVENIDA PARNAMIRIM",
-        "score": 1
-      }
-    ],
-    "peak_hours": "Entre 02hs e 07hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 18.60.",
-    "risk_score": 18.6,
+    "peak_hours": "Entre 00hs e 05hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 7.30.",
+    "risk_score": 7.3,
     "status": "BAIXO"
   },
   "fortaleza:LAGOA REDONDA": {
@@ -890,257 +1232,8 @@
     },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 18.20.",
-    "risk_score": 18.2,
-    "status": "BAIXO"
-  },
-  "rmf:PACATUBA": {
-    "name": "PACATUBA",
-    "municipality": "PACATUBA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 0,
-      "window_agreement": 2,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR H",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR F",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JEREISSATI SETOR G",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA RICA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "QUIOBAL",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CACHOEIRA DO PARAISO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PRACINHA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO SAO LUIS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SAO BENTO",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 05hs e 10hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 16.70.",
-    "risk_score": 16.7,
-    "status": "BAIXO"
-  },
-  "rmf:ITAITINGA": {
-    "name": "ITAITINGA",
-    "municipality": "ITAITINGA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": -1.0,
-    "momentum_14d": 1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": -1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 0,
-      "window_agreement": 0,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 3,
-        "loc": "ANCURI",
-        "score": 9
-      },
-      {
-        "cvli": 1,
-        "loc": "CARACANGA",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "PEDRAS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO ALTO DO BODE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CARAPIO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "MULTIRAO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "LAJE DOS GATOS",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Momentum de 14 dias em aceleração. Tensão territorial atual em 13.80.",
-    "risk_score": 13.8,
-    "status": "BAIXO"
-  },
-  "rmf:HORIZONTE": {
-    "name": "HORIZONTE",
-    "municipality": "HORIZONTE",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 1,
-    "recent_exogenous": 0,
-    "momentum_7d": 1.0,
-    "momentum_14d": 1.0,
-    "trend_validation": {
-      "status": "indeterminado",
-      "direction": "indeterminado",
-      "active_days_14": 1,
-      "sample_days": 14,
-      "short_delta_7d": 1,
-      "medium_delta_14d": 1,
-      "long_delta_30d": 1,
-      "window_agreement": 2,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA PROFESSORA MARIA OZELIA COSTA DE OLIVEIRA",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA CATU",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 09hs e 14hs",
-    "summary": "Território em nível baixo. CVLI recente: 1 nos últimos 7 dias. Momentum de 14 dias em aceleração. Tensão territorial atual em 13.50.",
-    "risk_score": 13.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:BARRA DO CEARA": {
-    "name": "BARRA DO CEARA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA 6 COMPANHEIROS, 34, RUA ASTROGILDO FONTOURA, 51, RUA SAUDARIA, 112",
-    "peak_hours": "Entre 19hs e 00hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 6.50.",
-    "risk_score": 6.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:MONDUBIM": {
-    "name": "MONDUBIM",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -1,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 6.40.",
-    "risk_score": 6.4,
-    "status": "BAIXO"
-  },
-  "fortaleza:PASSARE": {
-    "name": "PASSARE",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -2,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA CRISTAIS PAULISTA, 1053",
-    "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 6.00.",
-    "risk_score": 6.0,
+    "summary": "Território em nível baixo. Tensão territorial atual em 7.20.",
+    "risk_score": 7.2,
     "status": "BAIXO"
   },
   "fortaleza:PLANALTO AYRTON SENNA": {
@@ -1165,8 +1258,133 @@
     },
     "critical_streets": "RUA ACRE, 220, RUA DAS PALMAS, 433, CIDADE NOVA",
     "peak_hours": "Entre 15hs e 20hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 6.30.",
+    "risk_score": 6.3,
+    "status": "BAIXO"
+  },
+  "fortaleza:SIQUEIRA": {
+    "name": "SIQUEIRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA JOSE MAURICIO, 858",
+    "peak_hours": "Entre 11hs e 16hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 5.90.",
+    "risk_score": 5.9,
+    "status": "BAIXO"
+  },
+  "fortaleza:QUINTINO CUNHA": {
+    "name": "QUINTINO CUNHA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA DONA LUCIA PINHEIRO, 2410",
+    "peak_hours": "Entre 19hs e 00hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 5.60.",
     "risk_score": 5.6,
+    "status": "BAIXO"
+  },
+  "rmf:EUSEBIO": {
+    "name": "EUSEBIO",
+    "municipality": "EUSEBIO",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 1,
+        "loc": "SANTA CLARA",
+        "score": 3
+      },
+      {
+        "cvli": 0,
+        "loc": "JABUTI",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "COACU",
+        "score": 4
+      },
+      {
+        "cvli": 0,
+        "loc": "AVENIDA PARNAMIRIM",
+        "score": 1
+      }
+    ],
+    "peak_hours": "Entre 02hs e 07hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 5.20.",
+    "risk_score": 5.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:GRANJA PORTUGAL": {
+    "name": "GRANJA PORTUGAL",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 17hs e 22hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 5.10.",
+    "risk_score": 5.1,
     "status": "BAIXO"
   },
   "interior:MORADA NOVA": {
@@ -1237,64 +1455,12 @@
       }
     ],
     "peak_hours": "Entre 13hs e 18hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 4.60.",
-    "risk_score": 4.6,
-    "status": "BAIXO"
-  },
-  "interior:BOA VIAGEM": {
-    "name": "BOA VIAGEM",
-    "municipality": "BOA VIAGEM",
-    "region": "interior",
-    "faction": "PCC",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -1,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA ANTÔNIO ROCHA BEZERRA",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA MARIA DE ASSIS UCHOA",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO NOSSA SENHORA DE FATIMA",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "RECREIO",
-        "score": 8
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA AZUL",
-        "score": 8
-      }
-    ],
-    "peak_hours": "Entre 14hs e 19hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 4.50.",
     "risk_score": 4.5,
     "status": "BAIXO"
   },
-  "fortaleza:GRANJA LISBOA": {
-    "name": "GRANJA LISBOA",
+  "fortaleza:BARROSO": {
+    "name": "BARROSO",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1313,10 +1479,114 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "AV. OSCAR ARARIPE, 3200, JOSE CARLOS BEZERRA, 1179",
+    "critical_streets": "RUA EST. DO ITAPERI",
+    "peak_hours": "Entre 09hs e 14hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.40.",
+    "risk_score": 4.4,
+    "status": "BAIXO"
+  },
+  "fortaleza:CONJUNTO PALMEIRAS": {
+    "name": "CONJUNTO PALMEIRAS",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "AV. VAL PARAISO, 598",
     "peak_hours": "Entre 11hs e 16hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 3.70.",
-    "risk_score": 3.7,
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.10.",
+    "risk_score": 4.1,
+    "status": "BAIXO"
+  },
+  "fortaleza:BOM JARDIM": {
+    "name": "BOM JARDIM",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 14hs e 19hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 4.10.",
+    "risk_score": 4.1,
+    "status": "BAIXO"
+  },
+  "fortaleza:VICENTE PINZON": {
+    "name": "VICENTE PINZON",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA DA LUA (SEM NUMERO)",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.90.",
+    "risk_score": 3.9,
+    "status": "BAIXO"
+  },
+  "fortaleza:BONSUCESSO": {
+    "name": "BONSUCESSO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 15hs e 20hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.60.",
+    "risk_score": 3.6,
     "status": "BAIXO"
   },
   "interior:AMONTADA": {
@@ -1377,6 +1647,32 @@
     "risk_score": 3.6,
     "status": "BAIXO"
   },
+  "fortaleza:CRISTO REDENTOR": {
+    "name": "CRISTO REDENTOR",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA MARCILIO DIAS, 1615",
+    "peak_hours": "",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.50.",
+    "risk_score": 3.5,
+    "status": "BAIXO"
+  },
   "interior:IGUATU": {
     "name": "IGUATU",
     "municipality": "IGUATU",
@@ -1401,7 +1697,7 @@
       {
         "cvli": 0,
         "loc": "IGUATU",
-        "score": 10
+        "score": 1
       }
     ],
     "peak_hours": "Entre 19hs e 00hs",
@@ -1409,8 +1705,8 @@
     "risk_score": 3.5,
     "status": "BAIXO"
   },
-  "fortaleza:BARROSO": {
-    "name": "BARROSO",
+  "fortaleza:PICI": {
+    "name": "PICI",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1429,14 +1725,14 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "RUA EST. DO ITAPERI",
-    "peak_hours": "Entre 00hs e 05hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 3.40.",
-    "risk_score": 3.4,
+    "critical_streets": "RUA BRASILIA, 927",
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.10.",
+    "risk_score": 3.1,
     "status": "BAIXO"
   },
-  "fortaleza:QUINTINO CUNHA": {
-    "name": "QUINTINO CUNHA",
+  "fortaleza:JARDIM DAS OLIVEIRAS": {
+    "name": "JARDIM DAS OLIVEIRAS",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1455,14 +1751,14 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "RUA DONA LUCIA PINHEIRO, 2410",
-    "peak_hours": "Entre 19hs e 00hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 3.30.",
-    "risk_score": 3.3,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 17hs e 22hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 3.00.",
+    "risk_score": 3.0,
     "status": "BAIXO"
   },
-  "fortaleza:SIQUEIRA": {
-    "name": "SIQUEIRA",
+  "fortaleza:CANINDEZINHO": {
+    "name": "CANINDEZINHO",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1481,14 +1777,14 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "RUA JOSE MAURICIO, 858",
-    "peak_hours": "Entre 11hs e 16hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 3.30.",
-    "risk_score": 3.3,
+    "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.90.",
+    "risk_score": 2.9,
     "status": "BAIXO"
   },
-  "fortaleza:CONJUNTO PALMEIRAS": {
-    "name": "CONJUNTO PALMEIRAS",
+  "fortaleza:CARLITO PAMPLONA": {
+    "name": "CARLITO PAMPLONA",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -1503,12 +1799,12 @@
       "sample_days": 14,
       "short_delta_7d": 0,
       "medium_delta_14d": 0,
-      "long_delta_30d": -1,
+      "long_delta_30d": 0,
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "AV. VAL PARAISO, 598",
-    "peak_hours": "Entre 11hs e 16hs",
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 16hs e 21hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.90.",
     "risk_score": 2.9,
     "status": "BAIXO"
@@ -1581,317 +1877,6 @@
     "risk_score": 2.9,
     "status": "BAIXO"
   },
-  "fortaleza:GRANJA PORTUGAL": {
-    "name": "GRANJA PORTUGAL",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.80.",
-    "risk_score": 2.8,
-    "status": "BAIXO"
-  },
-  "interior:ARACATI": {
-    "name": "ARACATI",
-    "municipality": "ARACATI",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "ROTA DO SOL NASCENTE",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA PARGO",
-        "score": 4
-      },
-      {
-        "cvli": 0,
-        "loc": "MORRINHOS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "OLHO D AGUA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CACIMBA FUNDA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VELAME",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA DOS PASSOS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "OUTEIRO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JARDIM",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SANTA TEREZINHA",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.80.",
-    "risk_score": 2.8,
-    "status": "BAIXO"
-  },
-  "fortaleza:VICENTE PINZON": {
-    "name": "VICENTE PINZON",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA DA LUA (SEM NUMERO)",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
-    "risk_score": 2.6,
-    "status": "BAIXO"
-  },
-  "fortaleza:CRISTO REDENTOR": {
-    "name": "CRISTO REDENTOR",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA MARCILIO DIAS, 1615",
-    "peak_hours": "",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
-    "risk_score": 2.6,
-    "status": "BAIXO"
-  },
-  "fortaleza:JARDIM DAS OLIVEIRAS": {
-    "name": "JARDIM DAS OLIVEIRAS",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
-    "risk_score": 2.6,
-    "status": "BAIXO"
-  },
-  "fortaleza:CARLITO PAMPLONA": {
-    "name": "CARLITO PAMPLONA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
-    "risk_score": 2.6,
-    "status": "BAIXO"
-  },
-  "fortaleza:MANOEL SATIRO": {
-    "name": "MANOEL SATIRO",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -2,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
-    "risk_score": 2.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:BOM JARDIM": {
-    "name": "BOM JARDIM",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 14hs e 19hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
-    "risk_score": 2.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:PICI": {
-    "name": "PICI",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA BRASILIA, 927",
-    "peak_hours": "Entre 13hs e 18hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
-    "risk_score": 2.5,
-    "status": "BAIXO"
-  },
-  "fortaleza:CANINDEZINHO": {
-    "name": "CANINDEZINHO",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "AV. CONEGO DE CASTRO, 4500, COMUNIDADE VERTICAL, RUA ITATIAIA, 1501, RUA RECANTO DO BOREL, 36",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
-    "risk_score": 2.4,
-    "status": "BAIXO"
-  },
   "fortaleza:VILA VELHA": {
     "name": "VILA VELHA",
     "municipality": "Fortaleza",
@@ -1914,8 +1899,34 @@
     },
     "critical_streets": "AV. MOZAR LUCENA, 1400",
     "peak_hours": "Entre 12hs e 17hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
-    "risk_score": 2.4,
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
+    "risk_score": 2.6,
+    "status": "BAIXO"
+  },
+  "fortaleza:ANTONIO BEZERRA": {
+    "name": "ANTONIO BEZERRA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": -2,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 06hs e 11hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
+    "risk_score": 2.6,
     "status": "BAIXO"
   },
   "rmf:CASCAVEL": {
@@ -1934,7 +1945,7 @@
       "sample_days": 14,
       "short_delta_7d": 0,
       "medium_delta_14d": 0,
-      "long_delta_30d": -1,
+      "long_delta_30d": 0,
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
@@ -1942,11 +1953,6 @@
       {
         "cvli": 1,
         "loc": "AVENIDA OTÁVIO FELICIANO DE SOUZA",
-        "score": 4
-      },
-      {
-        "cvli": 1,
-        "loc": "RUA PEDRO MOITA",
         "score": 4
       },
       {
@@ -1966,60 +1972,132 @@
       }
     ],
     "peak_hours": "Entre 19hs e 00hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.60.",
+    "risk_score": 2.6,
+    "status": "BAIXO"
+  },
+  "fortaleza:MANOEL SATIRO": {
+    "name": "MANOEL SATIRO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.50.",
+    "risk_score": 2.5,
+    "status": "BAIXO"
+  },
+  "rmf:PACATUBA": {
+    "name": "PACATUBA",
+    "municipality": "PACATUBA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR H",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR F",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "JEREISSATI SETOR G",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "VILA RICA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "QUIOBAL",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CACHOEIRA DO PARAISO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PRACINHA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO SAO LUIS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SAO BENTO",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 05hs e 10hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 2.50.",
+    "risk_score": 2.5,
+    "status": "BAIXO"
+  },
+  "interior:PENTECOSTE": {
+    "name": "PENTECOSTE",
+    "municipality": "PENTECOSTE",
+    "region": "interior",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 21hs e 02hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.40.",
     "risk_score": 2.4,
-    "status": "BAIXO"
-  },
-  "fortaleza:EDSON QUEIROZ": {
-    "name": "EDSON QUEIROZ",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA LUCAS FRANCISCO ANTONIO, RUA MARTINS DE CASTRO, 482",
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
-    "risk_score": 2.3,
-    "status": "BAIXO"
-  },
-  "fortaleza:PIRAMBU": {
-    "name": "PIRAMBU",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA NOSSA SENHORA DAS GRACAS, 824",
-    "peak_hours": "Entre 08hs e 13hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
-    "risk_score": 2.3,
     "status": "BAIXO"
   },
   "fortaleza:PARQUE DOIS IRMAOS": {
@@ -2048,110 +2126,6 @@
     "risk_score": 2.3,
     "status": "BAIXO"
   },
-  "fortaleza:ANTONIO BEZERRA": {
-    "name": "ANTONIO BEZERRA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -2,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 06hs e 11hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
-    "risk_score": 2.3,
-    "status": "BAIXO"
-  },
-  "fortaleza:BONSUCESSO": {
-    "name": "BONSUCESSO",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
-    "risk_score": 2.3,
-    "status": "BAIXO"
-  },
-  "interior:PENTECOSTE": {
-    "name": "PENTECOSTE",
-    "municipality": "PENTECOSTE",
-    "region": "interior",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 21hs e 02hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.30.",
-    "risk_score": 2.3,
-    "status": "BAIXO"
-  },
-  "fortaleza:CENTRO": {
-    "name": "CENTRO",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "AV ALVES DE FIGUEIREDO, 338, AV CARLOS JEREISSATI, (POSTO TETRA, FRENTE AO SHOPPING MARACANAU), RUA DA LIBERDADE, 153, RUA DEOLINO BARRETO, S/N, RUA FRANCISCO MOURAO LIMA, 208",
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.20.",
-    "risk_score": 2.2,
-    "status": "BAIXO"
-  },
   "fortaleza:PAUPINA": {
     "name": "PAUPINA",
     "municipality": "Fortaleza",
@@ -2174,8 +2148,8 @@
     },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.20.",
-    "risk_score": 2.2,
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.10.",
+    "risk_score": 2.1,
     "status": "BAIXO"
   },
   "fortaleza:VILA PERI": {
@@ -2202,161 +2176,6 @@
     "peak_hours": "",
     "summary": "Território em nível baixo. Tensão territorial atual em 2.10.",
     "risk_score": 2.1,
-    "status": "BAIXO"
-  },
-  "fortaleza:JACARECANGA": {
-    "name": "JACARECANGA",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605",
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.00.",
-    "risk_score": 2.0,
-    "status": "BAIXO"
-  },
-  "interior:CARIRE": {
-    "name": "CARIRE",
-    "municipality": "CARIRE",
-    "region": "interior",
-    "faction": "PCC",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -1,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 2.00.",
-    "risk_score": 2.0,
-    "status": "BAIXO"
-  },
-  "fortaleza:PARQUE SAO JOSE": {
-    "name": "PARQUE SAO JOSE",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "RUA SANTA LIDUINA, 58, VILA ROSANGELA",
-    "peak_hours": "Entre 21hs e 02hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.90.",
-    "risk_score": 1.9,
-    "status": "BAIXO"
-  },
-  "rmf:AQUIRAZ": {
-    "name": "AQUIRAZ",
-    "municipality": "AQUIRAZ",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -1,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "ALTO ALEGRE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "JENIPAPEIRO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PRAIA DO JAPAO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SOL NASCENTE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA DA PRATA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SEM TERRA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "GRUTA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "VILA PAGA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PINGO DE OURO",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA GRUPO ESCOLAR",
-        "score": 5
-      }
-    ],
-    "peak_hours": "Entre 05hs e 10hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.90.",
-    "risk_score": 1.9,
     "status": "BAIXO"
   },
   "rmf:PARACURU": {
@@ -2397,8 +2216,8 @@
       }
     ],
     "peak_hours": "Entre 21hs e 02hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.90.",
-    "risk_score": 1.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.10.",
+    "risk_score": 2.1,
     "status": "BAIXO"
   },
   "rmf:PINDORETAMA": {
@@ -2429,12 +2248,38 @@
       }
     ],
     "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.90.",
-    "risk_score": 1.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.10.",
+    "risk_score": 2.1,
     "status": "BAIXO"
   },
-  "fortaleza:PAPICU": {
-    "name": "PAPICU",
+  "interior:CARIRE": {
+    "name": "CARIRE",
+    "municipality": "CARIRE",
+    "region": "interior",
+    "faction": "PCC",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 16hs e 21hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 2.00.",
+    "risk_score": 2.0,
+    "status": "BAIXO"
+  },
+  "fortaleza:EDSON QUEIROZ": {
+    "name": "EDSON QUEIROZ",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -2453,17 +2298,17 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 22hs e 03hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.60.",
-    "risk_score": 1.6,
+    "critical_streets": "RUA LUCAS FRANCISCO ANTONIO, RUA MARTINS DE CASTRO, 482",
+    "peak_hours": "Entre 15hs e 20hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 1.50.",
+    "risk_score": 1.5,
     "status": "BAIXO"
   },
-  "fortaleza:BOA VISTA CASTELAO": {
-    "name": "BOA VISTA CASTELAO",
+  "fortaleza:PIRAMBU": {
+    "name": "PIRAMBU",
     "municipality": "Fortaleza",
     "region": "fortaleza",
-    "faction": "NEUTRO",
+    "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -2479,10 +2324,94 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "",
+    "critical_streets": "RUA NOSSA SENHORA DAS GRACAS, 824",
+    "peak_hours": "Entre 08hs e 13hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 1.40.",
     "risk_score": 1.4,
+    "status": "BAIXO"
+  },
+  "fortaleza:CENTRO": {
+    "name": "CENTRO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "AV ALVES DE FIGUEIREDO, 338, AV CARLOS JEREISSATI, (POSTO TETRA, FRENTE AO SHOPPING MARACANAU), RUA DA LIBERDADE, 153, RUA DEOLINO BARRETO, S/N, RUA FRANCISCO MOURAO LIMA, 208",
+    "peak_hours": "Entre 15hs e 20hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 1.40.",
+    "risk_score": 1.4,
+    "status": "BAIXO"
+  },
+  "fortaleza:PARQUE SAO JOSE": {
+    "name": "PARQUE SAO JOSE",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA SANTA LIDUINA, 58, VILA ROSANGELA",
+    "peak_hours": "Entre 21hs e 02hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 1.30.",
+    "risk_score": 1.3,
+    "status": "BAIXO"
+  },
+  "rmf:SAO LUIS DO CURU": {
+    "name": "SAO LUIS DO CURU",
+    "municipality": "SAO LUIS DO CURU",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "PANTANAL",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 17hs e 22hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 1.30.",
+    "risk_score": 1.3,
     "status": "BAIXO"
   },
   "rmf:PARAIPABA": {
@@ -2501,7 +2430,7 @@
       "sample_days": 14,
       "short_delta_7d": 0,
       "medium_delta_14d": 0,
-      "long_delta_30d": -1,
+      "long_delta_30d": 0,
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
@@ -2537,10 +2466,10 @@
     "risk_score": 1.2,
     "status": "BAIXO"
   },
-  "rmf:SAO LUIS DO CURU": {
-    "name": "SAO LUIS DO CURU",
-    "municipality": "SAO LUIS DO CURU",
-    "region": "rmf",
+  "fortaleza:PAPICU": {
+    "name": "PAPICU",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
     "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
@@ -2557,23 +2486,17 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "PANTANAL",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.10.",
-    "risk_score": 1.1,
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 22hs e 03hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.90.",
+    "risk_score": 0.9,
     "status": "BAIXO"
   },
-  "fortaleza:CIDADE DOS FUNCIONARIOS": {
-    "name": "CIDADE DOS FUNCIONARIOS",
+  "fortaleza:ANCURI": {
+    "name": "ANCURI",
     "municipality": "Fortaleza",
     "region": "fortaleza",
-    "faction": "NEUTRO",
+    "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -2589,10 +2512,10 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 15hs e 20hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 1.00.",
-    "risk_score": 1.0,
+    "critical_streets": "AV. DIONISIO LEONEL AGUIAR",
+    "peak_hours": "Entre 12hs e 17hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.90.",
+    "risk_score": 0.9,
     "status": "BAIXO"
   },
   "rmf:TRAIRI": {
@@ -2611,16 +2534,11 @@
       "sample_days": 14,
       "short_delta_7d": 0,
       "medium_delta_14d": 0,
-      "long_delta_30d": 1,
+      "long_delta_30d": -1,
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
-      {
-        "cvli": 1,
-        "loc": "RUA DOS OLIVEIRAS",
-        "score": 4
-      },
       {
         "cvli": 1,
         "loc": "TRAIRI",
@@ -2663,8 +2581,81 @@
       }
     ],
     "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.90.",
-    "risk_score": 0.9,
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.80.",
+    "risk_score": 0.8,
+    "status": "BAIXO"
+  },
+  "fortaleza:JACARECANGA": {
+    "name": "JACARECANGA",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "RUA JORGE DE SOUSA, 112, RUA PEDRO ARTUR, 605",
+    "peak_hours": "Entre 04hs e 09hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.70.",
+    "risk_score": 0.7,
+    "status": "BAIXO"
+  },
+  "rmf:GUAIUBA": {
+    "name": "GUAIUBA",
+    "municipality": "GUAIUBA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "DISTRITO DE AGUA VERDE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO MIGUEL DE SOUZA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "SEM TERRA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "RUA DOUTOR LEITE DE ANDRADE",
+        "score": 5
+      }
+    ],
+    "peak_hours": "Entre 01hs e 06hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.50.",
+    "risk_score": 0.5,
     "status": "BAIXO"
   },
   "rmf:CHOROZINHO": {
@@ -2689,15 +2680,15 @@
     },
     "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 17hs e 22hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.60.",
-    "risk_score": 0.6,
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.50.",
+    "risk_score": 0.5,
     "status": "BAIXO"
   },
-  "rmf:SAO GONCALO DO AMARANTE": {
-    "name": "SAO GONCALO DO AMARANTE",
-    "municipality": "SAO GONCALO DO AMARANTE",
-    "region": "rmf",
-    "faction": "CV",
+  "fortaleza:BOA VISTA CASTELAO": {
+    "name": "BOA VISTA CASTELAO",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "NEUTRO",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
@@ -2714,13 +2705,13 @@
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 16hs e 21hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.50.",
-    "risk_score": 0.5,
+    "peak_hours": "",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.40.",
+    "risk_score": 0.4,
     "status": "BAIXO"
   },
-  "fortaleza:ANCURI": {
-    "name": "ANCURI",
+  "fortaleza:PADRE ANDRADE": {
+    "name": "PADRE ANDRADE",
     "municipality": "Fortaleza",
     "region": "fortaleza",
     "faction": "CV",
@@ -2739,10 +2730,145 @@
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
-    "critical_streets": "AV. DIONISIO LEONEL AGUIAR",
+    "critical_streets": "Sem logradouros críticos recentes",
     "peak_hours": "Entre 12hs e 17hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.30.",
     "risk_score": 0.3,
+    "status": "BAIXO"
+  },
+  "interior:CANINDE": {
+    "name": "CANINDE",
+    "municipality": "CANINDE",
+    "region": "interior",
+    "faction": "NEUTRO",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 0,
+        "loc": "MONTE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "ALTO DA GUARAMIRANGA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CAMPINAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "PALESTINA",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MINHA CASA MINHA VIDA",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 08hs e 13hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.20.",
+    "risk_score": 0.2,
+    "status": "BAIXO"
+  },
+  "rmf:ITAITINGA": {
+    "name": "ITAITINGA",
+    "municipality": "ITAITINGA",
+    "region": "rmf",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": -1.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": [
+      {
+        "cvli": 2,
+        "loc": "ANCURI",
+        "score": 6
+      },
+      {
+        "cvli": 0,
+        "loc": "PEDRAS",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "BAIRRO ALTO DO BODE",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "CARAPIO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "MULTIRAO",
+        "score": 16
+      },
+      {
+        "cvli": 0,
+        "loc": "LAJE DOS GATOS",
+        "score": 16
+      }
+    ],
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento. Tensão territorial atual em 0.20.",
+    "risk_score": 0.2,
+    "status": "BAIXO"
+  },
+  "fortaleza:PRESIDENTE KENNEDY": {
+    "name": "PRESIDENTE KENNEDY",
+    "municipality": "Fortaleza",
+    "region": "fortaleza",
+    "faction": "CV",
+    "recent_cvli": 0,
+    "recent_exogenous": 0,
+    "momentum_7d": 0.0,
+    "momentum_14d": 0.0,
+    "trend_validation": {
+      "status": "sem_evidencia_recente",
+      "direction": "indeterminado",
+      "active_days_14": 0,
+      "sample_days": 14,
+      "short_delta_7d": 0,
+      "medium_delta_14d": 0,
+      "long_delta_30d": 0,
+      "window_agreement": 1,
+      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
+    },
+    "critical_streets": "Sem logradouros críticos recentes",
+    "peak_hours": "Entre 18hs e 23hs",
+    "summary": "Território em nível baixo. Tensão territorial atual em 0.10.",
+    "risk_score": 0.1,
     "status": "BAIXO"
   },
   "rmf:MARANGUAPE": {
@@ -2798,195 +2924,44 @@
       }
     ],
     "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.30.",
-    "risk_score": 0.3,
-    "status": "BAIXO"
-  },
-  "rmf:GUAIUBA": {
-    "name": "GUAIUBA",
-    "municipality": "GUAIUBA",
-    "region": "rmf",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "DISTRITO DE AGUA VERDE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "BAIRRO MIGUEL DE SOUZA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "SEM TERRA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "RUA DOUTOR LEITE DE ANDRADE",
-        "score": 5
-      }
-    ],
-    "peak_hours": "Entre 01hs e 06hs",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.30.",
-    "risk_score": 0.3,
-    "status": "BAIXO"
-  },
-  "fortaleza:PRAIA DO FUTURO II": {
-    "name": "PRAIA DO FUTURO II",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "AV. CLOVIS ARRAIS MAIA, 1583",
-    "peak_hours": "",
-    "summary": "Território em nível baixo. Tensão territorial atual em 0.20.",
-    "risk_score": 0.2,
-    "status": "BAIXO"
-  },
-  "interior:CANINDE": {
-    "name": "CANINDE",
-    "municipality": "CANINDE",
-    "region": "interior",
-    "faction": "NEUTRO",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": [
-      {
-        "cvli": 0,
-        "loc": "MONTE",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "ALTO DA GUARAMIRANGA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "CAMPINAS",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "PALESTINA",
-        "score": 16
-      },
-      {
-        "cvli": 0,
-        "loc": "MINHA CASA MINHA VIDA",
-        "score": 16
-      }
-    ],
-    "peak_hours": "Entre 08hs e 13hs",
     "summary": "Território em nível baixo. Tensão territorial atual em 0.10.",
     "risk_score": 0.1,
     "status": "BAIXO"
   },
-  "fortaleza:PADRE ANDRADE": {
-    "name": "PADRE ANDRADE",
-    "municipality": "Fortaleza",
-    "region": "fortaleza",
-    "faction": "CV",
-    "recent_cvli": 0,
-    "recent_exogenous": 0,
-    "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
-    "trend_validation": {
-      "status": "sem_evidencia_recente",
-      "direction": "indeterminado",
-      "active_days_14": 0,
-      "sample_days": 14,
-      "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": 0,
-      "window_agreement": 1,
-      "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
-    },
-    "critical_streets": "Sem logradouros críticos recentes",
-    "peak_hours": "Entre 00hs e 05hs",
-    "summary": "Território em nível baixo.",
-    "risk_score": 0.0,
-    "status": "BAIXO"
-  },
-  "rmf:PACAJUS": {
-    "name": "PACAJUS",
-    "municipality": "PACAJUS",
+  "rmf:HORIZONTE": {
+    "name": "HORIZONTE",
+    "municipality": "HORIZONTE",
     "region": "rmf",
     "faction": "CV",
     "recent_cvli": 0,
     "recent_exogenous": 0,
     "momentum_7d": 0.0,
-    "momentum_14d": 0.0,
+    "momentum_14d": -1.0,
     "trend_validation": {
       "status": "sem_evidencia_recente",
       "direction": "indeterminado",
       "active_days_14": 0,
       "sample_days": 14,
       "short_delta_7d": 0,
-      "medium_delta_14d": 0,
-      "long_delta_30d": -1,
+      "medium_delta_14d": -1,
+      "long_delta_30d": 1,
       "window_agreement": 1,
       "evidence": "contagem diária de CVLI por território; persistência mínima de 3 dias e concordância entre janelas de 7/14 dias"
     },
     "critical_streets": [
       {
         "cvli": 1,
-        "loc": "PACAJUS",
-        "score": 13
+        "loc": "RUA PROFESSORA MARIA OZELIA COSTA DE OLIVEIRA",
+        "score": 4
       },
       {
-        "cvli": 1,
-        "loc": "RUA DORALICE MARQUÊS DA SILVA",
-        "score": 4
+        "cvli": 0,
+        "loc": "VILA CATU",
+        "score": 16
       }
     ],
-    "peak_hours": "Entre 18hs e 23hs",
-    "summary": "Território em nível baixo.",
+    "peak_hours": "Entre 09hs e 14hs",
+    "summary": "Território em nível baixo. Momentum de 14 dias em arrefecimento.",
     "risk_score": 0.0,
     "status": "BAIXO"
   }

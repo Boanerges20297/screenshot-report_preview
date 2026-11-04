@@ -1,17 +1,17 @@
 {
-  "snapshot_id": "2026-10-22T15-07-43",
-  "generated_at": "2026-10-22T15:07:43-03:00",
+  "snapshot_id": "2026-11-04T15-21-54",
+  "generated_at": "2026-11-04T15:21:54-03:00",
   "source_repo": "Report Preview",
-  "source_commit": "d452dc07",
+  "source_commit": "039b22e5",
   "model_label": "Híbrido Poisson 80% + ST-GAT v5 20%",
   "model_architecture": "Híbrido Poisson 80% + ST-GAT v5 20%",
   "model_mode": "hybrid",
-  "data_limit": "2026-10-21",
+  "data_limit": "2026-11-04",
   "risk_meta_counts": {
-    "alto": 0,
-    "baixo": 73,
+    "alto": 2,
+    "baixo": 70,
     "crítico": 3,
-    "moderado": 3
+    "moderado": 4
   },
   "momentum_window_days": 14,
   "regions": [

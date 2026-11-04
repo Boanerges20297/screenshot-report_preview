@@ -1,28 +1,28 @@
 {
   "global": {
     "total_nodes": 79,
-    "active_locations": 3,
-    "top_region": "rmf",
-    "top_name": "CAUCAIA",
-    "avg_risk": 10.89
+    "active_locations": 5,
+    "top_region": "interior",
+    "top_name": "SOBRAL",
+    "avg_risk": 12.99
   },
   "regions": {
     "fortaleza": {
       "total_nodes": 40,
-      "avg_risk": 6.42,
-      "max_risk": 83.7,
+      "avg_risk": 7.32,
+      "max_risk": 55.6,
       "top_name": "JANGURUSSU"
     },
     "rmf": {
       "total_nodes": 19,
-      "avg_risk": 12.41,
-      "max_risk": 99.2,
+      "avg_risk": 14.2,
+      "max_risk": 91.7,
       "top_name": "CAUCAIA"
     },
     "interior": {
       "total_nodes": 20,
-      "avg_risk": 18.42,
-      "max_risk": 95.5,
+      "avg_risk": 23.18,
+      "max_risk": 98.5,
       "top_name": "SOBRAL"
     }
   }
